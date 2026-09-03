@@ -35,6 +35,14 @@ Not available from CDE in these files: resident vs non-resident / open-enrollmen
 ## Secondary: enrollmentdata.org transcription (data/raw/enrollmentdata/)
 - https://github.com/yoavlurie/bvsd-enrollment, commit `37a9bf9` (2026-08-27), CC0. Cloned 2026-09-03; `.git` removed. See round-1 notes in git history for its contents. Now used only as a cross-check (VERIFICATION.md §B) and for the attendance-area GeoJSON.
 
+## Literature and secondary sources cited in the appendix (NOT in the repository — verify before sending)
+| ID | Item | Status | Action |
+|---|---|---|---|
+| L1 | Francis A. Pearman II, "The Fiscal Consequences of School Closures in California: Evidence from a Statewide Synthetic Difference-in-Differences Design," Stanford SCALE, May 2026. Figures used (as supplied by the repo owner, not read from the PDF): ~800 districts, 2011–2019; closures cut spending ~$447 per student and revenue ~$433 per student as families left; no significant improvement in the probability of a balanced budget; no significant reduction in teachers, principals or total staff. | **PDF not in repo; figures unverified** | Place the PDF in `data/raw/literature/` and check each figure against its tables before the email is sent. |
+| L2 | Boulder Reporting Lab, Aug. 20, 2026 story on district emails (reported to quote the superintendent's concern about a charter or other operator occupying a vacated building) and its "up to $10M one-time" figure. | **Not in repo; not quoted in the appendix beyond "reported"** | Save the article to `data/raw/press/` and quote it directly, or drop the reference. |
+| L3 | savedouglass.com "$12.5–15M one-time against a ~$494M budget" | Not in repo | The $12.5–15M is reproducible from deck p. 60 (CONFLICTS C11); the $494M denominator is not in any document here and must be sourced from BVSD's FY27 adopted budget. |
+| L4 | BVSD news article, "Enrollment drops more than expected, Board expresses desire to take action to respond," Susan Cousins, Dec. 12, 2025 (`data/raw/bvsd/news_bvsd_enrollment_drops_more_than_expected.pdf`, p. 1) | **In repo** | Source for: births "leveling after a steep decline until 2019"; kindergarten "higher than projected"; "for the second year in a row, the rate of new kindergarteners showing up was 93% of the number of births five years prior"; district count down 525 (1.9%), "1% more than projected". |
+
 ## Still not retrieved
 | # | Document | URL | Why it matters |
 |---|---|---|---|

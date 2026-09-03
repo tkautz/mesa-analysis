@@ -41,5 +41,13 @@ Record both sides; do not resolve silently. Updated 2026-09-03 after the primary
 - K–5 differences: 2020-21 CDE is +2 (Bear Creek) / +1 (Mesa); 2023-24 +1 (Bear Creek, kindergarten); 2025-26 +1 (Mesa, grade 1). All others equal. CDE's K–5 membership ≥ BVSD's funded count in every case, consistent with "membership" vs "funded".
 - Consequence: the enrollmentdata "Mesa 225" and its 2023 "6TH" column (13/16) are CDE values (K-5 count and PK), not transcription errors. `data/clean/verification_cde_vs_bvsd.csv` has the cell-level comparison.
 
+## C11. One-time cost of the proposal: "$7.5–10M" vs "$12.5–15M" — DIFFERENT LINE ITEMS, BOTH IN THE DECK
+- Deck p. 60 ("Reinvesting in the Student Experience") lists two one-time items: **Facility Modifications $7.5M–$10.0M** ("Some offset by savings from Bond projects") and **School Transition Support $5.0M** ("budgeted, FY27"; "Transition staffing, moving costs, transitional support"). Recurring annual savings: **$3.5M–$4.0M**.
+- "Up to $10M one-time" (as reported by Boulder Reporting Lab) is the facility-modification line alone. "$12.5–15M one-time" (as circulated by savedouglass.com) is the sum of both lines. Both are arithmetically consistent with p. 60; neither the news story nor the savedouglass page is in the repository, so their exact wording is not verified here.
+- No per-school breakdown, no vacant-building maintenance figure, no portable cost and no RISE/AIM relocation cost appears anywhere in the deck, the FAQ or the bvsd.org pages reviewed. The "~$494M budget" denominator circulated with the second figure does **not** appear in any document in the repository and must be sourced (BVSD adopted FY27 budget) before use.
+
+## C12. Bear Creek's existing autism programming
+- bvsd.org Resilient Schools page (p. 7 of the saved copy): "All existing AIM and RISE programs would be housed at Bear Creek." Deck p. 49: "Mesa's RISE Program moves to the Bear Creek building." Neither document states how many classrooms these programs occupy at either school or whether the 492-seat capacity nets them out. The effective-capacity scenarios in the appendix are therefore illustrative.
+
 ## C9. Branch name — as before
 - Work is on `claude/bvsd-mesa-bear-creek-data-vdbcu6`, not `data-collection`.

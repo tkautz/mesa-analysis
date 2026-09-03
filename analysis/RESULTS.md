@@ -2,7 +2,10 @@
 
 Full write-up: `report/report.tex` (source) and `report/report.pdf`. Every figure below has its numbers in `analysis/output/` and its page citations in the report.
 
-## The five-sentence paragraph
+## The summary paragraph (session 3 framing)
+The district proposes an irreversible step on the basis of projections with no stated uncertainty. Its own projections for these two schools have moved 10–16% between annual runs, and one more October count could shift the merged school's expected enrollment by two classrooms in either direction. Keeping Mesa open is cheap and reversible; closing it is not.
+
+## The earlier five-sentence paragraph (session 2; superseded)
 BVSD proposes an irreversible step, closing Mesa Elementary and merging it into Bear Creek, on the strength of five-year enrollment projections that carry no stated margin of error, and the evidence does not yet meet the bar such a step requires. The district's own projections for these two schools have moved by 10–16% between successive annual runs (Bear Creek's 2028-29 figure went from 248 to 274 to 288 in three consecutive January runs), and across all BVSD elementary schools the district's two-year-ahead projections miss by more than 13% one time in ten. An independent projection fitted to twelve years of BVSD's own grade-level counts puts the merged school's 2030-31 enrollment anywhere between about 360 and 510 students (80% band, if 90% of Mesa families follow), a range that spans both the outcome in which the merged school falls short of three classes per grade and the outcome in which it exceeds the Bear Creek building's 492-seat capacity; under plausible upside cases (the post-2020 flattening of kindergarten intake persists, or the combined area's resident students attend at Bear Creek's current 79% rate) the merged school reaches 500–540 students. Because closing a school cannot be undone while keeping it open a year can, and because one more October count is expected to narrow the 2030-31 band by about 15% and would be the first count taken under the new 2026-27 boundaries, the Board should defer the Mesa decision to 2027 and require an independent projection with confidence intervals before acting.
 
 ## Figures and their one-line takeaways

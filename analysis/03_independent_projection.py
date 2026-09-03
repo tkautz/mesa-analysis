@@ -85,10 +85,11 @@ pair = {"bearcreekelementary": G["bearcreekelementary"], "mesaelementaryschool":
 simA = simulate_A(pair, 2025, 5)
 bc, mesa = simA["bearcreekelementary"][0], simA["mesaelementaryschool"][0]
 simL = simulate_A(pair, 2025, 5, k_mode="level", seed=3); simR = simulate_A(pair, 2025, 5, k_mode="rw", seed=4)
+bcL, mesaL = simL["bearcreekelementary"][0], simL["mesaelementaryschool"][0]
 np.savez_compressed(OUT / "paths_modelA.npz", bear_creek=bc, mesa=mesa, bear_creek_level=simL["bearcreekelementary"][0], mesa_level=simL["mesaelementaryschool"][0], bear_creek_rw=simR["bearcreekelementary"][0], mesa_rw=simR["mesaelementaryschool"][0], bear_creek_grades=simA["bearcreekelementary"][1], mesa_grades=simA["mesaelementaryschool"][1], falls=np.arange(2026, 2031))
 tot = load_official()
 totB = {s: simulate_B(tot[tot.school == s].set_index("fall").funded_headcount.astype(float), 2025, 5) for s in ["Bear Creek", "Mesa"]}
-tabs = pd.concat([qtab(bc, 2026, "A Bear Creek"), qtab(mesa, 2026, "A Mesa"), qtab(bc + mesa, 2026, "A Combined"), qtab(simL["bearcreekelementary"][0] + simL["mesaelementaryschool"][0], 2026, "A-level Combined"), qtab(simR["bearcreekelementary"][0] + simR["mesaelementaryschool"][0], 2026, "A-rw Combined"),
+tabs = pd.concat([qtab(bc, 2026, "A Bear Creek"), qtab(mesa, 2026, "A Mesa"), qtab(bc + mesa, 2026, "A Combined"), qtab(bcL, 2026, "A-level Bear Creek"), qtab(mesaL, 2026, "A-level Mesa"), qtab(bcL + mesaL, 2026, "A-level Combined"), qtab(simR["bearcreekelementary"][0] + simR["mesaelementaryschool"][0], 2026, "A-rw Combined"),
                   qtab(totB["Bear Creek"], 2026, "B Bear Creek"), qtab(totB["Mesa"], 2026, "B Mesa"), qtab(totB["Bear Creek"] + totB["Mesa"], 2026, "B Combined")])
 tabs.round(0).to_csv(OUT / "table03_intervals.csv"); print(tabs.round(0).to_string())
 
@@ -117,11 +118,14 @@ fig, axes = plt.subplots(1, 3, figsize=(11.5, 3.8))
 hist = {"Bear Creek": tot[tot.school == "Bear Creek"].set_index("fall").funded_headcount, "Mesa": tot[tot.school == "Mesa"].set_index("fall").funded_headcount}
 hist["Combined"] = hist["Bear Creek"] + hist["Mesa"]
 sims = {"Bear Creek": bc, "Mesa": mesa, "Combined": bc + mesa}; falls = np.arange(2026, 2031)
+simsL = {"Bear Creek": bcL, "Mesa": mesaL, "Combined": bcL + mesaL}
 for ax, s in zip(axes, ["Bear Creek", "Mesa", "Combined"]):
     col = SCHOOL_COLOR[s]
     for lo, hi, a in [(2.5, 97.5, 0.15), (10, 90, 0.25), (25, 75, 0.4)]:
         ax.fill_between(np.r_[2025, falls], np.r_[hist[s].loc[2025], np.percentile(sims[s], lo, axis=0)], np.r_[hist[s].loc[2025], np.percentile(sims[s], hi, axis=0)], color=col, alpha=a, lw=0)
-    ax.plot(np.r_[2025, falls], np.r_[hist[s].loc[2025], np.median(sims[s], axis=0)], color=col, lw=1.6, label="independent model, median")
+    ax.plot(np.r_[2025, falls], np.r_[hist[s].loc[2025], np.median(sims[s], axis=0)], color=col, lw=1.6, label="Model A (K trend): median, 50/80/95% bands")
+    ax.plot(np.r_[2025, falls], np.r_[hist[s].loc[2025], np.median(simsL[s], axis=0)], color=C["green"], lw=1.6, label="Model A-level (K at 2023-25 mean): median, 80% band")
+    for q in (10, 90): ax.plot(np.r_[2025, falls], np.r_[hist[s].loc[2025], np.percentile(simsL[s], q, axis=0)], color=C["green"], lw=1.0, ls=":")
     ax.plot(hist[s].index, hist[s].values, color=TEXT, lw=2.2, marker="o", ms=3, label="October count", zorder=5)
     p = vin[(vin.vintage == "jan2026") & (vin.measure == "enrollment")]
     pj = p.groupby("fall").value.sum() if s == "Combined" else p[p.school == s].set_index("fall").value
@@ -131,8 +135,8 @@ for ax, s in zip(axes, ["Bear Creek", "Mesa", "Combined"]):
         ax.axhline(492, color=MUTED, lw=0.8, ls=":"); ax.text(2018.6, 495, "Bear Creek capacity 492", fontsize=7.5, color=MUTED)
         ax.axhline(450, color=MUTED, lw=0.8, ls=":"); ax.text(2018.6, 453, "3 rounds (~450)", fontsize=7.5, color=MUTED)
     ax.set_xlim(2018.5, 2030.5); ax.set_title(s if s != "Combined" else "Mesa + Bear Creek"); ax.set_xlabel("October of school year"); ax.set_ylabel("students (K-5)")
-h, l = axes[0].get_legend_handles_labels(); fig.legend(h, l, loc="lower center", ncol=4, fontsize=8, bbox_to_anchor=(0.5, -0.06))
-fig.suptitle("Independent cohort-survival projection: 50 / 80 / 95% prediction bands (shaded) vs BVSD's point projection", x=0.01, ha="left", fontsize=11, fontweight="bold")
+h, l = axes[0].get_legend_handles_labels(); fig.legend(h, l, loc="lower center", ncol=3, fontsize=7.5, bbox_to_anchor=(0.5, -0.1))
+fig.suptitle("Independent cohort-survival projections under two kindergarten specifications vs BVSD's point projection", x=0.01, ha="left", fontsize=11, fontweight="bold")
 save(fig, "fig05_fan")
 
 # ---------------- Fig 6: backtest ----------------

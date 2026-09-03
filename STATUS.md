@@ -1,38 +1,59 @@
-# STATUS — updated 2026-09-03 (session 2: analysis and report)
+# STATUS — updated 2026-09-03 (session 3: board email, technical appendix, public comment)
 
-## Session 2 (analysis) — done
-- `analysis/01_descriptive.py` … `06_value_of_waiting.py` run end-to-end from the repo root; outputs in `figures/` (11 figures, PNG/SVG/PDF) and `analysis/output/` (tables).
-- `report/report.tex` (LaTeX source), `report/report.pdf` and `report/report.html` (rendered via pandoc + Chromium because no TeX install is available in the session; the .tex compiles with pdflatex). Executive summary and the five-sentence paragraph are on page 1; also in `analysis/RESULTS.md`.
-- Plan and approved additions: `analysis/PLAN.md`.
+## What changed in session 3
+- **Framing replaced.** The deferral date and the enrollment trigger are gone. The argument is now an evidence standard, (i)–(v), with the burden on the district; the ask is verbatim: "Decline to approve the Mesa/Bear Creek component of the Resilient Schools proposal at this time, and direct staff to return with an analysis that meets this standard." No "vote no", "defer", or "postpone" anywhere in the three deliverables.
+- **`memo/board-email.md`** (primary; body ≈ 700 words). **`memo/public-comment-sept8.md`** (≈ 280 words). **`report/report.tex`** retitled "Technical appendix", rebuilt to `report/report.pdf` / `.html`.
+- **Analysis changes.** Two kindergarten specifications (A-trend, A-level) are co-equal in every results and scenario table (`analysis/03`, `04`); effective-capacity table at 492/470/445 (`analysis/output/table04_effective_capacity.csv`); value-of-waiting figure now leads with the swing in the central estimate (`analysis/06`, `figures/fig11_waiting`). Figures 5, 7 and 11 regenerated.
+- **New appendix sections:** the evidence standard; two kindergarten specifications; RISE/AIM and effective capacity; portfolio interdependence; other sources of variance; cost and benefit; other gaps. Tone pass done ("not explained in the documents reviewed").
+- **Data logs:** `data/CONFLICTS.md` C11 (one-time cost figures: $7.5–10M facility + $5.0M transition = $12.5–15M; "up to $10M" is the facility line alone), C12 (RISE/AIM room counts absent); `data/SOURCES.md` L1–L4 (Pearman, Boulder Reporting Lab, savedouglass, and the Dec. 12 2025 BVSD news article that carries the "93% of births" statement).
 
-## Session 1 — collected
-- **Primary BVSD documents** (hand-downloaded, sorted into `data/raw/bvsd/`, manifest in `MANIFEST.csv`): the Aug 25 2026 proposal deck (75 pp.), Feb 2024/2025/2026 trend reports, Oct 21 2025 work session, two executive summaries, LRAC June 2023 metrics, Resilient Schools FAQ, the Bear Creek/Creekside boundary-change page, and **36 October pupil-count PDFs (2014-15 … 2025-26)**. Full text extracted for every PDF; image-only table pages rendered and OCR'd (flagged).
-- `data/clean/` highlights:
-  - `bvsd_pupil_count_mesa_bearcreek.csv` — official head count, FTE, grades, out-of-district, FRL, SPED, ELL, race/gender, 12 years, both schools.
-  - `capacity_summary_mesa_bearcreek_by_vintage.csv` and per-page `feb2024_report_p11.csv`, `feb2025_report_p9.csv`, `oct2025_deck_s17.csv`, `feb2026_report_p9.csv`, `aug2026_deck_p50/p51/p44.csv`.
-  - `projections_by_vintage.csv` — rebuilt from primaries, every row verified, with page numbers.
-  - `resident_vs_enrolled_mesa_bearcreek.csv` — 2025-26 resident / resident-attending / OE-in / out-of-district split (open question 4, partial).
-  - `verification_headcount_sources.csv` — official vs enrollmentdata series.
-- **Round 3**: CDE pupil membership 2019-20 … 2025-26 (`data/raw/cde/`, parsed to `data/clean/cde_mesa_bearcreek.csv`, compared in `verification_cde_vs_bvsd.csv`); the Mar 11 and Sept 9 2025 attendance-boundary board documents; the bvsd.org Resilient Schools page. All-school official head counts 2014-15 … 2025-26 in `bvsd_pupil_count_all_elementary.csv` (input for the projection-accuracy analysis).
-- `data/SOURCES.md`, `data/CONFLICTS.md`, `data/VERIFICATION.md` updated; `scripts/` has twelve reproducible steps.
-- `analysis/PLAN.md` — proposed analysis plan awaiting approval.
+## Things the deck did NOT contain that the deliverables rely on (fix or remove before sending)
+1. **Pearman (Stanford SCALE, May 2026) figures** — cited from the numbers supplied to me, not from the paper. Place the PDF in `data/raw/literature/`, check ~800 districts / 2011–2019 / $447 / $433 / balanced-budget / staffing findings against its tables. Used in: email (cost paragraph), appendix §12.
+2. **"~$494M" general-fund denominator** — appears in no document in the repo. Appendix §12 flags it in-line; the email does not use it. Source the FY27 adopted budget or delete the share-of-budget sentence from the appendix.
+3. **Boulder Reporting Lab, Aug. 20, 2026 emails story** — not in the repo; the appendix says only that press reporting "has raised the possibility" of a charter or other operator. Save the article to `data/raw/press/` and quote it, or drop the bullet (appendix §10).
+4. **Flatirons adjacency.** The session brief described Flatirons as adjacent to Bear Creek/Mesa. The deck assigns the Flatirons area to Foothill and Whittier (p. 52) and none of it to Bear Creek; the appendix says so and adds no upside row. The email does not claim adjacency.
+5. **"Bear Creek already houses a center-based autism program."** Supported only by the bvsd.org page's "All existing AIM and RISE programs would be housed at Bear Creek" (p. 7 of the saved copy) and deck p. 49 (Mesa's RISE moves). No room counts anywhere. The effective-capacity table is labelled illustrative.
+6. **K-2/3-5 "scored uncertain" and "no FA/FB scoring".** Documents support: deck p. 56 lists it under "other options studied"; Oct. 2025 work session slide 45 says "Impact on fiscal efficiency is uncertain." No FA/FB rubric or scores are in any document, so the email says "dropped without published scoring" (not that scoring exists and was withheld).
 
-## Failed / still missing
-- Network egress from the session still blocks bvsd.org, BoardDocs and CDE, so nothing was fetched programmatically. Still missing (low priority): CDE 2014-15 … 2018-19 files, the 2020-21 FTE summary, the May 20 2025 boundary session. **Most valuable next fetch: older Annual Enrollment Trend Reports (Feb 2022, Feb 2023) or any earlier BVSD 5-year projection tables**, because the accuracy analysis currently has only three projection vintages.
-- No PR (repo had no base branch; creating one was denied). Branch: `claude/bvsd-mesa-bear-creek-data-vdbcu6`.
+## Every number in the email, with where to check it (verify each against the page before sending)
+| Claim in email | Value | File | Page |
+|---|---|---|---|
+| Bear Creek 2029-30 projection, Jan 2025 → Jan 2026 | 272 → 310 | `data/raw/bvsd/trend_report_feb2025.pdf`; `trend_report_feb2026.pdf` (image pages; renders in `data/raw/bvsd/page_renders/`) | p. 9; p. 9 |
+| Mesa 2029-30, Jan 2025 → Jan 2026 | 224 → 202 | same | p. 9; p. 9 |
+| Bear Creek 2028-29 across three runs | 248, 274, 288 | `trend_report_feb2024.pdf` p. 11; `feb2025` p. 9; `feb2026` p. 9 | |
+| "moved 10–16% between annual runs" | +14% (272→310), −10% (224→202), +16% (248→288) | as above | |
+| District's Jan 2026 projections sum | 320 + 201 = 521 | `trend_report_feb2026.pdf` | p. 9 |
+| Bear Creek capacity | 492 | same; `worksession_2025-10-21.pdf` slide 17 | p. 9 |
+| Proposal range 2030-31 | 403–462 | `resilient_schools_proposal_2026-08-25.pdf` | p. 51 |
+| Implied retention | 41–71% | arithmetic: (403−320)/201, (462−320)/201 | `analysis/output/table04_implied_retention.csv` |
+| Two-year 90th-percentile error | 13.0%, n = 29 | `data/clean/projection_errors_all_schools.csv`; `analysis/output/summary02.csv` | |
+| ±50 students from one count | P10–P90 span 99 | `analysis/output/table06_waiting.csv` (`median_spread_p10_p90`) | |
+| Backtest schools | 26 | `data/clean/backtest_modelA_all_schools.csv` | |
+| Specification gap | 430 vs 501 (71) | `analysis/output/table04_scenarios.csv` (spec, fall 2030, retention 0.9) | |
+| P(>492) under the two specs | 16%, 58% | same file, `p_over_492` | |
+| Recurring savings; one-time costs | $3.5–4.0M; $7.5–10.0M + $5.0M | `resilient_schools_proposal_2026-08-25.pdf` | p. 60 |
+| Payback 3–4 years | 12.5–15.0 / 3.5–4.0 = 3.1–4.3 | arithmetic | |
+| Pearman $447 / $433 | as supplied | **not in repo** (SOURCES L1) | |
+| "29–59% of Mesa's projected students do not follow" | 1 − 0.71, 1 − 0.41 | arithmetic from p. 51 and Feb 2026 p. 9 | |
+| Schools closing / moving in 2027-28 | Douglass, Flatirons, Birch; High Peaks, Montessori | deck pp. 46, 52, 23 | |
+| "one of three Boulder schools near three rounds" | Foothill 484–492, Bear Creek 403–462, Coal Creek 395–427 | deck pp. 54, 51, 48 | |
+| AIM/RISE at Bear Creek | statement only | `bvsd_page_declining_enrollment.pdf` p. 7 of saved copy; deck p. 49 | |
+| School-age care at Bear Creek | statement only | same page; deck p. 64 | |
+| Preschool locations by Oct. 1 | | deck p. 64; `resilient_schools_faq.pdf` p. 4 | |
+| Transportation radius 1.5 miles | | deck p. 64 | |
+| K-2/3-5 option; "uncertain" | | deck p. 56; `worksession_2025-10-21.pdf` slide 45 | |
+| Advisory list every year | 2023-24, 2024-25 | `trend_report_feb2024.pdf` p. 13; `trend_report_feb2025.pdf` p. 11 | |
+| Vote and discussion dates | Sept 8, Sept 22 | deck p. 3 | |
 
-## Round 3 additions
-4. **The boundary change cannot explain the projection jump.** The dual Bear Creek/Creekside area has 37 elementary students, 23 already at Bear Creek; the Sept 2025 change moves the remaining handful. Bear Creek's 2029-30 projection nonetheless rose by 38 students between the Jan 2025 and Jan 2026 runs, for reasons no document states.
-5. **CDE and BVSD agree to within 1–2 students on K–5**, and the enrollmentdata "225" for Mesa is CDE's K–5 membership (BVSD's funded count is 224). Mesa has 25 PK students in CDE's 2025-26 file that appear in no BVSD table.
+## Numbers in the public-comment script
+272 → 310 (Feb 2025 p. 9 → Feb 2026 p. 9); 521 vs 462 (Feb 2026 p. 9; deck p. 51); "one chance in six" = P(>492) 16% under A-trend at 90% retention (`table04_scenarios.csv`); "ten to sixteen percent" as above.
 
-## Three things in the data that most surprised me (round 2)
-1. **The Oct 2025 deck did not contain new projections.** Slide 17 is number-for-number the Feb 2025 report's table (Jan 24 2025 run). The "Oct 2025 vs Feb 2026" change in CLAUDE.md is really a Jan 2025 vs Jan 2026 change, and the Jan 2026 Bear Creek path is the first vintage that turns upward (288 → 310 → 320). The deck itself flags that its Boulder charts "do not reflect new 2026-27 attendance area boundaries", and the boundary page documents the Bear Creek/Creekside dual area becoming Bear Creek-only from 2026-27.
-2. **Bear Creek's capacity was restated from 467 (3.0 rounds) to 492 (3.5 rounds)** between the Jan 2024 and Jan 2025 tables, with no explanation in any document. Mesa stayed at 418.
-3. **The resident split is lopsided.** In 2025-26 Mesa enrolled 224 students but only 156 of the 228 residents of its attendance area attend it (68%); 58 are in-district open-enrollees and 10 out-of-district. Bear Creek: 217 of 275 residents (79%), 82 OE-in, 13 out-of-district. The consolidated projection's "resident students 473 (2027-28) / 522 (2030-31)" is below 275 + 228 = 503 in the first year and above it in the second, which will matter when the retention arithmetic is done in session 2.
+## To-do before sending
+- [ ] Pearman PDF into `data/raw/literature/`; verify every figure; then remove the "as reported" flags in appendix §12 and SOURCES L1.
+- [ ] Decide on the $494M sentence (source it or cut it).
+- [ ] Boulder Reporting Lab article into `data/raw/press/` or cut the charter bullet.
+- [ ] Read `memo/board-email.md` against the table above; every number has a page.
+- [ ] Fill nothing else in: the author line and disclosure are already on the appendix title page.
 
-## Corrections to CLAUDE.md "Key facts" (not applied; owner's call)
-- Mesa Oct 2025 actual is **224**, not 225 (official pupil count, and what BVSD uses everywhere).
-- The "462" figure is on deck **p. 51**, not pp. 37/39.
-
-## Not done
-Memo prose beyond the executive summary; cost quantification (no district cost data in the documents); Census/ACS age and housing data for the two attendance areas (would firm up the turnover scenario).
+## Earlier sessions
+Session 1 (data collection and verification) and session 2 (analysis) notes are in the git history of this file; the data logs (`data/SOURCES.md`, `CONFLICTS.md`, `VERIFICATION.md`) are current.
