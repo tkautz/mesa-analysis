@@ -38,8 +38,8 @@ for spec in ("trend", "level"):
             ticks.append((y, f"{spec.capitalize()}, {fall}-{str(fall + 1)[2:]}, {lab}")); y -= 1
         y -= 0.4
 ax.set_yticks([t for t, _ in ticks]); ax.set_yticklabels([l for _, l in ticks], fontsize=6.5)
-ax.axvline(75, color=MUTED, lw=0.8, ls=":"); ax.text(75, 0.8, "3 classes of 25", fontsize=6.5, color=MUTED, ha="center", va="bottom")
-ax.axvline(50, color=MUTED, lw=0.8, ls=":"); ax.text(50, 0.8, "2 classes of 25", fontsize=6.5, color=MUTED, ha="center", va="bottom")
+ax.axvline(75, color=MUTED, lw=0.8, ls=":"); ax.text(75, y - 0.2, "3 classes of 25", fontsize=6.5, color=MUTED, ha="center", va="top")
+ax.axvline(50, color=MUTED, lw=0.8, ls=":"); ax.text(50, y - 0.2, "2 classes of 25", fontsize=6.5, color=MUTED, ha="center", va="top"); ax.set_ylim(y - 1.2, 0.8)
 ax.set_xlabel("students per grade in each building (central estimate; 1-in-10 low to high), 90% of Mesa students in the combined area"); ax.set_xlim(40, 130); ax.grid(axis="y", visible=False)
 ax.set_title("The district's rejected K-2 / 3-5 option: students per grade in each of the two buildings", fontsize=8.8, loc="left")
 save(fig, "fig12_reconfiguration", source="independent cohort-survival model, grade-level paths for the combined Mesa + Bear Creek area; option listed as studied on deck p. 56")
