@@ -1,0 +1,4 @@
+area,stdtpop_gis,grid_points_inside,share_beyond_1p5mi_of_bear_creek,share_beyond_1p5mi_of_mesa,max_dist_to_bear_creek_mi,note
+Bear Creek,169,27855,0.0,0.0,0.9699384562861817,area share on a 220x220 grid; straight-line distance; StdtPop is the GIS layer's resident count (vintage unknown)
+BC-Mesa,134,25761,0.003221924614727689,0.0,1.5436365180217122,area share on a 220x220 grid; straight-line distance; StdtPop is the GIS layer's resident count (vintage unknown)
+Mesa,258,33371,0.8855293518324293,0.8240088699769261,5.586631956661495,area share on a 220x220 grid; straight-line distance; StdtPop is the GIS layer's resident count (vintage unknown)
