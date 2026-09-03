@@ -1,0 +1,757 @@
+
+===== pearman p1 =====
+The Fiscal Consequences of School
+Closures in California: Evidence from
+a Statewide Synthetic
+Difference-in-Differences Design
+Francis A. Pearman II
+Stanford University
+May 2026
+===== pearman p2 =====
+The Fiscal Consequences of School Closures in
+California: Evidence from a Statewide Synthetic
+Difference-in-Differences Design
+Francis A. Pearman II
+Stanford University
+Abstract
+School closures are frequently justified as fiscal necessities for districts confronting enrollment
+decline, rising per-pupil fixed costs, and persistent budgetary challenges. Yet causal evidence on their
+financial consequences remains limited. Drawing on data from all public school districts in California
+between 2011 and 2019, this study estimates the effect of entering a closure regime on district
+finances using a synthetic difference-in-differences design. This study estimates that school closures
+reduced per-pupil expenditures and revenues by approximately $440 each—a pattern of symmetric,
+imprecisely estimated effects that left districts’ funding deficits and probability of achieving a balanced
+budget unchanged. These null effects were consistent across urban, rural, cash-strapped, and fiscally
+solvent district subgroups, and hold across a variety of robustness checks. Supplementary analyses
+reveal that closure regimes led to enrollment losses of 287 students, on average, but had no
+commensurate effects on the number of teachers, principals, or other district staff, leaving a
+predominant fixed-cost structure largely intact. These findings indicate (1) closures that occurred
+during the post-recession, pre-COVID decade did not, on average, improve the financial standing of
+California school districts; and (2) that the fiscal returns to closure were limited by closure-induced
+enrollment decline. Taken together, these findings suggest that school closure regimes should be
+understood as a complex financial restructuring process that affects expenditures and revenues
+through distinct mechanisms that can operate in offsetting ways. Moving forward, districts pursuing
+closures to improve their financial outlook should prioritize revenue optimization as a first-order
+objective, particularly in urban districts where revenue effects are most pronounced.
+Keywords: school closures, district finance, synthetic difference-in-differences, Local Control Funding
+Formula, fiscal sustainability, California education policy
+1 | The Fiscal Consequences of School Closures in California
+===== pearman p3 =====
+Informing Policy, Improving Practice for California Students
+1. Introduction and Motivation
+The permanent closure of public schools has become one of the most consequential and
+contested decisions in local educational governance. Across California and the United States, district
+administrators increasingly frame closure as a rational fiscal response to enrollment decline and rising
+per-pupil overhead—a strategy for consolidating underutilized facilities, reducing operating costs, and
+restoring budgetary balance (Hahnel & Pearman, 2023; Bifulco & Reback, 2014; Ladd & Singleton,
+2017). The fiscal logic is straightforward: fewer buildings mean lower fixed costs, and lower fixed costs
+mean a healthier bottom line.
+This logic, however, may discount institutional complexities that make the fiscal effects of
+closure empirically uncertain. Closures generate substantial transition costs—student reassignment,
+transportation reconfiguration, capital modifications at receiving schools, and legal and administrative
+expenses—that can offset near-term expenditure savings (Engberg et al., 2012; Brummet, 2014).
+Simultaneously, closure may alter district revenue streams through effects on enrollment. Under
+California’s Local Control Funding Formula (LCFF), the vast majority of general-purpose revenue is
+allocated on a per-pupil (ADA) basis: enrollment losses, whether precipitated by or merely correlated
+with closure, directly reduce state apportionments. Because closure may simultaneously reduce both
+expenditures and revenues, its net fiscal consequences are not empirically obvious.
+Existing research offers limited guidance: previous work focuses primarily on case studies of
+individual school districts that provide limited generalizability for California school districts (de la Torre
+et al., 2015; Larsen, 2020; Nguyen-Hoang, 2019); it disproportionately examines expenditure outcomes
+while neglecting revenues, leaving the overall fiscal picture incomplete (Nguyen-Hoang, 2019); and it
+relies on research designs that are difficult to defend when closure is precisely the response of fiscally
+deteriorating districts to pre-existing distress (i.e., endogeneity concerns) (Nguyen-Hoang, 2019;
+Rosburg et al., 2017). This study addresses each of these limitations through a synthetic
+difference-in-differences (SDID) design applied to the full population of California school districts
+between 2011 and 2019—a context that is particularly unique given several institutional features,
+including LCFF’s enrollment-sensitive revenue system, county-office fiscal oversight, and the state’s
+distinctive demographic trajectory.
+gettingdowntofacts.com | 2
+===== pearman p4 =====
+2. State Context
+LCFF’s Enrollment-Sensitive Revenue Architecture. Enacted in 2013, California’s Local Control
+Funding Formula consolidated a fragmented categorical funding system into a base grant allocated
+proportionally to average daily attendance, supplemented by equity-weighted grants for English
+learners, low-income students, and foster youth (Ladd & Singleton, 2017; Hahnel & Pearman, 2023).
+The defining feature of this system for the purposes of this study is its enrollment sensitivity: because
+the vast majority of general-purpose state revenue flows through an ADA-based formula, any reduction
+in average daily attendance—whether driven by demographic decline, family relocation, or the
+community disruption that school closure can produce—mechanically reduces state apportionments to
+the district. This linkage between enrollment and revenue is more direct and immediate in California
+than in states that distribute aid through block grants, foundation formulas with hold-harmless
+provisions, or property-tax-based systems less sensitive to short-run enrollment fluctuations, making
+revenue-side effects of closure particularly relevant in the California context (Nguyen-Hoang, 2019).
+Unlike many state funding systems, California’s LCFF includes no permanent hold-harmless guarantee
+against enrollment-driven revenue losses; although multi-year ADA averaging can cushion short-term
+declines, sustained enrollment losses ultimately produce proportional reductions in state
+apportionments.
+County-Office Fiscal Oversight. California operates one of the most active multilevel solvency
+oversight systems in the country. County offices of education (COEs) review annual district budgets and
+assign qualified or negative certifications to districts whose fiscal projections raise solvency concerns,
+with intervention powers ranging from expenditure restrictions to emergency apportionments and
+state receivership (Hahnel & Pearman, 2023). This oversight architecture creates institutional pressures
+that are directly relevant to closure decisions: districts approaching fiscal distress may accelerate
+consolidation plans to satisfy COE conditions for solvency certification, while COEs may explicitly
+recommend closure as part of a fiscal recovery plan. Assembly Bill 1912, enacted in September 2022,
+added a further procedural layer for financially distressed districts, requiring community engagement
+and a nine-metric equity impact analysis before any closure or consolidation can be approved.
+Together, these oversight mechanisms mean that closure decisions in California are not made in
+3 | The Fiscal Consequences of School Closures in California
+===== pearman p5 =====
+Informing Policy, Improving Practice for California Students
+isolation from state and county institutional actors—a feature that distinguishes the California context
+from states with weaker or purely advisory oversight regimes (Thompson, 2019; Saldána, 2025).
+California’s Distinctive Demographic Trajectory. California has experienced sustained and
+geographically uneven enrollment decline over the past two decades, driven by falling birth rates,
+domestic outmigration, and shifting immigration patterns (Hahnel & Pearman, 2023). Between 2003
+and 2023, statewide public school enrollment fell by more than 700,000 students, with losses
+concentrated in urban core districts and older suburban communities while some exurban and rural
+districts maintained or grew their enrollment bases. This demographic unevenness matters for the
+study of school closure because it means that the districts most likely to enter closure regimes are
+those facing the sharpest enrollment declines—precisely the districts for whom the LCFF revenue
+mechanism creates the most acute fiscal exposure (e.g., districts that disproportionately serve high
+needs students). Understanding the fiscal consequences of closure in California thus requires attending
+to the demographic context in which closure decisions are made, including the likelihood that
+enrollment attrition both precedes and follows the onset of a closure regime.
+Revenue Structure. In 2011, California districts drew approximately 55% of total revenues from
+state sources, 33% from local sources, and 13% from federal programs (NCES Common Core of Data,
+2011). This state-heavy revenue mix means that enrollment-driven contractions in state
+apportionments represent the dominant fiscal channel through which demographic change affects
+district budgets—a structural feature that makes California’s institutional context particularly relevant
+for studying the fiscal consequences of school closure.
+3. Data
+3.1 Analytic Sample
+The primary sample consists of all traditional public school districts in California observed
+annually from fiscal year 2011 to 2019. The lower bound provides sufficient pre-treatment observations
+for SDID weight construction after the Great Recession; the upper bound excludes the COVID-19
+period, during which federal emergency relief generated extraordinary fiscal shocks. Charter-only LEAs
+and county offices of education are excluded on governance grounds.
+gettingdowntofacts.com | 4
+===== pearman p6 =====
+Four additional sample restrictions merit note. First, single-school districts are excluded from
+the primary analysis. In these cases, a school closure is functionally equivalent to district dissolution—a
+categorically different governance event with distinct fiscal mechanics that are not comparable to
+consolidation decisions within multi-school districts. Three further restrictions follow from the
+requirements of the SDID estimator. Second, SDID requires a balanced panel—every unit observed in
+every period—to construct the synthetic control weight matrix; districts missing any panel year are
+therefore excluded. Third, districts with missing values on any outcome variable in any year are
+dropped via listwise deletion, as unbalanced outcome coverage would likewise prevent weight
+construction. Fourth, districts first treated in the initial year of the panel (2011) are excluded because
+SDID requires at least one pre-treatment observation per unit to estimate the pre-treatment
+divergence that the unit weights are designed to minimize; districts treated at t = 1 provide no such
+baseline. The resulting primary panel contains approximately 796 districts per year, yielding 7,164
+district-year observations.
+3.2 School Closure Data
+School closures are identified using the California Department of Education School Directory
+and cross-validated with the NCES Common Core of Data (CCD) School Universe Files. A school is coded
+as permanently closed if it ceases operations and does not reopen under the same CDS code within
+three years. The treatment definition excludes temporary closures, grade reconfigurations that do not
+eliminate a school entity, and closures of charter schools operating within district boundaries. This
+restriction targets genuine consolidation decisions rather than administrative reorganizations.
+3.3 Financial Data
+District fiscal data are drawn from the NCES Common Core of Data (CCD) Local Education
+Agency (School District) Finance Survey (F-33). The F-33 provides nationally standardized revenue and
+expenditure data collected annually from state education agencies, enabling consistent cross-district
+and cross-state comparisons. Key constructs include total revenues by source (local, state, and federal),
+current expenditures by function, and capital outlay—all reported at the LEA level. All financial
+variables are converted to constant 2019 dollars using the CPI-U.
+5 | The Fiscal Consequences of School Closures in California
+===== pearman p7 =====
+Informing Policy, Improving Practice for California Students
+4. Outcome Variables
+Four outcome constructs capture distinct dimensions of district financial health.
+Per-Pupil Funding Deficit. The primary outcome is the deficit per pupil, defined as Deficit = (E
+dt dt
+− R ) / N , where E and R are total expenditures and revenues in district d at year t, and N is
+dt d,2011 dt dt d,2011
+baseline enrollment. Anchoring the denominator to 2011 enrollment prevents mechanical inflation of
+per-pupil deficits from a declining enrollment base and preserves comparability across districts with
+different enrollment trajectories.
+Balanced Budget Indicator. A binary indicator equal to one if R ≥ E . This measure captures
+dt dt
+whether a district’s revenue meets or exceeds its expenditures (i.e., attaining a balanced budget).
+Per-Pupil Expenditures. Total inflation-adjusted expenditures per baseline pupil. Supplemental
+analyses disaggregate expenditures using F-33 subcategories including instruction, support services
+(encompassing pupil support, instructional staff support, and general administration), operations and
+maintenance, student transportation, and capital outlay, among others (see Table A in the Appendix).
+Per-Pupil Revenues. Total inflation-adjusted revenues per baseline pupil. Supplementary
+analyses decompose total revenue into revenues from local sources (principally property taxes),
+revenues from state sources (including LCFF base grant apportionments and supplemental and
+concentration grants), and revenues from federal sources (including Title I Part A and IDEA).
+5. Treatment
+The primary treatment indicator is a binary, absorbing variable equal to one in all district-years
+at or after the district’s first documented school closure between 2011 and 2019:
+D = 1(t ≥ T ) (1)
+dt d
+where T is the first closure year for district d. Treating closure as absorbing reflects the
+d
+institutional reality that districts rarely reopen closed schools and that entering a closure regime often
+initiates a multi-year process of consolidation and community adjustment. The primary estimand is the
+average treatment effect on the treated (ATT): the causal effect of entering a closure regime on the
+gettingdowntofacts.com | 6
+===== pearman p8 =====
+fiscal outcomes of districts that actually entered one, relative to their counterfactual trajectory absent
+closure.
+To approximate intensive-margin heterogeneity within this binary framework, supplementary
+analyses estimate separate models for districts closing exactly one school, exactly two schools, three or
+more schools, and at least 10% of their schools.
+6. Estimation Strategy
+6.1 Identification Challenge
+Districts do not enter closure regimes at random. Closure is typically a response to enrollment
+decline, fiscal stress, and political pressures—forces predictive of the fiscal outcomes under study.
+Formally, if untreated potential outcomes follow a factor model admitting district-specific linear fiscal
+trends, Y (0) = α + λ + δ t + u , then closing districts likely have deteriorating pre-treatment
+dt d t d dt
+trajectories (δ > 0) that render the parallel trends assumption required for two-way fixed effects
+d
+(TWFE) untenable. Staggered treatment timing compounds this problem: under heterogeneous
+treatment effects, TWFE assigns implicit negative weights across cohorts, generating estimates that are
+difficult to interpret causally (Goodman-Bacon, 2021; Callaway & Sant’Anna, 2021; Sun & Abraham,
+2021).
+6.2 Synthetic Difference-in-Differences
+I adopt the synthetic difference-in-differences (SDID) estimator (Arkhangelsky et al., 2021) as
+the primary identification strategy. SDID combines the pre-treatment balancing logic of synthetic
+control with the differencing logic of DID, constructing unit weights w sc that minimize the
+d
+pre-treatment divergence between treated districts and a reweighted control group:
+min Σ λ ( Ȳ − Σ w Y )2, Σ w = 1, w ≥ 0 (2)
+w t≤T₀ t treated,t d∈C d dt d d d
+Time weights λ additionally downweight early pre-treatment periods less informative for
+t
+predicting post-treatment dynamics. The resulting ATT estimator differences post-treatment divergence
+between treated and synthetic control groups, adjusted for residual pre-treatment differences:
+7 | The Fiscal Consequences of School Closures in California
+===== pearman p9 =====
+Informing Policy, Improving Practice for California Students
+τŜ DID = ( Ȳ − Σ w Ȳ ) − ( Ȳ − Σ w Ȳ ) (3)
+treated,post d d d,post treated,pre d d d,pre
+This two-stage adjustment yields an estimator that is doubly robust: consistent if either the unit
+reweighting or the time-differencing removes confounding (Arkhangelsky et al., 2021). The identifying
+assumption—that reweighted comparison districts provide valid post-treatment counterfactuals for
+treated districts—is substantially weaker than strict parallel trends and is evaluated empirically through
+event-study specifications and robustness checks.
+6.3 Dynamic Event-Study Specifications
+Fiscal adjustments following closure are likely to unfold over multiple years. To trace the
+adjustment path, I estimate dynamic specifications:
+Y = α + λ + Σ β · 1(t − T = k) + ε (4)
+dt d t k≠−1 k d dt
+where k indexes event time relative to first closure, with k = −1 as the reference period.
+Coefficients for k < 0 serve as pre-trend balance tests; coefficients for k ≥ 0 trace the post-closure
+adjustment path.
+6.4 Inference
+All specifications use vce(bootstrap) as implemented in the sdid package, which resamples
+districts with replacement, reconstructs SDID weights, and re-estimates treatment effects across each
+iteration to propagate weight-construction uncertainty into inference. Standard errors and confidence
+intervals reported throughout are derived from this bootstrap procedure.
+7. Results
+7.1 Descriptive Summary
+Figure 1 compares the financial standing of districts before and after school closure. For clarity
+of presentation, the figure is restricted to districts enrolling at least 5,000 students that experienced at
+least one closure between 2011 and 2019, and excludes three outlier districts whose revenue surplus
+or deficit in either period exceeded $50 million.
+gettingdowntofacts.com | 8
+===== pearman p10 =====
+The horizontal axis represents a district’s mean revenue surplus in the years preceding its first
+closure, with the vertical orange line indicating fiscal balance. Districts to the left of this line carried
+pre-closure funding deficits of varying magnitudes; districts to the right carried pre-closure revenue
+surpluses. The vertical axis represents the corresponding post-closure mean, with the horizontal orange
+line indicating fiscal balance in the post-closure period. Districts below this line were in deficit in the
+years following closure; districts above it had surpluses. Each marker represents a single district. Both
+axes are scaled in millions of constant 2019 dollars.
+The intersecting reference lines partition the scatterplot into four quadrants. Districts in the
+upper-left quadrant entered closure with a funding deficit and exited with a revenue surplus—the most
+favorable fiscal trajectory among districts that closed with pre-existing deficits. Districts in the
+upper-right quadrant had surpluses both before and after closure. Districts in the lower-right quadrant
+transitioned from surplus to deficit following closure, suggesting deterioration from a position of
+relative stability. Districts in the lower-left quadrant remained in deficit throughout.
+As shown in Figure 1, closing districts exhibit considerable heterogeneity in both pre- and
+post-closure fiscal standing, with roughly comparable representation across all four quadrants. Among
+districts that entered closure with a funding deficit—those to the left of the vertical reference line, for
+whom fiscal rationale for closure is most intuitive—a similar number remained in deficit as
+subsequently achieved surplus. Two contrasting cases illustrate this variation. Los Baños Unified and El
+Rancho Unified are similarly sized districts enrolling roughly 10,000 students, each closing a single
+school for the first time during the observation window. Both entered closure carrying a funding deficit
+of approximately $25 million. In the post-closure period, Los Baños remained in deficit at a comparable
+magnitude ($27 million), locating it in the lower-left quadrant, while El Rancho converted to a revenue
+surplus of $48 million, locating it in the upper-left quadrant.
+The same heterogeneity characterizes districts that entered closure in fiscal surplus. Among
+districts to the right of the vertical reference line, post-closure outcomes are split roughly evenly
+between sustained surplus and subsequent deficit. Escondido Union and Rocklin Unified illustrate this
+pattern: each entered closure with a pre-closure surplus of approximately $90 million. Rocklin
+subsequently more than doubled its surplus, locating it in the upper-right quadrant, while Escondido
+transitioned to a deficit of $37 million, locating it in the lower-right quadrant.
+9 | The Fiscal Consequences of School Closures in California
+===== pearman p11 =====
+Informing Policy, Improving Practice for California Students
+Taken together, Figure 1 supports three descriptive conclusions. First, districts that enter closure
+regimes differ substantially in their fiscal standing in the years preceding closure, ranging from
+considerable surplus to notable deficit. Second, post-closure fiscal trajectories are similarly
+heterogeneous, with some districts improving and others deteriorating. Third, the probability of fiscal
+improvement following closure does not appear systematically related to pre-closure fiscal standing:
+with limited exceptions among a small cluster of districts in strong pre- and post-closure positions, the
+vertical distribution of outcomes is roughly uniform across the pre-closure fiscal distribution. There is,
+in other words, little descriptive evidence that financially distressed districts are especially
+well-positioned to realize post-closure savings, nor that financially stable districts are insulated from
+post-closure deterioration.
+These patterns are informative but carry important limitations. Chief among them: descriptive
+patterns cannot establish causality. Closure may be both a response to fiscal distress and a contributor
+to longer-run fiscal trajectories, and the cross-sectional pre/post comparisons in Figure 1 cannot isolate
+closure’s contribution from concurrent secular trends or district-specific shocks. The causal estimates in
+the following section address this limitation directly.
+Figure 1. District Fiscal Balance Before vs. After School Closure. Each marker represents a single district. Axes are scaled in
+millions of constant 2019 dollars. Sample restricted to districts enrolling at least 5,000 students with at least one closure
+between 2011 and 2019; three outlier districts exceeding $50 million in surplus or deficit are excluded. Orange reference
+lines denote fiscal balance ($0) on each axis.
+gettingdowntofacts.com | 10
+===== pearman p12 =====
+7.2 Main Regression Results
+Table 1 presents SDID estimates of the ATT of entering a closure regime on each outcome, as
+specified in Equations 2–3. Table 2 reports estimates for four district subgroups: urban, rural,
+cash-strapped, and fiscally solvent districts. Columns report estimates for the per-pupil funding deficit,
+balanced-budget indicator, per-pupil total expenditures, and per-pupil total revenues. All expenditure,
+revenue, and deficit estimates are expressed as per-pupil dollar amounts.
+Across all four outcomes, the primary SDID estimates for the full sample are statistically
+indistinguishable from zero. Table 1 indicates that entering a closure regime is associated with a $70.46
+per-pupil reduction in the funding deficit, but this estimate is highly imprecise (SE = $204.62) and far
+from conventional significance thresholds. The balanced-budget indicator shows no statistically
+significant change (estimate = 0.03; SE = 0.05).
+Point estimates are negative on both sides of the fiscal ledger in the full sample. The estimate
+for total expenditures is −$447.30 per pupil (SE = $387.86) and for total revenues is −$432.70 per pupil
+(SE = $443.78); neither approaches conventional significance thresholds. The near-symmetry of these
+negative point estimates is consistent with the null effects on funding deficit and budget balance: both
+sides of the ledger move in the same direction by roughly comparable magnitudes, leaving estimated
+net fiscal position unchanged.
+Table 1. Synthetic Difference-in-Differences Estimates of the ATT of School Closures on California School District Finances,
+2011–2019
+Funding Balanced Total Total
+Deficit Budget Expenditures Revenue
+School Closures −70.46 0.03 −447.30 −432.70
+(204.62) (0.05) (387.86) (443.78)
+N 7,164 7,164 7,164 7,164
+Note. All estimates for funding deficit, total expenditures, and total revenues are expressed as per-pupil dollar amounts. Funding deficit is
+total expenditures minus total revenue per baseline pupil. Balanced budget is a binary indicator of whether revenues exceeded
+expenditures. Standard errors clustered at the district level and shown in parentheses. *p < .05, **p < .01, ***p < .001 (two-tailed tests).
+11 | The Fiscal Consequences of School Closures in California
+===== pearman p13 =====
+Informing Policy, Improving Practice for California Students
+Table 2. Synthetic Difference-in-Differences Estimates of the ATT of School Closures on California School District Finances,
+by District Subgroup, 2011–2019
+Funding Balanced Total Total
+Deficit Budget Expenditures Revenue
+Panel A. Urban Districts
+School Closures −386.84 0.15 −1,224.10* −844.88***
+(237.90) (0.10) (489.55) (251.88)
+N 1,026 1,026 1,026 1,026
+Panel B. Rural Districts
+School Closures −65.16 0.06 −326.28 −888.41
+(1,003.92) (0.09) (1,508.38) (1,821.60)
+N 2,637 2,637 2,637 2,637
+Panel C. Cash-Strapped School Districts
+School Closures 121.33 −0.02 −140.90 −220.27
+(258.39) (0.11) (413.78) (283.88)
+N 1,989 1,989 1,989 1,989
+Panel D. Fiscally Solvent School Districts
+School Closures −499.05 0.08 −692.56 −357.69
+(538.86) (0.07) (1,000.73) (1,044.19)
+N 3,006 3,006 3,006 3,006
+Note. All estimates for funding deficit, total expenditures, and total revenues are expressed as per-pupil dollar amounts. Funding deficit is
+total expenditures minus total revenue per baseline pupil. Balanced budget is a binary indicator of whether revenues exceeded
+expenditures. Urban and rural classifications follow NCES locale codes. Cash-strapped districts are those whose financial position in the
+four years preceding the observation period (2007–2011) was characterized by average spending exceeding average revenue and average
+long-term debt exceeding average reserves. Fiscally solvent districts are those whose financial position during the same pre-observation
+period was characterized by average revenue exceeding average spending and average reserves exceeding average long-term debt.
+Standard errors clustered at the district level and shown in parentheses. *p < .05, **p < .01, ***p < .001 (two-tailed tests).
+7.3 Event Study Results
+The point estimates in Table 1 characterize average post-closure associations but do not reveal
+the temporal dynamics underlying them—whether fiscal effects emerge immediately and dissipate,
+accumulate gradually, or mask offsetting within-period movements. Figure 2 presents event-study
+estimates from Equation 4, tracing outcomes from five years before to five years after a district enters a
+closure regime. These specifications require a binary treatment indicator and express outcomes on a
+per-pupil basis; the robustness of these per-pupil estimates in Table 1 to alternative modeling and
+sample choices is documented in Table 3.
+Several patterns emerge. First, across all four panels, pre-closure coefficients are small and
+tightly clustered around zero, providing strong evidence of pre-trend balance: districts that eventually
+gettingdowntofacts.com | 12
+===== pearman p14 =====
+closed schools were not on meaningfully divergent fiscal trajectories in the years preceding closure,
+relative to their synthetic counterparts. This balance supports the validity of the SDID identifying
+assumption.
+Second, Panel A shows that post-closure point estimates for the per-pupil funding deficit turn
+negative three years after entering a closure regime—indicating an improvement in fiscal position—but
+with confidence intervals that widen substantially across the post-closure window and encompass zero
+at all time points except for k = 5, for which the point estimate is statistically significant. Panel B is
+similar: the probability of achieving budget balance trends slightly upward in the post-closure period,
+but in this case no individual post-closure coefficient is statistically distinguishable from zero.
+Third, Panels C and D reveal a more consistent negative pattern. Per-pupil expenditures decline
+markedly following closure, with point estimates in the range of −$600 to −$1,000 across post-closure
+event times k = 1 through k = 5. Per-pupil revenues exhibit a similar trajectory, with comparable
+negative point estimates across the post-closure window. In both panels the confidence bands are
+wide, and the per-pupil estimates cross zero in most individual years. Taken together, the event-study
+results reinforce the central finding: school closures do not, on average, improve the financial position
+of California districts.
+13 | The Fiscal Consequences of School Closures in California
+===== pearman p15 =====
+Informing Policy, Improving Practice for California Students
+Figure 2. Event-Study Estimates of the Effect of School Closure on District Fiscal Outcomes, 2011–2019. Blue diamonds are
+SDID point estimates; shaded bands are 95% confidence intervals constructed via district-level block bootstrap. Event time k
+= −1 is the omitted reference year. Panel A: per-pupil funding deficit (in dollars); Panel B: balanced-budget probability; Panel
+C: per-pupil expenditures (in dollars); Panel D: per-pupil revenues (in dollars).
+7.4 Subgroup Analyses
+The main results characterize average effects across all California public school districts, but the
+fiscal consequences of closure may vary systematically with district characteristics. Table 2 reports SDID
+estimates separately for four district subgroups: urban districts, rural districts, cash-strapped districts,
+and fiscally solvent districts. Urban and rural classifications follow NCES locale codes. Cash-strapped
+districts are those whose financial position in the four years preceding the observation period
+(2007–2011) was characterized by average spending exceeding average revenue and average long-term
+debt exceeding average reserves. Fiscally solvent districts are those whose financial position during the
+same pre-observation period was characterized by average revenue exceeding average spending and
+average reserves exceeding average long-term debt.
+Two dimensions of heterogeneity emerge from the subgroup analyses. First, the fiscal
+consequences of closure are meaningfully concentrated among urban districts. Panel A of Table 2
+gettingdowntofacts.com | 14
+===== pearman p16 =====
+indicates that entering a closure regime in an urban district decreases per-pupil expenditures by
+$1,224.10 (p < .05) and per-pupil revenues by $844.88 (p < .001). Critically, the magnitude of revenue
+losses means that the relative financial standing of urban districts remains unchanged after entering a
+closure regime despite statistically meaningful declines in per-pupil expenditures. Neither the impact
+on funding deficits nor achieving a balanced-budget reaches statistical significance for urban districts.
+Second, the overall pattern of null effects is robust across rural, cash-strapped, and fiscally
+solvent district subgroups. Panel B finds no statistically significant associations between closure and any
+fiscal outcome for rural districts, with standard errors approximately three to four times larger than the
+full-sample estimates, reflecting the heterogeneous fiscal circumstances and smaller treated sample in
+this classification. Panels C and D are similarly null: neither cash-strapped nor fiscally solvent districts
+show evidence of post-closure improvement or deterioration on any outcome of interest.
+Of particular note is the null result among cash-strapped districts. This is the subset of California
+districts most likely to have pursued closure specifically as a fiscal intervention—confronting both the
+budgetary pressures that make closure attractive and the COE oversight architecture that may make it
+an expected condition of solvency certification. For this group, the study finds no evidence of
+post-closure improvement on any outcome. That is to say, even among districts with the strongest ex
+ante incentives to realize cost savings, closure is not associated with a measurable improvement in
+financial health.
+7.5 Robustness Checks
+Table 3 reports estimates from a battery of robustness checks designed to assess sensitivity to
+alternative modeling, measurement, and sample restrictions. The substantive conclusions are stable
+across specifications that (i) include charter schools in the closure count; (ii) include alternative schools
+in the closure count; (iii) restrict to closures of small schools by average enrollment threshold; (iv) use
+traditional two-way fixed effects or the Callaway–Sant’Anna estimator as alternative identification
+strategies; (v) employ treatment-onset lags of one, two, and three years to assess anticipation
+effects—which may arise because closure processes in California can span multiple years from
+announcement to implementation (Anglum, 2026); (vi) define treatment as closure of at least 10% of
+district schools; and (vii) include district-by-year time trends or district-level covariates. Placebo tests
+15 | The Fiscal Consequences of School Closures in California
+===== pearman p17 =====
+Informing Policy, Improving Practice for California Students
+assigning treatment to T+1, T+2, and T+3 produce estimates clustered around zero across all outcomes,
+providing reassurance that the primary null results are not an artifact of the SDID weight construction.
+Panel R restricts the treated sample to districts whose first closure occurred in 2015 or later to ensure
+that ARRA stimulus drawdown and the LCFF phase-in are fully absorbed into the pre-treatment
+baseline; estimates remain statistically indistinguishable from zero across all four outcomes, providing
+no evidence that these concurrent funding shocks are driving the primary null results.
+gettingdowntofacts.com | 16
+===== pearman p18 =====
+Table 3. Synthetic Difference-in-Differences Estimates of the ATT of School Closures on District Finances, 2011–2019 —
+Robustness Checks
+Funding Deficit Balanced Total Expend. Total Revenue
+(per pupil, $) Budget (per pupil, $) (per pupil, $)
+Panel A. Primary Results
+School Closures −70.46 0.03 −447.30 −432.70
+(291.23) (0.05) (387.86) (443.78)
+N 7,164 7,164 7,164 7,164
+Panel B. Inclusion of Charter Schools
+School Closures −177.25 0.03 −450.07 −337.70
+(203.75) (0.04) (334.34) (352.52)
+N 7,101 7,101 7,101 7,101
+Panel C. Inclusion of Alternative Schools
+School Closures −47.23 0.03 −465.83* −478.14*
+(139.11) (0.03) (223.67) (243.90)
+N 7,164 7,164 7,164 7,164
+Panel D. Closure of Small Schools (avg. enrollment < 100)
+School Closures −139.84 0.05 −402.49 −353.78
+(182.38) (0.05) (333.75) (307.39)
+N 5,805 5,805 5,805 5,805
+Panel E. Closure of Small Schools (avg. enrollment < 250)
+School Closures −171.01 0.06 −526.46* −425.98
+(199.43) (0.05) (246.62) (228.49)
+N 6,102 6,102 6,102 6,102
+Panel F. Closure of Small Schools (avg. enrollment < 500)
+School Closures −227.14 0.06 −573.49* −404.11
+(172.47) (0.04) (260.68) (222.75)
+N 6,300 6,300 6,300 6,300
+Panel G. Traditional Two-Way Fixed Effects
+School Closures 2.17 0.04 −35.49 −37.65
+(279.19) (0.05) (530.17) (505.68)
+N 7,164 7,164 7,164 7,164
+Panel H. Callaway & Sant’Anna Estimator
+School Closures −102.27 0.02 −677.60 −575.33
+(341.46) (0.06) (422.52) (484.26)
+N 7,164 7,164 7,164 7,164
+Panel I. Treatment = 1-Year Lag
+School Closures 33.64 0.02 380.02 401.62
+(333.24) (0.06) (398.21) (356.26)
+N 6,975 6,975 6,975 6,975
+17 | The Fiscal Consequences of School Closures in California
+===== pearman p19 =====
+Informing Policy, Improving Practice for California Students
+Funding Deficit Balanced Total Expend. Total Revenue
+Panel J. Treatment = 2-Year Lag
+School Closures −270.59 0.02 380.96 607.90
+(332.91) (0.07) (521.48) (494.16)
+N 6,777 6,777 6,777 6,777
+Panel K. Treatment = 3-Year Lag
+School Closures −316.25 0.01 219.53 418.06
+(410.08) (0.07) (577.99) (542.15)
+N 6,633 6,633 6,633 6,633
+Panel L. Treatment = 10% Closures
+School Closures −237.49 0.05 −408.21 −245.39
+(226.95) (0.04) (542.56) (476.86)
+N 7,137 7,137 7,137 7,137
+Panel M. Inclusion of District-by-Year Time Trends
+School Closures −72.66 0.03 −447.07 −433.53
+(292.14) (0.05) (387.79) (441.93)
+N 7,164 7,164 7,164 7,164
+Panel N. Inclusion of Covariates
+School Closures −66.07 0.03 −429.80 −422.41
+(293.67) (0.05) (383.45) (440.01)
+N 7,164 7,164 7,164 7,164
+Panel O. Placebo Test: T+1
+School Closures −165.90 0.04 −201.26 −0.96
+(337.37) (0.04) (364.35) (407.90)
+N 7,164 7,164 7,164 7,164
+Panel P. Placebo Test: T+2
+School Closures −39.31 0.00 114.71 160.12
+(318.59) (0.04) (436.02) (517.40)
+N 7,164 7,164 7,164 7,164
+Panel Q. Placebo Test: T+3
+School Closures 80.82 −0.02 282.57 266.89
+(325.48) (0.04) (543.17) (668.74)
+N 7,164 7,164 7,164 7,164
+Panel R. Post-ARRA Cohorts Only (First Closure ≥ 2015)
+School Closures 174.01 0.07 50.46 756.92
+(805.01) (0.09) (1,315.39) (1,457.17)
+N 2,392 2,392 2,392 2,392
+Note. All estimates for funding deficit, total expenditures, and total revenues are expressed as per-pupil dollar amounts. Funding deficit is total
+expenditures minus total revenue per baseline pupil. Balanced budget is a binary indicator of whether revenues exceeded expenditures. Standard errors in
+Panel A differ from those reported in Table 1 because Table 1 uses bootstrap standard errors while Table 3, Panel A, uses asymptotic cluster-robust standard
+errors; point estimates are identical. Standard errors clustered at the district level and shown in parentheses. *p < .05, **p < .01, ***p < .001 (two-tailed
+tests).
+gettingdowntofacts.com | 18
+===== pearman p20 =====
+7.6 Supplementary Analyses
+This section presents three supplementary analyses that characterize the mechanisms
+underlying the primary results: effects on district personnel, disaggregation of expenditure changes by
+F-33 category, and disaggregation of revenue changes by governmental source.
+Personnel Impacts. Table 4 reports SDID estimates of the effect of entering a school closure
+regime on four district personnel outcomes: student enrollment, teacher counts, principal counts, and
+total district staff. The most notable finding is that closure is associated with a statistically significant
+decline of 287.67 students (p < .05), confirming that entering a closure regime is accompanied by
+meaningful enrollment attrition. This result is important for interpreting the primary financial findings:
+because LCFF apportions state general assistance on a per-ADA basis, enrollment losses of this
+magnitude translate directly into revenue reductions, providing a concrete empirical anchor for the
+mechanism described in the Discussion. In contrast, closure is not associated with statistically
+significant changes in teacher counts, principal counts, or total district staff, suggesting that personnel
+costs do not contract commensurately with the student population loss.
+Table 4. Synthetic Difference-in-Differences Estimates of the ATT of School Closures on School District Personnel
+Students Teachers Principals Total District Staff
+School Closures −287.67* 0.78 1.90 22.15
+(137.27) (9.87) (1.41) (18.40)
+N 7,164 6,984 6,975 6,984
+Note. All outcomes are measured in count units (number of students, teachers, principals, or total staff). Standard errors are clustered at
+the district level and shown in parentheses. *p < .05, **p < .01, ***p < .001 (two-tailed tests).
+Expenditure Decomposition. Supplemental analysis of expenditure changes by F-33 category is
+reported in Figure A1 in the Appendix. Point estimates are negative for both instructional expenditures
+and support services—the two largest operating cost categories—with estimates of approximately
+−$350,000 to −$450,000 and −$200,000 to −$300,000 respectively. Notably, the negative point
+estimate for instructional expenditures does not necessarily imply a reduction in teaching staff—a
+finding consistent with the null effects on teacher counts reported in Table 4. Rather, F-33 instructional
+expenditures encompass a broader set of costs including instructional materials, paraprofessional
+aides, and contracted instructional services, any of which may contract modestly following closure
+without a commensurate reduction in classroom teachers. Capital outlay and external payment
+19 | The Fiscal Consequences of School Closures in California
+===== pearman p21 =====
+Informing Policy, Improving Practice for California Students
+categories are near zero or statistically indistinguishable from zero. Taken together, the expenditure
+decomposition is consistent with the personnel findings: operating costs do not contract sharply or
+selectively in ways that would produce a meaningful fiscal benefits.
+Revenue Decomposition. Supplemental disaggregation of revenue changes by governmental
+source is reported in Figures A2–A4 in the Appendix. At the state level, General Assistance
+revenue—the primary LCFF formula grant category—accounts for the largest single revenue
+movement, with a point estimate of approximately −$350,000 and a confidence interval spanning
+roughly −$500,000 to −$200,000. This pattern is a direct consequence of LCFF’s ADA-based
+architecture: closures that induce enrollment attrition reduce state apportionments automatically and
+proportionally, making state general assistance the dominant channel through which closure affects
+district revenue in California. At the federal level, Title I Part A and IDEA both show negative point
+estimates consistent with the displacement of economically disadvantaged and disability-status
+students who carry federal formula weights, though both estimates are imprecise and cross zero. At the
+local level, revenue subcategory estimates are tightly clustered around zero. Together, these patterns
+confirm that enrollment-driven state revenue contraction is the primary fiscal mechanism at work.
+8. Discussion
+As school districts across California confront mounting enrollment losses and persistent
+budgetary pressures, school closure has emerged as a dominant administrative response, justified
+routinely on fiscal grounds. This study provides credibly causal evidence on whether that fiscal
+rationale holds. The findings are clear: entering a school closure regime does not, on average, improve
+the financial outlook of California school districts.
+The revenue decomposition highlights an important mechanism. State General Assistance
+revenue—the primary formula grant under California’s Local Control Funding Formula—accounts for
+the largest single revenue movement following closure, with point estimates suggesting declines of
+approximately $350,000, on average, when a district enters a closure regime. This is a predictable
+consequence of LCFF’s architecture: because state revenue is allocated almost entirely on the basis of
+gettingdowntofacts.com | 20
+===== pearman p22 =====
+average daily attendance, any closure-related enrollment attrition triggers an automatic and
+proportional contraction in state apportionments.
+The personnel analysis reported in Table 4 confirms that this attrition is empirically real:
+entering a closure regime is associated with a statistically significant reduction of approximately 287
+students. A back-of-the-envelope calculation illustrates the mechanism directly: at the statewide
+average LCFF base grant of approximately $8,500 per ADA, the estimated post-closure enrollment loss
+of 287 students translates to roughly $2.4 million in foregone state revenue per closure event—a figure
+broadly consistent with the total revenue point estimates reported in Table 1.
+Notably, however, the same analysis finds no statistically significant reductions in teacher
+counts, principal counts, or total district staff following closure. This asymmetry is substantively
+important: it suggests that school closures in California occur largely in the absence of commensurate
+workforce reductions, leaving the fixed-cost structure of the district broadly intact even as the student
+population—and with it, ADA-based revenue—contracts. Under these conditions, the expenditure
+savings that motivate closure as a fiscal strategy are unlikely to materialize in full, which helps explain
+why point estimates for total expenditures are imprecise and why no net improvement in fiscal health
+is observed.
+Among urban districts, expenditure and revenue declines are both precisely estimated and
+statistically significant, yet they are roughly symmetric in magnitude, again producing null effects on
+funding deficits and budget balance. This urban pattern is consistent with the broader literature on
+school closure and district finance: large urban districts, which rely heavily on enrollment-weighted
+state apportionments and serve higher concentrations of Title I and special education students, are
+especially exposed to the revenue consequences of post-closure enrollment attrition. That urban
+districts in California show the most precisely estimated effects on both sides of the ledger—while still
+showing null effects on fiscal health—speaks directly to the enrollment-revenue link that LCFF makes
+particularly acute.
+The null result among cash-strapped districts is also notable. This is the subgroup for whom the
+fiscal rationale for closure is most intuitively compelling: districts that entered the study window
+already carrying deficits and long-term debt in excess of reserves, for whom cost reduction is not an
+aspiration but an institutional necessity. That even these districts show no evidence of post-closure
+21 | The Fiscal Consequences of School Closures in California
+===== pearman p23 =====
+Informing Policy, Improving Practice for California Students
+fiscal improvement suggests that the revenue mechanism is not selective. It does not spare districts
+that are most desperate for savings. The ADA-based revenue contraction operates regardless of a
+district’s pre-closure fiscal position, offsetting whatever expenditure savings the consolidation process
+produces.
+Four implications follow for policy and practice. First, districts considering school closure as a
+fiscal stabilization strategy should not assume that expenditure savings will translate into improved
+fiscal health. Under California’s current funding system, that assumption is not supported by the
+evidence. Districts that close schools while experiencing enrollment attrition—whether driven by
+community flight, family reassignment decisions, or the signaling effects of closure itself—may find that
+revenues decline at roughly the same rate as instructional and support costs, leaving the net fiscal
+benefit close to zero.
+Second, to the extent that districts can retain enrollment following closure—by investing in
+transition quality, managing the community engagement process in ways that limit family attrition, and
+targeting closures in ways that minimize displacement of federally weighted student populations—the
+revenue losses that currently offset expenditure savings could, in principle, be reduced. The personnel
+results reported in Table 4 underscore the stakes of this challenge: with an average post-closure
+student loss of approximately 287 students, the corresponding LCFF revenue reduction is not a
+marginal concern but a structural fiscal consequence that enrollment retention strategies must be
+designed to address. Whether and how that retention is achievable at scale is an empirical question
+that future research should address.
+Relatedly, these findings suggest that the current approach to school closure is largely devoid of
+deliberate revenue-optimization strategies—a gap that both districts and state policymakers are
+well-positioned to address. In particular, the revenue side of school closure processes may offer
+meaningful opportunities for interventions. Beyond the enrollment-retention strategies described
+above, districts that close schools hold potentially valuable real property assets whose fiscal
+contribution to the district depends almost entirely on what is done with them after closure. A closure
+process designed with revenue generation as a first-order objective—rather than an
+afterthought—could look substantially different from current practice: it would prioritize buildings with
+gettingdowntofacts.com | 22
+===== pearman p24 =====
+high repurposing potential, sequence closures to minimize ADA attrition, and engage revenue planning
+concurrently with the community engagement process that AB 1912 already requires.
+In practice, however, converting a closed school into a revenue-generating asset is constrained
+by a dense regulatory environment. California’s surplus property disposition framework—including
+right-of-first-refusal requirements under the Naylor Act and structural conversion requirements under
+the Field Act—creates legal and logistical barriers that extend the timeline between closure and any
+realized revenue, limiting districts’ ability to monetize closed facilities on a timeline that would
+meaningfully offset the fiscal losses documented here. Streamlining these pathways, through legislative
+reform that gives financially distressed districts greater flexibility to repurpose, lease, or sell closed
+buildings on an accelerated timeline, could meaningfully alter the fiscal calculus that this study
+documents. Addressing these regulatory constraints alongside the enrollment-revenue dynamics that
+LCFF creates would represent a more complete and intentional policy response to the fiscal challenges
+that motivate school closure in the first place.
+These findings should also be situated alongside evidence on the non-fiscal consequences of
+school closure. Prior research has documented that closures can adversely affect student achievement,
+reduce graduation rates, diminish long-run educational attainment and labor market outcomes, and
+exacerbate neighborhood instability, with effects concentrated among low-income students and
+students of color (Engberg et al., 2012; Brummet, 2014; Kim, 2023). Given the null findings observed in
+this study, the case for closure regimes as a general-purpose financial improvement strategy for
+California school districts rests on thin ground. Decisions to close schools will need to be weighed
+carefully against these broader social costs.
+9. Conclusions
+In an era of broadscale restructuring of California school districts, when administrators and
+policymakers are confronting enrollment losses and mounting budgetary pressures, this study provides
+evidence that school closure alone—absent deliberate strategies to retain enrollment and stabilize
+revenue—is unlikely to deliver the fiscal improvement districts anticipate. Moving forward,
+decision-making around school closures will need to account for the enrollment-revenue dynamics that
+23 | The Fiscal Consequences of School Closures in California
+===== pearman p25 =====
+Informing Policy, Improving Practice for California Students
+California’s funding system creates, weigh potential fiscal adjustments against the broader social costs
+of closure, and attend carefully to the equity implications of consolidation decisions in communities
+that have historically borne the heaviest burden of disinvestment.
+gettingdowntofacts.com | 24
+===== pearman p26 =====
+Appendix A
+Expenditure and Revenue Disaggregation
+Figures A1–A4 present SDID estimates of the effect of entering a school closure regime on
+district expenditures and revenues, disaggregated by F-33 category and governmental source
+respectively. These figures supplement the primary findings reported in Section 7.6.
+Figure A1. SDID Estimates of the Effect of School Closure on District Expenditures by F-33 Category. Point estimates and 95%
+confidence intervals. Categories are grouped by expenditure type: elementary and secondary expenses,
+non-elementary/secondary expenses, capital outlays, and external payments. All outcomes scaled in $1,000s.
+25 | The Fiscal Consequences of School Closures in California
+===== pearman p27 =====
+Informing Policy, Improving Practice for California Students
+Figure A2. SDID Estimates of the Effect of School Closure on Per-Pupil Local Revenue by F-33 Subcategory. Point estimates
+and 95% confidence intervals. Outcome scaled as change in per-pupil local revenue (in dollars).
+Figure A3. SDID Estimates of the Effect of School Closure on State Funding by F-33 Subcategory. Point estimates and 95%
+confidence intervals. All outcomes scaled in $1,000s.
+gettingdowntofacts.com | 26
+===== pearman p28 =====
+Figure A4. SDID Estimates of the Effect of School Closure on Federal Funding by F-33 Subcategory. Point estimates and 95%
+confidence intervals. All outcomes scaled in $1,000s.
+27 | The Fiscal Consequences of School Closures in California
+===== pearman p29 =====
+Informing Policy, Improving Practice for California Students
+References
+Anglum, J. C. (2026). Conceptualizing school closure: Evidence from St. Louis. Manuscript under review.
+Arkhangelsky, D., Athey, S., Hirshberg, D. A., Imbens, G. W., & Wager, S. (2021). Synthetic
+difference-in-differences. American Economic Review, 111(12), 4088–4118.
+Bifulco, R., & Reback, R. (2014). Fiscal impacts of charter schools: Lessons from New York. Education
+Finance and Policy, 9(1), 86–107.
+Brummet, Q. (2014). The effect of school closings on student achievement. Journal of Public Economics,
+119, 108–124.
+Callaway, B., & Sant’Anna, P. H. C. (2021). Difference-in-differences with multiple time periods. Journal
+of Econometrics, 225(2), 200–230.
+de la Torre, M., Gordon, M. F., Moore, P., & Cowhy, J. (2015). School closings in Chicago: Understanding
+families’ choices and constraints for new school enrollment. University of Chicago Consortium
+on School Research.
+Engberg, J., Gill, B., Zamarro, G., & Zimmer, R. (2012). Closing schools in a shrinking district: Do students
+and schools benefit? Journal of Urban Economics, 71(2), 189–203.
+Goodman-Bacon, A. (2021). Difference-in-differences with variation in treatment timing. Journal of
+Econometrics, 225(2), 254–277.
+Hahnel, C., & Pearman, F. A., II. (2023). Declining enrollment, school closures, and equity considerations
+[Policy brief]. Policy Analysis for California Education.
+Kim, J. (2023). The long shadow of school closures: Impacts on students’ educational and labor market
+outcomes. SSRN Working Paper. https://ssrn.com/abstract=4607309
+Ladd, H. F., & Singleton, J. D. (2017). The fiscal externalities of charter schools: Evidence from North
+Carolina. Education Finance and Policy, 12(1), 1–27.
+Larsen, M. F. (2020). Does closing schools close doors? The effect of high school closings on
+achievement and attainment. Economics of Education Review, 76, 101980.
+Nguyen-Hoang, P. (2019). Does the cost-cutting strategy of closing public schools provide financial
+benefits? Evidence from Ohio. Public Budgeting & Finance, 39(3), 3–21.
+Pearman, F. A. (2026). The fiscal consequences of school closures: Evidence from a national synthetic
+difference-in-differences design. Manuscript under review.
+Rosburg, A., Isakson, H., Ecker, M., & Strauss, T. (2017). Beyond standardized test scores: The impact of
+a public school closure on house prices. Journal of Housing Research, 26(2), 119–135.
+Saldána, C. M. (2025). Accountability or austerity? Examining the practice of K–12 early fiscal
+intervention during periods of economic crisis. Educational Evaluation and Policy Analysis,
+47(3), 907–938.
+Sun, L., & Abraham, S. (2021). Estimating dynamic treatment effects in event studies with
+heterogeneous treatment effects. Journal of Econometrics, 225(2), 175–199.
+Thompson, P. N. (2019). Are school officials held accountable for fiscal stress? Evidence from school
+district financial intervention systems. Economics of Education Review, 72, 44–54.
+gettingdowntofacts.com | 28
