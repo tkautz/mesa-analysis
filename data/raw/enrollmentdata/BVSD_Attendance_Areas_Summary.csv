@@ -1,0 +1,51 @@
+Layer,SchName,SchCode,SchType,StdtPop,BVSD_Neigh,Capacity,Enroll,Perc_Cap
+Elementary,Bear Creek,119,Elementary,169,Boulder,475,378,0.8
+Elementary,Aspen Creek,505,Elementary,470, ,475,481,1.01
+Elementary,BC-Mesa,1,Elementary,134,Boulder,0,0,0
+Elementary,Birch,120,Elementary,447, ,436,376,0.86
+Elementary,Coal Creek,158,Elementary,418, ,496,467,0.94
+Elementary,Columbine,124,Elementary,568,Boulder,579,398,0.69
+Elementary,Creekside,164,Elementary,531,Boulder,484,314,0.65
+Elementary,Crest View,127,Elementary,724,Boulder,685,625,0.91
+Elementary,Douglass,130,Elementary,429, ,491,433,0.88
+Elementary,Eisenhower,132,Elementary,483,Boulder,613,453,0.74
+Elementary,Eldorado,506,Elementary,472, ,470,516,1.1
+Elementary,Emerald,134,Elementary,364, ,454,304,0.67
+Elementary,Fireside,156,Elementary,313, ,475,448,0.94
+Elementary,Flatirons,136,Elementary,304,Boulder,337,292,0.87
+Elementary,Foothill,138,Elementary,597,Boulder,644,583,0.91
+Elementary,Gold Hill,141,Elementary,14, ,37,26,0.7
+Elementary,Heatherwood,144,Elementary,393,Boulder,552,364,0.66
+Elementary,Jamestown,147,Elementary,22, ,19,21,1.11
+Elementary,Kohl,150,Elementary,352, ,521,449,0.86
+Elementary,Meadowlark,153,Elementary,0,Erie,0,0,0
+Elementary,Louisville,157,Elementary,376, ,572,522,0.91
+Elementary,Monarch,502,Elementary,336, ,423,369,0.87
+Elementary,Nederland,169,Elementary,320, ,405,265,0.61
+Elementary,Ryan,154,Elementary,516, ,512,422,0.82
+Elementary,Sanchez,131,Elementary,510, ,301,284,0.94
+Elementary,Superior,185,Elementary,700, ,521,573,1.1
+Elementary,Whittier,196,Elementary,354,Boulder,371,394,1.06
+Elementary,Mesa,166,Elementary,258,Boulder,485,371,0.76
+Elementary,Lafayette,153,Elementary,1061, ,623,589,0.95
+Middle School,Angevine,252,Middle,0,,,,
+Middle School,Aspen Creek,505,Middle,0,,,,
+Middle School,Broomfield Heights,225,Middle,0,,,,
+Middle School,Centennial,250,Middle,0,,,,
+Middle School,Eldorado,506,Middle,0,,,,
+Middle School,Louisville,254,Middle,0,,,,
+Middle School,Monarch,502,Middle,0,,,,
+Middle School,Nederland,503,Middle,0,,,,
+Middle School,Platt,260,Middle,0,,,,
+Middle School,Southern Hills,270,Middle,0,,,,
+Middle School,Manhattan,230,Middle,0,,,,
+Middle School,Casey,240,Middle,0,,,,
+Middle School,Meadowlark,252,Middle,0,,,,
+High School,Boulder High,310,High,0,,,,
+High School,Boulder-Fairview,3,High,0,,,,
+High School,Broomfield High,315,High,0,,,,
+High School,Centaurus,320,High,0,,,,
+High School,Fairview,330,High,0,,,,
+High School,Monarch,360,High,0,,,,
+High School,Nederland,503,High,0,,,,
+District,,,,,,,,

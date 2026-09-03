@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BVSD Schools — Enrollment Dashboard</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  #map { width: 100%; height: 100%; }
+
+  /* ─── Unified control panel (title + filters + boundaries + legend) ───
+     One card instead of four so the map stays navigable; collapses to a
+     single-line pill (desktop) or a slim bottom bar (mobile). */
+  .panel {
+    position: absolute;
+    top: 16px; left: 16px;
+    z-index: 1000;
+    width: 330px;
+    max-width: calc(100vw - 32px);
+    max-height: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    overflow: hidden;
+  }
+  .panel-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px 12px 12px 18px;
+  }
+  .panel-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.25;
+  }
+  .panel-title small {
+    display: block;
+    font-weight: 400;
+    font-size: 11.5px;
+    color: #666;
+    margin-top: 3px;
+  }
+  .panel-toggle {
+    flex-shrink: 0;
+    padding: 5px 11px;
+    border: 1.5px solid #ddd;
+    border-radius: 16px;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+  }
+  .panel-toggle:hover { border-color: #999; color: #1a1a1a; }
+  .panel-body {
+    overflow-y: auto;
+    padding: 2px 18px 14px;
+    border-top: 1px solid #eee;
+  }
+  .panel.collapsed { width: auto; }
+  .panel.collapsed .panel-body { display: none; }
+  .panel.collapsed .panel-title { font-size: 14px; white-space: nowrap; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .panel.collapsed .panel-title small { display: none; }
+  .panel.collapsed .panel-header { align-items: center; padding: 9px 10px 9px 16px; }
+  .panel-section { margin-top: 12px; }
+  .panel-section .legend-section-label { margin-top: 0; }
+  .pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+  }
+  .panel-check {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+    user-select: none;
+  }
+  .panel-check input { accent-color: #2563eb; margin: 0; }
+  .panel-check .count { font-size: 11px; opacity: 0.7; }
+  .filter-btn {
+    padding: 6px 14px;
+    border: 1.5px solid #ddd;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.15s;
+    user-select: none;
+  }
+  .filter-btn:hover { border-color: #999; }
+  .boundary-pill {
+    padding: 6px 14px;
+    border: 1.5px solid var(--c);
+    border-radius: 20px;
+    background: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--c);
+    cursor: pointer;
+    transition: all 0.15s;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .boundary-pill::before {
+    content: '';
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--c);
+    flex-shrink: 0;
+  }
+  .boundary-pill.active { background: var(--c); color: #fff; }
+  .boundary-pill.active::before { background: #fff; }
+  .boundary-pill[data-level="elementary"] { --c: #10b981; }
+  .boundary-pill[data-level="middle"]     { --c: #f59e0b; }
+  .boundary-pill[data-level="high"]       { --c: #8b5cf6; }
+  .filter-btn.active {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #fff;
+  }
+  .filter-btn .count {
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 11px;
+    opacity: 0.7;
+  }
+
+  .legend-section-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+  }
+  .legend-section-label:first-child { margin-top: 0; }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #333;
+  }
+  .legend-dot {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .legend-source {
+    font-size: 10px;
+    color: #999;
+    margin-top: 14px;
+    line-height: 1.45;
+    border-top: 1px solid #eee;
+    padding-top: 8px;
+  }
+  .legend-source a { color: #2563eb; text-decoration: none; font-weight: 600; }
+  .legend-source a:hover { text-decoration: underline; }
+
+  /* Popup */
+  .leaflet-popup-content-wrapper {
+    border-radius: 10px !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.12) !important;
+    /* Spacing lives on the wrapper (padding), not the content (margin) — a
+       margin would collapse through the wrapper and leave the white box
+       shorter than the card, with the close × floating above it. */
+    padding: 16px 18px 14px !important;
+  }
+  .leaflet-container a.leaflet-popup-close-button {
+    top: 6px !important;
+    right: 6px !important;
+  }
+  .leaflet-popup-content {
+    margin: 0 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333;
+    min-width: 220px;
+  }
+  .popup-name {
+    font-weight: 700;
+    font-size: 15px;
+    color: #1a1a1a;
+    margin-bottom: 2px;
+    padding-right: 20px; /* keep long names clear of the close × */
+  }
+  .popup-level {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 8px;
+  }
+  .popup-stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0;
+    font-size: 12px;
+  }
+  .popup-stat-label { color: #666; }
+  .popup-stat-value { font-weight: 600; color: #1a1a1a; }
+  .popup-bar-container {
+    margin: 6px 0 4px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    height: 8px;
+    overflow: hidden;
+  }
+  .popup-bar {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s;
+  }
+  .popup-sparkline {
+    margin: 8px 0 4px;
+  }
+  .popup-sparkline-label {
+    font-size: 10px;
+    color: #999;
+    margin-bottom: 2px;
+  }
+  .popup-status {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+  .popup-proposal {
+    margin-top: 8px;
+    padding: 8px 10px;
+    background: #fff7ed;
+    border-left: 3px solid #f59e0b;
+    border-radius: 0 6px 6px 0;
+    font-size: 12px;
+    color: #444;
+    line-height: 1.45;
+  }
+  .popup-proposal-title {
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #b45309;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin-bottom: 3px;
+  }
+  .popup-proposal-meta { font-size: 10px; color: #999; margin-top: 5px; }
+  .popup-proposal-meta a { color: #2563eb; text-decoration: none; }
+
+  .proposal-note {
+    margin-top: 12px;
+    padding: 9px 11px;
+    background: #fff7ed;
+    border: 1px solid #fde3c0;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #555;
+    line-height: 1.45;
+  }
+  .proposal-note b { color: #b45309; }
+  .proposal-note a { color: #2563eb; text-decoration: none; font-weight: 600; }
+  .proposal-note a:hover { text-decoration: underline; }
+
+  .status-red { background: #fde8e8; color: #c0392b; }
+  .status-orange { background: #fef3e2; color: #d4800a; }
+  .status-blue { background: #e8f1fb; color: #2471a3; }
+  .status-gray { background: #f3f3f3; color: #666; }
+  .status-purple { background: #f3e8ff; color: #7c3aed; }
+
+  /* Color mode toggle */
+  .mode-toggle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin: 0 0 8px;
+  }
+  .mode-btn {
+    padding: 6px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    background: #fff;
+    border: 1.5px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #666;
+    transition: all 0.15s;
+  }
+  .mode-btn:hover { border-color: #999; }
+  .mode-btn.active { background: #2563eb; border-color: #2563eb; color: #fff; }
+  .sub-toggle { display: flex; gap: 4px; margin: 0 0 8px; }
+  .sub-btn {
+    flex: 1;
+    padding: 4px 5px;
+    font-size: 10.5px;
+    font-weight: 600;
+    text-align: center;
+    color: #666;
+    background: #fff;
+    border: 1.5px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .sub-btn:hover { border-color: #999; }
+  .sub-btn.active { background: #2563eb; border-color: #2563eb; color: #fff; }
+
+  /* Search */
+  .search-wrap { position: relative; }
+  .search-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1.5px solid #ddd;
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: inherit;
+    outline: none;
+    background: #fff;
+  }
+  .search-input:focus { border-color: #2563eb; }
+  .search-results {
+    /* In-flow (not absolute) so it is never clipped by the scrollable panel body */
+    margin-top: 6px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    max-height: 220px;
+    overflow-y: auto;
+    display: none;
+  }
+  .search-results.open { display: block; }
+  .search-item {
+    padding: 7px 12px;
+    font-size: 13px;
+    color: #1a1a1a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .search-item small { color: #888; font-size: 11px; white-space: nowrap; }
+  .search-item:hover, .search-item.active { background: #eff4ff; }
+  .search-empty { padding: 7px 12px; font-size: 12px; color: #999; }
+
+  /* District overview (collapsible) */
+  .overview summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    user-select: none;
+  }
+  .overview summary::-webkit-details-marker { display: none; }
+  .overview summary::after { content: '\25B8'; font-size: 12px; color: #999; transition: transform 0.15s; }
+  .overview[open] summary::after { transform: rotate(90deg); }
+  .overview summary:hover { color: #555; }
+  .ov-body { margin-top: 6px; }
+  .ov-head { font-size: 12.5px; color: #333; margin: 4px 0 2px; }
+  .ov-head b { font-weight: 700; color: #1a1a1a; }
+  .ov-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 12px;
+    color: #333;
+    padding: 3px 0 0;
+  }
+  .ov-row b { font-weight: 600; color: #1a1a1a; }
+  .ov-delta { font-size: 11px; font-weight: 700; margin-left: 6px; }
+  .ov-bar { height: 5px; background: #f0f0f0; border-radius: 3px; overflow: hidden; margin: 2px 0 2px; }
+  .ov-bar div { height: 100%; border-radius: 3px; }
+  .ov-sub { font-size: 11px; font-weight: 600; color: #999; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 10px; }
+  .ov-note { font-size: 10px; color: #999; margin-top: 6px; line-height: 1.4; }
+  .legend-group { display: none; }
+  .legend-group.visible { display: block; }
+
+  @media (max-width: 600px) {
+    /* Panel becomes a bottom sheet: a slim bar when collapsed, scrollable when open */
+    .panel {
+      top: auto; left: 8px; right: 8px; bottom: 8px;
+      width: auto; max-width: none;
+      max-height: 70vh;
+    }
+    .panel-header { padding: 10px 10px 10px 14px; }
+    .panel-title { font-size: 14px; }
+    .panel.collapsed .panel-brand { display: none; } /* "Enrollment Dashboard" + button fit a phone width */
+    .panel-body { padding: 2px 14px 12px; }
+    .filter-btn { padding: 5px 10px; font-size: 12px; }
+    .boundary-pill { padding: 5px 10px; font-size: 12px; }
+    /* The sheet covers the bottom-right corner; rely on pinch-zoom and move attribution up (see JS) */
+    .leaflet-control-zoom { display: none; }
+  }
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div class="panel" id="panel">
+  <div class="panel-header">
+    <div class="panel-title">
+      <span class="panel-brand">BVSD Schools — </span>Enrollment Dashboard
+      <small>Boulder Valley School District · Enrollment 2014–2025 · Projected 2026–2030</small>
+    </div>
+    <button class="panel-toggle" id="panelToggle" aria-controls="panelBody" aria-expanded="true">Hide</button>
+  </div>
+  <div class="panel-body" id="panelBody">
+    <div class="proposal-note">
+      <b>Resilient Schools proposal (Aug 25):</b> BVSD proposes to close, consolidate, reconfigure or relocate eight schools, effective 2027-28 if approved. Board vote Sept.&nbsp;22.
+      <a href="#" id="viewProposal">See it on the map</a> · <a href="https://www.bvsd.org/current-topics/declining-enrollment" target="_blank" rel="noopener">BVSD website</a>
+      <div style="margin-top:6px">Even if adopted, <b><span id="stillBelowCount">–</span> schools</b> would remain below 60% of capacity in ~2030. <a href="#" id="viewResidual">See which</a></div>
+    </div>
+    <div class="panel-section">
+      <div class="search-wrap">
+        <input id="schoolSearch" class="search-input" type="search" placeholder="Find a school…" autocomplete="off" spellcheck="false" aria-label="Find a school" aria-controls="searchResults">
+        <div id="searchResults" class="search-results" role="listbox"></div>
+      </div>
+    </div>
+    <details class="panel-section overview" id="overview">
+      <summary>District overview · 2025 → 2030</summary>
+      <div class="ov-body" id="overviewBody"></div>
+    </details>
+    <div class="panel-section">
+      <div class="legend-section-label">School level</div>
+      <div class="pill-row" id="filters"></div>
+      <label class="panel-check" for="showOtherToggle">
+        <input type="checkbox" id="showOtherToggle">
+        <svg width="12" height="12" aria-hidden="true"><polygon points="6,1 11,6 6,11 1,6" fill="#888" stroke="#fff" stroke-width="1"/></svg>
+        Show other programs <span class="count" id="otherCount">0</span>
+      </label>
+    </div>
+    <div class="panel-section">
+      <div class="legend-section-label">Attendance boundaries</div>
+      <div class="pill-row" id="boundaries"></div>
+    </div>
+    <div class="panel-section">
+      <div class="legend-section-label">Color by</div>
+      <div class="mode-toggle">
+        <button class="mode-btn active" data-mode="enrollment">% of Peak</button>
+        <button class="mode-btn" data-mode="capacity">% of Capacity</button>
+        <button class="mode-btn" data-mode="projchange">Projected Change</button>
+        <button class="mode-btn" data-mode="proposal">Proposed Plan</button>
+      </div>
+      <div class="legend-group visible" id="legend-enrollment">
+        <div class="legend-item"><div class="legend-dot" style="background:#E24B4A"></div> Below 60% of 10-yr peak</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#EF9F27"></div> 60% – 79%</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#378ADD"></div> 80% or above</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#aaa"></div> No data</div>
+      </div>
+      <div class="legend-group" id="legend-capacity">
+        <div class="sub-toggle" id="capacityView">
+          <button class="sub-btn active" data-view="now">Today</button>
+          <button class="sub-btn" data-view="proj">2030 status quo</button>
+          <button class="sub-btn" data-view="proposal">2030 w/ proposal</button>
+        </div>
+        <div class="legend-item"><div class="legend-dot" style="background:#E24B4A"></div> Below 60% of building capacity</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#EF9F27"></div> 60% – 79%</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#378ADD"></div> 80% – 100%</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#10b981"></div> Over capacity</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#555"></div> Building closed (proposal view)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#aaa"></div> No data or exempt (high schools, mountain schools)</div>
+        <div style="font-size:10.5px;color:#999;margin-top:4px">"2030 w/ proposal" uses BVSD's post-change projections for affected schools and its status-quo projections for the rest.</div>
+      </div>
+      <div class="legend-group" id="legend-projchange">
+        <div class="legend-item"><div class="legend-dot" style="background:#E24B4A"></div> Projected to shrink 10%+ by ~2030</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#EF9F27"></div> Shrink 2% – 10%</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#378ADD"></div> Roughly stable (±2%)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#10b981"></div> Grow 2%+</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#aaa"></div> No projection (high schools, some programs)</div>
+      </div>
+      <div class="legend-group" id="legend-proposal">
+        <div class="legend-item"><div class="legend-dot" style="background:#E24B4A"></div> Building would close</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#378ADD"></div> Would receive students or a program</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> School would relocate</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#EF9F27"></div> Grade reconfiguration (PK-8)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#aaa"></div> No change proposed</div>
+        <div style="font-size:10.5px;color:#999;margin-top:4px">Arrows show where students and programs would go. Proposed Aug 25, 2026; Board vote Sept. 22.</div>
+      </div>
+    </div>
+    <div class="legend-source">
+      Tap a school for its enrollment history, capacity and projections.<br>
+      Source: BVSD October Headcount 2014–2025 · Resilient Schools process · <a href="/about">About &amp; data sources</a>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const map = L.map('map', { zoomControl: false }).setView([39.985, -105.185], 11);
+L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+// Esri Light Gray canvas — CARTO's free basemaps now watermark tiles served
+// without an API key. Esri's canvas tiles top out at zoom 16.
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  attribution: 'Powered by <a href="https://www.esri.com/">Esri</a> &copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 16
+}).addTo(map);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+  maxZoom: 16
+}).addTo(map);
+
+const RED = '#E24B4A', ORANGE = '#EF9F27', BLUE = '#378ADD', GRAY = '#aaa';
+
+function riskColor(pct) {
+  if (pct === null) return GRAY;
+  if (pct < 60) return RED;
+  if (pct < 80) return ORANGE;
+  return BLUE;
+}
+
+function makeIcon(shape, color, size) {
+  const s = size || 20;
+  const h = s / 2;
+  let svg;
+  if (shape === 'circle')
+    svg = `<circle cx="${h}" cy="${h}" r="${h-2}" fill="${color}" stroke="#fff" stroke-width="2"/>`;
+  else if (shape === 'square')
+    svg = `<rect x="2" y="2" width="${s-4}" height="${s-4}" rx="3" fill="${color}" stroke="#fff" stroke-width="2"/>`;
+  else if (shape === 'triangle')
+    svg = `<polygon points="${h},2 ${s-2},${s-2} 2,${s-2}" fill="${color}" stroke="#fff" stroke-width="2"/>`;
+  else // diamond
+    svg = `<polygon points="${h},1 ${s-2},${h} ${h},${s-1} 2,${h}" fill="${color}" stroke="#fff" stroke-width="2"/>`;
+  return L.divIcon({
+    className: '',
+    html: `<svg width="${s}" height="${s}">${svg}</svg>`,
+    iconSize: [s, s],
+    iconAnchor: [h, h],
+    popupAnchor: [0, -h]
+  });
+}
+
+const shapeFor = { elementary: 'circle', middle: 'square', high: 'triangle', other: 'diamond' };
+const levelLabels = { elementary: 'Elementary', middle: 'Middle School', high: 'High School', other: 'Other Program' };
+
+// Sparkline SVG generator
+function sparkline(history, width, height) {
+  if (!history || history.length < 2) return '';
+  const vals = history.map(h => h.enrollment);
+  const mn = Math.min(...vals) * 0.9;
+  const mx = Math.max(...vals) * 1.05;
+  const range = mx - mn || 1;
+  const step = width / (vals.length - 1);
+  const points = vals.map((v, i) => `${(i * step).toFixed(1)},${(height - ((v - mn) / range) * height).toFixed(1)}`).join(' ');
+  const last = vals[vals.length - 1];
+  const lastX = ((vals.length - 1) * step).toFixed(1);
+  const lastY = (height - ((last - mn) / range) * height).toFixed(1);
+  const color = riskColor(vals.length > 0 ? null : null);
+  return `<svg width="${width}" height="${height + 4}" style="display:block">
+    <polyline points="${points}" fill="none" stroke="#999" stroke-width="1.5" stroke-linejoin="round"/>
+    <circle cx="${lastX}" cy="${lastY}" r="3" fill="${riskColor((last / Math.max(...vals)) * 100)}"/>
+  </svg>`;
+}
+
+// Sparkline showing % of capacity over time (historical + projected)
+function capacitySparkline(school, level, width, height) {
+  const capInfo = school.capacityByLevel && school.capacityByLevel[level];
+  if (!capInfo) return '';
+  const eData = school.enrollmentByLevel && school.enrollmentByLevel[level];
+  if (!eData || !eData.history || eData.history.length < 2) return '';
+
+  const cap = capInfo.capacity;
+  const histPcts = eData.history.map(h => ({ year: h.year, pct: h.enrollment / cap * 100 }));
+  const projPcts = (capInfo.projected || []).map(p => ({ year: p.year, pct: p.enrollment / cap * 100 }));
+  const allPcts = [...histPcts, ...projPcts];
+
+  // "With proposal" series — utilization midpoints straight from BVSD's Aug 25 deck
+  const propEntry = (proposalProjections[school.name] || {})[level];
+  const propPcts = propEntry ? propEntry.points.map(pt => ({ year: pt.y, pct: (pt.pctLo + pt.pctHi) / 2 })) : [];
+
+  const mx = Math.max(120, ...allPcts.map(p => p.pct), ...propPcts.map(p => p.pct));
+  const firstYear = histPcts[0].year;
+  const lastYear = Math.max(allPcts[allPcts.length - 1].year, ...propPcts.map(p => p.year));
+  // X position is by year (all series share one axis), not by point index
+  const X = y => (((y - firstYear) / (lastYear - firstYear)) * width).toFixed(1);
+  const Y = pct => (height - (pct / mx) * height).toFixed(1);
+  const coords = arr => arr.map(p => `${X(p.year)},${Y(p.pct)}`).join(' ');
+  const refY = Y(100);
+
+  let svg = `<svg width="${width}" height="${height + 12}" style="display:block">`;
+  svg += `<line x1="0" y1="${refY}" x2="${width}" y2="${refY}" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>`;
+  svg += `<text x="${width}" y="${parseFloat(refY) - 2}" fill="#bbb" font-size="7" text-anchor="end">100% cap</text>`;
+
+  // Historical line (solid)
+  if (histPcts.length > 1) {
+    svg += `<polyline points="${coords(histPcts)}" fill="none" stroke="#666" stroke-width="1.5" stroke-linejoin="round"/>`;
+  }
+
+  // Status-quo projection (dashed, connects from last historical point)
+  if (projPcts.length > 0) {
+    svg += `<polyline points="${coords([histPcts[histPcts.length - 1], ...projPcts])}" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="4,3"/>`;
+  }
+
+  // Status-quo end dot
+  const lastBase = allPcts[allPcts.length - 1];
+  svg += `<circle cx="${X(lastBase.year)}" cy="${Y(lastBase.pct)}" r="3" fill="${capacityColor(lastBase.pct)}"/>`;
+
+  // Proposal branch: from the last pre-change projection (2026-27), jump to the
+  // post-change level — up for receiving schools, to zero for closing ones.
+  if (propPcts.length > 0) {
+    const anchor = projPcts.find(p => p.year === 2026) || histPcts[histPcts.length - 1];
+    svg += `<polyline points="${coords([anchor, ...propPcts])}" fill="none" stroke="#f59e0b" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="2,3"/>`;
+    const lastProp = propPcts[propPcts.length - 1];
+    svg += `<circle cx="${X(lastProp.year)}" cy="${Y(lastProp.pct)}" r="3" fill="#f59e0b"/>`;
+  }
+
+  // Year labels
+  svg += `<text x="0" y="${height + 10}" fill="#bbb" font-size="7">'${String(firstYear).slice(2)}</text>`;
+  svg += `<text x="${width}" y="${height + 10}" fill="#bbb" font-size="7" text-anchor="end">'${String(lastYear).slice(2)}</text>`;
+
+  svg += `</svg>`;
+  return svg;
+}
+
+function buildPopup(school, level) {
+  const levelLabel = school.levels.length > 1
+    ? school.levels.map(l => levelLabels[l]).join(' / ')
+    : levelLabels[level];
+
+  let html = `<div class="popup-name">${school.name}</div>`;
+  html += `<div class="popup-level">${levelLabel}</div>`;
+  if (school.addr) html += `<div style="color:#666;font-size:12px;margin-bottom:6px">${school.addr}</div>`;
+
+  // Get enrollment data for this specific level
+  const eKey = level; // 'elementary', 'middle', or 'high'
+  const eData = school.enrollmentByLevel && school.enrollmentByLevel[eKey];
+
+  if (eData) {
+    const pct = eData.pctOfPeak;
+    const barColor = riskColor(pct);
+    html += `<div class="popup-stat-row"><span class="popup-stat-label">Current (2025)</span><span class="popup-stat-value">${eData.current}</span></div>`;
+    html += `<div class="popup-stat-row"><span class="popup-stat-label">10-yr peak</span><span class="popup-stat-value">${eData.peak} (${eData.peakYear})</span></div>`;
+    html += `<div class="popup-stat-row"><span class="popup-stat-label">% of peak</span><span class="popup-stat-value" style="color:${barColor}">${pct}%</span></div>`;
+    html += `<div class="popup-bar-container"><div class="popup-bar" style="width:${Math.min(pct, 100)}%;background:${barColor}"></div></div>`;
+
+    if (eData.history && eData.history.length > 1) {
+      html += `<div class="popup-sparkline">`;
+      html += `<div class="popup-sparkline-label">Enrollment trend 2014–2025</div>`;
+      html += sparkline(eData.history, 190, 40);
+      html += `</div>`;
+    }
+  }
+
+  // Capacity & projections for this level (elementary and middle tables; see capacityForecast)
+  const capInfo = school.capacityByLevel && school.capacityByLevel[level];
+  if (capInfo) {
+    const capPct = capInfo.pctCapacity;
+    html += `<div style="border-top:1px solid #eee;margin-top:8px;padding-top:6px">`;
+    html += `<div class="popup-stat-row"><span class="popup-stat-label">Building capacity</span><span class="popup-stat-value">${capInfo.capacity}</span></div>`;
+    if (capPct !== null) {
+      const capColor = capacityColor(capPct);
+      html += `<div class="popup-stat-row"><span class="popup-stat-label">% of capacity</span><span class="popup-stat-value" style="color:${capColor}">${capPct}%</span></div>`;
+      html += `<div class="popup-bar-container"><div class="popup-bar" style="width:${Math.min(capPct, 100)}%;background:${capColor}"></div></div>`;
+    }
+    const propEntry = (proposalProjections[school.name] || {})[level];
+    const capSpark = capacitySparkline(school, level, 190, 40);
+    if (capSpark) {
+      html += `<div class="popup-sparkline">`;
+      html += `<div class="popup-sparkline-label">% of capacity over time <span style="color:#2563eb">— projected</span>${propEntry ? ' <span style="color:#f59e0b">— with proposal</span>' : ''}</div>`;
+      html += capSpark;
+      html += `</div>`;
+    }
+    if (capInfo.projected && capInfo.projected.length > 0) {
+      html += `<div style="margin-top:6px;font-size:11px;color:#666">`;
+      html += `<div style="font-size:10px;color:#999;margin-bottom:2px">Projected enrollment</div>`;
+      html += capInfo.projected.map(p => `<span style="margin-right:8px">'${String(p.year).slice(2)}: <b>${p.enrollment}</b></span>`).join('');
+      html += `</div>`;
+    }
+    if (capInfo.projChange !== null) {
+      const pc = capInfo.projChange;
+      html += `<div class="popup-stat-row" style="margin-top:4px"><span class="popup-stat-label">Projected change by ${capInfo.projYear}</span><span class="popup-stat-value" style="color:${projChangeColor(pc)}">${pc > 0 ? '+' : ''}${pc}%</span></div>`;
+    }
+    if (propEntry) {
+      if (propEntry.closes) {
+        html += `<div class="popup-stat-row"><span class="popup-stat-label">With proposal</span><span class="popup-stat-value" style="color:#b45309">${propEntry.closes}</span></div>`;
+      } else {
+        propEntry.points.forEach(pt => {
+          html += `<div class="popup-stat-row"><span class="popup-stat-label">With proposal (${pt.y}-${String(pt.y + 1).slice(2)})</span><span class="popup-stat-value" style="color:#b45309">${pt.lo}–${pt.hi} · ${pt.pctLo}–${pt.pctHi}%</span></div>`;
+        });
+        if (propEntry.capacityNote) html += `<div style="font-size:10px;color:#999;margin-top:2px">${propEntry.capacityNote}</div>`;
+      }
+    }
+    if (capInfo.source) html += `<div style="margin-top:5px;font-size:10px;color:#aaa">${capInfo.source}</div>`;
+    html += `</div>`;
+  }
+
+  if (school.extra) html += `<div style="margin-top:6px;font-size:12px;color:#666">${school.extra}</div>`;
+
+  // Resilient Schools proposal (Aug 25, 2026)
+  const prop = proposals[school.name];
+  if (prop) {
+    html += `<div class="popup-proposal">`;
+    html += `<div class="popup-proposal-title">Proposed plan · Aug 25, 2026</div>`;
+    html += prop.text;
+    html += `<div class="popup-proposal-meta">Board vote Sept. 22, 2026 · effective 2027-28 if approved · <a href="https://www.bvsd.org/current-topics/declining-enrollment" target="_blank" rel="noopener">BVSD details</a></div>`;
+    html += `</div>`;
+  }
+
+  // Closure risk status
+  const cl = closureLabel(school);
+  if (cl) {
+    const clCls = school.closureRisk === 'engagement' ? 'status-red' : school.closureRisk === 'advisory' ? 'status-orange' : 'status-purple';
+    html += `<div class="popup-status ${clCls}">${cl}</div>`;
+  }
+
+  return html;
+}
+
+// ─── SCHOOL DATA ───
+// enrollmentByLevel: { elementary: {...}, middle: {...}, high: {...} }
+// Each level entry: { current, peak, peakYear, pctOfPeak, history: [{year, enrollment}] }
+
+const schools = [
+  // ── ELEMENTARY SCHOOLS ──
+  { name: 'Flatirons Elementary', addr: '1150 7th St, Boulder', lat: 40.0084, lng: -105.2851, levels: ['elementary'], closureRisk: 'engagement',
+    enrollmentByLevel: { elementary: { current: 150, peak: 290, peakYear: 2014, pctOfPeak: 51.7, history: [{year:2014,enrollment:290},{year:2015,enrollment:276},{year:2016,enrollment:266},{year:2017,enrollment:256},{year:2018,enrollment:246},{year:2019,enrollment:243},{year:2020,enrollment:177},{year:2021,enrollment:182},{year:2022,enrollment:186},{year:2023,enrollment:175},{year:2024,enrollment:162},{year:2025,enrollment:150}] }}},
+  { name: 'Heatherwood Elementary', addr: '7750 Concord Dr, Boulder', lat: 40.0576, lng: -105.1725, levels: ['elementary'], closureRisk: 'engagement',
+    enrollmentByLevel: { elementary: { current: 225, peak: 385, peakYear: 2015, pctOfPeak: 58.4, history: [{year:2014,enrollment:383},{year:2015,enrollment:385},{year:2016,enrollment:373},{year:2017,enrollment:364},{year:2018,enrollment:348},{year:2019,enrollment:340},{year:2020,enrollment:258},{year:2021,enrollment:259},{year:2022,enrollment:260},{year:2023,enrollment:249},{year:2024,enrollment:236},{year:2025,enrollment:225}] }}},
+  { name: 'Kohl Elementary', addr: '1000 W 10th Ave, Broomfield', lat: 39.9286, lng: -105.0832, levels: ['elementary'], closureRisk: 'engagement',
+    enrollmentByLevel: { elementary: { current: 256, peak: 487, peakYear: 2014, pctOfPeak: 52.6, history: [{year:2014,enrollment:487},{year:2015,enrollment:467},{year:2016,enrollment:441},{year:2017,enrollment:418},{year:2018,enrollment:397},{year:2019,enrollment:374},{year:2020,enrollment:305},{year:2021,enrollment:299},{year:2022,enrollment:302},{year:2023,enrollment:279},{year:2024,enrollment:263},{year:2025,enrollment:256}] }}},
+  { name: 'Community Montessori', addr: '805 Gillaspie Dr, Boulder', lat: 39.9815, lng: -105.2519, levels: ['other'], closureRisk: 'advisory',
+    enrollmentByLevel: { other: { current: 195, peak: 270, peakYear: 2014, pctOfPeak: 72.2, history: [{year:2014,enrollment:270},{year:2015,enrollment:266},{year:2016,enrollment:268},{year:2017,enrollment:258},{year:2018,enrollment:263},{year:2019,enrollment:256},{year:2020,enrollment:218},{year:2021,enrollment:216},{year:2022,enrollment:217},{year:2023,enrollment:205},{year:2024,enrollment:201},{year:2025,enrollment:195}] }}, extra: 'Montessori program' },
+  { name: 'Mesa Elementary', addr: '1575 Lehigh St, Boulder', lat: 39.9722, lng: -105.2610, levels: ['elementary'], closureRisk: 'advisory',
+    enrollmentByLevel: { elementary: { current: 225, peak: 330, peakYear: 2014, pctOfPeak: 68.2, history: [{year:2014,enrollment:330},{year:2015,enrollment:316},{year:2016,enrollment:307},{year:2017,enrollment:294},{year:2018,enrollment:292},{year:2019,enrollment:272},{year:2020,enrollment:223},{year:2021,enrollment:243},{year:2022,enrollment:253},{year:2023,enrollment:240},{year:2024,enrollment:226},{year:2025,enrollment:225}] }}},
+  { name: 'Coal Creek Elementary', addr: '801 W Tamarisk St, Louisville', lat: 39.9827, lng: -105.1578, levels: ['elementary'], closureRisk: 'projected',
+    enrollmentByLevel: { elementary: { current: 268, peak: 427, peakYear: 2014, pctOfPeak: 62.8, history: [{year:2014,enrollment:427},{year:2015,enrollment:413},{year:2016,enrollment:395},{year:2017,enrollment:382},{year:2018,enrollment:353},{year:2019,enrollment:344},{year:2020,enrollment:282},{year:2021,enrollment:280},{year:2022,enrollment:286},{year:2023,enrollment:271},{year:2024,enrollment:272},{year:2025,enrollment:268}] }}},
+  { name: 'Columbine Elementary', addr: '3130 Repplier St, Boulder', lat: 40.0321, lng: -105.2690, levels: ['elementary'], closureRisk: 'projected',
+    enrollmentByLevel: { elementary: { current: 313, peak: 534, peakYear: 2016, pctOfPeak: 58.6, history: [{year:2014,enrollment:523},{year:2015,enrollment:527},{year:2016,enrollment:534},{year:2017,enrollment:513},{year:2018,enrollment:488},{year:2019,enrollment:470},{year:2020,enrollment:381},{year:2021,enrollment:384},{year:2022,enrollment:375},{year:2023,enrollment:339},{year:2024,enrollment:325},{year:2025,enrollment:313}] }}},
+  { name: 'Creekside Elementary', addr: '3740 Martin Dr, Boulder', lat: 39.9906, lng: -105.2491, levels: ['elementary'], closureRisk: 'projected',
+    enrollmentByLevel: { elementary: { current: 289, peak: 382, peakYear: 2019, pctOfPeak: 75.7, history: [{year:2014,enrollment:365},{year:2015,enrollment:360},{year:2016,enrollment:365},{year:2017,enrollment:380},{year:2018,enrollment:377},{year:2019,enrollment:382},{year:2020,enrollment:312},{year:2021,enrollment:321},{year:2022,enrollment:310},{year:2023,enrollment:291},{year:2024,enrollment:285},{year:2025,enrollment:289}] }}},
+  { name: 'Crest View Elementary', addr: '1897 Sumac Ave, Boulder', lat: 40.0516, lng: -105.2742, levels: ['elementary'], closureRisk: 'projected',
+    enrollmentByLevel: { elementary: { current: 331, peak: 605, peakYear: 2016, pctOfPeak: 54.7, history: [{year:2014,enrollment:590},{year:2015,enrollment:597},{year:2016,enrollment:605},{year:2017,enrollment:564},{year:2018,enrollment:521},{year:2019,enrollment:497},{year:2020,enrollment:393},{year:2021,enrollment:389},{year:2022,enrollment:379},{year:2023,enrollment:358},{year:2024,enrollment:340},{year:2025,enrollment:331}] }}},
+  { name: 'Douglass Elementary', addr: '840 N 75th St, Boulder', lat: 40.0024, lng: -105.1770, levels: ['elementary'], closureRisk: 'projected',
+    enrollmentByLevel: { elementary: { current: 281, peak: 473, peakYear: 2015, pctOfPeak: 59.4, history: [{year:2014,enrollment:467},{year:2015,enrollment:473},{year:2016,enrollment:446},{year:2017,enrollment:420},{year:2018,enrollment:406},{year:2019,enrollment:379},{year:2020,enrollment:311},{year:2021,enrollment:317},{year:2022,enrollment:320},{year:2023,enrollment:293},{year:2024,enrollment:281},{year:2025,enrollment:281}] }}},
+  { name: 'Eisenhower Elementary', addr: '1220 Eisenhower Dr, Boulder', lat: 40.0082, lng: -105.2339, levels: ['elementary'], closureRisk: 'advisory',
+    enrollmentByLevel: { elementary: { current: 265, peak: 418, peakYear: 2016, pctOfPeak: 63.4, history: [{year:2014,enrollment:395},{year:2015,enrollment:407},{year:2016,enrollment:418},{year:2017,enrollment:401},{year:2018,enrollment:383},{year:2019,enrollment:369},{year:2020,enrollment:293},{year:2021,enrollment:300},{year:2022,enrollment:304},{year:2023,enrollment:284},{year:2024,enrollment:268},{year:2025,enrollment:265}] }}},
+  { name: 'Louisville Elementary', addr: '400 Hutchinson St, Louisville', lat: 39.9750, lng: -105.1380, levels: ['elementary'], closureRisk: 'projected',
+    enrollmentByLevel: { elementary: { current: 381, peak: 584, peakYear: 2014, pctOfPeak: 65.2, history: [{year:2014,enrollment:584},{year:2015,enrollment:582},{year:2016,enrollment:573},{year:2017,enrollment:543},{year:2018,enrollment:498},{year:2019,enrollment:474},{year:2020,enrollment:381},{year:2021,enrollment:391},{year:2022,enrollment:393},{year:2023,enrollment:390},{year:2024,enrollment:385},{year:2025,enrollment:381}] }}},
+  { name: "Alicia Sanchez Int'l School", addr: '655 Sir Galahad Dr, Lafayette', lat: 39.9893, lng: -105.0841, levels: ['elementary'], closureRisk: 'projected',
+    enrollmentByLevel: { elementary: { current: 276, peak: 403, peakYear: 2016, pctOfPeak: 68.5, history: [{year:2014,enrollment:385},{year:2015,enrollment:393},{year:2016,enrollment:403},{year:2017,enrollment:386},{year:2018,enrollment:371},{year:2019,enrollment:365},{year:2020,enrollment:301},{year:2021,enrollment:306},{year:2022,enrollment:296},{year:2023,enrollment:276},{year:2024,enrollment:275},{year:2025,enrollment:276}] }}},
+  { name: 'University Hill Elementary', addr: '956 16th St, Boulder', lat: 40.0051, lng: -105.2748, levels: ['elementary'], closureRisk: 'projected',
+    enrollmentByLevel: { elementary: { current: 370, peak: 451, peakYear: 2019, pctOfPeak: 82.0, history: [{year:2014,enrollment:375},{year:2015,enrollment:380},{year:2016,enrollment:406},{year:2017,enrollment:420},{year:2018,enrollment:448},{year:2019,enrollment:451},{year:2020,enrollment:367},{year:2021,enrollment:389},{year:2022,enrollment:393},{year:2023,enrollment:395},{year:2024,enrollment:383},{year:2025,enrollment:370}] }}, extra: 'Dual immersion Spanish/English' },
+  { name: 'Whittier International Elementary', addr: '2008 Pine St, Boulder', lat: 40.0216, lng: -105.2696, levels: ['elementary'], closureRisk: 'advisory',
+    enrollmentByLevel: { elementary: { current: 258, peak: 422, peakYear: 2016, pctOfPeak: 61.1, history: [{year:2014,enrollment:414},{year:2015,enrollment:415},{year:2016,enrollment:422},{year:2017,enrollment:390},{year:2018,enrollment:370},{year:2019,enrollment:347},{year:2020,enrollment:280},{year:2021,enrollment:286},{year:2022,enrollment:284},{year:2023,enrollment:268},{year:2024,enrollment:260},{year:2025,enrollment:258}] }}},
+  { name: 'Bear Creek Elementary', addr: '2500 Table Mesa Dr, Boulder', lat: 39.9804, lng: -105.2631, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 312, peak: 448, peakYear: 2017, pctOfPeak: 69.6, history: [{year:2014,enrollment:417},{year:2015,enrollment:441},{year:2016,enrollment:438},{year:2017,enrollment:448},{year:2018,enrollment:425},{year:2019,enrollment:402},{year:2020,enrollment:342},{year:2021,enrollment:346},{year:2022,enrollment:340},{year:2023,enrollment:299},{year:2024,enrollment:318},{year:2025,enrollment:312}] }}},
+  { name: 'Birch Elementary', addr: '1035 Birch St, Broomfield', lat: 39.9304, lng: -105.0594, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 257, peak: 410, peakYear: 2017, pctOfPeak: 62.7, history: [{year:2014,enrollment:383},{year:2015,enrollment:407},{year:2016,enrollment:407},{year:2017,enrollment:410},{year:2018,enrollment:375},{year:2019,enrollment:384},{year:2020,enrollment:322},{year:2021,enrollment:315},{year:2022,enrollment:292},{year:2023,enrollment:272},{year:2024,enrollment:261},{year:2025,enrollment:257}] }}},
+  { name: 'BCSIS', addr: '3995 Aurora Ave, Boulder', lat: 40.0043, lng: -105.2439, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 251, peak: 308, peakYear: 2016, pctOfPeak: 81.5, history: [{year:2014,enrollment:307},{year:2015,enrollment:301},{year:2016,enrollment:308},{year:2017,enrollment:304},{year:2018,enrollment:306},{year:2019,enrollment:306},{year:2020,enrollment:286},{year:2021,enrollment:286},{year:2022,enrollment:284},{year:2023,enrollment:264},{year:2024,enrollment:255},{year:2025,enrollment:251}] }}},
+  { name: 'Emerald Elementary', addr: '275 Emerald St, Broomfield', lat: 39.9211, lng: -105.0774, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 367, peak: 440, peakYear: 2018, pctOfPeak: 83.4, history: [{year:2014,enrollment:407},{year:2015,enrollment:415},{year:2016,enrollment:427},{year:2017,enrollment:435},{year:2018,enrollment:440},{year:2019,enrollment:425},{year:2020,enrollment:367},{year:2021,enrollment:381},{year:2022,enrollment:386},{year:2023,enrollment:373},{year:2024,enrollment:369},{year:2025,enrollment:367}] }}},
+  { name: 'Escuela Bilingue Pioneer', addr: '101 E Baseline Rd, Lafayette', lat: 40.0007, lng: -105.0893, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 371, peak: 480, peakYear: 2015, pctOfPeak: 77.3, history: [{year:2014,enrollment:467},{year:2015,enrollment:480},{year:2016,enrollment:478},{year:2017,enrollment:472},{year:2018,enrollment:445},{year:2019,enrollment:430},{year:2020,enrollment:359},{year:2021,enrollment:374},{year:2022,enrollment:380},{year:2023,enrollment:371},{year:2024,enrollment:369},{year:2025,enrollment:371}] }}},
+  { name: 'Fireside Elementary', addr: '845 W Dahlia St, Louisville', lat: 39.9692, lng: -105.1576, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 407, peak: 471, peakYear: 2016, pctOfPeak: 86.4, history: [{year:2014,enrollment:453},{year:2015,enrollment:466},{year:2016,enrollment:471},{year:2017,enrollment:462},{year:2018,enrollment:432},{year:2019,enrollment:434},{year:2020,enrollment:377},{year:2021,enrollment:389},{year:2022,enrollment:394},{year:2023,enrollment:389},{year:2024,enrollment:399},{year:2025,enrollment:407}] }}},
+  { name: 'Foothill Elementary', addr: '1001 Hawthorn Ave, Boulder', lat: 40.0355, lng: -105.2840, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 434, peak: 547, peakYear: 2015, pctOfPeak: 79.3, history: [{year:2014,enrollment:537},{year:2015,enrollment:547},{year:2016,enrollment:544},{year:2017,enrollment:529},{year:2018,enrollment:509},{year:2019,enrollment:493},{year:2020,enrollment:406},{year:2021,enrollment:426},{year:2022,enrollment:435},{year:2023,enrollment:427},{year:2024,enrollment:431},{year:2025,enrollment:434}] }}},
+  { name: 'High Peaks Elementary', addr: '3995 Aurora Ave, Boulder', lat: 40.0041, lng: -105.2437, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 283, peak: 314, peakYear: 2015, pctOfPeak: 90.1, history: [{year:2014,enrollment:303},{year:2015,enrollment:314},{year:2016,enrollment:310},{year:2017,enrollment:306},{year:2018,enrollment:303},{year:2019,enrollment:298},{year:2020,enrollment:283},{year:2021,enrollment:287},{year:2022,enrollment:290},{year:2023,enrollment:282},{year:2024,enrollment:280},{year:2025,enrollment:283}] }}},
+  { name: 'Lafayette Elementary', addr: '101 N Bermont Ave, Lafayette', lat: 39.9985, lng: -105.0958, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 449, peak: 657, peakYear: 2016, pctOfPeak: 68.3, history: [{year:2014,enrollment:645},{year:2015,enrollment:649},{year:2016,enrollment:657},{year:2017,enrollment:631},{year:2018,enrollment:601},{year:2019,enrollment:582},{year:2020,enrollment:481},{year:2021,enrollment:492},{year:2022,enrollment:492},{year:2023,enrollment:468},{year:2024,enrollment:463},{year:2025,enrollment:449}] }}},
+  { name: 'Ryan Elementary', addr: '1405 Centaur Village Dr, Lafayette', lat: 39.9808, lng: -105.1097, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 394, peak: 555, peakYear: 2019, pctOfPeak: 71.0, history: [{year:2014,enrollment:496},{year:2015,enrollment:520},{year:2016,enrollment:543},{year:2017,enrollment:549},{year:2018,enrollment:543},{year:2019,enrollment:555},{year:2020,enrollment:446},{year:2021,enrollment:441},{year:2022,enrollment:430},{year:2023,enrollment:408},{year:2024,enrollment:396},{year:2025,enrollment:394}] }}},
+  { name: 'Superior Elementary', addr: '1800 S Indiana St, Superior', lat: 39.9379, lng: -105.1565, levels: ['elementary'],
+    enrollmentByLevel: { elementary: { current: 432, peak: 505, peakYear: 2014, pctOfPeak: 85.5, history: [{year:2014,enrollment:505},{year:2015,enrollment:502},{year:2016,enrollment:494},{year:2017,enrollment:479},{year:2018,enrollment:466},{year:2019,enrollment:459},{year:2020,enrollment:400},{year:2021,enrollment:418},{year:2022,enrollment:424},{year:2023,enrollment:418},{year:2024,enrollment:426},{year:2025,enrollment:432}] }}},
+  { name: 'Gold Hill Elementary', lat: 40.0629, lng: -105.4127, levels: ['elementary'], extra: 'Mountain school',
+    enrollmentByLevel: { elementary: { current: 11, peak: 27, peakYear: 2014, pctOfPeak: 40.7, history: [{year:2014,enrollment:27},{year:2015,enrollment:23},{year:2016,enrollment:21},{year:2017,enrollment:20},{year:2018,enrollment:19},{year:2019,enrollment:15},{year:2020,enrollment:13},{year:2021,enrollment:14},{year:2022,enrollment:12},{year:2023,enrollment:13},{year:2024,enrollment:12},{year:2025,enrollment:11}] }}},
+  { name: 'Jamestown Elementary', lat: 40.1148, lng: -105.3879, levels: ['elementary'], extra: 'Mountain school',
+    enrollmentByLevel: { elementary: { current: 17, peak: 20, peakYear: 2019, pctOfPeak: 85.0, history: [{year:2014,enrollment:13},{year:2015,enrollment:12},{year:2016,enrollment:14},{year:2017,enrollment:15},{year:2018,enrollment:18},{year:2019,enrollment:20},{year:2020,enrollment:18},{year:2021,enrollment:16},{year:2022,enrollment:16},{year:2023,enrollment:17},{year:2024,enrollment:16},{year:2025,enrollment:17}] }}},
+  { name: 'Nederland Elementary', lat: 39.9675, lng: -105.5138, levels: ['elementary'], extra: 'Mountain school',
+    enrollmentByLevel: { elementary: { current: 165, peak: 285, peakYear: 2014, pctOfPeak: 57.9, history: [{year:2014,enrollment:285},{year:2015,enrollment:274},{year:2016,enrollment:253},{year:2017,enrollment:241},{year:2018,enrollment:226},{year:2019,enrollment:222},{year:2020,enrollment:183},{year:2021,enrollment:175},{year:2022,enrollment:176},{year:2023,enrollment:171},{year:2024,enrollment:166},{year:2025,enrollment:165}] }}},
+  { name: 'Mapleton ECE', addr: '840 Mapleton Ave, Boulder', lat: 40.0204, lng: -105.2857, levels: ['other'],
+    enrollmentByLevel: { other: { current: null, peak: 76, peakYear: 2014, pctOfPeak: null, history: [] }}, extra: 'Early childhood education' },
+
+  // ── K-8 SCHOOLS ──
+  { name: 'Eldorado PK-8', addr: '3351 S Indiana St, Superior', lat: 39.9215, lng: -105.1612, levels: ['elementary', 'middle'], closureRisk: 'engagement',
+    enrollmentByLevel: {
+      elementary: { current: 252, peak: 536, peakYear: 2014, pctOfPeak: 47.0, history: [{year:2014,enrollment:536},{year:2015,enrollment:526},{year:2016,enrollment:505},{year:2017,enrollment:477},{year:2018,enrollment:432},{year:2019,enrollment:406},{year:2020,enrollment:316},{year:2021,enrollment:309},{year:2022,enrollment:298},{year:2023,enrollment:276},{year:2024,enrollment:261},{year:2025,enrollment:252}] },
+      middle: { current: 167, peak: 474, peakYear: 2017, pctOfPeak: 35.2, history: [{year:2014,enrollment:426},{year:2015,enrollment:447},{year:2016,enrollment:462},{year:2017,enrollment:474},{year:2018,enrollment:418},{year:2019,enrollment:382},{year:2020,enrollment:309},{year:2021,enrollment:282},{year:2022,enrollment:247},{year:2023,enrollment:196},{year:2024,enrollment:173},{year:2025,enrollment:167}] }
+    }},
+  { name: 'Monarch PK-8', addr: '263 Campus Dr, Louisville', lat: 39.9512, lng: -105.1438, levels: ['elementary', 'middle'], closureRisk: 'projected',
+    enrollmentByLevel: {
+      elementary: { current: 264, peak: 419, peakYear: 2015, pctOfPeak: 63.0, history: [{year:2014,enrollment:412},{year:2015,enrollment:419},{year:2016,enrollment:416},{year:2017,enrollment:407},{year:2018,enrollment:375},{year:2019,enrollment:362},{year:2020,enrollment:296},{year:2021,enrollment:299},{year:2022,enrollment:296},{year:2023,enrollment:276},{year:2024,enrollment:266},{year:2025,enrollment:264}] },
+      middle: { current: 422, peak: 471, peakYear: 2014, pctOfPeak: 89.6, history: [{year:2014,enrollment:471},{year:2015,enrollment:460},{year:2016,enrollment:461},{year:2017,enrollment:454},{year:2018,enrollment:436},{year:2019,enrollment:415},{year:2020,enrollment:376},{year:2021,enrollment:371},{year:2022,enrollment:366},{year:2023,enrollment:393},{year:2024,enrollment:400},{year:2025,enrollment:422}] }
+    }},
+  { name: 'Aspen Creek K-8', addr: '5500 Aspen Creek Dr, Broomfield', lat: 39.9473, lng: -105.0552, levels: ['elementary', 'middle'],
+    enrollmentByLevel: {
+      elementary: { current: 504, peak: 524, peakYear: 2014, pctOfPeak: 96.2, history: [{year:2014,enrollment:524},{year:2015,enrollment:496},{year:2016,enrollment:498},{year:2017,enrollment:487},{year:2018,enrollment:457},{year:2019,enrollment:445},{year:2020,enrollment:358},{year:2021,enrollment:382},{year:2022,enrollment:399},{year:2023,enrollment:421},{year:2024,enrollment:471},{year:2025,enrollment:504}] },
+      middle: { current: 409, peak: 446, peakYear: 2017, pctOfPeak: 91.7, history: [{year:2014,enrollment:437},{year:2015,enrollment:437},{year:2016,enrollment:432},{year:2017,enrollment:446},{year:2018,enrollment:424},{year:2019,enrollment:409},{year:2020,enrollment:364},{year:2021,enrollment:339},{year:2022,enrollment:334},{year:2023,enrollment:316},{year:2024,enrollment:372},{year:2025,enrollment:409}] }
+    }},
+  { name: 'Horizons K-8', addr: '4545 Sioux Dr, Boulder', lat: 39.9932, lng: -105.2370, levels: ['elementary', 'middle'],
+    enrollmentByLevel: {
+      elementary: { current: 246, peak: 246, peakYear: 2025, pctOfPeak: 100.0, history: [{year:2025,enrollment:246}] },
+      middle: { current: 122, peak: 122, peakYear: 2025, pctOfPeak: 100.0, history: [{year:2025,enrollment:122}] }
+    }, extra: 'New school — limited history' },
+  { name: 'Meadowlark PK-8', addr: '2300 Sweet Meadow Ln, Erie', lat: 40.0474, lng: -105.1026, levels: ['elementary', 'middle'],
+    enrollmentByLevel: {
+      elementary: { current: 472, peak: 505, peakYear: 2022, pctOfPeak: 93.5, history: [{year:2014,enrollment:244},{year:2015,enrollment:278},{year:2016,enrollment:311},{year:2017,enrollment:343},{year:2018,enrollment:375},{year:2019,enrollment:401},{year:2020,enrollment:372},{year:2021,enrollment:430},{year:2022,enrollment:505},{year:2023,enrollment:481},{year:2024,enrollment:473},{year:2025,enrollment:472}] },
+      middle: { current: 237, peak: 237, peakYear: 2025, pctOfPeak: 100.0, history: [{year:2025,enrollment:237}] }
+    }},
+
+  // ── K-12 / CHARTER ──
+  { name: 'Peak to Peak Charter', addr: '800 Merlin Dr, Lafayette', lat: 39.9880, lng: -105.0742, levels: ['elementary', 'middle', 'high'],
+    enrollmentByLevel: {
+      elementary: { current: 450, peak: 457, peakYear: 2015, pctOfPeak: 98.5, history: [{year:2014,enrollment:452},{year:2015,enrollment:457},{year:2016,enrollment:455},{year:2017,enrollment:452},{year:2018,enrollment:454},{year:2019,enrollment:454},{year:2020,enrollment:448},{year:2021,enrollment:450},{year:2022,enrollment:451},{year:2023,enrollment:451},{year:2024,enrollment:451},{year:2025,enrollment:450}] },
+      middle: { current: 404, peak: 406, peakYear: 2016, pctOfPeak: 99.5, history: [{year:2014,enrollment:399},{year:2015,enrollment:400},{year:2016,enrollment:406},{year:2017,enrollment:398},{year:2018,enrollment:400},{year:2019,enrollment:401},{year:2020,enrollment:397},{year:2021,enrollment:402},{year:2022,enrollment:402},{year:2023,enrollment:404},{year:2024,enrollment:404},{year:2025,enrollment:404}] },
+      high: { current: 595, peak: 599, peakYear: 2023, pctOfPeak: 99.3, history: [{year:2014,enrollment:567},{year:2015,enrollment:576},{year:2016,enrollment:581},{year:2017,enrollment:586},{year:2018,enrollment:592},{year:2019,enrollment:592},{year:2020,enrollment:594},{year:2021,enrollment:594},{year:2022,enrollment:597},{year:2023,enrollment:599},{year:2024,enrollment:596},{year:2025,enrollment:595}] }
+    }},
+  { name: 'Boulder Universal', addr: '6600 Arapahoe Rd, Boulder', lat: 39.9880, lng: -105.2050, levels: ['other'],
+    enrollmentByLevel: {
+      other: { current: 186, peak: 616, peakYear: 2020, pctOfPeak: 30.2, history: [{year:2014,enrollment:289},{year:2015,enrollment:325},{year:2016,enrollment:353},{year:2017,enrollment:402},{year:2018,enrollment:483},{year:2019,enrollment:558},{year:2020,enrollment:616},{year:2021,enrollment:537},{year:2022,enrollment:458},{year:2023,enrollment:279},{year:2024,enrollment:230},{year:2025,enrollment:186}] }
+    }, extra: 'K-12 alternative school' },
+
+  // ── MIDDLE SCHOOLS ──
+  { name: 'Angevine Middle School', addr: '1150 S Boulder Rd, Lafayette', lat: 39.9853, lng: -105.1020, levels: ['middle'],
+    enrollmentByLevel: { middle: { current: 588, peak: 725, peakYear: 2015, pctOfPeak: 81.1, history: [{year:2014,enrollment:662},{year:2015,enrollment:725},{year:2016,enrollment:711},{year:2017,enrollment:672},{year:2018,enrollment:693},{year:2019,enrollment:691},{year:2020,enrollment:636},{year:2021,enrollment:658},{year:2022,enrollment:659},{year:2023,enrollment:605},{year:2024,enrollment:616},{year:2025,enrollment:588}] }}},
+  { name: 'Broomfield Heights Middle School', addr: '1555 Daphne St, Broomfield', lat: 39.9370, lng: -105.0771, levels: ['middle'],
+    enrollmentByLevel: { middle: { current: 483, peak: 565, peakYear: 2018, pctOfPeak: 85.5, history: [{year:2014,enrollment:487},{year:2015,enrollment:509},{year:2016,enrollment:527},{year:2017,enrollment:548},{year:2018,enrollment:565},{year:2019,enrollment:556},{year:2020,enrollment:498},{year:2021,enrollment:495},{year:2022,enrollment:492},{year:2023,enrollment:479},{year:2024,enrollment:472},{year:2025,enrollment:483}] }}},
+  { name: 'Casey Middle School', addr: '1301 High St, Boulder', lat: 40.0225, lng: -105.2801, levels: ['middle'],
+    enrollmentByLevel: { middle: { current: 321, peak: 672, peakYear: 2017, pctOfPeak: 47.8, history: [{year:2014,enrollment:639},{year:2015,enrollment:655},{year:2016,enrollment:660},{year:2017,enrollment:672},{year:2018,enrollment:622},{year:2019,enrollment:594},{year:2020,enrollment:477},{year:2021,enrollment:463},{year:2022,enrollment:441},{year:2023,enrollment:370},{year:2024,enrollment:346},{year:2025,enrollment:321}] }}},
+  { name: 'Centennial Middle School', addr: '2205 Norwood Ave, Boulder', lat: 40.0443, lng: -105.2690, levels: ['middle'],
+    enrollmentByLevel: { middle: { current: 560, peak: 646, peakYear: 2017, pctOfPeak: 86.7, history: [{year:2014,enrollment:639},{year:2015,enrollment:631},{year:2016,enrollment:640},{year:2017,enrollment:646},{year:2018,enrollment:628},{year:2019,enrollment:604},{year:2020,enrollment:530},{year:2021,enrollment:534},{year:2022,enrollment:531},{year:2023,enrollment:538},{year:2024,enrollment:542},{year:2025,enrollment:560}] }}},
+  { name: 'Louisville Middle School', addr: '1341 Main St, Louisville', lat: 39.9840, lng: -105.1323, levels: ['middle'],
+    enrollmentByLevel: { middle: { current: 624, peak: 678, peakYear: 2018, pctOfPeak: 92.0, history: [{year:2014,enrollment:649},{year:2015,enrollment:651},{year:2016,enrollment:674},{year:2017,enrollment:670},{year:2018,enrollment:678},{year:2019,enrollment:674},{year:2020,enrollment:618},{year:2021,enrollment:622},{year:2022,enrollment:620},{year:2023,enrollment:619},{year:2024,enrollment:618},{year:2025,enrollment:624}] }}},
+  { name: 'Manhattan Middle School', addr: '290 Manhattan Dr, Boulder', lat: 39.9936, lng: -105.2297, levels: ['middle'],
+    enrollmentByLevel: { middle: { current: 450, peak: 543, peakYear: 2014, pctOfPeak: 82.9, history: [{year:2014,enrollment:543},{year:2015,enrollment:540},{year:2016,enrollment:525},{year:2017,enrollment:530},{year:2018,enrollment:535},{year:2019,enrollment:523},{year:2020,enrollment:461},{year:2021,enrollment:471},{year:2022,enrollment:474},{year:2023,enrollment:454},{year:2024,enrollment:440},{year:2025,enrollment:450}] }}},
+  { name: 'Nevin Platt Middle School', addr: '6096 Baseline Rd, Boulder', lat: 40.0036, lng: -105.2113, levels: ['middle'],
+    enrollmentByLevel: { middle: { current: 485, peak: 639, peakYear: 2016, pctOfPeak: 75.9, history: [{year:2014,enrollment:612},{year:2015,enrollment:629},{year:2016,enrollment:639},{year:2017,enrollment:624},{year:2018,enrollment:601},{year:2019,enrollment:570},{year:2020,enrollment:504},{year:2021,enrollment:504},{year:2022,enrollment:514},{year:2023,enrollment:494},{year:2024,enrollment:484},{year:2025,enrollment:485}] }}},
+  { name: 'Southern Hills Middle School', addr: '1500 Knox Dr, Boulder', lat: 39.9749, lng: -105.2459, levels: ['middle'],
+    enrollmentByLevel: { middle: { current: 560, peak: 560, peakYear: 2025, pctOfPeak: 100.0, history: [{year:2014,enrollment:501},{year:2015,enrollment:515},{year:2016,enrollment:494},{year:2017,enrollment:504},{year:2018,enrollment:503},{year:2019,enrollment:508},{year:2020,enrollment:444},{year:2021,enrollment:467},{year:2022,enrollment:476},{year:2023,enrollment:509},{year:2024,enrollment:539},{year:2025,enrollment:560}] }}},
+  { name: 'Summit Charter Middle School', addr: '4655 Hanover Ave, Boulder', lat: 39.9823, lng: -105.2414, levels: ['middle'],
+    enrollmentByLevel: { middle: { current: 365, peak: 366, peakYear: 2024, pctOfPeak: 99.7, history: [{year:2014,enrollment:344},{year:2015,enrollment:342},{year:2016,enrollment:339},{year:2017,enrollment:345},{year:2018,enrollment:340},{year:2019,enrollment:343},{year:2020,enrollment:327},{year:2021,enrollment:334},{year:2022,enrollment:342},{year:2023,enrollment:359},{year:2024,enrollment:366},{year:2025,enrollment:365}] }}},
+
+  // ── HIGH SCHOOLS ──
+  { name: 'Boulder High School', addr: '1604 Arapahoe Ave, Boulder', lat: 40.0145, lng: -105.2720, levels: ['high'],
+    enrollmentByLevel: { high: { current: 1768, peak: 2169, peakYear: 2019, pctOfPeak: 81.5, history: [{year:2014,enrollment:1997},{year:2015,enrollment:2031},{year:2016,enrollment:2098},{year:2017,enrollment:2134},{year:2018,enrollment:2162},{year:2019,enrollment:2169},{year:2020,enrollment:1991},{year:2021,enrollment:1975},{year:2022,enrollment:1943},{year:2023,enrollment:1877},{year:2024,enrollment:1823},{year:2025,enrollment:1768}] }}},
+  { name: 'Broomfield High School', addr: '1 Eagle Way, Broomfield', lat: 39.9300, lng: -105.0751, levels: ['high'],
+    enrollmentByLevel: { high: { current: 1658, peak: 1691, peakYear: 2023, pctOfPeak: 98.0, history: [{year:2014,enrollment:1451},{year:2015,enrollment:1461},{year:2016,enrollment:1506},{year:2017,enrollment:1524},{year:2018,enrollment:1549},{year:2019,enrollment:1576},{year:2020,enrollment:1513},{year:2021,enrollment:1589},{year:2022,enrollment:1644},{year:2023,enrollment:1691},{year:2024,enrollment:1674},{year:2025,enrollment:1658}] }}},
+  { name: 'Centaurus High School', addr: '10300 S Boulder Rd, Lafayette', lat: 39.9849, lng: -105.1076, levels: ['high'],
+    enrollmentByLevel: { high: { current: 1551, peak: 1598, peakYear: 2021, pctOfPeak: 97.1, history: [{year:2014,enrollment:1356},{year:2015,enrollment:1372},{year:2016,enrollment:1373},{year:2017,enrollment:1413},{year:2018,enrollment:1430},{year:2019,enrollment:1451},{year:2020,enrollment:1408},{year:2021,enrollment:1598},{year:2022,enrollment:1572},{year:2023,enrollment:1574},{year:2024,enrollment:1567},{year:2025,enrollment:1551}] }}},
+  { name: 'Fairview High School', addr: '1515 Greenbriar Blvd, Boulder', lat: 39.9740, lng: -105.2500, levels: ['high'],
+    enrollmentByLevel: { high: { current: 1851, peak: 2228, peakYear: 2017, pctOfPeak: 83.1, history: [{year:2014,enrollment:2143},{year:2015,enrollment:2175},{year:2016,enrollment:2196},{year:2017,enrollment:2228},{year:2018,enrollment:2203},{year:2019,enrollment:2187},{year:2020,enrollment:2028},{year:2021,enrollment:2009},{year:2022,enrollment:1991},{year:2023,enrollment:1942},{year:2024,enrollment:1879},{year:2025,enrollment:1851}] }}},
+  { name: 'Monarch High School', addr: '329 Campus Dr, Louisville', lat: 39.9500, lng: -105.1440, levels: ['high'],
+    enrollmentByLevel: { high: { current: 1453, peak: 1726, peakYear: 2017, pctOfPeak: 84.2, history: [{year:2014,enrollment:1684},{year:2015,enrollment:1694},{year:2016,enrollment:1706},{year:2017,enrollment:1726},{year:2018,enrollment:1710},{year:2019,enrollment:1692},{year:2020,enrollment:1551},{year:2021,enrollment:1533},{year:2022,enrollment:1516},{year:2023,enrollment:1499},{year:2024,enrollment:1472},{year:2025,enrollment:1453}] }}},
+  { name: 'New Vista High School', addr: '700 20th St, Boulder', lat: 40.0020, lng: -105.2677, levels: ['high'],
+    enrollmentByLevel: { high: { current: 307, peak: 328, peakYear: 2019, pctOfPeak: 93.6, history: [{year:2014,enrollment:253},{year:2015,enrollment:266},{year:2016,enrollment:269},{year:2017,enrollment:290},{year:2018,enrollment:310},{year:2019,enrollment:328},{year:2020,enrollment:300},{year:2021,enrollment:320},{year:2022,enrollment:316},{year:2023,enrollment:313},{year:2024,enrollment:307},{year:2025,enrollment:307}] }}},
+  { name: 'Nederland Middle-Senior', addr: '597 County Rd 130, Nederland', lat: 39.9532, lng: -105.5262, levels: ['middle', 'high'], extra: 'Mountain school · Grades 6-12',
+    enrollmentByLevel: {
+      middle: { current: 92, peak: 148, peakYear: 2014, pctOfPeak: 62.2, history: [{year:2014,enrollment:148},{year:2015,enrollment:140},{year:2016,enrollment:126},{year:2017,enrollment:119},{year:2018,enrollment:118},{year:2019,enrollment:108},{year:2020,enrollment:93},{year:2021,enrollment:86},{year:2022,enrollment:89},{year:2023,enrollment:83},{year:2024,enrollment:88},{year:2025,enrollment:92}] },
+      high: { current: 100, peak: 155, peakYear: 2014, pctOfPeak: 64.5, history: [{year:2014,enrollment:155},{year:2015,enrollment:144},{year:2016,enrollment:141},{year:2017,enrollment:137},{year:2018,enrollment:127},{year:2019,enrollment:119},{year:2020,enrollment:107},{year:2021,enrollment:103},{year:2022,enrollment:100},{year:2023,enrollment:94},{year:2024,enrollment:97},{year:2025,enrollment:100}] }
+    }},
+
+  // ── ALTERNATIVE / OTHER HIGH SCHOOLS ──
+  { name: 'Halcyon School', addr: '3100 Bucknell Ct, Boulder', lat: 39.9928, lng: -105.2560, levels: ['other'], extra: 'Alternative school' },
+  { name: 'Apex Home School Enrichment', addr: '6600 Arapahoe Rd, Boulder', lat: 39.9884, lng: -105.2055, levels: ['other'], extra: 'Homeschool enrichment' },
+  { name: 'Arapahoe Ridge High School', addr: '6600 Arapahoe Rd, Boulder', lat: 39.9878, lng: -105.2045, levels: ['high'], extra: 'Alternative high school',
+    enrollmentByLevel: { high: { current: 184, peak: 244, peakYear: 2023, pctOfPeak: 75.4, history: [{year:2014,enrollment:137},{year:2015,enrollment:132},{year:2016,enrollment:100},{year:2017,enrollment:105},{year:2018,enrollment:141},{year:2019,enrollment:88},{year:2020,enrollment:135},{year:2021,enrollment:135},{year:2022,enrollment:206},{year:2023,enrollment:244},{year:2024,enrollment:188},{year:2025,enrollment:184}] }}},
+  { name: 'Boulder Prep Charter', addr: '5075 Chaparral Ct, Boulder', lat: 40.0665, lng: -105.2029, levels: ['high'],
+    enrollmentByLevel: { high: { current: 93, peak: 119, peakYear: 2022, pctOfPeak: 78.2, history: [{year:2014,enrollment:93},{year:2015,enrollment:84},{year:2016,enrollment:84},{year:2017,enrollment:88},{year:2018,enrollment:93},{year:2019,enrollment:101},{year:2020,enrollment:107},{year:2021,enrollment:115},{year:2022,enrollment:119},{year:2023,enrollment:111},{year:2024,enrollment:102},{year:2025,enrollment:93}] }}},
+  { name: 'Justice High School', addr: '805 Excalibur St, Lafayette', lat: 39.9873, lng: -105.0793, levels: ['middle', 'high'],
+    enrollmentByLevel: {
+      middle: { current: 6, peak: 10, peakYear: 2023, pctOfPeak: 60.0, history: [{year:2023,enrollment:10},{year:2024,enrollment:6},{year:2025,enrollment:6}] },
+      high: { current: 86, peak: 118, peakYear: 2014, pctOfPeak: 72.9, history: [{year:2014,enrollment:118},{year:2015,enrollment:106},{year:2016,enrollment:101},{year:2017,enrollment:95},{year:2018,enrollment:96},{year:2019,enrollment:92},{year:2020,enrollment:85},{year:2021,enrollment:86},{year:2022,enrollment:98},{year:2023,enrollment:100},{year:2024,enrollment:91},{year:2025,enrollment:86}] }
+    }},
+  { name: 'BVSD Online', addr: '6500 Arapahoe Rd, Boulder', lat: 39.9876, lng: -105.2065, levels: ['other'], extra: 'Online school' },
+
+  // Other programs from enrollment data
+  { name: 'Community Based', lat: 40.015, lng: -105.270, levels: ['other'], extra: 'Community-based program' },
+  { name: 'Colorado Preschool Program (CPP)', lat: 40.014, lng: -105.268, levels: ['other'], extra: 'Preschool program' },
+];
+
+// ─── CAPACITY & FORECAST DATA ───
+// Keyed by level, then by school name. Each school entry: { capacity, proj: [...] }
+// where proj[i] is projected enrollment for years[i] (labeled by fall year).
+//
+// Elementary: BVSD Annual Enrollment Trend Report (Board, Feb 10 2026), "Capacity
+//   Summary 2025-26" updated 1/26/2026. Projections cover 2026-27 … 2030-31.
+const elementaryForecast = {
+  'Flatirons Elementary': { capacity: 320, proj: [149,144,149,146,177] },
+  'Heatherwood Elementary': { capacity: 492, proj: [216,209,214,203,210] },
+  'Kohl Elementary': { capacity: 541, proj: [258,258,256,262,266] },
+  'Mesa Elementary': { capacity: 418, proj: [217,203,203,202,201] },
+  'Coal Creek Elementary': { capacity: 492, proj: [256,252,256,251,248] },
+  'Columbine Elementary': { capacity: 590, proj: [322,322,325,321,322] },
+  'Creekside Elementary': { capacity: 369, proj: [277,252,226,223,215] },
+  'Crest View Elementary': { capacity: 615, proj: [318,304,300,310,327] },
+  'Douglass Elementary': { capacity: 418, proj: [278,278,272,277,284] },
+  'Eisenhower Elementary': { capacity: 492, proj: [253,246,246,247,255] },
+  'Louisville Elementary': { capacity: 590, proj: [373,363,360,355,343] },
+  "Alicia Sanchez Int'l School": { capacity: 418, proj: [286,284,278,289,298] },
+  'University Hill Elementary': { capacity: 590, proj: [359,348,336,338,345] },
+  'Whittier International Elementary': { capacity: 442, proj: [256,256,247,236,232] },
+  'Bear Creek Elementary': { capacity: 492, proj: [299,293,288,310,320] },
+  'Birch Elementary': { capacity: 418, proj: [238,215,205,211,208] },
+  'Emerald Elementary': { capacity: 393, proj: [355,341,337,346,345] },
+  'Escuela Bilingue Pioneer': { capacity: 541, proj: [349,341,337,336,343] },
+  'Fireside Elementary': { capacity: 516, proj: [385,373,358,355,359] },
+  'Foothill Elementary': { capacity: 565, proj: [437,444,439,432,438] },
+  'Gold Hill Elementary': { capacity: 49, proj: [13,13,13,12,12] },
+  'Jamestown Elementary': { capacity: 25, proj: [19,17,16,16,14] },
+  'Lafayette Elementary': { capacity: 565, proj: [454,435,420,411,392] },
+  'Nederland Elementary': { capacity: 467, proj: [171,166,167,169,160] },
+  'Ryan Elementary': { capacity: 467, proj: [381,365,348,337,346] },
+  'Superior Elementary': { capacity: 467, proj: [425,430,434,420,433] },
+  'Eldorado PK-8': { capacity: 568, proj: [253,247,248,250,249] },
+  'Monarch PK-8': { capacity: 381, proj: [270,258,258,274,264] },
+  'Aspen Creek K-8': { capacity: 440, proj: [490,503,510,511,504] },
+  'Meadowlark PK-8': { capacity: 441, proj: [479,511,544,577,605] },
+  'Community Montessori': { capacity: 369, proj: [175,172,163,167,167] },
+};
+
+// Middle: BVSD Declining Enrollment Worksession (Board, Oct 21 2025), "Middle Level
+//   5-Year Projections". Capacity is the 2024 figure; the table projects 2025-26 …
+//   2029-30. The 2025-26 column is omitted here because actual Oct-2025 counts are
+//   already in enrollmentByLevel, so proj covers 2026-27 … 2029-30. For K-8s this is
+//   the grade 6-8 portion only. Schools with no published capacity (Justice, Peak to
+//   Peak, Halcyon, Boulder Universal) are not listed.
+const middleForecast = {
+  'Angevine Middle School':           { capacity: 941, proj: [635,671,675,691] },
+  'Broomfield Heights Middle School': { capacity: 832, proj: [441,450,453,437] },
+  'Casey Middle School':              { capacity: 743, proj: [329,311,304,299] },
+  'Centennial Middle School':         { capacity: 753, proj: [567,562,555,561] },
+  'Louisville Middle School':         { capacity: 708, proj: [595,578,539,503] },
+  'Manhattan Middle School':          { capacity: 643, proj: [494,460,457,431] },
+  'Nevin Platt Middle School':        { capacity: 862, proj: [432,447,438,456] },
+  'Southern Hills Middle School':     { capacity: 659, proj: [488,473,473,453] },
+  'Summit Charter Middle School':     { capacity: 368, proj: [364,364,364,364] },
+  'Nederland Middle-Senior':          { capacity: 254, proj: [94,97,91,88] },
+  'Eldorado PK-8':                    { capacity: 494, proj: [215,223,209,195] },
+  'Monarch PK-8':                     { capacity: 509, proj: [422,404,406,361] },
+  'Aspen Creek K-8':                  { capacity: 497, proj: [398,392,401,387] },
+  'Meadowlark PK-8':                  { capacity: 250, proj: [255,254,236,229] },
+  'Horizons K-8':                     { capacity: 149, proj: [123,127,130,131] },
+};
+
+const capacityForecast = {
+  elementary: { years: [2026, 2027, 2028, 2029, 2030], schools: elementaryForecast,
+                source: 'Capacity & projections: BVSD Annual Enrollment Trend Report, Feb 2026' },
+  middle:     { years: [2026, 2027, 2028, 2029], schools: middleForecast,
+                source: 'Capacity (2024) & projections: BVSD Enrollment Worksession, Oct 2025' },
+};
+
+// Attach per-level capacity info: school.capacityByLevel[level] = { capacity, projected, pctCapacity, source }
+schools.forEach(s => {
+  s.capacityByLevel = {};
+  Object.entries(capacityForecast).forEach(([tableLevel, table]) => {
+    const cf = table.schools[s.name];
+    if (!cf) return;
+    // The elementary table also covers ungraded programs filed under 'other' (Community Montessori)
+    const level = s.enrollmentByLevel[tableLevel] ? tableLevel
+                : (tableLevel === 'elementary' && s.enrollmentByLevel.other) ? 'other'
+                : null;
+    if (!level) return;
+    const eData = s.enrollmentByLevel[level];
+    const lastProj = cf.proj[cf.proj.length - 1];
+    const hasCurrent = !!(eData && eData.current);
+    s.capacityByLevel[level] = {
+      capacity: cf.capacity,
+      projected: table.years.map((y, i) => ({ year: y, enrollment: cf.proj[i] })),
+      pctCapacity: hasCurrent ? Math.round(eData.current / cf.capacity * 100) : null,
+      // Projected enrollment change from today's count to the last projected year
+      projYear: table.years[table.years.length - 1],
+      projChange: hasCurrent ? Math.round((lastProj - eData.current) / eData.current * 100) : null,
+      projPctCapacity: Math.round(lastProj / cf.capacity * 100),
+      source: table.source,
+    };
+  });
+});
+
+// ─── RESILIENT SCHOOLS PROPOSAL (presented to the Board Aug 25, 2026) ───
+// Descriptions use BVSD's own language. Board vote Sept 22, 2026; changes take
+// effect in 2027-28 if approved. Source: bvsd.org/current-topics/declining-enrollment
+// and the Aug 25 worksession deck (linked on the About page).
+// Mountain schools are exempt from BVSD's enrollment/capacity criteria (grayed
+// out in the district's own capacity tables) and unaddressed by the proposal,
+// so capacity views and the under-60% analyses leave them out.
+const MOUNTAIN_EXEMPT = new Set(['Gold Hill Elementary', 'Jamestown Elementary', 'Nederland Elementary', 'Nederland Middle-Senior']);
+
+const PROPOSAL_ACTIONS = {
+  close:       { color: '#E24B4A' },
+  receive:     { color: '#378ADD' },
+  relocate:    { color: '#7c3aed' },
+  reconfigure: { color: '#EF9F27' },
+};
+
+const proposals = {
+  'Douglass Elementary':    { action: 'close', text: 'Would close. Its attendance area would be divided among Coal Creek, Eisenhower and Heatherwood, and High Peaks would move to the Douglass campus.' },
+  'Mesa Elementary':        { action: 'close', text: 'Would close; the Mesa and Bear Creek school communities would merge in the Bear Creek building.' },
+  'Flatirons Elementary':   { action: 'close', text: 'Would close; its attendance area would be divided between Whittier and Foothill.' },
+  'Birch Elementary':       { action: 'close', text: 'Would close; the Birch and Kohl school communities would merge in the Kohl building.' },
+  // Community Montessori is a preschool program and stays out of this
+  // dashboard's school-level analyses (overview counts, under-60% list),
+  // but its proposed move is still visualized on the map and its card.
+  'Community Montessori':   { action: 'relocate', text: 'Would move to the former High Peaks space on the Aurora 7 campus, co-locating with BCSIS. Its current building would close.' },
+  'High Peaks Elementary':  { action: 'relocate', text: 'Would move to the Douglass Elementary campus.' },
+  'BCSIS':                  { action: 'receive', text: 'Would share the Aurora 7 campus with Community Montessori, which would move into the former High Peaks space.' },
+  'Kohl Elementary':        { action: 'receive', text: 'Would receive the Birch school community; the two schools would merge in the Kohl building.' },
+  'Bear Creek Elementary':  { action: 'receive', text: 'Would receive the Mesa school community; the two schools would merge in the Bear Creek building.' },
+  'Whittier International Elementary': { action: 'receive', text: 'Would receive part of the Flatirons attendance area.' },
+  'Foothill Elementary':    { action: 'receive', text: 'Would receive part of the Flatirons attendance area.' },
+  'Coal Creek Elementary':  { action: 'receive', text: 'Would receive part of the Douglass attendance area.' },
+  'Eisenhower Elementary':  { action: 'receive', text: 'Would receive part of the Douglass attendance area.' },
+  'Heatherwood Elementary': { action: 'receive', text: 'Would receive part of the Douglass attendance area.' },
+  'Fireside Elementary':    { action: 'receive', text: 'Would receive part of the Monarch PK-5 attendance area.' },
+  'Superior Elementary':    { action: 'receive', text: 'Would receive part of the Monarch PK-5 attendance area.' },
+  'Eldorado PK-8':          { action: 'reconfigure', text: 'Would become an elementary school, dropping grades 6-8, and receive part of the Monarch PK-5 attendance area. The Eldorado and Monarch 6-8 attendance areas would combine at Monarch.' },
+  'Monarch PK-8':           { action: 'reconfigure', text: 'Would become a middle school. Its PK-5 attendance area would be divided among Fireside, Superior and Eldorado; the Eldorado and Monarch 6-8 attendance areas would combine.' },
+};
+
+// Where students (solid) and relocating schools (dashed) would go
+const proposalFlows = [
+  { from: 'Douglass Elementary',   to: 'Coal Creek Elementary',  kind: 'students' },
+  { from: 'Douglass Elementary',   to: 'Eisenhower Elementary',  kind: 'students' },
+  { from: 'Douglass Elementary',   to: 'Heatherwood Elementary', kind: 'students' },
+  { from: 'Flatirons Elementary',  to: 'Whittier International Elementary', kind: 'students' },
+  { from: 'Flatirons Elementary',  to: 'Foothill Elementary',    kind: 'students' },
+  { from: 'Mesa Elementary',       to: 'Bear Creek Elementary',  kind: 'students' },
+  { from: 'Birch Elementary',      to: 'Kohl Elementary',        kind: 'students' },
+  { from: 'Monarch PK-8',          to: 'Fireside Elementary',    kind: 'students' },
+  { from: 'Monarch PK-8',          to: 'Superior Elementary',    kind: 'students' },
+  { from: 'Monarch PK-8',          to: 'Eldorado PK-8',          kind: 'students' },
+  { from: 'Eldorado PK-8',         to: 'Monarch PK-8',           kind: 'students' },
+  { from: 'High Peaks Elementary', to: 'Douglass Elementary',    kind: 'move' },
+  { from: 'Community Montessori',  to: 'BCSIS',                  kind: 'move' },
+];
+
+// Post-change enrollment & utilization by school and level, from the Aug 25
+// proposal deck (pp. 25, 37, 39, 48, 51, 54). Enrollment is a range because it
+// depends on how many students from the sending school follow the reassignment;
+// pctLo/pctHi are BVSD's own utilization figures (Monarch's are against its
+// combined ~890-seat 6-8 capacity, pending final design). closes marks the
+// level that would end at that school.
+const proposalProjections = {
+  'Kohl Elementary':        { elementary: { points: [{ y: 2027, lo: 433, hi: 473, pctLo: 80, pctHi: 87 }, { y: 2030, lo: 437, hi: 474, pctLo: 81, pctHi: 88 }] } },
+  'Bear Creek Elementary':  { elementary: { points: [{ y: 2027, lo: 392, hi: 445, pctLo: 80, pctHi: 90 }, { y: 2030, lo: 403, hi: 462, pctLo: 82, pctHi: 94 }] } },
+  'Foothill Elementary':    { elementary: { points: [{ y: 2027, lo: 488, hi: 497, pctLo: 86, pctHi: 88 }, { y: 2030, lo: 484, hi: 492, pctLo: 86, pctHi: 87 }] } },
+  'Whittier International Elementary': { elementary: { points: [{ y: 2027, lo: 337, hi: 357, pctLo: 76, pctHi: 81 }, { y: 2030, lo: 315, hi: 329, pctLo: 71, pctHi: 74 }] } },
+  'Coal Creek Elementary':  { elementary: { points: [{ y: 2027, lo: 396, hi: 426, pctLo: 80, pctHi: 87 }, { y: 2030, lo: 395, hi: 427, pctLo: 80, pctHi: 87 }] } },
+  'Eisenhower Elementary':  { elementary: { points: [{ y: 2027, lo: 289, hi: 294, pctLo: 59, pctHi: 60 }, { y: 2030, lo: 297, hi: 302, pctLo: 60, pctHi: 61 }] } },
+  'Heatherwood Elementary': { elementary: { points: [{ y: 2027, lo: 260, hi: 267, pctLo: 53, pctHi: 54 }, { y: 2030, lo: 260, hi: 268, pctLo: 53, pctHi: 54 }] } },
+  'Fireside Elementary':    { elementary: { points: [{ y: 2027, lo: 427, hi: 436, pctLo: 83, pctHi: 84 }, { y: 2030, lo: 421, hi: 430, pctLo: 82, pctHi: 83 }] } },
+  'Superior Elementary':    { elementary: { points: [{ y: 2027, lo: 447, hi: 458, pctLo: 96, pctHi: 98 }, { y: 2030, lo: 424, hi: 436, pctLo: 91, pctHi: 94 }] } },
+  'Eldorado PK-8': {
+    elementary: { points: [{ y: 2027, lo: 343, hi: 365, pctLo: 60, pctHi: 64 }, { y: 2030, lo: 353, hi: 377, pctLo: 62, pctHi: 66 }] },
+    middle:     { closes: '6-8 would end 2027-28', points: [{ y: 2027, lo: 0, hi: 0, pctLo: 0, pctHi: 0 }] },
+  },
+  'Monarch PK-8': {
+    elementary: { closes: 'K-5 would end 2027-28', points: [{ y: 2027, lo: 0, hi: 0, pctLo: 0, pctHi: 0 }] },
+    middle:     { capacityNote: 'Utilization is against the combined 6-8 capacity of ~890 seats, pending final design.',
+                  points: [{ y: 2027, lo: 565, hi: 600, pctLo: 63, pctHi: 67 }, { y: 2030, lo: 489, hi: 517, pctLo: 55, pctHi: 58 }] },
+  },
+  'Flatirons Elementary':   { elementary: { closes: 'Would close 2027-28', points: [{ y: 2027, lo: 0, hi: 0, pctLo: 0, pctHi: 0 }] } },
+  'Mesa Elementary':        { elementary: { closes: 'Would close 2027-28', points: [{ y: 2027, lo: 0, hi: 0, pctLo: 0, pctHi: 0 }] } },
+  'Birch Elementary':       { elementary: { closes: 'Would close 2027-28', points: [{ y: 2027, lo: 0, hi: 0, pctLo: 0, pctHi: 0 }] } },
+  'Douglass Elementary':    { elementary: { closes: 'Would close 2027-28', points: [{ y: 2027, lo: 0, hi: 0, pctLo: 0, pctHi: 0 }] } },
+};
+
+// ─── COLOR MODE + FILTER STATE ───
+let colorMode = 'enrollment'; // 'enrollment' | 'capacity' | 'projchange' | 'proposal'
+let capacityView = 'now';     // capacity mode sub-view: 'now' | 'proj' | 'proposal'
+
+// 2030 utilization if the proposal is adopted: BVSD's post-change figure for
+// affected schools (midpoint of its range), its status-quo projection otherwise.
+// Returns {pct} or {closed:true}; null when the school has no capacity data.
+function proposalPct2030(school, level) {
+  const pe = (proposalProjections[school.name] || {})[level];
+  if (pe) {
+    if (pe.closes) return { closed: true };
+    const last = pe.points[pe.points.length - 1];
+    return { pct: Math.round((last.pctLo + last.pctHi) / 2) };
+  }
+  // Relocating schools (High Peaks): their status-quo projection is for the
+  // building they would leave — post-move utilization is unpublished, so
+  // treat as no data rather than mislead.
+  const p = proposals[school.name];
+  if (p && p.action === 'relocate') return null;
+  const c = school.capacityByLevel && school.capacityByLevel[level];
+  return c ? { pct: c.projPctCapacity } : null;
+}
+let activeFilter = 'all';
+let showOther = false; // "Other" toggled off by default
+const markerEntries = [];
+
+const PURPLE = '#7c3aed';
+
+function closureLabel(school) {
+  if (!school.closureRisk) return null;
+  if (school.closureRisk === 'engagement') return 'Community engagement phase';
+  if (school.closureRisk === 'advisory') return 'Advisory phase';
+  if (school.closureRisk === 'projected') return 'Projected at risk by 2030';
+  return null;
+}
+
+const GREEN = '#10b981';
+
+function capacityColor(pct) {
+  if (pct === null) return GRAY;
+  if (pct > 100) return GREEN;
+  if (pct >= 80) return BLUE;
+  if (pct >= 60) return ORANGE;
+  return RED; // below 60% — BVSD's advisory-phase capacity line
+}
+
+// Projected enrollment change (today → last projected year), in percent
+function projChangeColor(pct) {
+  if (pct === null || pct === undefined) return GRAY;
+  if (pct <= -10) return RED;
+  if (pct < -2) return ORANGE;
+  if (pct <= 2) return BLUE;
+  return GREEN;
+}
+
+function getMarkerColor(school, level) {
+  if (colorMode === 'proposal') {
+    const p = proposals[school.name];
+    return p ? PROPOSAL_ACTIONS[p.action].color : GRAY;
+  }
+  if (colorMode === 'capacity') {
+    if (MOUNTAIN_EXEMPT.has(school.name)) return GRAY; // shown as exempt, like BVSD's tables
+    const capInfo = school.capacityByLevel && school.capacityByLevel[level];
+    if (capacityView === 'proposal') {
+      const r = proposalPct2030(school, level);
+      if (!r) return GRAY;
+      return r.closed ? '#555' : capacityColor(r.pct);
+    }
+    if (capacityView === 'proj') {
+      return capacityColor(capInfo ? capInfo.projPctCapacity : null);
+    }
+    return capacityColor(capInfo && capInfo.pctCapacity != null ? capInfo.pctCapacity : null);
+  }
+  if (colorMode === 'projchange') {
+    const capInfo = school.capacityByLevel && school.capacityByLevel[level];
+    return projChangeColor(capInfo ? capInfo.projChange : null);
+  }
+  const eData = school.enrollmentByLevel && school.enrollmentByLevel[level];
+  const pct = eData && eData.pctOfPeak != null ? eData.pctOfPeak : null;
+  return riskColor(pct);
+}
+
+function buildMarkers() {
+  markerEntries.forEach(m => map.removeLayer(m.marker));
+  markerEntries.length = 0;
+
+  schools.forEach(school => {
+    school.levels.forEach(level => {
+      const color = getMarkerColor(school, level);
+      const icon = makeIcon(shapeFor[level], color, 20);
+      const marker = L.marker([school.lat, school.lng], { icon })
+        .bindPopup(buildPopup(school, level));
+      markerEntries.push({ marker, school, level });
+    });
+  });
+
+  refreshPopupPadding();
+  applyFilter();
+}
+
+function applyFilter() {
+  const seen = new Set();
+  markerEntries.forEach(({ marker, school, level }) => {
+    let show = false;
+
+    if (level === 'other') {
+      // "Other" only shows when explicitly toggled on (via its button, or when filter=other)
+      show = (activeFilter === 'other') || (showOther && (activeFilter === 'all' || school.levels.includes(activeFilter)));
+    } else if (activeFilter === 'all') {
+      if (!seen.has(school.name)) {
+        seen.add(school.name);
+        show = true;
+      }
+    } else if (activeFilter === 'other') {
+      show = false; // non-other markers hidden when "other" filter active
+    } else {
+      show = (level === activeFilter);
+    }
+
+    if (show) {
+      marker.setIcon(makeIcon(shapeFor[level], getMarkerColor(school, level), 20));
+      marker.setPopupContent(buildPopup(school, level));
+      marker.addTo(map);
+    } else {
+      map.removeLayer(marker);
+    }
+  });
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.level === activeFilter);
+  });
+  updateCounts();
+}
+
+function updateCounts() {
+  const counts = { all: new Set(), elementary: 0, middle: 0, high: 0, other: 0 };
+  schools.forEach(s => {
+    if (!s.levels.includes('other')) counts.all.add(s.name);
+    s.levels.forEach(l => counts[l]++);
+  });
+  document.querySelectorAll('.filter-btn .count').forEach(el => {
+    const lvl = el.parentElement.dataset.level;
+    el.textContent = lvl === 'all' ? counts.all.size : counts[lvl];
+  });
+  document.getElementById('otherCount').textContent = counts.other;
+}
+
+// Build filter buttons
+const filterContainer = document.getElementById('filters');
+['all', 'elementary', 'middle', 'high'].forEach(level => {
+  const btn = document.createElement('button');
+  btn.className = 'filter-btn' + (level === 'all' ? ' active' : '');
+  btn.dataset.level = level;
+  const label = { all: 'All Schools', elementary: 'Elementary', middle: 'Middle', high: 'High School' }[level];
+  const shapeIcons = {
+    elementary: '<svg width="12" height="12" style="vertical-align:-1px;margin-right:4px"><circle cx="6" cy="6" r="5" fill="#888" stroke="#fff" stroke-width="1"/></svg>',
+    middle: '<svg width="12" height="12" style="vertical-align:-1px;margin-right:4px"><rect x="1" y="1" width="10" height="10" rx="2" fill="#888" stroke="#fff" stroke-width="1"/></svg>',
+    high: '<svg width="12" height="12" style="vertical-align:-1px;margin-right:4px"><polygon points="6,1 11,11 1,11" fill="#888" stroke="#fff" stroke-width="1"/></svg>',
+    other: '<svg width="12" height="12" style="vertical-align:-1px;margin-right:4px"><polygon points="6,1 11,6 6,11 1,6" fill="#888" stroke="#fff" stroke-width="1"/></svg>',
+  };
+  const icon = shapeIcons[level] || '';
+  btn.innerHTML = `${icon}${label}<span class="count">0</span>`;
+  btn.addEventListener('click', () => {
+    activeFilter = level;
+    applyFilter();
+  });
+  filterContainer.appendChild(btn);
+});
+
+// "Other" programs (online, alternative, preschool, Montessori…) sit behind a
+// checkbox rather than a level pill — they're not part of the level comparison.
+const otherToggle = document.getElementById('showOtherToggle');
+otherToggle.checked = showOther;
+otherToggle.addEventListener('change', () => {
+  showOther = otherToggle.checked;
+  applyFilter();
+});
+
+// ─── PROPOSAL ARROWS ───
+// Curved arrows from each closing/reconfiguring school to where its students
+// (solid) or its program (dashed) would go. Shown only in "Proposed Plan" mode.
+const proposalLayer = L.layerGroup();
+
+function bezierPoints(a, b, curvature) {
+  // Quadratic bezier in lat/lng space, control point offset perpendicular to the midpoint
+  const mx = (a.lat + b.lat) / 2, my = (a.lng + b.lng) / 2;
+  const cx = mx - (b.lng - a.lng) * curvature;
+  const cy = my + (b.lat - a.lat) * curvature;
+  const pts = [];
+  for (let i = 0; i <= 24; i++) {
+    const t = i / 24, u = 1 - t;
+    pts.push([u * u * a.lat + 2 * u * t * cx + t * t * b.lat,
+              u * u * a.lng + 2 * u * t * cy + t * t * b.lng]);
+  }
+  return pts;
+}
+
+function buildProposalLayer() {
+  const byName = {};
+  schools.forEach(s => { byName[s.name] = s; });
+  proposalFlows.forEach(f => {
+    const from = byName[f.from], to = byName[f.to];
+    if (!from || !to) return;
+    const fromAction = proposals[f.from] && proposals[f.from].action;
+    const color = f.kind === 'move' ? PURPLE : PROPOSAL_ACTIONS[fromAction] ? PROPOSAL_ACTIONS[fromAction].color : '#555';
+    const pts = bezierPoints({ lat: from.lat, lng: from.lng }, { lat: to.lat, lng: to.lng }, 0.18);
+    const line = L.polyline(pts, {
+      color, weight: 2.5, opacity: 0.75,
+      dashArray: f.kind === 'move' ? '6,5' : null,
+    }).bindTooltip(`${f.from} → ${f.to}` + (f.kind === 'move' ? ' (relocation)' : ''), { sticky: true });
+    proposalLayer.addLayer(line);
+
+    // Arrowhead near the destination, angled along the curve (Mercator preserves local angles)
+    const tip = pts[21], prev = pts[20];
+    const east = (tip[1] - prev[1]) * Math.cos(tip[0] * Math.PI / 180);
+    const north = tip[0] - prev[0];
+    const angle = Math.atan2(east, north) * 180 / Math.PI;
+    proposalLayer.addLayer(L.marker(tip, {
+      interactive: false,
+      icon: L.divIcon({
+        className: '',
+        iconSize: [14, 14],
+        iconAnchor: [7, 7],
+        html: `<svg width="14" height="14" style="transform:rotate(${angle.toFixed(1)}deg)"><polygon points="7,0 12.5,13 7,9.5 1.5,13" fill="${color}"/></svg>`
+      })
+    }));
+  });
+}
+buildProposalLayer();
+
+function syncProposalLayer() {
+  if (colorMode === 'proposal') proposalLayer.addTo(map);
+  else map.removeLayer(proposalLayer);
+}
+
+// Wire up color mode toggle
+document.querySelectorAll('.mode-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    colorMode = btn.dataset.mode;
+    document.querySelectorAll('.mode-btn').forEach(b => b.classList.toggle('active', b === btn));
+    document.querySelectorAll('.legend-group').forEach(g => g.classList.toggle('visible', g.id === 'legend-' + colorMode));
+    syncProposalLayer();
+    applyFilter();
+  });
+});
+
+// "See it on the map" in the proposal note switches to Proposed Plan mode
+document.getElementById('viewProposal').addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelector('.mode-btn[data-mode="proposal"]').click();
+});
+
+// "See which" jumps straight to the capacity map, 2030-with-proposal view
+document.getElementById('viewResidual').addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelector('.mode-btn[data-mode="capacity"]').click();
+  document.querySelector('#capacityView .sub-btn[data-view="proposal"]').click();
+});
+
+// Capacity-mode sub-view: Today / 2030 status quo / 2030 with proposal
+document.querySelectorAll('#capacityView .sub-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    capacityView = btn.dataset.view;
+    document.querySelectorAll('#capacityView .sub-btn').forEach(b => b.classList.toggle('active', b === btn));
+    applyFilter();
+  });
+});
+
+// ─── BOUNDARY OVERLAYS ───
+// Dedicated SVG renderer with large padding so polygons stay rendered when
+// the user zooms in past them (default padding 0.1 drops far-off-screen paths).
+const boundaryRenderer = L.svg({ padding: 5 });
+const boundaryLevels = ['elementary', 'middle', 'high'];
+const boundaryColors = {
+  elementary: '#10b981',
+  middle:     '#f59e0b',
+  high:       '#8b5cf6',
+};
+const boundaryFiles = {
+  elementary: 'bvsd_elem_attendance_areas.geojson',
+  middle:     'bvsd_ms_attendance_areas.geojson',
+  high:       'bvsd_hs_attendance_areas.geojson',
+};
+const boundaryLabels = {
+  elementary: 'Elementary',
+  middle:     'Middle',
+  high:       'HS', // short so the three pills fit on one line in the panel
+};
+const boundariesShown = { elementary: false, middle: false, high: false };
+const boundaryLayers = {};
+const boundaryCache = {};
+
+function boundaryStyle(level) {
+  const c = boundaryColors[level];
+  return {
+    color: c,
+    weight: 2,
+    opacity: 0.75,
+    fillColor: c,
+    fillOpacity: 0.06,
+    dashArray: '5,5'
+  };
+}
+
+// Match a boundary's short SchName ("Platt", "Aspen Creek", "Whittier") + SchType
+// to the curated schools array ("Nevin Platt Middle School", "Aspen Creek K-8",
+// "Whittier International Elementary"), so the boundary popup shows the same
+// current capacity/enrollment numbers as clicking the school's marker.
+const boundaryLevelMap = { Elementary: 'elementary', Middle: 'middle', High: 'high' };
+function matchBoundarySchool(p) {
+  const level = boundaryLevelMap[p.SchType];
+  const short = (p.SchName || '').trim();
+  if (!level || !short) return null;
+  const escaped = short.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(`(^|[\\s\\-])${escaped}($|[\\s\\-])`);
+  return schools.find(s => s.levels.includes(level) && re.test(s.name)) || null;
+}
+
+function boundaryPopup(feature) {
+  const p = feature.properties;
+  const level = boundaryLevelMap[p.SchType];
+  const matched = matchBoundarySchool(p);
+  if (matched && level) return buildPopup(matched, level);
+  // Fallback for combined / unmatched catchments (e.g. BC-Mesa, Boulder-Fairview)
+  return `<div class="popup-name">${p.SchName}</div>`
+       + `<div class="popup-level">${p.SchType} Attendance Area</div>`;
+}
+
+async function loadBoundary(level) {
+  if (boundaryCache[level]) return boundaryCache[level];
+  const resp = await fetch(boundaryFiles[level]);
+  const data = await resp.json();
+  boundaryCache[level] = data;
+  return data;
+}
+
+function removeBoundaryLayer(level) {
+  const layer = boundaryLayers[level];
+  if (layer && layer !== 'loading') map.removeLayer(layer);
+  delete boundaryLayers[level];
+}
+
+async function addBoundaryLayer(level) {
+  if (boundaryLayers[level]) return;
+  boundaryLayers[level] = 'loading'; // sentinel prevents race during await
+  try {
+    const data = await loadBoundary(level);
+    if (boundaryLayers[level] !== 'loading') return; // toggled off mid-load
+    const baseStyle = boundaryStyle(level);
+    const layer = L.geoJSON(data, {
+      renderer: boundaryRenderer,
+      style: () => baseStyle,
+      // noClip keeps polygons rendered even when offscreen, so panning/zooming
+      // doesn't make eastern catchments (Lafayette/Louisville/Broomfield) vanish.
+      noClip: true,
+      onEachFeature: (feature, lyr) => {
+        lyr.bindPopup(boundaryPopup(feature));
+        lyr.on('mouseover', function() { this.setStyle({ fillOpacity: 0.2, weight: 3 }); });
+        lyr.on('mouseout', function() { this.setStyle({ fillOpacity: 0.06, weight: 2 }); });
+      }
+    }).addTo(map);
+    layer.bringToBack();
+    boundaryLayers[level] = layer;
+  } catch (e) {
+    delete boundaryLayers[level];
+    throw e;
+  }
+}
+
+async function updateBoundaries() {
+  for (const level of boundaryLevels) {
+    if (boundariesShown[level]) await addBoundaryLayer(level);
+    else removeBoundaryLayer(level);
+  }
+}
+
+// Build the Boundaries pills
+const boundaryContainer = document.getElementById('boundaries');
+boundaryLevels.forEach(level => {
+  const btn = document.createElement('button');
+  btn.className = 'boundary-pill';
+  btn.dataset.level = level;
+  btn.textContent = boundaryLabels[level];
+  btn.addEventListener('click', () => {
+    boundariesShown[level] = !boundariesShown[level];
+    btn.classList.toggle('active', boundariesShown[level]);
+    updateBoundaries();
+  });
+  boundaryContainer.appendChild(btn);
+});
+
+// ─── CONTROL PANEL (show / hide) ───
+const panelEl = document.getElementById('panel');
+const panelToggleEl = document.getElementById('panelToggle');
+const mobileMQ = window.matchMedia('(max-width: 600px)'); // keep in sync with the CSS breakpoint
+const isMobile = () => mobileMQ.matches;
+
+// Clicks/scrolls inside the panel must not drag or zoom the map underneath
+L.DomEvent.disableClickPropagation(panelEl);
+L.DomEvent.disableScrollPropagation(panelEl);
+
+function refreshPanelLabel() {
+  const collapsed = panelEl.classList.contains('collapsed');
+  panelToggleEl.textContent = collapsed ? (isMobile() ? 'Filters & legend ▲' : 'Show controls') : (isMobile() ? 'Hide ▼' : 'Hide');
+  panelToggleEl.setAttribute('aria-expanded', String(!collapsed));
+}
+// Popups auto-pan to stay clear of the panel: pad the left by the panel's width on
+// desktop; on phones the sheet collapses when a card opens (see popupopen below),
+// so pad the bottom by the collapsed bar's height.
+function popupPadding() {
+  if (isMobile()) return { autoPanPaddingTopLeft: L.point(8, 40), autoPanPaddingBottomRight: L.point(8, 70) };
+  const left = panelEl.classList.contains('collapsed') ? 16 : panelEl.getBoundingClientRect().width + 28;
+  return { autoPanPaddingTopLeft: L.point(left, 16), autoPanPaddingBottomRight: L.point(16, 16) };
+}
+function refreshPopupPadding() {
+  const pad = popupPadding();
+  markerEntries.forEach(m => { const p = m.marker.getPopup(); if (p) Object.assign(p.options, pad); });
+}
+
+function setPanelCollapsed(collapsed, remember) {
+  panelEl.classList.toggle('collapsed', collapsed);
+  refreshPanelLabel();
+  refreshPopupPadding();
+  // Only a deliberate tap is remembered — never the automatic default — so a
+  // window that happened to load narrow doesn't lock the panel shut forever.
+  if (remember) { try { localStorage.setItem('bvsd-panel', collapsed ? 'collapsed' : 'open'); } catch (e) { /* private mode */ } }
+}
+panelToggleEl.addEventListener('click', () => setPanelCollapsed(!panelEl.classList.contains('collapsed'), true));
+
+// Remembered choice wins; otherwise open on desktop, tucked away on phones.
+// Re-applied whenever the viewport crosses the breakpoint (rotation, resize,
+// or a window that first painted narrow) so the default tracks the layout.
+let savedPanelState = null;
+try { savedPanelState = localStorage.getItem('bvsd-panel'); } catch (e) {}
+function applyLayoutDefaults() {
+  if (!savedPanelState) setPanelCollapsed(isMobile(), false);
+  else refreshPanelLabel();
+  // On phones the bottom sheet covers the default bottom-right attribution
+  map.attributionControl.setPosition(isMobile() ? 'topright' : 'bottomright');
+}
+mobileMQ.addEventListener('change', applyLayoutDefaults);
+applyLayoutDefaults();
+
+// ─── SEARCH & DEEP LINKS ───
+const slugify = s => s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+schools.forEach(s => { s.slug = slugify(s.name); });
+
+// Pan to a school, make sure one of its markers is shown, and open its card
+function focusSchool(school, opts) {
+  const visible = () => markerEntries.find(m => m.school === school && map.hasLayer(m.marker));
+  let entry = visible();
+  if (!entry) {
+    if (school.levels.every(l => l === 'other')) showOther = true;
+    else activeFilter = 'all';
+    applyFilter();
+    entry = visible();
+  }
+  if (!entry) return;
+  // Open the card only after the view settles — auto-pan computed mid-animation
+  // would leave the popup under the panel. (popupopen also collapses the phone
+  // sheet and sets the URL hash.)
+  const target = L.latLng(school.lat, school.lng);
+  const zoom = Math.max(map.getZoom(), 13);
+  const open = () => entry.marker.openPopup();
+  const alreadyThere = map.getZoom() === zoom && map.getCenter().distanceTo(target) < 5;
+  if (alreadyThere) open();
+  else if (opts && opts.instant) { map.setView(target, zoom, { animate: false }); open(); }
+  else { map.once('moveend', open); map.setView(target, zoom, { animate: true }); }
+}
+
+// Keep the URL hash in sync with the open card so links can be shared
+map.on('popupopen', e => {
+  const entry = markerEntries.find(m => m.marker === e.popup._source);
+  if (entry) history.replaceState(null, '', '#' + entry.school.slug);
+  if (isMobile()) setPanelCollapsed(true, false); // the sheet would otherwise cover the card
+});
+function openFromHash() {
+  const slug = decodeURIComponent(location.hash.slice(1));
+  if (!slug) return;
+  const school = schools.find(s => s.slug === slug);
+  if (school) focusSchool(school, { instant: true });
+}
+window.addEventListener('hashchange', openFromHash);
+
+const searchInput = document.getElementById('schoolSearch');
+const searchResults = document.getElementById('searchResults');
+let searchMatches = [], searchActive = -1;
+
+function renderSearch() {
+  const q = searchInput.value.trim().toLowerCase();
+  if (!q) { searchResults.classList.remove('open'); searchMatches = []; return; }
+  searchMatches = schools
+    .filter(s => s.name.toLowerCase().includes(q) || (s.addr || '').toLowerCase().includes(q))
+    .slice(0, 8);
+  searchActive = searchMatches.length ? 0 : -1;
+  searchResults.innerHTML = searchMatches.length
+    ? searchMatches.map((s, i) =>
+        `<div class="search-item${i === searchActive ? ' active' : ''}" data-i="${i}" role="option">${s.name}<small>${s.levels.map(l => levelLabels[l]).join(' / ')}</small></div>`).join('')
+    : `<div class="search-empty">No school matches "${searchInput.value.trim()}"</div>`;
+  searchResults.classList.add('open');
+}
+function highlightSearch() {
+  searchResults.querySelectorAll('.search-item[data-i]').forEach(el => el.classList.toggle('active', +el.dataset.i === searchActive));
+}
+function pickSearch(i) {
+  const school = searchMatches[i];
+  if (!school) return;
+  searchInput.value = '';
+  searchResults.classList.remove('open');
+  searchInput.blur();
+  focusSchool(school);
+}
+searchInput.addEventListener('input', renderSearch);
+searchInput.addEventListener('focus', renderSearch);
+searchInput.addEventListener('keydown', e => {
+  if (e.key === 'ArrowDown') { e.preventDefault(); searchActive = Math.min(searchActive + 1, searchMatches.length - 1); highlightSearch(); }
+  else if (e.key === 'ArrowUp') { e.preventDefault(); searchActive = Math.max(searchActive - 1, 0); highlightSearch(); }
+  else if (e.key === 'Enter') { pickSearch(searchActive); }
+  else if (e.key === 'Escape') { searchResults.classList.remove('open'); searchInput.blur(); }
+});
+// mousedown (not click) so the pick happens before the input's blur hides the list
+searchResults.addEventListener('mousedown', e => {
+  const item = e.target.closest('.search-item[data-i]');
+  if (item) { e.preventDefault(); pickSearch(+item.dataset.i); }
+});
+searchInput.addEventListener('blur', () => setTimeout(() => searchResults.classList.remove('open'), 150));
+
+// ─── DISTRICT OVERVIEW ───
+// Published BVSD totals; per-school numbers below are computed live from the map data.
+const districtTotals = {
+  // All schools incl. charters, excl. preschool. Oct 2025 count → 2030-31 projection.
+  // Source: BVSD Annual Enrollment Trend Report (Feb 10 2026), slide 6.
+  levels: [
+    { label: 'Elementary', now: 10427, proj: 10129 },
+    { label: 'Middle',     now: 6332,  proj: 5552 },
+    { label: 'High',       now: 9848,  proj: 9256 },
+  ],
+  total: { now: 26607, proj: 24937 },
+  // Building utilization, BVSD-run (non-charter) schools.
+  utilization: [
+    { label: 'Elementary', seats: 14543, now: 9689, nowYear: '2025-26', proj: 9408, projYear: '2030-31' }, // Feb 2026 capacity summary
+    { label: 'Middle',     seats: 8145,  now: 5538, nowYear: '2024-25', proj: 5133, projYear: '2029-30' }, // Oct 2025 worksession
+  ],
+  // Elementary schools meeting LRAC thresholds (Feb 2026 trend report, slide 10)
+  metrics: { now: { advisory: 7, engagement: 2 }, proj: { advisory: 6, engagement: 5 } },
+};
+
+function fmt(n) { return n.toLocaleString('en-US'); }
+function deltaHtml(now, proj) {
+  const pct = Math.round((proj - now) / now * 100);
+  return `<span class="ov-delta" style="color:${projChangeColor(pct)}">${pct > 0 ? '+' : ''}${pct}%</span>`;
+}
+function barHtml(pct, color) {
+  return `<div class="ov-bar"><div style="width:${Math.min(pct, 100)}%;background:${color}"></div></div>`;
+}
+
+function renderOverview() {
+  const d = districtTotals;
+  let html = '';
+  html += `<div class="ov-head">District K-12: <b>${fmt(d.total.now)}</b> → <b>${fmt(d.total.proj)}</b>${deltaHtml(d.total.now, d.total.proj)}</div>`;
+  d.levels.forEach(l => {
+    html += `<div class="ov-row"><span>${l.label}</span><span><b>${fmt(l.now)}</b> → <b>${fmt(l.proj)}</b>${deltaHtml(l.now, l.proj)}</span></div>`;
+  });
+
+  html += `<div class="ov-sub">Building utilization (BVSD-run)</div>`;
+  d.utilization.forEach(u => {
+    const nowPct = Math.round(u.now / u.seats * 100), projPct = Math.round(u.proj / u.seats * 100);
+    html += `<div class="ov-row"><span>${u.label} · ${fmt(u.seats)} seats</span><span><b>${nowPct}%</b> → <b>${projPct}%</b></span></div>`;
+    html += barHtml(nowPct, capacityColor(nowPct));
+  });
+
+  // Live counts from the per-school capacity data on this map. 'other'-category
+  // programs (e.g. Community Montessori, a preschool) are intentionally outside
+  // this dashboard's school-level analyses.
+  const entries = [];
+  schools.forEach(s => Object.entries(s.capacityByLevel || {}).forEach(([lvl, c]) => { if (lvl !== 'other') entries.push({ s, lvl, c }); }));
+  const under50Now  = entries.filter(e => e.c.pctCapacity !== null && e.c.pctCapacity < 50).length;
+  const under50Proj = entries.filter(e => e.c.projPctCapacity < 50).length;
+  const shrinking10 = entries.filter(e => e.c.projChange !== null && e.c.projChange <= -10).length;
+  html += `<div class="ov-sub">Schools with capacity data (${entries.length})</div>`;
+  html += `<div class="ov-row"><span>Below 50% of capacity</span><span><b>${under50Now}</b> today → <b>${under50Proj}</b> projected</span></div>`;
+  html += `<div class="ov-row"><span>Projected to shrink 10%+</span><span><b>${shrinking10}</b></span></div>`;
+  html += `<div class="ov-row"><span>Elementary in advisory / engagement phase</span><span><b>${d.metrics.now.advisory} / ${d.metrics.now.engagement}</b> → <b>${d.metrics.proj.advisory} / ${d.metrics.proj.engagement}</b></span></div>`;
+
+  // What the Aug 25 proposal would NOT change: schools still under 60% of
+  // capacity in ~2030 even if every proposed change is adopted. Mountain
+  // schools are excluded, matching BVSD's own exemption from LRAC criteria.
+  const still = [];
+  schools.forEach(s => {
+    if (MOUNTAIN_EXEMPT.has(s.name)) return;
+    Object.keys(s.capacityByLevel || {}).forEach(lvl => {
+      if (lvl === 'other') return; // preschool/alternative programs are out of scope
+      const r = proposalPct2030(s, lvl);
+      if (r && !r.closed && r.pct < 60) still.push({ name: s.name, lvl, pct: r.pct });
+    });
+  });
+  still.sort((a, b) => a.pct - b.pct);
+  const stillCountEl = document.getElementById('stillBelowCount');
+  if (stillCountEl) stillCountEl.textContent = still.length;
+  const shortName = n => n.replace(/ (International )?Elementary$/, '').replace(/ Middle School$/, '').replace(' Charter', '');
+  html += `<div class="ov-sub">After the proposal (~2030)</div>`;
+  html += `<div class="ov-row"><span>Still below 60% of capacity</span><span><b>${still.length}</b> schools</span></div>`;
+  html += `<div style="font-size:11px;color:#666;line-height:1.5;margin-top:2px">`;
+  html += still.map(x => `${shortName(x.name)}${x.lvl === 'middle' ? ' (6-8)' : ''} <span style="color:${capacityColor(x.pct)};font-weight:600">${x.pct}%</span>`).join(' · ');
+  html += `</div>`;
+  html += `<div class="ov-row"><span>Boulder elementary seats empty (BVSD)</span><span><b>36.9%</b> → <b>32.1%</b> with proposal</span></div>`;
+
+  html += `<div class="ov-note">District totals: BVSD Annual Enrollment Trend Report, Feb 2026 (all schools incl. charters, excl. preschool). Utilization: BVSD capacity tables (elementary Feb 2026, middle Oct 2025). Per-school counts cover elementary, middle and K-8 programs with published capacity; high schools have no published capacity. "After the proposal" combines BVSD's Aug 25 post-change projections (range midpoints) with its status-quo projections for unaffected schools; mountain schools are exempt from BVSD's enrollment criteria and excluded. Dual-language schools (Columbine, Pioneer, University Hill) were deferred to a separate BVSD review beginning fall 2026.</div>`;
+  document.getElementById('overviewBody').innerHTML = html;
+}
+renderOverview();
+
+buildMarkers();
+openFromHash();
+</script>
+</body>
+</html>

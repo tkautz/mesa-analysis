@@ -1,0 +1,1 @@
+37a9bf9e704e2b13c1e370c0956b89efb3d0a8fb 2026-08-27 12:54:49 -0600 Open source under CC0 1.0: LICENSE, README, About-page notice

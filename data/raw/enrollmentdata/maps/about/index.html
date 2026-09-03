@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Enrollment Data</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #1a1a1a;
+    background: #fff;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    padding: 48px 24px 64px;
+    line-height: 1.6;
+  }
+  .about { max-width: 640px; }
+  .about p {
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 24px;
+  }
+  .about a { color: #2563eb; text-decoration: none; }
+  .about a:hover { text-decoration: underline; }
+  h2 {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #999;
+    margin: 36px 0 12px;
+  }
+  .src {
+    border-left: 3px solid #e5e5e5;
+    padding: 2px 0 2px 14px;
+    margin-bottom: 18px;
+  }
+  .src h3 { font-size: 15px; font-weight: 700; color: #1a1a1a; }
+  .src p { font-size: 14px; color: #444; margin: 2px 0 0; }
+  .src .used { font-size: 13px; color: #777; margin-top: 4px; }
+  .src .used b { font-weight: 600; color: #555; }
+  .note { font-size: 13px; color: #777; }
+  .back { font-size: 14px; color: #666; margin-top: 32px; }
+</style>
+</head>
+<body>
+<div class="about">
+  <p>A non-partisan, non-profit project by <a href="https://yoavlurie.com" target="_blank" rel="noopener">Yoav Lurie</a>.</p>
+  <p>Every number on the map comes from data published by the Boulder Valley School District. The sources below list where each piece came from, with links to the original documents.</p>
+
+  <h2>Data sources</h2>
+
+  <div class="src">
+    <h3>BVSD October Pupil Count (2014–2025)</h3>
+    <p><a href="https://www.bvsd.org/departments/enrollment/enrollment-statistics/pupil-count" target="_blank" rel="noopener">bvsd.org — Enrollment Statistics: Historical Pupil Count</a></p>
+    <p class="used"><b>Used for:</b> each school's current enrollment, 10-year peak, % of peak, and the 2014–2025 trend line on every card.</p>
+  </div>
+
+  <div class="src">
+    <h3>Annual Enrollment Trend Report — February 10, 2026</h3>
+    <p>Presented to the Board of Education; includes the elementary "Capacity Summary 2025-26" (updated 1/26/2026).
+       <a href="https://go.boarddocs.com/co/bvsd/Board.nsf/goto?open&amp;id=DQSPND6568DE" target="_blank" rel="noopener">Agenda item</a> ·
+       <a href="https://go.boarddocs.com/co/bvsd/Board.nsf/pfiles/DQTRAN6D12DA/$file/Annual%20Enrollment%20Trend%20Report%20_%20February%202026.pdf" target="_blank" rel="noopener">Report PDF</a></p>
+    <p class="used"><b>Used for:</b> elementary building capacity and projected enrollment 2026-27 → 2030-31 (report p. 9); districtwide totals by level (p. 6); counts of schools in the advisory and engagement phases (p. 10).</p>
+  </div>
+
+  <div class="src">
+    <h3>Declining Enrollment Worksession — October 21, 2025</h3>
+    <p>Board work session including the "Middle Level 5-Year Projections" table.
+       <a href="https://go.boarddocs.com/co/bvsd/Board.nsf/goto?open&amp;id=DMARCL6D3835" target="_blank" rel="noopener">Agenda item</a> ·
+       <a href="https://go.boarddocs.com/co/bvsd/Board.nsf/pfiles/DMJTXV756DA8/$file/Enrollment%20Worksession%20_%2010.21.2025%20(1).pdf" target="_blank" rel="noopener">Presentation PDF</a></p>
+    <p class="used"><b>Used for:</b> middle-school building capacity (2024 figures) and projected enrollment 2026-27 → 2029-30, including the grade 6-8 portion of K-8 schools (slides 42–43); middle-level utilization in the district overview.</p>
+  </div>
+
+  <div class="src">
+    <h3>Resilient Schools Proposal — August 25, 2026</h3>
+    <p>BVSD's proposed plan to close, consolidate, reconfigure or relocate eight schools, presented to the Board of Education Aug. 25, 2026. Board vote scheduled Sept. 22, 2026; changes would take effect in 2027-28 if approved.
+       <a href="https://www.bvsd.org/current-topics/declining-enrollment" target="_blank" rel="noopener">BVSD proposal page</a> ·
+       <a href="https://go.boarddocs.com/co/bvsd/Board.nsf/pfiles/DXBFUX40E0C7/$file/Resilient%20Schools%20Proposal%20FINAL%2008-25-2026%20(1).pdf" target="_blank" rel="noopener">Board presentation PDF</a> ·
+       <a href="https://boulderreportinglab.org/2026/08/25/bvsd-proposes-closing-four-elementary-schools-in-sweeping-consolidation-plan/" target="_blank" rel="noopener">Boulder Reporting Lab coverage</a></p>
+    <p class="used"><b>Used for:</b> the "Proposed Plan" color mode, the movement arrows showing where students and programs would go, the "Proposed plan" notes on affected schools' cards, the "2030 w/ proposal" view in the % of Capacity color mode, the "After the proposal" summary in the district overview, and the amber "with proposal" lines and enrollment ranges on those cards' capacity charts (post-change projections for 2027-28 and 2030-31 from the Board presentation, pp. 25, 37, 39, 48, 51 and 54; ranges depend on how many students from a sending school follow the reassignment). School-by-school descriptions use the district's own language.</p>
+  </div>
+
+  <div class="src">
+    <h3>Resilient Schools process</h3>
+    <p><a href="https://www.bvsd.org/current-topics/declining-enrollment" target="_blank" rel="noopener">bvsd.org — Resilient Schools: Responding to declining enrollment</a> ·
+       <a href="https://www.bvsd.org/about/news/news-article/~board/district-news/post/latest-enrollment-data-confirms-need-for-holistic-action" target="_blank" rel="noopener">"Latest enrollment data confirms need for holistic action" (Feb 2026)</a></p>
+    <p class="used"><b>Used for:</b> the phase chips shown on school cards, which reflect BVSD's Long Range Advisory Committee (LRAC) thresholds — advisory phase (≤2 classes per grade and ≤60% of capacity) and community engagement phase (≤1.5 classes per grade and ≤50% of capacity, sustained in projections) — plus schools BVSD projects to cross those thresholds by 2030.</p>
+  </div>
+
+  <div class="src">
+    <h3>BVSD attendance-area maps</h3>
+    <p>BVSD's attendance-area GIS layers (elementary, middle, high, and district boundary), as published in the district's ArcGIS maps linked from the
+       <a href="https://www.bvsd.org/departments/enrollment/k-12-school-finder" target="_blank" rel="noopener">K-12 School Finder</a>.</p>
+    <p class="used"><b>Used for:</b> the dashed attendance-boundary overlays and the district outline.</p>
+  </div>
+
+  <div class="src">
+    <h3>Basemap &amp; software</h3>
+    <p>Map rendering by <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>; basemap tiles by
+       <a href="https://www.esri.com/" target="_blank" rel="noopener">Esri</a> (Light Gray Canvas) with underlying data
+       © <a href="https://osm.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+  </div>
+
+  <h2>Notes &amp; caveats</h2>
+  <p class="note">Elementary projections run through 2030-31; middle-school projections come from an earlier report and run through 2029-30, with capacity as of 2024. BVSD has not published per-school capacity or projection tables for high schools, so high-school cards show enrollment history only. Capacity figures are BVSD's program capacity based on current use of each building. If you spot an error, please <a href="https://yoavlurie.com" target="_blank" rel="noopener">get in touch</a>.</p>
+
+  <h2>Open source</h2>
+  <p class="note">This project is dedicated to the public domain under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a> — use it for anything, commercial or not, with or without attribution. Code and data: <a href="https://github.com/yoavlurie/bvsd-enrollment" target="_blank" rel="noopener">github.com/yoavlurie/bvsd-enrollment</a>. This site is not affiliated with or endorsed by BVSD.</p>
+
+  <p class="back"><a href="/">← Back to the map</a></p>
+</div>
+</body>
+</html>
