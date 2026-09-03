@@ -1,0 +1,15 @@
+school,cde_school_code,cde_school_name,school_year,PK,K_half,K_full,G1,G2,G3,G4,G5,total_pk12,_source,_row,_sheet,K_5
+Bear Creek,0652,Bear Creek Elementary School,2019-20,0.0,0.0,43,54,79,69,83,72,400,data/raw/cde/2019-20_membership_grade_by_school.xlsx,414,2019-2020 Data,400.0
+Mesa,5838,Mesa Elementary School,2019-20,0.0,0.0,36,38,41,44,48,54,261,data/raw/cde/2019-20_membership_grade_by_school.xlsx,451,2019-2020 Data,261.0
+Bear Creek,0652,Bear Creek Elementary School,2020-21,0.0,0.0,29,46,47,70,70,81,343,data/raw/cde/2020-21_membership_grade_by_school.xlsx,415,2020-2021 Data,343.0
+Mesa,5838,Mesa Elementary School,2020-21,0.0,0.0,33,31,41,42,40,49,236,data/raw/cde/2020-21_membership_grade_by_school.xlsx,453,2020-2021 Data,236.0
+Bear Creek,0652,Bear Creek Elementary School,2021-22,0.0,0.0,48,42,53,54,77,72,346,data/raw/cde/2021-22_membership_grade_by_school.xlsx,417,2021-2022 Data,346.0
+Mesa,5838,Mesa Elementary School,2021-22,0.0,0.0,34,44,37,41,48,43,247,data/raw/cde/2021-22_membership_grade_by_school.xlsx,455,2021-2022 Data,247.0
+Bear Creek,0652,Bear Creek Elementary School,2022-23,0.0,0.0,50,50,46,57,57,82,342,data/raw/cde/2022-23_membership_grade_by_school.xlsx,419,2022-2023 Data,342.0
+Mesa,5838,Mesa Elementary School,2022-23,0.0,0.0,27,39,43,42,46,49,246,data/raw/cde/2022-23_membership_grade_by_school.xlsx,456,2022-2023 Data,246.0
+Bear Creek,0652,Bear Creek Elementary School,2023-24,16.0,0.0,33,53,49,45,59,60,315,data/raw/cde/2023-24_membership_grade_by_school.xlsx,414,2023-2024 Data,299.0
+Mesa,5838,Mesa Elementary School,2023-24,13.0,0.0,26,33,34,44,46,50,246,data/raw/cde/2023-24_membership_grade_by_school.xlsx,451,2023-2024 Data,233.0
+Bear Creek,0652,Bear Creek Elementary School,2024-25,0.0,0.0,51,39,54,54,57,63,318,data/raw/cde/2024-25_membership_grade_by_school.xlsx,414,2024-2025 Data,318.0
+Mesa,5838,Mesa Elementary School,2024-25,20.0,0.0,33,27,36,41,44,49,250,data/raw/cde/2024-25_membership_grade_by_school.xlsx,451,2024-2025 Data,230.0
+Bear Creek,0652,Bear Creek Elementary School,2025-26,,,48,46,42,56,58,62,312,data/raw/cde/2025-26_pupil_membership_school_level.xlsx,412,Grade,312.0
+Mesa,5838,Mesa Elementary School,2025-26,25.0,,28,36,31,37,46,47,250,data/raw/cde/2025-26_pupil_membership_school_level.xlsx,449,Grade,225.0

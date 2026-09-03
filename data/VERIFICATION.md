@@ -48,8 +48,17 @@ Status codes: `MATCH`, `MISMATCH`, `UNVERIFIED`. "Primary" = a BVSD document in 
 | 30 | P4 p. 11 2023-24 enrol vs P13 2023-24 head count | MATCH (233, 298) |
 | 31 | OCR (rapidocr) vs visual read of the Mesa/Bear Creek rows on P2 p. 9, P3 p. 9, P4 p. 11, P5 slide 17 | one OCR slip: Mesa 2029 rounds "13" for "1.3" (P2 p. 9); all other tokens MATCH |
 
-## D. CDE vs BVSD October count
-Still not possible: no CDE file retrieved. Definitions to note when it is: BVSD's files are titled "Summary of Colorado Department of Education - Funded Head Count" as of the October count date (Oct 1–5), and list PK separately (0 at Mesa and Bear Creek through 2022-23, column dropped after). CDE's pupil-membership file counts membership on the October count day and includes PK where offered; charter and "Boulder Universal" rows will differ. Compare K–5 to K–5.
+## D. CDE vs BVSD October count (2019-20 … 2025-26; `data/clean/verification_cde_vs_bvsd.csv`)
+
+| # | Check | Result |
+|---|---|---|
+| 32 | School codes: 0652 / 5838 carry the names "Bear Creek Elementary School" / "Mesa Elementary School" under district 0480 "Boulder Valley Re 2" in all 7 CDE files | MATCH |
+| 33 | CDE K–5 vs BVSD funded head count, 14 school-years | MATCH in 10; CDE higher by 1–2 in 4 (Bear Creek 2020-21 +2, 2023-24 +1; Mesa 2020-21 +1, 2025-26 +1) |
+| 34 | Grade-by-grade, K–5, 14 school-years × 6 grades | all equal except the four single-grade cells behind row 33 |
+| 35 | CDE PK: Bear Creek 16 (2023-24 only); Mesa 13, 20, 25 (2023-24 … 2025-26). BVSD files: PK 0 / not reported | definitional; see CONFLICTS C10 |
+| 36 | CDE 2025-26 "PK12_MembershipTrends" 2024-25 column vs CDE 2024-25 file | MATCH (318; 250) |
+
+Earlier note, kept for the definitions: BVSD's files are titled "Summary of Colorado Department of Education - Funded Head Count" as of the October count date (Oct 1–5). Definitions to note when it is: BVSD's files are titled "Summary of Colorado Department of Education - Funded Head Count" as of the October count date (Oct 1–5), and list PK separately (0 at Mesa and Bear Creek through 2022-23, column dropped after). CDE's pupil-membership file counts membership on the October count day and includes PK where offered; charter and "Boulder Universal" rows will differ. Compare K–5 to K–5.
 
 ## E. Projection-accuracy inputs (open question 3) — data only
 `data/clean/capacity_summary_mesa_bearcreek_by_vintage.csv` now holds four vintages (Jan 2024, Jan 2025, Oct 2025 = Jan 2025, Jan 2026) of one-to-five-year projections plus the official actuals in `bvsd_pupil_count_mesa_bearcreek.csv`. Examples, projection → actual: Bear Creek 2024-25 (Jan 2024 vintage) 287 → 318; 2025-26 (Jan 2024) 273 → 312; 2025-26 (Jan 2025) 308 → 312. Mesa 2024-25 (Jan 2024) 220 → 230; 2025-26 (Jan 2024) 211 → 224; 2025-26 (Jan 2025) 230 → 224.

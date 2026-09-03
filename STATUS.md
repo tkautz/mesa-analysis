@@ -1,4 +1,4 @@
-# STATUS — session 1 (data collection), updated 2026-09-03 (round 2)
+# STATUS — session 1 (data collection), updated 2026-09-03 (round 3)
 
 ## Collected
 - **Primary BVSD documents** (hand-downloaded, sorted into `data/raw/bvsd/`, manifest in `MANIFEST.csv`): the Aug 25 2026 proposal deck (75 pp.), Feb 2024/2025/2026 trend reports, Oct 21 2025 work session, two executive summaries, LRAC June 2023 metrics, Resilient Schools FAQ, the Bear Creek/Creekside boundary-change page, and **36 October pupil-count PDFs (2014-15 … 2025-26)**. Full text extracted for every PDF; image-only table pages rendered and OCR'd (flagged).
@@ -8,11 +8,17 @@
   - `projections_by_vintage.csv` — rebuilt from primaries, every row verified, with page numbers.
   - `resident_vs_enrolled_mesa_bearcreek.csv` — 2025-26 resident / resident-attending / OE-in / out-of-district split (open question 4, partial).
   - `verification_headcount_sources.csv` — official vs enrollmentdata series.
-- `data/SOURCES.md`, `data/CONFLICTS.md`, `data/VERIFICATION.md` rewritten; `scripts/` has nine reproducible steps.
+- **Round 3**: CDE pupil membership 2019-20 … 2025-26 (`data/raw/cde/`, parsed to `data/clean/cde_mesa_bearcreek.csv`, compared in `verification_cde_vs_bvsd.csv`); the Mar 11 and Sept 9 2025 attendance-boundary board documents; the bvsd.org Resilient Schools page. All-school official head counts 2014-15 … 2025-26 in `bvsd_pupil_count_all_elementary.csv` (input for the projection-accuracy analysis).
+- `data/SOURCES.md`, `data/CONFLICTS.md`, `data/VERIFICATION.md` updated; `scripts/` has twelve reproducible steps.
+- `analysis/PLAN.md` — proposed analysis plan awaiting approval.
 
 ## Failed / still missing
-- Network egress from the session still blocks bvsd.org, BoardDocs and CDE, so nothing was fetched programmatically. Not in the hand-downloaded batch: the bvsd.org declining-enrollment page (F4), all CDE membership XLSX files (F5/F6), the 2020-21 FTE summary (F8). Wish-list: F9–F11 in SOURCES.md.
+- Network egress from the session still blocks bvsd.org, BoardDocs and CDE, so nothing was fetched programmatically. Still missing (low priority): CDE 2014-15 … 2018-19 files, the 2020-21 FTE summary, the May 20 2025 boundary session. **Most valuable next fetch: older Annual Enrollment Trend Reports (Feb 2022, Feb 2023) or any earlier BVSD 5-year projection tables**, because the accuracy analysis currently has only three projection vintages.
 - No PR (repo had no base branch; creating one was denied). Branch: `claude/bvsd-mesa-bear-creek-data-vdbcu6`.
+
+## Round 3 additions
+4. **The boundary change cannot explain the projection jump.** The dual Bear Creek/Creekside area has 37 elementary students, 23 already at Bear Creek; the Sept 2025 change moves the remaining handful. Bear Creek's 2029-30 projection nonetheless rose by 38 students between the Jan 2025 and Jan 2026 runs, for reasons no document states.
+5. **CDE and BVSD agree to within 1–2 students on K–5**, and the enrollmentdata "225" for Mesa is CDE's K–5 membership (BVSD's funded count is 224). Mesa has 25 PK students in CDE's 2025-26 file that appear in no BVSD table.
 
 ## Three things in the data that most surprised me (round 2)
 1. **The Oct 2025 deck did not contain new projections.** Slide 17 is number-for-number the Feb 2025 report's table (Jan 24 2025 run). The "Oct 2025 vs Feb 2026" change in CLAUDE.md is really a Jan 2025 vs Jan 2026 change, and the Jan 2026 Bear Creek path is the first vintage that turns upward (288 → 310 → 320). The deck itself flags that its Boulder charts "do not reflect new 2026-27 attendance area boundaries", and the boundary page documents the Bear Creek/Creekside dual area becoming Bear Creek-only from 2026-27.

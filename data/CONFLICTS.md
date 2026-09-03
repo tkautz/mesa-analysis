@@ -25,6 +25,7 @@ Record both sides; do not resolve silently. Updated 2026-09-03 after the primary
 - P5 slide 17 (Oct 21 2025) and P3 p. 9 (Feb 2025, "updated 1/24/2025") are **identical** for Mesa and Bear Creek: 2029-30 Bear Creek 272 / Mesa 224. So the Oct 2025 deck re-used the January 2025 projection run; the jump is between the Jan 2025 and Jan 2026 runs.
 - P2 p. 9 (updated 1/26/2026): 2029-30 Bear Creek 310 / Mesa 202; 2030-31 320 / 201.
 - P5 slide 19 carries the note "Chart does not reflect new 2026-27 attendance area boundaries." P10: the Bear Creek/Creekside dual area west of Broadway and north of Table Mesa becomes Bear Creek-only from 2026-27 (adopted Sept 23 2025). Whether the Jan 2026 run incorporates that change is not stated in P2.
+- Size of the boundary change (P14 p. 22, P15 p. 19): the dual Bear Creek/Creekside area holds **37 elementary students, of whom 23 already attend Bear Creek and 7 attend Creekside**; BVSD calls the dual area "generally unused". On these numbers the boundary change alone moves single digits of students per year, far less than the +38 (272 → 310) revision to Bear Creek's 2029-30 projection between the Jan 2025 and Jan 2026 runs. The hypothesis in CLAUDE.md open question 1 is therefore not supported by the documents as the main explanation; the reason for the revision is undocumented.
 - Also: the Feb 2026 Bear Creek path is non-monotonic (299, 293, 288, then 310, 320), unlike every earlier vintage.
 
 ## C7. Page references in CLAUDE.md for the "462" figure
@@ -34,6 +35,11 @@ Record both sides; do not resolve silently. Updated 2026-09-03 after the primary
 - P1 p. 51 (2025-26): Bear Creek resident students 275, Mesa 228. P1 p. 44 bar labels (residents attending their neighborhood school): Bear Creek 217, Mesa 156.
 - P5 slide 19 (2024-25, pre-boundary-change chart, no labels): the Bear Creek "attending neighborhood school" bar visibly extends past 300 while 2024-25 enrollment was 318, and the total resident bar reads ≈380; Mesa reads ≈155 / ≈228. A 2024-25 resident-attending count above ~300 is hard to reconcile with 217 a year later unless the dual attendance area was counted differently. Recorded as a puzzle; do not use the slide-19 bar readings as data.
 - P1 p. 50 says Mesa "has the second lowest number of resident students in its attendance area" in Boulder; p. 44 shows Flatirons (≈195) lowest and Mesa (228) second-lowest, consistent.
+
+## C10. CDE membership vs BVSD funded head count — definitional, small
+- CDE (C1/C2) counts PK where offered: Bear Creek 16 PK in 2023-24 only; Mesa 13 / 20 / 25 PK in 2023-24 / 2024-25 / 2025-26. BVSD's files show PK = 0 for both schools (through 2022-23) and drop the column after. So CDE PK-12 for Mesa 2025-26 is **250**, K-5 is 225, BVSD funded K-5 is 224.
+- K–5 differences: 2020-21 CDE is +2 (Bear Creek) / +1 (Mesa); 2023-24 +1 (Bear Creek, kindergarten); 2025-26 +1 (Mesa, grade 1). All others equal. CDE's K–5 membership ≥ BVSD's funded count in every case, consistent with "membership" vs "funded".
+- Consequence: the enrollmentdata "Mesa 225" and its 2023 "6TH" column (13/16) are CDE values (K-5 count and PK), not transcription errors. `data/clean/verification_cde_vs_bvsd.csv` has the cell-level comparison.
 
 ## C9. Branch name — as before
 - Work is on `claude/bvsd-mesa-bear-creek-data-vdbcu6`, not `data-collection`.
