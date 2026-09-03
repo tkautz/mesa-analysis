@@ -1,0 +1,14 @@
+== 2026-09-03T05:04:48Z https://go.boarddocs.com/co/bvsd/Board.nsf/pfiles/DXBFUX40E0C7/$file/Resilient%20Schools%20Proposal%20FINAL%2008-25-2026%20(1).pdf
+curl: (56) CONNECT tunnel failed, response 403
+== 2026-09-03T05:04:49Z https://go.boarddocs.com/co/bvsd/Board.nsf/pfiles/DQTRAN6D12DA/$file/Annual%20Enrollment%20Trend%20Report%20_%20February%202026.pdf
+curl: (56) CONNECT tunnel failed, response 403
+== 2026-09-03T05:04:49Z https://go.boarddocs.com/co/bvsd/Board.nsf/pfiles/DMJTXV756DA8/$file/Enrollment%20Worksession%20_%2010.21.2025%20(1).pdf
+curl: (56) CONNECT tunnel failed, response 403
+== 2026-09-03T05:04:49Z https://www.bvsd.org/current-topics/declining-enrollment
+curl: (56) CONNECT tunnel failed, response 403
+== 2026-09-03T05:04:49Z https://www.bvsd.org/departments/enrollment/enrollment-statistics/pupil-count
+curl: (56) CONNECT tunnel failed, response 403
+== 2026-09-03T05:04:49Z https://www.cde.state.co.us/cdereval/rvprioryearpmdata
+curl: (56) CONNECT tunnel failed, response 403
+== 2026-09-03T05:04:50Z https://cde.state.co.us/cdereval/pupilcurrent
+curl: (56) CONNECT tunnel failed, response 403
