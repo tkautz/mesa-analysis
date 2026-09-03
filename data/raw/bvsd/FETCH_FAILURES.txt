@@ -12,3 +12,5 @@ curl: (56) CONNECT tunnel failed, response 403
 curl: (56) CONNECT tunnel failed, response 403
 == 2026-09-03T05:04:50Z https://cde.state.co.us/cdereval/pupilcurrent
 curl: (56) CONNECT tunnel failed, response 403
+== 2026-09-03 (author, manual) "Resilient Schools Proposal Supporting Data" page linked from https://www.bvsd.org/current-topics/declining-enrollment — author could not retrieve; not in repo. Claim in memo phrased as "none of the published documents reviewed"; see STATUS.md.
+== 2026-09-03 (author, manual) Sept. 8, 2026 Board agenda item and attachments (BoardDocs) — author could not retrieve; Appendix D timeline item carries an explicit "agenda not reviewed" caveat.

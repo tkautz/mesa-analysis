@@ -28,7 +28,7 @@
 \item An independent cohort-survival model patterned on the district's published grade-progression framework and fitted to its grade counts reproduces the district's Bear Creek figure for 2030--31 (320; the model gives 317) only if kindergarten intake stops falling and holds at its 2023--25 level. Under that assumption the two schools together are about 523 and the merged school (90\% of Mesa students following) has a central estimate of 503 with a 57\% chance of exceeding 492. If intake keeps falling, the central estimate is 430 and the chance is 16\%. The 73-student gap between the two assumptions is wider than the district's entire 59-student range.
 \item The proposal's range can be reached from the district's own numbers only by assuming either that 29--59\% of Mesa's projected students go elsewhere, or that the resident capture rate falls to 46--57\% (below either school's today), or that choice seats are cut from 163 to between 16 and 75 (Figure~\ref{fig:grid}). The documents do not say which.
 \item Among the ten receiving schools in the proposal, Bear Creek's 2030--31 range is the widest (59 students; the next widest is 37) and its margin at the top of the range is the smallest (30 seats of 492) (deck pp.\ 25, 37, 48, 51, 54).
-\item The deck's own resident-student figures for the combined area are 503 today, 473 in 2027--28 and 522 in 2030--31 (p.\ 51), while its chart of 2030 residents reads about 445 (p.\ 44). No document reconciles them.
+\item The deck's own resident-student figures for the combined area are 503 today, 473 in 2027--28 and 522 in 2030--31 (p.\ 51), while its chart of 2030 residents reads about 445 (p.\ 44). The definitions may differ; no document says.
 \item The deck gives package-level savings of \$3.5--4.0M a year against one-time costs of \$7.5--10.0M plus \$5.0M, with no Mesa-specific figure (p.\ 60).
 \end{itemize}
 
@@ -152,7 +152,7 @@ Two cautions. The 29 two-year cases all score one run (January 2024) against one
 An independent cohort-survival model patterned on the district's published grade-progression framework, reporting a range, puts the merged school anywhere from about 360 to about 580 in 2030--31, depending mainly on one assumption the district has not stated.
 
 \subsection{Method in brief}
-The model follows the district's stated method (cohort survival, Feb.\ 2026 p.\ 7): each grade's October count is carried forward to the next grade at the rate observed historically, and a new kindergarten class is added each year. Twelve years of K--5 counts for each school give eleven grade-to-grade rates for each of grades 1--5 and twelve kindergarten intakes. Future years are simulated 10{,}000 times. In each simulated year, one historical year is drawn at random and its kindergarten surprise and all five grade-to-grade rates are applied to both schools at once, so a shock like 2020 stays one event and the two schools rise and fall together, as they do in the data. Fitted on data through 2023 and 2024 and scored on the counts that followed, the model's 80\% range caught 72--76\% of actual outcomes across 26 schools, as close to 80\% as that many cases can show; its errors are the same size as the district's on the same school-years. It is not a better forecaster than the district and is not offered as one. Detail and the full backtest are in Appendix~B.
+The model is patterned on the district's stated method (cohort survival, Feb.\ 2026 p.\ 7), without its birth inputs: each grade's October count is carried forward to the next grade at the rate observed historically, and a new kindergarten class is added each year. Twelve years of K--5 counts for each school give eleven grade-to-grade rates for each of grades 1--5 and twelve kindergarten intakes. Future years are simulated 10{,}000 times. In each simulated year, one historical year is drawn at random and its kindergarten surprise and all five grade-to-grade rates are applied to both schools at once, so a shock like 2020 stays one event and the two schools rise and fall together, as they do in the data. Fitted on data through 2023 and 2024 and scored on the counts that followed, the model's 80\% range caught 72--76\% of actual outcomes across 26 schools, as close to 80\% as that many cases can show; its errors are the same size as the district's on the same school-years. It is not a better forecaster than the district and is not offered as one. Detail and the full backtest are in Appendix~B.
 
 \subsection{The kindergarten assumption decides the answer}\label{sec:kinder}
 Kindergarten intake is the one place where a modeling choice is unavoidable, and it is made two ways, presented as co-equal throughout:
@@ -227,10 +227,7 @@ Level & 2030--31 & 18\% & 24\% & 57\% \\
 Under either assumption Mesa alone stays between about 160 and 230 students, below two rounds, and Bear Creek alone stays below three rounds. The model therefore agrees with the district that Mesa is small and will stay small. That is conceded. The dispute is about the merged school.
 
 \section{What the merged-school range assumes}\label{sec:range}
-Under either kindergarten assumption the risk is one-sided: the chance of a merged school below two rounds is at most 2\%, while the chance of exceeding the building runs from 16\% to 57\% at 90\% following. Let $r$ be the share of Mesa's projected students who enroll at Bear Creek rather than elsewhere. Merged enrollment is Bear Creek's simulated path plus $r$ times Mesa's, drawn jointly. Figure~\ref{fig:lines} (Appendix~C) gives the probabilities that matter across $r$; Figure~\ref{fig:class} gives the implied class sizes. Section~\ref{sec:fork} and Figure~\ref{fig:grid} restate the question on the district's own resident projection, the reading the district is likely to prefer.
-
-\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig08_class_size.png}
-\caption{Average class size at the merged school in 2030--31 at 21 classrooms (the 3.5-round basis of 492) and at 18 (a three-round school). At 21 classrooms and 90\% following, the central estimate is 20.5 (trend) or 23.9 (level); at 18, 23.9 or 27.9.}\label{fig:class}\end{figure}
+Under either kindergarten assumption the risk is one-sided: the chance of a merged school below two rounds is at most 2\%, while the chance of exceeding the building runs from 16\% to 57\% at 90\% following. Let $r$ be the share of Mesa's projected students who enroll at Bear Creek rather than elsewhere. Merged enrollment is Bear Creek's simulated path plus $r$ times Mesa's, drawn jointly. Figure~\ref{fig:lines} (Appendix~C) gives the probabilities that matter across $r$; Figure~\ref{fig:class} (Appendix~C) gives the implied average class sizes and Figure~\ref{fig:sections} the classrooms needed grade by grade. Section~\ref{sec:fork} and Figure~\ref{fig:grid} restate the question on the district's own resident projection, the reading the district is likely to prefer.
 
 Under the trend assumption with 90\% following, the 2030--31 central estimate is 430 (80\% range 360--510), the chance of exceeding 450 is 37\%, of exceeding 492 is 16\%, and of falling below 300 is 1\%. Under the level assumption the central estimate is 503 (429--582) and the chances are 82\%, 57\% and 0\%. In the first year of the merged school, 2027--28, the central estimates are 473 and 494 and the chances of exceeding 492 are 30\% and 52\%. The chance-below-300 column shows that the downside of a too-small merged school is negligible under either assumption; the risk is toward overcrowding.
 
@@ -285,6 +282,25 @@ Either branch is a problem for the proposal. One assumes South Boulder families 
 \subsection{RISE, AIM and effective capacity}\label{sec:rise}
 Bear Creek's 492 seats are ``program capacity based on current use of the building'' (Feb.\ 2026 p.\ 9, footnote), so its existing programs are inside that figure. The bvsd.org proposal page states that ``all existing AIM and RISE programs would be housed at Bear Creek'' and the deck that ``Mesa's RISE Program moves to the Bear Creek building'' (page p.\ 7 of the saved copy; deck p.\ 49); the FAQ says program space ``was considered'' (p.\ 3). None of the documents states how many classrooms these center-based programs occupy at either school or whether 492 nets out the incoming one. Table~\ref{tab:eff} (Appendix~C) recomputes the exceedance chances at effective capacities of 492, 470 and 445, roughly one and two classrooms removed; it is illustrative pending the district's statement. At an effective capacity of 445, the chance of exceeding it in the first year with 90\% following is 79\% (trend) or 89\% (level).
 
+Seats are not the operational constraint; classrooms are, and cohorts do not divide evenly into them. For each simulated path the number of general-education sections the merged school needs is the sum over grades of the classes required at a class-size guideline (Figure~\ref{fig:sections}; Table~\ref{tab:sections}). Two inputs are not published and are assumed: the guideline itself (the FAQ refers to ``district class-size guidelines'' without a number, p.\ 3; 25 is used, 23 as a sensitivity) and the general-education rooms available (21, the 3.5-round basis of 492; 18 for a three-round school). With 90\% following and a guideline of 25, the central path needs 22 sections in 2027--28 under the trend assumption and 23 under the level assumption, more than 21 rooms in 65\% and 78\% of paths; in 2030--31, 20 and 23 sections, more than 21 rooms in 31\% and 76\% of paths. A merged school at the trend assumption's central 430 students still needs more than 21 rooms in about one path in three, because a grade of 77 needs four classes at 25, not three. None of this nets out the rooms RISE and AIM occupy. The district can answer it with two numbers: the guideline it applies and the rooms Bear Creek has after the programs move.
+
+\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig15_sections_by_grade.png}
+\caption{General-education sections the merged school needs (sum over grades of classes at the guideline), 90\% following, by year and kindergarten assumption, at an assumed guideline of 25 (solid) and 23 (faded). Rooms available are assumed at 21 and 18; RISE and AIM rooms are not netted out.}\label{fig:sections}\end{figure}
+
+\begin{table}[h]\centering\small
+\caption{Sections needed vs rooms, 90\% following, guideline 25 (23 in parentheses). Chance of needing more sections than rooms.}\label{tab:sections}
+\begin{tabular}{llrrr}
+\toprule
+Assumption & Year & Sections needed, central (low--high) & Over 21 rooms & Over 18 rooms \\
+\midrule
+Trend & 2027--28 & 22 (19--24) & 65\% (92\%) & 98\% \\
+Level & 2027--28 & 23 (21--25) & 78\% (97\%) & 99\% \\
+Trend & 2030--31 & 20 (17--23) & 31\% (53\%) & 77\% \\
+Level & 2030--31 & 23 (20--26) & 76\% (91\%) & 98\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \section{What would it take for Bear Creek to fill? Upside cases}\label{sec:upside}
 The district attributes the decline to low births, an aging population and constrained housing turnover (FAQ p.\ 6; deck p.\ 10). Each driver can also reverse, and the merged school starts close to the thresholds. Figure~\ref{fig:ladder} lays out nine cases for 2030--31: five reach 492 at their central value, seven at their 1-in-10 high.
 
@@ -293,10 +309,10 @@ The district attributes the decline to low births, an aging population and const
 
 \begin{description}
 \item[Leveling-off (G, I).] At the observed grade-to-grade gains (each kindergarten class grows about 31--35\% by fifth grade), a steady intake of about 69 a year fills 492 seats; the 2023--25 average is 73, which at 90\% following gives 463 (I). The level assumption is this case with noise: central estimate 503, 1-in-10 high 582 (G).
-\item[Resident capture (C--E).] At Bear Creek's current 79\% capture rate plus its current 95 open-enrolled-in and out-of-district students, the merged school would have about 507 in 2030--31; at 85\% capture, about 539 (Section~\ref{sec:fork} shows why the proposal's range requires capture to fall to 59--70\% or open enrollment to be cut).
+\item[Resident capture (C--E).] At Bear Creek's current 79\% capture rate plus its current 95 open-enrolled-in and out-of-district students, the merged school would have about 507 in 2030--31; at 85\% capture, about 539 (Section~\ref{sec:fork}: the proposal's range requires a capture rate of 46--57\% at today's choice seats, or choice seats cut to 16--75).
 \item[Open enrollment.] The proposal's stated aim is that a three-round school with fuller programs is a better student experience (deck pp.\ 60--61). If so, it will attract open enrollees, and every 25 is one classroom. Bear Creek currently has 82 in-district open-enrolled students and 13 out-of-district students; the district does not publish which schools they come from.
 \item[The district's own numbers, unadjusted (B).] If the January 2026 projections hold and all of Mesa's students follow, the merged school has 521 students, 29 above capacity.
-\item[Housing turnover.] The district's boundary study uses a yield of 58 elementary students per 324 single-family dwellings, 0.18 per home (Sept.\ 9, 2025, p.\ 22). Moving the trend-assumption central estimate of 430 to 492 requires about 62 students: about 350 homes turning over at that average yield, or 62 homes passing to households with one elementary-age child each. The FAQ describes the over-60 population as the fastest-growing segment and ``aging in place'' as a constraint on turnover (p.\ 6; deck p.\ 10). No age or housing data for the two areas is in the record, so this case is illustrative arithmetic, not a forecast.
+\item[Housing turnover.] Illustrative only: at the district's own boundary-study yield of 0.18 elementary students per single-family home (Sept.\ 9, 2025, p.\ 22), the 62 students separating the trend central estimate (430) from 492 correspond to about 350 homes changing hands. The FAQ names ``aging in place'' as a constraint on turnover (p.\ 6); no age or housing data for the two areas is in the record.
 \end{description}
 None of these cases is a prediction. They show that outcomes at or above the building's capacity require nothing exotic: a continuation of the last three years' kindergarten intake, or the combined area behaving the way Bear Creek's area already does. The district's reply that over-enrollment has reversible remedies (choice limits, boundaries, portables) is correct, and it is the point: every one of those remedies costs money the deck's one-time line does not count, and Meadowlark already relies on four portables adding about 100 seats (Feb.\ 2026 p.\ 9, footnote).
 
@@ -313,7 +329,7 @@ Every projection in this appendix, the district's and ours, is fitted on grade-p
 
 The deck assigns no closed school's residents to Bear Creek other than Mesa's: Douglass's area goes to Coal Creek, Eisenhower and Heatherwood (p.\ 46), Flatirons' to Foothill and Whittier (p.\ 52), Birch's to Kohl (p.\ 25). After the package, the Boulder-region neighborhood schools the deck projects at or near three rounds in 2030--31 are Foothill (484--492, p.\ 54) and Bear Creek at the top of its range (403--462, p.\ 51); district-wide, the deck reports the number of schools below two classes per grade falling from 14 to 6 (p.\ 58). Among options studied and not proposed was closing Creekside and redistributing its students ``to Mesa, Bear Creek and Eisenhower'' (p.\ 56). The FAQ's statement that choice enrollment will be managed at schools nearing capacity (p.\ 3, quoted in Section~\ref{sec:fork}) is the only text on re-sorted flows; no document states whether 403--462 includes them or names Bear Creek's sending schools.
 
-The identifiable channels point toward more students at Bear Creek: it becomes one of very few Boulder-region schools at or near three rounds, which the district describes as the design (p.\ 43: 16 schools where 10 would sustain three classes per grade); the proposal's own claim is that fuller programs attract enrollment; and choice priority is being extended to displaced families across the region. The direction is not certain and the district has not modeled it. No flow assumptions are invented here.
+The channels run in both directions. Those the district itself names point toward more students at Bear Creek: it becomes one of very few Boulder-region schools at or near three rounds, which the district describes as the design (p.\ 43: 16 schools where 10 would sustain three classes per grade); the proposal's own claim is that fuller programs attract enrollment; and choice priority is being extended to displaced families across the region. Managed choice, if applied at Bear Creek, points the other way, and the portfolio change itself makes historical flows a weaker guide either way. The net direction is not modeled by the district or here. No flow assumptions are invented in this appendix.
 
 Other sources of variance that no projection carries, each with its documentary support or labeled unquantified:
 \begin{itemize}
@@ -328,7 +344,7 @@ The deck gives package-level savings and costs only; there is no Mesa-specific f
 
 Arithmetic on the district's figures: simple payback of the one-time cost from the recurring savings is 3.1 to 4.3 years (12.5--15.0 divided by 3.5--4.0), if the savings are realized in full; the district would note that the \$5.0M is already budgeted and part of the facility line is offset by bond funds. There is no Mesa-specific line on either side.
 
-The benefit is a projection that may not be realized in full; the one-time cost is undercounted if the merged school needs portables or further boundary work. On the revenue side there is evidence from elsewhere, with a caveat. A study of all California public school districts, 2011--2019 (Pearman, Stanford, May 2026; \texttt{data/raw/literature/}), estimates that districts entering a closure regime reduced per-pupil expenditures by about \$447 and per-pupil revenues by about \$433. Both estimates are imprecise and not statistically significant, but they are nearly equal, so districts' funding deficits and probability of a balanced budget were unchanged (abstract; p.\ 12). Closure regimes lost 287 students on average with ``no commensurate effects on the number of teachers, principals, or other district staff'' (abstract). The caveat is that Pearman's channel is students leaving the district under California's funding formula; BVSD's range concerns Mesa residents choosing among BVSD schools with first priority (deck p.\ 63), most of whom stay in the district's count. The relevance is narrower: the district's own range assumes that 29--59\% of Mesa's projected students do not follow to Bear Creek, and the deck does not say where they go or what funding, transportation or program cost follows them.
+The benefit is a projection that may not be realized in full; the one-time cost is undercounted if the merged school needs portables or further boundary work. On the revenue side, the district's own range assumes that 29--59\% of Mesa's projected students do not follow to Bear Creek, and the deck does not say where they go or what funding, transportation or program cost follows them.\footnote{Evidence from elsewhere is of limited relevance and is noted only for completeness. A study of all California public school districts, 2011--2019 (Pearman, Stanford, May 2026; \texttt{data/raw/literature/}), estimates that districts entering a closure regime reduced per-pupil expenditures by about \$447 and per-pupil revenues by about \$433; both estimates are imprecise and not statistically significant, and because they are nearly equal, funding deficits and the probability of a balanced budget were unchanged (abstract; p.\ 12). Closure regimes lost 287 students on average with ``no commensurate effects on the number of teachers, principals, or other district staff'' (abstract). Pearman's channel is students leaving the district under California's funding formula; BVSD's range concerns Mesa residents choosing among BVSD schools with first priority (deck p.\ 63), most of whom stay in the district's count.}
 
 \section{Open questions the documents do not answer}\label{sec:gaps}
 \begin{enumerate}
@@ -342,10 +358,31 @@ The benefit is a projection that may not be realized in full; the one-time cost 
 \item Transportation: the deck states the eligibility rule (1.5 miles or more from the assigned school, p.\ 64) but not how many Mesa-area addresses fall outside that radius from Bear Creek.
 \end{enumerate}
 
+\paragraph{The K--2 / 3--5 alternative.} The deck lists ``Reconfigure Mesa and Bear Creek into K-2 and 3-5'' first among options studied for Boulder (p.\ 56) and gives reasons for two others on the same page but none for this one. Table~\ref{tab:k25} sets the two options side by side on the dimensions the district's own rationale uses, with the model's figures where the record has none. The alternative is not argued here to be better. Under the level assumption it plausibly meets the grade-team objective (three or more classes per grade in both buildings); under the trend assumption K--2 falls short; and it does nothing for building utilization or recurring cost. What the table shows is that the comparison the Board would need in order to choose between a reversible and an irreversible option has not been published.
+
+\begin{table}[h]\centering\small
+\caption{Closure versus the K--2 / 3--5 reconfiguration, on the district's own criteria. ``Not published'' means no figure appears in the deck, FAQ, trend reports or bvsd.org pages reviewed. Model figures: 90\% following, 2030--31, from Table~\ref{tab:reconf} (Appendix~C).}\label{tab:k25}
+\begin{tabular}{p{3.2cm}p{5.4cm}p{5.4cm}}
+\toprule
+Criterion & Close Mesa, merge at Bear Creek (proposed) & K--2 at one building, 3--5 at the other (studied, p.\ 56) \\
+\midrule
+Classes per grade & Range 403--462 gives 2.7--3.1 rounds (p.\ 51). Model: 2.9 (trend) or 3.4 (level) at 25 per class. & Not published. Model: K--2 building 2.4 (trend) or 3.1 (level) classes per grade; 3--5 building 3.3 or 3.6. \\
+Building utilization & 82--94\% at Bear Creek (p.\ 51); Mesa building vacated. & Not published. Model: about 430--500 students across 910 seats, 47--55\%. \\
+Recurring savings & Package \$3.5--4.0M/yr (p.\ 60); Mesa-specific figure not published. & ``Uncertain'' (Oct.\ 2025 work session slide 45); not published. \\
+One-time cost & Package \$7.5--10.0M + \$5.0M (p.\ 60); Mesa-specific figure not published. & Not published. \\
+Travel & Mesa-area students to Bear Creek; 1.5-mile rule stated (p.\ 64), address count not published. & Every family attends both buildings over six years; not published. \\
+RISE and AIM & All at Bear Creek (bvsd.org p.\ 7); rooms not published. & Not published. \\
+Reversibility & Closure and boundary merger; not reversible in practice. & Grade configuration and boundaries; reversible by Board action. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \section{Limitations and conclusion}\label{sec:conclusion}
 Three projection runs exist, so direct accuracy is measured only one and two years ahead; the three-to-five-year figures are revisions, a lower bound on uncertainty under a stated assumption. The independent model uses only BVSD's grade counts; it has no births, housing or open-enrollment inputs, its 50\% range is too narrow in backtest, and its two-year upper tail is thin, which if anything understates the chance of exceeding capacity. The share following and the open-enrollment response are assumptions shown as ranges. The effective-capacity table is illustrative. The turnover case uses a district yield figure from a different neighborhood. Costs of either error are not quantified because the district's documents do not quantify them. Capacity is the district's ``program capacity based on current use of the building'' and is itself a policy variable.
 
 The documents presented do not contain a projection with a margin of error. They do not state the assumptions about following, capture or open enrollment behind the merged-school range. They do not show that the merged school fits the building under the higher cases once program space is counted. They contain no Mesa-specific cost or revenue figure. And they leave the transition questions in Section~\ref{sec:gaps} open. The Board should decline to approve the Mesa/Bear Creek component of the Resilient Schools proposal at this time, and direct staff to return with an analysis that meets this standard.
+
+\paragraph{A second-best course.} If the Board is unwilling to hold the component, the alternative that still respects the uncertainty is approval with published triggers. Two signals arrive before the closure takes effect in August 2027: the October 2026 count (the first under the new boundaries) and the January 2027 projection run. The Board could adopt the component subject to automatic reconsideration if either signal shows the enrollment assumption failing in the direction of overcrowding; for example, if the two schools' combined October 2026 count exceeds the January 2026 run's figure for that year (516), or if the January 2027 run's merged-school range has a top above 462 or a central value above 450 once program rooms are netted out. The trigger values are for the Board to set and staff to state; what matters is that they are written down before the vote, not inferred after it. The district has used a hold for further study elsewhere in this proposal (dual-language schools, deck p.\ 72); a conditional approval is the weaker form of the same discipline.
 
 \appendix
 \section{Reproducibility}\label{app:repro}
@@ -361,7 +398,12 @@ All scripts run from the repository root in numbered order: \texttt{scripts/} (e
 \begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig06_backtest.png}
 \caption{Backtest across 26 schools: share of actual counts inside each range under both assumptions (left; black tick = designed coverage), and the model's errors against the district's on the same school-years (right).}\label{fig:bt}\end{figure}
 
+\paragraph{Cross-school dependence of year shocks.} The main model draws one historical year for both schools in each simulated year, which reproduces the observed cross-school correlation of shocks (the 2020 drop stays one event). The opposite extreme, independent year draws for the two schools, brackets any common-plus-idiosyncratic decomposition. At 90\% following the merged school's 2030--31 central estimate is unchanged (431 vs 432 trend; 503 vs 503 level); the 80\% range narrows from 149 to 135 students (trend) and from 153 to 138 (level); the chance of exceeding 492 moves from 15\% to 13\% (trend) and from 57\% to 58\% (level). The joint draw is retained as the more conservative and the empirically supported choice (\texttt{analysis/output/table13\_shock\_sensitivity.csv}).
+
 \section{Scenario and effective-capacity tables}\label{app:tables}
+
+\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig08_class_size.png}
+\caption{Average class size at the merged school in 2030--31 at 21 classrooms (the 3.5-round basis of 492) and at 18 (a three-round school). At 21 classrooms and 90\% following, the central estimate is 20.5 (trend) or 23.9 (level); at 18, 23.9 or 27.9.}\label{fig:class}\end{figure}
 \begin{table}[h]\centering\small
 \caption{Merged-school outcomes in 2030--31 by share of Mesa's students following, both assumptions.}\label{tab:scen}
 \begin{tabular}{lrrrrrrr}
@@ -421,17 +463,32 @@ Level & 2030--31 & 100\% & 523 & 70\% & 82\% & 91\% \\
 \end{tabular}
 \end{table}
 
+
+\begin{table}[h]\centering\small
+\caption{K--2 / 3--5 reconfiguration of the two schools, 90\% following: students in each building (central estimate), per grade, and classes per grade at 25 (\texttt{analysis/output/table07\_reconfiguration.csv}).}\label{tab:reconf}
+\begin{tabular}{llrrrrrr}
+\toprule
+ & & \multicolumn{3}{c}{K--2 building} & \multicolumn{3}{c}{3--5 building} \\
+Assumption & Year & Students & Per grade & Classes/grade & Students & Per grade & Classes/grade \\
+\midrule
+Trend & 2027--28 & 213 & 71 & 2.8 & 259 & 86 & 3.5 \\
+Trend & 2030--31 & 183 & 61 & 2.4 & 247 & 82 & 3.3 \\
+Level & 2027--28 & 234 & 78 & 3.1 & 260 & 87 & 3.5 \\
+Level & 2030--31 & 231 & 77 & 3.1 & 271 & 90 & 3.6 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \section{Other apparent inconsistencies noted across the proposal}\label{app:incons}
 While checking the Mesa/Bear Creek figures against the rest of the record, the following discrepancies, undefined figures and non-reproducible headlines came up elsewhere in the proposal and the reports it rests on. They are listed here because they bear on how much confidence the Board can place in the figures behind every component, not only this one. Each item is the district's own number against its own other number, with the page cited. Nothing here asserts a reason; in each case the reconciliation is something staff can supply. Section~\ref{app:checks} lists what does check out.
 
 \subsection*{Figures that disagree with each other}
 \begin{enumerate}
-\item \textbf{Resident students in the combined Bear Creek/Mesa area.} Deck p.\ 51: 275 + 228 = 503 today, 473 projected for 2027--28, 522 for 2030--31. Deck p.\ 44 chart: 2030 projected-resident markers at about 268 (Bear Creek) and 177 (Mesa), about 445. The same year differs by about 77 students between two pages, and the p.\ 51 path falls 6\% then rises 10\%.
 \item \textbf{Resident trend for Boulder vs for this area.} Deck p.\ 43: 2,113 + 1,757 = 3,870 elementary residents in Boulder today, 3,522 projected for 2030 ($-$9\%). Deck p.\ 51: the Bear Creek/Mesa area's residents rise from 503 to 522 (+4\%). No document says why one South Boulder area grows while the region shrinks.
 \item \textbf{The retention share behind each component's range differs, and is unstated.} Each post-change range carries the same footnote (``dependent on number of resident students from the sending school attending the receiving school'', pp.\ 25, 37, 48, 51, 54). Decoded against the Feb.\ 2026 standalone projections (p.\ 9), the ranges imply that 82--100\% of Birch's students land at Kohl, 82--96\% of Flatirons' at Foothill and Whittier, 84--100\% of Douglass's at its three receivers, but 55--71\% of Monarch K--5's and 41--71\% of Mesa's (2030--31; Figure~\ref{fig:shares}). The two components with the lowest implied shares are the two whose receiving buildings would otherwise be at or over capacity (Bear Creek, 521 vs 492; Superior, 96--98\%).
 \item \textbf{Two descriptions of what the range is.} The deck footnote makes the range depend only on residents following. The FAQ (p.\ 3) says that where new enrollment ``will push the school near capacity, enrollment projections take into account managing choice enrollment beginning in 2027--28.'' Which components' ranges include choice management, and at what level, is not stated.
 \item \textbf{``Current'' enrollments in the deck vs the October count.} Deck p.\ 25 gives Birch 259 and p.\ 37 Fireside 405; the October 2025 funded head counts are 261 and 406 (2025--26 CDE Head Count Summary p.\ 1). The Feb.\ 2026 table (p.\ 9, ``updated 1/26/2026'') carries the same 259 and 405, and Aspen Creek 472 against 473. Small, but the basis of the January update is not stated.
-\item \textbf{The action date vs the district's own schedule.} Feb.\ 2026 report p.\ 13: Phase 5 ``Present final plan for study to the Board (September 2026)''; Phase 6 ``Present final plan for action to the Board (October 2026)''. Deck p.\ 3: action on September 22. No document in the set reviewed revises the schedule.
+\item \textbf{The action date vs the district's own schedule.} Feb.\ 2026 report p.\ 13: Phase 5 ``Present final plan for study to the Board (September 2026)''; Phase 6 ``Present final plan for action to the Board (October 2026)''. Deck p.\ 3: action on September 22. No document in the set reviewed revises the schedule; the Sept.\ 8 agenda materials were not available for review and may do so.
 \item \textbf{The October 2025 work session's projections.} Slide 17 is number-for-number the Feb.\ 2025 table (p.\ 9), the January 2025 run, presented in October without a vintage label; the January 2026 run then moved Bear Creek's 2029--30 figure by +14\% and Mesa's by $-$10\%. Slide 19 notes that its chart ``does not reflect new 2026--27 attendance area boundaries''; the Feb.\ 2026 report does not say whether its run does.
 \end{enumerate}
 
@@ -450,7 +507,8 @@ While checking the Mesa/Bear Creek figures against the rest of the record, the f
 \item \textbf{Post-change Boulder utilization ``67.9\%'' (p.\ 55).} The current figure (63.1\%, 2,585 open seats, p.\ 43) reproduces exactly from the Feb.\ 2026 table plus Horizons (capacity 7,005, enrollment 4,420). Removing the capacity the package closes in Boulder (Flatirons 320, Mesa 418, Montessori building 369; the Douglass building is re-used by High Peaks) and using the deck's own 2030 enrollment of 4,241 gives 71.9\%; using current enrollment gives 74.9\%. The stated 67.9\% is reached only if post-change Boulder enrollment is about 4,005, roughly 240 below the deck's own projection. What the figure assumes is not stated.
 \item \textbf{Cost figures} (Section~\ref{sec:cost}): no per-school breakdown of either line for any component; the bond offset is unquantified; whether the \$5.0M ``budgeted, FY27'' is incremental is not stated; no figure for the four closed buildings, portables, program relocation or transportation.
 \item \textbf{Preschool locations after the vote.} Deck p.\ 64 and FAQ p.\ 4: locations ``will be shared by Oct.\ 1''; the vote is September 22.
-\item \textbf{Transportation exposure.} The 1.5-mile rule is stated (deck p.\ 64) but no address count is given for any component; about 89\% of the Mesa attendance area's land lies more than 1.5 miles from Bear Creek (BVSD ArcGIS polygons; area, not addresses).
+\item \textbf{Resident figures on pp.\ 44 and 51.} Deck p.\ 51 gives 503 residents in the combined area today (275 + 228), 473 for 2027--28 and 522 for 2030--31; the p.\ 44 chart's 2030 projected-resident markers read about 268 and 177, about 445. The chart's geography and grade span are not stated, so the two pages may use different definitions. This is a question rather than a finding: which definition does the range on p.\ 51 rest on, and why does its resident path fall 6\% and then rise 10\% while Boulder's falls 9\% (p.\ 43)?
+\item \textbf{Transportation exposure.} The 1.5-mile rule is stated (deck p.\ 64) but no address count is given for any component.
 \end{enumerate}
 
 \subsection*{What checks out}\label{app:checks}

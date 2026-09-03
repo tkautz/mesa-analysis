@@ -22,3 +22,5 @@ The district proposes an irreversible step on the basis of projections with no s
 - Three outcomes (90% following): 2030-31 Trend 63% below 450 / 21% in 450–492 / 16% above 492; Level 18 / 24 / 57. 2027-28 Trend 25 / 45 / 30; Level 13 / 35 / 52 (table04_buckets.csv).
 - Accounting identity (table11): today capture 74.2% (373/503), choice seats 163 (140 in-district OE + 23 out-of-district). On deck p. 51 residents: 2027-28 473 → 514 at today's rates; 2030-31 522 → 550. 403–462 needs capture 46–57% at 163 seats, or 16–75 seats at 74% capture; 492 needs 63% or 105 seats. 2027-28: 392–445 needs 48–60% or 41–94 seats; 492 needs 70% or 141 seats.
 - Package ranges (table08): Bear Creek 2030-31 width 59 (next Kohl 37, Coal Creek 32); seats left at top 30 (Superior 31, Coal Creek 65, Kohl 67).
+- Sections by grade (table12; guideline 25, 90% following): 2027-28 central 22 (trend) / 23 (level) sections, P(>21 rooms) 65% / 78%; 2030-31 20 / 23, P(>21) 31% / 76%; at guideline 23: 92/97/53/91%.
+- Shock dependence (table13, 2030-31, 90%): joint vs independent draws: trend 431 vs 432, 80% width 149 vs 135, P>492 15% vs 13%; level 503 vs 503, 153 vs 138, 57% vs 58%.
