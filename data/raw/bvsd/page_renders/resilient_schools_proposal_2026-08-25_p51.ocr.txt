@@ -1,0 +1,30 @@
+   55    60 0.98 ResilientSchoolsProposal|Boulder
+  107    65 0.96 ConsolidateMesa and Bear Creek
+  248   837 0.99 Enrollment&Utilization
+  338  1513 1.00 Projected*
+  344   476 1.00 Current
+  608  1455 0.98 Consolidated School
+  634   766 1.00 Mesa
+  638   213 0.96 Bear Creek
+  650  1554 0.99 Capacity: 492
+  682   732 0.99 Capacity: 418
+  683   225 0.99 Capacity: 492
+  720  1521 1.00 2027-28Projected
+  754   255 1.00 2025-26
+  754   763 1.00 2025-26
+  756  1493 1.00 ResidentStudents:473
+  790  1449 0.98 EnrolledStudents:392to445
+  793   162 1.00 ResidentStudents:275
+  794   670 1.00 ResidentStudents:228
+  828  1495 0.98 Utilization:80%to90%
+  830   167 0.98 Enrolled Students:312
+  830   674 0.99 EnrolledStudents:224
+  864   212 0.97 Utilization: 63%
+  864   720 0.97 Utilization: 54%
+  893  1520 1.00 2030-31Projected
+  931  1493 1.00 ResidentStudents:522
+  965  1451 1.00 EnrolledStudents:403to462
+ 1002  1496 0.96 Utilization:82%to94%
+ 1067   388 0.99 *Projected enrollment ranges dependent on number of resident students from the sending school attending the receiving school.
+ 1141    75 0.99 BVSD
+ 1146  2083 1.00 51

@@ -1,0 +1,40 @@
+   55    60 0.99 ResilientSchoolsProposal|Boulder
+  106   736 0.98 Student Composition
+  112    61 0.96 AttendanceAreas
+  221   766 1.00 2025-26
+  250  1757 0.98 2030 Projected resident
+  282   360 1.00 100
+  282   950 1.00 400
+  282  1146 1.00 500
+  283   557 1.00 200
+  283   756 1.00 300
+  284  1345 1.00 600
+  284  1542 1.00 700
+  287  1756 1.00 students
+  291   183 0.89 0
+  342  1755 1.00 2 classes/grade
+  346    64 1.00 Flatirons
+  394  1757 1.00 Attending neighborhood
+  414   101 1.00 Mesa
+  431  1756 1.00 school
+  479    45 1.00 BearCreek
+  485  1758 0.98 Attending a different
+  520  1756 1.00 school
+  546    60 1.00 Douglass
+  609    76 0.99 Whittier
+  614  1636 0.99 Takeaway
+  678    16 1.00 Heatherwood
+  696  1706 0.98 There are not enough
+  742    37 1.00 Eisenhower
+  744  1704 1.00 resident students in
+  786  1705 1.00 Boulder to sustain 16
+  807    79 1.00 Foothill
+  831  1703 1.00 elementary schools
+  872    54 1.00 Creekside
+  879  1703 0.98 above two
+  926  1705 0.98 classes/grade.
+  937    45 1.00 Columbine
+ 1006    47 1.00 CrestView
+ 1060   602 0.97 Number of Resident Students
+ 1141    77 1.00 BVSD
+ 1147  2083 1.00 44

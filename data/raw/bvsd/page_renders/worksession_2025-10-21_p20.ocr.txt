@@ -1,0 +1,42 @@
+   59    61 0.97 Boulder Region
+  100    60 0.99 School Enrollment Composition
+  225   759 1.00 2024-25
+  251  1682 0.99 Projected 2029
+  286   651 1.00 150
+  287   364 1.00 50
+  287   504 1.00 100
+  287   799 1.00 200
+  287   946 1.00 250
+  287  1242 1.00 350
+  287  1389 1.00 400
+  289  1095 1.00 300
+  292   224 0.96 0
+  295  1680 0.97 2 round school
+  341    93 1.00 Columbine
+  343  1684 0.99 Attending neighborhood school
+  387  1683 0.94 OE-In from different school
+  392    94 1.00 CrestView
+  434  1684 1.00 OutofDistrictenrollment
+  437   110 1.00 Flatirons
+  486   126 1.00 Foothill
+  537    64 1.00 Heatherwood
+  568  1561 0.99 Takeaways
+  583   123 1.00 Uni-Hill
+  634   123 0.99 Whittier
+  653  1624 0.97 10 schools expected to continue
+  681   139 1.00 BCSIS
+  691  1624 0.99 to decline
+  730    90 0.95 Bear Creek
+  746  1625 0.96 6 schools currently enrolled
+  781    85 1.00 Montessori
+  786  1627 1.00 above2rounds
+  827   102 1.00 Creekside
+  842  1627 0.96 Only3 schools expected to be
+  873   103 1.00 Douglass
+  880  1625 0.97 above 2 rounds in 2029
+  924    83 1.00 Eisenhower
+  971    84 1.00 High Peaks
+ 1021   110 1.00 Horizons
+ 1072   146 1.00 Mesa
+ 1141    78 1.00 BVSD
+ 1148  2083 1.00 20

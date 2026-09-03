@@ -1,0 +1,45 @@
+   57    61 0.99 ResilientSchoolsProposal|Boulder
+  101    60 0.98 School Enrollment Composition
+  225   760 1.00 2025-26
+  251  1759 1.00 Projected 2030
+  268   470 1.00 100
+  268   662 1.00 200
+  268   852 1.00 300
+  268  1045 1.00 400
+  268  1237 1.00 500
+  268  1428 1.00 600
+  273   294 0.90 0
+  294  1759 1.00 Capacity
+  318   186 1.00 Flatirons
+  343  1758 0.99 2 classes/grade
+  366   163 1.00 Montessori
+  388  1762 1.00 Attending neighborhood school
+  411   221 1.00 Mesa
+  433  1762 0.97 OE-Infrom differentschool
+  457   142 1.00 Heatherwood
+  478  1760 0.95 Out of District enrollment
+  500   185 1.00 Horizons
+  548   214 1.00 BCSIS
+  592   198 0.96 Whittier
+  597  1707 0.99 Takeaway
+  639   162 1.00 Eisenhower
+  679  1760 0.98 14 of 15 non-charter
+  682   182 1.00 Douglass
+  724  1763 0.96 elementary schools have
+  727   162 1.00 High Peaks
+  762  1758 0.98 available capacity,
+  773   177 1.00 Creekside
+  804  1759 0.99 demonstrating the region
+  821   169 1.00 BearCreek
+  844  1758 0.97 has more elementary
+  865   170 1.00 Columbine
+  887  1759 0.98 capacity than its
+  912   171 1.00 CrestView
+  926  1759 0.99 projected enrollment and
+  955   198 1.00 Uni-Hill
+  969  1758 1.00 resident student
+ 1002   201 1.00 Foothill
+ 1012  1759 0.98 population require.
+ 1065   708 0.96 Number of Enrolled Students
+ 1141    77 1.00 BVSD
+ 1147  2083 1.00 45

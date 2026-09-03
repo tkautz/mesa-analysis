@@ -1,0 +1,18 @@
+   57    61 0.98 Resilient SchoolsProposal
+   89    60 1.00 5-year Elementary Enrollment Projections
+  229    65 0.97 ELEMENTARYENROLLMENTTRENDS
+  314   170 1.00 Boulder
+  370   173 0.99 Continued enrollment declines
+  415   172 0.99 8 of 14 (57%) schools projected to be at or below 2 classes per grade level with a regional building utilization of 59%. Two
+  457   171 1.00 additional schools are projected to be near the threshold for only two classes per grade level.
+  534   171 1.00 Louisville-Superior
+  587   173 0.98 Continued enrollment declines
+  631   172 0.99 3 of 6 (50%) schools projected to be at or below 2 classes per grade level with a regional building utilization of 64%
+  708   173 1.00 Lafayette-Erie
+  759   172 0.99 Slow enrollment growth
+  807   173 0.99 One school projected to be at or below 2 classes per grade level with a regional building utilization of 82%
+  881   171 0.99 Broomfield
+  936   173 0.99 Continued enrollment declines
+  980   173 0.99 2 of 4 (50%) schools projected to be at or below 2 classes per grade level with a regional building utilization of 74%
+ 1141    70 1.00 BVSD
+ 1147  2085 1.00 13

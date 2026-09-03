@@ -1,0 +1,94 @@
+   65  2086 0.99 SH52
+   66  1740 0.97 INERALRD
+   84    63 0.98 Enrollment Metrics
+  154  1870 0.94 owlark(K-5)
+  200   899 0.99 Foothill
+  201  1200 0.99 CrestView
+  216   109 1.00 5-yr projections
+  222  1545 0.71 5
+  231  1849 0.96 ISHL
+  255  1922 0.88 PER RD
+  270  2030 0.98 JAY RD
+  279  1434 1.00 AY RD
+  292   110 0.97 Enrollment Advisory Status
+  334   108 0.98 <=2 rounds and <=60% of capacity
+  356  1915 0.92 ERIE PKWY
+  358  1808 0.89 BELLERO
+  401  1173 0.89 VALMO
+  401  1206 0.97 NTRD
+  413   110 0.99 Community Engagement Status
+  418  1087 0.99 AM AV
+  436  1128 0.65 5
+  437  2071 0.91 VSTAPKWY
+  439  1728 0.67 HIG6
+  443  1260 0.97 PEA
+  457   108 0.97 <=1.5 rounds and <=50% of capacity
+  478  1544 0.96 ARAPAHOE RD
+  507  1522 0.99 Douglass
+  511  1060 0.89 5
+  517  1180 0.95 OLORADOAV
+  533  1070 0.97 田
+  535  1298 0.84 田
+  561  1131 0.89 BASELINE.R
+  562  1844 0.99 WBASELINERD
+  563  1649 0.98 BASELINERD
+  564  1742 0.93 V BASELINE RD
+  565   450 0.98 SY 2026 - Projected
+  565  1550 0.92 JNE RD
+  566  1214 0.88 BASELINE RD
+  566  1337 0.83 NE RD
+  568   118 0.97 SY 2025-Actual
+  568  1293 0.52 sy
+  580  1367 0.90 CHERRY
+  584  1248 0.92 Eiseni
+  585  1299 0.84 iower
+  603  1116 0.99 Creeks
+  610   115 0.99 Advisory: 7
+  610   450 1.00 Advisory: 7
+  625  1228 0.51 田
+  639  1885 0.87 RRD
+  640  1401 0.98 SOUTH BOULDER RD
+  642  1822 0.97 JHB
+  649   114 0.96 Engagement: 2
+  650   450 1.00 Engagement: 3
+  653  1305 0.92 BOULDERTA
+  673  1620 0.88 田
+  685  1758 0.80 eEl
+  687  1245 0.88 田
+  688  1222 0.60 出
+  688  1695 0.94 Lou
+  720  1845 1.00 SH42
+  728  1926 0.94 ran
+  738  1154 0.55 田
+  751   109 0.98 SY 2027 - Projected
+  752   451 0.96 SY 2028 - Projected
+  759  1632 0.94 HERRYS
+  775  1386 0.87 MARSHALLDF
+  791  1595 0.92 DILONRD
+  796   111 1.00 Advisory: 8
+  796   453 1.00 Advisory: 7
+  798  1839 0.98 NESTPKWY
+  804  1997 0.92 DLLON RD
+  827  1594 0.89 rch(K-5)
+  833  1549 0.99 Mon
+  835   109 1.00 Engagement: 4
+  835   452 1.00 Engagement: 5
+  858  1857 0.95 AspenCreek(K-5)
+  885  1141 1.00 Mesa
+  926  1620 0.94 口
+  933  1513 0.99 Superior
+  938   452 0.98 SY 2030 - Projected
+  939   110 0.99 SY 2029 - Projected
+  964  1588 0.95 OALTONDR
+  972  2032 0.78 田
+  972  2060 0.92 田
+  982   454 1.00 Advisory: 6
+  983   110 1.00 Advisory: 6
+ 1014  2004 0.95 merald
+ 1016  1460 0.96 Eldorado(K-5
+ 1023   110 1.00 Engagement: 5
+ 1023   453 0.99 Engagement: 5
+ 1025  1962 0.54 日
+ 1037  1789 0.99 SH128
+ 1141    78 1.00 BVSD
+ 1147  2085 1.00 10

@@ -1,42 +1,37 @@
 # Sources
 
-Retrieval date for everything below: **2026-09-03** (UTC), from a Claude Code remote session whose network egress policy allows only GitHub and package registries. Every non-GitHub host was denied. Exact errors are in `data/raw/bvsd/FETCH_FAILURES.txt`.
+Two retrieval rounds on **2026-09-03**. Round 1 (remote session, egress-blocked) got only the enrollmentdata.org GitHub repo. Round 2: the repo owner downloaded BVSD documents in a browser and committed them to `data/manual/`; `scripts/sort_manual_files.py` moved them to `data/raw/bvsd/` (original filename → new path, md5, duplicates in `data/raw/bvsd/MANIFEST.csv`). Retrieval URLs for round 2 are the ones in the task brief and the bvsd.org pupil-count page; the browser session's exact URLs were not logged, so each entry below cites the document's own header instead. Every PDF has a sibling `.txt` (pdfplumber text layer); page-level index in `data/clean/pdf_page_index.csv`.
 
-## Retrieved
+## Primary BVSD documents (data/raw/bvsd/)
 
-### S1. enrollmentdata.org transcription (yoavlurie/bvsd-enrollment)
-- URL: https://github.com/yoavlurie/bvsd-enrollment (live site https://enrollmentdata.org, not reachable from here)
-- Retrieved: 2026-09-03 via `git clone`; commit `37a9bf9e704e2b13c1e370c0956b89efb3d0a8fb` (2026-08-27 12:54:49 -0600, "Open source under CC0 1.0"). Recorded in `data/raw/enrollmentdata_git_commit.txt`. The `.git` directory was removed; `LICENSE` (CC0 1.0) kept.
-- Location: `data/raw/enrollmentdata/` (unmodified).
-- Contents and what each was used for:
-  - `BVSD_October_Headcount_2014-2025.csv` — per-school October headcount 2014–2025 with partial grade columns. Author's About page attributes it to "bvsd.org — Enrollment Statistics: Historical Pupil Count". Copied to `data/clean/` with `_source` column; Mesa/Bear Creek rows melted to `data/clean/mesa_bearcreek_headcount.csv`.
-  - `BVSD_Capacity_Forecast_2025-2031.csv` — elementary capacity, rounds, 2025-26 enrollment and 2026-27…2030-31 projections. Author attributes it to the Feb 10 2026 Annual Enrollment Trend Report, "Capacity Summary 2025-26 (updated 1/26/2026)", report p. 9. Copied to `data/clean/` with `_source` column.
-  - `maps/index.html` (identical to `maps/bvsd-enrollment-map.html`) — the dashboard. Contains JS literals transcribing: (a) a second October-history series per school (`schools[]`), (b) the Feb 2026 elementary forecast (`elementaryForecast`), (c) the Aug 25 2026 proposal's post-change enrollment ranges and utilization (`proposalProjections`, attributed by the author to deck pp. 25, 37, 39, 48, 51, 54), (d) proposal action text (`proposals`). Parsed by `scripts/extract_map_embedded_data.py` into `data/clean/enrollmentdata_map_*.csv` and `data/clean/aug2026_proposal_*_transcribed.csv`; every row carries the source line number.
-  - `maps/about/index.html` — the author's bibliography (quoted in STATUS.md).
-  - `BVSD_Attendance_Areas.geojson`, `BVSD_Attendance_Areas_Summary.csv` — attendance-area polygons with BVSD ArcGIS attributes (SchCode, StdtPop, Capacity, Enroll, Perc_Cap; vintage unknown) plus Feb 2026 forecast fields joined on by the author. Includes a **"BC-Mesa"** polygon (SchCode 1, StdtPop 134). Mesa/Bear Creek/BC-Mesa attributes exported to `data/clean/attendance_area_attributes_mesa_bearcreek.csv`.
-- Caveat: this is a private transcription, "not affiliated with or endorsed by BVSD". Its two internal October-count series disagree for most schools (see CONFLICTS.md C1).
+| ID | File | What it is | Pages | Used for | Extraction |
+|---|---|---|---|---|---|
+| P1 | `resilient_schools_proposal_2026-08-25.pdf` | "Resilient Schools Proposal", Board of Education, Aug 25 2026 | 75 | Mesa/Bear Creek pages **49–51**; Boulder region pp. 43–45; summary p. 58; boundaries p. 59; other options p. 56 | text layer for pp. 49–51, 50; charts on pp. 44–45 read by eye (`aug2026_deck_p44.csv`) |
+| P2 | `trend_report_feb2026.pdf` | "LRAC Update & Annual Enrollment Trend Report", Feb 10 2026 | 14 | **p. 9** "BVSD Capacity Summary 2025-26 (updated 1/26/2026)" — image only; p. 10 metrics; p. 2 process history | p. 9 via OCR + visual check (`feb2026_report_p9.csv`) |
+| P3 | `trend_report_feb2025.pdf` | same report, Feb 11 2025 | 12 | **p. 9** "BVSD Capacity Summary 2024-25 (updated 1/24/2025)" — image only; p. 11 advisory list | OCR + visual check (`feb2025_report_p9.csv`) |
+| P4 | `trend_report_feb2024.pdf` | same report, Feb 27 2024 | 16 | **p. 11** "BVSD Capacity Summary 2023-24 (updated 1/26/2024)" — image only; pp. 6–7 phase definitions; p. 13 advisory list | OCR + visual check (`feb2024_report_p11.csv`) |
+| P5 | `worksession_2025-10-21.pdf` | "Long Range Planning Update", Board work session Oct 21 2025 | 47 | **slide 17** Boulder-region capacity/projection table (image); slide 8 programmatic impacts (text); slide 12 region membership; slides 19–20 composition charts; slide 14 metrics | slide 17 OCR + visual check (`oct2025_deck_s17.csv`); slide 8 text |
+| P6 | `trend_report_exec_summary_2023-24.pdf`, `trend_report_exec_summary_2024-25.pdf` | Executive summaries of P4/P3 | 2 each | Advisory-phase school lists (Mesa listed both years) | text |
+| P7 | `lrac_final_metrics_2023-06-13.pdf` | "LRAC Metrics and Recommendations", June 13 2023 | 4 | Origin of the 60%/2-round and 50%/1.5-round thresholds | text (words run together; readable) |
+| P8 | `resilient_schools_faq.pdf` | bvsd.org FAQ page, printed | 10 | Open-enrollment priority framework for 2027-28 | text |
+| P9 | `resilient_schools_special_needs.pdf` | bvsd.org page | 3 | context only | text |
+| P10 | `bvsd_page_bear_creek_creekside.pdf` | bvsd.org "Adopted Boundary Changes for the Bear Creek Elementary and Creekside Elementary Dual Enrollment Area", printed 9/2/26 | 3 | **2026-27 boundary change**: dual area west of Broadway / north of Table Mesa becomes Bear Creek-only, adopted Sept 23 2025 | text |
+| P11 | `bvsd_enrollment_dashboard.pdf` | BVSD Enrollment Dashboard landing pages | 5 | context; no school-level numbers | text |
+| P12 | `news_bvsd_enrollment_drops_more_than_expected.pdf`, `news_bvsd_enrollment_drops_less_than_expected_2024.pdf` | BVSD news articles | 6, 8 | Advisory-list context | text |
+| P13 | `pupil_count/*.pdf` (36 files) | BVSD October count: CDE head count, FTE, special programs, 2014-15 … 2025-26 | 1–2 each | **Official Mesa/Bear Creek head count, grades, FTE, out-of-district, FRL, SPED, ELL** | text (`parse_pupil_count.py`) |
 
-### S2. CLAUDE.md "Key facts" (user-supplied)
-- Figures the repo owner typed into CLAUDE.md, attributed to the Oct 21 2025 deck (slides 8, 17), the Feb 2026 report and the Aug 25 2026 deck (pp. 37, 39). Used only in `data/clean/projections_by_vintage.csv` rows with `verified_against_primary=False`, because the primary documents could not be fetched. Treat as unverified.
+Duplicates removed (byte-identical): second copies of P1's Oct 2025 deck, P3, P4, the 2024-25 exec summary, and two extra copies of P7 (see MANIFEST.csv).
 
-## NOT retrieved (all denied by egress policy)
+## Secondary: enrollmentdata.org transcription (data/raw/enrollmentdata/)
+- https://github.com/yoavlurie/bvsd-enrollment, commit `37a9bf9` (2026-08-27), CC0. Cloned 2026-09-03; `.git` removed. See round-1 notes in git history for its contents. Now used only as a cross-check (VERIFICATION.md §B) and for the attendance-area GeoJSON.
 
-For each, the attempt was (i) `curl -sSL` from the container → `curl: (56) CONNECT tunnel failed, response 403` (proxy status page: `gateway answered 403 to CONNECT (policy denial or upstream failure)`); (ii) the WebFetch tool → `EGRESS_BLOCKED: Access to <host> is blocked by the network egress proxy.`; (iii) a Google Drive search for the document titles → no results. No content was fabricated; no PDF text, tables or page numbers in this repo come from these documents directly.
-
-| # | Document | URL | Intended location |
+## Still not retrieved
+| # | Document | URL | Why it matters |
 |---|---|---|---|
-| F1 | Resilient Schools Proposal FINAL 08-25-2026 (Aug 25 2026 deck) | https://go.boarddocs.com/co/bvsd/Board.nsf/pfiles/DXBFUX40E0C7/$file/Resilient%20Schools%20Proposal%20FINAL%2008-25-2026%20(1).pdf | data/raw/bvsd/ |
-| F2 | Annual Enrollment Trend Report, February 2026 | https://go.boarddocs.com/co/bvsd/Board.nsf/pfiles/DQTRAN6D12DA/$file/Annual%20Enrollment%20Trend%20Report%20_%20February%202026.pdf | data/raw/bvsd/ |
-| F3 | Enrollment Worksession 10.21.2025 (Oct 21 2025 deck) | https://go.boarddocs.com/co/bvsd/Board.nsf/pfiles/DMJTXV756DA8/$file/Enrollment%20Worksession%20_%2010.21.2025%20(1).pdf | data/raw/bvsd/ |
-| F4 | BVSD "Resilient Schools: Responding to declining enrollment" page | https://www.bvsd.org/current-topics/declining-enrollment | data/raw/bvsd/ (HTML + txt) |
-| F5 | CDE prior-year pupil membership index (PK-12 Membership Grade Level by School, 2014-15 … 2024-25) | https://www.cde.state.co.us/cdereval/rvprioryearpmdata | data/raw/cde/ |
-| F6 | CDE current-year pupil membership (2025-26) | https://cde.state.co.us/cdereval/pupilcurrent | data/raw/cde/ |
-| F7 | BVSD historical October pupil count files | https://www.bvsd.org/departments/enrollment/enrollment-statistics/pupil-count | data/raw/bvsd/pupil_count/ |
-
-Also blocked: web.archive.org, boulderreportinglab.org, enrollmentdata.org. WebSearch returned result snippets only; none were used for figures.
-
-## To fetch by hand (drop into the listed directory, then re-run the verification)
-- F1–F3 PDFs → `data/raw/bvsd/`; then `pdfplumber` text + tables for every page mentioning Mesa or Bear Creek → `data/clean/<vintage>_deck_p<NN>.csv`.
-- F4 → `data/raw/bvsd/declining-enrollment.html` and `.txt`.
-- F5/F6 XLSX for each year → `data/raw/cde/`; Boulder Valley RE-2 (district 0480), school codes to be confirmed against names in the file (task brief says 5838 Mesa, 0652 Bear Creek — **unconfirmed**).
-- F7 → `data/raw/bvsd/pupil_count/`.
+| F4 | bvsd.org "Resilient Schools: Responding to declining enrollment" page (HTML + text) | https://www.bvsd.org/current-topics/declining-enrollment | Task brief item; threshold language and process links |
+| F5 | CDE "PK-12 Membership Grade Level by School" XLSX, 2014-15 … 2024-25 | https://www.cde.state.co.us/cdereval/rvprioryearpmdata | Independent count; school codes; PK definition |
+| F6 | CDE current-year (2025-26) pupil membership | https://cde.state.co.us/cdereval/pupilcurrent | same |
+| F8 | BVSD 2020-21 FTE Summary | bvsd.org pupil-count page | completes the FTE series (minor) |
+| F9 | 2025-26 Enrollment Trend Report Executive Summary (if published) | BoardDocs, Feb 10 2026 agenda | companion to P2 |
+| F10 | Board materials for the 2026-27 attendance-boundary adoption (Sept 23 2025) and the March 11 / May 20 / Sept 9 2025 work sessions linked from P10 | BoardDocs ids DEAUVH7DE6AF, DF3M2M592725, DL5GY6460A53 (from P10) | open question 1 |
+| F11 | Sept 8 2026 Board meeting materials on the proposal | BoardDocs | any revised numbers |

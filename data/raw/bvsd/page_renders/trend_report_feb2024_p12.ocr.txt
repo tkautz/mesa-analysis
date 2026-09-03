@@ -1,0 +1,91 @@
+   65  2086 0.99 SH52
+   66  1740 0.97 INERALRD
+  117    93 1.00 Enrollment Metrics
+  154  1870 0.94 owlark(K-5)
+  200   899 1.00 Foothill
+  201  1200 0.99 CrestView
+  216   109 1.00 5-yr projections
+  220  1543 0.71 点
+  231  1849 0.89 ISHL
+  238  1526 0.53 邮
+  255  1922 0.88 PER RD
+  270  2029 0.98 JAY RD
+  279  1434 1.00 AY RD
+  291   110 0.99 Enrollment Advisory Status
+  336   108 0.96 <=2 rounds 0r <=60%
+  356  1915 0.92 ERIE PKWY
+  387  1210 0.99 ne
+  401  1206 0.97 NTRD
+  402  1181 0.83 LMC
+  413   110 0.98 Community Engagement Status
+  418  1085 0.59 A
+  437  2071 0.91 VSTAPKWY
+  442  1260 0.96 PEAR
+  458  1141 0.86 田
+  460  1117 0.74 田
+  461   110 0.97 <=1.5 rounds and<=50%
+  477  1545 0.95 ARAPAHOE RD
+  483  1252 0.95 ARAPAHOEA
+  508  1522 0.99 Douglass
+  511  1058 0.88 5
+  517  1179 0.96 OLORADOAV
+  536  1299 0.74 田
+  559  1129 0.91 BASELINERBASELINERD
+  562  1844 0.99 WBASELINERD
+  564  1650 0.97 BASELINE RD
+  564  1742 0.93 V BASELINE RD
+  566   115 1.00 2023-24-Actual
+  566   450 0.97 2024-25 -Projected
+  566  1296 0.88 BASL
+  566  1328 0.96 LINE RD
+  580  1367 0.90 CHERRY
+  583  1294 0.91 hower
+  584  1248 0.87 Eiseni
+  603  1116 0.99 Creeks
+  610   115 1.00 Advisory: 6
+  610   450 1.00 Advisory: 7
+  639  1883 0.94 RRD
+  640  1401 0.98 SOUTH BOULDER RD
+  650   450 0.97 Engagement: 1
+  652   116 1.00 Engagement: 1
+  670  1594 0.99 田
+  685  1757 0.78 leEl
+  687  1694 0.84 Loui
+  720  1845 1.00 SH42
+  728  1926 0.94 ran
+  737  1153 0.58 田
+  739  1181 0.50 出
+  752   115 0.97 2025-26 - Projected
+  752   457 1.00 2026-27-Projected
+  758  1630 0.91 HERRYST
+  775  1386 0.87 MARSHALLDF
+  791  1593 0.93 DILLONRD
+  791  1914 0.88 NORTE
+  796   118 1.00 Advisory: 9
+  796   459 1.00 Advisory: 8
+  797  1838 0.98 NESTPKWY
+  804  1997 0.92 DLLON RD
+  833  1549 0.99 Mon
+  835   115 0.97 Engagement: 3
+  835   458 0.97 Engagement: 4
+  858  1857 0.96 AspenCreek(K-5)
+  887  1142 1.00 Mesa
+  926  1620 0.94 口
+  933  1513 0.98 Superior
+  939   115 1.00 2027-28-Projected
+  939   458 0.96 2028-29 - Projected
+  964  1588 0.95 OALTONDR
+  971  2030 0.94 田
+  972  2060 0.92 田
+  981  1932 0.73 田
+  982   459 1.00 Advisory: 7
+  983   116 1.00 Advisory: 8
+  984  1960 0.81 田
+ 1014  2004 0.95 merald
+ 1016  1460 0.96 Eldorado(K-5
+ 1020   457 0.97 Engagement: 6
+ 1023   115 0.96 Engagement: 5
+ 1025  1962 0.58 日
+ 1037  1789 0.99 SH128
+ 1152  2052 1.00 12
+ 1154   154 0.96 LRAC Update & Annual Enrollment Trend Report

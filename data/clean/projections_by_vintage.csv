@@ -1,24 +1,56 @@
-school,vintage,school_year,value,data_type,_source,verified_against_primary,note
-Bear Creek,oct2025,2029-30,272,projection,CLAUDE.md 'Key facts' (user-supplied; attributed to BVSD Oct 21 2025 work session deck); primary PDF NOT retrieved (egress blocked),False,unverified
-Mesa,oct2025,2029-30,224,projection,CLAUDE.md 'Key facts' (user-supplied; attributed to BVSD Oct 21 2025 work session deck); primary PDF NOT retrieved (egress blocked),False,unverified
-Bear Creek,oct2025,capacity,492,capacity,CLAUDE.md 'Key facts' (user-supplied; attributed to BVSD Oct 21 2025 work session deck); primary PDF NOT retrieved (egress blocked); slide 17,False,3.5 rounds; equals feb2026 transcription
-Mesa,oct2025,capacity,418,capacity,CLAUDE.md 'Key facts' (user-supplied; attributed to BVSD Oct 21 2025 work session deck); primary PDF NOT retrieved (egress blocked); slide 17,False,3.0 rounds; equals feb2026 transcription
-Bear Creek,feb2026,2025-26,312,actual (as printed in report),"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,report's own 2025-26 enrollment column; Mesa 224 here vs 225 in October headcount transcription (see CONFLICTS.md)
-Bear Creek,feb2026,capacity,492,capacity,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,3.5 rounds
-Bear Creek,feb2026,2026-27,299,projection,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,
-Bear Creek,feb2026,2027-28,293,projection,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,
-Bear Creek,feb2026,2028-29,288,projection,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,
-Bear Creek,feb2026,2029-30,310,projection,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,
-Bear Creek,feb2026,2030-31,320,projection,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,
-Mesa,feb2026,2025-26,224,actual (as printed in report),"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,report's own 2025-26 enrollment column; Mesa 224 here vs 225 in October headcount transcription (see CONFLICTS.md)
-Mesa,feb2026,capacity,418,capacity,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,3.0 rounds
-Mesa,feb2026,2026-27,217,projection,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,
-Mesa,feb2026,2027-28,203,projection,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,
-Mesa,feb2026,2028-29,203,projection,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,
-Mesa,feb2026,2029-30,202,projection,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,
-Mesa,feb2026,2030-31,201,projection,"data/raw/enrollmentdata/BVSD_Capacity_Forecast_2025-2031.csv (enrollmentdata.org transcription of Feb 10 2026 Annual Enrollment Trend Report p.9, 'Capacity Summary 2025-26' updated 1/26/2026)",False,
-Bear Creek,aug2026,2027-28,392,"projection (post-proposal, low)","data/raw/enrollmentdata/maps/index.html line 1063 (enrollmentdata.org transcription of BVSD Aug 25 2026 Resilient Schools Proposal deck, pp. 25/37/39/48/51/54)",False,80% of capacity; range depends on share of Mesa students who follow
-Bear Creek,aug2026,2027-28,445,"projection (post-proposal, high)","data/raw/enrollmentdata/maps/index.html line 1063 (enrollmentdata.org transcription of BVSD Aug 25 2026 Resilient Schools Proposal deck, pp. 25/37/39/48/51/54)",False,"90% of capacity; CLAUDE.md quotes deck pp.37,39 'up to 462 students in 2030'"
-Bear Creek,aug2026,2030-31,403,"projection (post-proposal, low)","data/raw/enrollmentdata/maps/index.html line 1063 (enrollmentdata.org transcription of BVSD Aug 25 2026 Resilient Schools Proposal deck, pp. 25/37/39/48/51/54)",False,82% of capacity; range depends on share of Mesa students who follow
-Bear Creek,aug2026,2030-31,462,"projection (post-proposal, high)","data/raw/enrollmentdata/maps/index.html line 1063 (enrollmentdata.org transcription of BVSD Aug 25 2026 Resilient Schools Proposal deck, pp. 25/37/39/48/51/54)",False,"94% of capacity; CLAUDE.md quotes deck pp.37,39 'up to 462 students in 2030'"
-Mesa,aug2026,2027-28,0,projection (post-proposal),"data/raw/enrollmentdata/maps/index.html line 1081 (enrollmentdata.org transcription of BVSD Aug 25 2026 Resilient Schools Proposal deck, pp. 25/37/39/48/51/54)",False,Would close 2027-28
+school,vintage,school_year,value,data_type,_source,_page,extraction,verified_against_primary,note,vintage_note
+Bear Creek,feb2024,2023-24,298.0,actual (as printed),data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Bear Creek,feb2024,2024-25,287.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Bear Creek,feb2024,2025-26,273.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Bear Creek,feb2024,2026-27,271.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Bear Creek,feb2024,2027-28,262.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Bear Creek,feb2024,2028-29,248.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Mesa,feb2024,2023-24,233.0,actual (as printed),data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Mesa,feb2024,2024-25,220.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Mesa,feb2024,2025-26,211.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Mesa,feb2024,2026-27,202.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Mesa,feb2024,2027-28,203.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Mesa,feb2024,2028-29,202.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,ocr+eye,True,,Feb 27 2024 report; table updated 1/26/2024
+Bear Creek,feb2025,2024-25,318.0,actual (as printed),data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Bear Creek,feb2025,2025-26,308.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Bear Creek,feb2025,2026-27,302.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Bear Creek,feb2025,2027-28,290.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Bear Creek,feb2025,2028-29,274.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Bear Creek,feb2025,2029-30,272.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Mesa,feb2025,2024-25,230.0,actual (as printed),data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Mesa,feb2025,2025-26,230.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Mesa,feb2025,2026-27,220.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Mesa,feb2025,2027-28,218.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Mesa,feb2025,2028-29,216.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Mesa,feb2025,2029-30,224.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,ocr+eye,True,,Feb 11 2025 report; table updated 1/24/2025
+Bear Creek,oct2025,2024-25,318.0,actual (as printed),data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Bear Creek,oct2025,2025-26,308.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Bear Creek,oct2025,2026-27,302.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Bear Creek,oct2025,2027-28,290.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Bear Creek,oct2025,2028-29,274.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Bear Creek,oct2025,2029-30,272.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Mesa,oct2025,2024-25,230.0,actual (as printed),data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Mesa,oct2025,2025-26,230.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Mesa,oct2025,2026-27,220.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Mesa,oct2025,2027-28,218.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Mesa,oct2025,2028-29,216.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Mesa,oct2025,2029-30,224.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,ocr+eye,True,,Oct 21 2025 work session slide 17; identical to feb2025 for these two schools
+Bear Creek,feb2026,2025-26,312.0,actual (as printed),data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Bear Creek,feb2026,2026-27,299.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Bear Creek,feb2026,2027-28,293.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Bear Creek,feb2026,2028-29,288.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Bear Creek,feb2026,2029-30,310.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Bear Creek,feb2026,2030-31,320.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Mesa,feb2026,2025-26,224.0,actual (as printed),data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Mesa,feb2026,2026-27,217.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Mesa,feb2026,2027-28,203.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Mesa,feb2026,2028-29,203.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Mesa,feb2026,2029-30,202.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Mesa,feb2026,2030-31,201.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,ocr+eye,True,,Feb 10 2026 report; table updated 1/26/2026
+Bear Creek (consolidated w/ Mesa),aug2026,2025-26,312.0,"projection (post-proposal, enrolled_students)",data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,51,text,True,,Aug 25 2026 proposal deck
+Bear Creek (consolidated w/ Mesa),aug2026,2025-26,224.0,"projection (post-proposal, enrolled_students)",data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,51,text,True,,Aug 25 2026 proposal deck
+Bear Creek (consolidated w/ Mesa),aug2026,2027-28,392.0,"projection (post-proposal, low)",data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,51,text,True,,Aug 25 2026 proposal deck
+Bear Creek (consolidated w/ Mesa),aug2026,2027-28,445.0,"projection (post-proposal, high)",data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,51,text,True,"deck p.51: 'Enrolled Students: 403 to 462' (2030-31); CLAUDE.md's 'pp. 37, 39' page reference is wrong for this deck",Aug 25 2026 proposal deck
+Bear Creek (consolidated w/ Mesa),aug2026,2030-31,403.0,"projection (post-proposal, low)",data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,51,text,True,,Aug 25 2026 proposal deck
+Bear Creek (consolidated w/ Mesa),aug2026,2030-31,462.0,"projection (post-proposal, high)",data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,51,text,True,"deck p.51: 'Enrolled Students: 403 to 462' (2030-31); CLAUDE.md's 'pp. 37, 39' page reference is wrong for this deck",Aug 25 2026 proposal deck
+Mesa,aug2026,2027-28,0.0,projection (post-proposal): school closes,data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,49,text,True,,Aug 25 2026 proposal deck

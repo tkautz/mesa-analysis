@@ -1,0 +1,43 @@
+   59    61 0.97 Boulder Region
+  105    56 0.99 Attendance Area Student Composition
+  221   766 1.00 2024-25
+  265  1726 0.97 2 round school
+  277   856 1.00 400
+  278   370 1.00 100
+  278   532 1.00 200
+  278   695 1.00 300
+  278  1018 1.00 500
+  278  1179 1.00 600
+  278  1342 1.00 700
+  278  1504 1.00 800
+  321  1728 1.00 Attendingneighborhood
+  343    97 1.00 Columbine
+  356  1727 1.00 school
+  409  1727 0.99 Attending a different
+  411    98 1.00 CrestView
+  443  1723 1.00 school
+  477   114 1.00 Flatirons
+  548   130 1.00 Foothill
+  551  1631 0.99 Takeaways
+  617    69 1.00 Heatherwood
+  637  1695 0.98 Resident students cannot
+  674  1694 0.96 support 2 rounds at
+  683   124 0.99 Whittier
+  712  1694 1.00 Flatirons, Douglass and
+  751  1691 0.99 Mesa
+  754    95 0.95 Bear Creek
+  810  1697 0.96 Heatherwood and Whittier
+  822   106 1.00 Creekside
+  848  1694 1.00 at 2 rounds
+  892   109 1.00 Douglass
+  901  1695 1.00 Creekside, Columbine, and
+  928  1056 1.00 Note:Chartdoesnotreflect
+  942  1696 0.95 Crest View
+  960    87 1.00 Eisenhower
+  962  1054 0.98 new 2026-27 attendance area
+  983  1694 0.99 resident-attending near or
+  998  1054 1.00 boundaries.
+ 1021  1695 1.00 below50%
+ 1029   148 1.00 Mesa
+ 1141    77 1.00 BVSD
+ 1147  2085 1.00 19

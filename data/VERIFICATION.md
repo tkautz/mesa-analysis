@@ -1,41 +1,55 @@
-# Verification log
+# Verification log (updated 2026-09-03, after primary documents arrived)
 
-**Bottom line: nothing in this repo has been verified against a primary BVSD or CDE document.** All seven primary URLs were denied by the session's egress policy (SOURCES.md F1–F7). What could be checked is (a) internal consistency of the enrollmentdata.org transcription, (b) the transcription against the figures the repo owner supplied in CLAUDE.md, and (c) arithmetic identities. Status codes: `MATCH`, `MISMATCH`, `UNVERIFIED` (no primary available).
+Status codes: `MATCH`, `MISMATCH`, `UNVERIFIED`. "Primary" = a BVSD document in `data/raw/bvsd/`. Extraction method matters: `text` = pdfplumber text layer; `ocr+eye` = image page, rapidocr output checked against the rendered PNG in `data/raw/bvsd/page_renders/` (both the OCR file and the PNG are in the repo); `eye` = read off a chart.
 
-## A. CLAUDE.md "Key facts" vs enrollmentdata.org transcription
+## A. CLAUDE.md "Key facts" vs primary documents
 
-| # | Figure | CLAUDE.md | Transcription | Where | Status |
+| # | Claim in CLAUDE.md | Primary | Page | Extraction | Status |
 |---|---|---|---|---|---|
-| 1 | Bear Creek capacity | 492 (3.5 rounds) | 492, 3.5 | `BVSD_Capacity_Forecast_2025-2031.csv` row "Bear Creek" | MATCH (transcription); UNVERIFIED vs Oct 2025 deck slide 17 / Feb 2026 p. 9 |
-| 2 | Mesa capacity | 418 (3.0 rounds) | 418, 3.0 | same file, row "Mesa" | MATCH; UNVERIFIED vs primary |
-| 3 | Feb 2026 proj 2029-30 Bear Creek | 310 | 310 | same file, `Proj_2029-30` | MATCH; UNVERIFIED vs Feb 2026 p. 9 |
-| 4 | Feb 2026 proj 2029-30 Mesa | 202 | 202 | same | MATCH; UNVERIFIED |
-| 5 | Feb 2026 proj 2030-31 Bear Creek | 320 | 320 | same, `Proj_2030-31` | MATCH; UNVERIFIED |
-| 6 | Feb 2026 proj 2030-31 Mesa | 201 | 201 | same | MATCH; UNVERIFIED |
-| 7 | Oct 2025 actual Bear Creek | 312 | 312 | `BVSD_October_Headcount_2014-2025.csv` BEAR CREEK 2025; map line 772; capacity CSV `Enroll_2025-26` | MATCH across all three; UNVERIFIED vs BVSD pupil count |
-| 8 | Oct 2025 actual Mesa | 225 | 225 (headcount CSV, map line 750) / **224** (capacity CSV `Enroll_2025-26`) | see CONFLICTS.md C2 | MATCH with headcount, MISMATCH with Feb 2026 table |
-| 9 | Aug 2026 "up to 462 students in 2030" at Bear Creek | 462 | 462 = `hi` for y=2030 | `maps/index.html` line 1063 (author cites deck pp. 25/37/39/48/51/54) | MATCH; UNVERIFIED vs deck pp. 37, 39 |
-| 10 | Oct 2025 deck proj 2029-30 Bear Creek 272 / Mesa 224 | 272 / 224 | not transcribed by enrollmentdata (it used the Oct 2025 deck for middle schools only) | — | UNVERIFIED (CLAUDE.md only) |
-| 11 | Programmatic thresholds ~150/round, 3 rounds ~450 (Oct 2025 slide 8) | — | not in transcription | — | UNVERIFIED |
-| 12 | LRAC thresholds (≤2 rounds & ≤60%; ≤1.5 rounds & ≤50%) | — | author's About page states the same thresholds, attributed to bvsd.org Resilient Schools pages | `maps/about/index.html` | MATCH with a secondary source; UNVERIFIED vs bvsd.org |
+| 1 | Bear Creek capacity 492 (3.5 rounds), "Oct 21 2025 deck slide 17" | P5 slide 17: 492, 3.5 | 17 | ocr+eye | MATCH |
+| 2 | Mesa capacity 418 (3.0 rounds), slide 17 | P5 slide 17: 418, 3.0 | 17 | ocr+eye | MATCH |
+| 3 | Oct 2025 deck 2029-30: Bear Creek 272 | P5 slide 17: 272 (55%, 1.8 rnds) | 17 | ocr+eye | MATCH |
+| 4 | Oct 2025 deck 2029-30: Mesa 224 | P5 slide 17: 224 (54%, 1.5) | 17 | ocr+eye | MATCH |
+| 5 | Feb 2026 2029-30: Bear Creek 310, Mesa 202 | P2 p. 9: 310 / 202 | 9 | ocr+eye | MATCH |
+| 6 | Feb 2026 2030-31: Bear Creek 320, Mesa 201 | P2 p. 9: 320 / 201 | 9 | ocr+eye | MATCH |
+| 7 | Aug 2026 "up to 462 students in 2030", "deck pp. 37, 39" | P1 p. 51: "2030-31 Projected … Enrolled Students: 403 to 462, Utilization: 82% to 94%" | **51** (not 37/39) | text | MATCH on the number; MISMATCH on page (CONFLICTS C7) |
+| 8 | Oct 2025 actuals: Bear Creek 312 | P13 2025-26 head count p. 1: 312; P1 p. 51: 312; P2 p. 9: 312 | 1 / 51 / 9 | text | MATCH |
+| 9 | Oct 2025 actuals: Mesa 225 | P13 2025-26 head count p. 1: **224**; P1 p. 51: 224; P2 p. 9: 224 | 1 / 51 / 9 | text | MISMATCH — official is 224 (CONFLICTS C2) |
+| 10 | Thresholds ~150 per round; 3 rounds ~450 (slide 8) | P5 slide 8: "Three Round (~450) … Two Round (~300) … One Round (~150)" | 8 | text | MATCH |
+| 11 | LRAC Advisory ≤2 rounds & ≤60%; Engagement ≤1.5 rounds & ≤50% | P2 p. 10 (text): "Enrollment Advisory Status <=2 rounds and <=60% of capacity / Community Engagement Status <=1.5 rounds and <=50% of capacity"; P7 pp. 1–2; P4 pp. 6–7 | 10; 1–2; 6–7 | text | MATCH (P2 table legend says "and/or" for the initial colour flags; the boxed "all criteria met" uses "and") |
 
-## B. Internal consistency of the transcription (Mesa and Bear Creek)
+## B. enrollmentdata.org transcription vs primaries
 
 | # | Check | Result |
 |---|---|---|
-| 13 | Headcount CSV vs map history, Bear Creek, 2014–2025 | MATCH all 12 years |
-| 14 | Headcount CSV vs map history, Mesa, 2014–2025 | MISMATCH in 10 of 12 years (only 2014 and 2025 agree); see CONFLICTS.md C1 for both series |
-| 15 | Headcount CSV vs map history, all elementary schools | 238 of 324 school-years differ; all 27 schools agree for 2025; `data/clean/enrollmentdata_internal_check.csv` |
-| 16 | Capacity CSV vs map `elementaryForecast`, Mesa and Bear Creek | MATCH (capacity and all five projections) |
-| 17 | Grade columns sum to `enrollment`, 2024 and 2025 | MATCH: Mesa 231, 225; Bear Creek 318, 312 |
-| 18 | Grade columns sum to `enrollment`, 2023 | first six columns MATCH (233, 299); seventh column (13, 16) is extra — CONFLICTS.md C5 |
-| 19 | Grade columns, 2016–2022 | only four grades present; cannot reconcile |
-| 20 | `max_enrollment` column | equals the 2014–2025 peak (Mesa 330 in 2014, Bear Creek 448 in 2017), i.e. it is a peak, not capacity — CONFLICTS.md C3 |
-| 21 | `CapPct` columns in capacity CSV | Bear Creek 312/492 = 63.4% → "63%" MATCH; Mesa 224/418 = 53.6% → "54%" MATCH (consistent with 224, not 225) |
-| 22 | Aug 2026 post-change utilization vs capacity 492 | 462/492 = 93.9% → "94%" MATCH; 403/492 = 81.9% → "82%" MATCH; 445/492 = 90.4% → "90%" MATCH; 392/492 = 79.7% → "80%" MATCH |
+| 12 | Feb 2026 capacity table (`BVSD_Capacity_Forecast_2025-2031.csv`) vs P2 p. 9, Mesa and Bear Creek, all 13 numbers each | MATCH (capacity, rounds, 2025-26 enrol, five projections; percentages match) |
+| 13 | Feb 2026 table, all 32 other schools | not checked cell-by-cell; OCR table in `capacity_summary_feb2026_ocr.csv` for anyone who wants to |
+| 14 | Aug 2026 post-change ranges in map (`proposalProjections`) vs P1 p. 51 | MATCH: 392–445 / 80–90% (2027-28); 403–462 / 82–94% (2030-31) |
+| 15 | October head count, Bear Creek, 12 years, CSV and map vs P13 | MISMATCH in 4 years by 1–2 (2019, 2020, 2022, 2023); 8 MATCH |
+| 16 | October head count, Mesa, 12 years, CSV vs P13 | MISMATCH in 6 years by 1–2; 6 MATCH |
+| 17 | October head count, Mesa, map series vs P13 | MISMATCH in 10 years, up to 32 |
+| 18 | Grade columns in enrollmentdata CSV vs P13 grade columns (2023–2025) | K–5 values MATCH for 2024 and 2025 except Mesa 2024 grade 2 (37 vs 36) and Mesa 2025 grade 1 (36 vs 35), i.e. the CSV's +1 totals come from single-grade transcription slips; 2023 "6TH" column (13/16) has no counterpart |
 
-## C. CDE vs BVSD October count
-Not possible: no CDE file was retrieved (F5, F6). When they are, note the definitional differences before comparing: CDE pupil membership is the Oct 1 count-date membership and includes PK where the school offers it; BVSD's "October pupil count" is the district's own headcount whose PK treatment must be read off the file header. Compare K-5 to K-5 and record PK separately.
+## C. Internal consistency of the primaries
 
-## D. Aug 2026 deck vs Feb 2026 report
-The deck (F1) was not retrieved. The only Aug 2026 figures available are the transcribed post-change ranges (Bear Creek 2027-28: 392–445; 2030-31: 403–462; Mesa closes 2027-28). They are in `data/clean/projections_by_vintage.csv` alongside the Feb 2026 and (unverified) Oct 2025 figures, with a `vintage` column and `verified_against_primary=False` on every row.
+| # | Check | Result |
+|---|---|---|
+| 19 | Each P13 head-count file's prior-year column vs previous year's file (22 comparisons) | MATCH all — no post-publication revisions |
+| 20 | P13 grade columns (PK+K–5) sum to funded head count, 24 school-years | MATCH all |
+| 21 | P13 head count vs FTE-file head count (same year) | MATCH for every year checked (2025-26 both 312 / 224; 2020-21 FTE-type file 341 / 235) |
+| 22 | P13 special-programs head count vs head-count file | MATCH all 12 years for both schools |
+| 23 | P5 slide 17 vs P3 p. 9 (Mesa, Bear Creek rows, 20 numbers each) | MATCH — identical tables |
+| 24 | P1 p. 50 "Bear Creek 63%, Mesa 54%; 2.1 / 1.5 classes per grade" vs P2 p. 9 | MATCH |
+| 25 | P1 p. 51 utilization vs capacity 492: 392/492 = 79.7%, 445/492 = 90.4%, 403/492 = 81.9%, 462/492 = 93.9% | MATCH the printed 80/90/82/94% |
+| 26 | P1 p. 51 resident totals vs p. 44 bar ends (275, 228) | MATCH |
+| 27 | P1 p. 45 out-of-district segment vs P13 2025-26 special programs "Out of District" (Bear Creek 13, Mesa 10) | consistent by eye (segments ≈10–15 wide) |
+| 28 | P2 p. 9 2025-26 enrol column vs P13 2025-26 head count, Mesa and Bear Creek | MATCH (224, 312) |
+| 29 | P3 p. 9 2024-25 enrol vs P13 2024-25 head count | MATCH (230, 318) |
+| 30 | P4 p. 11 2023-24 enrol vs P13 2023-24 head count | MATCH (233, 298) |
+| 31 | OCR (rapidocr) vs visual read of the Mesa/Bear Creek rows on P2 p. 9, P3 p. 9, P4 p. 11, P5 slide 17 | one OCR slip: Mesa 2029 rounds "13" for "1.3" (P2 p. 9); all other tokens MATCH |
+
+## D. CDE vs BVSD October count
+Still not possible: no CDE file retrieved. Definitions to note when it is: BVSD's files are titled "Summary of Colorado Department of Education - Funded Head Count" as of the October count date (Oct 1–5), and list PK separately (0 at Mesa and Bear Creek through 2022-23, column dropped after). CDE's pupil-membership file counts membership on the October count day and includes PK where offered; charter and "Boulder Universal" rows will differ. Compare K–5 to K–5.
+
+## E. Projection-accuracy inputs (open question 3) — data only
+`data/clean/capacity_summary_mesa_bearcreek_by_vintage.csv` now holds four vintages (Jan 2024, Jan 2025, Oct 2025 = Jan 2025, Jan 2026) of one-to-five-year projections plus the official actuals in `bvsd_pupil_count_mesa_bearcreek.csv`. Examples, projection → actual: Bear Creek 2024-25 (Jan 2024 vintage) 287 → 318; 2025-26 (Jan 2024) 273 → 312; 2025-26 (Jan 2025) 308 → 312. Mesa 2024-25 (Jan 2024) 220 → 230; 2025-26 (Jan 2024) 211 → 224; 2025-26 (Jan 2025) 230 → 224.

@@ -1,0 +1,16 @@
+   76    54 0.98 BVSD Elementary Building Capacity
+  305  1347 1.00 BVSDUtilization2028-29
+  327   176 0.98 BVSD has the capacity to serve 14,585 K-5
+  383   177 0.99 students in our non-charter schools.
+  464   176 1.00 We currently serve 9,952 (SY 24-25) K-5
+  507  1152 1.00 Excess Capacity
+  519   176 0.99 non-charter students.
+  550  1152 1.00 35.3%
+  598   174 0.99 The utilization rate is 68% with 4,633 open
+  656   176 1.00 seats (SY 2024-25).
+  709  1979 0.97 Enrolled
+  740   176 0.97 Projected to g0 to 9,431, or 65% in 5-years
+  750  2001 1.00 64.7%
+  794   176 0.97 with 5,154 open seats.
+ 1141    73 0.99 BVSD
+ 1150  2092 1.00 11

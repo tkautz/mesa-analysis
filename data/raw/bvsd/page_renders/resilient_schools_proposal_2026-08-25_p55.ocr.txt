@@ -1,0 +1,19 @@
+   56    59 0.99 ResilientSchoolsProposal|Boulder
+  101    57 0.99 All Proposed Changes
+  268   478 0.98 Current and Post Change K-5 Utilization in Boulder
+  414   324 1.00 2025K-5Utilization
+  415  1320 1.00 2030PostClosuresK-5Utilization
+  579   285 1.00 Excess
+  594  1396 1.00 Excess
+  637   285 0.99 Capacity
+  645  1394 0.97 Capacity
+  700   286 1.00 36.9%
+  705  1395 1.00 32.1%
+  764  1579 1.00 Total
+  768   465 1.00 Total
+  821  1580 1.00 Enrollment
+  827   466 0.99 Enrollment
+  884  1580 1.00 67.9%
+  887   467 1.00 63.1%
+ 1141    75 1.00 BVSD
+ 1147  2084 1.00 55

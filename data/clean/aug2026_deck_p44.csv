@@ -1,0 +1,7 @@
+school,measure,value,extraction,_source,_page
+Mesa,resident_attending_neighborhood_school_2025-26,156,eye (printed bar label),data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,44
+Mesa,resident_students_total_2025-26,228,eye (bar end; equals p.51 text value 228),data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,44
+Mesa,projected_resident_students_2030,177,"eye (diamond marker; approximate, +/-5)",data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,44
+Bear Creek,resident_attending_neighborhood_school_2025-26,217,eye (printed bar label),data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,44
+Bear Creek,resident_students_total_2025-26,275,eye (bar end; equals p.51 text value 275),data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,44
+Bear Creek,projected_resident_students_2030,268,"eye (diamond marker; approximate, +/-5)",data/raw/bvsd/resilient_schools_proposal_2026-08-25.pdf,44

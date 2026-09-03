@@ -1,0 +1,372 @@
+
+===== bvsd_enrollment_dashboard.pdf | page 1 of 5 =====
+Welcome to the BVSD Enrollment Dashboard
+This dashboard brings together data from multiple sources to illustrate the current status of BVSD’s student
+enrollment data, as well as trends over time. This comprehensive set of visualizations has been developed to
+build understanding in order to guide decision making and to be transparent with our community about what is
+happening in BVSD related to student enrollment.
+How to navigate this dashboard
+Page Headers:
+⬤ Enrollment trend data: Pages with a dark blue header contain data from previous years.
+⬤ Current year data: Pages with a medium blue header contain data from the current school year.
+Tabs:
+Each tab contains multiple data visualizations. To see different visualizations, click on the three horizontal lines in the upper left corner and select from the
+options.
+Naming Conventions:
+School year is denoted by the year in which a school year began. For example, “2025 SY” refers to the school year beginning in Fall 2025 and ending in Spring 2026.
+Click the link below to get started
+BVSD Long Range BVSD Declining BVSD Planning and
+Advisory Committee Enrollment Webpage Engineering
+
+===== bvsd_enrollment_dashboard.pdf | page 2 of 5 =====
+2016 SY 2017 SY 2018 SY 2019 SY 2020 SY 2021 SY 2022 SY 2023 SY 2024 SY 2025 SY
+stnedutS
+fo
+rebmuN
+Annual Enrollment Trends: K-12 Enrollment
+Language F(Lilteenrgsu (aFjielt)ros)
+K-12 Enrollment Trends
+SEenlegclits Rheport (Seleccionar Informe)
+K-12 Enrollment/Inscripción para ..
+What can I find on this dashboard?
+⬤ Data Source: O3c0t,o1b4e1r count 30,282 30,201 29,982
+This 3d0aKshboard includes annual trend data from several different data sources. This information provides context for the
+broader picture of enrollment in BVSD. 28,366 28,087
+27,522 27,273 27,132
+Tip: Close this message by clicking on the X in the upper right corner to view reports. Use the drop-down menu in the upper26,607
+left to navigate between reports. Click the X on the upper left of the filter menu to close the menu.
+25K
+Within this group of visualizations you will find:
+- K-12 Enrollment: This chart shows the overall number of students enrolled in BVSD across multiple years.
+- K-12 Enrollment in Special Programs: This chart shows the number of BVSD students in special programs across multiple
+20K
+years.
+- Births: This visualization shows the number of children born within each BVSD school attendance area and region across
+multiple years.
+15K
+- Elementary School Capacity/Utilization: This infographic is created by applying the criteria developed by the Long Range
+Advisory Committee to the enrollment projects developed by BVSD’s Planning and Engineering staff.
+- Inter-District Enrollments: This table shows how many students enroll to and from BVSD’s neighboring districts, as well as
+net numbers, across multiple years.
+10K
+Last Updated: January 2026
+5K
+0K
+
+===== bvsd_enrollment_dashboard.pdf | page 3 of 5 =====
+District Open Enrollment: Elementary
+Language (Lenguaje)
+BVSD Students Residing in BVSD BVSD Enrollment Composition
+English
+Year: 2025 SY | Level: Elementary | Region: All Year: 2025 SY | Level: Elementary | Region: All
+Out to Focus School What can I find on this dashboardU?nmatched Addresses
+13% 0%
+The data on th(Nis=1 d,2a8s9h)board shows the movement of students among all the schools in( tNh=e17 d)istrict for each school, at each
+OE from Within District
+school level (elementary, middle, and high), regionally, and for the district overall. Select different data sets to view in the
+Out to Different 35%
+N F e i ig lt h e b r o s rh m oo e d n S u ch . ool (N=3,610)
+18%
+Tip:( NC=l1o,7s1e1 )this message by cl
+2
+ic
+02
+k
+5
+in
+-2
+g
+6
+on the X in the upper right corner to view reports. Use the dro
+2
+p
+02
+-
+5
+d
+-
+o
+26
+wn menu in the upper
+left to navigate between reTpootartl sSt.u Cdelinctsk the X on the upper left of the filter menu to close the meTnotua.l Students
+Residing in BVSD Enrolled in BVSD
+Within this group of visualizat9io,6n4s5 you will find: 10,427
+Attending Own Neighborhood School
+Attending Own Neighborhood School 58%
+- D
+O
+i
+u
+s
+t
+t
+t
+r
+o
+i c
+C
+t
+h
+:
+a
+T
+rte
+h
+r
+i
+S
+s
+c
+v
+ho
+is
+o
+u
+l
+alization shows historical enro
+6
+ll
+3
+m
+%
+ent numbers for each level (elementary, middle, high) overall (aNn=d6, 0b3y5)
+geograph
+6%
+ic regions. Use the Filters menu to tog(Ng=l6e,0 b3e5)tween levels and regions.
+OE from Out-of-District
+(N=610)
+7%
+- School: This visualization shows historical enrollment numbers for each school and level (elementary, middle, high). Use
+(N=765)
+the Filters menu to toggle between schools, levels, and years.
+Students Students
+SScchhooooll SRtuedseidnitnsg SScchhooooll S E tu n d r e o n lle ts d Last Updated: January 2026 Abc
+Enrolled in ..
+YYeeaarr Riens BidVinSgD in.. YYeeaarr in BVSD
+63% 18% 13% 58% 35%
+2025 SY 9,645 2025 SY 10,427
+6,035 1,711 1,289 6,035 3,610
+66% 14% 14% 62% 32%
+2023 SY 10,116 2023 SY 10,807
+6,706 1,444 1,372 6,706 3,410
+68% 13% 13% 64% 30%
+2022 SY 10,422 2022 SY 11,070
+7,075 1,360 1,405 7,075 3,346
+69% 12% 14% 65% 30%
+2021 SY 10,675 2021 SY 11,321
+7,321 1,259 1,497 7,321 3,352
+66% 12% 16% 62% 32%
+2020 SY 10,584 2020 SY 11,272
+6,998 1,273 1,731 6,998 3,586
+70% 12% 13% 66% 28%
+2019 SY 11,804 2019 SY 12,466
+8,260 1,380 1,580 8,260 3,543
+70% 13% 13% 66% 28%
+2018 SY 11,987 2018 SY 12,676
+8,396 1,506 1,518 8,396 3,591
+0K 2K 4K 6K 8K 10K 12K 0K 2K 4K 6K 8K 10K 12K
+Number of Students Number of Students
+Note: BVSD students only. For information on home school and private school enrollment see reports under "Home School/Private School" tab.
+
+===== bvsd_enrollment_dashboard.pdf | page 4 of 5 =====
+September October November December January February March April May
+961+
+721-
+YS
+2202
+931+
+211-
+YS
+3202
+321+
+601-
+YS
+4202
+39+
+111-
+YS
+5202
+69+
+08-
+YS
+2202
+38+
+95-
+YS
+3202
+401+
+08-
+YS
+4202
+07+
+37-
+YS
+5202
+66+
+66-
+YS
+2202
+69+
+86-
+YS
+3202
+15+
+36-
+YS
+4202
+64+
+95-
+YS
+5202
+93+
+731-
+YS
+2202
+031+
+081-
+YS
+3202
+74+
+631-
+YS
+4202
+34+
+821-
+YS
+5202
+652+
+661-
+YS
+2202
+403+
+401-
+YS
+3202
+652+
+311-
+YS
+4202
+861+
+07-
+YS
+5202
+96+
+96-
+YS
+2202
+08+
+17-
+YS
+3202
+84+
+75-
+YS
+4202
+18+
+87-
+YS
+2202
+17+
+96-
+YS
+3202
+27+
+65-
+YS
+4202
+19+
+44-
+YS
+2202
+78+
+34-
+YS
+3202
+15+
+34-
+YS
+4202
+53+
+32-
+YS
+2202
+12-
+YS
+3202
+03-
+YS
+4202
+Monthly Enrollment Gain/Loss Report: Trends
+Language F(Lilteenrgsu (aFjielt)ros)
+English Monthly Enrollment Gains/Losses Historical Trend 2022 SY to 2025 SY as of 1/22/2026; 2025 SY in progress
+Select Report (Seleccionar Informe)
+Includes Grades K-12; full- or part-time funded; neighborhood school & OE students; September-May only
+Historical Year over Year/Histórico..
+What can I find on this dashboard?
+⬤ Data source: monthly
+This dashboard includes aggregated enrollment data from the BVSD student information system. These data provide
+enrollment records
+historical and current snapshots of student enrollments into and out of the district.
+Tip: Close this message by clicking on the X in the upper right corner to view reports. Use the drop-down menu in the upper
+left to navigate between reports. Click the X on the upper left of the filter menu to close the menu.
+Within this group of visualizations you will find:
+- Historical Year Over Year: This chart shows enrollment gains and losses for each month of the school year (September -
+May) for the past four years.
+- Current Year: This visualization shows enrollment gains and losses for each month of the current school year and a net
+comparison with the previous three years.
+- Student Groups: This chart shows enrollment gains and losses for different groups of students for the current year with a
+comparison to the previous three years.
+- Withdrawals: This chart shows the four-year trend of reasons given by students for withdrawing from the school district
+ranked by frequency.
+Last Updated: January 2026
+
+===== bvsd_enrollment_dashboard.pdf | page 5 of 5 =====
+Private School & Home School
+Language (Lenguaje)
+Non-Public School K-12 Fall Pupil Count
+English
+2015 SY 2016 SY 2017 SY 2018 SY 2019 SY 2020 SY 2021 SY 2022 SY 2023 SY 2024 SY
+What can I find on this dashboard?
+ALEXANDER DAWSON SCHOOL 516 519 522 528 499 513 514
+BTouhldise rd Caosunhtbryo Daaryd S cinhocolludes CDE data on private a29n3d hom2e9 1school 2e8n9rollme2n9t0s. 290 316 310 316 281
+NATIVITY OF OUR LORD CATHOLIC 451 435 416 372 314
+SThiinpin:g C Mloousnet atihn iWs amldoersf sSachgoeo lby clicking on the X in3 t1h7e upper right corner to v2i6e2w repo2rt4s7. Use t2h1e6 drop-d20o2wn me1n8u6 in the upper
+Nlaetfivti ttyo:F anitahv &i gRaeateso bnetween reports. Click the X on the upper left of the filter menu to close the3 1m6enu. 306 287 382
+Sacred Heart of Jesus School 189 167 171 197 190 167
+Important Notes About Private School and Home Based Education Data
+Saint Louis Catholic School 113 131 115 121 165 127 113
+Bixby School 70 59 71 59 57 78 91 98 93 76
+CDE Private School Data:
+WTAhTiEsR SdHaEtDa SisCH sOeOlfL reported by the organization and there 7is8 no aud9i8ting process by CDE to ve9r8ify enro1l1l0ment. 102
+J-A DRRaOtWa MapOpNeTEaSrSsO tRoI be incomplete with missing years and/or scho6o1ls. 75 83 77 70 81
+M- aNckointt oaslhl aActtaednemdye: eBso uoldfe ar C pamrivpauste school reside w1i0t0hin BVSD boundaries. 150 159
+S-e pItt eims bdeirffi Scchuolotl to monitor when private schools open and3 4close. 38 50 60 63 62
+Tara Performing Arts High School 47 48 56 56 40 42
+MCoDunEta Hin oSmhadeo Bwsa Mseodnt eEsdsourciation Data: 34 68 40 29 29 25 33
+F-r ieTnhdiss' S dcahotoal is self reported by individuals with 1n1o3 follow1-2u3p auditing by CDE to verify enrollment.
+T-e mThplee rGer ainsd ian Sgcehnoeolral consensus that not all fami2li3es regis2t3er with 1th7e state1 a5nd miss20ing num1b8ers may18 be sign1ifi6cant. 21
+O-l ivCeD TEre ersu Clehsri satilalno Swc hinoodlividuals to register in any school district in the state, not necessarily the one where they reside. 106
+Beautiful Savior Lutheran School 22 34 37
+Use caution when interpreting.
+Boulder Jewish Community Center Preschool 10 9 11 25 17 17
+BROOMFIELD ACADEMY 54 26 Last Updated: January 2026
+Mapleton Montessori School 11 6 12 8 9 10 5 5 5 1
+Appletree Christian Prekindergarten and Kindergarten 10 10 10 17 13 11
+Treehouse Learning 13 15 3 15 8 16
+Countryside Montessori School 9 14 14 8 14
+BOULDER MONTESSORI SCHOOL 2 5 3 4 19 7 7 3 8
+Boulder Waldorf Kindergarten 5 3 44
+RUNNING RIVER SCHOOL 24 26
+LOUISVILLE MONTESSORI SCHOOL 11 14 11 7
+Bal Swan Children's Center 20 16
+KOHL STREET KIDS PRESCHOOL AND BASE 32
+Fairview Montessori 8 8 5 3 3 3
+Note: Blank cells indicate no data provided.
+12 16
+12 8
+14
+13
+12
+8
+5
+1 1

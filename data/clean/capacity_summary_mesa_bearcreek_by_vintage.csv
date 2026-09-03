@@ -1,0 +1,161 @@
+school,vintage,school_year,measure,value,data_type,_source,_page,_table,extraction,verified_against_primary
+Bear Creek,feb2024,capacity,capacity,467.0,capacity,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,capacity,capacity_rounds,3.0,capacity,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2023-24,enrollment,298.0,actual (as printed),data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2023-24,pct_capacity,64.0,actual (as printed),data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2023-24,rounds,2.0,actual (as printed),data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2024-25,enrollment,287.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2024-25,pct_capacity,61.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2024-25,rounds,1.9,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2025-26,enrollment,273.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2025-26,pct_capacity,58.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2025-26,rounds,1.8,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2026-27,enrollment,271.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2026-27,pct_capacity,58.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2026-27,rounds,1.8,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2027-28,enrollment,262.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2027-28,pct_capacity,56.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2027-28,rounds,1.7,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2028-29,enrollment,248.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2028-29,pct_capacity,53.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2024,2028-29,rounds,1.7,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,capacity,capacity,418.0,capacity,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,capacity,capacity_rounds,3.0,capacity,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2023-24,enrollment,233.0,actual (as printed),data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2023-24,pct_capacity,56.0,actual (as printed),data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2023-24,rounds,1.6,actual (as printed),data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2024-25,enrollment,220.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2024-25,pct_capacity,53.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2024-25,rounds,1.5,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2025-26,enrollment,211.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2025-26,pct_capacity,50.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2025-26,rounds,1.4,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2026-27,enrollment,202.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2026-27,pct_capacity,48.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2026-27,rounds,1.3,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2027-28,enrollment,203.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2027-28,pct_capacity,49.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2027-28,rounds,1.4,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2028-29,enrollment,202.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2028-29,pct_capacity,48.0,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Mesa,feb2024,2028-29,rounds,1.3,projection,data/raw/bvsd/trend_report_feb2024.pdf,11,BVSD Capacity Summary 2023-24 (updated 1/26/2024),ocr+eye,True
+Bear Creek,feb2025,capacity,capacity,492.0,capacity,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,capacity,capacity_rounds,3.5,capacity,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2024-25,enrollment,318.0,actual (as printed),data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2024-25,pct_capacity,65.0,actual (as printed),data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2024-25,rounds,2.1,actual (as printed),data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2025-26,enrollment,308.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2025-26,pct_capacity,63.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2025-26,rounds,2.1,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2026-27,enrollment,302.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2026-27,pct_capacity,61.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2026-27,rounds,2.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2027-28,enrollment,290.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2027-28,pct_capacity,59.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2027-28,rounds,1.9,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2028-29,enrollment,274.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2028-29,pct_capacity,56.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2028-29,rounds,1.8,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2029-30,enrollment,272.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2029-30,pct_capacity,55.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,feb2025,2029-30,rounds,1.8,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,capacity,capacity,418.0,capacity,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,capacity,capacity_rounds,3.0,capacity,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2024-25,enrollment,230.0,actual (as printed),data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2024-25,pct_capacity,55.0,actual (as printed),data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2024-25,rounds,1.5,actual (as printed),data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2025-26,enrollment,230.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2025-26,pct_capacity,55.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2025-26,rounds,1.5,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2026-27,enrollment,220.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2026-27,pct_capacity,53.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2026-27,rounds,1.5,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2027-28,enrollment,218.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2027-28,pct_capacity,52.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2027-28,rounds,1.5,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2028-29,enrollment,216.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2028-29,pct_capacity,52.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2028-29,rounds,1.4,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2029-30,enrollment,224.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2029-30,pct_capacity,54.0,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Mesa,feb2025,2029-30,rounds,1.5,projection,data/raw/bvsd/trend_report_feb2025.pdf,9,BVSD Capacity Summary 2024-25 (updated 1/24/2025),ocr+eye,True
+Bear Creek,oct2025,capacity,capacity,492.0,capacity,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,capacity,capacity_rounds,3.5,capacity,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2024-25,enrollment,318.0,actual (as printed),data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2024-25,pct_capacity,65.0,actual (as printed),data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2024-25,rounds,2.1,actual (as printed),data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2025-26,enrollment,308.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2025-26,pct_capacity,63.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2025-26,rounds,2.1,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2026-27,enrollment,302.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2026-27,pct_capacity,61.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2026-27,rounds,2.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2027-28,enrollment,290.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2027-28,pct_capacity,59.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2027-28,rounds,1.9,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2028-29,enrollment,274.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2028-29,pct_capacity,56.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2028-29,rounds,1.8,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2029-30,enrollment,272.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2029-30,pct_capacity,55.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,oct2025,2029-30,rounds,1.8,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,capacity,capacity,418.0,capacity,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,capacity,capacity_rounds,3.0,capacity,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2024-25,enrollment,230.0,actual (as printed),data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2024-25,pct_capacity,55.0,actual (as printed),data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2024-25,rounds,1.5,actual (as printed),data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2025-26,enrollment,230.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2025-26,pct_capacity,55.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2025-26,rounds,1.5,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2026-27,enrollment,220.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2026-27,pct_capacity,53.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2026-27,rounds,1.5,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2027-28,enrollment,218.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2027-28,pct_capacity,52.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2027-28,rounds,1.5,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2028-29,enrollment,216.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2028-29,pct_capacity,52.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2028-29,rounds,1.4,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2029-30,enrollment,224.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2029-30,pct_capacity,54.0,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Mesa,oct2025,2029-30,rounds,1.5,projection,data/raw/bvsd/worksession_2025-10-21.pdf,17,Elementary Attendance Area Region - Boulder (slide 17),ocr+eye,True
+Bear Creek,feb2026,capacity,capacity,492.0,capacity,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,capacity,capacity_rounds,3.5,capacity,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2025-26,enrollment,312.0,actual (as printed),data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2025-26,pct_capacity,63.0,actual (as printed),data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2025-26,rounds,2.1,actual (as printed),data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2026-27,enrollment,299.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2026-27,pct_capacity,61.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2026-27,rounds,2.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2027-28,enrollment,293.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2027-28,pct_capacity,60.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2027-28,rounds,2.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2028-29,enrollment,288.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2028-29,pct_capacity,59.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2028-29,rounds,1.9,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2029-30,enrollment,310.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2029-30,pct_capacity,63.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2029-30,rounds,2.1,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2030-31,enrollment,320.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2030-31,pct_capacity,65.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Bear Creek,feb2026,2030-31,rounds,2.1,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,capacity,capacity,418.0,capacity,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,capacity,capacity_rounds,3.0,capacity,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2025-26,enrollment,224.0,actual (as printed),data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2025-26,pct_capacity,54.0,actual (as printed),data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2025-26,rounds,1.5,actual (as printed),data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2026-27,enrollment,217.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2026-27,pct_capacity,52.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2026-27,rounds,1.4,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2027-28,enrollment,203.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2027-28,pct_capacity,49.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2027-28,rounds,1.4,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2028-29,enrollment,203.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2028-29,pct_capacity,49.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2028-29,rounds,1.4,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2029-30,enrollment,202.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2029-30,pct_capacity,48.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2029-30,rounds,1.3,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2030-31,enrollment,201.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2030-31,pct_capacity,48.0,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True
+Mesa,feb2026,2030-31,rounds,1.3,projection,data/raw/bvsd/trend_report_feb2026.pdf,9,BVSD Capacity Summary 2025-26 (updated 1/26/2026),ocr+eye,True

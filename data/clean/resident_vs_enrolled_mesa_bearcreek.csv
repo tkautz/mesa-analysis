@@ -1,0 +1,15 @@
+school,school_year,measure,value,_source
+Mesa,2025-26,resident_students_in_attendance_area,228.0,aug2026 deck p.51 (text)
+Mesa,2025-26,residents_attending_this_school,156.0,aug2026 deck p.44 (printed bar label)
+Mesa,2025-26,residents_attending_elsewhere (derived),72.0,derived: p.51 resident minus p.44 label
+Mesa,2025-26,enrolled_students,224.0,aug2026 deck p.51 (text); equals 2025-26 pupil count
+Mesa,2025-26,out_of_district_enrolled,10.0,data/raw/bvsd/pupil_count/2025-26_special_programs_summary.pdf p.1 'Out of District'
+Mesa,2025-26,in_district_open_enrolled_in (derived),58.0,derived: enrolled minus residents attending minus out-of-district
+Mesa,2025-26,resident_capture_rate_pct (derived),68.4,derived: residents attending / residents in area
+Bear Creek,2025-26,resident_students_in_attendance_area,275.0,aug2026 deck p.51 (text)
+Bear Creek,2025-26,residents_attending_this_school,217.0,aug2026 deck p.44 (printed bar label)
+Bear Creek,2025-26,residents_attending_elsewhere (derived),58.0,derived: p.51 resident minus p.44 label
+Bear Creek,2025-26,enrolled_students,312.0,aug2026 deck p.51 (text); equals 2025-26 pupil count
+Bear Creek,2025-26,out_of_district_enrolled,13.0,data/raw/bvsd/pupil_count/2025-26_special_programs_summary.pdf p.1 'Out of District'
+Bear Creek,2025-26,in_district_open_enrolled_in (derived),82.0,derived: enrolled minus residents attending minus out-of-district
+Bear Creek,2025-26,resident_capture_rate_pct (derived),78.9,derived: residents attending / residents in area
