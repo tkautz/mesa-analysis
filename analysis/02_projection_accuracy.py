@@ -20,7 +20,7 @@ def actual(school, fall):
     if school == "BCSIS":  # table row is BCSIS-HP = BCSIS + High Peaks
         return official.get(("bcsis", fall), np.nan) + official.get(("highpeakselementary", fall), np.nan)
     return official.get((norm(school), fall), np.nan)
-MOUNTAIN = {"Gold Hill Elementary School", "Jamestown Elementary School"}
+MOUNTAIN = {"Gold Hill Elementary School", "Jamestown Elementary School"}   # the two tiny mountain schools (<30 students); Nederland is kept
 
 # ---------- direct errors ----------
 rows = []
@@ -70,40 +70,48 @@ rsum = rv.groupby("horizon_at_first").agg(n=("school", "size"), median_abs=("abs
 print(rsum.round(1).to_string())
 print(rev[rev.school.str.contains("Mesa|Bear Creek")].round(1).to_string(index=False))
 
-# ---------- Fig 3: errors by horizon ----------
-fig, axes = plt.subplots(1, 2, figsize=(10, 3.8), gridspec_kw=dict(width_ratios=[1.3, 1]))
+# ---------- Fig 3: errors by horizon (left) and by school size (right) ----------
+fig, axes = plt.subplots(1, 2, figsize=(PAGE_W, 3.0), gridspec_kw=dict(width_ratios=[1.25, 1]))
 ax = axes[0]; rng = np.random.default_rng(1)
 for h, x0 in [(1, 0), (2, 1)]:
-    d = e[e.horizon_years == h]
-    xs = x0 + rng.uniform(-0.18, 0.18, len(d))
-    ax.scatter(xs, d.pct_error, s=18, color=C["blue"], alpha=0.55, edgecolor="white", lw=0.5)
-    for sch, col in [("Bear Creek Elementary", SCHOOL_COLOR["Bear Creek"]), ("Mesa Elementary School", SCHOOL_COLOR["Mesa"])]:
-        dd = d[d.school == sch]
-        for _, q in dd.iterrows():
-            ax.scatter([x0 + (0.22 if sch.startswith("Bear") else -0.22)], [q.pct_error], s=55, color=col, edgecolor=TEXT, lw=0.8, zorder=6)
-            ax.annotate(f"{sch.split()[0]} {q.vintage[3:]}", (x0 + (0.22 if sch.startswith("Bear") else -0.22), q.pct_error), xytext=(6 if sch.startswith("Bear") else -6, 0), textcoords="offset points", ha="left" if sch.startswith("Bear") else "right", va="center", fontsize=7.5)
-    q10, q90 = d.pct_error.quantile([.1, .9]); ax.plot([x0 - 0.3, x0 + 0.3], [q10, q10], color=MUTED, lw=1); ax.plot([x0 - 0.3, x0 + 0.3], [q90, q90], color=MUTED, lw=1)
-    ax.text(x0 + 0.32, q90, "P90", fontsize=7, color=MUTED, va="center"); ax.text(x0 + 0.32, q10, "P10", fontsize=7, color=MUTED, va="center")
-ax.axhline(0, color=TEXT, lw=0.8); ax.set_xticks([0, 1]); ax.set_xticklabels(["1 year ahead\n(n=%d)" % (e.horizon_years == 1).sum(), "2 years ahead\n(n=%d)" % (e.horizon_years == 2).sum()])
-ax.set_ylabel("projection minus actual, % of actual"); ax.set_title("School-level projection errors, all BVSD elementary schools")
+    d = e[e.horizon_years == h]; xs = x0 + rng.uniform(-0.18, 0.18, len(d))
+    ax.scatter(xs, d.pct_error, s=14, color=ROLE["background"], edgecolor="white", lw=0.4)
+    for sch, col, dx in [("Bear Creek Elementary", ROLE["bear_creek"], 0.24), ("Mesa Elementary School", ROLE["mesa"], -0.24)]:
+        for _, q in d[d.school == sch].iterrows():
+            ax.scatter([x0 + dx], [q.pct_error], s=40, color=col, edgecolor=TEXT, lw=0.6, zorder=6)
+            ax.annotate(f"{sch.split()[0]} {q.vintage[3:]}", (x0 + dx, q.pct_error), xytext=(5 if dx > 0 else -5, 0), textcoords="offset points", ha="left" if dx > 0 else "right", va="center", fontsize=6)
+    q10, q90 = d.pct_error.quantile([.1, .9]); ax.plot([x0 - 0.3, x0 + 0.3], [q10, q10], color=TEXT, lw=1); ax.plot([x0 - 0.3, x0 + 0.3], [q90, q90], color=TEXT, lw=1)
+    ax.text(x0 + 0.32, q90, f"1-in-10 high {q90:+.0f}%", fontsize=6, color=TEXT, va="center"); ax.text(x0 + 0.32, q10, f"1-in-10 low {q10:+.0f}%", fontsize=6, color=TEXT, va="center")
+ax.axhline(0, color=TEXT, lw=0.8); ax.set_xticks([0, 1]); ax.set_xticklabels([f"1 year ahead (n={(e.horizon_years == 1).sum()})", f"2 years ahead (n={(e.horizon_years == 2).sum()})"], fontsize=7.5)
+ax.set_ylabel("projection minus actual, % of actual"); ax.set_title("School-level projection errors, all BVSD elementary schools", fontsize=8.5); ax.set_xlim(-0.6, 1.9)
 ax = axes[1]
-ax.scatter(e.base_enroll, e.abs_pct_error, s=18, color=C["blue"], alpha=0.55, edgecolor="white", lw=0.5)
-for sch, col in [("Bear Creek Elementary", SCHOOL_COLOR["Bear Creek"]), ("Mesa Elementary School", SCHOOL_COLOR["Mesa"])]:
-    dd = e[e.school == sch]; ax.scatter(dd.base_enroll, dd.abs_pct_error, s=55, color=col, edgecolor=TEXT, lw=0.8, zorder=6, label=sch.split(" Elementary")[0])
-ax.set_xlabel("school enrollment in the run's base year"); ax.set_ylabel("absolute error, %"); ax.set_title("Smaller schools, larger errors"); ax.legend(loc="upper right")
-save(fig, "fig03_errors_by_horizon")
+bins = [(0, 300, "< 300"), (300, 400, "300–400"), (400, 10000, "> 400")]
+for i, (lo, hi, lab) in enumerate(bins):
+    for h, dx, colr in [(1, -0.18, "#7a7975"), (2, 0.18, TEXT)]:
+        d = e[(e.horizon_years == h) & (e.base_enroll >= lo) & (e.base_enroll < hi)]
+        if len(d) == 0: continue
+        xs = i + dx + rng.uniform(-0.08, 0.08, len(d)); ax.scatter(xs, d.abs_pct_error, s=12, color=colr, alpha=0.6, edgecolor="white", lw=0.3, label=f"{h}-yr ahead" if i == 0 else None)
+        ax.plot([i + dx - 0.13, i + dx + 0.13], [d.abs_pct_error.median()] * 2, color=colr, lw=1.6)
+        ax.text(i + dx, -1.8, f"n={len(d)}", ha="center", fontsize=6, color=colr)
+ax.set_xticks(range(3)); ax.set_xticklabels([b[2] for b in bins]); ax.set_xlabel("school size (base-year enrollment)"); ax.set_ylabel("absolute error, %"); ax.set_ylim(-3, 24)
+ax.set_title("Absolute error by school size (bar = median)", fontsize=8.5); ax.legend(loc="upper right", fontsize=6.5)
+save(fig, "fig03_errors_by_horizon", source="Feb 2024 and Feb 2025 trend reports (capacity tables) vs BVSD October pupil-count files 2024-25 and 2025-26; Gold Hill and Jamestown excluded")
 
 # ---------- Fig 4: revisions by horizon ----------
-fig, ax = plt.subplots(figsize=(7.5, 3.8))
-for k in sorted(rv.horizon_at_first.unique()):
+fig, ax = plt.subplots(figsize=(PAGE_W, 2.8))
+hz = sorted(rv.horizon_at_first.unique()); q10s, q90s = [], []
+for k in hz:
     d = rv[rv.horizon_at_first == k]; xs = k + rng.uniform(-0.18, 0.18, len(d))
-    ax.scatter(xs, d.pct_revision, s=18, color=C["blue"], alpha=0.55, edgecolor="white", lw=0.5)
-    q10, q90 = d.pct_revision.quantile([.1, .9]); ax.plot([k - 0.3, k + 0.3], [q10, q10], color=MUTED, lw=1); ax.plot([k - 0.3, k + 0.3], [q90, q90], color=MUTED, lw=1)
-for sch, col, dx in [("Bear Creek Elementary", SCHOOL_COLOR["Bear Creek"], 0.24), ("Mesa Elementary School", SCHOOL_COLOR["Mesa"], -0.24)]:
-    dd = rv[rv.school == sch]; ax.scatter(dd.horizon_at_first + dx, dd.pct_revision, s=55, color=col, edgecolor=TEXT, lw=0.8, zorder=6, label=sch.split(" Elementary")[0])
-ax.axhline(0, color=TEXT, lw=0.8); ax.set_xticks(range(1, 6)); ax.set_xticklabels([f"{k} yr" for k in range(1, 6)])
-ax.set_xlabel("how far ahead the target year was in the earlier run"); ax.set_ylabel("next year's run minus this year's, % of this year's")
-ax.set_title("Year-to-year revisions to the same target year, all schools (P10–P90 bars)"); ax.legend(loc="upper left")
-save(fig, "fig04_revisions_by_horizon")
+    ax.scatter(xs, d.pct_revision, s=14, color=ROLE["background"], edgecolor="white", lw=0.4)
+    q10, q90 = d.pct_revision.quantile([.1, .9]); q10s.append(q10); q90s.append(q90)
+ax.fill_between(hz, q10s, q90s, color=ROLE["merged"], alpha=0.12, lw=0, label="1-in-10 low to 1-in-10 high")
+for sch, col, dx in [("Bear Creek Elementary", ROLE["bear_creek"], 0.24), ("Mesa Elementary School", ROLE["mesa"], -0.24)]:
+    dd = rv[rv.school == sch]; ax.scatter(dd.horizon_at_first + dx, dd.pct_revision, s=40, color=col, edgecolor=TEXT, lw=0.6, zorder=6, label=sch.split(" Elementary")[0])
+p80 = rv[rv.horizon_at_first.isin([4, 5])].abs_pct_revision.quantile(.8)
+ax.text(4.5, q90s[-1] + 3, f"4–5 years out: 4 in 5 revisions are within ±{p80:.0f}%", ha="center", fontsize=6.8, color=ROLE["merged"])
+ax.axhline(0, color=TEXT, lw=0.8); ax.set_xticks(hz); ax.set_xticklabels([f"{k} yr out\n(n={int((rv.horizon_at_first == k).sum())})" for k in hz], fontsize=7)
+ax.set_xlabel("how far ahead the target year was in the earlier run"); ax.set_ylabel("next run minus this run, % of this run")
+ax.set_title("Year-to-year revisions to the same target year, all schools", fontsize=8.5, loc="left"); ax.legend(loc="upper left", fontsize=6.5)
+save(fig, "fig04_revisions_by_horizon", source="Feb 2024, Feb 2025 and Feb 2026 trend reports (capacity tables); Gold Hill and Jamestown excluded")
 
 pd.concat([summ.add_prefix("err_"), rsum.add_prefix("rev_")], axis=1).to_csv(OUT / "summary02.csv")

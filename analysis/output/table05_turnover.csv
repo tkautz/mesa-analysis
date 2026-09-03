@@ -1,3 +1,3 @@
 target,students_needed,homes_at_avg_yield,homes_at_one_child,note
-450,19.889267638007652,111.10556404680138,19.889267638007652,from model median 430; avg yield 0.179 elementary students per single-family dwelling (BVSD boundary study p.22)
-492,61.88926763800765,345.7262537019738,61.88926763800765,from model median 430; avg yield 0.179 elementary students per single-family dwelling (BVSD boundary study p.22)
+450,19.904608236681725,111.19125980491171,19.904608236681725,from Trend-assumption central estimate 430; avg yield 0.179 elementary students per single-family dwelling (BVSD boundary study p.22)
+492,61.904608236681725,345.8119494600841,61.904608236681725,from Trend-assumption central estimate 430; avg yield 0.179 elementary students per single-family dwelling (BVSD boundary study p.22)

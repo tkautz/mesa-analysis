@@ -11,6 +11,11 @@ FIG.mkdir(exist_ok=True); OUT.mkdir(exist_ok=True)
 # Validated reference palette (dataviz skill, light mode): fixed categorical order.
 C = dict(blue="#2a78d6", orange="#eb6834", aqua="#1baf7a", yellow="#eda100", magenta="#e87ba4", green="#008300", violet="#4a3aa7", red="#e34948")
 SCHOOL_COLOR = {"Bear Creek": C["blue"], "Mesa": C["orange"], "Combined": C["violet"]}
+# semantic roles used across all figures (one meaning per colour)
+ROLE = dict(bear_creek=C["blue"], mesa=C["orange"], merged=C["violet"], proposal=C["red"], district_run="#6b6a66", background="#c9c8c3",
+            trend=C["violet"], level=C["aqua"])   # trend/level: the two kindergarten specifications, both on merged-school axes
+SPEC_LABEL = {"trend": "Trend assumption (kindergarten keeps falling)", "level": "Level assumption (kindergarten holds at 2023-25 average)"}
+PAGE_W = 6.5   # printed text width in inches; author figures at this width so fonts print at size
 VINTAGE_COLOR = {"jan2024": C["aqua"], "jan2025": C["yellow"], "jan2026": C["blue"], "aug2026": C["red"]}
 VINTAGE_LABEL = {"jan2024": "Jan 2024 run (Feb 2024 report)", "jan2025": "Jan 2025 run (Feb 2025 report; re-used Oct 2025)", "jan2026": "Jan 2026 run (Feb 2026 report)", "aug2026": "Aug 2026 proposal (post-merger range)"}
 TEXT, MUTED, GRID = "#0b0b0b", "#52514e", "#e6e5e1"
@@ -21,15 +26,17 @@ THREE_ROUNDS, TWO_ROUNDS, ONE_ROUND = 450, 300, 150
 
 def style():
     mpl.rcParams.update({
-        "figure.dpi": 150, "savefig.dpi": 200, "font.size": 9.5, "font.family": "DejaVu Sans",
+        "figure.dpi": 150, "savefig.dpi": 220, "font.size": 8.5, "font.family": "DejaVu Sans",
         "axes.edgecolor": GRID, "axes.linewidth": 0.8, "axes.grid": True, "grid.color": GRID, "grid.linewidth": 0.6,
         "axes.spines.top": False, "axes.spines.right": False, "axes.titleweight": "bold", "axes.titlesize": 10.5,
         "axes.labelcolor": MUTED, "xtick.color": MUTED, "ytick.color": MUTED, "text.color": TEXT,
-        "legend.frameon": False, "legend.fontsize": 8.5, "lines.linewidth": 2, "lines.markersize": 5,
+        "legend.frameon": False, "legend.fontsize": 7.5, "axes.titlesize": 9.5, "axes.labelsize": 8, "lines.linewidth": 2, "lines.markersize": 5,
         "figure.facecolor": "white", "axes.facecolor": "white",
     })
 
-def save(fig, name):
+def save(fig, name, source=None):
+    if source:
+        fig.text(0.0, -0.02, f"Source: {source}", fontsize=6.5, color=MUTED, ha="left", va="top", transform=fig.transFigure)
     for ext in ("png", "svg", "pdf"):
         fig.savefig(FIG / f"{name}.{ext}", bbox_inches="tight")
     plt.close(fig)
