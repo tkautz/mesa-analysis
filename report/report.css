@@ -8,3 +8,5 @@ img{max-width:100%;display:block;margin:0.5em auto} figcaption{font-size:9.5pt;c
 .framed{border:1.5px solid #222;padding:0.6em 0.9em;margin:0.8em 0;background:#fafafa}
 
 figure img{width:100% !important;max-width:100%}
+
+figure{margin:0.8em 0}

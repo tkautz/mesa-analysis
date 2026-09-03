@@ -27,9 +27,9 @@ for sy, bc, mesa, lo, hi, res in rows:
     gap = tot - hi; share = 100 * gap / mesa
     ax.annotate("", xy=(hi, y - 0.22), xytext=(tot, y - 0.22), arrowprops=dict(arrowstyle="<->", color=TEXT, lw=0.8))
     ax.text(tot + 4, y - 0.22, f"{gap:.0f} students not in the range\n({share:.0f}% of Mesa's projection)", ha="left", va="center", fontsize=6.6, color=TEXT)
-    ylabels += [(y + 0.22, f"{sy}: district's separate projections, added"), (y - 0.22, f"{sy}: proposal's merged-school range")]
+    ylabels += [(y + 0.22, f"{sy}\ndistrict's two\nprojections, added"), (y - 0.22, f"{sy}\nproposal's range")]
     y -= 1.3
-ax.set_yticks([p for p, _ in ylabels]); ax.set_yticklabels([l for _, l in ylabels], fontsize=7.5)
+ax.set_yticks([p for p, _ in ylabels]); ax.set_yticklabels([l for _, l in ylabels], fontsize=7)
 for x, lab, dy in [(450, "3 rounds\n(450)", 0.62), (492, "capacity\n(492)", 0.62)]:
     ax.axvline(x, color=MUTED, lw=0.9, ls=":"); ax.text(x, dy, lab, fontsize=6.8, color=MUTED, ha="center", va="bottom")
 ax.set_xlim(200, 600); ax.set_ylim(-1.9, 1.05); ax.set_xlabel("students at Bear Creek (K-5)"); ax.grid(axis="y", visible=False)
