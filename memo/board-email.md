@@ -21,14 +21,14 @@ I concede Mesa is small, has been on the enrollment-advisory list every year it 
 
 **Other gaps** (section 13). Five open questions:
 - How many classrooms will AIM and RISE occupy at Bear Creek, and does 492 net them out?
-- What school-age care capacity will Bear Creek offer relative to two schools' demand?
+- What school-age care capacity will Bear Creek offer for two schools' demand?
 - Where will preschool be offered, given locations are promised only by Oct. 1?
 - Where do the 29–59% of Mesa students the district's range assumes do not follow go, and what revenue leaves with them?
 - Why was the K-2/3-5 reconfiguration, called "uncertain" in October, dropped without published scoring?
 
 **The ask.** Decline to approve the Mesa/Bear Creek component of the Resilient Schools proposal at this time, and direct staff to return with an analysis that meets this standard.
 
-The attached appendix is reproducible from public documents, with a page citation for every number. I would be glad to walk any Board member or staff through it before September 22.
+The attached appendix is reproducible from public documents, with a page citation for every number. I would be glad to walk any Board member or staff through it before Sept. 22.
 
 Respectfully,
 
