@@ -1,5 +1,12 @@
 # STATUS — updated 2026-09-03 (session 5: ChatGPT review, first three items)
 
+## Session 5c: third review, report-side items (email left to the author)
+- Summary box reordered around the bridge (can-house statement vs FAQ; 522 → 403–462 with no published connection; ≈550 as a reconciliation benchmark, not a forecast); 521 vs 492 now labelled a diagnostic, with the non-additivity caveat.
+- Probabilities labelled scenario-conditional in the Summary; §9 no longer says the district "has not modeled" flows.
+- Four-term identity stated in §6 (residents × capture + external in-district + out-of-district + placements/other); only out-of-district is separable from the documents on file.
+- New Table "The Bear Creek worksheet" in §11 (16 rows, after the reviewer's checklist); Appendix D staff list now points to it and keeps the package-level items, with births named in (5) and the crossflow/placements question as (8).
+- Still needed from the author: the December 2025 Enrollment Pattern Matrix (bvsd.org planning-and-engineering page, "Open Enrollment Matrices"); on receipt, Table 11 and Fig. 14 are rebuilt on the matrix's categories (plan in `memo/qa/RESPONSE_to_chatgpt_review_3.md`).
+
 ## Session 5b: second ChatGPT review implemented (`memo/qa/RESPONSE_to_chatgpt_review_2.md`)
 - The 163 "choice seats" are now split into 23 observed out-of-district and 140 derived; x of the 140 may live inside the combined area. New `table11_crossflow_sensitivity.csv`; Fig. 14 relabelled (combined-area capture; external choice seats) with the locus of today's pattern as x varies. Report §6 states the three x-invariant conclusions (≈550 at today's pattern; capture below today's; cut of more than half of choice enrollment) and demotes 46–57% / 16–75 to the x = 0 row. Email, Summary and script carry only the invariant statements.
 - Conditional wording for 29–59% ("read against the standalone projections") in the Summary, §10, §11 and the email; "only if" replaced everywhere by the two-specification statement.
