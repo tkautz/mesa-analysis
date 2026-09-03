@@ -57,5 +57,20 @@ Record both sides; do not resolve silently. Updated 2026-09-03 after the primary
 ## C14. Coal Creek's region
 - The Oct 21 2025 work session (slide 12) places Coal Creek in the Louisville/Superior region, not Boulder. An earlier draft of the appendix listed it among Boulder schools near three rounds after the package; corrected 2026-09-03.
 
+## C15. Program-capacity restatements, district-wide (Feb 2024 → Feb 2025 → Feb 2026 tables)
+- Bear Creek 467→492; Coal Creek 516→492; Douglass 442→418 (2025). Kohl 516→541; Aspen Creek 461→442; Community Montessori 392→369; Louisville 615→590 (2026). Totals 14,608 → 14,585 → 14,543. No explanation in any table beyond the footnote "program capacity based on current use of the building." Source: `data/clean/capacity_summary_all_schools_by_vintage.csv`.
+
+## C16. Deck p. 55 post-change Boulder utilization (67.9%) not reproducible
+- Current state reproduces (63.1%, 2,585 open seats = Feb 2026 table + Horizons 243). Removing Flatirons 320 + Mesa 418 + Montessori building 369 and using the deck's 2030 enrollment 4,241 gives 71.9%; current enrollment gives 74.9%. Inputs behind 67.9% not stated.
+
+## C17. Implied share following differs by component (deck pp. 25, 37, 48, 51, 54 vs Feb 2026 p. 9)
+- 82–100% (Birch→Kohl; Douglass→3 schools), 82–96% (Flatirons→2 schools), 55–71% (Monarch K-5→3 schools), 41–71% (Mesa→Bear Creek), 2030-31. `analysis/output/table10_package_implied_shares.csv`.
+
+## C18. Boulder residents −9% by 2030 (deck p. 43) vs Bear Creek/Mesa area residents +4% (p. 51)
+- 3,870 → 3,522 region-wide; 503 → 522 for the combined area. Not reconciled in any document.
+
+## C19. Deck "current" enrollments vs official October 2025 count
+- Birch 259 (deck p. 25, Feb 2026 p. 9) vs 261 (pupil-count file); Fireside 405 vs 406; Aspen Creek 472 (table) vs 473. Basis of the January update not stated.
+
 ## C9. Branch name — as before
 - Work is on `claude/bvsd-mesa-bear-creek-data-vdbcu6`, not `data-collection`.
