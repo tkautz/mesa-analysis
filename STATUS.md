@@ -16,7 +16,7 @@ Every primary source. The remote session's egress policy allows only GitHub and 
 - No PDF text or page-level table CSVs (`aug2026_deck_p37.csv` etc.) exist. Nothing was OCR'd or reconstructed.
 - No CDE membership data, no BVSD pupil-count files, therefore no resident vs. open-enrolled split (open question 4) and no CDE-vs-BVSD comparison.
 - The Oct 2025 vintage rests entirely on the numbers in CLAUDE.md.
-- Branch: pushed to the session's designated branch `claude/bvsd-mesa-bear-creek-data-vdbcu6`, not `data-collection` (the harness pins the branch name). Rename on GitHub if you want `data-collection`.
+- Branch / PR: pushed to the session's designated branch `claude/bvsd-mesa-bear-creek-data-vdbcu6`, not `data-collection` (the harness pins the branch name; rename on GitHub if you prefer). **No PR was opened**: the repository had no commits before this session, so there is no base branch to open a PR against, and creating one (`main`) was denied by the session's permission policy. Create `main` (e.g. from commit a6379e5, the CLAUDE.md skeleton) and open the PR from this branch.
 
 ## Fetch next (by hand, from a normal browser, into the directories in SOURCES.md)
 1. The three BoardDocs PDFs (F1–F3). Then run pdfplumber on every page mentioning Mesa / Bear Creek and re-run VERIFICATION rows 1–12 against actual page numbers.
