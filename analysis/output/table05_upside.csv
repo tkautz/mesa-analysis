@@ -1,0 +1,10 @@
+scenario,low,high,kind,note
+"BVSD proposal range, 2030-31 (deck p.51)",403.0,462.0,BVSD,range depends on share of Mesa students who follow
+"BVSD Jan 2026 projections summed, 80% / 100% of Mesa follow",481.0,521.0,BVSD-derived,
+"Resident capture at Bear Creek's current 79% + current OE-in (95), residents 522",507.0,507.0,deterministic,deck p.44/p.51 capture; OE-in held at 2025-26 level
+Resident capture rises to 85% + current OE-in,539.0,539.0,deterministic,
+Resident capture 90% + OE-in grows to 120 (3-round school attracts),590.0,590.0,deterministic,
+"Independent model (trend K), 90% follow: median / P90",430.0,508.0,model,
+"Independent model, decline stops (K at 2023-25 level), 90% follow: median / P90",501.0,572.0,model,
+"Kindergarten intake returns to 2014-19 average (95/yr) x 6 grades, 90% follow",515.0,515.0,deterministic,"steady state, ignoring progression gains/losses"
+"Kindergarten intake stays at 2023-25 average (73/yr) x 6 grades, 90% follow",392.0,392.0,deterministic,

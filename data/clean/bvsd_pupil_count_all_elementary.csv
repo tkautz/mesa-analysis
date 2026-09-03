@@ -1,380 +1,448 @@
-school_as_printed,school_year,headcount_prior_year_as_printed,funded_headcount,funded_fte,_source,_page
-Bear Creek Elementary,2014-15,414,417,386.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Birch Elementary,2014-15,359,383,359.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-BCSIS,2014-15,294,307,281.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Boulder Explore,2014-15,24,26,13.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Boulder Universal,2014-15,0,4,4.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2014-15,431,427,398.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Columbine Elementary School,2014-15,480,496,436.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2014-15,340,333,287.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Crest View Elementary,2014-15,607,586,544.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Douglass Elementary School,2014-15,478,463,429.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2014-15,404,405,377.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Emerald Elementary School,2014-15,335,376,318.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Fireside Elementary School,2014-15,456,458,414.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2014-15,307,290,273.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Foothill Elementary School,2014-15,574,545,506.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2014-15,23,27,25.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2014-15,390,384,347.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-High Peaks Elementary,2014-15,297,297,272.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2014-15,21,15,13.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Kohl Elementary School,2014-15,485,487,442.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2014-15,583,590,529.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Louisville Elementary School,2014-15,600,584,541.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Mapleton Early Childhood Center,2014-15,41,70,40.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Mesa Elementary School,2014-15,341,330,306.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Community Montessori,2014-15,255,270,245.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Nederland Elementary School,2014-15,282,285,256.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2014-15,448,473,416.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Ryan Elementary School,2014-15,408,410,372.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2014-15,321,359,309.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Superior Elementary School,2014-15,556,505,476.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-University Hill Elementary School,2014-15,419,427,375.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Whittier International Elementary School,2014-15,389,396,359.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1
-Bear Creek Elementary,2015-16,417,441,407.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Birch Elementary,2015-16,383,407,381.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-BCSIS,2015-16,307,301,276.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2015-16,427,426,397.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Columbine Elementary School,2015-16,496,531,460.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2015-16,333,332,283.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Crest View Elementary,2015-16,586,580,539.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Douglass Elementary School,2015-16,463,473,438.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2015-16,405,398,369.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Emerald Elementary School,2015-16,376,380,328.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Fireside Elementary School,2015-16,458,453,403.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2015-16,290,274,257.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Foothill Elementary School,2015-16,545,547,503.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2015-16,27,26,23.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2015-16,384,385,348.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-High Peaks Elementary,2015-16,297,314,284.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2015-16,15,18,15.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Kohl Elementary School,2015-16,487,481,439.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2015-16,590,592,539.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Louisville Elementary School,2015-16,584,582,538.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Mapleton Early Childhood Center,2015-16,70,70,40.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Mesa Elementary School,2015-16,330,320,301.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Community Montessori,2015-16,270,262,240.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Nederland Elementary School,2015-16,285,276,247.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2015-16,473,480,427.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Ryan Elementary School,2015-16,410,417,379.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2015-16,359,379,322.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Superior Elementary School,2015-16,505,486,452.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-University Hill Elementary School,2015-16,427,436,382.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Whittier International Elementary School,2015-16,396,415,376.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1
-Bear Creek Elementary,2016-17,441,438,407.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-BCSIS,2016-17,301,309,284.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2016-17,426,417,385.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Columbine Elementary School,2016-17,531,536,469.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2016-17,332,319,275.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Crest View Elementary,2016-17,580,606,559.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Douglass Elementary School,2016-17,473,448,420.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2016-17,398,418,385.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Emerald Elementary School,2016-17,380,388,337.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Fireside Elementary School,2016-17,453,469,418.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2016-17,274,254,240.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Foothill Elementary School,2016-17,547,541,505.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2016-17,26,26,22.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2016-17,385,379,340.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-High Peaks Elementary,2016-17,314,305,280.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2016-17,18,19,17.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Kohl Elementary School,2016-17,481,479,429.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2016-17,592,655,592.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Louisville Elementary School,2016-17,582,569,529.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Mapleton Early Childhood Center,2016-17,70,75,43.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Mesa Elementary School,2016-17,320,287,269.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Community Montessori,2016-17,262,251,229.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Nederland Elementary School,2016-17,276,278,252.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2016-17,480,469,413.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Ryan Elementary School,2016-17,417,458,414.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2016-17,379,405,343.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Superior Elementary School,2016-17,486,465,429.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-University Hill Elementary School,2016-17,436,449,396.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Whittier International Elementary School,2016-17,415,424,392.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1
-Bear Creek Elementary,2017-18,438,448,411.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Birch Elementary,2017-18,408,415,386.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-BCSIS,2017-18,309,304,280.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2017-18,417,416,391.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Columbine Elementary School,2017-18,536,531,466.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2017-18,319,311,262.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Crest View Elementary,2017-18,606,582,543.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Douglass Elementary School,2017-18,448,426,392.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2017-18,418,385,362.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Emerald Elementary School,2017-18,388,402,348.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Fireside Elementary School,2017-18,469,453,403.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2017-18,254,245,224.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Foothill Elementary School,2017-18,541,493,457.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2017-18,26,19,17.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2017-18,379,346,317.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-High Peaks Elementary,2017-18,305,307,282.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2017-18,19,17,15.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Kohl Elementary School,2017-18,479,446,408.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2017-18,655,485,442.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Louisville Elementary School,2017-18,569,551,513.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Mapleton Early Childhood Center,2017-18,75,79,45.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Mesa Elementary School,2017-18,287,271,254.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Community Montessori,2017-18,251,248,227.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Nederland Elementary School,2017-18,278,273,245.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2017-18,469,477,419.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Ryan Elementary School,2017-18,458,482,425.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2017-18,405,401,343.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Superior Elementary School,2017-18,465,457,429.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-University Hill Elementary School,2017-18,449,443,395.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Whittier International Elementary School,2017-18,424,381,351.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1
-Bear Creek Elementary,2018-19,448,425,399.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Birch Elementary,2018-19,415,375,329.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-BCSIS,2018-19,304,306,282.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2018-19,416,410,380.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Columbine Elementary School,2018-19,531,497,471.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2018-19,311,337,282.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Crest View Elementary,2018-19,582,566,527.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Douglass Elementary School,2018-19,426,403,378.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2018-19,385,407,381.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Emerald Elementary School,2018-19,402,440,378.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Fireside Elementary School,2018-19,453,453,406.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2018-19,245,228,214.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Foothill Elementary School,2018-19,493,457,431.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2018-19,19,19,16.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2018-19,346,312,281.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-High Peaks Elementary,2018-19,307,291,274.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2018-19,17,15,13.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Kohl Elementary School,2018-19,446,423,381.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2018-19,485,449,408.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Louisville Elementary School,2018-19,551,563,524.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Mapleton Early Childhood Center,2018-19,79,74,42.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Meadowlark School,2018-19,342,452,398.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Mesa Elementary School,2018-19,271,260,239.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Community Montessori,2018-19,248,254,232.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Nederland Elementary School,2018-19,273,263,239.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2018-19,477,474,419.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Ryan Elementary School,2018-19,482,500,441.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2018-19,401,382,352.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Superior Elementary School,2018-19,457,439,411.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-University Hill Elementary School,2018-19,443,446,394.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Whittier International Elementary School,2018-19,381,400,363.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1
-Bear Creek Elementary,2019-20,425,400,398.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Birch Elementary,2019-20,375,388,366.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-BCSIS,2019-20,306,307,304.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2019-20,410,389,389.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Columbine Elementary School,2019-20,497,488,467.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2019-20,337,383,359.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Crest View Elementary,2019-20,566,536,536.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Douglass Elementary School,2019-20,403,390,385.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2019-20,407,402,401.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Emerald Elementary School,2019-20,440,419,396.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Fireside Elementary School,2019-20,453,468,452.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2019-20,228,211,210.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Foothill Elementary School,2019-20,457,456,455.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2019-20,19,20,20.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2019-20,312,285,274.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-High Peaks Elementary,2019-20,291,296,296.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2019-20,15,20,20.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Kohl Elementary School,2019-20,423,378,367.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2019-20,449,491,479.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Louisville Elementary School,2019-20,563,516,514.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Mapleton Early Childhood Center,2019-20,74,78,50.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Meadowlark School,2019-20,452,483,472.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Mesa Elementary School,2019-20,260,261,260.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Community Montessori,2019-20,254,252,251.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Nederland Elementary School,2019-20,263,244,234.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2019-20,474,473,453.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Ryan Elementary School,2019-20,500,549,521.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2019-20,382,358,330.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Superior Elementary School,2019-20,439,434,432.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-University Hill Elementary School,2019-20,446,452,434.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Whittier International Elementary School,2019-20,400,378,376.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2020-21,358,301,282.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-BCSIS,2020-21,307,285,285.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Bear Creek Elementary,2020-21,400,341,340.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Birch Elementary,2020-21,388,322,307.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Boulder Universal,2020-21,2,314,287.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Coal Creek Elementary School,2020-21,389,333,332.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Colorado Preschool Program,2020-21,71,67,46.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Columbine Elementary School,2020-21,488,428,403.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Community Montessori,2020-21,252,208,208.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Creekside Elementary at Martin Park,2020-21,383,342,320.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Crest View Elementary,2020-21,536,445,445.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Douglass Elementary School,2020-21,390,311,304.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Eisenhower Elementary School,2020-21,402,336,336.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Emerald Elementary School,2020-21,419,381,359.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Fireside Elementary School,2020-21,468,415,395.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Flatirons Elementary School,2020-21,211,172,172.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Foothill Elementary School,2020-21,456,421,420.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Gold Hill Elementary School,2020-21,20,25,25.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Halcyon School,2020-21,0,4,4.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Heatherwood Elementary School,2020-21,285,242,233.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-High Peaks Elementary,2020-21,296,273,273.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Jamestown Elementary School,2020-21,20,19,19.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Kohl Elementary School,2020-21,378,308,300.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Lafayette Elementary School,2020-21,491,435,422.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Louisville Elementary School,2020-21,516,449,448.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Mapleton Early Childhood Center,2020-21,78,86,55.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Meadowlark School,2020-21,483,473,454.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Mesa Elementary School,2020-21,261,235,233.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Nederland Elementary School,2020-21,244,201,189.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Pioneer Elementary School,2020-21,473,471,448.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Ryan Elementary School,2020-21,549,451,434.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Superior Elementary School,2020-21,434,417,417.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-University Hill Elementary School,2020-21,452,429,413.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Whittier International Elementary,2020-21,378,329,328.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1
-Alicia Sanchez Elementary School,2021-22,301,330,310.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-BCSIS,2021-22,285,286,286.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Bear Creek Elementary,2021-22,341,346,344.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Birch Elementary,2021-22,322,334,320.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Boulder Universal,2021-22,314,96,94.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2021-22,333,371,369.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Colorado Preschool Program,2021-22,67,87,56.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Columbine Elementary School,2021-22,428,410,386.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Community Montessori,2021-22,208,211,211.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2021-22,342,337,319.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Crest View Elementary,2021-22,445,447,446.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Douglass Elementary School,2021-22,311,309,298.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2021-22,336,353,352.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Emerald Elementary School,2021-22,381,376,357.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Fireside Elementary School,2021-22,415,453,433.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2021-22,172,182,181.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Foothill Elementary School,2021-22,421,434,433.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2021-22,25,17,17.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Halcyon School,2021-22,4,1,1.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2021-22,242,253,243.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-High Peaks Elementary,2021-22,273,259,259.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2021-22,19,20,20.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Kohl Elementary School,2021-22,308,311,300.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2021-22,435,471,460.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Louisville Elementary School,2021-22,449,452,452.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Mapleton Early Childhood Center,2021-22,86,77,48.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Meadowlark School,2021-22,473,479,464.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Mesa Elementary School,2021-22,235,247,246.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Nederland Elementary School,2021-22,201,199,190.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2021-22,471,465,447.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Ryan Elementary School,2021-22,451,477,464.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Superior Elementary School,2021-22,417,453,452.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-University Hill Elementary School,2021-22,429,424,409.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Whittier International Elementary,2021-22,329,325,324.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2022-23,330,339,320.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-BCSIS,2022-23,286,284,284.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Bear Creek Elementary,2022-23,346,342,342.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Birch Elementary,2022-23,334,333,321.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Boulder Universal,2022-23,96,33,33.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2022-23,371,330,329.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Colorado Preschool Program,2022-23,87,77,52.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Columbine Elementary School,2022-23,410,402,380.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Community Montessori,2022-23,211,224,223.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2022-23,337,376,355.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Crest View Elementary,2022-23,447,434,433.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Douglass Elementary School,2022-23,309,325,310.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2022-23,353,303,303.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Emerald Elementary School,2022-23,376,407,387.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Fireside Elementary School,2022-23,453,429,406.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2022-23,182,181,181.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Foothill Elementary School,2022-23,434,437,436.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2022-23,17,15,15.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Halcyon School,2022-23,1,2,2.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2022-23,253,253,241.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-High Peaks Elementary,2022-23,259,265,265.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2022-23,20,17,17.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Kohl Elementary School,2022-23,311,291,279.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2022-23,471,482,457.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Louisville Elementary School,2022-23,452,451,449.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Mapleton Early Childhood Center,2022-23,77,64,42.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Meadowlark School,2022-23,479,515,494.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Mesa Elementary School,2022-23,247,246,245.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Nederland Elementary School,2022-23,199,193,181.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2022-23,465,445,423.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Ryan Elementary School,2022-23,477,416,415.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Superior Elementary School,2022-23,453,420,420.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-University Hill Elementary School,2022-23,424,405,391.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Whittier International Elementary,2022-23,325,329,329.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2023-24,302,285,284.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-BCSIS,2023-24,284,265,264.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Bear Creek Elementary,2023-24,342,298,298.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Birch Elementary,2023-24,309,279,279.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Boulder Universal,2023-24,33,42,42.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2023-24,330,305,305.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Columbine Elementary School,2023-24,359,352,351.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Community Montessori,2023-24,224,227,227.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2023-24,337,333,332.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Crest View Elementary,2023-24,434,410,409.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Douglass Elementary School,2023-24,298,286,285.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2023-24,303,311,310.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Emerald Elementary School,2023-24,367,355,355.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Fireside Elementary School,2023-24,384,396,396.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2023-24,181,164,163.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Foothill Elementary School,2023-24,437,437,436.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2023-24,15,12,12.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Halcyon School,2023-24,2,3,3.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2023-24,233,226,223.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-High Peaks Elementary,2023-24,265,245,245.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2023-24,17,18,18.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Kohl Elementary School,2023-24,267,251,251.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2023-24,432,444,443.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Louisville Elementary School,2023-24,451,422,420.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Meadowlark School,2023-24,475,464,464.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Mesa Elementary School,2023-24,246,233,233.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Nederland Elementary School,2023-24,170,165,165.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2023-24,401,415,415.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Ryan Elementary School,2023-24,416,426,425.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Superior Elementary School,2023-24,420,429,428.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-University Hill Elementary School,2023-24,377,372,372.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Whittier International Elementary,2023-24,329,291,290.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2024-25,285,290,290.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-BCSIS,2024-25,265,254,253.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Bear Creek Elementary,2024-25,298,318,317.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Birch Elementary,2024-25,279,276,275.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Boulder Universal,2024-25,42,46,46.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2024-25,305,283,282.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Columbine Elementary School,2024-25,352,343,343.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Community Montessori,2024-25,227,232,232.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2024-25,333,327,327.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Crest View Elementary,2024-25,410,390,389.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Douglass Elementary School,2024-25,287,282,280.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2024-25,311,276,274.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Emerald Elementary School,2024-25,355,347,347.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Fireside Elementary School,2024-25,396,397,397.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2024-25,164,163,163.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Foothill Elementary School,2024-25,437,418,416.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2024-25,12,10,10.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2024-25,226,233,231.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-High Peaks Elementary,2024-25,245,257,257.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2024-25,18,17,17.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Kohl Elementary School,2024-25,252,254,254.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2024-25,444,465,464.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Louisville Elementary School,2024-25,422,417,416.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Meadowlark School,2024-25,465,468,467.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Mesa Elementary School,2024-25,233,230,230.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Nederland Elementary School,2024-25,165,172,172.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2024-25,415,397,397.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Ryan Elementary School,2024-25,426,410,410.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Superior Elementary School,2024-25,429,416,415.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-University Hill Elementary School,2024-25,372,380,380.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Whittier International Elementary,2024-25,291,267,265.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1
-Alicia Sanchez Elementary School,2025-26,290,276,276.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-BCSIS,2025-26,254,253,253.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Bear Creek Elementary,2025-26,318,312,312.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Birch Elementary,2025-26,276,261,261.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Boulder Universal,2025-26,46,39,39.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Coal Creek Elementary School,2025-26,283,269,268.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Columbine Elementary School,2025-26,343,313,313.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Community Montessori,2025-26,232,193,193.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Creekside Elementary at Martin Park,2025-26,327,288,288.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Crest View Elementary,2025-26,390,330,328.5,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Douglass Elementary School,2025-26,282,281,280.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Eisenhower Elementary School,2025-26,276,265,262.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Emerald Elementary School,2025-26,347,365,365.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Fireside Elementary School,2025-26,397,406,406.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Flatirons Elementary School,2025-26,163,151,150.5,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Foothill Elementary School,2025-26,418,434,432.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Gold Hill Elementary School,2025-26,10,11,11.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Heatherwood Elementary School,2025-26,233,225,223.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-High Peaks Elementary,2025-26,257,283,283.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Jamestown Elementary School,2025-26,17,17,17.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Kohl Elementary School,2025-26,254,256,256.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Lafayette Elementary School,2025-26,465,450,450.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Louisville Elementary School,2025-26,417,382,381.5,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Meadowlark School,2025-26,468,471,471.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Mesa Elementary School,2025-26,230,224,224.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Nederland Elementary School,2025-26,172,166,166.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Pioneer Elementary School,2025-26,397,371,371.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Ryan Elementary School,2025-26,410,393,391.5,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Superior Elementary School,2025-26,416,433,433.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-University Hill Elementary School,2025-26,380,368,368.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
-Whittier International Elementary,2025-26,267,257,256.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1
+school_as_printed,school_year,headcount_prior_year_as_printed,funded_headcount,funded_fte,_source,_page,PK,K,G1,G2,G3,G4,G5,grade_sum_K5,grade_check
+Aspen Creek K-8 (K-5),2014-15,493,524,478.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,25.0,68.0,66.0,76.0,96.0,82.0,111.0,499.0,True
+Bear Creek Elementary,2014-15,414,417,386.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,58.0,78.0,65.0,86.0,75.0,55.0,417.0,True
+Birch Elementary,2014-15,359,383,359.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,44.0,63.0,57.0,42.0,54.0,57.0,66.0,339.0,True
+BCSIS,2014-15,294,307,281.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,48.0,50.0,52.0,54.0,51.0,52.0,307.0,True
+Boulder Explore,2014-15,24,26,13.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,2.0,5.0,3.0,5.0,10.0,1.0,26.0,True
+Boulder Universal,2014-15,0,4,4.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,0.0,0.0,0.0,1.0,3.0,0.0,4.0,True
+Coal Creek Elementary School,2014-15,431,427,398.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,56.0,63.0,71.0,73.0,89.0,75.0,427.0,True
+Columbine Elementary School,2014-15,480,496,436.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,42.0,73.0,101.0,71.0,73.0,74.0,62.0,454.0,True
+Creekside Elementary at Martin Park,2014-15,340,333,287.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,39.0,48.0,49.0,55.0,47.0,54.0,41.0,294.0,True
+Crest View Elementary,2014-15,607,586,544.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,82.0,81.0,104.0,93.0,117.0,109.0,586.0,True
+Douglass Elementary School,2014-15,478,463,429.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,9.0,59.0,78.0,85.0,73.0,77.0,82.0,454.0,True
+Eisenhower Elementary School,2014-15,404,405,377.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,52.0,77.0,46.0,78.0,80.0,72.0,405.0,True
+Eldorado K-8 (K-5),2014-15,537,536,508.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,56.0,86.0,91.0,111.0,86.0,106.0,536.0,True
+Emerald Elementary School,2014-15,335,376,318.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,43.0,75.0,74.0,49.0,46.0,45.0,44.0,333.0,True
+Fireside Elementary School,2014-15,456,458,414.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,23.0,65.0,72.0,63.0,81.0,73.0,81.0,435.0,True
+Flatirons Elementary School,2014-15,307,290,273.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,31.0,46.0,49.0,56.0,53.0,55.0,290.0,True
+Foothill Elementary School,2014-15,574,545,506.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,75.0,82.0,91.0,108.0,78.0,111.0,545.0,True
+Gold Hill Elementary School,2014-15,23,27,25.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,4.0,2.0,8.0,3.0,5.0,5.0,27.0,True
+Heatherwood Elementary School,2014-15,390,384,347.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,12.0,60.0,51.0,69.0,62.0,62.0,68.0,372.0,True
+High Peaks Elementary,2014-15,297,297,272.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,12.0,39.0,47.0,49.0,52.0,47.0,51.0,285.0,True
+Horizons K-8 School (K-5),2014-15,230,231,214.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,35.0,38.0,39.0,37.0,43.0,39.0,231.0,True
+Jamestown Elementary School,2014-15,21,15,13.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,2.0,1.0,4.0,4.0,1.0,3.0,15.0,True
+Kohl Elementary School,2014-15,485,487,442.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,20.0,70.0,86.0,75.0,81.0,84.0,71.0,467.0,True
+Lafayette Elementary School,2014-15,583,590,529.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,22.0,101.0,82.0,100.0,97.0,85.0,103.0,568.0,True
+Louisville Elementary School,2014-15,600,584,541.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,82.0,101.0,106.0,104.0,90.0,101.0,584.0,True
+Mapleton Early Childhood Center,2014-15,41,70,40.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,70.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Mesa Elementary School,2014-15,341,330,306.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,47.0,43.0,56.0,53.0,75.0,56.0,330.0,True
+Monarch K-8 School (K-5),2014-15,411,417,369.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,28.0,65.0,55.0,67.0,54.0,62.0,86.0,389.0,True
+Community Montessori,2014-15,255,270,245.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,1.0,48.0,47.0,45.0,46.0,44.0,39.0,269.0,True
+Nederland Elementary School,2014-15,282,285,256.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,20.0,38.0,39.0,47.0,51.0,46.0,44.0,265.0,True
+Peak to Peak K-12 Charter (K-5),2014-15,447,456,420.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,72.0,73.0,75.0,78.0,78.0,80.0,456.0,True
+Pioneer Elementary School,2014-15,448,473,416.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,32.0,84.0,80.0,78.0,62.0,75.0,62.0,441.0,True
+Ryan Elementary School,2014-15,408,410,372.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,20.0,56.0,60.0,76.0,67.0,60.0,71.0,390.0,True
+Alicia Sanchez Elementary School,2014-15,321,359,309.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,48.0,54.0,57.0,56.0,51.0,48.0,45.0,311.0,True
+Superior Elementary School,2014-15,556,505,476.0,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,57.0,81.0,86.0,91.0,93.0,97.0,505.0,True
+University Hill Elementary School,2014-15,419,427,375.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,31.0,72.0,81.0,62.0,66.0,55.0,60.0,396.0,True
+Whittier International Elementary School,2014-15,389,396,359.5,data/raw/bvsd/pupil_count/2014-15_cde_headcount_summary.pdf,1,0.0,72.0,68.0,72.0,71.0,51.0,62.0,396.0,True
+Aspen Creek K-8 (K-5),2015-16,524,496,458.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,22.0,55.0,77.0,69.0,78.0,110.0,85.0,474.0,True
+Bear Creek Elementary,2015-16,417,441,407.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,68.0,61.0,83.0,67.0,85.0,77.0,441.0,True
+Birch Elementary,2015-16,383,407,381.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,43.0,65.0,68.0,65.0,52.0,57.0,57.0,364.0,True
+BCSIS,2015-16,307,301,276.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,46.0,48.0,49.0,51.0,56.0,51.0,301.0,True
+Boulder Explore (K-5),2015-16,26,20,10.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,4.0,4.0,3.0,4.0,0.0,5.0,20.0,True
+Boulder Universal (K-5),2015-16,4,4,3.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,0.0,0.0,0.0,0.0,3.0,1.0,4.0,True
+Coal Creek Elementary School,2015-16,427,426,397.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,57.0,64.0,63.0,77.0,72.0,93.0,426.0,True
+Columbine Elementary School,2015-16,496,531,460.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,49.0,89.0,73.0,96.0,72.0,80.0,72.0,482.0,True
+Creekside Elementary at Martin Park,2015-16,333,332,283.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,43.0,52.0,40.0,45.0,48.0,48.0,56.0,289.0,True
+Crest View Elementary,2015-16,586,580,539.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,82.0,86.0,84.0,109.0,98.0,121.0,580.0,True
+Douglass Elementary School,2015-16,463,473,438.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,12.0,57.0,76.0,78.0,94.0,78.0,78.0,461.0,True
+Eisenhower Elementary School,2015-16,405,398,369.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,53.0,59.0,73.0,52.0,80.0,81.0,398.0,True
+Eldorado K-8 (K-5),2015-16,536,489,463.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,49.0,70.0,82.0,91.0,109.0,88.0,489.0,True
+Emerald Elementary School,2015-16,376,380,328.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,47.0,59.0,67.0,69.0,50.0,51.0,37.0,333.0,True
+Fireside Elementary School,2015-16,458,453,403.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,27.0,73.0,75.0,64.0,65.0,85.0,64.0,426.0,True
+Flatirons Elementary School,2015-16,290,274,257.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,33.0,32.0,45.0,54.0,55.0,55.0,274.0,True
+Foothill Elementary School,2015-16,545,547,503.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,85.0,80.0,95.0,89.0,120.0,78.0,547.0,True
+Gold Hill Elementary School,2015-16,27,26,23.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,6.0,4.0,1.0,7.0,4.0,4.0,26.0,True
+Heatherwood Elementary School,2015-16,384,385,348.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,15.0,56.0,64.0,60.0,69.0,57.0,64.0,370.0,True
+High Peaks Elementary,2015-16,297,314,284.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,17.0,41.0,48.0,52.0,52.0,53.0,51.0,297.0,True
+Horizons K-8 School (K-5),2015-16,231,237,219.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,37.0,38.0,38.0,38.0,41.0,45.0,237.0,True
+Jamestown Elementary School,2015-16,15,18,15.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,5.0,3.0,1.0,4.0,4.0,1.0,18.0,True
+Kohl Elementary School,2015-16,487,481,439.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,21.0,63.0,80.0,82.0,77.0,76.0,82.0,460.0,True
+Lafayette Elementary School,2015-16,590,592,539.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,18.0,87.0,106.0,92.0,105.0,97.0,87.0,574.0,True
+Louisville Elementary School,2015-16,584,582,538.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,84.0,90.0,105.0,105.0,102.0,96.0,582.0,True
+Mapleton Early Childhood Center,2015-16,70,70,40.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,70.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Mesa Elementary School,2015-16,330,320,301.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,37.0,47.0,50.0,55.0,52.0,79.0,320.0,True
+Monarch K-8 School (K-5),2015-16,417,419,379.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,32.0,49.0,73.0,68.0,72.0,57.0,68.0,387.0,True
+Community Montessori,2015-16,270,262,240.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,44.0,46.0,44.0,46.0,40.0,42.0,262.0,True
+Nederland Elementary School,2015-16,285,276,247.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,19.0,39.0,45.0,36.0,47.0,47.0,43.0,257.0,True
+Peak to Peak K-12 Charter (K-5),2015-16,456,457,420.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,72.0,74.0,75.0,78.0,78.0,80.0,457.0,True
+Pioneer Elementary School,2015-16,473,480,427.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,23.0,84.0,84.0,78.0,75.0,61.0,75.0,457.0,True
+Ryan Elementary School,2015-16,410,417,379.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,21.0,59.0,67.0,65.0,71.0,77.0,57.0,396.0,True
+Alicia Sanchez Elementary School,2015-16,359,379,322.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,58.0,55.0,54.0,60.0,54.0,52.0,46.0,321.0,True
+Superior Elementary School,2015-16,505,486,452.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,67.0,70.0,86.0,80.0,85.0,98.0,486.0,True
+University Hill Elementary School,2015-16,427,436,382.0,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,31.0,78.0,69.0,82.0,60.0,63.0,53.0,405.0,True
+Whittier International Elementary School,2015-16,396,415,376.5,data/raw/bvsd/pupil_count/2015-16_cde_headcount_summary.pdf,1,0.0,74.0,78.0,70.0,70.0,66.0,57.0,415.0,True
+Aspen Creek K-8 (K-5),2016-17,496,496,455.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,23.0,62.0,67.0,74.0,80.0,79.0,111.0,473.0,True
+Bear Creek Elementary,2016-17,441,438,407.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,60.0,66.0,66.0,89.0,70.0,87.0,438.0,True
+BCSIS,2016-17,301,309,284.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,46.0,50.0,52.0,50.0,56.0,55.0,309.0,True
+Boulder Explore (K-5),2016-17,20,11,5.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,2.0,2.0,3.0,1.0,3.0,0.0,11.0,True
+Boulder Universal (K-5),2016-17,4,7,4.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,0.0,3.0,0.0,0.0,1.0,3.0,7.0,True
+Coal Creek Elementary School,2016-17,426,417,385.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,62.0,68.0,75.0,64.0,75.0,73.0,417.0,True
+Columbine Elementary School,2016-17,531,536,469.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,50.0,82.0,83.0,73.0,91.0,74.0,83.0,486.0,True
+Creekside Elementary at Martin Park,2016-17,332,319,275.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,38.0,49.0,46.0,41.0,44.0,55.0,46.0,281.0,True
+Crest View Elementary,2016-17,580,606,559.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,95.0,96.0,97.0,99.0,111.0,108.0,606.0,True
+Douglass Elementary School,2016-17,473,448,420.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,14.0,43.0,70.0,73.0,81.0,92.0,75.0,434.0,True
+Eisenhower Elementary School,2016-17,398,418,385.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,66.0,70.0,64.0,82.0,57.0,79.0,418.0,True
+Eldorado K-8 (K-5),2016-17,489,450,428.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,43.0,68.0,71.0,78.0,85.0,105.0,450.0,True
+Emerald Elementary School,2016-17,380,388,337.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,44.0,59.0,57.0,62.0,68.0,49.0,49.0,344.0,True
+Fireside Elementary School,2016-17,453,469,418.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,27.0,77.0,72.0,75.0,68.0,68.0,82.0,442.0,True
+Flatirons Elementary School,2016-17,274,254,240.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,26.0,34.0,36.0,46.0,54.0,58.0,254.0,True
+Foothill Elementary School,2016-17,547,541,505.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,71.0,88.0,79.0,101.0,89.0,113.0,541.0,True
+Gold Hill Elementary School,2016-17,26,26,22.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,8.0,5.0,3.0,1.0,6.0,3.0,26.0,True
+Heatherwood Elementary School,2016-17,385,379,340.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,19.0,58.0,53.0,64.0,63.0,66.0,56.0,360.0,True
+High Peaks Elementary,2016-17,314,305,280.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,15.0,35.0,45.0,50.0,54.0,53.0,53.0,290.0,True
+Horizons K-8 School (K-5),2016-17,237,232,214.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,36.0,37.0,39.0,39.0,39.0,42.0,232.0,True
+Jamestown Elementary School,2016-17,18,19,17.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,2.0,5.0,2.0,1.0,4.0,5.0,19.0,True
+Kohl Elementary School,2016-17,481,479,429.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,26.0,74.0,64.0,73.0,83.0,77.0,82.0,453.0,True
+Lafayette Elementary School,2016-17,592,655,592.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,22.0,105.0,101.0,108.0,99.0,118.0,102.0,633.0,True
+Louisville Elementary School,2016-17,582,569,529.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,78.0,91.0,88.0,103.0,105.0,104.0,569.0,True
+Mapleton Early Childhood Center,2016-17,70,75,43.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,75.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Mesa Elementary School,2016-17,320,287,269.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,35.0,42.0,48.0,49.0,58.0,55.0,287.0,True
+Monarch K-8 School (K-5),2016-17,419,414,370.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,37.0,50.0,56.0,78.0,59.0,74.0,60.0,377.0,True
+Community Montessori,2016-17,262,251,229.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,43.0,45.0,43.0,44.0,37.0,39.0,251.0,True
+Nederland Elementary School,2016-17,276,278,252.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,17.0,34.0,43.0,50.0,40.0,49.0,45.0,261.0,True
+Peak to Peak K-12 Charter (K-5),2016-17,457,451,414.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,73.0,72.0,72.0,78.0,77.0,79.0,451.0,True
+Pioneer Elementary School,2016-17,480,469,413.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,36.0,78.0,76.0,76.0,70.0,75.0,58.0,433.0,True
+Ryan Elementary School,2016-17,417,458,414.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,25.0,62.0,71.0,68.0,72.0,84.0,76.0,433.0,True
+Alicia Sanchez Elementary School,2016-17,379,405,343.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,61.0,65.0,55.0,47.0,57.0,59.0,61.0,344.0,True
+Superior Elementary School,2016-17,486,465,429.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,71.0,67.0,67.0,93.0,78.0,89.0,465.0,True
+University Hill Elementary School,2016-17,436,449,396.0,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,28.0,78.0,81.0,70.0,75.0,59.0,58.0,421.0,True
+Whittier International Elementary School,2016-17,415,424,392.5,data/raw/bvsd/pupil_count/2016-17_cde_headcount_summary.pdf,1,0.0,61.0,78.0,69.0,73.0,66.0,77.0,424.0,True
+Aspen Creek K-8 (K-5),2017-18,496,487,444.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,21.0,64.0,82.0,73.0,88.0,78.0,81.0,466.0,True
+Bear Creek Elementary,2017-18,438,448,411.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,70.0,73.0,74.0,67.0,91.0,73.0,448.0,True
+Birch Elementary,2017-18,408,415,386.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,44.0,70.0,59.0,62.0,72.0,57.0,51.0,371.0,True
+BCSIS,2017-18,309,304,280.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,45.0,48.0,52.0,51.0,55.0,53.0,304.0,True
+Boulder Universal (K-5),2017-18,7,1,0.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,True
+Coal Creek Elementary School,2017-18,417,416,391.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,48.0,70.0,71.0,83.0,68.0,76.0,416.0,True
+Columbine Elementary School,2017-18,536,531,466.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,48.0,80.0,82.0,84.0,75.0,87.0,75.0,483.0,True
+Creekside Elementary at Martin Park,2017-18,319,311,262.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,39.0,56.0,48.0,42.0,37.0,40.0,49.0,272.0,True
+Crest View Elementary,2017-18,606,582,543.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,77.0,96.0,101.0,87.0,108.0,113.0,582.0,True
+Douglass Elementary School,2017-18,448,426,392.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,11.0,55.0,42.0,73.0,73.0,80.0,92.0,415.0,True
+Eisenhower Elementary School,2017-18,418,385,362.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,45.0,71.0,72.0,66.0,82.0,49.0,385.0,True
+Eldorado K-8 (K-5),2017-18,450,406,382.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,46.0,56.0,67.0,72.0,75.0,90.0,406.0,True
+Emerald Elementary School,2017-18,388,402,348.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,42.0,65.0,56.0,59.0,59.0,70.0,51.0,360.0,True
+Fireside Elementary School,2017-18,469,453,403.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,34.0,66.0,76.0,72.0,74.0,68.0,63.0,419.0,True
+Flatirons Elementary School,2017-18,254,245,224.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,38.0,27.0,38.0,42.0,47.0,53.0,245.0,True
+Foothill Elementary School,2017-18,541,493,457.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,73.0,78.0,81.0,76.0,102.0,83.0,493.0,True
+Gold Hill Elementary School,2017-18,26,19,17.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,4.0,5.0,3.0,2.0,1.0,4.0,19.0,True
+Heatherwood Elementary School,2017-18,379,346,317.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,9.0,46.0,54.0,49.0,61.0,56.0,71.0,337.0,True
+High Peaks Elementary,2017-18,305,307,282.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,8.0,42.0,45.0,49.0,52.0,56.0,55.0,299.0,True
+Horizons K-8 School (K-5),2017-18,232,234,216.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,36.0,40.0,36.0,38.0,42.0,42.0,234.0,True
+Jamestown Elementary School,2017-18,19,17,15.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,2.0,3.0,5.0,2.0,0.0,5.0,17.0,True
+Kohl Elementary School,2017-18,479,446,408.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,24.0,52.0,73.0,60.0,75.0,82.0,80.0,422.0,True
+Lafayette Elementary School,2017-18,655,485,442.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,19.0,67.0,87.0,77.0,78.0,72.0,85.0,466.0,True
+Louisville Elementary School,2017-18,569,551,513.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,71.0,88.0,94.0,89.0,102.0,107.0,551.0,True
+Mapleton Early Childhood Center,2017-18,75,79,45.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,79.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Meadowlark School NA 342 304.5,2017-18,17,58,60.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,,,,,,,,,False
+Mesa Elementary School,2017-18,287,271,254.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,32.0,37.0,45.0,49.0,52.0,56.0,271.0,True
+Monarch K-8 School (K-5),2017-18,414,416,374.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,38.0,46.0,69.0,52.0,69.0,71.0,71.0,378.0,True
+Community Montessori,2017-18,251,248,227.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,40.0,47.0,46.0,40.0,38.0,37.0,248.0,True
+Nederland Elementary School,2017-18,278,273,245.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,15.0,40.0,40.0,40.0,52.0,39.0,47.0,258.0,True
+Peak to Peak K-12 Charter (K-5),2017-18,451,450,414.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,72.0,72.0,72.0,78.0,78.0,78.0,450.0,True
+Pioneer Elementary School,2017-18,469,477,419.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,33.0,82.0,77.0,75.0,74.0,64.0,72.0,444.0,True
+Ryan Elementary School,2017-18,458,482,425.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,37.0,74.0,70.0,77.0,64.0,76.0,84.0,445.0,True
+Alicia Sanchez Elementary School,2017-18,405,401,343.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,46.0,70.0,65.0,54.0,40.0,65.0,61.0,355.0,True
+Superior Elementary School,2017-18,465,457,429.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,56.0,84.0,72.0,67.0,95.0,83.0,457.0,True
+University Hill Elementary School,2017-18,449,443,395.0,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,20.0,76.0,77.0,76.0,67.0,71.0,56.0,423.0,True
+Whittier International Elementary School,2017-18,424,381,351.5,data/raw/bvsd/pupil_count/2017-18_cde_headcount_summary.pdf,1,0.0,58.0,59.0,64.0,72.0,59.0,69.0,381.0,True
+Aspen Creek K-8 (PK-5),2018-19,487,457,419.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,20.0,53.0,73.0,77.0,70.0,83.0,81.0,437.0,True
+Bear Creek Elementary,2018-19,448,425,399.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,48.0,77.0,71.0,73.0,72.0,84.0,425.0,True
+Birch Elementary,2018-19,415,375,329.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,29.0,63.0,56.0,59.0,54.0,62.0,52.0,346.0,True
+BCSIS,2018-19,304,306,282.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,46.0,47.0,52.0,52.0,54.0,55.0,306.0,True
+Boulder Universal (K-5),2018-19,1,4,2.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,0.0,0.0,0.0,1.0,0.0,3.0,4.0,True
+Coal Creek Elementary School,2018-19,416,410,380.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,58.0,55.0,70.0,76.0,80.0,71.0,410.0,True
+Columbine Elementary School,2018-19,531,497,471.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,41.0,70.0,76.0,76.0,83.0,72.0,79.0,456.0,True
+Creekside Elementary at Martin Park,2018-19,311,337,282.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,44.0,64.0,57.0,47.0,43.0,39.0,43.0,293.0,True
+Crest View Elementary,2018-19,582,566,527.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,77.0,72.0,98.0,106.0,97.0,116.0,566.0,True
+Douglass Elementary School,2018-19,426,403,378.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,7.0,41.0,70.0,48.0,77.0,81.0,79.0,396.0,True
+Eisenhower Elementary School,2018-19,385,407,381.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,52.0,65.0,72.0,63.0,73.0,82.0,407.0,True
+Eldorado K-8 (PK-5),2018-19,406,410,384.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,14.0,38.0,67.0,61.0,73.0,74.0,83.0,396.0,True
+Emerald Elementary School,2018-19,402,440,378.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,53.0,69.0,66.0,56.0,63.0,60.0,73.0,387.0,True
+Fireside Elementary School,2018-19,453,453,406.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,33.0,61.0,77.0,73.0,69.0,74.0,66.0,420.0,True
+Flatirons Elementary School,2018-19,245,228,214.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,26.0,38.0,27.0,40.0,47.0,50.0,228.0,True
+Foothill Elementary School,2018-19,493,457,431.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,51.0,75.0,76.0,80.0,77.0,98.0,457.0,True
+Gold Hill Elementary School,2018-19,19,19,16.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,6.0,4.0,5.0,3.0,0.0,1.0,19.0,True
+Heatherwood Elementary School,2018-19,346,312,281.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,16.0,44.0,48.0,47.0,48.0,56.0,53.0,296.0,True
+High Peaks Elementary,2018-19,307,291,274.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,34.0,46.0,48.0,53.0,56.0,54.0,291.0,True
+Horizons K-8 School (K-5),2018-19,234,234,215.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,36.0,39.0,40.0,38.0,40.0,41.0,234.0,True
+Jamestown Elementary School,2018-19,17,15,13.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,3.0,1.0,4.0,6.0,1.0,0.0,15.0,True
+Kohl Elementary School,2018-19,446,423,381.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,21.0,60.0,60.0,72.0,51.0,82.0,77.0,402.0,True
+Lafayette Elementary School,2018-19,485,449,408.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,22.0,59.0,69.0,80.0,72.0,77.0,70.0,427.0,True
+Louisville Elementary School,2018-19,551,563,524.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,72.0,89.0,95.0,105.0,87.0,115.0,563.0,True
+Mapleton Early Childhood Center,2018-19,79,74,42.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,74.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Meadowlark School,2018-19,342,452,398.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,15.0,90.0,70.0,75.0,63.0,75.0,64.0,437.0,True
+Mesa Elementary School,2018-19,271,260,239.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,38.0,38.0,38.0,45.0,49.0,52.0,260.0,True
+Monarch K-8 School (PK-5),2018-19,416,379,344.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,31.0,38.0,51.0,64.0,51.0,68.0,76.0,348.0,True
+Community Montessori,2018-19,248,254,232.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,44.0,44.0,44.0,42.0,43.0,37.0,254.0,True
+Nederland Elementary School,2018-19,273,263,239.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,15.0,33.0,44.0,42.0,39.0,51.0,39.0,248.0,True
+Peak to Peak K-12 Charter (K-5),2018-19,450,449,413.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,72.0,72.0,72.0,78.0,78.0,77.0,449.0,True
+Pioneer Elementary School,2018-19,477,474,419.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,30.0,78.0,76.0,76.0,73.0,75.0,66.0,444.0,True
+Ryan Elementary School,2018-19,482,500,441.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,37.0,79.0,85.0,85.0,70.0,65.0,79.0,463.0,True
+Alicia Sanchez Elementary School,2018-19,401,382,352.5,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,51.0,52.0,62.0,59.0,56.0,47.0,55.0,331.0,True
+Superior Elementary School,2018-19,457,439,411.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,54.0,65.0,88.0,71.0,70.0,91.0,439.0,True
+University Hill Elementary School,2018-19,443,446,394.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,24.0,79.0,73.0,70.0,76.0,58.0,66.0,422.0,True
+Whittier International Elementary School,2018-19,381,400,363.0,data/raw/bvsd/pupil_count/2018-19_cde_headcount_summary.pdf,1,0.0,72.0,64.0,56.0,71.0,74.0,63.0,400.0,True
+Aspen Creek K-8 (PK-5),2019-20,457,443,428.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,28.0,52.0,61.0,72.0,73.0,76.0,81.0,415.0,True
+Bear Creek Elementary,2019-20,425,400,398.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,43.0,54.0,79.0,69.0,83.0,72.0,400.0,True
+Birch Elementary,2019-20,375,388,366.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,43.0,55.0,55.0,63.0,56.0,54.0,62.0,345.0,True
+BCSIS,2019-20,306,307,304.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,47.0,49.0,51.0,52.0,54.0,54.0,307.0,True
+Boulder Universal (K-5),2019-20,4,2,2.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,True
+Coal Creek Elementary School,2019-20,410,389,389.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,51.0,61.0,58.0,72.0,73.0,74.0,389.0,True
+Columbine Elementary School,2019-20,497,488,467.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,39.0,71.0,69.0,74.0,79.0,79.0,77.0,449.0,True
+Creekside Elementary at Martin Park,2019-20,337,383,359.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,47.0,73.0,63.0,57.0,53.0,44.0,46.0,336.0,True
+Crest View Elementary,2019-20,566,536,536.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,86.0,80.0,76.0,93.0,102.0,99.0,536.0,True
+Douglass Elementary School,2019-20,403,390,385.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,9.0,48.0,59.0,68.0,48.0,77.0,81.0,381.0,True
+Eisenhower Elementary School,2019-20,407,402,401.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,58.0,57.0,72.0,81.0,65.0,69.0,402.0,True
+Eldorado K-8 (PK-5),2019-20,410,391,384.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,12.0,44.0,50.0,69.0,63.0,74.0,79.0,379.0,True
+Emerald Elementary School,2019-20,440,419,396.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,45.0,69.0,70.0,60.0,55.0,60.0,60.0,374.0,True
+Fireside Elementary School,2019-20,453,468,452.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,31.0,71.0,66.0,74.0,78.0,75.0,73.0,437.0,True
+Flatirons Elementary School,2019-20,228,211,210.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,34.0,25.0,43.0,24.0,39.0,46.0,211.0,True
+Foothill Elementary School,2019-20,457,456,455.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,59.0,68.0,79.0,89.0,81.0,80.0,456.0,True
+Gold Hill Elementary School,2019-20,19,20,20.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,2.0,5.0,4.0,5.0,4.0,0.0,20.0,True
+Heatherwood Elementary School,2019-20,312,285,274.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,18.0,38.0,40.0,46.0,45.0,44.0,54.0,267.0,True
+High Peaks Elementary,2019-20,291,296,296.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,45.0,48.0,47.0,51.0,52.0,53.0,296.0,True
+Horizons K-8 School (K-5),2019-20,234,230,229.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,36.0,36.0,38.0,38.0,40.0,42.0,230.0,True
+Jamestown Elementary School,2019-20,15,20,20.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,4.0,4.0,2.0,2.0,7.0,1.0,20.0,True
+Kohl Elementary School,2019-20,423,378,367.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,22.0,43.0,59.0,53.0,75.0,50.0,76.0,356.0,True
+Lafayette Elementary School,2019-20,449,491,479.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,19.0,76.0,76.0,76.0,89.0,73.0,82.0,472.0,True
+Louisville Elementary School,2019-20,563,516,514.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,70.0,80.0,88.0,94.0,103.0,81.0,516.0,True
+Mapleton Early Childhood Center,2019-20,74,78,50.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,78.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Meadowlark School,2019-20,452,483,472.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,21.0,81.0,94.0,76.0,80.0,60.0,71.0,462.0,True
+Mesa Elementary School,2019-20,260,261,260.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,36.0,38.0,41.0,44.0,48.0,54.0,261.0,True
+Monarch K-8 School (PK-5),2019-20,379,384,366.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,36.0,60.0,45.0,58.0,61.0,59.0,65.0,348.0,True
+Community Montessori,2019-20,254,252,251.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,41.0,42.0,47.0,40.0,40.0,42.0,252.0,True
+Nederland Elementary School,2019-20,263,244,234.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,18.0,31.0,30.0,41.0,44.0,36.0,44.0,226.0,True
+Peak to Peak K-12 Charter (K-5),2019-20,449,453,453.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,74.0,72.0,72.0,78.0,79.0,78.0,453.0,True
+Pioneer Elementary School,2019-20,474,473,453.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,39.0,80.0,73.0,72.0,75.0,64.0,70.0,434.0,True
+Ryan Elementary School,2019-20,500,549,521.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,52.0,82.0,86.0,87.0,85.0,83.0,74.0,497.0,True
+Alicia Sanchez Elementary School,2019-20,382,358,330.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,56.0,47.0,42.0,55.0,53.0,53.0,52.0,302.0,True
+Superior Elementary School,2019-20,439,434,432.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,59.0,75.0,68.0,89.0,70.0,73.0,434.0,True
+University Hill Elementary School,2019-20,446,452,434.0,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,36.0,79.0,67.0,72.0,66.0,75.0,57.0,416.0,True
+Whittier International Elementary School,2019-20,400,378,376.5,data/raw/bvsd/pupil_count/2019-20_cde_headcount_summary.pdf,1,0.0,49.0,70.0,64.0,53.0,70.0,72.0,378.0,True
+Alicia Sanchez Elementary School,2020-21,358,301,282.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,38.0,41.0,42.0,35.0,53.0,44.0,48.0,263.0,True
+Aspen Creek K-8,2020-21,443,367,357.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,20.0,50.0,52.0,52.0,59.0,63.0,71.0,347.0,True
+BCSIS,2020-21,307,285,285.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,44.0,44.0,48.0,51.0,47.0,51.0,285.0,True
+Bear Creek Elementary,2020-21,400,341,340.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,29.0,46.0,47.0,70.0,70.0,79.0,341.0,True
+Birch Elementary,2020-21,388,322,307.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,29.0,39.0,54.0,54.0,51.0,53.0,42.0,293.0,True
+Boulder Universal,2020-21,2,314,287.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,28.0,47.0,46.0,65.0,68.0,60.0,314.0,True
+Coal Creek Elementary School,2020-21,389,333,332.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,45.0,44.0,52.0,55.0,66.0,71.0,333.0,True
+Colorado Preschool Program,2020-21,71,67,46.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,67.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Columbine Elementary School,2020-21,488,428,403.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,49.0,46.0,65.0,54.0,70.0,72.0,72.0,379.0,True
+Community Montessori,2020-21,252,208,208.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,33.0,39.0,32.0,35.0,33.0,36.0,208.0,True
+Creekside Elementary at Martin Park,2020-21,383,342,320.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,43.0,45.0,67.0,55.0,45.0,44.0,43.0,299.0,True
+Crest View Elementary,2020-21,536,445,445.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,50.0,76.0,69.0,64.0,86.0,100.0,445.0,True
+Douglass Elementary School,2020-21,390,311,304.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,14.0,26.0,43.0,51.0,62.0,38.0,77.0,297.0,True
+Eisenhower Elementary School,2020-21,402,336,336.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,44.0,50.0,52.0,62.0,69.0,59.0,336.0,True
+Eldorado K-8,2020-21,391,330,320.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,20.0,39.0,45.0,49.0,57.0,53.0,67.0,310.0,True
+Emerald Elementary School,2020-21,419,381,359.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,43.0,65.0,53.0,64.0,56.0,49.0,51.0,338.0,True
+Fireside Elementary School,2020-21,468,415,395.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,39.0,57.0,65.0,52.0,62.0,72.0,68.0,376.0,True
+Flatirons Elementary School,2020-21,211,172,172.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,23.0,30.0,21.0,43.0,17.0,38.0,172.0,True
+Foothill Elementary School,2020-21,456,421,420.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,54.0,57.0,71.0,79.0,80.0,80.0,421.0,True
+Gold Hill Elementary School,2020-21,20,25,25.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,5.0,2.0,6.0,4.0,3.0,5.0,25.0,True
+Halcyon School,2020-21,0,4,4.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,0.0,0.0,1.0,0.0,1.0,2.0,4.0,True
+Heatherwood Elementary School,2020-21,285,242,233.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,18.0,39.0,34.0,38.0,38.0,36.0,39.0,224.0,True
+High Peaks Elementary,2020-21,296,273,273.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,36.0,42.0,45.0,48.0,52.0,50.0,273.0,True
+Horizons K-8 School,2020-21,230,229,229.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,36.0,37.0,39.0,39.0,37.0,41.0,229.0,True
+Jamestown Elementary School,2020-21,20,19,19.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,2.0,4.0,3.0,1.0,3.0,6.0,19.0,True
+Kohl Elementary School,2020-21,378,308,300.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,15.0,38.0,41.0,51.0,52.0,66.0,45.0,293.0,True
+Lafayette Elementary School,2020-21,491,435,422.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,25.0,51.0,75.0,67.0,73.0,76.0,68.0,410.0,True
+Louisville Elementary School,2020-21,516,449,448.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,45.0,76.0,70.0,71.0,90.0,97.0,449.0,True
+Mapleton Early Childhood Center,2020-21,78,86,55.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,86.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Meadowlark School,2020-21,483,473,454.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,37.0,63.0,90.0,84.0,71.0,70.0,58.0,436.0,True
+Mesa Elementary School,2020-21,261,235,233.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,33.0,30.0,41.0,42.0,40.0,49.0,235.0,True
+Monarch K-8 School,2020-21,384,330,314.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,32.0,36.0,56.0,39.0,51.0,61.0,55.0,298.0,True
+Nederland Elementary School,2020-21,244,201,189.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,23.0,20.0,29.0,26.0,32.0,36.0,35.0,178.0,True
+Peak to Peak K-12 Charter,2020-21,453,453,452.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,72.0,72.0,72.0,78.0,81.0,78.0,453.0,True
+Pioneer Elementary School,2020-21,473,471,448.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,46.0,72.0,76.0,70.0,69.0,75.0,63.0,425.0,True
+Ryan Elementary School,2020-21,549,451,434.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,31.0,54.0,68.0,80.0,68.0,77.0,73.0,420.0,True
+Superior Elementary School,2020-21,434,417,417.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,58.0,62.0,75.0,66.0,91.0,65.0,417.0,True
+University Hill Elementary School,2020-21,452,429,413.0,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,32.0,68.0,73.0,63.0,64.0,63.0,66.0,397.0,True
+Whittier International Elementary,2020-21,378,329,328.5,data/raw/bvsd/pupil_count/2020-21_cde_headcount_summary_v3.pdf,1,0.0,37.0,46.0,65.0,65.0,48.0,68.0,329.0,True
+Alicia Sanchez Elementary School,2021-22,301,330,310.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,40.0,44.0,53.0,51.0,38.0,56.0,48.0,290.0,True
+Aspen Creek K-8,2021-22,367,385,373.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,21.0,51.0,60.0,59.0,57.0,60.0,77.0,364.0,True
+BCSIS,2021-22,285,286,286.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,46.0,49.0,47.0,50.0,50.0,44.0,286.0,True
+Bear Creek Elementary,2021-22,341,346,344.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,48.0,42.0,53.0,54.0,77.0,72.0,346.0,True
+Birch Elementary,2021-22,322,334,320.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,27.0,52.0,37.0,49.0,57.0,59.0,53.0,307.0,True
+Boulder Universal,2021-22,314,96,94.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,13.0,11.0,14.0,18.0,12.0,28.0,96.0,True
+Coal Creek Elementary School,2021-22,333,371,369.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,50.0,61.0,55.0,63.0,63.0,79.0,371.0,True
+Colorado Preschool Program,2021-22,67,87,56.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,87.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Columbine Elementary School,2021-22,428,410,386.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,48.0,53.0,53.0,64.0,54.0,70.0,68.0,362.0,True
+Community Montessori,2021-22,208,211,211.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,35.0,38.0,40.0,33.0,33.0,32.0,211.0,True
+Creekside Elementary at Martin Park,2021-22,342,337,319.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,36.0,55.0,50.0,57.0,51.0,46.0,42.0,301.0,True
+Crest View Elementary,2021-22,445,447,446.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,70.0,59.0,82.0,72.0,75.0,89.0,447.0,True
+Douglass Elementary School,2021-22,311,309,298.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,19.0,37.0,37.0,51.0,55.0,69.0,41.0,290.0,True
+Eisenhower Elementary School,2021-22,336,353,352.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,46.0,64.0,52.0,58.0,57.0,76.0,353.0,True
+Eldorado K-8,2021-22,330,304,297.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,9.0,43.0,48.0,48.0,54.0,63.0,39.0,295.0,True
+Emerald Elementary School,2021-22,381,376,357.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,37.0,59.0,59.0,54.0,61.0,59.0,47.0,339.0,True
+Fireside Elementary School,2021-22,415,453,433.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,39.0,69.0,72.0,73.0,63.0,62.0,75.0,414.0,True
+Flatirons Elementary School,2021-22,172,182,181.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,27.0,28.0,28.0,30.0,44.0,25.0,182.0,True
+Foothill Elementary School,2021-22,421,434,433.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,53.0,67.0,63.0,80.0,89.0,82.0,434.0,True
+Gold Hill Elementary School,2021-22,25,17,17.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,4.0,2.0,2.0,2.0,5.0,2.0,17.0,True
+Halcyon School,2021-22,4,1,1.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,True
+Heatherwood Elementary School,2021-22,242,253,243.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,18.0,40.0,41.0,38.0,36.0,43.0,37.0,235.0,True
+High Peaks Elementary,2021-22,273,259,259.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,35.0,39.0,40.0,51.0,46.0,48.0,259.0,True
+Horizons K-8 School,2021-22,229,232,232.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,36.0,36.0,40.0,42.0,39.0,39.0,232.0,True
+Jamestown Elementary School,2021-22,19,20,20.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,3.0,3.0,4.0,5.0,2.0,3.0,20.0,True
+Kohl Elementary School,2021-22,308,311,300.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,21.0,43.0,43.0,45.0,45.0,52.0,62.0,290.0,True
+Lafayette Elementary School,2021-22,435,471,460.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,21.0,75.0,72.0,74.0,70.0,77.0,82.0,450.0,True
+Louisville Elementary School,2021-22,449,452,452.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,66.0,63.0,80.0,69.0,83.0,91.0,452.0,True
+Mapleton Early Childhood Center,2021-22,86,77,48.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,77.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Meadowlark School,2021-22,473,479,464.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,29.0,72.0,68.0,91.0,79.0,75.0,65.0,450.0,True
+Mesa Elementary School,2021-22,235,247,246.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,34.0,44.0,37.0,41.0,48.0,43.0,247.0,True
+Monarch K-8 School,2021-22,330,318,303.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,29.0,35.0,39.0,50.0,47.0,54.0,64.0,289.0,True
+Nederland Elementary School,2021-22,201,199,190.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,17.0,36.0,20.0,32.0,26.0,33.0,35.0,182.0,True
+Peak to Peak K-12 Charter,2021-22,453,453,453.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,72.0,72.0,75.0,78.0,78.0,78.0,453.0,True
+Pioneer Elementary School,2021-22,471,465,447.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,35.0,73.0,77.0,74.0,71.0,65.0,70.0,430.0,True
+Ryan Elementary School,2021-22,451,477,464.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,24.0,86.0,58.0,69.0,84.0,75.0,81.0,453.0,True
+Superior Elementary School,2021-22,417,453,452.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,58.0,76.0,74.0,80.0,67.0,98.0,453.0,True
+University Hill Elementary School,2021-22,429,424,409.5,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,29.0,67.0,65.0,72.0,70.0,58.0,63.0,395.0,True
+Whittier International Elementary,2021-22,329,325,324.0,data/raw/bvsd/pupil_count/2021-22_cde_headcount_summary.pdf,1,0.0,43.0,51.0,42.0,74.0,69.0,46.0,325.0,True
+Alicia Sanchez Elementary School,2022-23,330,339,320.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,37.0,57.0,48.0,50.0,45.0,44.0,58.0,302.0,True
+Aspen Creek K-8,2022-23,385,405,390.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,27.0,58.0,58.0,67.0,63.0,63.0,69.0,378.0,True
+BCSIS,2022-23,286,284,284.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,37.0,44.0,50.0,48.0,52.0,53.0,284.0,True
+Bear Creek Elementary,2022-23,346,342,342.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,50.0,50.0,46.0,57.0,57.0,82.0,342.0,True
+Birch Elementary,2022-23,334,333,321.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,24.0,48.0,54.0,44.0,50.0,54.0,59.0,309.0,True
+Boulder Universal,2022-23,96,33,33.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,5.0,5.0,2.0,5.0,8.0,8.0,33.0,True
+Coal Creek Elementary School,2022-23,371,330,329.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,38.0,57.0,60.0,53.0,62.0,60.0,330.0,True
+Colorado Preschool Program,2022-23,87,77,52.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,77.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Columbine Elementary School,2022-23,410,402,380.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,43.0,54.0,56.0,53.0,63.0,60.0,73.0,359.0,True
+Community Montessori,2022-23,211,224,223.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,41.0,33.0,45.0,40.0,33.0,32.0,224.0,True
+Creekside Elementary at Martin Park,2022-23,337,376,355.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,39.0,56.0,55.0,60.0,63.0,55.0,48.0,337.0,True
+Crest View Elementary,2022-23,447,434,433.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,60.0,75.0,65.0,82.0,76.0,76.0,434.0,True
+Douglass Elementary School,2022-23,309,325,310.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,27.0,42.0,43.0,35.0,50.0,57.0,71.0,298.0,True
+Eisenhower Elementary School,2022-23,353,303,303.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,41.0,43.0,59.0,49.0,58.0,53.0,303.0,True
+Eldorado K-8,2022-23,304,301,293.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,14.0,32.0,47.0,43.0,52.0,52.0,61.0,287.0,True
+Emerald Elementary School,2022-23,376,407,387.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,40.0,64.0,55.0,63.0,56.0,66.0,63.0,367.0,True
+Fireside Elementary School,2022-23,453,429,406.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,45.0,58.0,66.0,71.0,69.0,62.0,58.0,384.0,True
+Flatirons Elementary School,2022-23,182,181,181.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,29.0,26.0,26.0,29.0,29.0,42.0,181.0,True
+Foothill Elementary School,2022-23,434,437,436.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,70.0,63.0,67.0,66.0,83.0,88.0,437.0,True
+Gold Hill Elementary School,2022-23,17,15,15.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,1.0,3.0,2.0,2.0,2.0,5.0,15.0,True
+Halcyon School,2022-23,1,2,2.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,True
+Heatherwood Elementary School,2022-23,253,253,241.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,20.0,26.0,43.0,37.0,44.0,37.0,46.0,233.0,True
+High Peaks Elementary,2022-23,259,265,265.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,43.0,43.0,41.0,44.0,49.0,45.0,265.0,True
+Horizons K-8 School,2022-23,232,230,230.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,34.0,36.0,39.0,39.0,42.0,40.0,230.0,True
+Jamestown Elementary School,2022-23,20,17,17.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,2.0,3.0,2.0,4.0,5.0,1.0,17.0,True
+Kohl Elementary School,2022-23,311,291,279.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,24.0,45.0,47.0,40.0,42.0,46.0,47.0,267.0,True
+Lafayette Elementary School,2022-23,471,482,457.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,50.0,63.0,74.0,72.0,77.0,69.0,77.0,432.0,True
+Louisville Elementary School,2022-23,452,451,449.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,58.0,75.0,72.0,79.0,76.0,91.0,451.0,True
+Mapleton Early Childhood Center,2022-23,77,64,42.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,64.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+Meadowlark School,2022-23,479,515,494.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,40.0,68.0,83.0,73.0,90.0,82.0,79.0,475.0,True
+Mesa Elementary School,2022-23,247,246,245.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,27.0,39.0,43.0,42.0,46.0,49.0,246.0,True
+Monarch K-8 School,2022-23,318,327,306.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,41.0,34.0,34.0,47.0,57.0,52.0,62.0,286.0,True
+Nederland Elementary School,2022-23,199,193,181.5,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,23.0,23.0,35.0,23.0,30.0,28.0,31.0,170.0,True
+Peak to Peak K-12 Charter,2022-23,453,449,449.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,71.0,72.0,71.0,78.0,78.0,79.0,449.0,True
+Pioneer Elementary School,2022-23,465,445,423.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,44.0,76.0,67.0,67.0,72.0,62.0,57.0,401.0,True
+Ryan Elementary School,2022-23,477,416,415.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,70.0,80.0,57.0,63.0,77.0,69.0,416.0,True
+Superior Elementary School,2022-23,453,420,420.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,68.0,61.0,78.0,70.0,76.0,67.0,420.0,True
+University Hill Elementary School,2022-23,424,405,391.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,28.0,61.0,64.0,66.0,66.0,64.0,56.0,377.0,True
+Whittier International Elementary,2022-23,325,329,329.0,data/raw/bvsd/pupil_count/2022-23_cde_headcount_summary.pdf,1,0.0,48.0,44.0,50.0,54.0,68.0,65.0,329.0,True
+Alicia Sanchez Elementary School,2023-24,302,285,284.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,31.0,52.0,49.0,45.0,52.0,56.0,285.0,True
+Aspen Creek K-8,2023-24,378,420,418.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,61.0,67.0,72.0,72.0,75.0,73.0,420.0,True
+BCSIS,2023-24,284,265,264.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,38.0,37.0,48.0,43.0,45.0,54.0,265.0,True
+Bear Creek Elementary,2023-24,342,298,298.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,32.0,53.0,49.0,45.0,59.0,60.0,298.0,True
+Birch Elementary,2023-24,309,279,279.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,36.0,49.0,51.0,43.0,47.0,53.0,279.0,True
+Boulder Universal,2023-24,33,42,42.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,3.0,5.0,9.0,5.0,10.0,10.0,42.0,True
+Coal Creek Elementary School,2023-24,330,305,305.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,38.0,40.0,55.0,59.0,52.0,61.0,305.0,True
+Columbine Elementary School,2023-24,359,352,351.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,55.0,51.0,54.0,61.0,62.0,69.0,352.0,True
+Community Montessori,2023-24,224,227,227.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,41.0,40.0,35.0,43.0,37.0,31.0,227.0,True
+Creekside Elementary at Martin Park,2023-24,337,333,332.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,43.0,59.0,61.0,55.0,58.0,57.0,333.0,True
+Crest View Elementary,2023-24,434,410,409.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,49.0,60.0,77.0,65.0,86.0,73.0,410.0,True
+Douglass Elementary School,2023-24,298,286,285.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,42.0,50.0,45.0,37.0,56.0,56.0,286.0,True
+Eisenhower Elementary School,2023-24,303,311,310.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,45.0,44.0,43.0,64.0,52.0,63.0,311.0,True
+Eldorado K-8,2023-24,287,263,263.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,25.0,33.0,56.0,46.0,50.0,53.0,263.0,True
+Emerald Elementary School,2023-24,367,355,355.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,45.0,60.0,62.0,63.0,59.0,66.0,355.0,True
+Fireside Elementary School,2023-24,384,396,396.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,58.0,66.0,66.0,75.0,69.0,62.0,396.0,True
+Flatirons Elementary School,2023-24,181,164,163.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,26.0,32.0,24.0,25.0,31.0,26.0,164.0,True
+Foothill Elementary School,2023-24,437,437,436.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,72.0,72.0,67.0,71.0,71.0,84.0,437.0,True
+Gold Hill Elementary School,2023-24,15,12,12.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,3.0,4.0,2.0,1.0,1.0,1.0,12.0,True
+Halcyon School,2023-24,2,3,3.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,0.0,0.0,0.0,0.0,0.0,3.0,3.0,True
+Heatherwood Elementary School,2023-24,233,226,223.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,37.0,28.0,43.0,41.0,43.0,34.0,226.0,True
+High Peaks Elementary,2023-24,265,245,245.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,26.0,42.0,41.0,45.0,41.0,50.0,245.0,True
+Horizons K-8 School,2023-24,230,242,242.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,32.0,39.0,40.0,41.0,43.0,47.0,242.0,True
+Jamestown Elementary School,2023-24,17,18,18.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,4.0,2.0,3.0,2.0,3.0,4.0,18.0,True
+Kohl Elementary School,2023-24,267,251,251.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,33.0,42.0,42.0,39.0,47.0,48.0,251.0,True
+Lafayette Elementary School,2023-24,432,444,443.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,64.0,70.0,82.0,74.0,83.0,71.0,444.0,True
+Louisville Elementary School,2023-24,451,422,420.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,58.0,54.0,74.0,72.0,83.0,81.0,422.0,True
+Meadowlark School,2023-24,475,464,464.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,65.0,68.0,87.0,70.0,90.0,84.0,464.0,True
+Mesa Elementary School,2023-24,246,233,233.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,26.0,33.0,34.0,44.0,46.0,50.0,233.0,True
+Monarch K-8 School,2023-24,286,274,272.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,39.0,36.0,40.0,47.0,58.0,54.0,274.0,True
+Nederland Elementary School,2023-24,170,165,165.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,24.0,21.0,35.0,27.0,28.0,30.0,165.0,True
+Peak to Peak K-12 Charter,2023-24,449,447,446.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,69.0,72.0,72.0,78.0,78.0,78.0,447.0,True
+Pioneer Elementary School,2023-24,401,415,415.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,75.0,75.0,64.0,68.0,69.0,64.0,415.0,True
+Ryan Elementary School,2023-24,416,426,425.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,71.0,69.0,83.0,58.0,68.0,77.0,426.0,True
+Superior Elementary School,2023-24,420,429,428.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,74.0,71.0,64.0,82.0,70.0,68.0,429.0,True
+University Hill Elementary School,2023-24,377,372,372.0,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,54.0,67.0,59.0,64.0,62.0,66.0,372.0,True
+Whittier International Elementary,2023-24,329,291,290.5,data/raw/bvsd/pupil_count/2023-24_cde_headcount_summary.pdf,1,,44.0,46.0,36.0,50.0,56.0,59.0,291.0,True
+Alicia Sanchez Elementary School,2024-25,285,290,290.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,48.0,42.0,50.0,48.0,50.0,52.0,290.0,True
+Aspen Creek K-8,2024-25,420,443,443.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,70.0,59.0,70.0,76.0,86.0,82.0,443.0,True
+BCSIS,2024-25,265,254,253.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,42.0,40.0,38.0,48.0,42.0,44.0,254.0,True
+Bear Creek Elementary,2024-25,298,318,317.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,51.0,39.0,54.0,54.0,57.0,63.0,318.0,True
+Birch Elementary,2024-25,279,276,275.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,49.0,36.0,47.0,52.0,44.0,48.0,276.0,True
+Boulder Universal,2024-25,42,46,46.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,7.0,6.0,8.0,9.0,3.0,13.0,46.0,True
+Coal Creek Elementary School,2024-25,305,283,282.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,39.0,39.0,43.0,51.0,59.0,52.0,283.0,True
+Columbine Elementary School,2024-25,352,343,343.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,52.0,52.0,59.0,59.0,59.0,62.0,343.0,True
+Community Montessori,2024-25,227,232,232.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,40.0,38.0,42.0,37.0,41.0,34.0,232.0,True
+Creekside Elementary at Martin Park,2024-25,333,327,327.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,44.0,47.0,59.0,63.0,55.0,59.0,327.0,True
+Crest View Elementary,2024-25,410,390,389.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,44.0,51.0,61.0,82.0,68.0,84.0,390.0,True
+Douglass Elementary School,2024-25,287,282,280.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,39.0,47.0,53.0,47.0,39.0,57.0,282.0,True
+Eisenhower Elementary School,2024-25,311,276,274.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,29.0,42.0,43.0,44.0,65.0,53.0,276.0,True
+Eldorado K-8,2024-25,263,256,256.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,31.0,32.0,39.0,51.0,51.0,52.0,256.0,True
+Emerald Elementary School,2024-25,355,347,347.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,71.0,43.0,57.0,61.0,63.0,52.0,347.0,True
+Fireside Elementary School,2024-25,396,397,397.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,54.0,59.0,74.0,62.0,80.0,68.0,397.0,True
+Flatirons Elementary School,2024-25,164,163,163.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,26.0,28.0,36.0,20.0,25.0,28.0,163.0,True
+Foothill Elementary School,2024-25,437,418,416.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,52.0,75.0,74.0,73.0,70.0,74.0,418.0,True
+Gold Hill Elementary School,2024-25,12,10,10.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,0.0,3.0,4.0,2.0,1.0,0.0,10.0,True
+Heatherwood Elementary School,2024-25,226,233,231.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,38.0,38.0,29.0,46.0,38.0,44.0,233.0,True
+High Peaks Elementary,2024-25,245,257,257.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,43.0,37.0,43.0,47.0,47.0,40.0,257.0,True
+Horizons K-8 School,2024-25,242,238,238.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,28.0,39.0,42.0,43.0,43.0,43.0,238.0,True
+Jamestown Elementary School,2024-25,18,17,17.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,4.0,3.0,2.0,3.0,2.0,3.0,17.0,True
+Kohl Elementary School,2024-25,252,254,254.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,42.0,38.0,45.0,44.0,37.0,48.0,254.0,True
+Lafayette Elementary School,2024-25,444,465,464.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,72.0,67.0,78.0,88.0,74.0,86.0,465.0,True
+Louisville Elementary School,2024-25,422,417,416.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,65.0,58.0,52.0,76.0,76.0,90.0,417.0,True
+Meadowlark School,2024-25,465,468,467.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,75.0,66.0,75.0,86.0,75.0,91.0,468.0,True
+Mesa Elementary School,2024-25,233,230,230.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,33.0,27.0,36.0,41.0,44.0,49.0,230.0,True
+Monarch K-8 School,2024-25,274,264,264.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,41.0,36.0,40.0,41.0,47.0,59.0,264.0,True
+Nederland Elementary School,2024-25,165,172,172.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,33.0,23.0,24.0,33.0,28.0,31.0,172.0,True
+Peak to Peak K-12 Charter,2024-25,447,445,445.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,70.0,70.0,72.0,77.0,78.0,78.0,445.0,True
+Pioneer Elementary School,2024-25,415,397,397.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,63.0,69.0,68.0,66.0,69.0,62.0,397.0,True
+Ryan Elementary School,2024-25,426,410,410.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,54.0,72.0,74.0,86.0,59.0,65.0,410.0,True
+Superior Elementary School,2024-25,429,416,415.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,55.0,76.0,65.0,70.0,82.0,68.0,416.0,True
+University Hill Elementary School,2024-25,372,380,380.0,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,58.0,52.0,73.0,64.0,68.0,65.0,380.0,True
+Whittier International Elementary,2024-25,291,267,265.5,data/raw/bvsd/pupil_count/2024-25_cde_headcount_summary.pdf,1,,46.0,42.0,42.0,39.0,46.0,52.0,267.0,True
+Alicia Sanchez Elementary School,2025-26,290,276,276.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,37.0,51.0,34.0,53.0,52.0,49.0,276.0,True
+Aspen Creek K-8,2025-26,443,473,472.5,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,67.0,74.0,74.0,80.0,87.0,91.0,473.0,True
+BCSIS,2025-26,254,253,253.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,37.0,41.0,46.0,35.0,49.0,45.0,253.0,True
+Bear Creek Elementary,2025-26,318,312,312.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,48.0,46.0,42.0,56.0,58.0,62.0,312.0,True
+Birch Elementary,2025-26,276,261,261.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,38.0,42.0,34.0,44.0,54.0,49.0,261.0,True
+Boulder Universal,2025-26,46,39,39.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,2.0,7.0,7.0,7.0,10.0,6.0,39.0,True
+Coal Creek Elementary School,2025-26,283,269,268.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,39.0,37.0,45.0,39.0,49.0,60.0,269.0,True
+Columbine Elementary School,2025-26,343,313,313.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,55.0,47.0,56.0,49.0,56.0,50.0,313.0,True
+Community Montessori,2025-26,232,193,193.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,32.0,34.0,28.0,38.0,25.0,36.0,193.0,True
+Creekside Elementary at Martin Park,2025-26,327,288,288.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,33.0,43.0,42.0,56.0,59.0,55.0,288.0,True
+Crest View Elementary,2025-26,390,330,328.5,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,49.0,44.0,43.0,51.0,79.0,64.0,330.0,True
+Douglass Elementary School,2025-26,282,281,280.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,44.0,40.0,46.0,59.0,49.0,43.0,281.0,True
+Eisenhower Elementary School,2025-26,276,265,262.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,41.0,25.0,40.0,43.0,47.0,69.0,265.0,True
+Eldorado K-8,2025-26,256,252,252.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,39.0,38.0,37.0,40.0,44.0,54.0,252.0,True
+Emerald Elementary School,2025-26,347,365,365.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,69.0,65.0,38.0,56.0,67.0,70.0,365.0,True
+Fireside Elementary School,2025-26,397,406,406.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,74.0,53.0,60.0,76.0,63.0,80.0,406.0,True
+Flatirons Elementary School,2025-26,163,151,150.5,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,26.0,18.0,30.0,32.0,21.0,24.0,151.0,True
+Foothill Elementary School,2025-26,418,434,432.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,67.0,62.0,78.0,81.0,76.0,70.0,434.0,True
+Gold Hill Elementary School,2025-26,10,11,11.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,1.0,0.0,3.0,4.0,2.0,1.0,11.0,True
+Heatherwood Elementary School,2025-26,233,225,223.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,33.0,39.0,39.0,28.0,47.0,39.0,225.0,True
+High Peaks Elementary,2025-26,257,283,283.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,47.0,47.0,39.0,48.0,52.0,50.0,283.0,True
+Horizons K-8 School,2025-26,238,245,245.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,37.0,38.0,41.0,44.0,42.0,43.0,245.0,True
+Jamestown Elementary School,2025-26,17,17,17.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,4.0,4.0,2.0,3.0,3.0,1.0,17.0,True
+Kohl Elementary School,2025-26,254,256,256.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,51.0,39.0,40.0,45.0,40.0,41.0,256.0,True
+Lafayette Elementary School,2025-26,465,450,450.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,63.0,77.0,72.0,71.0,88.0,79.0,450.0,True
+Louisville Elementary School,2025-26,417,382,381.5,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,46.0,64.0,60.0,59.0,75.0,78.0,382.0,True
+Meadowlark School,2025-26,468,471,471.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,84.0,77.0,69.0,82.0,83.0,76.0,471.0,True
+Mesa Elementary School,2025-26,230,224,224.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,28.0,35.0,31.0,37.0,46.0,47.0,224.0,True
+Monarch K-8 School,2025-26,264,264,264.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,43.0,33.0,39.0,44.0,55.0,50.0,264.0,True
+Nederland Elementary School,2025-26,172,166,166.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,25.0,31.0,23.0,26.0,32.0,29.0,166.0,True
+Peak to Peak K-12 Charter,2025-26,445,450,450.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,72.0,72.0,72.0,78.0,78.0,78.0,450.0,True
+Pioneer Elementary School,2025-26,397,371,371.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,63.0,60.0,62.0,62.0,59.0,65.0,371.0,True
+Ryan Elementary School,2025-26,410,393,391.5,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,57.0,50.0,74.0,81.0,76.0,55.0,393.0,True
+Superior Elementary School,2025-26,416,433,433.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,79.0,55.0,78.0,72.0,72.0,77.0,433.0,True
+University Hill Elementary School,2025-26,380,368,368.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,58.0,52.0,57.0,71.0,65.0,65.0,368.0,True
+Whittier International Elementary,2025-26,267,257,256.0,data/raw/bvsd/pupil_count/2025-26_cde_headcount_summary.pdf,1,,38.0,43.0,42.0,46.0,42.0,46.0,257.0,True

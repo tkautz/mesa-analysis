@@ -1,0 +1,251 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{caption}
+\graphicspath{{../figures/}}
+\title{Enrollment uncertainty and the proposed closure of Mesa Elementary:\\ an evidence review for the BVSD Board of Education}
+\author{Prepared from the \texttt{mesa-analysis} repository (data, scripts and figures reproducible from source)}
+\date{September 2026 --- draft for the September 22, 2026 vote}
+\begin{document}
+\maketitle
+
+\section*{Executive summary}
+
+\noindent\fbox{\parbox{0.97\textwidth}{\textbf{The paragraph.} BVSD proposes an irreversible step, closing Mesa Elementary and merging it into Bear Creek, on the strength of five-year enrollment projections that carry no stated margin of error, and the evidence does not yet meet the bar such a step requires. The district's own projections for these two schools have moved by 10--16\% between successive annual runs (Bear Creek's 2028--29 figure went from 248 to 274 to 288 in three consecutive January runs), and across all BVSD elementary schools the district's two-year-ahead projections miss by more than 13\% one time in ten. An independent projection fitted to twelve years of BVSD's own grade-level counts puts the merged school's 2030--31 enrollment anywhere between about 360 and 510 students (80\% band, if 90\% of Mesa families follow), a range that spans both the outcome in which the merged school falls short of three classes per grade and the outcome in which it exceeds the Bear Creek building's 492-seat capacity; under plausible upside cases (the post-2020 flattening of kindergarten intake persists, or the combined attendance area's resident students attend at Bear Creek's current 79\% rate) the merged school reaches 500--540 students. Because closing a school cannot be undone while keeping it open a year can, and because one more October count is expected to narrow the 2030--31 band by about 15\% and would be the first count taken under the new 2026--27 boundaries, the Board should defer the Mesa decision to 2027 and require an independent projection with confidence intervals before acting.}}
+
+\bigskip
+\noindent\textbf{What the district's case rests on.} The proposal (Aug.\ 25, 2026 deck, pp.\ 50--51) justifies the consolidation by Mesa's current utilization (54\%, 1.5 classes per grade) and by projections that Mesa will decline to about 200 students while Bear Creek can house ``the projected enrollment of both schools in 2027--28 and beyond''. The projected merged enrollment is given as a range, 392--445 in 2027--28 and 403--462 in 2030--31, with no probability attached to either end.
+
+\medskip
+\noindent\textbf{What the evidence shows.}
+\begin{itemize}
+\item \textbf{The district's own numbers move a lot.} Bear Creek's 2029--30 projection rose from 272 to 310 (+14\%) between the January 2025 and January 2026 runs; Mesa's fell from 224 to 202 ($-$10\%). The October 2025 work-session deck that launched this process simply re-printed the January 2025 projections. The January 2026 run is the first to project Bear Creek \emph{rising} after 2028, and no document explains why; the 2026--27 boundary change moves only a handful of students (37 in the dual area, 23 already at Bear Creek).
+\item \textbf{Errors are large at the horizons that matter.} Across 59 school-year cases, the district's one-year-ahead projections have a median absolute error of 3\% but a 90th-percentile error of 9\%; two years ahead the median is 6\% and the 90th percentile 13\%. Revisions to the same target year at four and five years out have an 80th-percentile magnitude of about 12\% and a maximum of 46\%. Bear Creek's own count in October 2025 was 14\% above what the January 2024 run had projected for it.
+\item \textbf{An independent model is calibrated and wide.} A cohort-survival model fitted to BVSD's grade-level counts, back-tested on all 26 schools with complete records, covers 73--75\% of actuals with its nominal 80\% band. For the merged school in 2030--31 with 90\% of Mesa students following, its median is 430 and its 80\% band is 359--508; the probability of exceeding three classes per grade (450) is 38\% and of exceeding the building's capacity (492) is 16\%. If instead the post-2020 flattening in kindergarten intake persists, the median rises to about 500 and the 90th percentile to 570.
+\item \textbf{The proposal's own range is internally conservative.} Adding the district's own January 2026 projections for the two schools gives 521 students in 2030--31, above the building's capacity; the range of 403--462 therefore implies that only 41--71\% of Mesa's projected students would land at Bear Creek, or, equivalently, that the combined area's resident capture rate falls to 59--70\%, below either school's rate today (68\% at Mesa, 79\% at Bear Creek).
+\item \textbf{Waiting is cheap and informative.} One more October count is expected to narrow the 80\% band for 2030--31 from about 150 students to about 128, and the central estimate itself could move by $\pm$50 students depending on what that count shows. The January 2027 projection run would be the first to include the new boundaries and the proposal's own open-enrollment priority rules.
+\end{itemize}
+
+\medskip
+\noindent\textbf{The request.} Defer the Mesa closure decision by one year; commission an independent enrollment projection for South Boulder that reports confidence intervals and is back-tested against BVSD's record; and state in advance the enrollment outcomes under which the consolidation would and would not be pursued.
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Background: the decision and the numbers behind it}
+On August 25, 2026 the district presented its Resilient Schools Proposal, which the Board is scheduled to vote on September 22, 2026, with changes effective in 2027--28. For South Boulder it proposes to ``close Mesa Elementary and merge the school communities in the Bear Creek building'' and to redraw the two attendance areas into one (proposal deck p.\ 49; bvsd.org Resilient Schools page, p.\ 7 of the saved copy).
+
+The district's stated rationale (deck p.\ 50) is that Bear Creek is at 63\% utilization and 2.1 classes per grade, Mesa at 54\% and 1.5 classes per grade; that projections ``indicate continued decline''; and that Mesa ``has the second lowest number of resident students in its attendance area''. Its post-change projection (deck p.\ 51) is reproduced in Table~\ref{tab:p51}.
+
+\begin{table}[h]\centering\small
+\caption{The proposal's own figures for the consolidation (Aug.\ 25, 2026 deck, p.\ 51; text layer, verified).}\label{tab:p51}
+\begin{tabular}{lrrr}
+\toprule
+ & 2025--26 (actual) & 2027--28 (proj.) & 2030--31 (proj.) \\
+\midrule
+Bear Creek: capacity / residents / enrolled & 492 / 275 / 312 & & \\
+Mesa: capacity / residents / enrolled & 418 / 228 / 224 & & \\
+Consolidated at Bear Creek: resident students & & 473 & 522 \\
+Consolidated at Bear Creek: enrolled students & & 392--445 & 403--462 \\
+Consolidated utilization & & 80--90\% & 82--94\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Three district-defined thresholds frame the analysis: one ``round'' is about 150 students (about 25 per grade), three rounds about 450 (Oct.\ 21, 2025 work session, slide 8); the Long Range Advisory Committee's \emph{advisory} status is $\le$2 rounds and $\le$60\% of capacity and its \emph{community engagement} status is $\le$1.5 rounds and $\le$50\% (Feb.\ 2026 report p.\ 10; LRAC June 2023 metrics). Mesa has been on the advisory list every year since the list was first published for 2023--24 (Feb.\ 2024 report p.\ 13; Feb.\ 2025 report p.\ 11). Bear Creek has never been on it.
+
+\section{Data and verification}
+Every number in this report traces to a page of a BVSD or Colorado Department of Education (CDE) document held unmodified under \texttt{data/raw/}, with the extraction method recorded. The sources are: the Aug.\ 25, 2026 proposal deck (75 pp.); the February 2024, 2025 and 2026 Annual Enrollment Trend Reports; the Oct.\ 21, 2025 work session; the March 11 and Sept.\ 9, 2025 attendance-boundary board items; BVSD's October pupil-count files (head count, FTE and special-programs summaries) for every year 2014--15 to 2025--26; and CDE's pupil-membership files for 2019--20 to 2025--26.
+
+The capacity-summary tables in the three trend reports and the work session are images; they were OCR'd and every Mesa and Bear Creek cell was checked by eye against the rendered page, and every other school's row was checked by requiring that the table's own current-year enrollment equal the official October count for that year (all 95 rows pass; one lost token was read from the page). Grade-level counts sum exactly to the published head count in all 12 years for every school. CDE's K--5 membership agrees with BVSD's funded count to within one or two students in every year; CDE additionally reports 25 pre-kindergarten students at Mesa in 2025--26 that appear in no BVSD table. Full detail is in \texttt{data/VERIFICATION.md}; disagreements between sources are logged in \texttt{data/CONFLICTS.md}.
+
+Two corrections to figures that circulate publicly: Mesa's October 2025 count is 224 (BVSD's funded count, used in every BVSD table), not 225 (CDE's membership count); and Bear Creek's ``capacity'' was 467 (3.0 rounds) in the January 2024 table and 492 (3.5 rounds) in every table since, an unexplained restatement that alone moves Bear Creek's utilization by five percentage points.
+
+\section{How much the district's own projections have moved}
+Figure~1 overlays the three annual projection runs on the official counts. Table~\ref{tab:vint} gives the numbers.
+
+\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig01_vintages.png}
+\caption{Official October counts (black) and BVSD's projections by run for Bear Creek, Mesa and the pair; shaded band is the proposal's post-merger range.}\end{figure}
+
+\begin{table}[h]\centering\small
+\caption{BVSD projections by run and target year (students, K--5). Sources: Feb.\ 2024 report p.\ 11; Feb.\ 2025 report p.\ 9 (re-printed as Oct.\ 2025 work session slide 17); Feb.\ 2026 report p.\ 9; official counts from the October pupil-count files.}\label{tab:vint}
+\begin{tabular}{llrrrr}
+\toprule
+School & Target year & Jan 2024 run & Jan 2025 run & Jan 2026 run & Actual \\
+\midrule
+Bear Creek & 2024--25 & 287 & 318 & -- & 318 \\
+ & 2025--26 & 273 & 308 & 312 & 312 \\
+ & 2026--27 & 271 & 302 & 299 & \\
+ & 2027--28 & 262 & 290 & 293 & \\
+ & 2028--29 & 248 & 274 & 288 & \\
+ & 2029--30 & -- & 272 & 310 & \\
+ & 2030--31 & -- & -- & 320 & \\
+\midrule
+Mesa & 2024--25 & 220 & 230 & -- & 230 \\
+ & 2025--26 & 211 & 230 & 224 & 224 \\
+ & 2026--27 & 202 & 220 & 217 & \\
+ & 2027--28 & 203 & 218 & 203 & \\
+ & 2028--29 & 202 & 216 & 203 & \\
+ & 2029--30 & -- & 224 & 202 & \\
+ & 2030--31 & -- & -- & 201 & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Four observations follow directly from the district's own tables.
+\begin{enumerate}
+\item The October 2025 work session, which introduced the Board to the South Boulder problem, contained no new projections: its slide 17 is number-for-number the January 2025 table.
+\item Between the January 2025 and January 2026 runs, Bear Creek's 2029--30 projection rose by 38 students (+14\%) and Mesa's fell by 22 ($-$10\%). Bear Creek's 2028--29 projection has risen in each of three successive runs, from 248 to 274 to 288 (+16\% over two years).
+\item The January 2026 path for Bear Creek is the first that turns upward (299, 293, 288, then 310, 320). No document explains the change. The one boundary change adopted for 2026--27 converts the Bear Creek/Creekside dual area to Bear Creek only; that area holds 37 elementary students, 23 of whom already attend Bear Creek (Sept.\ 9, 2025 boundary study, p.\ 22), so it cannot account for a 38-student revision.
+\item The proposal's merged-school range sits below the sum of the district's own separate projections (Figure~2): 521 in 2030--31 and 496 in 2027--28, versus ranges topping out at 462 and 445. Section~6 returns to what that implies.
+\end{enumerate}
+
+\begin{figure}[h]\centering\includegraphics[width=0.9\textwidth]{fig02_range_arithmetic.png}
+\caption{The proposal's post-merger range against the district's own separate projections, resident counts and thresholds.}\end{figure}
+
+\section{How accurate have the district's school-level projections been?}
+With three annual runs and official counts through October 2025, the district's projections can be scored directly one and two years ahead for every elementary school (59 one-year cases, 29 two-year cases, mountain schools excluded). Figure~3 and Table~\ref{tab:err} summarize the errors; Figure~4 shows year-to-year revisions to the same target year, which are the only evidence available about uncertainty at three to five years out.
+
+\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig03_errors_by_horizon.png}
+\caption{Left: percent error of BVSD projections by horizon, all elementary schools, Mesa and Bear Creek highlighted. Right: absolute error against school size.}\end{figure}
+
+\begin{table}[h]\centering\small
+\caption{Absolute percent error of BVSD school-level projections (all elementary schools except Gold Hill and Jamestown) and magnitude of year-to-year revisions to the same target year.}\label{tab:err}
+\begin{tabular}{lrrrrrr}
+\toprule
+ & $n$ & Median & 80th pct. & 90th pct. & Max & Mean signed \\
+\midrule
+Error, 1 year ahead & 59 & 3.2\% & 6.4\% & 9.4\% & 20.2\% & +0.6\% \\
+Error, 2 years ahead & 29 & 5.7\% & 9.4\% & 13.0\% & 17.6\% & 0.0\% \\
+Error, 2 years ahead, schools under 300 & 13 & 5.8\% & 13.9\% & -- & -- & -- \\
+Revision, target 2 years out & 59 & 3.9\% & 9.1\% & 11.5\% & 24.9\% & \\
+Revision, target 3 years out & 59 & 6.0\% & 10.8\% & 12.3\% & 27.4\% & \\
+Revision, target 4 years out & 59 & 6.2\% & 12.2\% & 15.1\% & 32.8\% & \\
+Revision, target 5 years out & 59 & 6.5\% & 12.5\% & 14.7\% & 46.1\% & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]\centering\includegraphics[width=0.8\textwidth]{fig04_revisions_by_horizon.png}
+\caption{Percent revision between successive runs to the same target year, by how far out the target was in the earlier run.}\end{figure}
+
+Three points matter for the decision at hand. First, the district-wide totals are projected well (errors of $-$1.1\%, $-$0.7\% and $+$1.4\% for the three total-level cases), so the school-level errors are not a sign of a bad model; they are what school-level cohort projections look like, with resident moves, open enrollment and small numbers all adding noise. Second, errors are larger for small schools, and Mesa is one of the smallest. Third, the errors are not one-sided: the mean signed error is near zero, so the district is as likely to be too low as too high, which is exactly the situation in which an irreversible choice is costly.
+
+For the two schools at issue, the January 2024 run projected Bear Creek at 287 for October 2024 and 273 for October 2025; the actuals were 318 and 312 ($-$9.7\% and $-$12.5\%). Mesa was projected at 220 and 211 against actuals of 230 and 224. The January 2025 run did much better one year out (Bear Creek $-$1.3\%, Mesa $+$2.7\%). The point is not that the district's projections are bad; it is that a five-year point projection for a 220-student school is a number with a band of several tens of students around it, and the proposal presents no band.
+
+\section{An independent projection with stated uncertainty}
+\subsection{Method}
+The primary model follows the district's own method (cohort survival, Feb.\ 2026 report p.\ 7) but reports a distribution rather than a point. For each school, twelve years of October K--5 counts give eleven annual grade-progression ratios for grades 1--5 and twelve kindergarten intakes. Kindergarten intake is modelled as a log-linear trend with parameter uncertainty (pairs bootstrap). Future years are simulated 10{,}000 times; in each simulated year a single historical year is drawn at random and its kindergarten residual and all five progression ratios are applied jointly to both schools, so that a shock like 2020 remains one event and the two schools stay correlated. A second, deliberately simple model (a random walk with bootstrapped drift on log total enrollment) is run as a check. Scripts: \texttt{analysis/03\_independent\_projection.py}.
+
+\subsection{Backtest}
+Fitting the model on data through October 2023 and October 2024 and scoring it on the subsequent counts for all 26 elementary schools with complete records gives the coverage in Figure~6: the nominal 80\% band contained 75\% of one-year and 73\% of two-year actuals, and the 95\% band 90\% and 88\%. The bands are therefore, if anything, slightly too narrow. Its median errors (3.4\% at one year, 8.3\% at two) are of the same order as the district's (3.3\% and 5.7\%) on the same school-years; the model is not a better forecaster than the district and is not meant to be. It is a calibrated way of asking how wide the band is.
+
+\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig05_fan.png}
+\caption{Independent projection: 50/80/95\% prediction bands, with BVSD's January 2026 run and the proposal's post-merger range.}\end{figure}
+
+\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig06_backtest.png}
+\caption{Backtest across all schools: coverage of the model's bands, and its errors against BVSD's on the same school-years.}\end{figure}
+
+\subsection{Results}
+\begin{table}[h]\centering\small
+\caption{Independent projection for 2030--31 (students, K--5). Model A: cohort survival with trend kindergarten; A-level: kindergarten held at its 2023--25 mean; Model B: random walk with drift on totals.}\label{tab:model}
+\begin{tabular}{lrrrrr}
+\toprule
+ & 10th pct. & 25th & Median & 75th & 90th \\
+\midrule
+Bear Creek, Model A & 206 & 236 & 268 & 303 & 335 \\
+Mesa, Model A & 158 & 168 & 180 & 193 & 206 \\
+Both schools, Model A & 375 & 410 & 448 & 490 & 528 \\
+Both schools, Model A-level & 456 & 487 & 522 & 559 & 594 \\
+Both schools, Model B & 404 & 431 & 463 & 498 & 533 \\
+\midrule
+BVSD Jan 2026 run, both schools & & & 521 & & \\
+Proposal range, merged school & & 403 & & 462 & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The central path of the trend model is \emph{below} the district's for Bear Creek (268 versus 320 in 2030--31) because the fitted kindergarten trend at Bear Creek is downward while the district projects a rise; the level variant, which assumes the post-2020 flattening in kindergarten intake persists, is above the district. The width, not the centre, is the finding: for the two schools together the 80\% band in 2030--31 is roughly 375--528 students, a span of about 150, and even the 50\% band (410--490) straddles the three-round line.
+
+\section{Consolidation scenarios}
+Let $r$ be the share of Mesa's students who enrol at Bear Creek rather than open-enrolling elsewhere. The merged school's enrollment is Bear Creek's path plus $r$ times Mesa's, drawn jointly from the model. Figure~7 gives probabilities for the outcomes that matter; Figure~8 gives the implied class sizes at the building's 21 sections (3.5 rounds across six grades).
+
+\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig07_scenario_heatmap.png}
+\caption{Probability that the merged school exceeds three rounds, exceeds capacity, or falls below two rounds, by share of Mesa students who follow.}\end{figure}
+
+\begin{figure}[h]\centering\includegraphics[width=0.8\textwidth]{fig08_class_size.png}
+\caption{Distribution of average class size in 2030--31 at 21 sections.}\end{figure}
+
+With 90\% of Mesa's students following, the median merged enrollment in 2030--31 is 430 (80\% band 359--508); the probability of exceeding 450 is 38\%, of exceeding 492 is 16\%, and of falling below 300 is 1\%. In 2027--28, the first year of the merged school, the median is 473 and the probability of exceeding capacity is 30\%. With every Mesa student following, the 2027--28 median is 492, exactly the building's capacity, and the chance of exceeding it is 51\%.
+
+The proposal's own range can be decoded the same way. Against the district's January 2026 projections for the two schools separately (320 and 201 in 2030--31; 293 and 203 in 2027--28), the ranges 403--462 and 392--445 imply that $r$ is between 0.41 and 0.71 in 2030--31 and between 0.49 and 0.75 in 2027--28. Put differently, the district's upper bound assumes that between a quarter and a third of Mesa's students leave for other schools. If they do not, the district's own numbers put the merged school above the building's capacity.
+
+\section{What would it take for Bear Creek to fill? Upside scenarios}
+The district's documents attribute the decline to low births, an aging population and constrained housing turnover (FAQ, pp.\ 7--8 of the saved copy; deck p.\ 7). Each of those drivers can also reverse, and the arithmetic of the merged school is sensitive to them because it starts close to the thresholds. Figure~9 lays out named cases for 2030--31; Figure~10 shows the kindergarten evidence.
+
+\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig09_upside_ladder.png}
+\caption{Merged-school enrollment in 2030--31 under the proposal, under the district's own projections, and under named upside cases.}\end{figure}
+
+\begin{figure}[h]\centering\includegraphics[width=0.85\textwidth]{fig10_kindergarten.png}
+\caption{Kindergarten intake at the two schools, 2014--2025.}\end{figure}
+
+\begin{description}
+\item[Leveling-off.] Combined kindergarten intake at the two schools fell from about 100 a year (2014--2017) to 62 in 2020, then recovered to 82, 77, 58, 84 and 76. The 2023--25 mean is 73; the 2014--19 mean is 95. A building of 492 seats is filled, in steady state, by an intake of 82 a year. If intake merely holds at its recent level rather than continuing to fall, the model's median for the merged school rises from 430 to about 500 and its 90th percentile to about 570.
+\item[Resident capture.] Today 79\% of Bear Creek's resident students attend Bear Creek and 68\% of Mesa's attend Mesa (deck pp.\ 44 and 51). The district projects 522 resident students in the combined area in 2030--31. At Bear Creek's current capture rate and with Bear Creek's current 95 open-enrolled-in and out-of-district students, the merged school would have about 507 students; at 85\% capture, about 539. The proposal's range of 403--462 is consistent with those inputs only if capture falls to 59--70\%, below either school's rate today.
+\item[Open enrollment.] The proposal's own rationale is that a three-round school with fuller programs is a better student experience. If that is true it will attract open enrollees, and every 25 additional open enrollees is one classroom.
+\item[Housing turnover.] The district's own boundary study uses a yield of 58 elementary students per 324 single-family dwellings (Sept.\ 9, 2025, p.\ 22), or 0.18 per home. Moving the model median of 430 to the building's capacity requires about 62 additional students: roughly 350 homes turning over at the average yield, or 62 homes turning over from households without children to households with one elementary-age child each. The district describes the over-60 population as the fastest-growing segment and ``aging in place'' as a constraint on turnover (FAQ p.\ 8); that is a statement about timing, not direction, and the same households will eventually sell. No age-structure or housing data for the two attendance areas is in the repository, so this case is parametric.
+\item[The district's own numbers, unadjusted.] If the district's January 2026 projections are right and all of Mesa's students follow, the merged school has 521 students in 2030--31, 29 above capacity.
+\end{description}
+
+None of these cases is a prediction. They show that outcomes at or above the building's capacity require nothing exotic: a continuation of the last three years' kindergarten intake, or the combined area behaving the way Bear Creek's area already does.
+
+\section{The value of waiting one year}
+Closing a school is irreversible in practice; keeping it open for a year is not. The relevant comparison is therefore between the cost of one more year of operating two schools (which the district has not quantified in these documents) and the expected cost of being wrong in either direction after an irreversible merger: portables or a further boundary redraw if the merged school runs over capacity (Meadowlark already relies on four portables adding about 100 seats, Feb.\ 2026 report p.\ 9), or a three-round building running at two rounds if enrollment runs under.
+
+Waiting also buys information. Re-running the model after one simulated October 2026 count narrows the expected 80\% band for the merged school in 2030--31 from about 150 students to about 128; after two counts, to about 106 (Figure~11). More important than the width is where the band sits: across plausible October 2026 outcomes, the model's central estimate for 2030--31 moves over a range of about 100 students (10th to 90th percentile), which is to say that the next count alone could shift the answer by $\pm$50 students, or two classrooms. The October 2026 count will also be the first taken under the 2026--27 boundaries, and the January 2027 projection run the first to reflect them and the proposal's open-enrollment priority rules.
+
+\begin{figure}[h]\centering\includegraphics[width=0.7\textwidth]{fig11_waiting.png}
+\caption{Expected width of the 80\% band for merged 2030--31 enrollment, by decision date.}\end{figure}
+
+\section{Other considerations}
+\begin{itemize}
+\item \textbf{The capacity restatement.} Bear Creek's program capacity moved from 467 (3.0 rounds) in the January 2024 table to 492 (3.5 rounds) from January 2025 on. On the earlier figure the merged school's upper projection of 462 is 99\% of capacity.
+\item \textbf{Pre-kindergarten.} CDE counts 25 PK students at Mesa in 2025--26 and 20 in 2024--25; BVSD's tables report none. The proposal says preschool ``will continue to be offered in the area'' without saying where.
+\item \textbf{The three-round goal.} The district's stated target for a sustainable elementary school is three rounds, about 450 (Oct.\ 2025 slide 8). The proposal's own range reaches 450 only near its top; the model gives a 38\% chance of exceeding it in 2030--31 with 90\% retention. The consolidation is as likely to produce a two-and-a-half-round school as a three-round one.
+\item \textbf{Mesa's decline is not what it was.} Mesa lost 95 students between 2014 and 2020 and 11 between 2020 and 2025. Its kindergarten intake has been between 26 and 38 every year since 2016.
+\item \textbf{The evidence gap is fixable.} A back-tested projection with intervals, an explicit retention assumption, and pre-committed decision rules would take the district a few months and one October count to produce.
+\end{itemize}
+
+\section{Limitations}
+Only three projection runs are available, so direct accuracy is measured only one and two years ahead; the three-to-five-year figures are revisions, a lower bound on uncertainty. The independent model uses only BVSD's own grade counts; it has no births, housing or open-enrollment inputs, and its backtest bands are slightly narrow. Retention $r$ and the open-enrollment response to a merged school are assumptions, shown as ranges. The turnover case uses a district yield figure from a different neighbourhood and no local housing data. Costs of either error are not quantified because the district's documents do not quantify them. Capacity is the district's ``program capacity based on current use of the building'' and is itself a policy variable.
+
+\section{Request}
+The Board should (1) defer the Mesa closure decision by one year, to the 2027 cycle, with an effective date no earlier than 2028--29; (2) commission an independent enrollment projection for the two attendance areas that reports prediction intervals and is back-tested against the district's own October counts; (3) require the administration to state the retention, capture and open-enrollment assumptions behind any merged-school projection; and (4) adopt in advance the enrollment conditions under which the consolidation would proceed, so that next year's decision is made against evidence rather than momentum.
+
+\appendix
+\section{Reproducibility}
+All scripts run from the repository root in numbered order: \texttt{scripts/} (extraction and verification) and \texttt{analysis/01\_descriptive.py} through \texttt{analysis/06\_value\_of\_waiting.py}. Figures are written to \texttt{figures/}, tables to \texttt{analysis/output/}. Random seeds are fixed. The report is \texttt{report/report.tex}; \texttt{report/build.sh} renders it.
+
+\section{Verification summary}
+Every ``key fact'' the analysis relies on was checked against a primary page: Bear Creek and Mesa capacities (Oct.\ 2025 slide 17; Feb.\ 2026 p.\ 9); the 2029--30 projections in both runs; the 403--462 range (deck p.\ 51, not pp.\ 37--39 as sometimes cited); the thresholds (slide 8; Feb.\ 2026 p.\ 10); and all twelve years of counts for both schools (pupil-count files, with grade sums and prior-year columns reconciling exactly). The full log with page numbers is \texttt{data/VERIFICATION.md}.
+
+\section{Scenario table}
+\begin{table}[h]\centering\small
+\caption{Merged-school outcomes in 2030--31 by share of Mesa students who follow (independent model).}
+\begin{tabular}{rrrrrrr}
+\toprule
+Share & Median & 10th pct. & 90th pct. & P($>$450) & P($>$492) & P($<$300) \\
+\midrule
+60\% & 376 & 308 & 450 & 10\% & 3\% & 7\% \\
+70\% & 394 & 325 & 470 & 17\% & 5\% & 4\% \\
+80\% & 412 & 342 & 489 & 26\% & 9\% & 2\% \\
+90\% & 430 & 359 & 508 & 38\% & 16\% & 1\% \\
+100\% & 448 & 375 & 528 & 49\% & 24\% & 0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{document}

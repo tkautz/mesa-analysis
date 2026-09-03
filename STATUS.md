@@ -1,6 +1,11 @@
-# STATUS — session 1 (data collection), updated 2026-09-03 (round 3)
+# STATUS — updated 2026-09-03 (session 2: analysis and report)
 
-## Collected
+## Session 2 (analysis) — done
+- `analysis/01_descriptive.py` … `06_value_of_waiting.py` run end-to-end from the repo root; outputs in `figures/` (11 figures, PNG/SVG/PDF) and `analysis/output/` (tables).
+- `report/report.tex` (LaTeX source), `report/report.pdf` and `report/report.html` (rendered via pandoc + Chromium because no TeX install is available in the session; the .tex compiles with pdflatex). Executive summary and the five-sentence paragraph are on page 1; also in `analysis/RESULTS.md`.
+- Plan and approved additions: `analysis/PLAN.md`.
+
+## Session 1 — collected
 - **Primary BVSD documents** (hand-downloaded, sorted into `data/raw/bvsd/`, manifest in `MANIFEST.csv`): the Aug 25 2026 proposal deck (75 pp.), Feb 2024/2025/2026 trend reports, Oct 21 2025 work session, two executive summaries, LRAC June 2023 metrics, Resilient Schools FAQ, the Bear Creek/Creekside boundary-change page, and **36 October pupil-count PDFs (2014-15 … 2025-26)**. Full text extracted for every PDF; image-only table pages rendered and OCR'd (flagged).
 - `data/clean/` highlights:
   - `bvsd_pupil_count_mesa_bearcreek.csv` — official head count, FTE, grades, out-of-district, FRL, SPED, ELL, race/gender, 12 years, both schools.
@@ -29,5 +34,5 @@
 - Mesa Oct 2025 actual is **224**, not 225 (official pupil count, and what BVSD uses everywhere).
 - The "462" figure is on deck **p. 51**, not pp. 37/39.
 
-## Not started (by design)
-No modeling, no memo text, no figures. `analysis/` and `figures/` are empty.
+## Not done
+Memo prose beyond the executive summary; cost quantification (no district cost data in the documents); Census/ACS age and housing data for the two attendance areas (would firm up the turnover scenario).

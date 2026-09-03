@@ -1,4 +1,4 @@
-# Analysis plan — awaiting approval (drafted 2026-09-03)
+# Analysis plan — APPROVED 2026-09-03 with additions (see §7–8)
 
 ## The claim the analysis has to support
 The Mesa → Bear Creek consolidation is justified in BVSD's own documents by (a) current utilization and (b) five-year enrollment projections (proposal deck pp. 50–51; bvsd.org p. 7). The decision is irreversible in practice. The projections it rests on carry no stated uncertainty, have moved materially between annual runs, and are produced by the same office that proposes the closure. The memo asks the Board to require a higher standard of evidence before an irreversible act: one more October count, an independent projection with confidence bands, and a decision in 2027.
@@ -62,3 +62,18 @@ Draft memo prose; assert a direction for the error; use the enrollmentdata trans
 
 ## Estimated effort
 Sections 1–2: one session. Sections 3–4: one to two sessions. Section 5 and write-up: one session.
+
+## Additions approved 2026-09-03 (owner's instructions)
+### 7. Upside scenarios: what would it take for Bear Creek to fill?
+Error is shown three ways: (i) the district's own track record (§2), (ii) statistical prediction intervals (§3), and (iii) named scenarios that push enrollment up, each with the arithmetic of how far it moves the merged school toward 450 / 492:
+- **Leveling-off**: the decline stops (kindergarten intake and progression hold at 2023–2025 levels) rather than continuing at the projected rate. Test against the data: has combined K intake at the two schools already flattened?
+- **Housing turnover / aging-out**: BVSD's own FAQ says the over-60 population is the fastest-growing segment and "aging in place" constrains turnover. The flip side is that this cohort turns over eventually. Parametric: each 1% of homes in the combined area that turns over to a family with children adds N students (using BVSD's own yield figure of 58 elementary students per 324 single-family dwellings from the Sept 9 2025 boundary study, p. 22). Show the turnover rate that reaches 450 and 492 by 2030-31 and 2035.
+- **Open-enrollment inflow**: the merged school inherits Bear Creek's ~95 OE-in students; scenarios where OE-in rises because a 3-round school with full programs attracts families, or because Mesa families who would have open-enrolled elsewhere stay.
+- **Resident capture**: today 68% (Mesa) / 79% (Bear Creek) of resident students attend their neighborhood school; show the merged enrollment if capture rises to 85–90%.
+- **Combined scenario tables**: 2027-28 and 2030-31 enrollment under each, with the number of sections and average class size at 21 classrooms.
+Data limits to state plainly: no Census/ACS age structure or housing counts for the attendance areas are in the repo; the turnover scenario is parametric and cites BVSD's own yield figure.
+
+### 8. Deliverable format
+- `report/report.tex` (LaTeX, article class, all figures and tables, full method and scripts referenced by path) plus `report/report.pdf`. No TeX distribution is installed in this session, so the PDF is rendered from the same source via pandoc → HTML → Chromium; the .tex compiles with pdflatex on any TeX install.
+- Executive summary on page 1, and a boxed **five-sentence paragraph**: (1) BVSD proposes an irreversible closure on projections that carry no stated uncertainty; (2) the district's own projections for these schools moved by X between annual runs and missed by Y at one to two years; (3) under plausible upside scenarios the merged school reaches/exceeds three rounds or capacity by 2030; (4) an independent model puts the 80% band at [a, b]; (5) request: defer the decision one year and obtain an independent projection with confidence bands.
+- Other arguments to weigh in the write-up: the Bear Creek capacity restatement (467 → 492) changes utilization by 5 points on its own; Mesa's 25 PK students are absent from the tables; the district's stated goal of three rounds (~450) is within the merged school's own range only at the top; the boundary change was too small to explain the Bear Creek revision; the option value of one more count is high because the Jan 2027 run will be the first to include the new boundaries and the proposal's own OE-priority rules.
