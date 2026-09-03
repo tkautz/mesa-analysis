@@ -1,5 +1,11 @@
 # STATUS — updated 2026-09-03 (session 5: ChatGPT review, first three items)
 
+## Session 5b: second ChatGPT review implemented (`memo/qa/RESPONSE_to_chatgpt_review_2.md`)
+- The 163 "choice seats" are now split into 23 observed out-of-district and 140 derived; x of the 140 may live inside the combined area. New `table11_crossflow_sensitivity.csv`; Fig. 14 relabelled (combined-area capture; external choice seats) with the locus of today's pattern as x varies. Report §6 states the three x-invariant conclusions (≈550 at today's pattern; capture below today's; cut of more than half of choice enrollment) and demotes 46–57% / 16–75 to the x = 0 row. Email, Summary and script carry only the invariant statements.
+- Conditional wording for 29–59% ("read against the standalone projections") in the Summary, §10, §11 and the email; "only if" replaced everywhere by the two-specification statement.
+- Appendix D softened: Summary paragraph and appendix introduction now say the items are listed for staff clarification; "two definitions of a round" dropped (divisor noted in the glossary); staff-request list gains the cross-flow question (6). Item list otherwise unchanged.
+- New verify item: the cross-flow number is unknown; the email's open question asks for it.
+
 ## Session 5: what changed (from `memo/qa/RESPONSE_to_chatgpt_review.md`, items 1–3 of the plan)
 - **Accounting grid** (`analysis/11_accounting_grid.py` → `table11_accounting_grid.csv`, `table11_breakeven.csv`, `figures/fig14_accounting_grid.*`). Merged enrollment = residents × capture + choice seats, on the deck's own resident projections (473 / 522, p. 51). Today's rates (74% capture, 163 seats) give 514 in 2027-28 and 550 in 2030-31. Reaching 403–462 needs capture 46–57% at today's seats or 16–75 seats at today's capture. Now the lead figure of §6; Fig. 7 (lines by share following) moved to Appendix C. The earlier capture figures (59–70% / 46–57%) are superseded by the grid's single accounting; the 46–57% survives because it is the same case (all 163 seats kept).
 - **Three-outcome table** (`table04_buckets.csv`; report Table in §5 and full version in Appendix C). At 90% following in 2030-31: Trend 63/21/16, Level 18/24/57 (below 450 / 450–492 / above 492). 450 is called a benchmark, not a threshold.

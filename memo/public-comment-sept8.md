@@ -4,7 +4,7 @@ Good evening. My name is Tim Kautz. I'm the parent of a kindergartner at Mesa El
 
 I'll concede the obvious: Mesa is small, and the district's projection that it stays small is fair. But closing a school can't be undone, and keeping one open can. An irreversible decision deserves a higher standard of evidence, and there are four things this Board has not been given.
 
-First, the assumption behind the merged-school range. The district's own projections for Mesa and Bear Creek add up to 521 students. The Bear Creek building holds 492. The proposal's range tops out at 462. The district's website says Bear Creek can house both schools, but no document shows the calculation. At today's capture rate and open enrollment its own resident numbers give about 550, and the FAQ says the choice and space plan will be written after your vote.
+First, the assumption behind the merged-school range. The district's own projections for Mesa and Bear Creek add up to 521 students. The Bear Creek building holds 492. The proposal's range tops out at 462. The district's website says Bear Creek can house both schools, but no document shows the calculation. On its own resident numbers, today's attendance pattern gives about 550, and the FAQ says the choice and space plan will be written after your vote.
 
 Second, a projection with a margin of error. Bear Creek's 2029 figure went from 272 to 310 in one year, and its range in the proposal is the widest of any receiving school.
 

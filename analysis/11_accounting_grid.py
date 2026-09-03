@@ -52,6 +52,19 @@ for fall, R in RESIDENTS.items():
                        capture_needed_if_seats_today=(target - SEATS_TODAY) / R, seats_needed_if_capture_today=target - R * CAP_TODAY))
 be = pd.DataFrame(be); be.to_csv(OUT / "table11_breakeven.csv", index=False); print(be.round(3).to_string(index=False))
 
+# cross-flow sensitivity: x of the 140 derived "open-enrolled in" students may live inside the combined area (Mesa-area residents at
+# Bear Creek or vice versa); after the merger they are residents, not external choice seats. Combined-area capture = (373 + x)/503,
+# external seats = 163 - x. Which conclusions are invariant to x is the point of this table.
+cf = []
+for x in (0, 20, 40, 60, 80, 100):
+    cap = (ATT_TODAY + x) / RES_TODAY; ext = SEATS_TODAY - x
+    for fall, R in RESIDENTS.items():
+        lo, hi = RANGE[fall]
+        cf.append(dict(crossflow_x=x, combined_area_capture=cap, external_seats=ext, fall=fall, enrollment_today_pattern=R * cap + ext,
+                       capture_needed_lo=(lo - ext) / R, capture_needed_hi=(hi - ext) / R, capture_gap_vs_today=cap - (hi - ext) / R,
+                       seats_needed_hi=hi - R * cap, cut_needed_hi=ext - (hi - R * cap), cut_share_of_external=(ext - (hi - R * cap)) / ext))
+cf = pd.DataFrame(cf); cf.to_csv(OUT / "table11_crossflow_sensitivity.csv", index=False); print(cf[cf.fall == 2030].round(3).to_string(index=False))
+
 # ---- Fig 14: two panels (2027-28, 2030-31), cells = enrollment; one violet sequential ramp; proposal-range cells outlined in red ----
 cmap = LinearSegmentedColormap.from_list("violet_seq", ["#f4f2fb", "#c9c2ec", "#8f82d2", ROLE["merged"], "#2a2160"])
 bounds = [300, 350, 403, 450, 492, 550, 620]; norm = BoundaryNorm(bounds, cmap.N)
@@ -72,11 +85,15 @@ for ax, fall in zip(axes, RESIDENTS):
     ax.set_title(f"{fall}-{str(fall + 1)[2:]}: {RESIDENTS[fall]:.0f} projected residents (p. 51)\nproposal's range {lo}-{hi} outlined in red", fontsize=7.8, loc="left")
     ti, tk = captures.index(CAP_TODAY), seats.index(int(SEATS_TODAY))
     ax.plot(tk - 0.33, ti + 0.3, marker="*", ms=7, color="white", mec=TEXT, mew=0.8, zorder=6)
-axes[0].set_ylabel("resident capture rate", fontsize=7.5)
-fig.supxlabel("choice seats kept (open-enrolled in from the district + out-of-district)", fontsize=7.2, y=0.04)
+    # locus of today's pattern if x of the 163 live inside the combined area (x = 0 at the star, up-left as x grows)
+    xs = np.arange(0, 81, 2); locus_seats = SEATS_TODAY - xs; locus_cap = (ATT_TODAY + xs) / RES_TODAY
+    ax.plot(np.interp(locus_seats, seats, range(len(seats))), np.interp(locus_cap, captures, range(len(captures))), color=TEXT, lw=1.1, ls="--", zorder=5)
+    if fall == 2030: ax.text(-0.45, 0.55, "dashed line: today's pattern if some\nof the 163 live inside the area (x up to 80)", fontsize=5.9, color=TEXT, ha="left", va="center", bbox=dict(boxstyle="round,pad=0.25", fc="white", ec=MUTED, lw=0.5), zorder=7)
+axes[0].set_ylabel("combined-area resident capture rate", fontsize=7.5)
+fig.supxlabel("external choice seats kept (enrolled from outside the combined area + out-of-district)", fontsize=7.2, y=0.04)
 fig.subplots_adjust(bottom=0.2, wspace=0.14)
 cb = fig.colorbar(im, ax=axes, orientation="vertical", fraction=0.035, pad=0.02, ticks=[300, 350, 403, 450, 492, 550, 620])
 cb.ax.tick_params(labelsize=6.5); cb.set_label("students at the merged school", fontsize=7)
 fig.suptitle("Residents x capture rate + choice seats: which combinations produce the proposal's range, and which exceed the building (492)", fontsize=8.6, fontweight="bold", x=0.01, ha="left", y=1.02)
-save(fig, "fig14_accounting_grid", source="deck p. 51 (projected residents, ranges), p. 44 (residents attending, bar labels); 2025-26 special-programs summary (out-of-district); identity, no model; star = today's capture rate and choice seats")
+save(fig, "fig14_accounting_grid", source="deck p. 51 (projected residents, ranges), p. 44 (residents attending, bar labels); 2025-26 special-programs summary (out-of-district); identity, no model; star = today's pattern with all 163 non-resident-attending students treated as external (x = 0); dashed line = the same pattern if x of them live inside the combined area, x up to 80")
 print(grid[grid.is_today_rates][["fall", "enrollment", "p_over_492_trend", "p_over_492_level"]].round(2).to_string(index=False))
