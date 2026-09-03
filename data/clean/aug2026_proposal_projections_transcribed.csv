@@ -1,0 +1,27 @@
+school,level,fall_year,enroll_lo,enroll_hi,pct_cap_lo,pct_cap_hi,closes,data_type,vintage,_source,_source_line
+Kohl Elementary,elementary,2027,433,473,80,87,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1062
+Kohl Elementary,elementary,2030,437,474,81,88,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1062
+Bear Creek Elementary,elementary,2027,392,445,80,90,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1063
+Bear Creek Elementary,elementary,2030,403,462,82,94,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1063
+Foothill Elementary,elementary,2027,488,497,86,88,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1064
+Foothill Elementary,elementary,2030,484,492,86,87,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1064
+Whittier International Elementary,elementary,2027,337,357,76,81,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1065
+Whittier International Elementary,elementary,2030,315,329,71,74,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1065
+Coal Creek Elementary,elementary,2027,396,426,80,87,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1066
+Coal Creek Elementary,elementary,2030,395,427,80,87,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1066
+Eisenhower Elementary,elementary,2027,289,294,59,60,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1067
+Eisenhower Elementary,elementary,2030,297,302,60,61,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1067
+Heatherwood Elementary,elementary,2027,260,267,53,54,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1068
+Heatherwood Elementary,elementary,2030,260,268,53,54,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1068
+Fireside Elementary,elementary,2027,427,436,83,84,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1069
+Fireside Elementary,elementary,2030,421,430,82,83,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1069
+Superior Elementary,elementary,2027,447,458,96,98,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1070
+Superior Elementary,elementary,2030,424,436,91,94,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1070
+Eldorado PK-8,elementary,2027,343,365,60,64,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1072
+Eldorado PK-8,elementary,2030,353,377,62,66,,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1072
+Eldorado PK-8,middle,2027,0,0,0,0,6-8 would end 2027-28,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1073
+Monarch PK-8,elementary,2027,0,0,0,0,K-5 would end 2027-28,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1076
+Flatirons Elementary,elementary,2027,0,0,0,0,Would close 2027-28,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1080
+Mesa Elementary,elementary,2027,0,0,0,0,Would close 2027-28,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1081
+Birch Elementary,elementary,2027,0,0,0,0,Would close 2027-28,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1082
+Douglass Elementary,elementary,2027,0,0,0,0,Would close 2027-28,projection,aug2026,data/raw/enrollmentdata/maps/index.html,1083

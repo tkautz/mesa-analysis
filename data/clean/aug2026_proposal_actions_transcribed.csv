@@ -1,0 +1,19 @@
+school,action,text,_source,_source_line
+Douglass Elementary,close,"Would close. Its attendance area would be divided among Coal Creek, Eisenhower and Heatherwood, and High Peaks would move to the Douglass campus.",data/raw/enrollmentdata/maps/index.html,1015
+Mesa Elementary,close,Would close; the Mesa and Bear Creek school communities would merge in the Bear Creek building.,data/raw/enrollmentdata/maps/index.html,1016
+Flatirons Elementary,close,Would close; its attendance area would be divided between Whittier and Foothill.,data/raw/enrollmentdata/maps/index.html,1017
+Birch Elementary,close,Would close; the Birch and Kohl school communities would merge in the Kohl building.,data/raw/enrollmentdata/maps/index.html,1018
+Community Montessori,relocate,"Would move to the former High Peaks space on the Aurora 7 campus, co-locating with BCSIS. Its current building would close.",data/raw/enrollmentdata/maps/index.html,1022
+High Peaks Elementary,relocate,Would move to the Douglass Elementary campus.,data/raw/enrollmentdata/maps/index.html,1023
+BCSIS,receive,"Would share the Aurora 7 campus with Community Montessori, which would move into the former High Peaks space.",data/raw/enrollmentdata/maps/index.html,1024
+Kohl Elementary,receive,Would receive the Birch school community; the two schools would merge in the Kohl building.,data/raw/enrollmentdata/maps/index.html,1025
+Bear Creek Elementary,receive,Would receive the Mesa school community; the two schools would merge in the Bear Creek building.,data/raw/enrollmentdata/maps/index.html,1026
+Whittier International Elementary,receive,Would receive part of the Flatirons attendance area.,data/raw/enrollmentdata/maps/index.html,1027
+Foothill Elementary,receive,Would receive part of the Flatirons attendance area.,data/raw/enrollmentdata/maps/index.html,1028
+Coal Creek Elementary,receive,Would receive part of the Douglass attendance area.,data/raw/enrollmentdata/maps/index.html,1029
+Eisenhower Elementary,receive,Would receive part of the Douglass attendance area.,data/raw/enrollmentdata/maps/index.html,1030
+Heatherwood Elementary,receive,Would receive part of the Douglass attendance area.,data/raw/enrollmentdata/maps/index.html,1031
+Fireside Elementary,receive,Would receive part of the Monarch PK-5 attendance area.,data/raw/enrollmentdata/maps/index.html,1032
+Superior Elementary,receive,Would receive part of the Monarch PK-5 attendance area.,data/raw/enrollmentdata/maps/index.html,1033
+Eldorado PK-8,reconfigure,"Would become an elementary school, dropping grades 6-8, and receive part of the Monarch PK-5 attendance area. The Eldorado and Monarch 6-8 attendance areas would combine at Monarch.",data/raw/enrollmentdata/maps/index.html,1034
+Monarch PK-8,reconfigure,"Would become a middle school. Its PK-5 attendance area would be divided among Fireside, Superior and Eldorado; the Eldorado and Monarch 6-8 attendance areas would combine.",data/raw/enrollmentdata/maps/index.html,1035

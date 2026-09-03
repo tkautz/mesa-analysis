@@ -1,0 +1,529 @@
+school,level,october_year,enrollment,data_type,_source,_source_line
+Flatirons Elementary,elementary,2014,290,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2015,276,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2016,266,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2017,256,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2018,246,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2019,243,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2020,177,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2021,182,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2022,186,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2023,175,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2024,162,actual,data/raw/enrollmentdata/maps/index.html,742
+Flatirons Elementary,elementary,2025,150,actual,data/raw/enrollmentdata/maps/index.html,742
+Heatherwood Elementary,elementary,2014,383,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2015,385,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2016,373,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2017,364,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2018,348,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2019,340,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2020,258,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2021,259,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2022,260,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2023,249,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2024,236,actual,data/raw/enrollmentdata/maps/index.html,744
+Heatherwood Elementary,elementary,2025,225,actual,data/raw/enrollmentdata/maps/index.html,744
+Kohl Elementary,elementary,2014,487,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2015,467,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2016,441,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2017,418,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2018,397,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2019,374,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2020,305,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2021,299,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2022,302,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2023,279,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2024,263,actual,data/raw/enrollmentdata/maps/index.html,746
+Kohl Elementary,elementary,2025,256,actual,data/raw/enrollmentdata/maps/index.html,746
+Mesa Elementary,elementary,2014,330,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2015,316,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2016,307,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2017,294,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2018,292,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2019,272,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2020,223,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2021,243,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2022,253,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2023,240,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2024,226,actual,data/raw/enrollmentdata/maps/index.html,750
+Mesa Elementary,elementary,2025,225,actual,data/raw/enrollmentdata/maps/index.html,750
+Coal Creek Elementary,elementary,2014,427,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2015,413,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2016,395,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2017,382,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2018,353,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2019,344,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2020,282,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2021,280,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2022,286,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2023,271,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2024,272,actual,data/raw/enrollmentdata/maps/index.html,752
+Coal Creek Elementary,elementary,2025,268,actual,data/raw/enrollmentdata/maps/index.html,752
+Columbine Elementary,elementary,2014,523,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2015,527,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2016,534,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2017,513,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2018,488,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2019,470,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2020,381,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2021,384,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2022,375,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2023,339,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2024,325,actual,data/raw/enrollmentdata/maps/index.html,754
+Columbine Elementary,elementary,2025,313,actual,data/raw/enrollmentdata/maps/index.html,754
+Creekside Elementary,elementary,2014,365,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2015,360,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2016,365,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2017,380,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2018,377,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2019,382,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2020,312,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2021,321,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2022,310,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2023,291,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2024,285,actual,data/raw/enrollmentdata/maps/index.html,756
+Creekside Elementary,elementary,2025,289,actual,data/raw/enrollmentdata/maps/index.html,756
+Crest View Elementary,elementary,2014,590,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2015,597,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2016,605,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2017,564,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2018,521,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2019,497,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2020,393,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2021,389,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2022,379,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2023,358,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2024,340,actual,data/raw/enrollmentdata/maps/index.html,758
+Crest View Elementary,elementary,2025,331,actual,data/raw/enrollmentdata/maps/index.html,758
+Douglass Elementary,elementary,2014,467,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2015,473,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2016,446,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2017,420,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2018,406,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2019,379,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2020,311,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2021,317,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2022,320,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2023,293,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2024,281,actual,data/raw/enrollmentdata/maps/index.html,760
+Douglass Elementary,elementary,2025,281,actual,data/raw/enrollmentdata/maps/index.html,760
+Eisenhower Elementary,elementary,2014,395,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2015,407,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2016,418,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2017,401,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2018,383,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2019,369,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2020,293,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2021,300,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2022,304,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2023,284,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2024,268,actual,data/raw/enrollmentdata/maps/index.html,762
+Eisenhower Elementary,elementary,2025,265,actual,data/raw/enrollmentdata/maps/index.html,762
+Louisville Elementary,elementary,2014,584,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2015,582,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2016,573,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2017,543,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2018,498,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2019,474,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2020,381,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2021,391,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2022,393,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2023,390,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2024,385,actual,data/raw/enrollmentdata/maps/index.html,764
+Louisville Elementary,elementary,2025,381,actual,data/raw/enrollmentdata/maps/index.html,764
+University Hill Elementary,elementary,2014,375,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2015,380,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2016,406,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2017,420,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2018,448,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2019,451,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2020,367,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2021,389,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2022,393,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2023,395,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2024,383,actual,data/raw/enrollmentdata/maps/index.html,768
+University Hill Elementary,elementary,2025,370,actual,data/raw/enrollmentdata/maps/index.html,768
+Whittier International Elementary,elementary,2014,414,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2015,415,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2016,422,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2017,390,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2018,370,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2019,347,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2020,280,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2021,286,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2022,284,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2023,268,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2024,260,actual,data/raw/enrollmentdata/maps/index.html,770
+Whittier International Elementary,elementary,2025,258,actual,data/raw/enrollmentdata/maps/index.html,770
+Bear Creek Elementary,elementary,2014,417,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2015,441,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2016,438,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2017,448,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2018,425,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2019,402,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2020,342,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2021,346,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2022,340,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2023,299,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2024,318,actual,data/raw/enrollmentdata/maps/index.html,772
+Bear Creek Elementary,elementary,2025,312,actual,data/raw/enrollmentdata/maps/index.html,772
+Birch Elementary,elementary,2014,383,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2015,407,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2016,407,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2017,410,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2018,375,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2019,384,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2020,322,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2021,315,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2022,292,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2023,272,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2024,261,actual,data/raw/enrollmentdata/maps/index.html,774
+Birch Elementary,elementary,2025,257,actual,data/raw/enrollmentdata/maps/index.html,774
+BCSIS,elementary,2014,307,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2015,301,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2016,308,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2017,304,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2018,306,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2019,306,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2020,286,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2021,286,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2022,284,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2023,264,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2024,255,actual,data/raw/enrollmentdata/maps/index.html,776
+BCSIS,elementary,2025,251,actual,data/raw/enrollmentdata/maps/index.html,776
+Emerald Elementary,elementary,2014,407,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2015,415,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2016,427,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2017,435,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2018,440,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2019,425,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2020,367,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2021,381,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2022,386,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2023,373,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2024,369,actual,data/raw/enrollmentdata/maps/index.html,778
+Emerald Elementary,elementary,2025,367,actual,data/raw/enrollmentdata/maps/index.html,778
+Escuela Bilingue Pioneer,elementary,2014,467,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2015,480,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2016,478,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2017,472,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2018,445,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2019,430,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2020,359,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2021,374,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2022,380,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2023,371,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2024,369,actual,data/raw/enrollmentdata/maps/index.html,780
+Escuela Bilingue Pioneer,elementary,2025,371,actual,data/raw/enrollmentdata/maps/index.html,780
+Fireside Elementary,elementary,2014,453,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2015,466,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2016,471,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2017,462,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2018,432,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2019,434,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2020,377,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2021,389,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2022,394,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2023,389,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2024,399,actual,data/raw/enrollmentdata/maps/index.html,782
+Fireside Elementary,elementary,2025,407,actual,data/raw/enrollmentdata/maps/index.html,782
+Foothill Elementary,elementary,2014,537,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2015,547,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2016,544,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2017,529,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2018,509,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2019,493,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2020,406,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2021,426,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2022,435,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2023,427,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2024,431,actual,data/raw/enrollmentdata/maps/index.html,784
+Foothill Elementary,elementary,2025,434,actual,data/raw/enrollmentdata/maps/index.html,784
+High Peaks Elementary,elementary,2014,303,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2015,314,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2016,310,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2017,306,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2018,303,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2019,298,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2020,283,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2021,287,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2022,290,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2023,282,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2024,280,actual,data/raw/enrollmentdata/maps/index.html,786
+High Peaks Elementary,elementary,2025,283,actual,data/raw/enrollmentdata/maps/index.html,786
+Lafayette Elementary,elementary,2014,645,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2015,649,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2016,657,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2017,631,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2018,601,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2019,582,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2020,481,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2021,492,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2022,492,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2023,468,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2024,463,actual,data/raw/enrollmentdata/maps/index.html,788
+Lafayette Elementary,elementary,2025,449,actual,data/raw/enrollmentdata/maps/index.html,788
+Ryan Elementary,elementary,2014,496,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2015,520,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2016,543,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2017,549,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2018,543,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2019,555,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2020,446,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2021,441,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2022,430,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2023,408,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2024,396,actual,data/raw/enrollmentdata/maps/index.html,790
+Ryan Elementary,elementary,2025,394,actual,data/raw/enrollmentdata/maps/index.html,790
+Superior Elementary,elementary,2014,505,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2015,502,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2016,494,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2017,479,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2018,466,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2019,459,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2020,400,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2021,418,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2022,424,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2023,418,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2024,426,actual,data/raw/enrollmentdata/maps/index.html,792
+Superior Elementary,elementary,2025,432,actual,data/raw/enrollmentdata/maps/index.html,792
+Gold Hill Elementary,elementary,2014,27,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2015,23,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2016,21,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2017,20,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2018,19,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2019,15,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2020,13,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2021,14,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2022,12,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2023,13,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2024,12,actual,data/raw/enrollmentdata/maps/index.html,794
+Gold Hill Elementary,elementary,2025,11,actual,data/raw/enrollmentdata/maps/index.html,794
+Jamestown Elementary,elementary,2014,13,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2015,12,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2016,14,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2017,15,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2018,18,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2019,20,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2020,18,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2021,16,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2022,16,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2023,17,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2024,16,actual,data/raw/enrollmentdata/maps/index.html,796
+Jamestown Elementary,elementary,2025,17,actual,data/raw/enrollmentdata/maps/index.html,796
+Nederland Elementary,elementary,2014,285,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2015,274,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2016,253,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2017,241,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2018,226,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2019,222,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2020,183,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2021,175,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2022,176,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2023,171,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2024,166,actual,data/raw/enrollmentdata/maps/index.html,798
+Nederland Elementary,elementary,2025,165,actual,data/raw/enrollmentdata/maps/index.html,798
+Angevine Middle School,middle,2014,662,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2015,725,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2016,711,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2017,672,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2018,693,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2019,691,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2020,636,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2021,658,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2022,659,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2023,605,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2024,616,actual,data/raw/enrollmentdata/maps/index.html,843
+Angevine Middle School,middle,2025,588,actual,data/raw/enrollmentdata/maps/index.html,843
+Broomfield Heights Middle School,middle,2014,487,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2015,509,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2016,527,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2017,548,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2018,565,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2019,556,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2020,498,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2021,495,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2022,492,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2023,479,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2024,472,actual,data/raw/enrollmentdata/maps/index.html,845
+Broomfield Heights Middle School,middle,2025,483,actual,data/raw/enrollmentdata/maps/index.html,845
+Casey Middle School,middle,2014,639,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2015,655,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2016,660,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2017,672,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2018,622,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2019,594,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2020,477,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2021,463,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2022,441,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2023,370,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2024,346,actual,data/raw/enrollmentdata/maps/index.html,847
+Casey Middle School,middle,2025,321,actual,data/raw/enrollmentdata/maps/index.html,847
+Centennial Middle School,middle,2014,639,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2015,631,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2016,640,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2017,646,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2018,628,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2019,604,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2020,530,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2021,534,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2022,531,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2023,538,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2024,542,actual,data/raw/enrollmentdata/maps/index.html,849
+Centennial Middle School,middle,2025,560,actual,data/raw/enrollmentdata/maps/index.html,849
+Louisville Middle School,middle,2014,649,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2015,651,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2016,674,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2017,670,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2018,678,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2019,674,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2020,618,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2021,622,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2022,620,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2023,619,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2024,618,actual,data/raw/enrollmentdata/maps/index.html,851
+Louisville Middle School,middle,2025,624,actual,data/raw/enrollmentdata/maps/index.html,851
+Manhattan Middle School,middle,2014,543,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2015,540,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2016,525,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2017,530,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2018,535,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2019,523,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2020,461,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2021,471,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2022,474,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2023,454,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2024,440,actual,data/raw/enrollmentdata/maps/index.html,853
+Manhattan Middle School,middle,2025,450,actual,data/raw/enrollmentdata/maps/index.html,853
+Nevin Platt Middle School,middle,2014,612,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2015,629,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2016,639,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2017,624,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2018,601,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2019,570,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2020,504,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2021,504,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2022,514,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2023,494,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2024,484,actual,data/raw/enrollmentdata/maps/index.html,855
+Nevin Platt Middle School,middle,2025,485,actual,data/raw/enrollmentdata/maps/index.html,855
+Southern Hills Middle School,middle,2014,501,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2015,515,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2016,494,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2017,504,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2018,503,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2019,508,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2020,444,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2021,467,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2022,476,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2023,509,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2024,539,actual,data/raw/enrollmentdata/maps/index.html,857
+Southern Hills Middle School,middle,2025,560,actual,data/raw/enrollmentdata/maps/index.html,857
+Summit Charter Middle School,middle,2014,344,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2015,342,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2016,339,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2017,345,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2018,340,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2019,343,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2020,327,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2021,334,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2022,342,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2023,359,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2024,366,actual,data/raw/enrollmentdata/maps/index.html,859
+Summit Charter Middle School,middle,2025,365,actual,data/raw/enrollmentdata/maps/index.html,859
+Boulder High School,high,2014,1997,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2015,2031,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2016,2098,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2017,2134,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2018,2162,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2019,2169,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2020,1991,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2021,1975,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2022,1943,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2023,1877,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2024,1823,actual,data/raw/enrollmentdata/maps/index.html,863
+Boulder High School,high,2025,1768,actual,data/raw/enrollmentdata/maps/index.html,863
+Broomfield High School,high,2014,1451,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2015,1461,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2016,1506,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2017,1524,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2018,1549,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2019,1576,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2020,1513,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2021,1589,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2022,1644,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2023,1691,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2024,1674,actual,data/raw/enrollmentdata/maps/index.html,865
+Broomfield High School,high,2025,1658,actual,data/raw/enrollmentdata/maps/index.html,865
+Centaurus High School,high,2014,1356,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2015,1372,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2016,1373,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2017,1413,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2018,1430,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2019,1451,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2020,1408,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2021,1598,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2022,1572,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2023,1574,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2024,1567,actual,data/raw/enrollmentdata/maps/index.html,867
+Centaurus High School,high,2025,1551,actual,data/raw/enrollmentdata/maps/index.html,867
+Fairview High School,high,2014,2143,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2015,2175,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2016,2196,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2017,2228,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2018,2203,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2019,2187,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2020,2028,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2021,2009,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2022,1991,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2023,1942,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2024,1879,actual,data/raw/enrollmentdata/maps/index.html,869
+Fairview High School,high,2025,1851,actual,data/raw/enrollmentdata/maps/index.html,869
+Monarch High School,high,2014,1684,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2015,1694,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2016,1706,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2017,1726,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2018,1710,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2019,1692,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2020,1551,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2021,1533,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2022,1516,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2023,1499,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2024,1472,actual,data/raw/enrollmentdata/maps/index.html,871
+Monarch High School,high,2025,1453,actual,data/raw/enrollmentdata/maps/index.html,871
+New Vista High School,high,2014,253,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2015,266,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2016,269,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2017,290,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2018,310,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2019,328,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2020,300,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2021,320,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2022,316,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2023,313,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2024,307,actual,data/raw/enrollmentdata/maps/index.html,873
+New Vista High School,high,2025,307,actual,data/raw/enrollmentdata/maps/index.html,873
+Arapahoe Ridge High School,high,2014,137,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2015,132,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2016,100,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2017,105,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2018,141,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2019,88,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2020,135,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2021,135,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2022,206,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2023,244,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2024,188,actual,data/raw/enrollmentdata/maps/index.html,884
+Arapahoe Ridge High School,high,2025,184,actual,data/raw/enrollmentdata/maps/index.html,884
+Boulder Prep Charter,high,2014,93,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2015,84,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2016,84,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2017,88,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2018,93,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2019,101,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2020,107,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2021,115,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2022,119,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2023,111,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2024,102,actual,data/raw/enrollmentdata/maps/index.html,886
+Boulder Prep Charter,high,2025,93,actual,data/raw/enrollmentdata/maps/index.html,886

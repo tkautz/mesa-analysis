@@ -1,0 +1,156 @@
+school,capacity,school_year,projected_enrollment,data_type,vintage,_source,_source_line
+Flatirons Elementary,320,2026-27,149,projection,feb2026,data/raw/enrollmentdata/maps/index.html,907
+Flatirons Elementary,320,2027-28,144,projection,feb2026,data/raw/enrollmentdata/maps/index.html,907
+Flatirons Elementary,320,2028-29,149,projection,feb2026,data/raw/enrollmentdata/maps/index.html,907
+Flatirons Elementary,320,2029-30,146,projection,feb2026,data/raw/enrollmentdata/maps/index.html,907
+Flatirons Elementary,320,2030-31,177,projection,feb2026,data/raw/enrollmentdata/maps/index.html,907
+Heatherwood Elementary,492,2026-27,216,projection,feb2026,data/raw/enrollmentdata/maps/index.html,908
+Heatherwood Elementary,492,2027-28,209,projection,feb2026,data/raw/enrollmentdata/maps/index.html,908
+Heatherwood Elementary,492,2028-29,214,projection,feb2026,data/raw/enrollmentdata/maps/index.html,908
+Heatherwood Elementary,492,2029-30,203,projection,feb2026,data/raw/enrollmentdata/maps/index.html,908
+Heatherwood Elementary,492,2030-31,210,projection,feb2026,data/raw/enrollmentdata/maps/index.html,908
+Kohl Elementary,541,2026-27,258,projection,feb2026,data/raw/enrollmentdata/maps/index.html,909
+Kohl Elementary,541,2027-28,258,projection,feb2026,data/raw/enrollmentdata/maps/index.html,909
+Kohl Elementary,541,2028-29,256,projection,feb2026,data/raw/enrollmentdata/maps/index.html,909
+Kohl Elementary,541,2029-30,262,projection,feb2026,data/raw/enrollmentdata/maps/index.html,909
+Kohl Elementary,541,2030-31,266,projection,feb2026,data/raw/enrollmentdata/maps/index.html,909
+Mesa Elementary,418,2026-27,217,projection,feb2026,data/raw/enrollmentdata/maps/index.html,910
+Mesa Elementary,418,2027-28,203,projection,feb2026,data/raw/enrollmentdata/maps/index.html,910
+Mesa Elementary,418,2028-29,203,projection,feb2026,data/raw/enrollmentdata/maps/index.html,910
+Mesa Elementary,418,2029-30,202,projection,feb2026,data/raw/enrollmentdata/maps/index.html,910
+Mesa Elementary,418,2030-31,201,projection,feb2026,data/raw/enrollmentdata/maps/index.html,910
+Coal Creek Elementary,492,2026-27,256,projection,feb2026,data/raw/enrollmentdata/maps/index.html,911
+Coal Creek Elementary,492,2027-28,252,projection,feb2026,data/raw/enrollmentdata/maps/index.html,911
+Coal Creek Elementary,492,2028-29,256,projection,feb2026,data/raw/enrollmentdata/maps/index.html,911
+Coal Creek Elementary,492,2029-30,251,projection,feb2026,data/raw/enrollmentdata/maps/index.html,911
+Coal Creek Elementary,492,2030-31,248,projection,feb2026,data/raw/enrollmentdata/maps/index.html,911
+Columbine Elementary,590,2026-27,322,projection,feb2026,data/raw/enrollmentdata/maps/index.html,912
+Columbine Elementary,590,2027-28,322,projection,feb2026,data/raw/enrollmentdata/maps/index.html,912
+Columbine Elementary,590,2028-29,325,projection,feb2026,data/raw/enrollmentdata/maps/index.html,912
+Columbine Elementary,590,2029-30,321,projection,feb2026,data/raw/enrollmentdata/maps/index.html,912
+Columbine Elementary,590,2030-31,322,projection,feb2026,data/raw/enrollmentdata/maps/index.html,912
+Creekside Elementary,369,2026-27,277,projection,feb2026,data/raw/enrollmentdata/maps/index.html,913
+Creekside Elementary,369,2027-28,252,projection,feb2026,data/raw/enrollmentdata/maps/index.html,913
+Creekside Elementary,369,2028-29,226,projection,feb2026,data/raw/enrollmentdata/maps/index.html,913
+Creekside Elementary,369,2029-30,223,projection,feb2026,data/raw/enrollmentdata/maps/index.html,913
+Creekside Elementary,369,2030-31,215,projection,feb2026,data/raw/enrollmentdata/maps/index.html,913
+Crest View Elementary,615,2026-27,318,projection,feb2026,data/raw/enrollmentdata/maps/index.html,914
+Crest View Elementary,615,2027-28,304,projection,feb2026,data/raw/enrollmentdata/maps/index.html,914
+Crest View Elementary,615,2028-29,300,projection,feb2026,data/raw/enrollmentdata/maps/index.html,914
+Crest View Elementary,615,2029-30,310,projection,feb2026,data/raw/enrollmentdata/maps/index.html,914
+Crest View Elementary,615,2030-31,327,projection,feb2026,data/raw/enrollmentdata/maps/index.html,914
+Douglass Elementary,418,2026-27,278,projection,feb2026,data/raw/enrollmentdata/maps/index.html,915
+Douglass Elementary,418,2027-28,278,projection,feb2026,data/raw/enrollmentdata/maps/index.html,915
+Douglass Elementary,418,2028-29,272,projection,feb2026,data/raw/enrollmentdata/maps/index.html,915
+Douglass Elementary,418,2029-30,277,projection,feb2026,data/raw/enrollmentdata/maps/index.html,915
+Douglass Elementary,418,2030-31,284,projection,feb2026,data/raw/enrollmentdata/maps/index.html,915
+Eisenhower Elementary,492,2026-27,253,projection,feb2026,data/raw/enrollmentdata/maps/index.html,916
+Eisenhower Elementary,492,2027-28,246,projection,feb2026,data/raw/enrollmentdata/maps/index.html,916
+Eisenhower Elementary,492,2028-29,246,projection,feb2026,data/raw/enrollmentdata/maps/index.html,916
+Eisenhower Elementary,492,2029-30,247,projection,feb2026,data/raw/enrollmentdata/maps/index.html,916
+Eisenhower Elementary,492,2030-31,255,projection,feb2026,data/raw/enrollmentdata/maps/index.html,916
+Louisville Elementary,590,2026-27,373,projection,feb2026,data/raw/enrollmentdata/maps/index.html,917
+Louisville Elementary,590,2027-28,363,projection,feb2026,data/raw/enrollmentdata/maps/index.html,917
+Louisville Elementary,590,2028-29,360,projection,feb2026,data/raw/enrollmentdata/maps/index.html,917
+Louisville Elementary,590,2029-30,355,projection,feb2026,data/raw/enrollmentdata/maps/index.html,917
+Louisville Elementary,590,2030-31,343,projection,feb2026,data/raw/enrollmentdata/maps/index.html,917
+Alicia Sanchez Int'l School,418,2026-27,286,projection,feb2026,data/raw/enrollmentdata/maps/index.html,918
+Alicia Sanchez Int'l School,418,2027-28,284,projection,feb2026,data/raw/enrollmentdata/maps/index.html,918
+Alicia Sanchez Int'l School,418,2028-29,278,projection,feb2026,data/raw/enrollmentdata/maps/index.html,918
+Alicia Sanchez Int'l School,418,2029-30,289,projection,feb2026,data/raw/enrollmentdata/maps/index.html,918
+Alicia Sanchez Int'l School,418,2030-31,298,projection,feb2026,data/raw/enrollmentdata/maps/index.html,918
+University Hill Elementary,590,2026-27,359,projection,feb2026,data/raw/enrollmentdata/maps/index.html,919
+University Hill Elementary,590,2027-28,348,projection,feb2026,data/raw/enrollmentdata/maps/index.html,919
+University Hill Elementary,590,2028-29,336,projection,feb2026,data/raw/enrollmentdata/maps/index.html,919
+University Hill Elementary,590,2029-30,338,projection,feb2026,data/raw/enrollmentdata/maps/index.html,919
+University Hill Elementary,590,2030-31,345,projection,feb2026,data/raw/enrollmentdata/maps/index.html,919
+Whittier International Elementary,442,2026-27,256,projection,feb2026,data/raw/enrollmentdata/maps/index.html,920
+Whittier International Elementary,442,2027-28,256,projection,feb2026,data/raw/enrollmentdata/maps/index.html,920
+Whittier International Elementary,442,2028-29,247,projection,feb2026,data/raw/enrollmentdata/maps/index.html,920
+Whittier International Elementary,442,2029-30,236,projection,feb2026,data/raw/enrollmentdata/maps/index.html,920
+Whittier International Elementary,442,2030-31,232,projection,feb2026,data/raw/enrollmentdata/maps/index.html,920
+Bear Creek Elementary,492,2026-27,299,projection,feb2026,data/raw/enrollmentdata/maps/index.html,921
+Bear Creek Elementary,492,2027-28,293,projection,feb2026,data/raw/enrollmentdata/maps/index.html,921
+Bear Creek Elementary,492,2028-29,288,projection,feb2026,data/raw/enrollmentdata/maps/index.html,921
+Bear Creek Elementary,492,2029-30,310,projection,feb2026,data/raw/enrollmentdata/maps/index.html,921
+Bear Creek Elementary,492,2030-31,320,projection,feb2026,data/raw/enrollmentdata/maps/index.html,921
+Birch Elementary,418,2026-27,238,projection,feb2026,data/raw/enrollmentdata/maps/index.html,922
+Birch Elementary,418,2027-28,215,projection,feb2026,data/raw/enrollmentdata/maps/index.html,922
+Birch Elementary,418,2028-29,205,projection,feb2026,data/raw/enrollmentdata/maps/index.html,922
+Birch Elementary,418,2029-30,211,projection,feb2026,data/raw/enrollmentdata/maps/index.html,922
+Birch Elementary,418,2030-31,208,projection,feb2026,data/raw/enrollmentdata/maps/index.html,922
+Emerald Elementary,393,2026-27,355,projection,feb2026,data/raw/enrollmentdata/maps/index.html,923
+Emerald Elementary,393,2027-28,341,projection,feb2026,data/raw/enrollmentdata/maps/index.html,923
+Emerald Elementary,393,2028-29,337,projection,feb2026,data/raw/enrollmentdata/maps/index.html,923
+Emerald Elementary,393,2029-30,346,projection,feb2026,data/raw/enrollmentdata/maps/index.html,923
+Emerald Elementary,393,2030-31,345,projection,feb2026,data/raw/enrollmentdata/maps/index.html,923
+Escuela Bilingue Pioneer,541,2026-27,349,projection,feb2026,data/raw/enrollmentdata/maps/index.html,924
+Escuela Bilingue Pioneer,541,2027-28,341,projection,feb2026,data/raw/enrollmentdata/maps/index.html,924
+Escuela Bilingue Pioneer,541,2028-29,337,projection,feb2026,data/raw/enrollmentdata/maps/index.html,924
+Escuela Bilingue Pioneer,541,2029-30,336,projection,feb2026,data/raw/enrollmentdata/maps/index.html,924
+Escuela Bilingue Pioneer,541,2030-31,343,projection,feb2026,data/raw/enrollmentdata/maps/index.html,924
+Fireside Elementary,516,2026-27,385,projection,feb2026,data/raw/enrollmentdata/maps/index.html,925
+Fireside Elementary,516,2027-28,373,projection,feb2026,data/raw/enrollmentdata/maps/index.html,925
+Fireside Elementary,516,2028-29,358,projection,feb2026,data/raw/enrollmentdata/maps/index.html,925
+Fireside Elementary,516,2029-30,355,projection,feb2026,data/raw/enrollmentdata/maps/index.html,925
+Fireside Elementary,516,2030-31,359,projection,feb2026,data/raw/enrollmentdata/maps/index.html,925
+Foothill Elementary,565,2026-27,437,projection,feb2026,data/raw/enrollmentdata/maps/index.html,926
+Foothill Elementary,565,2027-28,444,projection,feb2026,data/raw/enrollmentdata/maps/index.html,926
+Foothill Elementary,565,2028-29,439,projection,feb2026,data/raw/enrollmentdata/maps/index.html,926
+Foothill Elementary,565,2029-30,432,projection,feb2026,data/raw/enrollmentdata/maps/index.html,926
+Foothill Elementary,565,2030-31,438,projection,feb2026,data/raw/enrollmentdata/maps/index.html,926
+Gold Hill Elementary,49,2026-27,13,projection,feb2026,data/raw/enrollmentdata/maps/index.html,927
+Gold Hill Elementary,49,2027-28,13,projection,feb2026,data/raw/enrollmentdata/maps/index.html,927
+Gold Hill Elementary,49,2028-29,13,projection,feb2026,data/raw/enrollmentdata/maps/index.html,927
+Gold Hill Elementary,49,2029-30,12,projection,feb2026,data/raw/enrollmentdata/maps/index.html,927
+Gold Hill Elementary,49,2030-31,12,projection,feb2026,data/raw/enrollmentdata/maps/index.html,927
+Jamestown Elementary,25,2026-27,19,projection,feb2026,data/raw/enrollmentdata/maps/index.html,928
+Jamestown Elementary,25,2027-28,17,projection,feb2026,data/raw/enrollmentdata/maps/index.html,928
+Jamestown Elementary,25,2028-29,16,projection,feb2026,data/raw/enrollmentdata/maps/index.html,928
+Jamestown Elementary,25,2029-30,16,projection,feb2026,data/raw/enrollmentdata/maps/index.html,928
+Jamestown Elementary,25,2030-31,14,projection,feb2026,data/raw/enrollmentdata/maps/index.html,928
+Lafayette Elementary,565,2026-27,454,projection,feb2026,data/raw/enrollmentdata/maps/index.html,929
+Lafayette Elementary,565,2027-28,435,projection,feb2026,data/raw/enrollmentdata/maps/index.html,929
+Lafayette Elementary,565,2028-29,420,projection,feb2026,data/raw/enrollmentdata/maps/index.html,929
+Lafayette Elementary,565,2029-30,411,projection,feb2026,data/raw/enrollmentdata/maps/index.html,929
+Lafayette Elementary,565,2030-31,392,projection,feb2026,data/raw/enrollmentdata/maps/index.html,929
+Nederland Elementary,467,2026-27,171,projection,feb2026,data/raw/enrollmentdata/maps/index.html,930
+Nederland Elementary,467,2027-28,166,projection,feb2026,data/raw/enrollmentdata/maps/index.html,930
+Nederland Elementary,467,2028-29,167,projection,feb2026,data/raw/enrollmentdata/maps/index.html,930
+Nederland Elementary,467,2029-30,169,projection,feb2026,data/raw/enrollmentdata/maps/index.html,930
+Nederland Elementary,467,2030-31,160,projection,feb2026,data/raw/enrollmentdata/maps/index.html,930
+Ryan Elementary,467,2026-27,381,projection,feb2026,data/raw/enrollmentdata/maps/index.html,931
+Ryan Elementary,467,2027-28,365,projection,feb2026,data/raw/enrollmentdata/maps/index.html,931
+Ryan Elementary,467,2028-29,348,projection,feb2026,data/raw/enrollmentdata/maps/index.html,931
+Ryan Elementary,467,2029-30,337,projection,feb2026,data/raw/enrollmentdata/maps/index.html,931
+Ryan Elementary,467,2030-31,346,projection,feb2026,data/raw/enrollmentdata/maps/index.html,931
+Superior Elementary,467,2026-27,425,projection,feb2026,data/raw/enrollmentdata/maps/index.html,932
+Superior Elementary,467,2027-28,430,projection,feb2026,data/raw/enrollmentdata/maps/index.html,932
+Superior Elementary,467,2028-29,434,projection,feb2026,data/raw/enrollmentdata/maps/index.html,932
+Superior Elementary,467,2029-30,420,projection,feb2026,data/raw/enrollmentdata/maps/index.html,932
+Superior Elementary,467,2030-31,433,projection,feb2026,data/raw/enrollmentdata/maps/index.html,932
+Eldorado PK-8,568,2026-27,253,projection,feb2026,data/raw/enrollmentdata/maps/index.html,933
+Eldorado PK-8,568,2027-28,247,projection,feb2026,data/raw/enrollmentdata/maps/index.html,933
+Eldorado PK-8,568,2028-29,248,projection,feb2026,data/raw/enrollmentdata/maps/index.html,933
+Eldorado PK-8,568,2029-30,250,projection,feb2026,data/raw/enrollmentdata/maps/index.html,933
+Eldorado PK-8,568,2030-31,249,projection,feb2026,data/raw/enrollmentdata/maps/index.html,933
+Monarch PK-8,381,2026-27,270,projection,feb2026,data/raw/enrollmentdata/maps/index.html,934
+Monarch PK-8,381,2027-28,258,projection,feb2026,data/raw/enrollmentdata/maps/index.html,934
+Monarch PK-8,381,2028-29,258,projection,feb2026,data/raw/enrollmentdata/maps/index.html,934
+Monarch PK-8,381,2029-30,274,projection,feb2026,data/raw/enrollmentdata/maps/index.html,934
+Monarch PK-8,381,2030-31,264,projection,feb2026,data/raw/enrollmentdata/maps/index.html,934
+Aspen Creek K-8,440,2026-27,490,projection,feb2026,data/raw/enrollmentdata/maps/index.html,935
+Aspen Creek K-8,440,2027-28,503,projection,feb2026,data/raw/enrollmentdata/maps/index.html,935
+Aspen Creek K-8,440,2028-29,510,projection,feb2026,data/raw/enrollmentdata/maps/index.html,935
+Aspen Creek K-8,440,2029-30,511,projection,feb2026,data/raw/enrollmentdata/maps/index.html,935
+Aspen Creek K-8,440,2030-31,504,projection,feb2026,data/raw/enrollmentdata/maps/index.html,935
+Meadowlark PK-8,441,2026-27,479,projection,feb2026,data/raw/enrollmentdata/maps/index.html,936
+Meadowlark PK-8,441,2027-28,511,projection,feb2026,data/raw/enrollmentdata/maps/index.html,936
+Meadowlark PK-8,441,2028-29,544,projection,feb2026,data/raw/enrollmentdata/maps/index.html,936
+Meadowlark PK-8,441,2029-30,577,projection,feb2026,data/raw/enrollmentdata/maps/index.html,936
+Meadowlark PK-8,441,2030-31,605,projection,feb2026,data/raw/enrollmentdata/maps/index.html,936
+Community Montessori,369,2026-27,175,projection,feb2026,data/raw/enrollmentdata/maps/index.html,937
+Community Montessori,369,2027-28,172,projection,feb2026,data/raw/enrollmentdata/maps/index.html,937
+Community Montessori,369,2028-29,163,projection,feb2026,data/raw/enrollmentdata/maps/index.html,937
+Community Montessori,369,2029-30,167,projection,feb2026,data/raw/enrollmentdata/maps/index.html,937
+Community Montessori,369,2030-31,167,projection,feb2026,data/raw/enrollmentdata/maps/index.html,937
