@@ -36,7 +36,9 @@ def style():
 
 def save(fig, name, source=None):
     if source:
-        fig.text(0.0, -0.02, f"Source: {source}", fontsize=6.5, color=MUTED, ha="left", va="top", transform=fig.transFigure)
+        import textwrap
+        wrapped = "\n".join(textwrap.wrap(f"Source: {source}", width=int(fig.get_figwidth() * 17)))
+        fig.text(0.0, -0.02, wrapped, fontsize=6.5, color=MUTED, ha="left", va="top", transform=fig.transFigure)
     for ext in ("png", "svg", "pdf"):
         fig.savefig(FIG / f"{name}.{ext}", bbox_inches="tight")
     plt.close(fig)

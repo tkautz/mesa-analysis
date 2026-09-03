@@ -49,5 +49,13 @@ Record both sides; do not resolve silently. Updated 2026-09-03 after the primary
 ## C12. Bear Creek's existing autism programming
 - bvsd.org Resilient Schools page (p. 7 of the saved copy): "All existing AIM and RISE programs would be housed at Bear Creek." Deck p. 49: "Mesa's RISE Program moves to the Bear Creek building." Neither document states how many classrooms these programs occupy at either school or whether the 492-seat capacity nets them out. The effective-capacity scenarios in the appendix are therefore illustrative.
 
+## C13. Resident students for the combined Bear Creek/Mesa area: deck p. 51 vs deck p. 44
+- p. 51 (text layer): resident students 275 (Bear Creek) + 228 (Mesa) = 503 in 2025-26; 473 projected for the combined area in 2027-28; 522 in 2030-31.
+- p. 44 (chart, read by eye; `data/clean/aug2026_deck_p44.csv`): 2030 projected-resident markers at about 268 (Bear Creek) and 177 (Mesa), about 445 in total.
+- The two pages differ by about 77 residents for the same year, and the p. 51 path (503 → 473 → 522) falls then rises 10% in three years. No document defines the figures or reconciles them. Raised as an open question in the appendix and the email; not resolved.
+
+## C14. Coal Creek's region
+- The Oct 21 2025 work session (slide 12) places Coal Creek in the Louisville/Superior region, not Boulder. An earlier draft of the appendix listed it among Boulder schools near three rounds after the package; corrected 2026-09-03.
+
 ## C9. Branch name — as before
 - Work is on `claude/bvsd-mesa-bear-creek-data-vdbcu6`, not `data-collection`.

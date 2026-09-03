@@ -1,7 +1,7 @@
 # Analysis plan — APPROVED 2026-09-03 with additions (see §7–8)
 
 ## The claim the analysis has to support
-The Mesa → Bear Creek consolidation is justified in BVSD's own documents by (a) current utilization and (b) five-year enrollment projections (proposal deck pp. 50–51; bvsd.org p. 7). The decision is irreversible in practice. The projections it rests on carry no stated uncertainty, have moved materially between annual runs, and are produced by the same office that proposes the closure. The memo asks the Board to require a higher standard of evidence before an irreversible act: one more October count, an independent projection with confidence bands, and a decision in 2027.
+The Mesa → Bear Creek consolidation is justified in BVSD's own documents by (a) current utilization and (b) five-year enrollment projections (proposal deck pp. 50–51; bvsd.org p. 7). The decision is irreversible in practice. The projections it rests on carry no stated uncertainty, have moved materially between annual runs. The memo asks the Board to require a higher standard of evidence before an irreversible act: one more October count, an independent projection with confidence bands, and a decision in 2027.
 
 What the analysis must NOT do: claim that enrollment *will* be higher than projected. The case is about the width of the band and the asymmetry of the mistakes, not the sign.
 
