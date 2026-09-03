@@ -28,7 +28,7 @@ Status codes: `MATCH`, `MISMATCH`, `UNVERIFIED`. "Primary" = a BVSD document in 
 | 15 | October head count, Bear Creek, 12 years, CSV and map vs P13 | MISMATCH in 4 years by 1–2 (2019, 2020, 2022, 2023); 8 MATCH |
 | 16 | October head count, Mesa, 12 years, CSV vs P13 | MISMATCH in 6 years by 1–2; 6 MATCH |
 | 17 | October head count, Mesa, map series vs P13 | MISMATCH in 10 years, up to 32 |
-| 18 | Grade columns in enrollmentdata CSV vs P13 grade columns (2023–2025) | K–5 values MATCH for 2024 and 2025 except Mesa 2024 grade 2 (37 vs 36) and Mesa 2025 grade 1 (36 vs 35), i.e. the CSV's +1 totals come from single-grade transcription slips; 2023 "6TH" column (13/16) has no counterpart |
+| 18 | Grade columns in enrollmentdata CSV vs P13 grade columns (2023–2025) | K–5 values MATCH except Mesa 2024 grade 2 (37 vs 36), Mesa 2025 grade 1 (36 vs 35) and Bear Creek 2023 K (33 vs 32), i.e. the CSV's +1 totals come from single-grade transcription slips; 2023 "6TH" column (13/16) has no counterpart |
 
 ## C. Internal consistency of the primaries
 
