@@ -11,7 +11,7 @@
 ## New numbers to verify personally before sending
 - 373 residents attending own school (p. 44 bar labels: Mesa 156, Bear Creek 217) and 503 residents (p. 51: 228 + 275) → 74%.
 - 163 choice seats: 140 = 536 enrolled − 373 − 23; the 23 out-of-district are from the 2025-26 special-programs summary p. 1 (Mesa 10, Bear Creek 13).
-- "can house the projected enrollment of both schools in 2027-28 and beyond": `data/raw/bvsd/bvsd_page_declining_enrollment.txt` lines 134–135 (saved copy p. 7). Check the live page has not changed.
+- "can house the projected enrollment of both schools in 2027-28 and beyond": `data/raw/bvsd/bvsd_page_declining_enrollment.txt` lines 134–135 (saved copy p. 7). Confirmed live 2026-09-03 5:07 PM MT (P17, pasted text). Note the adjacent sentence, also live: combining the areas "provides the resident student population for a three-round school"; on the deck's own 522 residents that is true only if every resident attends, since 522 x 74% = 387.
 - FAQ "during the transition year ... open enrollment, space and staffing plan": `resilient_schools_faq.txt` lines 86–89 (p. 3).
 
 
