@@ -15,7 +15,7 @@
 
 \section*{Summary}
 \begin{framed}
-\noindent The district proposes an irreversible step on the basis of projections with no stated margin of error. Its own January 2026 projections for Bear Creek and Mesa add to 521 students in 2030--31; the Bear Creek building holds 492; the proposal's merged-school range tops out at 462. The gap is an assumption about how many Mesa families leave, or about how much open enrollment the district will cut, and the proposal does not say which. The district's projections for these two schools have moved 10--14\% between successive runs, and closing Mesa cannot be undone while keeping it open can.
+\noindent The district proposes an irreversible step on the basis of projections with no stated margin of error. Its own January 2026 projections for Bear Creek and Mesa add to 521 students in 2030--31; the Bear Creek building holds 492; the proposal's merged-school range tops out at 462. The gap is an assumption about how many Mesa families leave, or about how much open enrollment the district will cut, and the proposal does not say which. The district's website states that Bear Creek ``can house the projected enrollment of both schools in 2027--28 and beyond'' (saved copy p.\ 7); its FAQ says each receiving school's ``open enrollment, space and staffing plan'' will be developed ``during the transition year'', after the vote (p.\ 3). At today's capture rate and today's choice enrollment, the 522 residents the district projects for the combined area give about 550 students, and no document shows the calculation that gets from 522 to 403--462. The district's projections for these two schools have moved 10--14\% between successive runs, and closing Mesa cannot be undone while keeping it open can.
 \end{framed}
 
 \begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig02_district_arithmetic.png}
@@ -25,8 +25,9 @@
 \begin{itemize}
 \item Bear Creek's 2029--30 projection rose from 272 to 310 (+14\%) and Mesa's fell from 224 to 202 ($-$10\%) between the January 2025 and January 2026 runs; Bear Creek's 2028--29 projection went 248, 274, 288 in three consecutive runs, +16\% over two years (Feb.\ 2024 p.\ 11; Feb.\ 2025 p.\ 9; Feb.\ 2026 p.\ 9).
 \item Across all BVSD elementary schools, one two-year-ahead projection in ten misses by more than 13\% ($n = 29$); one year ahead, by more than 9\% ($n = 59$). Four in five revisions to targets four to five years out are within about 12\%, and the largest is 46\% ($n = 59$ school-run pairs).
-\item An independent model built on the district's own method and grade counts reproduces the district's Bear Creek figure for 2030--31 (320; the model gives 317) only if kindergarten intake stops falling and holds at its 2023--25 level. Under that assumption the two schools together are about 523 and the merged school (90\% of Mesa students following) has a central estimate of 503 with a 57\% chance of exceeding 492. If intake keeps falling, the central estimate is 430 and the chance is 16\%. The 73-student gap between the two assumptions is wider than the district's entire 59-student range.
-\item The proposal's range can be reached from the district's own numbers only by assuming either that 29--59\% of Mesa's projected students go elsewhere, or that open enrollment into the merged school is cut to near zero. The documents do not say which.
+\item An independent cohort-survival model patterned on the district's published grade-progression framework and fitted to its grade counts reproduces the district's Bear Creek figure for 2030--31 (320; the model gives 317) only if kindergarten intake stops falling and holds at its 2023--25 level. Under that assumption the two schools together are about 523 and the merged school (90\% of Mesa students following) has a central estimate of 503 with a 57\% chance of exceeding 492. If intake keeps falling, the central estimate is 430 and the chance is 16\%. The 73-student gap between the two assumptions is wider than the district's entire 59-student range.
+\item The proposal's range can be reached from the district's own numbers only by assuming either that 29--59\% of Mesa's projected students go elsewhere, or that the resident capture rate falls to 46--57\% (below either school's today), or that choice seats are cut from 163 to between 16 and 75 (Figure~\ref{fig:grid}). The documents do not say which.
+\item Among the ten receiving schools in the proposal, Bear Creek's 2030--31 range is the widest (59 students; the next widest is 37) and its margin at the top of the range is the smallest (30 seats of 492) (deck pp.\ 25, 37, 48, 51, 54).
 \item The deck's own resident-student figures for the combined area are 503 today, 473 in 2027--28 and 522 in 2030--31 (p.\ 51), while its chart of 2030 residents reads about 445 (p.\ 44). No document reconciles them.
 \item The deck gives package-level savings of \$3.5--4.0M a year against one-time costs of \$7.5--10.0M plus \$5.0M, with no Mesa-specific figure (p.\ 60).
 \end{itemize}
@@ -148,7 +149,7 @@ For the two schools at issue, the January 2024 run projected Bear Creek at 287 f
 Two cautions. The 29 two-year cases all score one run (January 2024) against one October (2025), a year the district itself reported as ``steeper than projected'' (Feb.\ 2026 p.\ 5), so they are not 29 independent tests. And using revisions as a guide to uncertainty at longer horizons assumes that the district's later revisions are not systematically reversed by later ones; on that assumption the revision magnitudes are a lower bound on the error at those horizons.
 
 \section{An independent projection with a stated range}\label{sec:model}
-An independent model that follows the district's own method but reports a range puts the merged school anywhere from about 360 to about 580 in 2030--31, depending mainly on one assumption the district has not stated.
+An independent cohort-survival model patterned on the district's published grade-progression framework, reporting a range, puts the merged school anywhere from about 360 to about 580 in 2030--31, depending mainly on one assumption the district has not stated.
 
 \subsection{Method in brief}
 The model follows the district's stated method (cohort survival, Feb.\ 2026 p.\ 7): each grade's October count is carried forward to the next grade at the rate observed historically, and a new kindergarten class is added each year. Twelve years of K--5 counts for each school give eleven grade-to-grade rates for each of grades 1--5 and twelve kindergarten intakes. Future years are simulated 10{,}000 times. In each simulated year, one historical year is drawn at random and its kindergarten surprise and all five grade-to-grade rates are applied to both schools at once, so a shock like 2020 stays one event and the two schools rise and fall together, as they do in the data. Fitted on data through 2023 and 2024 and scored on the counts that followed, the model's 80\% range caught 72--76\% of actual outcomes across 26 schools, as close to 80\% as that many cases can show; its errors are the same size as the district's on the same school-years. It is not a better forecaster than the district and is not offered as one. Detail and the full backtest are in Appendix~B.
@@ -207,13 +208,26 @@ Level & 503 & 429 & 582 & 82\% & 57\% & 0\% \\
 \end{tabular}
 \end{table}
 
+The two exceedance probabilities are easier to read as three outcomes that cannot both happen: a merged school below three rounds, one near three rounds but inside the building, and one above the building (Table~\ref{tab:buckets}). The district's stated design is the middle outcome (three classes per grade, deck p.\ 43); 450 is a benchmark rather than a hard line, since the proposal itself places Coal Creek and Fireside at 395--430. Under either kindergarten assumption the chance of landing in the middle outcome in 2030--31 is about one in four; what differs is whether the rest of the probability sits below three rounds (trend) or above the building (level).
+
+\begin{table}[h]\centering\small
+\caption{Three mutually exclusive outcomes for the merged school, 90\% of Mesa's students following.}\label{tab:buckets}
+\begin{tabular}{llrrr}
+\toprule
+Assumption & Year & Below 450 & 450--492 & Above 492 \\
+\midrule
+Trend & 2027--28 & 25\% & 45\% & 30\% \\
+Level & 2027--28 & 13\% & 35\% & 52\% \\
+Trend & 2030--31 & 63\% & 21\% & 16\% \\
+Level & 2030--31 & 18\% & 24\% & 57\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 Under either assumption Mesa alone stays between about 160 and 230 students, below two rounds, and Bear Creek alone stays below three rounds. The model therefore agrees with the district that Mesa is small and will stay small. That is conceded. The dispute is about the merged school.
 
 \section{What the merged-school range assumes}\label{sec:range}
-Under either kindergarten assumption the risk is one-sided: the chance of a merged school below two rounds is at most 2\%, while the chance of exceeding the building runs from 16\% to 57\% at 90\% following. Let $r$ be the share of Mesa's projected students who enroll at Bear Creek rather than elsewhere. Merged enrollment is Bear Creek's simulated path plus $r$ times Mesa's, drawn jointly. Figure~\ref{fig:lines} gives the probabilities that matter across $r$; Figure~\ref{fig:class} gives the implied class sizes.
-
-\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig07_scenario_lines.png}
-\caption{Chance that the merged school exceeds three rounds (450) or the building's capacity (492) in 2030--31, by share of Mesa's students who follow, under both kindergarten assumptions. At 90\% following: 37\% and 16\% (trend); 82\% and 57\% (level).}\label{fig:lines}\end{figure}
+Under either kindergarten assumption the risk is one-sided: the chance of a merged school below two rounds is at most 2\%, while the chance of exceeding the building runs from 16\% to 57\% at 90\% following. Let $r$ be the share of Mesa's projected students who enroll at Bear Creek rather than elsewhere. Merged enrollment is Bear Creek's simulated path plus $r$ times Mesa's, drawn jointly. Figure~\ref{fig:lines} (Appendix~C) gives the probabilities that matter across $r$; Figure~\ref{fig:class} gives the implied class sizes. Section~\ref{sec:fork} and Figure~\ref{fig:grid} restate the question on the district's own resident projection, the reading the district is likely to prefer.
 
 \begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig08_class_size.png}
 \caption{Average class size at the merged school in 2030--31 at 21 classrooms (the 3.5-round basis of 492) and at 18 (a three-round school). At 21 classrooms and 90\% following, the central estimate is 20.5 (trend) or 23.9 (level); at 18, 23.9 or 27.9.}\label{fig:class}\end{figure}
@@ -223,7 +237,48 @@ Under the trend assumption with 90\% following, the 2030--31 central estimate is
 \subsection{Two readings of 403--462, and both are a problem}\label{sec:fork}
 The district's separate January 2026 projections are 320 and 201 for 2030--31 and 293 and 203 for 2027--28. Read on those, the ranges 403--462 and 392--445 imply that $r$ lies between 0.41 and 0.71 in 2030--31 and between 0.49 and 0.75 in 2027--28: the top of the range assumes that between a quarter and three-fifths of Mesa's projected students go elsewhere.
 
-The district may reply that the range is defined on residents, not on the two schools' enrolled counts, and that standalone projections are not additive because each contains open-enrollment inflow. Read that way, the range is a fork. The district projects 522 residents in the combined area in 2030--31 (p.\ 51). If Bear Creek's current 95 open-enrolled-in and out-of-district students stay, 403--462 requires a resident capture rate of 59--70\%, below Mesa's 68\% and Bear Creek's 79\% today (p.\ 44 bar labels; p.\ 51); if Mesa's own 68 open-enrolled students are also counted, 46--57\%. If instead capture stays near today's rates, the range requires open enrollment into the merged school to be cut to near zero. The FAQ says the latter is contemplated where ``new short term enrollment will push the school near capacity'': projections then ``take into account managing choice enrollment beginning in 2027--28 to ensure that resident students can be accommodated'' (p.\ 3). It does not say whether Bear Creek is one of those cases.
+The district may reply that the range is defined on residents, not on the two schools' enrolled counts, and that standalone projections are not additive because each contains open-enrollment inflow. Read that way, the range is a fork. The district projects 522 residents in the combined area in 2030--31 (p.\ 51). Today 373 of the two areas' 503 residents attend their own school, a combined capture rate of 74\% (Mesa 68\%, Bear Creek 79\%; p.\ 44 bar labels, p.\ 51), and the two schools hold 163 choice seats: 140 open-enrolled from elsewhere in the district and 23 from outside it (2025--26 special-programs summary). Applied to the district's own resident projections, today's rates give about 514 students in 2027--28 and 550 in 2030--31, both above the building (Figure~\ref{fig:grid}; Table~\ref{tab:breakeven}). Holding choice seats at 163, the range 403--462 requires a capture rate of 46--57\%, below either school's today; holding capture at 74\%, it requires cutting choice seats to between 16 and 75. Even the building's 492 requires a capture rate of 63\% or a cut to 105 seats. This is arithmetic on the district's figures, not a model. It says which combinations of the two levers the range must be assuming, and the district has not said which. The FAQ says cutting choice is contemplated where ``new short term enrollment will push the school near capacity'': projections then ``take into account managing choice enrollment beginning in 2027--28 to ensure that resident students can be accommodated'' (p.\ 3). It does not say whether Bear Creek is one of those cases.
+
+\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig14_accounting_grid.png}
+\caption{Merged enrollment as residents $\times$ capture rate $+$ choice seats, on the district's own resident projections (473 and 522, p.\ 51). Red outlines mark the cells inside the proposal's range; the star marks today's capture rate (74\%) and choice seats (163). No model is involved.}\label{fig:grid}\end{figure}
+
+\begin{table}[h]\centering\small
+\caption{What one lever must do if the other stays at today's value (residents from deck p.\ 51; today's rates from pp.\ 44, 51 and the 2025--26 special-programs summary).}\label{tab:breakeven}
+\begin{tabular}{llrrr}
+\toprule
+Year & Target & At today's rates & Capture needed at 163 seats & Seats needed at 74\% capture \\
+\midrule
+2027--28 & 392 (bottom of range) & 514 & 48\% & 41 \\
+2027--28 & 445 (top of range) & 514 & 60\% & 94 \\
+2027--28 & 492 (building) & 514 & 70\% & 141 \\
+2030--31 & 403 (bottom of range) & 550 & 46\% & 16 \\
+2030--31 & 462 (top of range) & 550 & 57\% & 75 \\
+2030--31 & 492 (building) & 550 & 63\% & 105 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The district's own presentation already marks Bear Creek as the component where this arithmetic matters most. Of the ten receiving schools for which the deck prints a post-change range, Bear Creek's 2030--31 range is the widest and its margin at the top of the range is the smallest (Table~\ref{tab:widths}). That observation needs no model and is not disputed by any reading of the range.
+
+\begin{table}[h]\centering\small
+\caption{Post-change enrollment ranges printed in the deck for 2030--31, ten receiving schools, sorted by width (deck pp.\ 25, 37, 48, 51, 54; capacities Feb.\ 2026 p.\ 9).}\label{tab:widths}
+\begin{tabular}{lrrrr}
+\toprule
+School & Capacity & Range 2030--31 & Width & Seats left at top \\
+\midrule
+Bear Creek (receives Mesa) & 492 & 403--462 & 59 & 30 \\
+Kohl (receives Birch) & 541 & 437--474 & 37 & 67 \\
+Coal Creek & 492 & 395--427 & 32 & 65 \\
+Eldorado K--5 & 568 & 353--377 & 24 & 191 \\
+Whittier & 442 & 315--329 & 14 & 113 \\
+Superior & 467 & 424--436 & 12 & 31 \\
+Fireside & 516 & 421--430 & 9 & 86 \\
+Foothill & 565 & 484--492 & 8 & 73 \\
+Heatherwood & 492 & 260--268 & 8 & 224 \\
+Eisenhower & 492 & 297--302 & 5 & 190 \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 Either branch is a problem for the proposal. One assumes South Boulder families leave their neighborhood school at rates below anything observed today. The other assumes the district will cap the very choice enrollment that its own rationale says a fuller, three-round school should attract (pp.\ 50, 60--61). And the second branch has a corollary the Board should weigh: managing choice is the district's only lever against overcrowding at Bear Creek, and pulling it moves the merged school back toward two and a half rounds. The risk is two-sided, and the lever moves the school between the sides. The right question for staff is not ``which reading is correct'' but ``what share following, what capture rate and what open-enrollment level does 403--462 assume, and does it assume choice management at Bear Creek''.
 
@@ -319,6 +374,31 @@ Trend & 100\% & 448 & 377 & 529 & 49\% & 24\% & 0\% \\
 Level & 80\% & 482 & 409 & 559 & 71\% & 43\% & 0\% \\
 Level & 90\% & 503 & 429 & 582 & 82\% & 57\% & 0\% \\
 Level & 100\% & 523 & 448 & 604 & 89\% & 70\% & 0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]\centering\includegraphics[width=\textwidth]{fig07_scenario_lines.png}
+\caption{Chance that the merged school exceeds three rounds (450) or the building's capacity (492) in 2030--31, by share of Mesa's students who follow, under both kindergarten assumptions. At 90\% following: 37\% and 16\% (trend); 82\% and 57\% (level).}\label{fig:lines}\end{figure}
+
+\begin{table}[h]\centering\small
+\caption{Three mutually exclusive outcomes for the merged school by year, share following and assumption.}\label{tab:buckets_full}
+\begin{tabular}{llrrrr}
+\toprule
+Assumption & Year & Following & Below 450 & 450--492 & Above 492 \\
+\midrule
+Trend & 2027--28 & 80\% & 47\% & 38\% & 15\% \\
+Trend & 2027--28 & 90\% & 25\% & 45\% & 30\% \\
+Trend & 2027--28 & 100\% & 13\% & 36\% & 51\% \\
+Trend & 2030--31 & 80\% & 74\% & 17\% & 9\% \\
+Trend & 2030--31 & 90\% & 63\% & 21\% & 16\% \\
+Trend & 2030--31 & 100\% & 51\% & 25\% & 24\% \\
+Level & 2027--28 & 80\% & 26\% & 45\% & 30\% \\
+Level & 2027--28 & 90\% & 13\% & 35\% & 52\% \\
+Level & 2027--28 & 100\% & 5\% & 22\% & 73\% \\
+Level & 2030--31 & 80\% & 29\% & 28\% & 43\% \\
+Level & 2030--31 & 90\% & 18\% & 24\% & 57\% \\
+Level & 2030--31 & 100\% & 11\% & 19\% & 70\% \\
 \bottomrule
 \end{tabular}
 \end{table}

@@ -104,3 +104,13 @@ for y, lab in [(450, "3 rounds (450)"), (492, "capacity (492)")]: ax.axhline(y, 
 ax.set_xlim(2017.5, 2032.2); ax.set_xlabel("October of school year"); ax.set_ylabel("students at Bear Creek if merged (K-5)"); ax.legend(loc="lower left", fontsize=6.5, ncol=2)
 ax.set_title("Merged school with 90% of Mesa students following: the kindergarten assumption moves the 2030-31 estimate by about 70 students", fontsize=8.2, loc="left")
 save(fig, "fig05b_merged_two_specs", source="independent cohort-survival model; proposal range from deck p. 51; October counts from BVSD pupil-count files")
+
+# ---- three mutually exclusive outcomes: below 450 (benchmark, not a hard threshold) / 450-492 / above 492 ----
+rows_b = []
+for spec, (bcs, ms) in SPECS.items():
+    for fall in (2027, 2030):
+        jj = falls.index(fall)
+        for r in (0.8, 0.9, 1.0):
+            E = bcs[:, jj] + r * ms[:, jj]
+            rows_b.append(dict(spec=spec, fall=fall, retention=r, p_below_450=(E <= 450).mean(), p_450_to_492=((E > 450) & (E <= 492)).mean(), p_above_492=(E > 492).mean()))
+buckets = pd.DataFrame(rows_b); buckets.to_csv(OUT / "table04_buckets.csv", index=False); print(buckets.round(3).to_string(index=False))

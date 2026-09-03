@@ -1,4 +1,20 @@
-# STATUS — updated 2026-09-03 (session 4: adversarial QA implemented)
+# STATUS — updated 2026-09-03 (session 5: ChatGPT review, first three items)
+
+## Session 5: what changed (from `memo/qa/RESPONSE_to_chatgpt_review.md`, items 1–3 of the plan)
+- **Accounting grid** (`analysis/11_accounting_grid.py` → `table11_accounting_grid.csv`, `table11_breakeven.csv`, `figures/fig14_accounting_grid.*`). Merged enrollment = residents × capture + choice seats, on the deck's own resident projections (473 / 522, p. 51). Today's rates (74% capture, 163 seats) give 514 in 2027-28 and 550 in 2030-31. Reaching 403–462 needs capture 46–57% at today's seats or 16–75 seats at today's capture. Now the lead figure of §6; Fig. 7 (lines by share following) moved to Appendix C. The earlier capture figures (59–70% / 46–57%) are superseded by the grid's single accounting; the 46–57% survives because it is the same case (all 163 seats kept).
+- **Three-outcome table** (`table04_buckets.csv`; report Table in §5 and full version in Appendix C). At 90% following in 2030-31: Trend 63/21/16, Level 18/24/57 (below 450 / 450–492 / above 492). 450 is called a benchmark, not a threshold.
+- **Bear Creek as outlier on the district's own numbers** (from `table08_package_ranges.csv`): widest 2030-31 range (59 vs 37 next) and smallest margin at the top (30 seats). New Table in §6, Summary bullet, one email sentence.
+- **Email rewritten** (body 750 words): opens with the 521/492/462 line, then the district's "can house" statement (bvsd.org page, saved copy p. 7) against the FAQ's "during the transition year" (p. 3) and the 522 → 550 arithmetic; item 2 of the standard is now the one-page worksheet; outlier sentence; one-in-four line; model described as "patterned on the district's published method"; preschool question dropped for length (still in the appendix). Verbatim ask unchanged, plus one sentence: if staff can produce the worksheet and it shows a fit, the Board has a fair test.
+- **Script** (~317 words): same two changes; the closing question for staff is now "what capture rate and how many choice seats does 462 assume?"
+- Report: model-description wording changed in the Summary and §5 (point 5a). Not yet done from the plan: Pearman footnote, p. 44/p. 51 reclassification, 89% removal, §9 softening, classroom-by-grade feasibility, K-2/3-5 comparison table, off-ramp text, shock-decomposition sensitivity.
+
+## New numbers to verify personally before sending
+- 373 residents attending own school (p. 44 bar labels: Mesa 156, Bear Creek 217) and 503 residents (p. 51: 228 + 275) → 74%.
+- 163 choice seats: 140 = 536 enrolled − 373 − 23; the 23 out-of-district are from the 2025-26 special-programs summary p. 1 (Mesa 10, Bear Creek 13).
+- "can house the projected enrollment of both schools in 2027-28 and beyond": `data/raw/bvsd/bvsd_page_declining_enrollment.txt` lines 134–135 (saved copy p. 7). Check the live page has not changed.
+- FAQ "during the transition year ... open enrollment, space and staffing plan": `resilient_schools_faq.txt` lines 86–89 (p. 3).
+
+
 
 ## Decisions taken on the QA plan's section H (my best guess at your preferences; review in the final version)
 1. **Level-specification centering: mean-centered** (the expected kindergarten intake equals the 2023–25 mean), with parameter uncertainty from a bootstrap of the three window years. The median-centered variant (484, P>492 45%) and the 2/5/6-year windows (547/519/505) are reported as sensitivities in Appendix B and in §5.2. With this convention the headline level numbers are essentially unchanged (503 / 57% / 82%), but they are now defensible against the statistics reviewer's blocker.
