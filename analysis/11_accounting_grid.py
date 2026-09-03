@@ -88,7 +88,6 @@ for ax, fall in zip(axes, RESIDENTS):
     # locus of today's pattern if x of the 163 live inside the combined area (x = 0 at the star, up-left as x grows)
     xs = np.arange(0, 81, 2); locus_seats = SEATS_TODAY - xs; locus_cap = (ATT_TODAY + xs) / RES_TODAY
     ax.plot(np.interp(locus_seats, seats, range(len(seats))), np.interp(locus_cap, captures, range(len(captures))), color=TEXT, lw=1.1, ls="--", zorder=5)
-    if fall == 2030: ax.text(-0.45, 0.55, "dashed line: today's pattern if some\nof the 163 live inside the area (x up to 80)", fontsize=5.9, color=TEXT, ha="left", va="center", bbox=dict(boxstyle="round,pad=0.25", fc="white", ec=MUTED, lw=0.5), zorder=7)
 axes[0].set_ylabel("combined-area resident capture rate", fontsize=7.5)
 fig.supxlabel("external choice seats kept (enrolled from outside the combined area + out-of-district)", fontsize=7.2, y=0.04)
 fig.subplots_adjust(bottom=0.2, wspace=0.14)
