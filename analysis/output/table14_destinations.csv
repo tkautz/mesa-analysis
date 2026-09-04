@@ -1,0 +1,31 @@
+area,attends,students,kind
+Bear Creek,Bear Creek,131,own school
+Bear Creek,Mesa,16,own school
+Bear Creek,High Peaks,5,focus/charter
+Bear Creek,Uni-Hill Int.,5,focus/charter
+Bear Creek,BCSIS,2,focus/charter
+Bear Creek,Creekside,1,other neighborhood school
+Mesa,Mesa,118,own school
+Mesa,Bear Creek,27,own school
+Mesa,Comm. Montessori,8,focus/charter
+Mesa,Uni-Hill Int.,5,focus/charter
+Mesa,BCSIS,4,focus/charter
+Mesa,High Peaks,3,focus/charter
+Mesa,Horizons,3,focus/charter
+Mesa,Eldorado K-8,2,other neighborhood school
+Mesa,Columbine,1,other neighborhood school
+Mesa,Creekside,1,other neighborhood school
+Mesa,Monarch K-8,1,other neighborhood school
+Optional Bear Creek/Creekside,Bear Creek,15,own school
+Optional Bear Creek/Creekside,Creekside,5,other neighborhood school
+Optional Bear Creek/Creekside,Comm. Montessori,4,focus/charter
+Optional Bear Creek/Creekside,High Peaks,1,focus/charter
+Optional Bear Creek/Creekside,Uni-Hill Int.,1,focus/charter
+Optional Bear Creek/Creekside,Horizons,1,focus/charter
+Optional Bear Creek/Mesa,Bear Creek,70,own school
+Optional Bear Creek/Mesa,Mesa,38,own school
+Optional Bear Creek/Mesa,Comm. Montessori,15,focus/charter
+Optional Bear Creek/Mesa,Creekside,3,other neighborhood school
+Optional Bear Creek/Mesa,High Peaks,3,focus/charter
+Optional Bear Creek/Mesa,Uni-Hill Int.,2,focus/charter
+Optional Bear Creek/Mesa,BCSIS,1,focus/charter

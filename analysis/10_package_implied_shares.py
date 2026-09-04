@@ -38,5 +38,6 @@ ax.set_yticks(range(len(d))); ax.set_yticklabels([f"{c} (p. {p})" for c, p in zi
 ax.set_xlim(30, 115); ax.set_xlabel("share of the sending school's projected students that the deck's range implies land at the receiving school(s)")
 ax.plot([], [], color=ROLE["merged"], lw=5, label="2030-31"); ax.plot([], [], color="#9a99b8", lw=5, label="2027-28"); ax.legend(loc="lower right", fontsize=7)
 ax.axvline(100, color=MUTED, lw=0.8, ls=":"); ax.grid(axis="y", visible=False)
+ax.set_xlim(0, 122); fig.subplots_adjust(left=0.36, right=0.99)   # keep the labels inside the 6.5-in canvas so the tight bounding box stays at page width
 ax.set_title("The deck's ranges imply different retention shares for different components", fontsize=9, loc="left")
 save(fig, "fig13_package_implied_shares", source="deck pp. 25, 37, 48, 51, 54 (post-change ranges); Feb 2026 report p. 9 (standalone projections). Share = (range end − receivers' standalone projections) ÷ sending school's standalone projection.")

@@ -1,0 +1,111 @@
+MINERAL RD
+T
+H
+Y
+D
+S
+L R
+A 3
+N 6
+O
+G
+A DI
+INDEPENDENCE RD
+Y A
+W T D S
+A H
+O T
+R 8 B 2
+YH
+SLLIHTOOF
+N
+B
+R
+O
+A D
+W
+A
+Y
+Y
+H
+L A
+N
+O
+Y G
+A A
+W DI
+D
+A
+O
+R
+B
+F O
+O T
+H
+IL
+L S
+P K
+W Y
+YWKP
+SLLIHTOOF
+LOOKOUT RD
+T
+S B H
+R T
+O 5
+A 7
+D
+W
+A
+Y
+JAY RD
+Y
+H T L
+S A
+H O N T G
+9 1 A DI
+VALMONT DR
+IRIS AV
+TS
+DR36
+LEEHILLD
+R
+L IN
+D E N T S
+D H R T
+6 2
+T S
+T T S T S 1
+S H 6
+M T
+O 0 3 S
+L VALMONT RD O F TS
+HT55
+T
+S
+D
+R
+3
+6
+VIOLET AV
+LINDEN AV
+6 BALSAM AV 3
+W Y R K D
+PEARLST
+PEARL
+P
+S
+T
+TS
+DR36
+ATTACHMENT B
+CENTENNIAL
+PLATT
+I
+New Centennial/Nevin Platt Attendance Areas
+Previous Att. Areas
+New Middle. Att. Boundary
+Nevin Platt
+BVSD District Boundary Miles
+0 0.1750.35 0.7 1.05 1.4
+Centennial

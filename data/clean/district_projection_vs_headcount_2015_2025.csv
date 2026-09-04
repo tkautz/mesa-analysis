@@ -1,0 +1,821 @@
+october_year,source_file,meeting_date,page,projection_date,headcount_date,level,school,asterisk,planning_projection,funded_headcount,difference,pct_difference,is_total,check_ok
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,ASPEN CREEK K-5,False,480,474,-6,-1.3,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,BEAR CREEK,False,434,441,7,1.6,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,BIRCH,False,336,364,28,8.3,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,BCSIS,False,310,301,-9,-2.9,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,BOULDER EXPLORE,False,27,20,,,False,False
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,BOULDER UNIVERSAL,False,4,4,0,,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,COAL CREEK,False,419,426,7,1.7,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,COLUMBINE,False,467,482,15,3.2,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,CREEKSIDE,False,286,289,3,1.0,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,CREST VIEW,False,570,580,10,1.8,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,DOUGLASS,False,451,461,10,2.2,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,EISENHOWER,False,396,398,2,0.5,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,ELDORADO K-5,False,509,489,-20,-3.9,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,EMERALD,False,347,333,-14,-4.0,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,FIRESIDE,False,422,426,4,0.9,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,FLATIRONS,False,291,274,-17,-5.8,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,FOOTHILL,False,519,547,28,5.4,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,GOLD HILL,False,25,26,1,4.0,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,HEATHERWOOD,False,367,370,3,0.8,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,HIGH PEAKS,False,283,297,14,4.9,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,HORIZONS ALTERN.,False,228,237,9,3.9,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,JAMESTOWN,False,17,18,1,5.9,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,KOHL,False,477,460,-17,-3.6,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,LAFAYETTE,False,558,574,16,2.9,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,LOUISVILLE,False,595,582,-13,-2.2,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,MESA,False,334,320,-14,-4.2,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,MONARCH K-5,False,393,387,-6,-1.5,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,MONTESSORI SCHOOL,False,274,262,-12,-4.4,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,NEDERLAND,False,262,257,-5,-1.9,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,PEAK TO PEAK K-5,False,446,457,11,2.5,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,PIONEER,False,449,457,8,1.8,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,RYAN,False,387,396,9,2.3,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,SANCHEZ,False,317,321,4,1.3,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,SUPERIOR,False,489,486,-3,-0.6,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,UNIVERSITY HILL,False,397,405,8,2.0,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,WHITTIER,False,395,415,20,5.1,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,TOTAL ELEMENTARY,False,12961,13036,75,0.6,True,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,General Fund Elem Total,False,12287,12342,55,0.4,True,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,1,2/9/2015,10/1/2015,elementary,Charter Fund Elem Total,False,674,694,20,3.0,True,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,ANGEVINE,False,684,725,41,6.0,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,ASPEN CREEK 6-8,False,448,437,-11,-2.5,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,BOULDER EXPLORER,False,14,7,-7,-50.0,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,BOULDER UNIVERSAL,False,17,11,-6,-35.3,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,BROOMFIELD HEIGHTS,False,539,547,8,1.5,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,CASEY,False,608,632,24,3.9,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,CENTENNIAL,False,615,630,15,2.4,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,ELDORADO 6-8,False,457,468,11,2.4,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,HALCYON 6-8,False,9,8,-1,-11.1,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,HORIZONS ALTERN.,False,117,111,-6,-5.1,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,JUSTICE HIGH 6-8,False,0,3,3,,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,LOUISVILLE,False,647,621,-26,-4.0,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,MANHATTAN,False,528,493,-35,-6.6,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,MONARCH 6-8,False,483,461,-22,-4.6,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,NEDERLAND 6-8,False,143,128,-15,-10.5,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,PEAK TO PEAK 6-8,False,405,405,0,0.0,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,PLATT,False,573,602,29,5.1,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,SOUTHERN HILLS,False,559,555,-4,-0.7,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,SUMMIT,False,350,353,3,0.9,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,TOTAL MIDDLE,False,7196,7197,1,0.0,True,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,General Fund Middle Total,False,6324,6325,4,0.1,True,False
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,middle,Charter Fund Middle Total,False,872,872,-3,-0.3,True,False
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,ARAPAHOE RIDGE,False,134,139,5,3.7,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,BOULDER,False,2044,1979,-65,-3.2,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,BOULDER PREP,False,95,109,14,14.7,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,BOULDER UNIVERSAL,False,109,74,-35,-32.1,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,BROOMFIELD,False,1615,1548,-67,-4.1,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,CENTAURUS,False,1044,1079,35,3.4,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,FAIRVIEW,False,2186,2183,-3,-0.1,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,HALCYON 9-12,False,10,10,0,0.0,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,JUSTICE HIGH 9-12,False,75,77,2,2.7,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,MONARCH,False,1735,1749,14,0.8,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,NEDERLAND,False,148,145,-3,-2.0,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,NEW VISTA,False,286,296,10,3.5,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,PEAK TO PEAK 9-12,False,593,584,-9,-1.5,False,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,TOTAL SENIOR,False,10074,9972,-102,-1.0,True,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,General Fund Senior Total,False,9311,9202,-107,-1.1,True,False
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,high,Charter Fund Senior Total,False,763,770,5,0.7,True,False
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,secondary,TOTAL SECONDARY,False,17270,17169,-101,-0.6,True,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,district,GRAND TOTAL,False,30231,30205,-26,-0.1,True,True
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,district,General Fund Grand Total,False,27922,27869,-48,-0.2,True,False
+2015,enrollment_update_05_compare_proj_head_count_15_2016-02-09.txt,2016-02-09,2,2/9/2015,10/1/2015,district,Charter Fund Grand Total,False,2309,2336,22,1.0,True,False
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,ASPEN CREEK K-5,False,492,473,-19,-3.9,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,BEAR CREEK,False,447,438,-9,-2.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,BIRCH,False,399,368,-31,-7.8,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,BCSIS,False,307,309,2,0.7,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,BOULDER EXPLORE,False,23,11,-12,,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,BOULDER UNIVERSAL,False,4,7,3,,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,COAL CREEK,False,404,417,13,3.2,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,COLUMBINE,False,493,486,-7,-1.4,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,CREEKSIDE,False,274,281,7,2.6,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,CREST VIEW,False,557,606,49,8.8,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,DOUGLASS,False,452,434,-18,-4.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,EISENHOWER,False,381,418,37,9.7,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,ELDORADO K-5,False,467,450,-17,-3.6,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,EMERALD,False,348,344,-4,-1.1,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,FIRESIDE,False,431,442,11,2.6,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,FLATIRONS,False,265,254,-11,-4.2,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,FOOTHILL,False,562,541,-21,-3.7,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,GOLD HILL,False,29,26,-3,-10.3,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,HEATHERWOOD,False,365,360,-5,-1.4,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,HIGH PEAKS,False,297,290,-7,-2.4,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,HORIZONS ALTERN.,False,236,232,-4,-1.7,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,JAMESTOWN,False,18,19,1,5.6,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,KOHL,False,444,453,9,2.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,LAFAYETTE,False,582,633,51,8.8,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,LOUISVILLE,False,611,569,-42,-6.9,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,MESA,False,301,287,-14,-4.7,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,MONARCH K-5,False,398,377,-21,-5.3,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,MONTESSORI SCHOOL,False,264,251,-13,-4.9,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,NEDERLAND,False,256,261,5,2.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,PEAK TO PEAK K-5,False,454,451,-3,-0.7,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,PIONEER,False,467,433,-34,-7.3,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,RYAN,False,409,433,24,5.9,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,SANCHEZ,False,324,344,20,6.2,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,SUPERIOR,False,469,465,-4,-0.9,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,UNIVERSITY HILL,False,419,421,2,0.5,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,WHITTIER,False,420,424,4,1.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,TOTAL ELEMENTARY,False,13069,13008,-61,-0.5,True,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,General Fund Elem Total,False,12379,12325,-54,-0.4,True,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,1,3/1/2016,10/5/2016,elementary,Charter Fund Elem Total,False,690,683,-7,-1.0,True,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,ANGEVINE,False,715,709,-6,-0.8,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,ASPEN CREEK 6-8,False,425,431,6,1.4,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,BOULDER EXPLORER,False,7,0,-7,-100.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,BOULDER UNIVERSAL,False,10,16,6,60.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,BROOMFIELD HEIGHTS,False,525,520,-5,-1.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,CASEY,False,629,652,23,3.7,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,CENTENNIAL,False,647,628,-19,-2.9,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,ELDORADO 6-8,False,476,466,-10,-2.1,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,HALCYON 6-8,False,8,5,-3,-37.5,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,HORIZONS ALTERN.,False,112,115,3,2.7,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,JUSTICE HIGH 6-8,False,2,4,2,,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,LOUISVILLE,False,628,642,14,2.2,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,MANHATTAN,False,500,458,-42,-8.4,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,MONARCH 6-8,False,452,467,15,3.3,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,NEDERLAND 6-8,False,136,135,-1,-0.7,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,PEAK TO PEAK 6-8,False,405,405,0,0.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,PLATT,False,619,638,19,3.1,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,SOUTHERN HILLS,False,570,559,-11,-1.9,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,SUMMIT,False,350,354,4,1.1,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,TOTAL MIDDLE,False,7216,7204,-12,-0.2,True,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,General Fund Middle Total,False,6347,6326,-19,-0.3,True,False
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,middle,Charter Fund Middle Total,False,869,878,7,0.8,True,False
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,ARAPAHOE RIDGE,False,135,90,-45,-33.3,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,BOULDER,False,2004,1981,-23,-1.1,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,BOULDER PREP,False,109,104,-5,-4.6,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,BOULDER UNIVERSAL,False,74,63,-11,-14.9,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,BROOMFIELD,False,1615,1595,-20,-1.2,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,CENTAURUS,False,1116,1127,11,1.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,FAIRVIEW,False,2201,2165,-36,-1.6,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,HALCYON 9-12,False,10,12,2,20.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,JUSTICE HIGH 9-12,False,75,78,3,4.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,MONARCH,False,1818,1708,-110,-6.1,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,NEDERLAND,False,129,126,-3,-2.3,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,NEW VISTA,False,278,292,14,5.0,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,PEAK TO PEAK 9-12,False,585,588,3,0.5,False,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,TOTAL SENIOR,False,10149,9929,-220,-2.2,True,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,General Fund Senior Total,False,9380,9159,-218,-2.3,True,False
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,high,Charter Fund Senior Total,False,769,770,-2,-0.3,True,False
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,secondary,TOTAL SECONDARY,False,17365,17133,-232,-1.3,True,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,district,GRAND TOTAL,False,30434,30141,-293,-1.0,True,True
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,district,General Fund Grand Total,False,28106,27810,-291,-1.0,True,False
+2016,enrollment_update_06_compare_proj_head_count_16_2017-01-24.txt,2017-01-24,2,3/1/2016,10/5/2016,district,Charter Fund Grand Total,False,2328,2331,-2,-0.1,True,False
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,ASPEN CREEK K-5,False,450,466,16,3.6,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,BEAR CREEK,False,429,448,19,4.4,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,BIRCH,False,360,368,8,2.2,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,BCSIS,False,306,304,-2,-0.7,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,BOULDER EXPLORE,False,14,0,-14,,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,BOULDER UNIVERSAL,False,0,1,1,,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,COAL CREEK,False,403,416,13,3.2,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,COLUMBINE,False,481,483,2,0.4,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,CREEKSIDE,False,270,272,2,0.7,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,CREST VIEW,False,599,582,-17,-2.8,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,DOUGLASS,False,423,415,-8,-1.9,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,EISENHOWER,False,393,384,-9,-2.3,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,ELDORADO K-5,False,400,406,6,1.5,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,EMERALD,False,356,360,4,1.1,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,FIRESIDE,False,428,419,-9,-2.1,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,FLATIRONS,False,246,245,-1,-0.4,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,FOOTHILL,False,515,493,-22,-4.3,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,GOLD HILL,True,27,19,-8,-29.6,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,HEATHERWOOD,False,353,336,-17,-4.8,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,HIGH PEAKS,False,297,299,2,0.7,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,HORIZONS ALTERN.,False,222,234,12,5.4,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,JAMESTOWN,True,17,17,0,0.0,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,KOHL,False,440,422,-18,-4.1,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,LAFAYETTE,False,451,465,14,3.1,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,LOUISVILLE,False,564,551,-13,-2.3,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,MEADOWLARK K-5,False,334,325,-9,-2.7,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,MESA,False,276,271,-5,-1.8,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,MONARCH K-5,False,387,379,-8,-2.1,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,MONTESSORI SCHOOL,False,258,248,-10,-3.9,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,NEDERLAND,False,249,259,10,4.0,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,PEAK TO PEAK K-5,False,453,450,-3,-0.7,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,PIONEER,False,436,443,7,1.6,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,RYAN,False,431,444,13,3.0,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,SANCHEZ,False,341,354,13,3.8,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,SUPERIOR,False,443,457,14,3.2,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,UNIVERSITY HILL,False,431,423,-8,-1.9,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,WHITTIER,False,413,379,-34,-8.2,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,TOTAL ELEMENTARY,False,12896,12837,-59,-0.5,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,General Fund Elem Total,False,12221,12153,-68,-0.6,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,1,5/12/2017,10/2/2017,elementary,Charter Fund Elem Total,False,675,684,9,1.3,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,ANGEVINE,False,670,672,2,0.3,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,ASPEN CREEK 6-8,False,434,445,11,2.5,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,BOULDER UNIVERSAL,True,16,18,2,12.5,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,BROOMFIELD HEIGHTS,False,527,544,17,3.2,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,CASEY,False,672,669,-3,-0.4,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,CENTENNIAL,False,624,646,22,3.5,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,ELDORADO 6-8,False,463,473,10,2.2,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,HALCYON 6-8,True,5,4,-1,-20.0,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,HORIZONS ALTERN.,False,120,114,-6,-5.0,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,JUSTICE HIGH 6-8,True,4,3,-1,-25.0,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,LOUISVILLE,False,642,658,16,2.5,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,MANHATTAN,False,466,488,22,4.7,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,MEADOWLARK 6-8,False,98,110,12,12.2,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,MONARCH 6-8,False,450,405,-45,-10.0,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,NEDERLAND 6-8,False,137,124,-13,-9.5,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,PEAK TO PEAK 6-8,False,404,406,2,0.5,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,PLATT,False,630,627,-3,-0.5,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,SOUTHERN HILLS,False,542,555,13,2.4,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,SUMMIT,False,353,357,4,1.1,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,TOTAL MIDDLE,False,7257,7318,61,0.8,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,General Fund Middle Total,False,6376,6438,62,1.0,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,middle,Charter Fund Middle Total,False,881,880,-1,-0.1,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,ARAPAHOE RIDGE,True,121,100,-21,-17.4,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,BOULDER,False,2031,2050,19,0.9,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,BOULDER PREP,False,105,80,-25,-23.8,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,BOULDER UNIVERSAL,True,49,68,19,38.8,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,BROOMFIELD,False,1604,1573,-31,-1.9,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,CENTAURUS,False,1249,1218,-31,-2.5,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,FAIRVIEW,False,2202,2223,21,1.0,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,HALCYON 9-12,True,11,8,-3,-27.3,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,JUSTICE HIGH 9-12,False,81,75,-6,-7.4,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,MONARCH,False,1718,1720,2,0.1,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,NEDERLAND,False,127,119,-8,-6.3,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,NEW VISTA,False,290,304,14,4.8,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,PEAK TO PEAK 9-12,False,588,589,1,0.2,False,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,TOTAL SENIOR,False,10176,10127,-49,-0.5,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,General Fund Senior Total,False,9402,9383,-19,-0.2,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,high,Charter Fund Senior Total,False,774,744,-30,-3.9,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,secondary,TOTAL SECONDARY,False,17433,17445,12,0.1,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,district,GRAND TOTAL,False,30329,30282,-47,-0.2,True,True
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,district,General Fund Grand Total,False,27999,27974,,,True,False
+2017,enrollment_update_06_compare_projection_to_head_count_2018-01-09.txt,2018-01-09,2,5/12/2017,10/2/2017,district,Charter Fund Grand Total,False,2330,2308,,,True,False
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,ASPEN CREEK K-5,False,476,437,-39,-8.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,BEAR CREEK,False,459,425,-34,-7.4,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,BIRCH,False,377,346,-31,-8.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,BCSIS,False,303,306,3,1.0,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,BOULDER EXPLORE,False,0,0,,,False,False
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,BOULDER UNIVERSAL,False,0,4,4,,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,COAL CREEK,False,414,410,-4,-1.0,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,COLUMBINE,False,476,456,-20,-4.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,CREEKSIDE,False,266,293,27,10.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,CREST VIEW,False,558,566,8,1.4,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,DOUGLASS,False,382,396,14,3.7,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,EISENHOWER,False,406,407,1,0.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,ELDORADO K-5,False,369,396,27,7.3,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,EMERALD,False,369,387,18,4.9,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,FIRESIDE,False,430,420,-10,-2.3,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,FLATIRONS,False,236,228,-8,-3.4,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,FOOTHILL,False,482,457,-25,-5.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,GOLD HILL,True,18,19,1,5.6,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,HEATHERWOOD,False,319,296,-23,-7.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,HIGH PEAKS,False,298,291,-7,-2.3,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,HORIZONS ALTERN.,False,232,234,2,0.9,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,JAMESTOWN,True,15,15,0,0.0,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,KOHL,False,412,402,-10,-2.4,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,LAFAYETTE,False,460,427,-33,-7.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,LOUISVILLE,False,545,563,18,3.3,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,MEADOWLARK K-5,False,395,437,42,10.6,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,MESA,False,256,260,4,1.6,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,MONARCH K-5,False,375,348,-27,-7.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,MONTESSORI SCHOOL,False,247,254,7,2.8,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,NEDERLAND,False,254,248,-6,-2.4,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,PEAK TO PEAK K-5,False,450,449,-1,-0.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,PIONEER,False,441,444,3,0.7,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,RYAN,False,434,463,29,6.7,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,SANCHEZ,False,363,331,-32,-8.8,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,SUPERIOR,False,449,439,-10,-2.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,UNIVERSITY HILL,False,430,422,-8,-1.9,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,WHITTIER,False,373,400,27,7.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,TOTAL ELEMENTARY,False,12769,12676,-93,-0.7,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,General Fund Elem Total,False,12087,11993,-94,-0.8,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,1,4/10/2018,10/3/2018,elementary,Charter Fund Elem Total,False,682,683,1,0.1,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,ANGEVINE,False,679,693,14,2.1,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,ASPEN CREEK 6-8,False,411,424,13,3.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,BOULDER UNIVERSAL,True,18,17,-1,-5.6,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,BROOMFIELD HEIGHTS,False,565,565,0,0.0,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,CASEY,False,664,668,4,0.6,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,CENTENNIAL,False,625,634,9,1.4,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,ELDORADO 6-8,False,446,454,8,1.8,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,HALCYON 6-8,True,4,4,0,0.0,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,HORIZONS ALTERN.,False,115,114,-1,-0.9,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,JUSTICE HIGH 6-8,True,3,3,0,0.0,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,LOUISVILLE,False,690,678,-12,-1.7,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,MANHATTAN,False,482,490,8,1.7,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,MEADOWLARK 6-8,False,180,140,-40,-22.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,MONARCH 6-8,False,392,394,2,0.5,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,NEDERLAND 6-8,False,130,125,-5,-3.8,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,PEAK TO PEAK 6-8,False,406,404,-2,-0.5,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,PLATT,False,603,581,-22,-3.6,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,SOUTHERN HILLS,False,543,538,-5,-0.9,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,SUMMIT,False,359,358,-1,-0.3,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,TOTAL MIDDLE,False,7315,7280,-35,-0.5,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,General Fund Middle Total,False,6432,6401,-31,-0.5,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,middle,Charter Fund Middle Total,False,883,879,-4,-0.5,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,ARAPAHOE RIDGE,True,104,141,37,35.6,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,BOULDER,False,2097,2092,-5,-0.2,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,BOULDER PREP,False,100,100,0,0.0,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,BOULDER UNIVERSAL,True,67,42,-25,-37.3,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,BROOMFIELD,False,1594,1562,-32,-2.0,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,CENTAURUS,False,1277,1308,31,2.4,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,FAIRVIEW,False,2160,2174,14,0.6,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,HALCYON 9-12,True,8,8,0,0.0,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,JUSTICE HIGH 9-12,False,85,93,8,9.4,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,MONARCH,False,1741,1706,-35,-2.0,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,NEDERLAND,False,124,122,-2,-1.6,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,NEW VISTA,False,297,312,15,5.1,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,PEAK TO PEAK 9-12,False,588,593,5,0.9,False,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,TOTAL SENIOR,False,10242,10245,3,0.0,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,General Fund Senior Total,False,9469,9459,-10,-0.1,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,high,Charter Fund Senior Total,False,773,786,13,1.7,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,secondary,TOTAL SECONDARY,False,17557,17525,-32,-0.2,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,district,GRAND TOTAL,False,30326,30201,-125,-0.4,True,True
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,district,General Fund Grand Total,False,27988,27853,,,True,False
+2018,enrollment_update_compare_projection_to_head_count_2018-12-11.txt,2018-12-11,2,4/10/2018,10/3/2018,district,Charter Fund Grand Total,False,2338,2348,,,True,False
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,ASPEN CREEK K-5,False,438,415,-23,-5.3,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,BEAR CREEK,False,412,400,-12,-2.9,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,BIRCH,False,351,345,-6,-1.7,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,BCSIS,False,303,307,4,1.3,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,BOULDER UNIVERSAL,False,0,2,2,,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,COAL CREEK,False,418,389,-29,-6.9,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,COLUMBINE,False,434,450,16,3.7,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,CREEKSIDE,False,303,336,33,10.9,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,CREST VIEW,False,576,537,-39,-6.8,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,DOUGLASS,False,363,381,18,5.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,EISENHOWER,False,400,402,2,0.5,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,ELDORADO K-5,False,376,379,3,0.8,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,EMERALD,False,393,374,-19,-4.8,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,FIRESIDE,False,404,437,33,8.2,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,FLATIRONS,False,212,211,-1,-0.5,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,FOOTHILL,False,428,456,28,6.5,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,GOLD HILL,False,20,21,1,5.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,HALCYON,True,7,0,-7,-100.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,HEATHERWOOD,False,275,268,-7,-2.5,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,HIGH PEAKS,False,285,296,11,3.9,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,HORIZONS ALTERN.,False,233,230,-3,-1.3,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,JAMESTOWN,False,17,20,3,17.6,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,KOHL,False,382,356,-26,-6.8,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,LAFAYETTE,False,437,472,35,8.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,LOUISVILLE,False,555,516,-39,-7.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,MEADOWLARK K-5,False,481,462,-19,-4.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,MESA,False,249,261,12,4.8,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,MONARCH K-5,False,338,348,10,3.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,MONTESSORI SCHOOL,False,252,252,0,0.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,NEDERLAND,False,248,227,-21,-8.5,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,PEAK TO PEAK K-5,False,450,453,3,0.7,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,PIONEER,False,440,434,-6,-1.4,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,RYAN,False,473,498,25,5.3,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,SANCHEZ,False,326,303,-23,-7.1,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,SUPERIOR,False,422,434,12,2.8,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,UNIVERSITY HILL,False,422,416,-6,-1.4,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,WHITTIER,False,408,378,-30,-7.4,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,TOTAL ELEMENTARY,False,12531,12466,-65,-0.5,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,General Fund Elem Total,False,11848,11783,-65,-0.5,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,1,4/15/2019,10/2/2019,elementary,Charter Fund Elem Total,False,683,683,0,0.0,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,ANGEVINE,False,713,687,-26,-3.6,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,ASPEN CREEK 6-8,False,411,408,-3,-0.7,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,BOULDER UNIVERSAL,False,17,18,1,5.9,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,BROOMFIELD HEIGHTS,False,604,563,-41,-6.8,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,CASEY,False,658,635,-23,-3.5,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,CENTENNIAL,False,650,635,-15,-2.3,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,ELDORADO 6-8,False,443,436,-7,-1.6,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,HALCYON 6-8,True,4,0,-4,-100.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,HORIZONS ALTERN.,False,115,118,3,2.6,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,JUSTICE HIGH 6-8,False,3,10,7,233.3,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,LOUISVILLE,False,673,653,-20,-3.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,MANHATTAN,False,546,540,-6,-1.1,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,MEADOWLARK 6-8,False,205,185,-20,-9.8,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,MONARCH 6-8,False,384,373,-11,-2.9,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,NEDERLAND 6-8,False,119,114,-5,-4.2,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,PEAK TO PEAK 6-8,False,406,406,0,0.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,PLATT,False,519,532,13,2.5,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,SOUTHERN HILLS,False,536,530,-6,-1.1,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,SUMMIT,False,358,359,1,0.3,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,TOTAL MIDDLE,False,7364,7202,-162,-2.2,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,General Fund Middle Total,False,6482,6309,-173,-2.7,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,middle,Charter Fund Middle Total,False,882,893,11,1.2,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,ARAPAHOE RIDGE,False,140,142,2,1.4,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,BOULDER,False,2118,2134,16,0.8,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,BOULDER PREP,False,95,106,11,11.6,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,BOULDER UNIVERSAL,False,42,55,13,31.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,BROOMFIELD,False,1599,1552,-47,-2.9,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,CENTAURUS,False,1406,1439,33,2.3,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,FAIRVIEW,False,2144,2124,-20,-0.9,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,HALCYON 9-12,True,8,0,-8,-100.0,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,JUSTICE HIGH 9-12,False,86,87,1,1.2,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,MONARCH,False,1630,1654,24,1.5,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,NEDERLAND,False,127,106,-21,-16.5,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,NEW VISTA,False,331,324,-7,-2.1,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,PEAK TO PEAK 9-12,False,589,591,2,0.3,False,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,TOTAL SENIOR,False,10315,10314,-1,0.0,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,General Fund Senior Total,False,9545,9530,-15,-0.2,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,high,Charter Fund Senior Total,False,770,784,14,1.8,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,secondary,TOTAL SECONDARY,False,17679,17516,-163,-0.9,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,district,GRAND TOTAL,False,30210,29982,-228,-0.8,True,True
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,district,General Fund Grand Total,False,27875,27622,,,True,False
+2019,enrollment_update_06_compare_projection_to_head_count_2019-12-10.txt,2019-12-10,2,4/15/2019,10/2/2019,district,Charter Fund Grand Total,False,2335,2360,,,True,False
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,ASPEN CREEK K-5,False,362,359,-3,-0.8,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,BEAR CREEK,False,335,345,10,3.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,BIRCH,False,311,305,-6,-1.9,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,BCSIS,False,298,285,-13,-4.4,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,BOULDER UNIVERSAL,False,72,89,17,23.6,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,BU LINK,False,78,100,22,28.2,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,COAL CREEK,False,347,371,24,6.9,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,COLUMBINE,False,382,354,-28,-7.3,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,CREEKSIDE,False,344,299,-45,-13.1,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,CREST VIEW,False,473,444,-29,-6.1,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,DOUGLASS,False,311,288,-23,-7.4,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,EISENHOWER,False,378,345,-33,-8.7,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,ELDORADO K-5,False,340,289,-51,-15.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,EMERALD,False,371,337,-34,-9.2,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,FIRESIDE,False,409,413,4,1.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,FLATIRONS,False,179,181,2,1.1,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,FOOTHILL,False,426,431,5,1.2,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,GOLD HILL,False,21,17,-4,-19.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,HALCYON,True,3,0,-3,-100.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,HEATHERWOOD,False,225,235,10,4.4,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,HIGH PEAKS,False,293,255,-38,-13.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,HORIZONS ALTERN.,False,233,232,-1,-0.4,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,JAMESTOWN,False,17,20,3,17.6,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,KOHL,False,312,288,-24,-7.7,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,LAFAYETTE,False,429,446,17,4.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,LOUISVILLE,False,452,446,-6,-1.3,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,MEADOWLARK K-5,False,488,444,-44,-9.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,MESA,False,240,247,7,2.9,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,MONARCH K-5,False,334,286,-48,-14.4,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,MONTESSORI SCHOOL,False,228,211,-17,-7.5,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,NEDERLAND,False,188,179,-9,-4.8,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,PEAK TO PEAK K-5,False,450,453,3,0.7,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,PIONEER,False,424,426,2,0.5,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,RYAN,False,478,446,-32,-6.7,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,SANCHEZ,False,259,285,26,10.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,SUPERIOR,False,431,452,21,4.9,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,UNIVERSITY HILL,False,407,395,-12,-2.9,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,WHITTIER,False,329,323,-6,-1.8,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,TOTAL ELEMENTARY,False,11657,11321,-336,-2.9,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,General Fund Elem Total,False,10974,10636,-338,-3.1,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,1,3/4/2021,10/2/2021,elementary,Charter Fund Elem Total,False,683,685,2,0.3,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,ANGEVINE,False,644,647,3,0.5,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,ASPEN CREEK 6-8,False,373,333,-40,-10.7,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,BOULDER UNIVERSAL,False,71,74,3,4.2,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,BU LINK,False,68,59,-9,-13.2,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,BROOMFIELD HEIGHTS,False,524,506,-18,-3.4,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,CASEY,False,559,495,-64,-11.4,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,CENTENNIAL,False,573,589,16,2.8,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,ELDORADO 6-8,False,360,343,-17,-4.7,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,HALCYON 6-8,True,6,0,-6,-100.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,HORIZONS ALTERN.,False,115,116,1,0.9,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,JUSTICE HIGH 6-8,False,3,0,-3,-100.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,LOUISVILLE,False,592,588,-4,-0.7,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,MANHATTAN,False,487,427,-60,-12.3,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,MEADOWLARK 6-8,False,189,167,-22,-11.6,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,MONARCH 6-8,False,378,362,-16,-4.2,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,NEDERLAND 6-8,False,97,105,8,8.2,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,PEAK TO PEAK 6-8,False,406,405,-1,-0.2,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,PLATT,False,490,451,-39,-8.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,SOUTHERN HILLS,False,505,478,-27,-5.3,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,SUMMIT,False,354,356,2,0.6,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,TOTAL MIDDLE,False,6794,6501,-293,-4.3,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,General Fund Middle Total,False,5916,5624,-292,-4.9,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,middle,Charter Fund Middle Total,False,878,877,-1,-0.1,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,ARAPAHOE RIDGE,False,105,129,24,22.9,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,BOULDER,False,2078,2124,46,2.2,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,BOULDER PREP,False,95,97,2,2.1,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,BOULDER UNIVERSAL,False,144,203,59,41.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,BROOMFIELD,False,1539,1597,58,3.8,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,CENTAURUS,False,1558,1566,8,0.5,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,FAIRVIEW,False,2034,1967,-67,-3.3,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,HALCYON 9-12,True,10,0,-10,-100.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,JUSTICE HIGH 9-12,False,79,82,3,3.8,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,MONARCH,False,1538,1507,-31,-2.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,NEDERLAND,False,110,120,10,9.1,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,NEW VISTA,False,311,283,-28,-9.0,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,PEAK TO PEAK 9-12,False,589,590,1,0.2,False,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,TOTAL SENIOR,False,10190,10265,75,0.7,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,General Fund Senior Total,False,9427,9496,69,0.7,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,high,Charter Fund Senior Total,False,763,769,6,0.8,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,secondary,TOTAL SECONDARY,False,16984,16766,-218,-1.3,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,district,GRAND TOTAL,False,28641,28087,-554,-1.9,True,True
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,district,General Fund Grand Total,False,26317,25756,,,True,False
+2021,enrollment_update_06_compare_projection_to_head_count_2021-12-14.txt,2021-12-14,2,3/4/2021,10/2/2021,district,Charter Fund Grand Total,False,2324,2331,,,True,False
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,ASPEN CREEK K-5,False,354,378,24,6.8,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,BEAR CREEK,False,336,342,6,1.8,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,BIRCH,False,306,309,3,1.0,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,BCSIS,False,294,284,-10,-3.4,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,BOULDER UNIVERSAL,False,36,33,-3,-8.3,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,COAL CREEK,False,373,330,-43,-11.5,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,COLUMBINE,False,357,359,2,0.6,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,CREEKSIDE,False,316,337,21,6.6,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,CREST VIEW,False,459,434,-25,-5.4,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,DOUGLASS,False,304,298,-6,-2.0,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,EISENHOWER,False,358,303,-55,-15.4,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,ELDORADO K-5,False,312,287,-25,-8.0,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,EMERALD,False,350,367,17,4.9,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,FIRESIDE,False,423,384,-39,-9.2,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,FLATIRONS,False,197,181,-16,-8.1,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,FOOTHILL,False,438,437,-1,-0.2,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,GOLD HILL,False,16,15,-1,-6.3,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,HALCYON,True,2,2,0,0.0,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,HEATHERWOOD,False,237,233,-4,-1.7,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,HIGH PEAKS,False,258,265,7,2.7,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,HORIZONS ALTERN.,False,233,230,-3,-1.3,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,JAMESTOWN,False,20,17,-3,-15.0,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,KOHL,False,279,267,-12,-4.3,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,LAFAYETTE,False,455,432,-23,-5.1,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,LOUISVILLE,False,455,451,-4,-0.9,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,MEADOWLARK K-5,False,481,475,-6,-1.2,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,MESA,False,264,246,-18,-6.8,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,MONARCH K-5,False,309,286,-23,-7.4,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,MONTESSORI SCHOOL,False,215,224,9,4.2,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,NEDERLAND,False,193,170,-23,-11.9,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,PEAK TO PEAK K-5,False,450,449,-1,-0.2,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,PIONEER,False,426,401,-25,-5.9,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,RYAN,False,465,416,-49,-10.5,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,SANCHEZ,False,304,302,-2,-0.7,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,SUPERIOR,False,442,420,-22,-5.0,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,UNIVERSITY HILL,False,386,377,-9,-2.3,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,WHITTIER,False,323,329,6,1.9,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,TOTAL ELEMENTARY,False,11426,11070,-356,-3.1,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,General Fund Elem Total,False,10743,10391,-352,-3.3,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,1,3/4/2022,10/3/2022,elementary,Charter Fund Elem Total,False,683,679,-4,-0.6,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,ANGEVINE,False,667,654,-13,-1.9,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,ASPEN CREEK 6-8,False,339,334,-5,-1.5,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,BOULDER UNIVERSAL,False,49,39,-10,-20.4,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,BROOMFIELD HEIGHTS,False,482,485,3,0.6,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,CASEY,False,486,450,-36,-7.4,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,CENTENNIAL,False,580,566,-14,-2.4,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,ELDORADO 6-8,False,311,303,-8,-2.6,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,HALCYON 6-8,True,6,7,1,16.7,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,HORIZONS ALTERN.,False,115,118,3,2.6,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,JUSTICE HIGH 6-8,False,2,7,5,250.0,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,LOUISVILLE,False,604,595,-9,-1.5,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,MANHATTAN,False,402,399,-3,-0.7,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,MEADOWLARK 6-8,False,173,188,15,8.7,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,MONARCH 6-8,False,382,383,1,0.3,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,NEDERLAND 6-8,False,102,108,6,5.9,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,PEAK TO PEAK 6-8,False,405,405,0,0.0,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,PLATT,False,426,464,38,8.9,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,SOUTHERN HILLS,False,457,454,-3,-0.7,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,SUMMIT,False,360,356,-4,-1.1,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,TOTAL MIDDLE,False,6348,6315,-33,-0.5,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,General Fund Middle Total,False,5466,5429,-37,-0.7,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,middle,Charter Fund Middle Total,False,882,886,4,0.5,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,ARAPAHOE RIDGE,False,116,181,65,56.0,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,BOULDER,False,2045,2059,14,0.7,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,BOULDER PREP,False,95,108,13,13.7,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,BOULDER UNIVERSAL,False,141,124,-17,-12.1,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,BROOMFIELD,False,1601,1627,26,1.6,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,CENTAURUS,False,1578,1508,-70,-4.4,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,FAIRVIEW,False,1943,1873,-70,-3.6,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,HALCYON 9-12,True,7,15,8,114.3,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,JUSTICE HIGH 9-12,False,82,94,12,14.6,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,MONARCH,False,1512,1515,3,0.2,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,NEDERLAND,False,116,128,12,10.3,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,NEW VISTA,False,280,309,29,10.4,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,PEAK TO PEAK 9-12,False,590,596,6,1.0,False,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,TOTAL SENIOR,False,10106,10137,31,0.3,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,General Fund Senior Total,False,9339,9339,0,0.0,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,high,Charter Fund Senior Total,False,767,798,31,4.0,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,secondary,TOTAL SECONDARY,False,16454,16452,-2,0.0,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,district,GRAND TOTAL,False,27880,27522,-358,-1.3,True,True
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,district,General Fund Grand Total,False,25548,25159,,,True,False
+2022,10_compare_projection_to_head_count_2023-01-10.txt,2023-01-10,2,3/4/2022,10/3/2022,district,Charter Fund Grand Total,False,2332,2363,,,True,False
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,ASPEN CREEK K-5,False,382,420,38,9.9,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,BEAR CREEK,False,317,298,-19,-6.0,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,BIRCH,False,297,279,-18,-6.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,BCSIS,False,277,265,-12,-4.3,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,BOULDER UNIVERSAL,False,24,41,17,70.8,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,COAL CREEK,False,318,305,-13,-4.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,COLUMBINE,False,336,352,16,4.8,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,CREEKSIDE,False,348,333,-15,-4.3,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,CREST VIEW,False,411,410,-1,-0.2,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,DOUGLASS,False,278,286,8,2.9,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,EISENHOWER,False,293,311,18,6.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,ELDORADO K-5,False,280,263,-17,-6.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,EMERALD,False,352,356,4,1.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,FIRESIDE,False,378,396,18,4.8,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,FLATIRONS,False,172,164,-8,-4.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,FOOTHILL,False,413,437,24,5.8,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,GOLD HILL,False,11,12,1,9.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,HALCYON,True,2,3,1,50.0,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,HEATHERWOOD,False,218,226,8,3.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,HIGH PEAKS,False,266,245,-21,-7.9,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,HORIZONS ALTERN.,False,230,242,12,5.2,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,JAMESTOWN,False,19,18,-1,-5.3,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,KOHL,False,252,251,-1,-0.4,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,LAFAYETTE,False,445,444,-1,-0.2,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,LOUISVILLE,False,438,422,-16,-3.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,MEADOWLARK K-5,False,482,464,-18,-3.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,MESA,False,239,233,-6,-2.5,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,MONARCH K-5,False,296,274,-22,-7.4,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,MONTESSORI SCHOOL,False,228,227,-1,-0.4,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,NEDERLAND,False,163,165,2,1.2,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,PEAK TO PEAK K-5,False,449,447,-2,-0.4,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,PIONEER,False,401,415,14,3.5,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,RYAN,False,426,426,0,0.0,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,SANCHEZ,False,299,285,-14,-4.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,SUPERIOR,False,428,429,1,0.2,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,UNIVERSITY HILL,False,371,372,1,0.3,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,WHITTIER,False,313,291,-22,-7.0,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,TOTAL ELEMENTARY,False,10852,10807,-45,-0.4,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,General Fund Elem Total,False,10173,10118,-55,-0.5,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,1,4/10/2023,10/2/2023,elementary,Charter Fund Elem Total,False,679,689,10,1.5,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,ANGEVINE,False,659,607,-52,-7.9,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,ASPEN CREEK 6-8,False,327,315,-12,-3.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,BOULDER UNIVERSAL,False,27,52,25,92.6,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,BROOMFIELD HEIGHTS,False,470,496,26,5.5,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,CASEY,False,429,390,-39,-9.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,CENTENNIAL,False,594,619,25,4.2,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,ELDORADO 6-8,False,282,262,-20,-7.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,HALCYON 6-8,True,7,4,-3,-42.9,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,HORIZONS ALTERN.,False,118,117,-1,-0.8,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,JUSTICE HIGH 6-8,False,3,10,7,233.3,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,LOUISVILLE,False,578,608,30,5.2,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,MANHATTAN,False,406,416,10,2.5,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,MEADOWLARK 6-8,False,203,220,17,8.4,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,MONARCH 6-8,False,397,411,14,3.5,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,NEDERLAND 6-8,False,102,109,7,6.9,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,PEAK TO PEAK 6-8,False,405,406,1,0.2,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,PLATT,False,472,504,32,6.8,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,SOUTHERN HILLS,False,461,492,31,6.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,SUMMIT,False,357,361,4,1.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,TOTAL MIDDLE,False,6297,6399,102,1.6,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,General Fund Middle Total,False,5414,5505,91,1.7,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,middle,Charter Fund Middle Total,False,883,894,11,1.2,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,ARAPAHOE RIDGE,False,151,211,60,39.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,BOULDER,False,2010,1995,-15,-0.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,BOULDER PREP,False,108,107,-1,-0.9,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,BOULDER UNIVERSAL,False,89,128,39,43.8,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,BROOMFIELD,False,1635,1686,51,3.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,CENTAURUS,False,1533,1544,11,0.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,FAIRVIEW,False,1844,1843,-1,-0.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,HALCYON 9-12,True,15,10,-5,-33.3,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,JUSTICE HIGH 9-12,False,80,93,13,16.3,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,MONARCH,False,1429,1428,-1,-0.1,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,NEDERLAND,False,126,110,-16,-12.7,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,NEW VISTA,False,317,313,-4,-1.3,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,PEAK TO PEAK 9-12,False,591,599,8,1.4,False,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,TOTAL SENIOR,False,9928,10067,139,1.4,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,General Fund Senior Total,False,9149,9268,119,1.3,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,high,Charter Fund Senior Total,False,779,799,20,2.6,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,secondary,TOTAL SECONDARY,False,16225,16466,241,1.5,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,district,GRAND TOTAL,False,27077,27273,196,0.7,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,district,General Fund Grand Total,False,24736,24891,155,0.6,True,True
+2023,10_compare_projection_to_head_count_2023-12-12.txt,2023-12-12,2,4/10/2023,10/2/2023,district,Charter Fund Grand Total,False,2341,2382,41,1.8,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,ASPEN CREEK K-5,False,452,443,-9,-2.0,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,BEAR CREEK,False,296,318,22,7.4,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,BIRCH,False,270,254,-16,-5.9,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,BCSIS,False,260,275,15,5.8,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,BOULDER UNIVERSAL,False,44,46,2,4.5,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,COAL CREEK,False,277,283,6,2.2,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,COLUMBINE,False,324,343,19,5.9,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,CREEKSIDE,False,322,327,5,1.6,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,CREST VIEW,False,386,390,4,1.0,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,DOUGLASS,False,271,282,11,4.1,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,EISENHOWER,False,280,276,-4,-1.4,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,ELDORADO K-5,False,251,256,5,2.0,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,EMERALD,False,343,348,5,1.5,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,FIRESIDE,False,386,397,11,2.8,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,FLATIRONS,False,162,163,1,0.6,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,FOOTHILL,False,415,418,3,0.7,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,GOLD HILL,False,13,10,-3,-23.1,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,HALCYON,True,3,1,-2,-66.7,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,HEATHERWOOD,False,226,233,7,3.1,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,HIGH PEAKS,False,257,257,0,0.0,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,HORIZONS ALTERN.,False,252,238,-14,-5.6,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,JAMESTOWN,False,18,17,-1,-5.6,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,KOHL,False,245,254,9,3.7,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,LAFAYETTE,False,468,465,-3,-0.6,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,LOUISVILLE,False,410,417,7,1.7,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,MEADOWLARK K-5,False,461,468,7,1.5,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,MESA,False,218,230,12,5.5,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,MONARCH K-5,False,271,264,-7,-2.6,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,MONTESSORI SCHOOL,False,238,232,-6,-2.5,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,NEDERLAND,False,164,172,8,4.9,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,PEAK TO PEAK K-5,False,447,445,-2,-0.4,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,PIONEER,False,404,397,-7,-1.7,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,RYAN,False,410,410,0,0.0,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,SANCHEZ,False,293,290,-3,-1.0,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,SUPERIOR,False,417,416,-1,-0.2,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,UNIVERSITY HILL,False,361,380,19,5.3,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,WHITTIER,False,273,267,-6,-2.2,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,TOTAL ELEMENTARY,False,10588,10682,94,0.9,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,General Fund Elem Total,False,9889,9999,110,1.1,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,1,4/10/2024,10/2/2024,elementary,Charter Fund Elem Total,False,699,683,-16,-2.3,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,ANGEVINE,False,624,616,-8,-1.3,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,ASPEN CREEK 6-8,False,345,371,26,7.5,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,BOULDER UNIVERSAL,False,47,49,2,4.3,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,BROOMFIELD HEIGHTS,False,518,488,-30,-5.8,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,CASEY,False,369,360,-9,-2.4,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,CENTENNIAL,False,563,593,30,5.3,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,ELDORADO 6-8,False,251,240,-11,-4.4,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,HALCYON 6-8,True,4,7,3,75.0,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,HORIZONS ALTERN.,False,123,120,-3,-2.4,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,JUSTICE HIGH 6-8,False,9,10,1,11.1,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,LOUISVILLE,False,605,627,22,3.6,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,MANHATTAN,False,452,480,28,6.2,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,MEADOWLARK 6-8,False,229,226,-3,-1.3,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,MONARCH 6-8,False,409,398,-11,-2.7,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,NEDERLAND 6-8,False,99,99,0,0.0,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,PEAK TO PEAK 6-8,False,403,403,0,0.0,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,PLATT,False,497,483,-14,-2.8,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,SOUTHERN HILLS,False,481,501,20,4.2,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,SUMMIT,False,367,366,-1,-0.3,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,TOTAL MIDDLE,False,6395,6437,42,0.7,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,General Fund Middle Total,False,5493,5538,45,0.8,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,middle,Charter Fund Middle Total,False,902,899,-3,-0.3,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,ARAPAHOE RIDGE,False,201,182,-19,-9.5,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,BOULDER,False,1971,1934,-37,-1.9,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,BOULDER PREP,False,95,106,11,11.6,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,BOULDER UNIVERSAL,False,112,133,21,18.8,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,BROOMFIELD,False,1678,1692,14,0.8,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,CENTAURUS,False,1543,1544,1,0.1,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,FAIRVIEW,False,1796,1854,58,3.2,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,HALCYON 9-12,True,12,9,-3,-25.0,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,JUSTICE HIGH 9-12,False,79,96,17,21.5,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,MONARCH,False,1387,1426,39,2.8,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,NEDERLAND,False,117,113,-4,-3.4,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,NEW VISTA,False,316,326,10,3.2,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,PEAK TO PEAK 9-12,False,595,598,3,0.5,False,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,TOTAL SENIOR,False,9902,10013,111,1.1,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,General Fund Senior Total,False,9133,9213,80,0.9,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,high,Charter Fund Senior Total,False,769,800,31,4.0,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,secondary,TOTAL SECONDARY,False,16297,16450,153,0.9,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,district,GRAND TOTAL,False,26885,27132,247,0.9,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,district,General Fund Grand Total,False,24515,24750,235,1.0,True,True
+2024,10_compare_projection_to_head_count_2024-12-10.txt,2024-12-10,2,4/10/2024,10/2/2024,district,Charter Fund Grand Total,False,2370,2382,12,0.5,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,ASPEN CREEK K-5,False,462,472,10,2.2,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,BEAR CREEK,False,308,312,4,1.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,BIRCH,False,269,259,-10,-3.7,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,BCSIS,False,247,253,6,2.4,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,BOULDER UNIVERSAL,False,43,39,-4,-9.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,COAL CREEK,False,268,269,1,0.4,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,COLUMBINE,False,347,313,-34,-9.8,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,CREEKSIDE,False,310,288,-22,-7.1,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,CREST VIEW,False,362,330,-32,-8.8,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,DOUGLASS,False,272,281,9,3.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,EISENHOWER,False,267,265,-2,-0.7,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,ELDORADO K-5,False,250,252,2,0.8,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,EMERALD,False,353,365,12,3.4,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,FIRESIDE,False,396,405,9,2.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,FLATIRONS,False,165,151,-14,-8.5,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,FOOTHILL,False,422,434,12,2.8,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,GOLD HILL,False,10,11,1,10.0,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,HALCYON,True,2,4,2,100.0,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,HEATHERWOOD,False,228,225,-3,-1.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,HIGH PEAKS,False,262,283,21,8.0,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,HORIZONS ALTERN.,False,255,245,-10,-3.9,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,JAMESTOWN,False,16,17,1,6.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,KOHL,False,247,256,9,3.6,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,LAFAYETTE,False,464,450,-14,-3.0,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,LOUISVILLE,False,407,382,-25,-6.1,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,MEADOWLARK K-5,False,453,471,18,4.0,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,MESA,False,230,224,-6,-2.6,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,MONARCH K-5,False,257,264,7,2.7,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,MONTESSORI SCHOOL,False,232,193,-39,-16.8,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,NEDERLAND,False,177,166,-11,-6.2,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,PEAK TO PEAK K-5,False,445,450,5,1.1,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,PIONEER,False,388,371,-17,-4.4,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,RYAN,False,406,393,-13,-3.2,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,SANCHEZ,False,306,276,-30,-9.8,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,SUPERIOR,False,419,433,14,3.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,UNIVERSITY HILL,False,373,368,-5,-1.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,WHITTIER,False,252,257,5,2.0,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,TOTAL ELEMENTARY,False,10570,10427,-143,-1.4,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,General Fund Elem Total,False,9870,9732,-138,-1.4,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,1,1/23/2025,10/1/2025,elementary,Charter Fund Elem Total,False,700,695,-5,-0.7,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,ANGEVINE,False,634,588,-46,-7.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,ASPEN CREEK 6-8,False,380,409,29,7.6,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,BOULDER UNIVERSAL,False,38,33,-5,-13.2,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,BROOMFIELD HEIGHTS,False,470,481,11,2.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,CASEY,False,344,319,-25,-7.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,CENTENNIAL,False,599,559,-40,-6.7,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,ELDORADO 6-8,False,203,167,-36,-17.7,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,HALCYON 6-8,True,6,4,-2,-33.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,HORIZONS ALTERN.,False,129,123,-6,-4.7,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,JUSTICE HIGH 6-8,False,9,6,-3,-33.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,LOUISVILLE,False,612,625,13,2.1,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,MANHATTAN,False,472,452,-20,-4.2,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,MEADOWLARK 6-8,False,256,238,-18,-7.0,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,MONARCH 6-8,False,406,423,17,4.2,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,NEDERLAND 6-8,False,98,91,-7,-7.1,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,PEAK TO PEAK 6-8,False,403,404,1,0.2,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,PLATT,False,480,487,7,1.5,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,SOUTHERN HILLS,False,515,558,43,8.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,SUMMIT,False,366,365,-1,-0.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,TOTAL MIDDLE,False,6420,6332,-88,-1.4,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,General Fund Middle Total,False,5513,5434,-79,-1.4,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,middle,Charter Fund Middle Total,False,907,898,-9,-1.0,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,ARAPAHOE RIDGE,False,181,177,-4,-2.2,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,BOULDER,False,1894,1774,-120,-6.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,BOULDER PREP,False,100,88,-12,-12.0,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,BOULDER UNIVERSAL,False,129,152,23,17.8,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,BROOMFIELD,False,1650,1669,19,1.2,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,CENTAURUS,False,1556,1556,0,0.0,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,FAIRVIEW,False,1844,1859,15,0.8,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,HALCYON 9-12,True,9,11,2,22.2,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,JUSTICE HIGH 9-12,False,86,89,3,3.5,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,MONARCH,False,1434,1467,33,2.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,NEDERLAND,False,109,101,-8,-7.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,NEW VISTA,False,312,311,-1,-0.3,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,PEAK TO PEAK 9-12,False,597,594,-3,-0.5,False,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,TOTAL SENIOR,False,9901,9848,-53,-0.5,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,General Fund Senior Total,False,9118,9077,-41,-0.4,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,high,Charter Fund Senior Total,False,783,771,-12,-1.5,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,secondary,TOTAL SECONDARY,False,16321,16180,-141,-0.9,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,district,GRAND TOTAL,False,26891,26607,-284,-1.1,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,district,General Fund Grand Total,False,24501,24243,-258,-1.1,True,True
+2025,07_compare_projection_to_head_count_2025-12-09.txt,2025-12-09,2,1/23/2025,10/1/2025,district,Charter Fund Grand Total,False,2390,2364,-26,-1.1,True,True

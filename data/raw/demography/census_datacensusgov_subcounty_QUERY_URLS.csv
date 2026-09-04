@@ -1,0 +1,14 @@
+file,table,geo,url,rows,cols,retrieved_utc
+census_dhc2020_tract_boulder_county_P14_sex_by_single_year_age_under20,DECENNIALDHC2020.P14,050XX00US08013$1400000,https://data.census.gov/api/access/data/table?id=DECENNIALDHC2020.P14&g=050XX00US08013$1400000,78,88,2026-09-04T02:29:36Z
+census_dhc2020_blockgroup_boulder_county_P14_sex_by_single_year_age_under20,DECENNIALDHC2020.P14,050XX00US08013$1500000,https://data.census.gov/api/access/data/table?id=DECENNIALDHC2020.P14&g=050XX00US08013$1500000,228,88,2026-09-04T02:29:39Z
+census_dhc2020_blockgroup_boulder_county_P12_sex_by_age,DECENNIALDHC2020.P12,050XX00US08013$1500000,https://data.census.gov/api/access/data/table?id=DECENNIALDHC2020.P12&g=050XX00US08013$1500000,228,100,2026-09-04T02:29:42Z
+census_acs5_2020_2024_blockgroup_boulder_county_B01001_sex_by_age,ACSDT5Y2024.B01001,050XX00US08013$1500000,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B01001&g=050XX00US08013$1500000,228,198,2026-09-04T02:29:46Z
+census_acs5_2020_2024_place_boulder_city_B01001_sex_by_age,ACSDT5Y2024.B01001,160XX00US0807850,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B01001&g=160XX00US0807850,1,198,2026-09-04T02:29:48Z
+census_acs5_2020_2024_place_boulder_city_B01002_median_age,ACSDT5Y2024.B01002,160XX00US0807850,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B01002&g=160XX00US0807850,1,14,2026-09-04T02:29:50Z
+census_acs5_2020_2024_place_boulder_city_B11005_households_with_under18,ACSDT5Y2024.B11005,160XX00US0807850,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B11005&g=160XX00US0807850,1,78,2026-09-04T02:29:54Z
+census_acs5_2020_2024_place_boulder_city_B25003_tenure,ACSDT5Y2024.B25003,160XX00US0807850,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B25003&g=160XX00US0807850,1,14,2026-09-04T02:29:57Z
+census_dhc2020_place_boulder_city_P14_sex_by_single_year_age_under20,DECENNIALDHC2020.P14,160XX00US0807850,https://data.census.gov/api/access/data/table?id=DECENNIALDHC2020.P14&g=160XX00US0807850,1,88,2026-09-04T02:30:05Z
+census_sf12010_place_boulder_city_P14_sex_by_single_year_age_under20,DECENNIALSF12010.P14,160XX00US0807850,https://data.census.gov/api/access/data/table?id=DECENNIALSF12010.P14&g=160XX00US0807850,1,45,2026-09-04T02:30:11Z
+census_dhc2020_county_boulder_P14_sex_by_single_year_age_under20,DECENNIALDHC2020.P14,050XX00US08013,https://data.census.gov/api/access/data/table?id=DECENNIALDHC2020.P14&g=050XX00US08013,1,88,2026-09-04T02:30:12Z
+census_sf12010_county_boulder_P14_sex_by_single_year_age_under20,DECENNIALSF12010.P14,050XX00US08013,https://data.census.gov/api/access/data/table?id=DECENNIALSF12010.P14&g=050XX00US08013,1,45,2026-09-04T02:30:27Z
+census_sf12010_tract_boulder_county_P14_sex_by_single_year_age_under20,DECENNIALSF12010.P14,050XX00US08013$1400000,https://data.census.gov/api/access/data/table?id=DECENNIALSF12010.P14&g=050XX00US08013$1400000,68,45,2026-09-04T02:30:30Z

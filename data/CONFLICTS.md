@@ -72,5 +72,48 @@ Record both sides; do not resolve silently. Updated 2026-09-03 after the primary
 ## C19. Deck "current" enrollments vs official October 2025 count
 - Birch 259 (deck p. 25, Feb 2026 p. 9) vs 261 (pupil-count file); Fireside 405 vs 406; Aspen Creek 472 (table) vs 473. Basis of the January update not stated.
 
+## C20. Three definitions of "resident students" for Bear Creek and Mesa, 2025-26 (added 2026-09-03)
+- **Enrollment Pattern Matrix, 12/5/2025** (P18, `oe_matrix_area_totals_south_boulder.csv`): residents living in the Bear Creek area proper 162, Mesa area proper 176, Optional Bear Creek/Creekside 27, Optional Bear Creek/Mesa 137; the four areas together **502**.
+- **Deck p. 51**: Bear Creek 275, Mesa 228, total **503**. The total matches the matrix's four areas within one student, so the deck appears to allocate the two optional areas between the schools (275 − 162 − 27 = 86 and 228 − 176 = 52 of the 137 Optional Bear Creek/Mesa residents, i.e. by school attended or by some other rule); no document states the rule.
+- **School Profile Report, 12/17/2025** (P19): "Neighborhood Students" Bear Creek 264, Mesa 220, total **484**. Definition not stated in the book; it is neither the matrix's area-proper count nor the deck's.
+- **Deck p. 44** (chart, by eye): 2030 projected residents about 268 + 177 ≈ 445 (C13).
+- Consequence: any capture rate must name its denominator. The appendix's 74% (373/503) used p. 44 numerators over p. 51 denominators; the matrix gives own-school capture 372/502 = 74% and **combined-area capture 415/502 = 83%** on one consistent definition.
+
+## C21. School Profile books disagree with each other for overlapping years
+- Each book prints ten years; the same school-year appears in up to three books. For Bear Creek and Mesa, 51 of 598 field-years differ across books (`scripts/parse_school_profiles.py` output), e.g. Bear Creek "Neighborhood Population" 2012-13: 229 (one book) vs 384 (another); 2015-16: 433 vs 456; Mesa 2009-10: 264 vs 327. Some rows also lost blank cells in the text layer (`row_complete=False`). Until checked by eye, use the most recent book for each year and treat pre-2016 values as approximate. The 2016-17 … 2025-26 series (2025 book) is internally clean.
+
+## C22. Open-enrollment counts: matrix vs profile, 2025-26
+- Matrix (12/5/2025): Bear Creek OE-in from district 70, out-of-district 13, placements 13; Mesa 48 / 10 / 10. Profile (12/17/2025): Bear Creek BVSD OE-In 73, Out of District 13, Placements-In 13; Mesa OE-In 53 / 10 / 11. Twelve days apart and small differences (3–5 students); the profile is labelled "K-12" and may include preschool placements. Use the matrix for the decomposition (it is the one with a residence breakdown) and cite the date.
+
+## C23. Combined-area resident history vs the deck's resident projection
+- Matrix column totals (P18): residents of the four areas that form the proposed combined attendance area fell 733 (2017-18), 706, 688, 592, 592, 583, 535, 526, **502** (2025-26): −32% in eight years, −6% in the last two. Deck p. 51 projects 503 → 473 (2027-28) → **522** (2030-31), a rise of 10% over three years after the dip. No document gives the basis for the reversal. (This extends C13/C18 with the district's own resident history.)
+
+## C24. January 2026 projection for 2026-27 vs the district's own August 2026 count
+- Feb 2026 report p. 9 (Jan 2026 run) projects 2026-27: Bear Creek 299, Mesa 217, sum 516. The Student Enrollment Center's Aug 28, 2026 count (P20): Bear Creek **330**, Mesa **204**, sum **534**; Bear Creek 10% above its projection, Mesa 6% below, the pair 3.5% above. Preliminary (the official count is October 1); the district-wide elementary total on the same date (10,272) was 1.5% below October 2025. Not a conflict between documents; recorded here because the appendix's conditional-approval trigger (combined October 2026 count above 516) is already met on the preliminary count.
+
+## C25. Boulder County births: three publishers, two period definitions (added 2026-09-03)
+- SDO (D1) and the Census Bureau (D3) count births July–June; CDPHE (D4, D5) counts calendar years. Single-year differences of up to about 5% are therefore expected (e.g. 2009: SDO 3,187, Census 3,437, CDPHE 3,235). SDO and Census diverge in 2023–24 (2,398 / 2,304 vs 2,422 / 2,424), and SDO's 2025 projection (2,351) is 5% below CDPHE's 2025 actual (2,465). Use one series consistently (recommendation: CDPHE calendar-year births, lagged five years to the fall kindergarten cohort, with SDO as the sensitivity) and state the county-vs-district caveat (Boulder County includes St. Vrain Valley territory).
+
+## C26. Press figures for the merged school: "up to 445" (Daily Camera) vs "up to 462" (Boulder Reporting Lab, deck)
+- Daily Camera, 2026-08-25 (N3): Mesa + Bear Creek "up to 445 students … up to 90% of capacity". Boulder Reporting Lab, 2026-08-25 (N2): "up to 462 students in 2030". Deck p. 51 carries both: 392–445 (80–90%) for 2027-28 and 403–462 (82–94%) for 2030-31. Not a conflict in the record; a caution that the two figures circulate for different years.
+
+## C27. "$494M budget" denominator — RESOLVED
+- The figure circulated by savedouglass.com is the FY2025-26 adopted budget's "Total Resources: $493.8M" (B2, p. 49), which includes the beginning fund balance. FY2025-26 expenditures were $379.4M; the FY2026-27 Uniform Budget Summary gives General Fund expenditures of $410,202,100 (B1). Any share-of-budget statement should use an expenditure figure and name the year.
+
+## C28. Class-size guideline: assumed 25 (report) vs published figures
+- The report's sections analysis assumed a guideline of 25 (23 as sensitivity) because the FAQ names "district class-size guidelines" without a number. The FY2026-27 budget book (B1, p. 121) prints the elementary classroom-teacher staffing formula as 1 : 24.58, and the BVEA agreement (J2, §C-6) prints class-size goals of 26 (K–1), 29 (grades 2–3) and 31 (grades 4–5). The staffing formula governs how many teachers a school is allocated; the agreement's goals are ceilings for individual classes. Re-run the sections analysis on both, and say which the "3 classes per grade" design refers to (a question for staff).
+
+## C29. Quirks in the December enrollment packets (BD1), noted while parsing (2026-09-04)
+- The Dec 9, 2025 "Compare Projection to Head Count" table's second page is titled "Roll-up to Oct. 2024 Enrollment" while page 1 and the count date (10/1/2025) say 2025; the parser uses page 1's year.
+- The Jan 24, 2017 births table prints the date 10/15/2013 although it contains 2015 births; the meeting date is used for precedence between overlapping editions.
+- Births by area: the Lafayette row is lower in editions from Jan 2018 on because the Meadowlark area was split out (e.g. 2001: 235 → 150, Meadowlark 85); the "E County Total" row shows two different series across editions. Neither touches the Bear Creek, Mesa, BC-Mesa or BC-Creekside rows, which agree in every edition.
+- The projection in these tables is the district's spring "planning projection" (dated Feb–May of the same year; Jan 23 for 2025), a five-to-eight-month horizon, not the January run's twelve-month horizon; the report labels it accordingly.
+
+## C30. The district's Bear Creek path turns up in 2029-30; area births turned up in 2024
+- The January 2026 run's Bear Creek path is 299, 293, 288, 310, 320 (2026-27 … 2030-31), the first run to turn upward (C6). Kindergarten in 2029-30 corresponds to births in 2024; the district's own table shows births in the four South Boulder areas at 33 (2019), 45, 46, 57, 54 and **70 (2024)**, so the 2029-30 kindergarten cohort is the first from a birth year back at the pre-2015 level. This is consistent with the timing of the upturn and with the district's stated births-based method (Feb 2026 p. 7), but no document says so; recorded as a hypothesis the district can confirm, not a finding.
+
+## C31. Two "General Fund expenditure" figures for FY2026-27
+- Budget book (B1): General Fund proposed expenditures $386,231,155. CDE Uniform Budget Summary (B1): General Fund expenditures $410,202,100, because the state form folds sub-funds into Fund 10. The report quotes both and computes the package saving's share on each (0.9–1.0%). The book also prints General Fund FTE two ways (2,792.131 and 2,792.877).
+
 ## C9. Branch name — as before
 - Work is on `claude/bvsd-mesa-bear-creek-data-vdbcu6`, not `data-collection`.

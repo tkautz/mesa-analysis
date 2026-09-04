@@ -1,0 +1,56 @@
+--- page 1 ---
+COUNTY DATA
+BOULDER COUNTY
+KIDS COUNT IN COLORADO! 2021
+LNE = Low Number of Events
+N/A = Not Applicable
+NR = Not Reported
+BOULDER COLORADO
+POPULATION
+2019 Total Population 327,164 5,763,976
+2019 Child Population (Under 18) 61,385 1,260,379
+2019 Child Population as a Percentage of Total Population (Under 18) 18.8% 21.9%
+2019 Young Child Population (Under 5) 13,626 328,056
+2019 School-Aged Population (Ages 5-17) 47,759 932,323
+VULNERABLE FAMILIES
+2019 Births to Single Women 20.3% 23.6%
+2019 Births to Women without a High School Diploma or GED 8.6% 10.7%
+2019 Teen Births (rate per 1,000 female teens 15-19) 5.4 13.3
+2019 Three Risk Factor Births 3.0% 2.9%
+2019 Out-of-Home Placements (rate per 1,000) 4.6 7.6
+FAMILY ECONOMICS AND SUPPORTS
+Fall 2020 Children Qualifying for Free or Reduced Price Lunch 25.7% 40.2%
+Fall 2020 Children Qualifying for Free Lunch 20.7% 33.4%
+Fall 2020 Children Qualifying for Reduced Price Lunch 5.0% 6.8%
+2019 Median Household Income $88,341 $77,104
+2019 Children (Under 18) in Poverty 8.1% 11.2%
+2019 School-Aged Children (Ages 5-17) in Poverty 7.0% 10.7%
+2020 Children Receiving TANF Basic Cash Assistance Payments 2.4% 3.9%
+2020 Children Receiving WIC Program Vouchers 24.0% 28.8%
+2019-2020 Students Served by the McKinney-Vento Homeless Ed. Program 779 20,821
+CHILD AND MATERNAL HEALTH
+2019 Live Births 2,477 62,875
+2019 Low Weight Births 8.1% 9.5%
+2019 Births to Women Who Had Early Prenatal Care 83.1% 82.4%
+2019 Births to Women Smoking During Pregnancy 6.3% 5.1%
+2019 Child Abuse and Neglect (rate per 1,000) 4.4 9.7
+2019 Infant Mortality (rate per 1,000) 4.8 4.9
+2019 Child (Ages 1-14) Deaths (rate per 100,000) 6.5 14.2
+2019 Teen (Ages 15-19) Deaths (rate per 100,000) 35.4 57.5
+2019 Child (Ages 1-14) Injury Deaths (rate per 100,000) LNE 5.9
+2019 Teen (Ages 15-19) Injury Deaths (rate per 100,000) 23.6 46.4
+FY 19-20 Children (Ages 0-18) Enrolled in CHP+ 5.0% 6.4%
+FY 19-20 Children (Ages 0-18) Enrolled in Medicaid 28.4% 42.0%
+2019 Uninsured Children 5.4% 5.7%
+2019 Children Eligible for Medicaid, CHP+ or Subsidies but Not Enrolled 6.2% 7.3%
+EDUCATION
+Fall 2020 PK-12 Pupil Enrollment 60,552 883,199
+Fall 2020 Kindergarteners in a Full-Day Program 99.5% 97.7%
+Fall 2020 English Language Learners 10.0% 12.9%
+2019-2020 High School Graduation Rate 89.6% 81.9%
+2020 4th Grade Students Meeting or Exceeding Expectations in English Language Arts* * *
+2020 Students Meeting or Exceeding Expectations on CMAS Math* * *
+2020 Students Meeting or Exceeding Expectations on CMAS English Language Arts* * *
+2020 Students Meeting or Exceeding Expectations on CMAS Science* * *
+*Data for these indicators were unavailable because statewide assessments were cancelled in 2020 due to the COVID-19 pandemic.
+KIDS COUNT IN COLORADO! 2021

@@ -1,0 +1,276 @@
+
+
+This file contains Metadata for the ACS 2020 - 2024 5 Year Estimate shapefiles produced by the Colorado State Demography Office.
+ 
+ 
+Please direct all questions to:
+Todd Bleess
+Todd.bleess@state.co.us
+ 
+ 
+POP2024: Population Estimate for 2020-2024. B03002_001
+ 
+HISPANIC: Estimate for the Hispanic Population. B03002_012
+ 
+WHITE_NH: Estimate for the White, Non-Hispanic Population. B03002_003
+ 
+BLACK_NH: Estimate for the Black, Non-Hispanic Population. B03002_004
+ 
+NTVAM_NH: Estimate for the Native American, Non-Hispanic Population. B03002_005
+ 
+ASIAN_NH: Estimate for the Asian, Non-Hispanic Population. B03002_006
+ 
+HAWPI_NH: Estimate for the Hawaiian and Pacific Islander, Non-Hispanic Population. B03002_007
+ 
+OTHER_NH: Estimate for the population of those identifying with any other race (Non-Hispanic). B03002_008
+ 
+TWOPLUS_NH: Estimate for the population who identifies with more than one race (Non-Hispanic). B03002_009
+ 
+MALE: Estimate for the total male population. B01001_002
+ 
+FEMALE: Estimate for the total female population. B01001_026
+ 
+AGELESS10: Estimate for the total population less than 10 years of age (0 to 9). [B01001_003] + [B01001_004] + [B01001_027] + [B01001_028]
+ 
+AGELESS18: Estimate for the total population less than 18 years of age (0 to 17). [B01001_003] + [B01001_004] + [B01001_005] + [B01001_006] + [B01001_027] + [B01001_028] + [B01001_029] + [B01001_030]
+ 
+AGE18_24: Estimate for the total population from 18 to 24 years of age. [B01001_007] + [B01001_008] + [B01001_009] + [B01001_010] + [B01001_031] + [B01001_032] + [B01001_033] + [B01001_034]
+ 
+AGE25_34: Estimate for the total population from 25 to 34 years of age. [B01001_011] + [B01001_012] + [B01001_035] + [B01001_036]
+ 
+AGE35_44: Estimate for the total population from 35 to 44 years of age. [B01001_013] + [B01001_014] + [B01001_037] + [B01001_038]
+ 
+AGE45_64: Estimate for the total population from 45 to 64 years of age. [B01001_015] + [B01001_016] + [B01001_017] + [B01001_018] + [B01001_019] + [B01001_039] + [B01001_040] + [B01001_041] + [B01001_042] + [B01001_043]
+ 
+AGE65PLUS: Estimate for the total population 65 years old or over. [B01001_020] + [B01001_021] + [B01001_022] + [B01001_023] + [B01001_024] + [B01001_025] + [B01001_044] + [B01001_045] + [B01001_046] + [B01001_047] + [B01001_048] + [B01001_049]
+
+MED_AGE: Median Age. [B01002_001]
+ 
+AGE_0_9: Estimated total population from 0 to 9 years old. [B01001_003] + [B01001_004] + [B01001_027] + [B01001_028]
+ 
+AGE_10_19: Estimated total population from 10 to 19 years old. [B01001_005] + [B01001_006] + [B01001_007] + [B01001_029] + [B01001_030] + [B01001_031]
+ 
+AGE_20_29: Estimated total population from 20 to 29 years old. [B01001_008] + [B01001_009] + [B01001_010] + [B01001_011] + [B01001_032] + [B01001_033] + [B01001_034] + [B01001_035]
+ 
+AGE_30_39: Estimated total population from 30 to 39 years old. [B01001_012] + [B01001_013] + [B01001_036] + [B01001_037]
+ 
+AGE_40_49: Estimated total population from 40 to 49 years old. [B01001_014] + [B01001_015] + [B01001_038] + [B01001_039]
+ 
+AGE_50_59: Estimated total population from 50 to 59 years old. [B01001_016] + [B01001_017] + [B01001_040] + [B01001_041]
+ 
+AGE_60_69: Estimated total population from 60 to 69 years old. [B01001_018] + [B01001_019] + [B01001_020] + [B01001_021] + [B01001_042] + [B01001_043] + [B01001_044] + [B01001_045]
+ 
+AGE_70_79: Estimated total population from 70 to 79 years old. [B01001_022] + [B01001_023] + [B01001_046] + [B01001_047]
+ 
+AGE_80_PL: Estimated total population 80 years old or higher. [B01001_024] + [B01001_025] + [B01001_048] + [B01001_049]
+ 
+ 
+HOUSING_UN: Estimated total number of housing units. B25002_001
+ 
+OCC_HU: Estimated number of occupied housing units. B25002_002
+ 
+VAC_HU: Estimated number of vacant housing units. B25002_003
+ 
+OWNED: Estimated number of owner-occupied housing units. B25003_002
+ 
+RENTED: Estimated number of renter-occupied housing units. B25003_003
+ 
+NO_BDRMS: Estimated Number of housing units with no bedrooms. B25041_002
+ 
+BEDRM_1: Estimated Number of housing units with 1 bedroom. B25041_003
+ 
+BEDRM_2: Estimated Number of housing units with 2 bedrooms. B25041_004
+ 
+BEDRM_3: Estimated Number of housing units with 3 bedrooms. B25041_005
+ 
+BEDRM_4: Estimated Number of housing units with 4 bedrooms. B25041_006
+ 
+BEDRM_5_PL: Estimated Number of housing units with 5 bedrooms or more. B25041_007
+ 
+ 
+POP25PLUS: Estimated total population 25 years or older (universe for educational attainment). B15002_001
+ 
+NOHSDIPL: Estimated population 25 years or older that does not have a high school diploma or equivalent (GED) level of education.   [B15002_003] + [B15002_004] + [B15002_005] + [B15002_006] + [B15002_007] + [B15002_008] + [B15002_009] + [B15002_010] + [B15002_020] + [B15002_021] + [B15002_022] + [B15002_023] + [B15002_024] + [B15002_025] + [B15002_026] + [B15002_027]
+ 
+HSGRAD_SC: Estimated population 25 years or older that has a high school level of education (or equivalent) or higher education (some college) but did not achieve a bachelors degree or higher. [B15002_011] + [B15002_012] + [B15002_013] + [B15002_014] + [B15002_028] + [B15002_029] + [B15002_030] + [B15002_031]
+ 
+BACHL_HGHR: Estimated total population 25 years or older with a Bachelors Degree, Masters Degree, Phd or other Professional Degree. [B15002_015] + [B15002_016] + [B15002_017] + [B15002_018] + [B15002_032] + [B15002_033] + [B15002_034] + [B15002_035]
+ 
+MED_HH_INC: Estimated median household income.  B19013_001
+ 
+MED_FAM_IN: Estimated median family income. B19113_001
+ 
+PER_CAP_IN: Estimated per capita income. B19301_001
+ 
+PVRTY_UN: Estimated total population for whom poverty status can be determined. B17001_001
+ 
+IN_POVERTY: Estimated total population living in poverty. B17001_002
+ 
+ 
+ 
+MED_C_RENT: Estimated median contract rent. B25058_001
+ 
+MED_G_RENT: Estimated median gross rent. B25064_001
+ 
+RNT_OCC_HU: Estimated number of renter occupied housing units. B25063_001
+ 
+RNTL400: Estimated number of renter occupied housing units where the gross rent is less than $400. [B25063_003] + [B25063_004] + [B25063_005] + [B25063_006] + [B25063_007] + [B25063_008] + [B25063_009]
+ 
+R400T599: Estimated number of renter occupied housing units where the gross rent is from $400 to $599. [B25063_010] + [B25063_011] + [B25063_012] + [B25063_013]
+ 
+R600T799: Estimated number of renter occupied housing units where the gross rent is from $600 to $799. [B25063_014] + [B25063_015] + [B25063_016] + [B25063_017]
+ 
+R800T999: Estimated number of renter occupied housing units where the gross rent is from $800 to $999. [B25063_018] + [B25063_019]
+ 
+R1000T1249: Estimated number of renter occupied housing units where the gross rent is from $1,000 to $1,249. B25063_020
+ 
+R1250T1499: Estimated number of renter occupied housing units where the gross rent is from $1,250 to $1,499. B25063_021
+ 
+R1500T1999: Estimated number of renter occupied housing units where the gross rent is from $1,500 to $1,999. B25063_022
+ 
+R2000PL: Estimated number of renter occupied housing units where the gross rent is greater than $2000. B25063_023
+ 
+RNOCSHR: Estimated number of renter occupied housing units where the householder pays no cash rent.  B25063_024
+ 
+ 
+ 
+ 
+CITZ_BIRTH: Estimated total population that is a US Citizen by birth. [B05001_002] + [B05001_003] + [B05001_004]
+ 
+CITZ_NAT: Estimated total population that is a US Citizen by Naturalization. B05001_005
+ 
+NOT_CITZ: Estimated total population that is not a US Citizen. B05001_006
+ 
+ 
+BORN_IN_CO: Estimated total population that was born in Colorado. B06003_004
+ 
+BRN_OTH_ST: Estimated total population that was born in a state other than Colorado. B06003_007
+ 
+NTV_B_O_US: Estimated total population that was born outside of the US (In a US Territory Abroad). B06003_010
+ 
+FOREIGN_B: Estimated total population that was born in a foreign country. B06003_013
+ 
+ 
+POP_1P: Estimated total population 1 year old or more. B07003_001
+ 
+SAME_HOUSE: Estimated total population living in the same house as they did 1 year ago. B07003_004
+ 
+SAME_CNTY: Estimated total population living in the same county as they did 1 year ago. B07003_007
+ 
+SAME_STATE: Estimated total population living in the same state (Colorado) as they did 1 year ago (but a different county). B07003_010
+ 
+DIFF_STATE: Estimated total population living in a state other than Colorado 1 year ago. B07003_013
+ 
+FRM_ABROAD: Estimated total population living abroad 1 year ago. B07003_016
+ 
+ 
+WRKRS_16PL: Estimated total population age 16 years or older who worked in the past 12 months. B08006_001
+ 
+CAR_ALL: Estimated total working population 16+ who traveled to work by car. B08006_002
+ 
+- CAR_ALONE: Estimated total working population 16+ who traveled to work by car alone. B08006_003
+ 
+- CAR_CARPOO: Estimated total working population 16+ who traveled to work by car with others. B08006_004
+ 
+PUBLIC_TRN: Estimated total working population 16+ who took public transportation to work. B08006_008
+ 
+- PT_BUS: Estimated total working population 16+ who rode a bus to work. B08006_009
+ 
+- PT_OTHER: Estimated total working population 16+ who used any other form of public transportation (other than a bus) to work. [B08006_010] + [B08006_011] + [B08006_012] + [B08006_013]
+ 
+BIKE: Estimated total working population 16+ who rode a bike to work. B08006_014
+ 
+WALK: Estimated total working population 16+ who walked to work. B08006_015
+ 
+TR_OTHER: Estimated total working population 16+ who used any other form of transportation not mentioned previously. B08006_016
+ 
+WRK_HOME: Estimated total working population 16+ who worked from home. B08006_017
+ 
+ 
+W_16PL_NH: Estimated total working population 16+ who commuted to work. B08303_001
+ 
+T_LESS_10: Estimated total working population 16+ whose commute time was less than 10 minutes. [B08303_002] + [B08303_003]
+ 
+T_10_19: Estimated total working population 16+ whose commute time was from 10 to 19 minutes. [B08303_004] + [B08303_005]
+ 
+T_20_29: Estimated total working population 16+ whose commute time was from 20 to 29 minutes. [B08303_006] + [B08303_007]
+ 
+T_30_39: Estimated total working population 16+ whose commute time was from 30 to 39 minutes. [B08303_008] + [B08303_009]
+ 
+T_40_59: Estimated total working population 16+ whose commute time was from 40 to 59 minutes. [B08303_010] + [B08303_011]
+ 
+T_60_PL: Estimated total working population 16+ whose commute time was 60 minutes or higher. [B08303_012] + [B08303_013]
+ 
+ 
+POP_3PL: Estimated total population 3 years old or higher. (Universe for school enrollment). B14001_001
+ 
+ENROLLED: Estimated total population 3+ who are enrolled in school. B14001_002
+ 
+PRESCHOOL: Estimated total population 3+ enrolled in preschool. B14001_003
+ 
+KNDRGRTN: Estimated total population enrolled in kindergarten. B14001_004
+ 
+GR_1_4: Estimated total population enrolled in grades 1-4. B14001_005
+ 
+GR_5_8: Estimated total population enrolled in grades 5-8. B14001_006
+ 
+GR_9_12: Estimated total population enrolled in grades 9-12. B14001_007
+ 
+UNDERGRAD: Estimated total population enrolled in undergraduate studies. B14001_008
+ 
+GRAD_PROF: Estimated total population enrolled in graduate studies. B14001_009
+ 
+N_ENROLLED: Estimated total population 3+ not enrolled in school. B14001_010
+ 
+ 
+MED_YR_BLT: Estimated median year housing unit was built. B25035_001
+ 
+HOUSING_UN: Estimated total number of housing units. B25002_001
+ 
+BLT_2000_P: Estimated number of housing units built since 2000. [B25034_002] + [B25034_003]
+ 
+B1990_1999: Estimated number of housing units built from 1990 to 1999. B25034_004
+ 
+B1980_1989: Estimated number of housing units built from 1980 to 1989. B25034_005
+ 
+B1970_1979: Estimated number of housing units built from 1970 to 1979. B25034_006
+ 
+B1960_1969: Estimated number of housing units built from 1960 to 1969. B25034_007
+ 
+B1950_1959: Estimated number of housing units built from 1950 to 1959. B25034_008
+ 
+B1940_1949: Estimated number of housing units built from 1940 to 1949. B25034_009
+ 
+B1939_E: Estimated number of housing units built in 1939 or earlier. B25034_010
+ 
+ 
+MED_HM_VAL: Estimated median home value. B25077_001
+ 
+OWN_OCC_HU: Estimated number of owner occupied housing units. B25075_001
+ 
+V_L_50K: Estimated number of owner occupied housing units where the home value is less than $50,000. [B25075_002] + [B25075_003] + [B25075_004] + [B25075_005] + [B25075_006] + [B25075_007] + [B25075_008] + [B25075_009]
+ 
+V50K_100K: Estimated number of owner occupied housing units where the home value is from $50,000 to $100,000. [B25075_010] + [B25075_011] + [B25075_012] + [B25075_013] + [B25075_014]
+ 
+V100K_150K: Estimated number of owner occupied housing units where the home value is from $100,000 to $150,000.[B25075_015] + [B25075_016]
+ 
+V150K_200K: Estimated number of owner occupied housing units where the home value is from $150,000 to $200,000.[B25075_017] + [B25075_018]
+ 
+V200K_250K: Estimated number of owner occupied housing units where the home value is from $200,000 to $250,000. B25075_019
+ 
+V250K_300K: Estimated number of owner occupied housing units where the home value is from $250,000 to $300,000. B25075_020
+ 
+V300K_400K: Estimated number of owner occupied housing units where the home value is from $300,000 to $400,000. B25075_021
+ 
+V400K_500K: Estimated number of owner occupied housing units where the home value is from $400,000 to $500,000. B25075_022
+ 
+V500K_750K: Estimated number of owner occupied housing units where the home value is from $500,000 to $750,000. B25075_023
+ 
+V750K_1M: Estimated number of owner occupied housing units where the home value is from $750,000 to $1,000,000. B25075_024
+ 
+V_1M_PLUS: Estimated number of owner occupied housing units where the home value is $1,000,000 or higher. B25075_025
+ 
+ 
+ 
+This data is licensed under the creative commons license 3.0. 
+http://creativecommons.org/licenses/by/3.0/

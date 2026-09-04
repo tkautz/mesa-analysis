@@ -1,0 +1,2732 @@
+[
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1970",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1970,
+    "estimate": "133432",
+    "change": "6432",
+    "births": "2309",
+    "deaths": "780",
+    "netmig": "4903",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1971",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1971,
+    "estimate": "139606",
+    "change": "6174",
+    "births": "2268",
+    "deaths": "778",
+    "netmig": "4684",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1972",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1972,
+    "estimate": "149630",
+    "change": "10024",
+    "births": "2198",
+    "deaths": "802",
+    "netmig": "8628",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1973",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1973,
+    "estimate": "158937",
+    "change": "9307",
+    "births": "2147",
+    "deaths": "841",
+    "netmig": "8001",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1974",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1974,
+    "estimate": "166393",
+    "change": "7456",
+    "births": "2066",
+    "deaths": "851",
+    "netmig": "6241",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1975",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1975,
+    "estimate": "169181",
+    "change": "2788",
+    "births": "2073",
+    "deaths": "811",
+    "netmig": "1526",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1976",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1976,
+    "estimate": "170416",
+    "change": "1235",
+    "births": "2120",
+    "deaths": "810",
+    "netmig": "-75",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1977",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1977,
+    "estimate": "177978",
+    "change": "7562",
+    "births": "2207",
+    "deaths": "845",
+    "netmig": "6200",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1978",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1978,
+    "estimate": "183474",
+    "change": "5496",
+    "births": "2331",
+    "deaths": "853",
+    "netmig": "4018",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1979",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1979,
+    "estimate": "187199",
+    "change": "3725",
+    "births": "2491",
+    "deaths": "869",
+    "netmig": "2103",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1980",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1980,
+    "estimate": "190695",
+    "change": "3496",
+    "births": "2644",
+    "deaths": "897",
+    "netmig": "1749",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1981",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1981,
+    "estimate": "194914",
+    "change": "4219",
+    "births": "2876",
+    "deaths": "956",
+    "netmig": "2299",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1982",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1982,
+    "estimate": "200177",
+    "change": "5263",
+    "births": "3039",
+    "deaths": "999",
+    "netmig": "3223",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1983",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1983,
+    "estimate": "204606",
+    "change": "4429",
+    "births": "3060",
+    "deaths": "977",
+    "netmig": "2346",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1984",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1984,
+    "estimate": "210225",
+    "change": "5619",
+    "births": "3160",
+    "deaths": "1002",
+    "netmig": "3461",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1985",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1985,
+    "estimate": "209444",
+    "change": "-781",
+    "births": "3279",
+    "deaths": "1055",
+    "netmig": "-3005",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1986",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1986,
+    "estimate": "211841",
+    "change": "2397",
+    "births": "3299",
+    "deaths": "1036",
+    "netmig": "134",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1987",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1987,
+    "estimate": "214222",
+    "change": "2381",
+    "births": "3262",
+    "deaths": "1034",
+    "netmig": "153",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1988",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1988,
+    "estimate": "218380",
+    "change": "4158",
+    "births": "3241",
+    "deaths": "1066",
+    "netmig": "1983",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1989",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1989,
+    "estimate": "222354",
+    "change": "3974",
+    "births": "3231",
+    "deaths": "1068",
+    "netmig": "1811",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1990",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1990,
+    "estimate": "226042",
+    "change": "3688",
+    "births": "3275",
+    "deaths": "1080",
+    "netmig": "1493",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1991",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1991,
+    "estimate": "230977",
+    "change": "4935",
+    "births": "3323",
+    "deaths": "1104",
+    "netmig": "2716",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1992",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1992,
+    "estimate": "238392",
+    "change": "7415",
+    "births": "3332",
+    "deaths": "1043",
+    "netmig": "5126",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1993",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1993,
+    "estimate": "247282",
+    "change": "8890",
+    "births": "3228",
+    "deaths": "1191",
+    "netmig": "6853",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1994",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1994,
+    "estimate": "252726",
+    "change": "5444",
+    "births": "3166",
+    "deaths": "1205",
+    "netmig": "3483",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1995",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1995,
+    "estimate": "257502",
+    "change": "4776",
+    "births": "3050",
+    "deaths": "1281",
+    "netmig": "3007",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1996",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1996,
+    "estimate": "261769",
+    "change": "4267",
+    "births": "3199",
+    "deaths": "1242",
+    "netmig": "2310",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1997",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1997,
+    "estimate": "266064",
+    "change": "4295",
+    "births": "3182",
+    "deaths": "1352",
+    "netmig": "2465",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1998",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1998,
+    "estimate": "274121",
+    "change": "8057",
+    "births": "3377",
+    "deaths": "1343",
+    "netmig": "6023",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=1999",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 1999,
+    "estimate": "283928",
+    "change": "9807",
+    "births": "3513",
+    "deaths": "1369",
+    "netmig": "7663",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2000",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2000,
+    "estimate": "276254",
+    "change": "-7674",
+    "births": "3719",
+    "deaths": "1388",
+    "netmig": "-10005",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2001",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2001,
+    "estimate": "283510",
+    "change": "7256",
+    "births": "3402",
+    "deaths": "1444",
+    "netmig": "5298",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2002",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2002,
+    "estimate": "284433",
+    "change": "923",
+    "births": "3575",
+    "deaths": "1403",
+    "netmig": "-1249",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2003",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2003,
+    "estimate": "282763",
+    "change": "-1670",
+    "births": "3636",
+    "deaths": "1474",
+    "netmig": "-3832",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2004",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2004,
+    "estimate": "283288",
+    "change": "525",
+    "births": "3571",
+    "deaths": "1434",
+    "netmig": "-1612",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2005",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2005,
+    "estimate": "282910",
+    "change": "-378",
+    "births": "3510",
+    "deaths": "1378",
+    "netmig": "-2510",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2006",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2006,
+    "estimate": "286133",
+    "change": "3223",
+    "births": "3511",
+    "deaths": "1471",
+    "netmig": "1183",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2007",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2007,
+    "estimate": "288757",
+    "change": "2624",
+    "births": "3390",
+    "deaths": "1481",
+    "netmig": "715",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2008",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2008,
+    "estimate": "291827",
+    "change": "3070",
+    "births": "3353",
+    "deaths": "1524",
+    "netmig": "1241",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2009",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2009,
+    "estimate": "293641",
+    "change": "1814",
+    "births": "3187",
+    "deaths": "1512",
+    "netmig": "139",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2010",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2010,
+    "estimate": "295605",
+    "change": "1964",
+    "births": "3141",
+    "deaths": "1544",
+    "netmig": "367",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2011",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2011,
+    "estimate": "300526",
+    "change": "4921",
+    "births": "2995",
+    "deaths": "1510",
+    "netmig": "3436",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2012",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2012,
+    "estimate": "305881",
+    "change": "5355",
+    "births": "2954",
+    "deaths": "1571",
+    "netmig": "3972",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2013",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2013,
+    "estimate": "310896",
+    "change": "5015",
+    "births": "2963",
+    "deaths": "1666",
+    "netmig": "3718",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2014",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2014,
+    "estimate": "314213",
+    "change": "3317",
+    "births": "2939",
+    "deaths": "1709",
+    "netmig": "2087",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2015",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2015,
+    "estimate": "320352",
+    "change": "6139",
+    "births": "2857",
+    "deaths": "1784",
+    "netmig": "5066",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2016",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2016,
+    "estimate": "323957",
+    "change": "3605",
+    "births": "2841",
+    "deaths": "1813",
+    "netmig": "2577",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2017",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2017,
+    "estimate": "325414",
+    "change": "1457",
+    "births": "2628",
+    "deaths": "1790",
+    "netmig": "619",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2018",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2018,
+    "estimate": "328055",
+    "change": "2641",
+    "births": "2580",
+    "deaths": "1832",
+    "netmig": "1893",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2019",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2019,
+    "estimate": "328827",
+    "change": "772",
+    "births": "2525",
+    "deaths": "1998",
+    "netmig": "245",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2020",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2020,
+    "estimate": "330951",
+    "change": "2124",
+    "births": "2507",
+    "deaths": "2040",
+    "netmig": "1657",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2021",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2021,
+    "estimate": "327135",
+    "change": "-3816",
+    "births": "2472",
+    "deaths": "2129",
+    "netmig": "-4159",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2022",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2022,
+    "estimate": "328029",
+    "change": "894",
+    "births": "2430",
+    "deaths": "2201",
+    "netmig": "665",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2023",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2023,
+    "estimate": "328337",
+    "change": "308",
+    "births": "2398",
+    "deaths": "2148",
+    "netmig": "58",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2024",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2024,
+    "estimate": "329996",
+    "change": "1659",
+    "births": "2304",
+    "deaths": "2178",
+    "netmig": "1533",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2025",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2025,
+    "estimate": "329440",
+    "change": "-556",
+    "births": "2351",
+    "deaths": "2218",
+    "netmig": "-689",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2026",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2026,
+    "estimate": "329009",
+    "change": "-431",
+    "births": "2342",
+    "deaths": "2250",
+    "netmig": "-523",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2027",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2027,
+    "estimate": "329993",
+    "change": "984",
+    "births": "2360",
+    "deaths": "2305",
+    "netmig": "928",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2028",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2028,
+    "estimate": "331178",
+    "change": "1185",
+    "births": "2373",
+    "deaths": "2360",
+    "netmig": "1172",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2029",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2029,
+    "estimate": "332594",
+    "change": "1416",
+    "births": "2397",
+    "deaths": "2419",
+    "netmig": "1438",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2030",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2030,
+    "estimate": "334116",
+    "change": "1522",
+    "births": "2431",
+    "deaths": "2480",
+    "netmig": "1571",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2031",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2031,
+    "estimate": "335858",
+    "change": "1742",
+    "births": "2477",
+    "deaths": "2543",
+    "netmig": "1808",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2032",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2032,
+    "estimate": "337781",
+    "change": "1923",
+    "births": "2532",
+    "deaths": "2608",
+    "netmig": "2000",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2033",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2033,
+    "estimate": "339691",
+    "change": "1910",
+    "births": "2591",
+    "deaths": "2675",
+    "netmig": "1994",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2034",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2034,
+    "estimate": "341579",
+    "change": "1889",
+    "births": "2646",
+    "deaths": "2744",
+    "netmig": "1987",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2035",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2035,
+    "estimate": "343436",
+    "change": "1857",
+    "births": "2695",
+    "deaths": "2810",
+    "netmig": "1972",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2036",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2036,
+    "estimate": "345265",
+    "change": "1828",
+    "births": "2738",
+    "deaths": "2878",
+    "netmig": "1967",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2037",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2037,
+    "estimate": "347038",
+    "change": "1773",
+    "births": "2774",
+    "deaths": "2945",
+    "netmig": "1944",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2038",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2038,
+    "estimate": "348748",
+    "change": "1710",
+    "births": "2802",
+    "deaths": "3009",
+    "netmig": "1917",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2039",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2039,
+    "estimate": "350389",
+    "change": "1640",
+    "births": "2822",
+    "deaths": "3072",
+    "netmig": "1891",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2040",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2040,
+    "estimate": "351954",
+    "change": "1565",
+    "births": "2832",
+    "deaths": "3131",
+    "netmig": "1864",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2041",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2041,
+    "estimate": "353443",
+    "change": "1489",
+    "births": "2835",
+    "deaths": "3188",
+    "netmig": "1842",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2042",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2042,
+    "estimate": "354861",
+    "change": "1418",
+    "births": "2825",
+    "deaths": "3243",
+    "netmig": "1835",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2043",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2043,
+    "estimate": "356106",
+    "change": "1246",
+    "births": "2810",
+    "deaths": "3293",
+    "netmig": "1728",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2044",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2044,
+    "estimate": "357215",
+    "change": "1108",
+    "births": "2787",
+    "deaths": "3343",
+    "netmig": "1664",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2045",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2045,
+    "estimate": "358185",
+    "change": "970",
+    "births": "2759",
+    "deaths": "3384",
+    "netmig": "1595",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2046",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2046,
+    "estimate": "358998",
+    "change": "813",
+    "births": "2726",
+    "deaths": "3424",
+    "netmig": "1511",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2047",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2047,
+    "estimate": "359674",
+    "change": "676",
+    "births": "2690",
+    "deaths": "3459",
+    "netmig": "1445",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2048",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2048,
+    "estimate": "360212",
+    "change": "538",
+    "births": "2653",
+    "deaths": "3499",
+    "netmig": "1384",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2049",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2049,
+    "estimate": "360637",
+    "change": "425",
+    "births": "2615",
+    "deaths": "3528",
+    "netmig": "1338",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2050",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2050,
+    "estimate": "360910",
+    "change": "273",
+    "births": "2578",
+    "deaths": "3550",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2051",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2051,
+    "estimate": "361120",
+    "change": "210",
+    "births": "2542",
+    "deaths": "3577",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2052",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2052,
+    "estimate": "361274",
+    "change": "154",
+    "births": "2506",
+    "deaths": "3598",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2053",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2053,
+    "estimate": "361376",
+    "change": "102",
+    "births": "2474",
+    "deaths": "3617",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2054",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2054,
+    "estimate": "361429",
+    "change": "53",
+    "births": "2445",
+    "deaths": "3637",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2055",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2055,
+    "estimate": "361442",
+    "change": "13",
+    "births": "2419",
+    "deaths": "3652",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2056",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2056,
+    "estimate": "361412",
+    "change": "-30",
+    "births": "2397",
+    "deaths": "3672",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2057",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2057,
+    "estimate": "361348",
+    "change": "-64",
+    "births": "2379",
+    "deaths": "3688",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2058",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2058,
+    "estimate": "361254",
+    "change": "-94",
+    "births": "2365",
+    "deaths": "3704",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2059",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2059,
+    "estimate": "361135",
+    "change": "-119",
+    "births": "2355",
+    "deaths": "3718",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=13&year=2060",
+  "response": [
+   {
+    "countyfips": 13,
+    "year": 2060,
+    "estimate": "360999",
+    "change": "-137",
+    "births": "2348",
+    "deaths": "3730",
+    "netmig": "1245",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1970",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1970,
+    "estimate": "2224610",
+    "change": "58710",
+    "births": "40348",
+    "deaths": "17274",
+    "netmig": "35636",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1971",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1971,
+    "estimate": "2284660",
+    "change": "60050",
+    "births": "40937",
+    "deaths": "17680",
+    "netmig": "36793",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1972",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1972,
+    "estimate": "2378318",
+    "change": "93660",
+    "births": "39485",
+    "deaths": "17890",
+    "netmig": "72065",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1973",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1973,
+    "estimate": "2489591",
+    "change": "111276",
+    "births": "38563",
+    "deaths": "18258",
+    "netmig": "90971",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1974",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1974,
+    "estimate": "2543764",
+    "change": "54173",
+    "births": "38791",
+    "deaths": "18254",
+    "netmig": "33636",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1975",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1975,
+    "estimate": "2576902",
+    "change": "33138",
+    "births": "39606",
+    "deaths": "17637",
+    "netmig": "11169",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1976",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1976,
+    "estimate": "2618311",
+    "change": "41409",
+    "births": "40576",
+    "deaths": "17700",
+    "netmig": "18533",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1977",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1977,
+    "estimate": "2676220",
+    "change": "57909",
+    "births": "42031",
+    "deaths": "17934",
+    "netmig": "33812",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1978",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1978,
+    "estimate": "2766084",
+    "change": "89864",
+    "births": "43573",
+    "deaths": "18114",
+    "netmig": "64405",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1979",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1979,
+    "estimate": "2850234",
+    "change": "84150",
+    "births": "45637",
+    "deaths": "18380",
+    "netmig": "56893",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1980",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1980,
+    "estimate": "2908036",
+    "change": "57802",
+    "births": "48463",
+    "deaths": "18685",
+    "netmig": "28024",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1981",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1981,
+    "estimate": "2980340",
+    "change": "72301",
+    "births": "50919",
+    "deaths": "19153",
+    "netmig": "40535",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1982",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1982,
+    "estimate": "3064868",
+    "change": "84522",
+    "births": "53457",
+    "deaths": "19512",
+    "netmig": "50577",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1983",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1983,
+    "estimate": "3137512",
+    "change": "72639",
+    "births": "54726",
+    "deaths": "19599",
+    "netmig": "37512",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1984",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1984,
+    "estimate": "3174844",
+    "change": "37323",
+    "births": "54498",
+    "deaths": "19957",
+    "netmig": "2782",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1985",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1985,
+    "estimate": "3214448",
+    "change": "39596",
+    "births": "54734",
+    "deaths": "20310",
+    "netmig": "5172",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1986",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1986,
+    "estimate": "3243803",
+    "change": "29351",
+    "births": "55139",
+    "deaths": "20518",
+    "netmig": "-5270",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1987",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1987,
+    "estimate": "3263354",
+    "change": "19551",
+    "births": "54490",
+    "deaths": "20942",
+    "netmig": "-13997",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1988",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1988,
+    "estimate": "3271448",
+    "change": "8094",
+    "births": "53589",
+    "deaths": "21215",
+    "netmig": "-24280",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1989",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1989,
+    "estimate": "3284537",
+    "change": "13089",
+    "births": "53040",
+    "deaths": "21199",
+    "netmig": "-18752",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1990",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1990,
+    "estimate": "3303377",
+    "change": "18840",
+    "births": "53107",
+    "deaths": "21303",
+    "netmig": "-12964",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1991",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1991,
+    "estimate": "3380938",
+    "change": "77561",
+    "births": "53530",
+    "deaths": "22094",
+    "netmig": "46125",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1992",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1992,
+    "estimate": "3489860",
+    "change": "108922",
+    "births": "54545",
+    "deaths": "22428",
+    "netmig": "76805",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1993",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1993,
+    "estimate": "3605050",
+    "change": "115190",
+    "births": "54100",
+    "deaths": "23171",
+    "netmig": "84261",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1994",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1994,
+    "estimate": "3712085",
+    "change": "107035",
+    "births": "53787",
+    "deaths": "23829",
+    "netmig": "77077",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1995",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1995,
+    "estimate": "3811078",
+    "change": "98993",
+    "births": "53863",
+    "deaths": "24695",
+    "netmig": "69825",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1996",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1996,
+    "estimate": "3902506",
+    "change": "91428",
+    "births": "54974",
+    "deaths": "25073",
+    "netmig": "61527",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1997",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1997,
+    "estimate": "3995955",
+    "change": "93449",
+    "births": "56305",
+    "deaths": "25876",
+    "netmig": "63020",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1998",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1998,
+    "estimate": "4102500",
+    "change": "106545",
+    "births": "57736",
+    "deaths": "26293",
+    "netmig": "75102",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=1999",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 1999,
+    "estimate": "4216006",
+    "change": "113506",
+    "births": "60718",
+    "deaths": "26531",
+    "netmig": "79319",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2000",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2000,
+    "estimate": "4338785",
+    "change": "122779",
+    "births": "63917",
+    "deaths": "26998",
+    "netmig": "85860",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2001",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2001,
+    "estimate": "4444513",
+    "change": "105728",
+    "births": "66525",
+    "deaths": "27934",
+    "netmig": "67137",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2002",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2002,
+    "estimate": "4504709",
+    "change": "60196",
+    "births": "67778",
+    "deaths": "28833",
+    "netmig": "21251",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2003",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2003,
+    "estimate": "4555084",
+    "change": "50375",
+    "births": "69012",
+    "deaths": "28950",
+    "netmig": "10313",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2004",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2004,
+    "estimate": "4608811",
+    "change": "53727",
+    "births": "68452",
+    "deaths": "29025",
+    "netmig": "14300",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2005",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2005,
+    "estimate": "4662534",
+    "change": "53723",
+    "births": "69031",
+    "deaths": "29087",
+    "netmig": "13779",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2006",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2006,
+    "estimate": "4745660",
+    "change": "83126",
+    "births": "69538",
+    "deaths": "29308",
+    "netmig": "42896",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2007",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2007,
+    "estimate": "4821784",
+    "change": "76124",
+    "births": "70777",
+    "deaths": "29653",
+    "netmig": "35000",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2008",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2008,
+    "estimate": "4901938",
+    "change": "80154",
+    "births": "70733",
+    "deaths": "31048",
+    "netmig": "40469",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2009",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2009,
+    "estimate": "4976853",
+    "change": "74915",
+    "births": "69135",
+    "deaths": "30487",
+    "netmig": "36267",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2010",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2010,
+    "estimate": "5050332",
+    "change": "73479",
+    "births": "67306",
+    "deaths": "31396",
+    "netmig": "37569",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2011",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2011,
+    "estimate": "5123550",
+    "change": "73218",
+    "births": "65923",
+    "deaths": "32017",
+    "netmig": "39312",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2012",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2012,
+    "estimate": "5194662",
+    "change": "71112",
+    "births": "64733",
+    "deaths": "32764",
+    "netmig": "39143",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2013",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2013,
+    "estimate": "5270884",
+    "change": "76222",
+    "births": "64737",
+    "deaths": "33624",
+    "netmig": "45109",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2014",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2014,
+    "estimate": "5347654",
+    "change": "76770",
+    "births": "65711",
+    "deaths": "34003",
+    "netmig": "45062",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2015",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2015,
+    "estimate": "5446593",
+    "change": "98939",
+    "births": "66339",
+    "deaths": "36244",
+    "netmig": "68844",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2016",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2016,
+    "estimate": "5529629",
+    "change": "83036",
+    "births": "66561",
+    "deaths": "36820",
+    "netmig": "53295",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2017",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2017,
+    "estimate": "5599589",
+    "change": "69960",
+    "births": "65312",
+    "deaths": "37747",
+    "netmig": "42395",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2018",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2018,
+    "estimate": "5676913",
+    "change": "77324",
+    "births": "63782",
+    "deaths": "38219",
+    "netmig": "51761",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2019",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2019,
+    "estimate": "5734909",
+    "change": "57996",
+    "births": "62484",
+    "deaths": "38645",
+    "netmig": "34157",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2020",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2020,
+    "estimate": "5786877",
+    "change": "51968",
+    "births": "62809",
+    "deaths": "42149",
+    "netmig": "31308",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2021",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2021,
+    "estimate": "5813551",
+    "change": "26674",
+    "births": "61980",
+    "deaths": "46550",
+    "netmig": "11244",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2022",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2022,
+    "estimate": "5850121",
+    "change": "36570",
+    "births": "62493",
+    "deaths": "49740",
+    "netmig": "23817",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2023",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2023,
+    "estimate": "5900420",
+    "change": "50299",
+    "births": "62166",
+    "deaths": "45237",
+    "netmig": "33370",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2024",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2024,
+    "estimate": "5956729",
+    "change": "56309",
+    "births": "62399",
+    "deaths": "44950",
+    "netmig": "38860",
+    "datatype": "Estimate"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2025",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2025,
+    "estimate": "5989880",
+    "change": "33151",
+    "births": "62352",
+    "deaths": "42769",
+    "netmig": "13568",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2026",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2026,
+    "estimate": "6024961",
+    "change": "35080",
+    "births": "62664",
+    "deaths": "43238",
+    "netmig": "15654",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2027",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2027,
+    "estimate": "6069891",
+    "change": "44930",
+    "births": "63043",
+    "deaths": "44067",
+    "netmig": "25954",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2028",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2028,
+    "estimate": "6118744",
+    "change": "48853",
+    "births": "63331",
+    "deaths": "44998",
+    "netmig": "30521",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2029",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2029,
+    "estimate": "6170934",
+    "change": "52190",
+    "births": "63579",
+    "deaths": "45991",
+    "netmig": "34602",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2030",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2030,
+    "estimate": "6227441",
+    "change": "56507",
+    "births": "63942",
+    "deaths": "47024",
+    "netmig": "39589",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2031",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2031,
+    "estimate": "6288046",
+    "change": "60606",
+    "births": "64359",
+    "deaths": "48111",
+    "netmig": "44358",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2032",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2032,
+    "estimate": "6351410",
+    "change": "63364",
+    "births": "64665",
+    "deaths": "49242",
+    "netmig": "47941",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2033",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2033,
+    "estimate": "6413452",
+    "change": "62042",
+    "births": "65019",
+    "deaths": "50405",
+    "netmig": "47428",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2034",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2034,
+    "estimate": "6473975",
+    "change": "60523",
+    "births": "65377",
+    "deaths": "51572",
+    "netmig": "46719",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2035",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2035,
+    "estimate": "6532802",
+    "change": "58827",
+    "births": "65701",
+    "deaths": "52740",
+    "netmig": "45866",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2036",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2036,
+    "estimate": "6589822",
+    "change": "57020",
+    "births": "65997",
+    "deaths": "53905",
+    "netmig": "44927",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2037",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2037,
+    "estimate": "6645256",
+    "change": "55434",
+    "births": "66212",
+    "deaths": "55050",
+    "netmig": "44272",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2038",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2038,
+    "estimate": "6698919",
+    "change": "53663",
+    "births": "66374",
+    "deaths": "56167",
+    "netmig": "43456",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2039",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2039,
+    "estimate": "6750646",
+    "change": "51727",
+    "births": "66447",
+    "deaths": "57256",
+    "netmig": "42536",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2040",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2040,
+    "estimate": "6799893",
+    "change": "49248",
+    "births": "66449",
+    "deaths": "58298",
+    "netmig": "41097",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2041",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2041,
+    "estimate": "6846667",
+    "change": "46774",
+    "births": "66379",
+    "deaths": "59287",
+    "netmig": "39682",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2042",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2042,
+    "estimate": "6893077",
+    "change": "46410",
+    "births": "66210",
+    "deaths": "60225",
+    "netmig": "40425",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2043",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2043,
+    "estimate": "6937810",
+    "change": "44733",
+    "births": "66034",
+    "deaths": "61122",
+    "netmig": "39822",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2044",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2044,
+    "estimate": "6981577",
+    "change": "43767",
+    "births": "65792",
+    "deaths": "61965",
+    "netmig": "39940",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2045",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2045,
+    "estimate": "7024435",
+    "change": "42858",
+    "births": "65530",
+    "deaths": "62729",
+    "netmig": "40057",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2046",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2046,
+    "estimate": "7066059",
+    "change": "41624",
+    "births": "65247",
+    "deaths": "63420",
+    "netmig": "39797",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2047",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2047,
+    "estimate": "7106469",
+    "change": "40411",
+    "births": "64934",
+    "deaths": "64090",
+    "netmig": "39566",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2048",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2048,
+    "estimate": "7145726",
+    "change": "39257",
+    "births": "64625",
+    "deaths": "64757",
+    "netmig": "39389",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2049",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2049,
+    "estimate": "7184436",
+    "change": "38710",
+    "births": "64314",
+    "deaths": "65306",
+    "netmig": "39703",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2050",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2050,
+    "estimate": "7221772",
+    "change": "37336",
+    "births": "64032",
+    "deaths": "65783",
+    "netmig": "39086",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2051",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2051,
+    "estimate": "7258368",
+    "change": "36596",
+    "births": "63736",
+    "deaths": "66226",
+    "netmig": "39086",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2052",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2052,
+    "estimate": "7294418",
+    "change": "36050",
+    "births": "63604",
+    "deaths": "66639",
+    "netmig": "39085",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2053",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2053,
+    "estimate": "7329953",
+    "change": "35534",
+    "births": "63493",
+    "deaths": "67043",
+    "netmig": "39084",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2054",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2054,
+    "estimate": "7364960",
+    "change": "35007",
+    "births": "63406",
+    "deaths": "67432",
+    "netmig": "39033",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2055",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2055,
+    "estimate": "7399493",
+    "change": "34533",
+    "births": "63344",
+    "deaths": "67818",
+    "netmig": "39007",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2056",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2056,
+    "estimate": "7433561",
+    "change": "34068",
+    "births": "63301",
+    "deaths": "68214",
+    "netmig": "38981",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2057",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2057,
+    "estimate": "7467161",
+    "change": "33600",
+    "births": "63276",
+    "deaths": "68607",
+    "netmig": "38931",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2058",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2058,
+    "estimate": "7500285",
+    "change": "33124",
+    "births": "63265",
+    "deaths": "69021",
+    "netmig": "38880",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2059",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2059,
+    "estimate": "7532952",
+    "change": "32667",
+    "births": "63268",
+    "deaths": "69429",
+    "netmig": "38828",
+    "datatype": "Projection"
+   }
+  ]
+ },
+ {
+  "url": "https://gis.dola.colorado.gov/lookups/components?county=0&year=2060",
+  "response": [
+   {
+    "countyfips": 0,
+    "year": 2060,
+    "estimate": "7565154",
+    "change": "32202",
+    "births": "63281",
+    "deaths": "69857",
+    "netmig": "38778",
+    "datatype": "Projection"
+   }
+  ]
+ }
+]

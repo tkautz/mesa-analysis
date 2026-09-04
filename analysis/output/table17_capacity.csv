@@ -1,0 +1,13 @@
+school,as_of,program_capacity,classrooms,rounds,source
+Bear Creek,2011 (School Profile book 2011),475.0,19.0,,"data/raw/bvsd/school_profiles/school_profiles_2011.pdf, school page"
+Bear Creek,2012 (School Profile book 2012),478.0,18.0,,"data/raw/bvsd/school_profiles/school_profiles_2012.pdf, school page"
+Bear Creek,Jan 2024 (Feb 2024 report p. 11),467.0,,3.0,data/raw/bvsd/trend_report_feb2024.pdf
+Bear Creek,Jan 2025 (Feb 2025 report p. 9),492.0,,3.5,data/raw/bvsd/trend_report_feb2025.pdf
+Bear Creek,Jan 2026 (Feb 2026 report p. 9),492.0,,3.5,data/raw/bvsd/trend_report_feb2026.pdf
+Bear Creek,oct2025,492.0,,3.5,data/raw/bvsd/worksession_2025-10-21.pdf
+Mesa,2011 (School Profile book 2011),485.0,20.0,,"data/raw/bvsd/school_profiles/school_profiles_2011.pdf, school page"
+Mesa,2012 (School Profile book 2012),494.0,19.0,,"data/raw/bvsd/school_profiles/school_profiles_2012.pdf, school page"
+Mesa,Jan 2024 (Feb 2024 report p. 11),418.0,,3.0,data/raw/bvsd/trend_report_feb2024.pdf
+Mesa,Jan 2025 (Feb 2025 report p. 9),418.0,,3.0,data/raw/bvsd/trend_report_feb2025.pdf
+Mesa,Jan 2026 (Feb 2026 report p. 9),418.0,,3.0,data/raw/bvsd/trend_report_feb2026.pdf
+Mesa,oct2025,418.0,,3.0,data/raw/bvsd/worksession_2025-10-21.pdf

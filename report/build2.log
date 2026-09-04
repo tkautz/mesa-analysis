@@ -1,0 +1,206 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(report.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo))
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty))
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f)))
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+ (C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+y)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty)))
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y)))
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.
+sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty)))
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty)))
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty)
+) (C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def) (report.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
+(C:\Users\tkautz\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg)) (report.out) (report.out)
+Overfull \hbox (18.0514pt too wide) in paragraph at lines 18--18
+ [][] 
+[1{C:/Users/tkautz/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+Overfull \hbox (2.29716pt too wide) in paragraph at lines 78--91
+ [][] 
+[3 <../figures/fig16_bridge.png>] [4 <../figures/fig17_capture_history.png>]
+[5 <../figures/fig20_aug2026.png>] [6] [7 <../figures/fig15_sections_by_grade.p
+ng>] [8 <../figures/fig05b_merged_two_specs.png>] [9 <../figures/fig19_births_k
+.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\OT1/cmr/m/n/10 Resident de-
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]|\OT1/cmr/m/n/10 Resident cap-
+
+Underfull \hbox (badness 4765) in paragraph at lines 163--163
+[]|\OT1/cmr/m/n/10 Outside en-roll-
+
+Underfull \hbox (badness 1418) in paragraph at lines 165--165
+[]|\OT1/cmr/m/n/10 Rooms for RISE, AIM, spe-cials,
+
+Underfull \hbox (badness 1038) in paragraph at lines 166--166
+\OT1/cmr/m/n/10 us-able rooms af-ter the pro-grams
+[10] [11]
+Underfull \hbox (badness 6204) in paragraph at lines 189--189
+\OT1/cmr/m/n/10 the pro-jected en-roll-
+
+Underfull \hbox (badness 4739) in paragraph at lines 190--190
+[]|\OT1/cmr/m/n/10 Combining the ar-eas
+
+Underfull \hbox (badness 1314) in paragraph at lines 190--190
+\OT1/cmr/m/n/10 a three-round school''
+
+Underfull \hbox (badness 3148) in paragraph at lines 190--191
+[]|\OT1/cmr/m/n/10 What out-side en-roll-ment
+
+Underfull \hbox (badness 5175) in paragraph at lines 192--192
+\OT1/cmr/m/n/10 con-tinue to de-cline'';
+
+Underfull \hbox (badness 4303) in paragraph at lines 192--192
+\OT1/cmr/m/n/10 second-lowest res-i-dent
+
+Underfull \hbox (badness 2189) in paragraph at lines 193--194
+[]|\OT1/cmr/m/n/10 The room-by-room ba-sis;
+
+Underfull \hbox (badness 1303) in paragraph at lines 194--194
+[]|\OT1/cmr/m/n/10 Range ``de-pen-dent on
+
+Underfull \hbox (badness 4291) in paragraph at lines 194--194
+\OT1/cmr/m/n/10 ... res-i-dent stu-dents
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]|\OT1/cmr/m/n/10 ``Reduces ex-cess ca-
+
+Underfull \hbox (badness 5288) in paragraph at lines 195--195
+\OT1/cmr/m/n/10 pac-ity''; ``10 schools
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]|\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 3.5--4.0M re-cur-ring;
+
+Underfull \hbox (badness 3919) in paragraph at lines 196--196
+\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 7.5--10.0M $+$ \TS1/cmr/m/n/10 $\OT1/cmr/m/n/1
+0 5.0M
+
+Underfull \hbox (badness 1242) in paragraph at lines 196--197
+\OT1/cmr/m/n/10 off-set; the Mesa project;
+
+Underfull \hbox (badness 1082) in paragraph at lines 197--197
+[]|\OT1/cmr/m/n/10 ``Managing choice'' as
+
+Underfull \hbox (badness 5490) in paragraph at lines 198--198
+[]|\OT1/cmr/m/n/10 Study in Septem-ber,
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+[]|\OT1/cmr/m/n/10 Program space:
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+\OT1/cmr/m/n/10 RISE/AIM rooms;
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]|\OT1/cmr/m/n/10 Projection method:
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\OT1/cmr/m/n/10 co-hort sur-vival with
+ [12] [13] [14] [15 <../figures/fig13_package_implied_shares.png>] [16]
+[17 <../figures/fig18_residents.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (81.7624pt too wide) in paragraph at lines 402--403
+\OT1/cmr/m/n/10.95 year at 90% fol-low-ing is 53--75% (trend) and 75--89% (leve
+l) (\OT1/cmtt/m/n/10.95 analysis/output/table04[]effective[]capacity.csv\OT1/cm
+r/m/n/10.95 ).
+[18] [19 <../figures/fig06_backtest.png>] [20]
+Underfull \hbox (badness 1629) in paragraph at lines 420--421
+[]|\OT1/cmr/m/n/10 Grade con-fig-u-ra-tion and bound-
+[21 <../figures/fig10_kindergarten.png>] [22] [23] (report.aux) )
+(see the transcript file for additional information) <C:\Users\tkautz\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\tkautz\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/tka
+utz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
+/Users/tkautz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><C:/Users/tkautz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><C:/Users/tkautz/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb><C:/Users/tkautz/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/tkautz/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tkautz/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tkautz/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/tkautz/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users
+/tkautz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+C:/Users/tkautz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r9.pfb><C:/Users/tkautz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Users/tkautz/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><C:/Users/tkautz/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/tkautz/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/tkautz/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on report.pdf (23 pages, 1382082 bytes).
+Transcript written on report.log.

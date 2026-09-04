@@ -1,0 +1,3293 @@
+book,school,section,field,school_year,value,row_complete
+2011,Mesa,oe,neighborhood_residents,2011-12,323,True
+2011,Mesa,oe,neighborhood_residents,2010-11,326,True
+2011,Mesa,oe,neighborhood_residents,2009-10,327,True
+2011,Mesa,oe,neighborhood_residents,2008-09,343,True
+2011,Mesa,oe,neighborhood_residents,2007-08,330,True
+2011,Mesa,oe,neighborhood_residents,2006-07,310,True
+2011,Mesa,oe,neighborhood_residents,2005-06,262,True
+2011,Mesa,oe,neighborhood_residents,2004-05,287,True
+2011,Mesa,oe,neighborhood_residents,2003-04,273,True
+2011,Mesa,oe,neighborhood_residents,2002-03,275,True
+2011,Mesa,oe,oe_out,2011-12,51,True
+2011,Mesa,oe,oe_out,2010-11,41,True
+2011,Mesa,oe,oe_out,2009-10,50,True
+2011,Mesa,oe,oe_out,2008-09,51,True
+2011,Mesa,oe,oe_out,2007-08,70,True
+2011,Mesa,oe,oe_out,2006-07,56,True
+2011,Mesa,oe,oe_out,2005-06,55,True
+2011,Mesa,oe,oe_out,2004-05,58,True
+2011,Mesa,oe,oe_out,2003-04,51,True
+2011,Mesa,oe,oe_out,2002-03,54,True
+2011,Mesa,oe,oe_in,2011-12,81,True
+2011,Mesa,oe,oe_in,2010-11,78,True
+2011,Mesa,oe,oe_in,2009-10,69,True
+2011,Mesa,oe,oe_in,2008-09,72,True
+2011,Mesa,oe,oe_in,2007-08,73,True
+2011,Mesa,oe,oe_in,2006-07,85,True
+2011,Mesa,oe,oe_in,2005-06,100,True
+2011,Mesa,oe,oe_in,2004-05,97,True
+2011,Mesa,oe,oe_in,2003-04,105,True
+2011,Mesa,oe,oe_in,2002-03,110,True
+2011,Mesa,oe,out_of_district,2011-12,11,True
+2011,Mesa,oe,out_of_district,2010-11,14,True
+2011,Mesa,oe,out_of_district,2009-10,15,True
+2011,Mesa,oe,out_of_district,2008-09,18,True
+2011,Mesa,oe,out_of_district,2007-08,22,True
+2011,Mesa,oe,out_of_district,2006-07,18,True
+2011,Mesa,oe,out_of_district,2005-06,12,True
+2011,Mesa,oe,out_of_district,2004-05,20,True
+2011,Mesa,oe,out_of_district,2003-04,16,True
+2011,Mesa,oe,out_of_district,2002-03,13,True
+2011,Mesa,oe,total_oe_profile,2011-12,371,True
+2011,Mesa,oe,total_oe_profile,2010-11,378,True
+2011,Mesa,oe,total_oe_profile,2009-10,365,True
+2011,Mesa,oe,total_oe_profile,2008-09,405,True
+2011,Mesa,oe,total_oe_profile,2007-08,355,True
+2011,Mesa,oe,total_oe_profile,2006-07,357,True
+2011,Mesa,oe,total_oe_profile,2005-06,319,True
+2011,Mesa,oe,total_oe_profile,2004-05,346,True
+2011,Mesa,oe,total_oe_profile,2003-04,350,True
+2011,Mesa,oe,total_oe_profile,2002-03,346,True
+2011,Bear Creek,oe,neighborhood_residents,2011-12,340,True
+2011,Bear Creek,oe,neighborhood_residents,2010-11,317,True
+2011,Bear Creek,oe,neighborhood_residents,2009-10,295,True
+2011,Bear Creek,oe,neighborhood_residents,2008-09,294,True
+2011,Bear Creek,oe,neighborhood_residents,2007-08,271,True
+2011,Bear Creek,oe,neighborhood_residents,2006-07,260,True
+2011,Bear Creek,oe,neighborhood_residents,2005-06,256,True
+2011,Bear Creek,oe,neighborhood_residents,2004-05,251,True
+2011,Bear Creek,oe,neighborhood_residents,2003-04,269,True
+2011,Bear Creek,oe,neighborhood_residents,2002-03,253,True
+2011,Bear Creek,oe,oe_out,2011-12,34,True
+2011,Bear Creek,oe,oe_out,2010-11,30,True
+2011,Bear Creek,oe,oe_out,2009-10,34,True
+2011,Bear Creek,oe,oe_out,2008-09,33,True
+2011,Bear Creek,oe,oe_out,2007-08,48,True
+2011,Bear Creek,oe,oe_out,2006-07,47,True
+2011,Bear Creek,oe,oe_out,2005-06,67,True
+2011,Bear Creek,oe,oe_out,2004-05,43,True
+2011,Bear Creek,oe,oe_out,2003-04,47,True
+2011,Bear Creek,oe,oe_out,2002-03,51,True
+2011,Bear Creek,oe,oe_in,2011-12,72,True
+2011,Bear Creek,oe,oe_in,2010-11,79,True
+2011,Bear Creek,oe,oe_in,2009-10,89,True
+2011,Bear Creek,oe,oe_in,2008-09,102,True
+2011,Bear Creek,oe,oe_in,2007-08,133,True
+2011,Bear Creek,oe,oe_in,2006-07,125,True
+2011,Bear Creek,oe,oe_in,2005-06,153,True
+2011,Bear Creek,oe,oe_in,2004-05,123,True
+2011,Bear Creek,oe,oe_in,2003-04,112,True
+2011,Bear Creek,oe,oe_in,2002-03,126,True
+2011,Bear Creek,oe,out_of_district,2011-12,1,True
+2011,Bear Creek,oe,out_of_district,2010-11,1,True
+2011,Bear Creek,oe,out_of_district,2009-10,3,True
+2011,Bear Creek,oe,out_of_district,2008-09,3,True
+2011,Bear Creek,oe,out_of_district,2007-08,5,True
+2011,Bear Creek,oe,out_of_district,2006-07,4,True
+2011,Bear Creek,oe,out_of_district,2005-06,5,True
+2011,Bear Creek,oe,out_of_district,2004-05,6,True
+2011,Bear Creek,oe,out_of_district,2003-04,10,True
+2011,Bear Creek,oe,out_of_district,2002-03,8,True
+2011,Bear Creek,oe,total_oe_profile,2011-12,378,True
+2011,Bear Creek,oe,total_oe_profile,2010-11,367,True
+2011,Bear Creek,oe,total_oe_profile,2009-10,352,True
+2011,Bear Creek,oe,total_oe_profile,2008-09,370,True
+2011,Bear Creek,oe,total_oe_profile,2007-08,361,True
+2011,Bear Creek,oe,total_oe_profile,2006-07,342,True
+2011,Bear Creek,oe,total_oe_profile,2005-06,348,True
+2011,Bear Creek,oe,total_oe_profile,2004-05,337,True
+2011,Bear Creek,oe,total_oe_profile,2003-04,345,True
+2011,Bear Creek,oe,total_oe_profile,2002-03,336,True
+2012,Mesa,oe,neighborhood_residents,2012-13,250,True
+2012,Mesa,oe,neighborhood_residents,2011-12,323,True
+2012,Mesa,oe,neighborhood_residents,2010-11,326,True
+2012,Mesa,oe,neighborhood_residents,2009-10,327,True
+2012,Mesa,oe,neighborhood_residents,2008-09,343,True
+2012,Mesa,oe,neighborhood_residents,2007-08,330,True
+2012,Mesa,oe,neighborhood_residents,2006-07,310,True
+2012,Mesa,oe,neighborhood_residents,2005-06,262,True
+2012,Mesa,oe,neighborhood_residents,2004-05,287,True
+2012,Mesa,oe,neighborhood_residents,2003-04,273,True
+2012,Mesa,oe,oe_out,2012-13,46,True
+2012,Mesa,oe,oe_out,2011-12,51,True
+2012,Mesa,oe,oe_out,2010-11,41,True
+2012,Mesa,oe,oe_out,2009-10,50,True
+2012,Mesa,oe,oe_out,2008-09,51,True
+2012,Mesa,oe,oe_out,2007-08,70,True
+2012,Mesa,oe,oe_out,2006-07,56,True
+2012,Mesa,oe,oe_out,2005-06,55,True
+2012,Mesa,oe,oe_out,2004-05,58,True
+2012,Mesa,oe,oe_out,2003-04,51,True
+2012,Mesa,oe,oe_in,2012-13,79,True
+2012,Mesa,oe,oe_in,2011-12,81,True
+2012,Mesa,oe,oe_in,2010-11,78,True
+2012,Mesa,oe,oe_in,2009-10,69,True
+2012,Mesa,oe,oe_in,2008-09,72,True
+2012,Mesa,oe,oe_in,2007-08,73,True
+2012,Mesa,oe,oe_in,2006-07,85,True
+2012,Mesa,oe,oe_in,2005-06,100,True
+2012,Mesa,oe,oe_in,2004-05,97,True
+2012,Mesa,oe,oe_in,2003-04,105,True
+2012,Mesa,oe,out_of_district,2012-13,8,True
+2012,Mesa,oe,out_of_district,2011-12,11,True
+2012,Mesa,oe,out_of_district,2010-11,14,True
+2012,Mesa,oe,out_of_district,2009-10,15,True
+2012,Mesa,oe,out_of_district,2008-09,18,True
+2012,Mesa,oe,out_of_district,2007-08,22,True
+2012,Mesa,oe,out_of_district,2006-07,18,True
+2012,Mesa,oe,out_of_district,2005-06,12,True
+2012,Mesa,oe,out_of_district,2004-05,20,True
+2012,Mesa,oe,out_of_district,2003-04,16,True
+2012,Mesa,oe,total_oe_profile,2012-13,297,True
+2012,Mesa,oe,total_oe_profile,2011-12,371,True
+2012,Mesa,oe,total_oe_profile,2010-11,378,True
+2012,Mesa,oe,total_oe_profile,2009-10,365,True
+2012,Mesa,oe,total_oe_profile,2008-09,405,True
+2012,Mesa,oe,total_oe_profile,2007-08,355,True
+2012,Mesa,oe,total_oe_profile,2006-07,357,True
+2012,Mesa,oe,total_oe_profile,2005-06,319,True
+2012,Mesa,oe,total_oe_profile,2004-05,346,True
+2012,Mesa,oe,total_oe_profile,2003-04,350,True
+2012,Bear Creek,oe,neighborhood_residents,2012-13,229,True
+2012,Bear Creek,oe,neighborhood_residents,2011-12,340,True
+2012,Bear Creek,oe,neighborhood_residents,2010-11,317,True
+2012,Bear Creek,oe,neighborhood_residents,2009-10,295,True
+2012,Bear Creek,oe,neighborhood_residents,2008-09,294,True
+2012,Bear Creek,oe,neighborhood_residents,2007-08,271,True
+2012,Bear Creek,oe,neighborhood_residents,2006-07,260,True
+2012,Bear Creek,oe,neighborhood_residents,2005-06,256,True
+2012,Bear Creek,oe,neighborhood_residents,2004-05,251,True
+2012,Bear Creek,oe,neighborhood_residents,2003-04,269,True
+2012,Bear Creek,oe,oe_out,2012-13,43,True
+2012,Bear Creek,oe,oe_out,2011-12,34,True
+2012,Bear Creek,oe,oe_out,2010-11,30,True
+2012,Bear Creek,oe,oe_out,2009-10,34,True
+2012,Bear Creek,oe,oe_out,2008-09,33,True
+2012,Bear Creek,oe,oe_out,2007-08,48,True
+2012,Bear Creek,oe,oe_out,2006-07,47,True
+2012,Bear Creek,oe,oe_out,2005-06,67,True
+2012,Bear Creek,oe,oe_out,2004-05,43,True
+2012,Bear Creek,oe,oe_out,2003-04,47,True
+2012,Bear Creek,oe,oe_in,2012-13,47,True
+2012,Bear Creek,oe,oe_in,2011-12,72,True
+2012,Bear Creek,oe,oe_in,2010-11,79,True
+2012,Bear Creek,oe,oe_in,2009-10,89,True
+2012,Bear Creek,oe,oe_in,2008-09,102,True
+2012,Bear Creek,oe,oe_in,2007-08,133,True
+2012,Bear Creek,oe,oe_in,2006-07,125,True
+2012,Bear Creek,oe,oe_in,2005-06,153,True
+2012,Bear Creek,oe,oe_in,2004-05,123,True
+2012,Bear Creek,oe,oe_in,2003-04,112,True
+2012,Bear Creek,oe,out_of_district,2012-13,4,True
+2012,Bear Creek,oe,out_of_district,2011-12,1,True
+2012,Bear Creek,oe,out_of_district,2010-11,1,True
+2012,Bear Creek,oe,out_of_district,2009-10,3,True
+2012,Bear Creek,oe,out_of_district,2008-09,3,True
+2012,Bear Creek,oe,out_of_district,2007-08,5,True
+2012,Bear Creek,oe,out_of_district,2006-07,4,True
+2012,Bear Creek,oe,out_of_district,2005-06,5,True
+2012,Bear Creek,oe,out_of_district,2004-05,6,True
+2012,Bear Creek,oe,out_of_district,2003-04,10,True
+2012,Bear Creek,oe,total_oe_profile,2012-13,238,True
+2012,Bear Creek,oe,total_oe_profile,2011-12,378,True
+2012,Bear Creek,oe,total_oe_profile,2010-11,367,True
+2012,Bear Creek,oe,total_oe_profile,2009-10,354,True
+2012,Bear Creek,oe,total_oe_profile,2008-09,370,True
+2012,Bear Creek,oe,total_oe_profile,2007-08,361,True
+2012,Bear Creek,oe,total_oe_profile,2006-07,342,True
+2012,Bear Creek,oe,total_oe_profile,2005-06,348,True
+2012,Bear Creek,oe,total_oe_profile,2004-05,337,True
+2012,Bear Creek,oe,total_oe_profile,2003-04,345,True
+2014,Mesa,oe,neighborhood_residents,2014-15,249,True
+2014,Mesa,oe,neighborhood_residents,2013-14,313,True
+2014,Mesa,oe,neighborhood_residents,2012-13,305,True
+2014,Mesa,oe,neighborhood_residents,2011-12,323,True
+2014,Mesa,oe,neighborhood_residents,2010-11,326,True
+2014,Mesa,oe,neighborhood_residents,2009-10,327,True
+2014,Mesa,oe,neighborhood_residents,2008-09,343,True
+2014,Mesa,oe,neighborhood_residents,2007-08,330,True
+2014,Mesa,oe,neighborhood_residents,2006-07,310,True
+2014,Mesa,oe,neighborhood_residents,2005-06,262,True
+2014,Mesa,oe,oe_out,2014-15,44,True
+2014,Mesa,oe,oe_out,2013-14,48,True
+2014,Mesa,oe,oe_out,2012-13,46,True
+2014,Mesa,oe,oe_out,2011-12,51,True
+2014,Mesa,oe,oe_out,2010-11,41,True
+2014,Mesa,oe,oe_out,2009-10,50,True
+2014,Mesa,oe,oe_out,2008-09,51,True
+2014,Mesa,oe,oe_out,2007-08,70,True
+2014,Mesa,oe,oe_out,2006-07,56,True
+2014,Mesa,oe,oe_out,2005-06,55,True
+2014,Mesa,oe,oe_in,2014-15,116,True
+2014,Mesa,oe,oe_in,2013-14,67,True
+2014,Mesa,oe,oe_in,2012-13,79,True
+2014,Mesa,oe,oe_in,2011-12,81,True
+2014,Mesa,oe,oe_in,2010-11,78,True
+2014,Mesa,oe,oe_in,2009-10,69,True
+2014,Mesa,oe,oe_in,2008-09,72,True
+2014,Mesa,oe,oe_in,2007-08,73,True
+2014,Mesa,oe,oe_in,2006-07,85,True
+2014,Mesa,oe,oe_in,2005-06,100,True
+2014,Mesa,oe,placements_out,2014-15,2,False
+2014,Mesa,oe,placements_out,2013-14,2,False
+2014,Mesa,oe,placements_out,2012-13,1,False
+2014,Mesa,oe,placements_out,2011-12,1,False
+2014,Mesa,oe,placements_out,2010-11,4,False
+2014,Mesa,oe,placements_out,2009-10,11,False
+2014,Mesa,oe,out_of_district,2014-15,5,True
+2014,Mesa,oe,out_of_district,2013-14,4,True
+2014,Mesa,oe,out_of_district,2012-13,8,True
+2014,Mesa,oe,out_of_district,2011-12,11,True
+2014,Mesa,oe,out_of_district,2010-11,14,True
+2014,Mesa,oe,out_of_district,2009-10,15,True
+2014,Mesa,oe,out_of_district,2008-09,18,True
+2014,Mesa,oe,out_of_district,2007-08,22,True
+2014,Mesa,oe,out_of_district,2006-07,18,True
+2014,Mesa,oe,out_of_district,2005-06,12,True
+2014,Mesa,oe,total_oe_profile,2014-15,330,True
+2014,Mesa,oe,total_oe_profile,2013-14,341,True
+2014,Mesa,oe,total_oe_profile,2012-13,352,True
+2014,Mesa,oe,total_oe_profile,2011-12,371,True
+2014,Mesa,oe,total_oe_profile,2010-11,378,True
+2014,Mesa,oe,total_oe_profile,2009-10,365,True
+2014,Mesa,oe,total_oe_profile,2008-09,405,True
+2014,Mesa,oe,total_oe_profile,2007-08,355,True
+2014,Mesa,oe,total_oe_profile,2006-07,357,True
+2014,Mesa,oe,total_oe_profile,2005-06,319,True
+2014,Bear Creek,oe,neighborhood_residents,2014-15,401,True
+2014,Bear Creek,oe,neighborhood_residents,2013-14,401,True
+2014,Bear Creek,oe,neighborhood_residents,2012-13,384,True
+2014,Bear Creek,oe,neighborhood_residents,2011-12,340,True
+2014,Bear Creek,oe,neighborhood_residents,2010-11,317,True
+2014,Bear Creek,oe,neighborhood_residents,2009-10,295,True
+2014,Bear Creek,oe,neighborhood_residents,2008-09,294,True
+2014,Bear Creek,oe,neighborhood_residents,2007-08,271,True
+2014,Bear Creek,oe,neighborhood_residents,2006-07,260,True
+2014,Bear Creek,oe,neighborhood_residents,2005-06,256,True
+2014,Bear Creek,oe,oe_out,2014-15,30,True
+2014,Bear Creek,oe,oe_out,2013-14,37,True
+2014,Bear Creek,oe,oe_out,2012-13,43,True
+2014,Bear Creek,oe,oe_out,2011-12,34,True
+2014,Bear Creek,oe,oe_out,2010-11,30,True
+2014,Bear Creek,oe,oe_out,2009-10,34,True
+2014,Bear Creek,oe,oe_out,2008-09,33,True
+2014,Bear Creek,oe,oe_out,2007-08,48,True
+2014,Bear Creek,oe,oe_out,2006-07,47,True
+2014,Bear Creek,oe,oe_out,2005-06,67,True
+2014,Bear Creek,oe,oe_in,2014-15,45,True
+2014,Bear Creek,oe,oe_in,2013-14,45,True
+2014,Bear Creek,oe,oe_in,2012-13,47,True
+2014,Bear Creek,oe,oe_in,2011-12,72,True
+2014,Bear Creek,oe,oe_in,2010-11,79,True
+2014,Bear Creek,oe,oe_in,2009-10,89,True
+2014,Bear Creek,oe,oe_in,2008-09,102,True
+2014,Bear Creek,oe,oe_in,2007-08,133,True
+2014,Bear Creek,oe,oe_in,2006-07,125,True
+2014,Bear Creek,oe,oe_in,2005-06,153,True
+2014,Bear Creek,oe,placements_in,2014-15,1,False
+2014,Bear Creek,oe,placements_in,2013-14,1,False
+2014,Bear Creek,oe,out_of_district,2014-15,0,True
+2014,Bear Creek,oe,out_of_district,2013-14,4,True
+2014,Bear Creek,oe,out_of_district,2012-13,4,True
+2014,Bear Creek,oe,out_of_district,2011-12,1,True
+2014,Bear Creek,oe,out_of_district,2010-11,1,True
+2014,Bear Creek,oe,out_of_district,2009-10,3,True
+2014,Bear Creek,oe,out_of_district,2008-09,3,True
+2014,Bear Creek,oe,out_of_district,2007-08,5,True
+2014,Bear Creek,oe,out_of_district,2006-07,4,True
+2014,Bear Creek,oe,out_of_district,2005-06,5,True
+2014,Bear Creek,oe,total_oe_profile,2014-15,417,True
+2014,Bear Creek,oe,total_oe_profile,2013-14,414,True
+2014,Bear Creek,oe,total_oe_profile,2012-13,391,True
+2014,Bear Creek,oe,total_oe_profile,2011-12,378,True
+2014,Bear Creek,oe,total_oe_profile,2010-11,367,True
+2014,Bear Creek,oe,total_oe_profile,2009-10,354,True
+2014,Bear Creek,oe,total_oe_profile,2008-09,370,True
+2014,Bear Creek,oe,total_oe_profile,2007-08,361,True
+2014,Bear Creek,oe,total_oe_profile,2006-07,342,True
+2014,Bear Creek,oe,total_oe_profile,2005-06,348,True
+2015,Mesa,grade,grade_5,2015-16,79,True
+2015,Mesa,grade,grade_5,2014-15,56,True
+2015,Mesa,grade,grade_5,2013-14,63,True
+2015,Mesa,grade,grade_5,2012-13,75,True
+2015,Mesa,grade,grade_5,2011-12,75,True
+2015,Mesa,grade,grade_5,2010-11,58,True
+2015,Mesa,grade,grade_5,2009-10,56,True
+2015,Mesa,grade,grade_5,2008-09,73,True
+2015,Mesa,grade,grade_5,2007-08,49,True
+2015,Mesa,grade,grade_5,2006-07,63,True
+2015,Mesa,grade,grade_4,2015-16,52,True
+2015,Mesa,grade,grade_4,2014-15,75,True
+2015,Mesa,grade,grade_4,2013-14,50,True
+2015,Mesa,grade,grade_4,2012-13,68,True
+2015,Mesa,grade,grade_4,2011-12,73,True
+2015,Mesa,grade,grade_4,2010-11,71,True
+2015,Mesa,grade,grade_4,2009-10,61,True
+2015,Mesa,grade,grade_4,2008-09,56,True
+2015,Mesa,grade,grade_4,2007-08,73,True
+2015,Mesa,grade,grade_4,2006-07,45,True
+2015,Mesa,grade,grade_3,2015-16,55,True
+2015,Mesa,grade,grade_3,2014-15,53,True
+2015,Mesa,grade,grade_3,2013-14,73,True
+2015,Mesa,grade,grade_3,2012-13,46,True
+2015,Mesa,grade,grade_3,2011-12,71,True
+2015,Mesa,grade,grade_3,2010-11,70,True
+2015,Mesa,grade,grade_3,2009-10,72,True
+2015,Mesa,grade,grade_3,2008-09,57,True
+2015,Mesa,grade,grade_3,2007-08,53,True
+2015,Mesa,grade,grade_3,2006-07,71,True
+2015,Mesa,grade,grade_2,2015-16,50,True
+2015,Mesa,grade,grade_2,2014-15,56,True
+2015,Mesa,grade,grade_2,2013-14,55,True
+2015,Mesa,grade,grade_2,2012-13,72,True
+2015,Mesa,grade,grade_2,2011-12,41,True
+2015,Mesa,grade,grade_2,2010-11,71,True
+2015,Mesa,grade,grade_2,2009-10,66,True
+2015,Mesa,grade,grade_2,2008-09,69,True
+2015,Mesa,grade,grade_2,2007-08,53,True
+2015,Mesa,grade,grade_2,2006-07,51,True
+2015,Mesa,grade,grade_1,2015-16,47,True
+2015,Mesa,grade,grade_1,2014-15,43,True
+2015,Mesa,grade,grade_1,2013-14,52,True
+2015,Mesa,grade,grade_1,2012-13,50,True
+2015,Mesa,grade,grade_1,2011-12,67,True
+2015,Mesa,grade,grade_1,2010-11,45,True
+2015,Mesa,grade,grade_1,2009-10,67,True
+2015,Mesa,grade,grade_1,2008-09,67,True
+2015,Mesa,grade,grade_1,2007-08,69,True
+2015,Mesa,grade,grade_1,2006-07,52,True
+2015,Mesa,grade,grade_k,2015-16,37,True
+2015,Mesa,grade,grade_k,2014-15,47,True
+2015,Mesa,grade,grade_k,2013-14,48,True
+2015,Mesa,grade,grade_k,2012-13,41,True
+2015,Mesa,grade,grade_k,2011-12,44,True
+2015,Mesa,grade,grade_k,2010-11,63,True
+2015,Mesa,grade,grade_k,2009-10,43,True
+2015,Mesa,grade,grade_k,2008-09,61,True
+2015,Mesa,grade,grade_k,2007-08,58,True
+2015,Mesa,grade,grade_k,2006-07,75,True
+2015,Mesa,grade,total_enrollment,2015-16,320,True
+2015,Mesa,grade,total_enrollment,2014-15,330,True
+2015,Mesa,grade,total_enrollment,2013-14,341,True
+2015,Mesa,grade,total_enrollment,2012-13,352,True
+2015,Mesa,grade,total_enrollment,2011-12,371,True
+2015,Mesa,grade,total_enrollment,2010-11,378,True
+2015,Mesa,grade,total_enrollment,2009-10,365,True
+2015,Mesa,grade,total_enrollment,2008-09,383,True
+2015,Mesa,grade,total_enrollment,2007-08,355,True
+2015,Mesa,grade,total_enrollment,2006-07,357,True
+2015,Mesa,oe,neighborhood_residents,2015-16,299,True
+2015,Mesa,oe,neighborhood_residents,2014-15,249,True
+2015,Mesa,oe,neighborhood_residents,2013-14,313,True
+2015,Mesa,oe,neighborhood_residents,2012-13,305,True
+2015,Mesa,oe,neighborhood_residents,2011-12,323,True
+2015,Mesa,oe,neighborhood_residents,2010-11,326,True
+2015,Mesa,oe,neighborhood_residents,2009-10,327,True
+2015,Mesa,oe,neighborhood_residents,2008-09,343,True
+2015,Mesa,oe,neighborhood_residents,2007-08,330,True
+2015,Mesa,oe,neighborhood_residents,2006-07,310,True
+2015,Mesa,oe,oe_out,2015-16,44,True
+2015,Mesa,oe,oe_out,2014-15,44,True
+2015,Mesa,oe,oe_out,2013-14,48,True
+2015,Mesa,oe,oe_out,2012-13,46,True
+2015,Mesa,oe,oe_out,2011-12,51,True
+2015,Mesa,oe,oe_out,2010-11,41,True
+2015,Mesa,oe,oe_out,2009-10,50,True
+2015,Mesa,oe,oe_out,2008-09,51,True
+2015,Mesa,oe,oe_out,2007-08,70,True
+2015,Mesa,oe,oe_out,2006-07,56,True
+2015,Mesa,oe,oe_in,2015-16,58,True
+2015,Mesa,oe,oe_in,2014-15,116,True
+2015,Mesa,oe,oe_in,2013-14,67,True
+2015,Mesa,oe,oe_in,2012-13,79,True
+2015,Mesa,oe,oe_in,2011-12,81,True
+2015,Mesa,oe,oe_in,2010-11,78,True
+2015,Mesa,oe,oe_in,2009-10,69,True
+2015,Mesa,oe,oe_in,2008-09,72,True
+2015,Mesa,oe,oe_in,2007-08,73,True
+2015,Mesa,oe,oe_in,2006-07,85,True
+2015,Mesa,oe,placements_out,2015-16,2,False
+2015,Mesa,oe,placements_out,2014-15,2,False
+2015,Mesa,oe,placements_out,2013-14,2,False
+2015,Mesa,oe,placements_out,2012-13,1,False
+2015,Mesa,oe,placements_out,2011-12,1,False
+2015,Mesa,oe,placements_out,2010-11,4,False
+2015,Mesa,oe,placements_out,2009-10,11,False
+2015,Mesa,oe,placements_in,2015-16,4,False
+2015,Mesa,oe,placements_in,2014-15,6,False
+2015,Mesa,oe,placements_in,2013-14,7,False
+2015,Mesa,oe,placements_in,2012-13,7,False
+2015,Mesa,oe,placements_in,2011-12,8,False
+2015,Mesa,oe,placements_in,2010-11,8,False
+2015,Mesa,oe,placements_in,2009-10,12,False
+2015,Mesa,oe,out_of_district,2015-16,5,True
+2015,Mesa,oe,out_of_district,2014-15,5,True
+2015,Mesa,oe,out_of_district,2013-14,4,True
+2015,Mesa,oe,out_of_district,2012-13,8,True
+2015,Mesa,oe,out_of_district,2011-12,11,True
+2015,Mesa,oe,out_of_district,2010-11,14,True
+2015,Mesa,oe,out_of_district,2009-10,15,True
+2015,Mesa,oe,out_of_district,2008-09,18,True
+2015,Mesa,oe,out_of_district,2007-08,22,True
+2015,Mesa,oe,out_of_district,2006-07,18,True
+2015,Mesa,oe,total_oe_profile,2015-16,320,True
+2015,Mesa,oe,total_oe_profile,2014-15,330,True
+2015,Mesa,oe,total_oe_profile,2013-14,341,True
+2015,Mesa,oe,total_oe_profile,2012-13,352,True
+2015,Mesa,oe,total_oe_profile,2011-12,371,True
+2015,Mesa,oe,total_oe_profile,2010-11,378,True
+2015,Mesa,oe,total_oe_profile,2009-10,365,True
+2015,Mesa,oe,total_oe_profile,2008-09,405,True
+2015,Mesa,oe,total_oe_profile,2007-08,355,True
+2015,Mesa,oe,total_oe_profile,2006-07,357,True
+2015,Bear Creek,grade,grade_5,2015-16,77,True
+2015,Bear Creek,grade,grade_5,2014-15,55,True
+2015,Bear Creek,grade,grade_5,2013-14,70,True
+2015,Bear Creek,grade,grade_5,2012-13,58,True
+2015,Bear Creek,grade,grade_5,2011-12,75,True
+2015,Bear Creek,grade,grade_5,2010-11,78,True
+2015,Bear Creek,grade,grade_5,2009-10,52,True
+2015,Bear Creek,grade,grade_5,2008-09,65,True
+2015,Bear Creek,grade,grade_5,2007-08,77,True
+2015,Bear Creek,grade,grade_5,2006-07,52,True
+2015,Bear Creek,grade,grade_4,2015-16,85,True
+2015,Bear Creek,grade,grade_4,2014-15,75,True
+2015,Bear Creek,grade,grade_4,2013-14,55,True
+2015,Bear Creek,grade,grade_4,2012-13,67,True
+2015,Bear Creek,grade,grade_4,2011-12,57,True
+2015,Bear Creek,grade,grade_4,2010-11,73,True
+2015,Bear Creek,grade,grade_4,2009-10,73,True
+2015,Bear Creek,grade,grade_4,2008-09,53,True
+2015,Bear Creek,grade,grade_4,2007-08,57,True
+2015,Bear Creek,grade,grade_4,2006-07,72,True
+2015,Bear Creek,grade,grade_3,2015-16,67,True
+2015,Bear Creek,grade,grade_3,2014-15,86,True
+2015,Bear Creek,grade,grade_3,2013-14,72,True
+2015,Bear Creek,grade,grade_3,2012-13,53,True
+2015,Bear Creek,grade,grade_3,2011-12,58,True
+2015,Bear Creek,grade,grade_3,2010-11,54,True
+2015,Bear Creek,grade,grade_3,2009-10,71,True
+2015,Bear Creek,grade,grade_3,2008-09,77,True
+2015,Bear Creek,grade,grade_3,2007-08,53,True
+2015,Bear Creek,grade,grade_3,2006-07,55,True
+2015,Bear Creek,grade,grade_2,2015-16,83,True
+2015,Bear Creek,grade,grade_2,2014-15,65,True
+2015,Bear Creek,grade,grade_2,2013-14,85,True
+2015,Bear Creek,grade,grade_2,2012-13,72,True
+2015,Bear Creek,grade,grade_2,2011-12,51,True
+2015,Bear Creek,grade,grade_2,2010-11,54,True
+2015,Bear Creek,grade,grade_2,2009-10,53,True
+2015,Bear Creek,grade,grade_2,2008-09,66,True
+2015,Bear Creek,grade,grade_2,2007-08,75,True
+2015,Bear Creek,grade,grade_2,2006-07,49,True
+2015,Bear Creek,grade,grade_1,2015-16,61,True
+2015,Bear Creek,grade,grade_1,2014-15,78,True
+2015,Bear Creek,grade,grade_1,2013-14,57,True
+2015,Bear Creek,grade,grade_1,2012-13,79,True
+2015,Bear Creek,grade,grade_1,2011-12,68,True
+2015,Bear Creek,grade,grade_1,2010-11,50,True
+2015,Bear Creek,grade,grade_1,2009-10,59,True
+2015,Bear Creek,grade,grade_1,2008-09,49,True
+2015,Bear Creek,grade,grade_1,2007-08,57,True
+2015,Bear Creek,grade,grade_1,2006-07,69,True
+2015,Bear Creek,grade,grade_k,2015-16,68,True
+2015,Bear Creek,grade,grade_k,2014-15,58,True
+2015,Bear Creek,grade,grade_k,2013-14,75,True
+2015,Bear Creek,grade,grade_k,2012-13,62,True
+2015,Bear Creek,grade,grade_k,2011-12,69,True
+2015,Bear Creek,grade,grade_k,2010-11,58,True
+2015,Bear Creek,grade,grade_k,2009-10,44,True
+2015,Bear Creek,grade,grade_k,2008-09,52,True
+2015,Bear Creek,grade,grade_k,2007-08,42,True
+2015,Bear Creek,grade,grade_k,2006-07,45,True
+2015,Bear Creek,grade,total_enrollment,2015-16,441,True
+2015,Bear Creek,grade,total_enrollment,2014-15,417,True
+2015,Bear Creek,grade,total_enrollment,2013-14,414,True
+2015,Bear Creek,grade,total_enrollment,2012-13,391,True
+2015,Bear Creek,grade,total_enrollment,2011-12,378,True
+2015,Bear Creek,grade,total_enrollment,2010-11,367,True
+2015,Bear Creek,grade,total_enrollment,2009-10,352,True
+2015,Bear Creek,grade,total_enrollment,2008-09,362,True
+2015,Bear Creek,grade,total_enrollment,2007-08,361,True
+2015,Bear Creek,grade,total_enrollment,2006-07,342,True
+2015,Bear Creek,grade,pre_k,2015-16,0,False
+2015,Bear Creek,oe,neighborhood_residents,2015-16,433,True
+2015,Bear Creek,oe,neighborhood_residents,2014-15,401,True
+2015,Bear Creek,oe,neighborhood_residents,2013-14,401,True
+2015,Bear Creek,oe,neighborhood_residents,2012-13,384,True
+2015,Bear Creek,oe,neighborhood_residents,2011-12,340,True
+2015,Bear Creek,oe,neighborhood_residents,2010-11,317,True
+2015,Bear Creek,oe,neighborhood_residents,2009-10,295,True
+2015,Bear Creek,oe,neighborhood_residents,2008-09,294,True
+2015,Bear Creek,oe,neighborhood_residents,2007-08,271,True
+2015,Bear Creek,oe,neighborhood_residents,2006-07,260,True
+2015,Bear Creek,oe,oe_out,2015-16,34,True
+2015,Bear Creek,oe,oe_out,2014-15,30,True
+2015,Bear Creek,oe,oe_out,2013-14,37,True
+2015,Bear Creek,oe,oe_out,2012-13,43,True
+2015,Bear Creek,oe,oe_out,2011-12,34,True
+2015,Bear Creek,oe,oe_out,2010-11,30,True
+2015,Bear Creek,oe,oe_out,2009-10,34,True
+2015,Bear Creek,oe,oe_out,2008-09,33,True
+2015,Bear Creek,oe,oe_out,2007-08,48,True
+2015,Bear Creek,oe,oe_out,2006-07,47,True
+2015,Bear Creek,oe,oe_in,2015-16,43,True
+2015,Bear Creek,oe,oe_in,2014-15,45,True
+2015,Bear Creek,oe,oe_in,2013-14,45,True
+2015,Bear Creek,oe,oe_in,2012-13,47,True
+2015,Bear Creek,oe,oe_in,2011-12,72,True
+2015,Bear Creek,oe,oe_in,2010-11,79,True
+2015,Bear Creek,oe,oe_in,2009-10,89,True
+2015,Bear Creek,oe,oe_in,2008-09,102,True
+2015,Bear Creek,oe,oe_in,2007-08,133,True
+2015,Bear Creek,oe,oe_in,2006-07,125,True
+2015,Bear Creek,oe,placements_out,2015-16,1,False
+2015,Bear Creek,oe,placements_out,2014-15,0,False
+2015,Bear Creek,oe,placements_out,2013-14,1,False
+2015,Bear Creek,oe,placements_out,2012-13,1,False
+2015,Bear Creek,oe,placements_out,2011-12,1,False
+2015,Bear Creek,oe,placements_out,2010-11,4,False
+2015,Bear Creek,oe,placements_in,2015-16,0,False
+2015,Bear Creek,oe,placements_in,2014-15,1,False
+2015,Bear Creek,oe,placements_in,2013-14,1,False
+2015,Bear Creek,oe,out_of_district,2015-16,0,True
+2015,Bear Creek,oe,out_of_district,2014-15,0,True
+2015,Bear Creek,oe,out_of_district,2013-14,4,True
+2015,Bear Creek,oe,out_of_district,2012-13,4,True
+2015,Bear Creek,oe,out_of_district,2011-12,1,True
+2015,Bear Creek,oe,out_of_district,2010-11,1,True
+2015,Bear Creek,oe,out_of_district,2009-10,3,True
+2015,Bear Creek,oe,out_of_district,2008-09,3,True
+2015,Bear Creek,oe,out_of_district,2007-08,5,True
+2015,Bear Creek,oe,out_of_district,2006-07,4,True
+2015,Bear Creek,oe,total_oe_profile,2015-16,441,True
+2015,Bear Creek,oe,total_oe_profile,2014-15,417,True
+2015,Bear Creek,oe,total_oe_profile,2013-14,414,True
+2015,Bear Creek,oe,total_oe_profile,2012-13,391,True
+2015,Bear Creek,oe,total_oe_profile,2011-12,378,True
+2015,Bear Creek,oe,total_oe_profile,2010-11,367,True
+2015,Bear Creek,oe,total_oe_profile,2009-10,354,True
+2015,Bear Creek,oe,total_oe_profile,2008-09,370,True
+2015,Bear Creek,oe,total_oe_profile,2007-08,361,True
+2015,Bear Creek,oe,total_oe_profile,2006-07,342,True
+2016,Mesa,grade,grade_5,2016-17,55,True
+2016,Mesa,grade,grade_5,2015-16,79,True
+2016,Mesa,grade,grade_5,2014-15,56,True
+2016,Mesa,grade,grade_5,2013-14,63,True
+2016,Mesa,grade,grade_5,2012-13,75,True
+2016,Mesa,grade,grade_5,2011-12,75,True
+2016,Mesa,grade,grade_5,2010-11,58,True
+2016,Mesa,grade,grade_5,2009-10,56,True
+2016,Mesa,grade,grade_5,2008-09,73,True
+2016,Mesa,grade,grade_5,2007-08,49,True
+2016,Mesa,grade,grade_4,2016-17,58,True
+2016,Mesa,grade,grade_4,2015-16,52,True
+2016,Mesa,grade,grade_4,2014-15,75,True
+2016,Mesa,grade,grade_4,2013-14,50,True
+2016,Mesa,grade,grade_4,2012-13,68,True
+2016,Mesa,grade,grade_4,2011-12,73,True
+2016,Mesa,grade,grade_4,2010-11,71,True
+2016,Mesa,grade,grade_4,2009-10,61,True
+2016,Mesa,grade,grade_4,2008-09,56,True
+2016,Mesa,grade,grade_4,2007-08,73,True
+2016,Mesa,grade,grade_3,2016-17,49,True
+2016,Mesa,grade,grade_3,2015-16,55,True
+2016,Mesa,grade,grade_3,2014-15,53,True
+2016,Mesa,grade,grade_3,2013-14,73,True
+2016,Mesa,grade,grade_3,2012-13,46,True
+2016,Mesa,grade,grade_3,2011-12,71,True
+2016,Mesa,grade,grade_3,2010-11,70,True
+2016,Mesa,grade,grade_3,2009-10,72,True
+2016,Mesa,grade,grade_3,2008-09,57,True
+2016,Mesa,grade,grade_3,2007-08,53,True
+2016,Mesa,grade,grade_2,2016-17,48,True
+2016,Mesa,grade,grade_2,2015-16,50,True
+2016,Mesa,grade,grade_2,2014-15,56,True
+2016,Mesa,grade,grade_2,2013-14,55,True
+2016,Mesa,grade,grade_2,2012-13,72,True
+2016,Mesa,grade,grade_2,2011-12,41,True
+2016,Mesa,grade,grade_2,2010-11,71,True
+2016,Mesa,grade,grade_2,2009-10,66,True
+2016,Mesa,grade,grade_2,2008-09,69,True
+2016,Mesa,grade,grade_2,2007-08,53,True
+2016,Mesa,grade,grade_1,2016-17,42,True
+2016,Mesa,grade,grade_1,2015-16,47,True
+2016,Mesa,grade,grade_1,2014-15,43,True
+2016,Mesa,grade,grade_1,2013-14,52,True
+2016,Mesa,grade,grade_1,2012-13,50,True
+2016,Mesa,grade,grade_1,2011-12,67,True
+2016,Mesa,grade,grade_1,2010-11,45,True
+2016,Mesa,grade,grade_1,2009-10,67,True
+2016,Mesa,grade,grade_1,2008-09,67,True
+2016,Mesa,grade,grade_1,2007-08,69,True
+2016,Mesa,grade,grade_k,2016-17,35,True
+2016,Mesa,grade,grade_k,2015-16,37,True
+2016,Mesa,grade,grade_k,2014-15,47,True
+2016,Mesa,grade,grade_k,2013-14,48,True
+2016,Mesa,grade,grade_k,2012-13,41,True
+2016,Mesa,grade,grade_k,2011-12,44,True
+2016,Mesa,grade,grade_k,2010-11,63,True
+2016,Mesa,grade,grade_k,2009-10,43,True
+2016,Mesa,grade,grade_k,2008-09,61,True
+2016,Mesa,grade,grade_k,2007-08,58,True
+2016,Mesa,grade,total_enrollment,2016-17,287,True
+2016,Mesa,grade,total_enrollment,2015-16,320,True
+2016,Mesa,grade,total_enrollment,2014-15,330,True
+2016,Mesa,grade,total_enrollment,2013-14,341,True
+2016,Mesa,grade,total_enrollment,2012-13,352,True
+2016,Mesa,grade,total_enrollment,2011-12,371,True
+2016,Mesa,grade,total_enrollment,2010-11,378,True
+2016,Mesa,grade,total_enrollment,2009-10,365,True
+2016,Mesa,grade,total_enrollment,2008-09,383,True
+2016,Mesa,grade,total_enrollment,2007-08,355,True
+2016,Mesa,oe,neighborhood_residents,2016-17,273,True
+2016,Mesa,oe,neighborhood_residents,2015-16,299,True
+2016,Mesa,oe,neighborhood_residents,2014-15,249,True
+2016,Mesa,oe,neighborhood_residents,2013-14,313,True
+2016,Mesa,oe,neighborhood_residents,2012-13,305,True
+2016,Mesa,oe,neighborhood_residents,2011-12,323,True
+2016,Mesa,oe,neighborhood_residents,2010-11,326,True
+2016,Mesa,oe,neighborhood_residents,2009-10,327,True
+2016,Mesa,oe,neighborhood_residents,2008-09,343,True
+2016,Mesa,oe,neighborhood_residents,2007-08,330,True
+2016,Mesa,oe,oe_out,2016-17,47,True
+2016,Mesa,oe,oe_out,2015-16,44,True
+2016,Mesa,oe,oe_out,2014-15,44,True
+2016,Mesa,oe,oe_out,2013-14,48,True
+2016,Mesa,oe,oe_out,2012-13,46,True
+2016,Mesa,oe,oe_out,2011-12,51,True
+2016,Mesa,oe,oe_out,2010-11,41,True
+2016,Mesa,oe,oe_out,2009-10,50,True
+2016,Mesa,oe,oe_out,2008-09,51,True
+2016,Mesa,oe,oe_out,2007-08,70,True
+2016,Mesa,oe,oe_in,2016-17,55,True
+2016,Mesa,oe,oe_in,2015-16,58,True
+2016,Mesa,oe,oe_in,2014-15,116,True
+2016,Mesa,oe,oe_in,2013-14,67,True
+2016,Mesa,oe,oe_in,2012-13,79,True
+2016,Mesa,oe,oe_in,2011-12,81,True
+2016,Mesa,oe,oe_in,2010-11,78,True
+2016,Mesa,oe,oe_in,2009-10,69,True
+2016,Mesa,oe,oe_in,2008-09,72,True
+2016,Mesa,oe,oe_in,2007-08,73,True
+2016,Mesa,oe,placements_out,2016-17,4,False
+2016,Mesa,oe,placements_out,2015-16,2,False
+2016,Mesa,oe,placements_out,2014-15,2,False
+2016,Mesa,oe,placements_out,2013-14,2,False
+2016,Mesa,oe,placements_out,2012-13,1,False
+2016,Mesa,oe,placements_out,2011-12,1,False
+2016,Mesa,oe,placements_out,2010-11,4,False
+2016,Mesa,oe,placements_out,2009-10,11,False
+2016,Mesa,oe,placements_in,2016-17,7,False
+2016,Mesa,oe,placements_in,2015-16,4,False
+2016,Mesa,oe,placements_in,2014-15,6,False
+2016,Mesa,oe,placements_in,2013-14,7,False
+2016,Mesa,oe,placements_in,2012-13,7,False
+2016,Mesa,oe,placements_in,2011-12,8,False
+2016,Mesa,oe,placements_in,2010-11,8,False
+2016,Mesa,oe,placements_in,2009-10,12,False
+2016,Mesa,oe,out_of_district,2016-17,3,True
+2016,Mesa,oe,out_of_district,2015-16,5,True
+2016,Mesa,oe,out_of_district,2014-15,5,True
+2016,Mesa,oe,out_of_district,2013-14,4,True
+2016,Mesa,oe,out_of_district,2012-13,8,True
+2016,Mesa,oe,out_of_district,2011-12,11,True
+2016,Mesa,oe,out_of_district,2010-11,14,True
+2016,Mesa,oe,out_of_district,2009-10,15,True
+2016,Mesa,oe,out_of_district,2008-09,18,True
+2016,Mesa,oe,out_of_district,2007-08,22,True
+2016,Mesa,oe,total_oe_profile,2016-17,287,True
+2016,Mesa,oe,total_oe_profile,2015-16,320,True
+2016,Mesa,oe,total_oe_profile,2014-15,330,True
+2016,Mesa,oe,total_oe_profile,2013-14,341,True
+2016,Mesa,oe,total_oe_profile,2012-13,352,True
+2016,Mesa,oe,total_oe_profile,2011-12,371,True
+2016,Mesa,oe,total_oe_profile,2010-11,378,True
+2016,Mesa,oe,total_oe_profile,2009-10,365,True
+2016,Mesa,oe,total_oe_profile,2008-09,405,True
+2016,Mesa,oe,total_oe_profile,2007-08,355,True
+2016,Bear Creek,grade,grade_5,2016-17,87,True
+2016,Bear Creek,grade,grade_5,2015-16,77,True
+2016,Bear Creek,grade,grade_5,2014-15,55,True
+2016,Bear Creek,grade,grade_5,2013-14,70,True
+2016,Bear Creek,grade,grade_5,2012-13,58,True
+2016,Bear Creek,grade,grade_5,2011-12,75,True
+2016,Bear Creek,grade,grade_5,2010-11,78,True
+2016,Bear Creek,grade,grade_5,2009-10,52,True
+2016,Bear Creek,grade,grade_5,2008-09,65,True
+2016,Bear Creek,grade,grade_5,2007-08,77,True
+2016,Bear Creek,grade,grade_4,2016-17,70,True
+2016,Bear Creek,grade,grade_4,2015-16,85,True
+2016,Bear Creek,grade,grade_4,2014-15,75,True
+2016,Bear Creek,grade,grade_4,2013-14,55,True
+2016,Bear Creek,grade,grade_4,2012-13,67,True
+2016,Bear Creek,grade,grade_4,2011-12,57,True
+2016,Bear Creek,grade,grade_4,2010-11,73,True
+2016,Bear Creek,grade,grade_4,2009-10,73,True
+2016,Bear Creek,grade,grade_4,2008-09,53,True
+2016,Bear Creek,grade,grade_4,2007-08,57,True
+2016,Bear Creek,grade,grade_3,2016-17,89,True
+2016,Bear Creek,grade,grade_3,2015-16,67,True
+2016,Bear Creek,grade,grade_3,2014-15,86,True
+2016,Bear Creek,grade,grade_3,2013-14,72,True
+2016,Bear Creek,grade,grade_3,2012-13,53,True
+2016,Bear Creek,grade,grade_3,2011-12,58,True
+2016,Bear Creek,grade,grade_3,2010-11,54,True
+2016,Bear Creek,grade,grade_3,2009-10,71,True
+2016,Bear Creek,grade,grade_3,2008-09,77,True
+2016,Bear Creek,grade,grade_3,2007-08,53,True
+2016,Bear Creek,grade,grade_2,2016-17,66,True
+2016,Bear Creek,grade,grade_2,2015-16,83,True
+2016,Bear Creek,grade,grade_2,2014-15,65,True
+2016,Bear Creek,grade,grade_2,2013-14,85,True
+2016,Bear Creek,grade,grade_2,2012-13,72,True
+2016,Bear Creek,grade,grade_2,2011-12,51,True
+2016,Bear Creek,grade,grade_2,2010-11,54,True
+2016,Bear Creek,grade,grade_2,2009-10,53,True
+2016,Bear Creek,grade,grade_2,2008-09,66,True
+2016,Bear Creek,grade,grade_2,2007-08,75,True
+2016,Bear Creek,grade,grade_1,2016-17,66,True
+2016,Bear Creek,grade,grade_1,2015-16,61,True
+2016,Bear Creek,grade,grade_1,2014-15,78,True
+2016,Bear Creek,grade,grade_1,2013-14,57,True
+2016,Bear Creek,grade,grade_1,2012-13,79,True
+2016,Bear Creek,grade,grade_1,2011-12,68,True
+2016,Bear Creek,grade,grade_1,2010-11,50,True
+2016,Bear Creek,grade,grade_1,2009-10,59,True
+2016,Bear Creek,grade,grade_1,2008-09,49,True
+2016,Bear Creek,grade,grade_1,2007-08,57,True
+2016,Bear Creek,grade,grade_k,2016-17,60,True
+2016,Bear Creek,grade,grade_k,2015-16,68,True
+2016,Bear Creek,grade,grade_k,2014-15,58,True
+2016,Bear Creek,grade,grade_k,2013-14,75,True
+2016,Bear Creek,grade,grade_k,2012-13,62,True
+2016,Bear Creek,grade,grade_k,2011-12,69,True
+2016,Bear Creek,grade,grade_k,2010-11,58,True
+2016,Bear Creek,grade,grade_k,2009-10,44,True
+2016,Bear Creek,grade,grade_k,2008-09,52,True
+2016,Bear Creek,grade,grade_k,2007-08,42,True
+2016,Bear Creek,grade,total_enrollment,2016-17,438,True
+2016,Bear Creek,grade,total_enrollment,2015-16,441,True
+2016,Bear Creek,grade,total_enrollment,2014-15,417,True
+2016,Bear Creek,grade,total_enrollment,2013-14,414,True
+2016,Bear Creek,grade,total_enrollment,2012-13,391,True
+2016,Bear Creek,grade,total_enrollment,2011-12,378,True
+2016,Bear Creek,grade,total_enrollment,2010-11,367,True
+2016,Bear Creek,grade,total_enrollment,2009-10,352,True
+2016,Bear Creek,grade,total_enrollment,2008-09,362,True
+2016,Bear Creek,grade,total_enrollment,2007-08,361,True
+2016,Bear Creek,oe,neighborhood_residents,2016-17,443,True
+2016,Bear Creek,oe,neighborhood_residents,2015-16,433,True
+2016,Bear Creek,oe,neighborhood_residents,2015-16,433,True
+2016,Bear Creek,oe,neighborhood_residents,2014-15,401,True
+2016,Bear Creek,oe,neighborhood_residents,2013-14,401,True
+2016,Bear Creek,oe,neighborhood_residents,2012-13,384,True
+2016,Bear Creek,oe,neighborhood_residents,2011-12,340,True
+2016,Bear Creek,oe,neighborhood_residents,2010-11,317,True
+2016,Bear Creek,oe,neighborhood_residents,2009-10,295,True
+2016,Bear Creek,oe,neighborhood_residents,2007-08,271,True
+2016,Bear Creek,oe,oe_out,2016-17,51,True
+2016,Bear Creek,oe,oe_out,2015-16,34,True
+2016,Bear Creek,oe,oe_out,2015-16,34,True
+2016,Bear Creek,oe,oe_out,2014-15,30,True
+2016,Bear Creek,oe,oe_out,2013-14,37,True
+2016,Bear Creek,oe,oe_out,2012-13,43,True
+2016,Bear Creek,oe,oe_out,2011-12,34,True
+2016,Bear Creek,oe,oe_out,2010-11,30,True
+2016,Bear Creek,oe,oe_out,2009-10,34,True
+2016,Bear Creek,oe,oe_out,2007-08,48,True
+2016,Bear Creek,oe,oe_in,2016-17,43,True
+2016,Bear Creek,oe,oe_in,2015-16,43,True
+2016,Bear Creek,oe,oe_in,2015-16,43,True
+2016,Bear Creek,oe,oe_in,2014-15,45,True
+2016,Bear Creek,oe,oe_in,2013-14,45,True
+2016,Bear Creek,oe,oe_in,2012-13,47,True
+2016,Bear Creek,oe,oe_in,2011-12,72,True
+2016,Bear Creek,oe,oe_in,2010-11,79,True
+2016,Bear Creek,oe,oe_in,2009-10,89,True
+2016,Bear Creek,oe,oe_in,2007-08,133,True
+2016,Bear Creek,oe,placements_out,2016-17,3,False
+2016,Bear Creek,oe,placements_out,2015-16,1,False
+2016,Bear Creek,oe,placements_out,2015-16,1,False
+2016,Bear Creek,oe,placements_out,2014-15,0,False
+2016,Bear Creek,oe,placements_out,2013-14,1,False
+2016,Bear Creek,oe,placements_out,2012-13,1,False
+2016,Bear Creek,oe,placements_out,2011-12,1,False
+2016,Bear Creek,oe,placements_in,2016-17,1,False
+2016,Bear Creek,oe,placements_in,2015-16,0,False
+2016,Bear Creek,oe,placements_in,2015-16,0,False
+2016,Bear Creek,oe,placements_in,2014-15,1,False
+2016,Bear Creek,oe,placements_in,2013-14,1,False
+2016,Bear Creek,oe,out_of_district,2016-17,2,True
+2016,Bear Creek,oe,out_of_district,2015-16,0,True
+2016,Bear Creek,oe,out_of_district,2015-16,0,True
+2016,Bear Creek,oe,out_of_district,2014-15,0,True
+2016,Bear Creek,oe,out_of_district,2013-14,4,True
+2016,Bear Creek,oe,out_of_district,2012-13,4,True
+2016,Bear Creek,oe,out_of_district,2011-12,1,True
+2016,Bear Creek,oe,out_of_district,2010-11,1,True
+2016,Bear Creek,oe,out_of_district,2009-10,3,True
+2016,Bear Creek,oe,out_of_district,2007-08,5,True
+2016,Bear Creek,oe,total_oe_profile,2016-17,435,True
+2016,Bear Creek,oe,total_oe_profile,2015-16,441,True
+2016,Bear Creek,oe,total_oe_profile,2015-16,441,True
+2016,Bear Creek,oe,total_oe_profile,2014-15,417,True
+2016,Bear Creek,oe,total_oe_profile,2013-14,414,True
+2016,Bear Creek,oe,total_oe_profile,2012-13,391,True
+2016,Bear Creek,oe,total_oe_profile,2011-12,378,True
+2016,Bear Creek,oe,total_oe_profile,2010-11,367,True
+2016,Bear Creek,oe,total_oe_profile,2009-10,354,True
+2016,Bear Creek,oe,total_oe_profile,2007-08,361,True
+2017,Mesa,grade,grade_5,2017-18,56,True
+2017,Mesa,grade,grade_5,2016-17,55,True
+2017,Mesa,grade,grade_5,2015-16,79,True
+2017,Mesa,grade,grade_5,2014-15,56,True
+2017,Mesa,grade,grade_5,2013-14,63,True
+2017,Mesa,grade,grade_5,2012-13,75,True
+2017,Mesa,grade,grade_5,2011-12,75,True
+2017,Mesa,grade,grade_5,2010-11,58,True
+2017,Mesa,grade,grade_5,2009-10,56,True
+2017,Mesa,grade,grade_5,2008-09,73,True
+2017,Mesa,grade,grade_4,2017-18,52,True
+2017,Mesa,grade,grade_4,2016-17,58,True
+2017,Mesa,grade,grade_4,2015-16,52,True
+2017,Mesa,grade,grade_4,2014-15,75,True
+2017,Mesa,grade,grade_4,2013-14,50,True
+2017,Mesa,grade,grade_4,2012-13,68,True
+2017,Mesa,grade,grade_4,2011-12,73,True
+2017,Mesa,grade,grade_4,2010-11,71,True
+2017,Mesa,grade,grade_4,2009-10,61,True
+2017,Mesa,grade,grade_4,2008-09,56,True
+2017,Mesa,grade,grade_3,2017-18,49,True
+2017,Mesa,grade,grade_3,2016-17,49,True
+2017,Mesa,grade,grade_3,2015-16,55,True
+2017,Mesa,grade,grade_3,2014-15,53,True
+2017,Mesa,grade,grade_3,2013-14,73,True
+2017,Mesa,grade,grade_3,2012-13,46,True
+2017,Mesa,grade,grade_3,2011-12,71,True
+2017,Mesa,grade,grade_3,2010-11,70,True
+2017,Mesa,grade,grade_3,2009-10,72,True
+2017,Mesa,grade,grade_3,2008-09,57,True
+2017,Mesa,grade,grade_2,2017-18,45,True
+2017,Mesa,grade,grade_2,2016-17,48,True
+2017,Mesa,grade,grade_2,2015-16,50,True
+2017,Mesa,grade,grade_2,2014-15,56,True
+2017,Mesa,grade,grade_2,2013-14,55,True
+2017,Mesa,grade,grade_2,2012-13,72,True
+2017,Mesa,grade,grade_2,2011-12,41,True
+2017,Mesa,grade,grade_2,2010-11,71,True
+2017,Mesa,grade,grade_2,2009-10,66,True
+2017,Mesa,grade,grade_2,2008-09,69,True
+2017,Mesa,grade,grade_1,2017-18,37,True
+2017,Mesa,grade,grade_1,2016-17,42,True
+2017,Mesa,grade,grade_1,2015-16,47,True
+2017,Mesa,grade,grade_1,2014-15,43,True
+2017,Mesa,grade,grade_1,2013-14,52,True
+2017,Mesa,grade,grade_1,2012-13,50,True
+2017,Mesa,grade,grade_1,2011-12,67,True
+2017,Mesa,grade,grade_1,2010-11,45,True
+2017,Mesa,grade,grade_1,2009-10,67,True
+2017,Mesa,grade,grade_1,2008-09,67,True
+2017,Mesa,grade,grade_k,2017-18,32,True
+2017,Mesa,grade,grade_k,2016-17,35,True
+2017,Mesa,grade,grade_k,2015-16,37,True
+2017,Mesa,grade,grade_k,2014-15,47,True
+2017,Mesa,grade,grade_k,2013-14,48,True
+2017,Mesa,grade,grade_k,2012-13,41,True
+2017,Mesa,grade,grade_k,2011-12,44,True
+2017,Mesa,grade,grade_k,2010-11,63,True
+2017,Mesa,grade,grade_k,2009-10,43,True
+2017,Mesa,grade,grade_k,2008-09,61,True
+2017,Mesa,grade,total_enrollment,2017-18,271,True
+2017,Mesa,grade,total_enrollment,2016-17,287,True
+2017,Mesa,grade,total_enrollment,2015-16,320,True
+2017,Mesa,grade,total_enrollment,2014-15,330,True
+2017,Mesa,grade,total_enrollment,2013-14,341,True
+2017,Mesa,grade,total_enrollment,2012-13,352,True
+2017,Mesa,grade,total_enrollment,2011-12,371,True
+2017,Mesa,grade,total_enrollment,2010-11,378,True
+2017,Mesa,grade,total_enrollment,2009-10,365,True
+2017,Mesa,grade,total_enrollment,2008-09,383,True
+2017,Mesa,grade,pre_k,2017-18,0,True
+2017,Mesa,grade,pre_k,2016-17,0,True
+2017,Mesa,grade,pre_k,2015-16,0,True
+2017,Mesa,grade,pre_k,2014-15,0,True
+2017,Mesa,grade,pre_k,2013-14,0,True
+2017,Mesa,grade,pre_k,2012-13,0,True
+2017,Mesa,grade,pre_k,2011-12,0,True
+2017,Mesa,grade,pre_k,2010-11,0,True
+2017,Mesa,grade,pre_k,2009-10,0,True
+2017,Mesa,grade,pre_k,2008-09,0,True
+2017,Mesa,oe,neighborhood_residents,2017-18,278,True
+2017,Mesa,oe,neighborhood_residents,2016-17,246,True
+2017,Mesa,oe,neighborhood_residents,2015-16,318,True
+2017,Mesa,oe,neighborhood_residents,2014-15,330,True
+2017,Mesa,oe,neighborhood_residents,2013-14,346,True
+2017,Mesa,oe,neighborhood_residents,2012-13,322,True
+2017,Mesa,oe,neighborhood_residents,2011-12,334,True
+2017,Mesa,oe,neighborhood_residents,2010-11,344,True
+2017,Mesa,oe,neighborhood_residents,2009-10,264,True
+2017,Mesa,oe,neighborhood_residents,2008-09,362,True
+2017,Mesa,oe,oe_out,2017-18,59,True
+2017,Mesa,oe,oe_out,2016-17,49,True
+2017,Mesa,oe,oe_out,2015-16,63,True
+2017,Mesa,oe,oe_out,2014-15,70,True
+2017,Mesa,oe,oe_out,2013-14,77,True
+2017,Mesa,oe,oe_out,2012-13,67,True
+2017,Mesa,oe,oe_out,2011-12,70,True
+2017,Mesa,oe,oe_out,2010-11,55,True
+2017,Mesa,oe,oe_out,2009-10,50,True
+2017,Mesa,oe,oe_out,2008-09,67,True
+2017,Mesa,oe,oe_in,2017-18,47,True
+2017,Mesa,oe,oe_in,2016-17,55,True
+2017,Mesa,oe,oe_in,2015-16,58,True
+2017,Mesa,oe,oe_in,2014-15,63,True
+2017,Mesa,oe,oe_in,2013-14,66,True
+2017,Mesa,oe,oe_in,2012-13,76,True
+2017,Mesa,oe,oe_in,2011-12,85,True
+2017,Mesa,oe,oe_in,2010-11,71,True
+2017,Mesa,oe,oe_in,2009-10,81,True
+2017,Mesa,oe,oe_in,2008-09,72,True
+2017,Mesa,oe,placements_out,2017-18,4,True
+2017,Mesa,oe,placements_out,2016-17,3,True
+2017,Mesa,oe,placements_out,2015-16,2,True
+2017,Mesa,oe,placements_out,2014-15,3,True
+2017,Mesa,oe,placements_out,2013-14,4,True
+2017,Mesa,oe,placements_out,2012-13,4,True
+2017,Mesa,oe,placements_out,2011-12,4,True
+2017,Mesa,oe,placements_out,2010-11,4,True
+2017,Mesa,oe,placements_out,2009-10,4,True
+2017,Mesa,oe,placements_out,2008-09,13,True
+2017,Mesa,oe,placements_in,2017-18,7,True
+2017,Mesa,oe,placements_in,2016-17,7,True
+2017,Mesa,oe,placements_in,2015-16,4,True
+2017,Mesa,oe,placements_in,2014-15,6,True
+2017,Mesa,oe,placements_in,2013-14,7,True
+2017,Mesa,oe,placements_in,2012-13,6,True
+2017,Mesa,oe,placements_in,2011-12,7,True
+2017,Mesa,oe,placements_in,2010-11,8,True
+2017,Mesa,oe,placements_in,2009-10,8,True
+2017,Mesa,oe,placements_in,2008-09,12,True
+2017,Mesa,oe,out_of_district,2017-18,3,True
+2017,Mesa,oe,out_of_district,2016-17,3,True
+2017,Mesa,oe,out_of_district,2015-16,5,True
+2017,Mesa,oe,out_of_district,2014-15,5,True
+2017,Mesa,oe,out_of_district,2013-14,4,True
+2017,Mesa,oe,out_of_district,2012-13,7,True
+2017,Mesa,oe,out_of_district,2011-12,9,True
+2017,Mesa,oe,out_of_district,2010-11,14,True
+2017,Mesa,oe,out_of_district,2009-10,15,True
+2017,Mesa,oe,out_of_district,2008-09,18,True
+2017,Bear Creek,grade,grade_5,2017-18,73,True
+2017,Bear Creek,grade,grade_5,2016-17,87,True
+2017,Bear Creek,grade,grade_5,2015-16,77,True
+2017,Bear Creek,grade,grade_5,2014-15,55,True
+2017,Bear Creek,grade,grade_5,2013-14,70,True
+2017,Bear Creek,grade,grade_5,2012-13,58,True
+2017,Bear Creek,grade,grade_5,2011-12,75,True
+2017,Bear Creek,grade,grade_5,2010-11,78,True
+2017,Bear Creek,grade,grade_5,2009-10,52,True
+2017,Bear Creek,grade,grade_5,2008-09,65,True
+2017,Bear Creek,grade,grade_4,2017-18,91,True
+2017,Bear Creek,grade,grade_4,2016-17,70,True
+2017,Bear Creek,grade,grade_4,2015-16,85,True
+2017,Bear Creek,grade,grade_4,2014-15,75,True
+2017,Bear Creek,grade,grade_4,2013-14,55,True
+2017,Bear Creek,grade,grade_4,2012-13,67,True
+2017,Bear Creek,grade,grade_4,2011-12,57,True
+2017,Bear Creek,grade,grade_4,2010-11,73,True
+2017,Bear Creek,grade,grade_4,2009-10,73,True
+2017,Bear Creek,grade,grade_4,2008-09,53,True
+2017,Bear Creek,grade,grade_3,2017-18,67,True
+2017,Bear Creek,grade,grade_3,2016-17,89,True
+2017,Bear Creek,grade,grade_3,2015-16,67,True
+2017,Bear Creek,grade,grade_3,2014-15,86,True
+2017,Bear Creek,grade,grade_3,2013-14,72,True
+2017,Bear Creek,grade,grade_3,2012-13,53,True
+2017,Bear Creek,grade,grade_3,2011-12,58,True
+2017,Bear Creek,grade,grade_3,2010-11,54,True
+2017,Bear Creek,grade,grade_3,2009-10,71,True
+2017,Bear Creek,grade,grade_3,2008-09,77,True
+2017,Bear Creek,grade,grade_2,2017-18,74,True
+2017,Bear Creek,grade,grade_2,2016-17,66,True
+2017,Bear Creek,grade,grade_2,2015-16,83,True
+2017,Bear Creek,grade,grade_2,2014-15,65,True
+2017,Bear Creek,grade,grade_2,2013-14,85,True
+2017,Bear Creek,grade,grade_2,2012-13,72,True
+2017,Bear Creek,grade,grade_2,2011-12,51,True
+2017,Bear Creek,grade,grade_2,2010-11,54,True
+2017,Bear Creek,grade,grade_2,2009-10,53,True
+2017,Bear Creek,grade,grade_2,2008-09,66,True
+2017,Bear Creek,grade,grade_1,2017-18,73,True
+2017,Bear Creek,grade,grade_1,2016-17,66,True
+2017,Bear Creek,grade,grade_1,2015-16,61,True
+2017,Bear Creek,grade,grade_1,2014-15,78,True
+2017,Bear Creek,grade,grade_1,2013-14,57,True
+2017,Bear Creek,grade,grade_1,2012-13,79,True
+2017,Bear Creek,grade,grade_1,2011-12,68,True
+2017,Bear Creek,grade,grade_1,2010-11,50,True
+2017,Bear Creek,grade,grade_1,2009-10,59,True
+2017,Bear Creek,grade,grade_1,2008-09,49,True
+2017,Bear Creek,grade,grade_k,2017-18,70,True
+2017,Bear Creek,grade,grade_k,2016-17,60,True
+2017,Bear Creek,grade,grade_k,2015-16,68,True
+2017,Bear Creek,grade,grade_k,2014-15,58,True
+2017,Bear Creek,grade,grade_k,2013-14,75,True
+2017,Bear Creek,grade,grade_k,2012-13,62,True
+2017,Bear Creek,grade,grade_k,2011-12,69,True
+2017,Bear Creek,grade,grade_k,2010-11,58,True
+2017,Bear Creek,grade,grade_k,2009-10,44,True
+2017,Bear Creek,grade,grade_k,2008-09,52,True
+2017,Bear Creek,grade,total_enrollment,2017-18,448,True
+2017,Bear Creek,grade,total_enrollment,2016-17,438,True
+2017,Bear Creek,grade,total_enrollment,2015-16,441,True
+2017,Bear Creek,grade,total_enrollment,2014-15,417,True
+2017,Bear Creek,grade,total_enrollment,2013-14,414,True
+2017,Bear Creek,grade,total_enrollment,2012-13,391,True
+2017,Bear Creek,grade,total_enrollment,2011-12,378,True
+2017,Bear Creek,grade,total_enrollment,2010-11,367,True
+2017,Bear Creek,grade,total_enrollment,2009-10,352,True
+2017,Bear Creek,grade,total_enrollment,2008-09,362,True
+2017,Bear Creek,grade,pre_k,2017-18,0,True
+2017,Bear Creek,grade,pre_k,2016-17,0,True
+2017,Bear Creek,grade,pre_k,2015-16,0,True
+2017,Bear Creek,grade,pre_k,2014-15,0,True
+2017,Bear Creek,grade,pre_k,2013-14,0,True
+2017,Bear Creek,grade,pre_k,2012-13,0,True
+2017,Bear Creek,grade,pre_k,2011-12,0,True
+2017,Bear Creek,grade,pre_k,2010-11,0,True
+2017,Bear Creek,grade,pre_k,2009-10,0,True
+2017,Bear Creek,grade,pre_k,2008-09,0,True
+2017,Bear Creek,oe,neighborhood_residents,2017-18,454,True
+2017,Bear Creek,oe,neighborhood_residents,2016-17,446,True
+2017,Bear Creek,oe,neighborhood_residents,2015-16,456,True
+2017,Bear Creek,oe,neighborhood_residents,2014-15,408,True
+2017,Bear Creek,oe,neighborhood_residents,2013-14,406,True
+2017,Bear Creek,oe,neighborhood_residents,2012-13,371,True
+2017,Bear Creek,oe,neighborhood_residents,2011-12,349,True
+2017,Bear Creek,oe,neighborhood_residents,2010-11,340,True
+2017,Bear Creek,oe,neighborhood_residents,2009-10,312,True
+2017,Bear Creek,oe,neighborhood_residents,2008-09,310,True
+2017,Bear Creek,oe,oe_out,2017-18,46,True
+2017,Bear Creek,oe,oe_out,2016-17,51,True
+2017,Bear Creek,oe,oe_out,2015-16,54,True
+2017,Bear Creek,oe,oe_out,2014-15,36,True
+2017,Bear Creek,oe,oe_out,2013-14,44,True
+2017,Bear Creek,oe,oe_out,2012-13,56,True
+2017,Bear Creek,oe,oe_out,2011-12,60,True
+2017,Bear Creek,oe,oe_out,2010-11,53,True
+2017,Bear Creek,oe,oe_out,2009-10,51,True
+2017,Bear Creek,oe,oe_out,2008-09,50,True
+2017,Bear Creek,oe,oe_in,2017-18,35,True
+2017,Bear Creek,oe,oe_in,2016-17,43,True
+2017,Bear Creek,oe,oe_in,2015-16,43,True
+2017,Bear Creek,oe,oe_in,2014-15,44,True
+2017,Bear Creek,oe,oe_in,2013-14,44,True
+2017,Bear Creek,oe,oe_in,2012-13,57,True
+2017,Bear Creek,oe,oe_in,2011-12,69,True
+2017,Bear Creek,oe,oe_in,2010-11,79,True
+2017,Bear Creek,oe,oe_in,2009-10,107,True
+2017,Bear Creek,oe,oe_in,2008-09,103,True
+2017,Bear Creek,oe,placements_out,2017-18,4,True
+2017,Bear Creek,oe,placements_out,2016-17,3,True
+2017,Bear Creek,oe,placements_out,2015-16,4,True
+2017,Bear Creek,oe,placements_out,2014-15,1,True
+2017,Bear Creek,oe,placements_out,2013-14,0,True
+2017,Bear Creek,oe,placements_out,2012-13,0,True
+2017,Bear Creek,oe,placements_out,2011-12,1,True
+2017,Bear Creek,oe,placements_out,2010-11,0,True
+2017,Bear Creek,oe,placements_out,2009-10,1,True
+2017,Bear Creek,oe,placements_out,2008-09,4,True
+2017,Bear Creek,oe,placements_in,2017-18,7,True
+2017,Bear Creek,oe,placements_in,2016-17,1,True
+2017,Bear Creek,oe,placements_in,2015-16,0,True
+2017,Bear Creek,oe,placements_in,2014-15,1,True
+2017,Bear Creek,oe,placements_in,2013-14,1,True
+2017,Bear Creek,oe,placements_in,2012-13,2,True
+2017,Bear Creek,oe,placements_in,2011-12,0,True
+2017,Bear Creek,oe,placements_in,2010-11,0,True
+2017,Bear Creek,oe,placements_in,2009-10,1,True
+2017,Bear Creek,oe,placements_in,2008-09,0,True
+2017,Bear Creek,oe,out_of_district,2017-18,2,True
+2017,Bear Creek,oe,out_of_district,2016-17,2,True
+2017,Bear Creek,oe,out_of_district,2015-16,0,True
+2017,Bear Creek,oe,out_of_district,2014-15,0,True
+2017,Bear Creek,oe,out_of_district,2013-14,4,True
+2017,Bear Creek,oe,out_of_district,2012-13,4,True
+2017,Bear Creek,oe,out_of_district,2011-12,1,True
+2017,Bear Creek,oe,out_of_district,2010-11,1,True
+2017,Bear Creek,oe,out_of_district,2009-10,3,True
+2017,Bear Creek,oe,out_of_district,2008-09,3,True
+2018,Mesa,grade,grade_5,2018-19,52,True
+2018,Mesa,grade,grade_5,2017-18,56,True
+2018,Mesa,grade,grade_5,2016-17,55,True
+2018,Mesa,grade,grade_5,2015-16,79,True
+2018,Mesa,grade,grade_5,2014-15,56,True
+2018,Mesa,grade,grade_5,2013-14,63,True
+2018,Mesa,grade,grade_5,2012-13,75,True
+2018,Mesa,grade,grade_5,2011-12,75,True
+2018,Mesa,grade,grade_5,2010-11,58,True
+2018,Mesa,grade,grade_5,2009-10,56,True
+2018,Mesa,grade,grade_4,2018-19,49,True
+2018,Mesa,grade,grade_4,2017-18,52,True
+2018,Mesa,grade,grade_4,2016-17,58,True
+2018,Mesa,grade,grade_4,2015-16,52,True
+2018,Mesa,grade,grade_4,2014-15,75,True
+2018,Mesa,grade,grade_4,2013-14,50,True
+2018,Mesa,grade,grade_4,2012-13,68,True
+2018,Mesa,grade,grade_4,2011-12,73,True
+2018,Mesa,grade,grade_4,2010-11,71,True
+2018,Mesa,grade,grade_4,2009-10,61,True
+2018,Mesa,grade,grade_3,2018-19,45,True
+2018,Mesa,grade,grade_3,2017-18,49,True
+2018,Mesa,grade,grade_3,2016-17,49,True
+2018,Mesa,grade,grade_3,2015-16,55,True
+2018,Mesa,grade,grade_3,2014-15,53,True
+2018,Mesa,grade,grade_3,2013-14,73,True
+2018,Mesa,grade,grade_3,2012-13,46,True
+2018,Mesa,grade,grade_3,2011-12,71,True
+2018,Mesa,grade,grade_3,2010-11,70,True
+2018,Mesa,grade,grade_3,2009-10,72,True
+2018,Mesa,grade,grade_2,2018-19,38,True
+2018,Mesa,grade,grade_2,2017-18,45,True
+2018,Mesa,grade,grade_2,2016-17,48,True
+2018,Mesa,grade,grade_2,2015-16,50,True
+2018,Mesa,grade,grade_2,2014-15,56,True
+2018,Mesa,grade,grade_2,2013-14,55,True
+2018,Mesa,grade,grade_2,2012-13,72,True
+2018,Mesa,grade,grade_2,2011-12,41,True
+2018,Mesa,grade,grade_2,2010-11,71,True
+2018,Mesa,grade,grade_2,2009-10,66,True
+2018,Mesa,grade,grade_1,2018-19,38,True
+2018,Mesa,grade,grade_1,2017-18,37,True
+2018,Mesa,grade,grade_1,2016-17,42,True
+2018,Mesa,grade,grade_1,2015-16,47,True
+2018,Mesa,grade,grade_1,2014-15,43,True
+2018,Mesa,grade,grade_1,2013-14,52,True
+2018,Mesa,grade,grade_1,2012-13,50,True
+2018,Mesa,grade,grade_1,2011-12,67,True
+2018,Mesa,grade,grade_1,2010-11,45,True
+2018,Mesa,grade,grade_1,2009-10,67,True
+2018,Mesa,grade,grade_k,2018-19,38,True
+2018,Mesa,grade,grade_k,2017-18,32,True
+2018,Mesa,grade,grade_k,2016-17,35,True
+2018,Mesa,grade,grade_k,2015-16,37,True
+2018,Mesa,grade,grade_k,2014-15,47,True
+2018,Mesa,grade,grade_k,2013-14,48,True
+2018,Mesa,grade,grade_k,2012-13,41,True
+2018,Mesa,grade,grade_k,2011-12,44,True
+2018,Mesa,grade,grade_k,2010-11,63,True
+2018,Mesa,grade,grade_k,2009-10,43,True
+2018,Mesa,grade,total_enrollment,2018-19,260,True
+2018,Mesa,grade,total_enrollment,2017-18,271,True
+2018,Mesa,grade,total_enrollment,2016-17,287,True
+2018,Mesa,grade,total_enrollment,2015-16,320,True
+2018,Mesa,grade,total_enrollment,2014-15,330,True
+2018,Mesa,grade,total_enrollment,2013-14,341,True
+2018,Mesa,grade,total_enrollment,2012-13,352,True
+2018,Mesa,grade,total_enrollment,2011-12,371,True
+2018,Mesa,grade,total_enrollment,2010-11,378,True
+2018,Mesa,grade,total_enrollment,2009-10,365,True
+2018,Mesa,grade,pre_k,2018-19,0,True
+2018,Mesa,grade,pre_k,2017-18,0,True
+2018,Mesa,grade,pre_k,2016-17,0,True
+2018,Mesa,grade,pre_k,2015-16,0,True
+2018,Mesa,grade,pre_k,2014-15,0,True
+2018,Mesa,grade,pre_k,2013-14,0,True
+2018,Mesa,grade,pre_k,2012-13,0,True
+2018,Mesa,grade,pre_k,2011-12,0,True
+2018,Mesa,grade,pre_k,2010-11,0,True
+2018,Mesa,grade,pre_k,2009-10,0,True
+2018,Mesa,oe,neighborhood_residents,2018-19,277,True
+2018,Mesa,oe,neighborhood_residents,2017-18,278,True
+2018,Mesa,oe,neighborhood_residents,2016-17,246,True
+2018,Mesa,oe,neighborhood_residents,2015-16,318,True
+2018,Mesa,oe,neighborhood_residents,2014-15,330,True
+2018,Mesa,oe,neighborhood_residents,2013-14,346,True
+2018,Mesa,oe,neighborhood_residents,2012-13,322,True
+2018,Mesa,oe,neighborhood_residents,2011-12,334,True
+2018,Mesa,oe,neighborhood_residents,2010-11,344,True
+2018,Mesa,oe,neighborhood_residents,2009-10,264,True
+2018,Mesa,oe,oe_out,2018-19,62,True
+2018,Mesa,oe,oe_out,2017-18,59,True
+2018,Mesa,oe,oe_out,2016-17,49,True
+2018,Mesa,oe,oe_out,2015-16,63,True
+2018,Mesa,oe,oe_out,2014-15,70,True
+2018,Mesa,oe,oe_out,2013-14,77,True
+2018,Mesa,oe,oe_out,2012-13,67,True
+2018,Mesa,oe,oe_out,2011-12,70,True
+2018,Mesa,oe,oe_out,2010-11,55,True
+2018,Mesa,oe,oe_out,2009-10,50,True
+2018,Mesa,oe,oe_in,2018-19,45,True
+2018,Mesa,oe,oe_in,2017-18,47,True
+2018,Mesa,oe,oe_in,2016-17,55,True
+2018,Mesa,oe,oe_in,2015-16,58,True
+2018,Mesa,oe,oe_in,2014-15,63,True
+2018,Mesa,oe,oe_in,2013-14,66,True
+2018,Mesa,oe,oe_in,2012-13,76,True
+2018,Mesa,oe,oe_in,2011-12,85,True
+2018,Mesa,oe,oe_in,2010-11,71,True
+2018,Mesa,oe,oe_in,2009-10,81,True
+2018,Mesa,oe,placements_out,2018-19,6,True
+2018,Mesa,oe,placements_out,2017-18,4,True
+2018,Mesa,oe,placements_out,2016-17,3,True
+2018,Mesa,oe,placements_out,2015-16,2,True
+2018,Mesa,oe,placements_out,2014-15,3,True
+2018,Mesa,oe,placements_out,2013-14,4,True
+2018,Mesa,oe,placements_out,2012-13,4,True
+2018,Mesa,oe,placements_out,2011-12,4,True
+2018,Mesa,oe,placements_out,2010-11,4,True
+2018,Mesa,oe,placements_out,2009-10,4,True
+2018,Mesa,oe,placements_in,2018-19,3,True
+2018,Mesa,oe,placements_in,2017-18,7,True
+2018,Mesa,oe,placements_in,2016-17,7,True
+2018,Mesa,oe,placements_in,2015-16,4,True
+2018,Mesa,oe,placements_in,2014-15,6,True
+2018,Mesa,oe,placements_in,2013-14,7,True
+2018,Mesa,oe,placements_in,2012-13,6,True
+2018,Mesa,oe,placements_in,2011-12,7,True
+2018,Mesa,oe,placements_in,2010-11,8,True
+2018,Mesa,oe,placements_in,2009-10,8,True
+2018,Mesa,oe,out_of_district,2018-19,4,True
+2018,Mesa,oe,out_of_district,2017-18,3,True
+2018,Mesa,oe,out_of_district,2016-17,3,True
+2018,Mesa,oe,out_of_district,2015-16,5,True
+2018,Mesa,oe,out_of_district,2014-15,5,True
+2018,Mesa,oe,out_of_district,2013-14,4,True
+2018,Mesa,oe,out_of_district,2012-13,7,True
+2018,Mesa,oe,out_of_district,2011-12,9,True
+2018,Mesa,oe,out_of_district,2010-11,14,True
+2018,Mesa,oe,out_of_district,2009-10,15,True
+2018,Bear Creek,grade,grade_5,2018-19,84,True
+2018,Bear Creek,grade,grade_5,2017-18,73,True
+2018,Bear Creek,grade,grade_5,2016-17,87,True
+2018,Bear Creek,grade,grade_5,2015-16,77,True
+2018,Bear Creek,grade,grade_5,2014-15,55,True
+2018,Bear Creek,grade,grade_5,2013-14,70,True
+2018,Bear Creek,grade,grade_5,2012-13,58,True
+2018,Bear Creek,grade,grade_5,2011-12,75,True
+2018,Bear Creek,grade,grade_5,2010-11,78,True
+2018,Bear Creek,grade,grade_5,2009-10,52,True
+2018,Bear Creek,grade,grade_4,2018-19,72,True
+2018,Bear Creek,grade,grade_4,2017-18,91,True
+2018,Bear Creek,grade,grade_4,2016-17,70,True
+2018,Bear Creek,grade,grade_4,2015-16,85,True
+2018,Bear Creek,grade,grade_4,2014-15,75,True
+2018,Bear Creek,grade,grade_4,2013-14,55,True
+2018,Bear Creek,grade,grade_4,2012-13,67,True
+2018,Bear Creek,grade,grade_4,2011-12,57,True
+2018,Bear Creek,grade,grade_4,2010-11,73,True
+2018,Bear Creek,grade,grade_4,2009-10,73,True
+2018,Bear Creek,grade,grade_3,2018-19,73,True
+2018,Bear Creek,grade,grade_3,2017-18,67,True
+2018,Bear Creek,grade,grade_3,2016-17,89,True
+2018,Bear Creek,grade,grade_3,2015-16,67,True
+2018,Bear Creek,grade,grade_3,2014-15,86,True
+2018,Bear Creek,grade,grade_3,2013-14,72,True
+2018,Bear Creek,grade,grade_3,2012-13,53,True
+2018,Bear Creek,grade,grade_3,2011-12,58,True
+2018,Bear Creek,grade,grade_3,2010-11,54,True
+2018,Bear Creek,grade,grade_3,2009-10,71,True
+2018,Bear Creek,grade,grade_2,2018-19,71,True
+2018,Bear Creek,grade,grade_2,2017-18,74,True
+2018,Bear Creek,grade,grade_2,2016-17,66,True
+2018,Bear Creek,grade,grade_2,2015-16,83,True
+2018,Bear Creek,grade,grade_2,2014-15,65,True
+2018,Bear Creek,grade,grade_2,2013-14,85,True
+2018,Bear Creek,grade,grade_2,2012-13,72,True
+2018,Bear Creek,grade,grade_2,2011-12,51,True
+2018,Bear Creek,grade,grade_2,2010-11,54,True
+2018,Bear Creek,grade,grade_2,2009-10,53,True
+2018,Bear Creek,grade,grade_1,2018-19,77,True
+2018,Bear Creek,grade,grade_1,2017-18,73,True
+2018,Bear Creek,grade,grade_1,2016-17,66,True
+2018,Bear Creek,grade,grade_1,2015-16,61,True
+2018,Bear Creek,grade,grade_1,2014-15,78,True
+2018,Bear Creek,grade,grade_1,2013-14,57,True
+2018,Bear Creek,grade,grade_1,2012-13,79,True
+2018,Bear Creek,grade,grade_1,2011-12,68,True
+2018,Bear Creek,grade,grade_1,2010-11,50,True
+2018,Bear Creek,grade,grade_1,2009-10,59,True
+2018,Bear Creek,grade,grade_k,2018-19,48,True
+2018,Bear Creek,grade,grade_k,2017-18,70,True
+2018,Bear Creek,grade,grade_k,2016-17,60,True
+2018,Bear Creek,grade,grade_k,2015-16,68,True
+2018,Bear Creek,grade,grade_k,2014-15,58,True
+2018,Bear Creek,grade,grade_k,2013-14,75,True
+2018,Bear Creek,grade,grade_k,2012-13,62,True
+2018,Bear Creek,grade,grade_k,2011-12,69,True
+2018,Bear Creek,grade,grade_k,2010-11,58,True
+2018,Bear Creek,grade,grade_k,2009-10,44,True
+2018,Bear Creek,grade,total_enrollment,2018-19,425,True
+2018,Bear Creek,grade,total_enrollment,2017-18,448,True
+2018,Bear Creek,grade,total_enrollment,2016-17,438,True
+2018,Bear Creek,grade,total_enrollment,2015-16,441,True
+2018,Bear Creek,grade,total_enrollment,2014-15,417,True
+2018,Bear Creek,grade,total_enrollment,2013-14,414,True
+2018,Bear Creek,grade,total_enrollment,2012-13,391,True
+2018,Bear Creek,grade,total_enrollment,2011-12,378,True
+2018,Bear Creek,grade,total_enrollment,2010-11,367,True
+2018,Bear Creek,grade,total_enrollment,2009-10,352,True
+2018,Bear Creek,grade,pre_k,2018-19,0,True
+2018,Bear Creek,grade,pre_k,2017-18,0,True
+2018,Bear Creek,grade,pre_k,2016-17,0,True
+2018,Bear Creek,grade,pre_k,2015-16,0,True
+2018,Bear Creek,grade,pre_k,2014-15,0,True
+2018,Bear Creek,grade,pre_k,2013-14,0,True
+2018,Bear Creek,grade,pre_k,2012-13,0,True
+2018,Bear Creek,grade,pre_k,2011-12,0,True
+2018,Bear Creek,grade,pre_k,2010-11,0,True
+2018,Bear Creek,grade,pre_k,2009-10,0,True
+2018,Bear Creek,oe,neighborhood_residents,2018-19,433,True
+2018,Bear Creek,oe,neighborhood_residents,2017-18,454,True
+2018,Bear Creek,oe,neighborhood_residents,2016-17,446,True
+2018,Bear Creek,oe,neighborhood_residents,2015-16,456,True
+2018,Bear Creek,oe,neighborhood_residents,2014-15,408,True
+2018,Bear Creek,oe,neighborhood_residents,2013-14,406,True
+2018,Bear Creek,oe,neighborhood_residents,2012-13,371,True
+2018,Bear Creek,oe,neighborhood_residents,2011-12,349,True
+2018,Bear Creek,oe,neighborhood_residents,2010-11,340,True
+2018,Bear Creek,oe,neighborhood_residents,2009-10,312,True
+2018,Bear Creek,oe,oe_out,2018-19,44,True
+2018,Bear Creek,oe,oe_out,2017-18,46,True
+2018,Bear Creek,oe,oe_out,2016-17,51,True
+2018,Bear Creek,oe,oe_out,2015-16,54,True
+2018,Bear Creek,oe,oe_out,2014-15,36,True
+2018,Bear Creek,oe,oe_out,2013-14,44,True
+2018,Bear Creek,oe,oe_out,2012-13,56,True
+2018,Bear Creek,oe,oe_out,2011-12,60,True
+2018,Bear Creek,oe,oe_out,2010-11,53,True
+2018,Bear Creek,oe,oe_out,2009-10,51,True
+2018,Bear Creek,oe,oe_in,2018-19,29,True
+2018,Bear Creek,oe,oe_in,2017-18,35,True
+2018,Bear Creek,oe,oe_in,2016-17,43,True
+2018,Bear Creek,oe,oe_in,2015-16,43,True
+2018,Bear Creek,oe,oe_in,2014-15,44,True
+2018,Bear Creek,oe,oe_in,2013-14,44,True
+2018,Bear Creek,oe,oe_in,2012-13,57,True
+2018,Bear Creek,oe,oe_in,2011-12,69,True
+2018,Bear Creek,oe,oe_in,2010-11,79,True
+2018,Bear Creek,oe,oe_in,2009-10,107,True
+2018,Bear Creek,oe,placements_out,2018-19,2,True
+2018,Bear Creek,oe,placements_out,2017-18,4,True
+2018,Bear Creek,oe,placements_out,2016-17,3,True
+2018,Bear Creek,oe,placements_out,2015-16,4,True
+2018,Bear Creek,oe,placements_out,2014-15,1,True
+2018,Bear Creek,oe,placements_out,2013-14,0,True
+2018,Bear Creek,oe,placements_out,2012-13,0,True
+2018,Bear Creek,oe,placements_out,2011-12,1,True
+2018,Bear Creek,oe,placements_out,2010-11,0,True
+2018,Bear Creek,oe,placements_out,2009-10,1,True
+2018,Bear Creek,oe,placements_in,2018-19,11,True
+2018,Bear Creek,oe,placements_in,2017-18,7,True
+2018,Bear Creek,oe,placements_in,2016-17,1,True
+2018,Bear Creek,oe,placements_in,2015-16,0,True
+2018,Bear Creek,oe,placements_in,2014-15,1,True
+2018,Bear Creek,oe,placements_in,2013-14,1,True
+2018,Bear Creek,oe,placements_in,2012-13,2,True
+2018,Bear Creek,oe,placements_in,2011-12,0,True
+2018,Bear Creek,oe,placements_in,2010-11,0,True
+2018,Bear Creek,oe,placements_in,2009-10,1,True
+2018,Bear Creek,oe,out_of_district,2018-19,0,True
+2018,Bear Creek,oe,out_of_district,2017-18,2,True
+2018,Bear Creek,oe,out_of_district,2016-17,2,True
+2018,Bear Creek,oe,out_of_district,2015-16,0,True
+2018,Bear Creek,oe,out_of_district,2014-15,0,True
+2018,Bear Creek,oe,out_of_district,2013-14,4,True
+2018,Bear Creek,oe,out_of_district,2012-13,4,True
+2018,Bear Creek,oe,out_of_district,2011-12,1,True
+2018,Bear Creek,oe,out_of_district,2010-11,1,True
+2018,Bear Creek,oe,out_of_district,2009-10,3,True
+2019,Mesa,grade,grade_5,2019-20,54,True
+2019,Mesa,grade,grade_5,2018-19,52,True
+2019,Mesa,grade,grade_5,2017-18,56,True
+2019,Mesa,grade,grade_5,2016-17,55,True
+2019,Mesa,grade,grade_5,2015-16,79,True
+2019,Mesa,grade,grade_5,2014-15,56,True
+2019,Mesa,grade,grade_5,2013-14,63,True
+2019,Mesa,grade,grade_5,2012-13,75,True
+2019,Mesa,grade,grade_5,2011-12,75,True
+2019,Mesa,grade,grade_5,2010-11,58,True
+2019,Mesa,grade,grade_4,2019-20,48,True
+2019,Mesa,grade,grade_4,2018-19,49,True
+2019,Mesa,grade,grade_4,2017-18,52,True
+2019,Mesa,grade,grade_4,2016-17,58,True
+2019,Mesa,grade,grade_4,2015-16,52,True
+2019,Mesa,grade,grade_4,2014-15,75,True
+2019,Mesa,grade,grade_4,2013-14,50,True
+2019,Mesa,grade,grade_4,2012-13,68,True
+2019,Mesa,grade,grade_4,2011-12,73,True
+2019,Mesa,grade,grade_4,2010-11,71,True
+2019,Mesa,grade,grade_3,2019-20,44,True
+2019,Mesa,grade,grade_3,2018-19,45,True
+2019,Mesa,grade,grade_3,2017-18,49,True
+2019,Mesa,grade,grade_3,2016-17,49,True
+2019,Mesa,grade,grade_3,2015-16,55,True
+2019,Mesa,grade,grade_3,2014-15,53,True
+2019,Mesa,grade,grade_3,2013-14,73,True
+2019,Mesa,grade,grade_3,2012-13,46,True
+2019,Mesa,grade,grade_3,2011-12,71,True
+2019,Mesa,grade,grade_3,2010-11,70,True
+2019,Mesa,grade,grade_2,2019-20,41,True
+2019,Mesa,grade,grade_2,2018-19,38,True
+2019,Mesa,grade,grade_2,2017-18,45,True
+2019,Mesa,grade,grade_2,2016-17,48,True
+2019,Mesa,grade,grade_2,2015-16,50,True
+2019,Mesa,grade,grade_2,2014-15,56,True
+2019,Mesa,grade,grade_2,2013-14,55,True
+2019,Mesa,grade,grade_2,2012-13,72,True
+2019,Mesa,grade,grade_2,2011-12,41,True
+2019,Mesa,grade,grade_2,2010-11,71,True
+2019,Mesa,grade,grade_1,2019-20,38,True
+2019,Mesa,grade,grade_1,2018-19,38,True
+2019,Mesa,grade,grade_1,2017-18,37,True
+2019,Mesa,grade,grade_1,2016-17,42,True
+2019,Mesa,grade,grade_1,2015-16,47,True
+2019,Mesa,grade,grade_1,2014-15,43,True
+2019,Mesa,grade,grade_1,2013-14,52,True
+2019,Mesa,grade,grade_1,2012-13,50,True
+2019,Mesa,grade,grade_1,2011-12,67,True
+2019,Mesa,grade,grade_1,2010-11,45,True
+2019,Mesa,grade,grade_k,2019-20,36,True
+2019,Mesa,grade,grade_k,2018-19,38,True
+2019,Mesa,grade,grade_k,2017-18,32,True
+2019,Mesa,grade,grade_k,2016-17,35,True
+2019,Mesa,grade,grade_k,2015-16,37,True
+2019,Mesa,grade,grade_k,2014-15,47,True
+2019,Mesa,grade,grade_k,2013-14,48,True
+2019,Mesa,grade,grade_k,2012-13,41,True
+2019,Mesa,grade,grade_k,2011-12,44,True
+2019,Mesa,grade,grade_k,2010-11,63,True
+2019,Mesa,grade,total_enrollment,2019-20,261,True
+2019,Mesa,grade,total_enrollment,2018-19,260,True
+2019,Mesa,grade,total_enrollment,2017-18,271,True
+2019,Mesa,grade,total_enrollment,2016-17,287,True
+2019,Mesa,grade,total_enrollment,2015-16,320,True
+2019,Mesa,grade,total_enrollment,2014-15,330,True
+2019,Mesa,grade,total_enrollment,2013-14,341,True
+2019,Mesa,grade,total_enrollment,2012-13,352,True
+2019,Mesa,grade,total_enrollment,2011-12,371,True
+2019,Mesa,grade,total_enrollment,2010-11,378,True
+2019,Mesa,grade,pre_k,2019-20,0,True
+2019,Mesa,grade,pre_k,2018-19,0,True
+2019,Mesa,grade,pre_k,2017-18,0,True
+2019,Mesa,grade,pre_k,2016-17,0,True
+2019,Mesa,grade,pre_k,2015-16,0,True
+2019,Mesa,grade,pre_k,2014-15,0,True
+2019,Mesa,grade,pre_k,2013-14,0,True
+2019,Mesa,grade,pre_k,2012-13,0,True
+2019,Mesa,grade,pre_k,2011-12,0,True
+2019,Mesa,grade,pre_k,2010-11,0,True
+2019,Mesa,oe,neighborhood_residents,2019-20,281,True
+2019,Mesa,oe,neighborhood_residents,2018-19,277,True
+2019,Mesa,oe,neighborhood_residents,2017-18,278,True
+2019,Mesa,oe,neighborhood_residents,2016-17,246,True
+2019,Mesa,oe,neighborhood_residents,2015-16,318,True
+2019,Mesa,oe,neighborhood_residents,2014-15,330,True
+2019,Mesa,oe,neighborhood_residents,2013-14,346,True
+2019,Mesa,oe,neighborhood_residents,2012-13,322,True
+2019,Mesa,oe,neighborhood_residents,2011-12,334,True
+2019,Mesa,oe,neighborhood_residents,2010-11,344,True
+2019,Mesa,oe,oe_out,2019-20,74,True
+2019,Mesa,oe,oe_out,2018-19,62,True
+2019,Mesa,oe,oe_out,2017-18,59,True
+2019,Mesa,oe,oe_out,2016-17,49,True
+2019,Mesa,oe,oe_out,2015-16,63,True
+2019,Mesa,oe,oe_out,2014-15,70,True
+2019,Mesa,oe,oe_out,2013-14,77,True
+2019,Mesa,oe,oe_out,2012-13,67,True
+2019,Mesa,oe,oe_out,2011-12,70,True
+2019,Mesa,oe,oe_out,2010-11,55,True
+2019,Mesa,oe,oe_in,2019-20,48,True
+2019,Mesa,oe,oe_in,2018-19,45,True
+2019,Mesa,oe,oe_in,2017-18,47,True
+2019,Mesa,oe,oe_in,2016-17,55,True
+2019,Mesa,oe,oe_in,2015-16,58,True
+2019,Mesa,oe,oe_in,2014-15,63,True
+2019,Mesa,oe,oe_in,2013-14,66,True
+2019,Mesa,oe,oe_in,2012-13,76,True
+2019,Mesa,oe,oe_in,2011-12,85,True
+2019,Mesa,oe,oe_in,2010-11,71,True
+2019,Mesa,oe,placements_out,2019-20,1,True
+2019,Mesa,oe,placements_out,2018-19,6,True
+2019,Mesa,oe,placements_out,2017-18,4,True
+2019,Mesa,oe,placements_out,2016-17,3,True
+2019,Mesa,oe,placements_out,2015-16,2,True
+2019,Mesa,oe,placements_out,2014-15,3,True
+2019,Mesa,oe,placements_out,2013-14,4,True
+2019,Mesa,oe,placements_out,2012-13,4,True
+2019,Mesa,oe,placements_out,2011-12,4,True
+2019,Mesa,oe,placements_out,2010-11,4,True
+2019,Mesa,oe,placements_in,2019-20,3,True
+2019,Mesa,oe,placements_in,2018-19,3,True
+2019,Mesa,oe,placements_in,2017-18,7,True
+2019,Mesa,oe,placements_in,2016-17,7,True
+2019,Mesa,oe,placements_in,2015-16,4,True
+2019,Mesa,oe,placements_in,2014-15,6,True
+2019,Mesa,oe,placements_in,2013-14,7,True
+2019,Mesa,oe,placements_in,2012-13,6,True
+2019,Mesa,oe,placements_in,2011-12,7,True
+2019,Mesa,oe,placements_in,2010-11,8,True
+2019,Mesa,oe,out_of_district,2019-20,5,True
+2019,Mesa,oe,out_of_district,2018-19,4,True
+2019,Mesa,oe,out_of_district,2017-18,3,True
+2019,Mesa,oe,out_of_district,2016-17,3,True
+2019,Mesa,oe,out_of_district,2015-16,5,True
+2019,Mesa,oe,out_of_district,2014-15,5,True
+2019,Mesa,oe,out_of_district,2013-14,4,True
+2019,Mesa,oe,out_of_district,2012-13,7,True
+2019,Mesa,oe,out_of_district,2011-12,9,True
+2019,Mesa,oe,out_of_district,2010-11,14,True
+2019,Bear Creek,grade,grade_5,2019-20,72,True
+2019,Bear Creek,grade,grade_5,2018-19,84,True
+2019,Bear Creek,grade,grade_5,2017-18,73,True
+2019,Bear Creek,grade,grade_5,2016-17,87,True
+2019,Bear Creek,grade,grade_5,2015-16,77,True
+2019,Bear Creek,grade,grade_5,2014-15,55,True
+2019,Bear Creek,grade,grade_5,2013-14,70,True
+2019,Bear Creek,grade,grade_5,2012-13,58,True
+2019,Bear Creek,grade,grade_5,2011-12,75,True
+2019,Bear Creek,grade,grade_5,2010-11,78,True
+2019,Bear Creek,grade,grade_4,2019-20,83,True
+2019,Bear Creek,grade,grade_4,2018-19,72,True
+2019,Bear Creek,grade,grade_4,2017-18,91,True
+2019,Bear Creek,grade,grade_4,2016-17,70,True
+2019,Bear Creek,grade,grade_4,2015-16,85,True
+2019,Bear Creek,grade,grade_4,2014-15,75,True
+2019,Bear Creek,grade,grade_4,2013-14,55,True
+2019,Bear Creek,grade,grade_4,2012-13,67,True
+2019,Bear Creek,grade,grade_4,2011-12,57,True
+2019,Bear Creek,grade,grade_4,2010-11,73,True
+2019,Bear Creek,grade,grade_3,2019-20,69,True
+2019,Bear Creek,grade,grade_3,2018-19,73,True
+2019,Bear Creek,grade,grade_3,2017-18,67,True
+2019,Bear Creek,grade,grade_3,2016-17,89,True
+2019,Bear Creek,grade,grade_3,2015-16,67,True
+2019,Bear Creek,grade,grade_3,2014-15,86,True
+2019,Bear Creek,grade,grade_3,2013-14,72,True
+2019,Bear Creek,grade,grade_3,2012-13,53,True
+2019,Bear Creek,grade,grade_3,2011-12,58,True
+2019,Bear Creek,grade,grade_3,2010-11,54,True
+2019,Bear Creek,grade,grade_2,2019-20,79,True
+2019,Bear Creek,grade,grade_2,2018-19,71,True
+2019,Bear Creek,grade,grade_2,2017-18,74,True
+2019,Bear Creek,grade,grade_2,2016-17,66,True
+2019,Bear Creek,grade,grade_2,2015-16,83,True
+2019,Bear Creek,grade,grade_2,2014-15,65,True
+2019,Bear Creek,grade,grade_2,2013-14,85,True
+2019,Bear Creek,grade,grade_2,2012-13,72,True
+2019,Bear Creek,grade,grade_2,2011-12,51,True
+2019,Bear Creek,grade,grade_2,2010-11,54,True
+2019,Bear Creek,grade,grade_1,2019-20,54,True
+2019,Bear Creek,grade,grade_1,2018-19,77,True
+2019,Bear Creek,grade,grade_1,2017-18,73,True
+2019,Bear Creek,grade,grade_1,2016-17,66,True
+2019,Bear Creek,grade,grade_1,2015-16,61,True
+2019,Bear Creek,grade,grade_1,2014-15,78,True
+2019,Bear Creek,grade,grade_1,2013-14,57,True
+2019,Bear Creek,grade,grade_1,2012-13,79,True
+2019,Bear Creek,grade,grade_1,2011-12,68,True
+2019,Bear Creek,grade,grade_1,2010-11,50,True
+2019,Bear Creek,grade,grade_k,2019-20,43,True
+2019,Bear Creek,grade,grade_k,2018-19,48,True
+2019,Bear Creek,grade,grade_k,2017-18,70,True
+2019,Bear Creek,grade,grade_k,2016-17,60,True
+2019,Bear Creek,grade,grade_k,2015-16,68,True
+2019,Bear Creek,grade,grade_k,2014-15,58,True
+2019,Bear Creek,grade,grade_k,2013-14,75,True
+2019,Bear Creek,grade,grade_k,2012-13,62,True
+2019,Bear Creek,grade,grade_k,2011-12,69,True
+2019,Bear Creek,grade,grade_k,2010-11,58,True
+2019,Bear Creek,grade,total_enrollment,2019-20,400,True
+2019,Bear Creek,grade,total_enrollment,2018-19,425,True
+2019,Bear Creek,grade,total_enrollment,2017-18,448,True
+2019,Bear Creek,grade,total_enrollment,2016-17,438,True
+2019,Bear Creek,grade,total_enrollment,2015-16,441,True
+2019,Bear Creek,grade,total_enrollment,2014-15,417,True
+2019,Bear Creek,grade,total_enrollment,2013-14,414,True
+2019,Bear Creek,grade,total_enrollment,2012-13,391,True
+2019,Bear Creek,grade,total_enrollment,2011-12,378,True
+2019,Bear Creek,grade,total_enrollment,2010-11,367,True
+2019,Bear Creek,grade,pre_k,2019-20,0,True
+2019,Bear Creek,grade,pre_k,2018-19,0,True
+2019,Bear Creek,grade,pre_k,2017-18,0,True
+2019,Bear Creek,grade,pre_k,2016-17,0,True
+2019,Bear Creek,grade,pre_k,2015-16,0,True
+2019,Bear Creek,grade,pre_k,2014-15,0,True
+2019,Bear Creek,grade,pre_k,2013-14,0,True
+2019,Bear Creek,grade,pre_k,2012-13,0,True
+2019,Bear Creek,grade,pre_k,2011-12,0,True
+2019,Bear Creek,grade,pre_k,2010-11,0,True
+2019,Bear Creek,oe,neighborhood_residents,2019-20,398,True
+2019,Bear Creek,oe,neighborhood_residents,2018-19,433,True
+2019,Bear Creek,oe,neighborhood_residents,2017-18,454,True
+2019,Bear Creek,oe,neighborhood_residents,2016-17,446,True
+2019,Bear Creek,oe,neighborhood_residents,2015-16,456,True
+2019,Bear Creek,oe,neighborhood_residents,2014-15,408,True
+2019,Bear Creek,oe,neighborhood_residents,2013-14,406,True
+2019,Bear Creek,oe,neighborhood_residents,2012-13,371,True
+2019,Bear Creek,oe,neighborhood_residents,2011-12,349,True
+2019,Bear Creek,oe,neighborhood_residents,2010-11,340,True
+2019,Bear Creek,oe,oe_out,2019-20,45,True
+2019,Bear Creek,oe,oe_out,2018-19,44,True
+2019,Bear Creek,oe,oe_out,2017-18,46,True
+2019,Bear Creek,oe,oe_out,2016-17,51,True
+2019,Bear Creek,oe,oe_out,2015-16,54,True
+2019,Bear Creek,oe,oe_out,2014-15,36,True
+2019,Bear Creek,oe,oe_out,2013-14,44,True
+2019,Bear Creek,oe,oe_out,2012-13,56,True
+2019,Bear Creek,oe,oe_out,2011-12,60,True
+2019,Bear Creek,oe,oe_out,2010-11,53,True
+2019,Bear Creek,oe,oe_in,2019-20,42,True
+2019,Bear Creek,oe,oe_in,2018-19,29,True
+2019,Bear Creek,oe,oe_in,2017-18,35,True
+2019,Bear Creek,oe,oe_in,2016-17,43,True
+2019,Bear Creek,oe,oe_in,2015-16,43,True
+2019,Bear Creek,oe,oe_in,2014-15,44,True
+2019,Bear Creek,oe,oe_in,2013-14,44,True
+2019,Bear Creek,oe,oe_in,2012-13,57,True
+2019,Bear Creek,oe,oe_in,2011-12,69,True
+2019,Bear Creek,oe,oe_in,2010-11,79,True
+2019,Bear Creek,oe,placements_out,2019-20,2,True
+2019,Bear Creek,oe,placements_out,2018-19,2,True
+2019,Bear Creek,oe,placements_out,2017-18,4,True
+2019,Bear Creek,oe,placements_out,2016-17,3,True
+2019,Bear Creek,oe,placements_out,2015-16,4,True
+2019,Bear Creek,oe,placements_out,2014-15,1,True
+2019,Bear Creek,oe,placements_out,2013-14,0,True
+2019,Bear Creek,oe,placements_out,2012-13,0,True
+2019,Bear Creek,oe,placements_out,2011-12,1,True
+2019,Bear Creek,oe,placements_out,2010-11,0,True
+2019,Bear Creek,oe,placements_in,2019-20,10,True
+2019,Bear Creek,oe,placements_in,2018-19,11,True
+2019,Bear Creek,oe,placements_in,2017-18,7,True
+2019,Bear Creek,oe,placements_in,2016-17,1,True
+2019,Bear Creek,oe,placements_in,2015-16,0,True
+2019,Bear Creek,oe,placements_in,2014-15,1,True
+2019,Bear Creek,oe,placements_in,2013-14,1,True
+2019,Bear Creek,oe,placements_in,2012-13,2,True
+2019,Bear Creek,oe,placements_in,2011-12,0,True
+2019,Bear Creek,oe,placements_in,2010-11,0,True
+2019,Bear Creek,oe,out_of_district,2019-20,0,True
+2019,Bear Creek,oe,out_of_district,2018-19,0,True
+2019,Bear Creek,oe,out_of_district,2017-18,2,True
+2019,Bear Creek,oe,out_of_district,2016-17,2,True
+2019,Bear Creek,oe,out_of_district,2015-16,0,True
+2019,Bear Creek,oe,out_of_district,2014-15,0,True
+2019,Bear Creek,oe,out_of_district,2013-14,4,True
+2019,Bear Creek,oe,out_of_district,2012-13,4,True
+2019,Bear Creek,oe,out_of_district,2011-12,1,True
+2019,Bear Creek,oe,out_of_district,2010-11,1,True
+2020,Mesa,grade,grade_5,2020-21,49,True
+2020,Mesa,grade,grade_5,2019-20,54,True
+2020,Mesa,grade,grade_5,2018-19,52,True
+2020,Mesa,grade,grade_5,2017-18,56,True
+2020,Mesa,grade,grade_5,2016-17,55,True
+2020,Mesa,grade,grade_5,2015-16,79,True
+2020,Mesa,grade,grade_5,2014-15,56,True
+2020,Mesa,grade,grade_5,2013-14,63,True
+2020,Mesa,grade,grade_5,2012-13,75,True
+2020,Mesa,grade,grade_5,2011-12,75,True
+2020,Mesa,grade,grade_4,2020-21,40,True
+2020,Mesa,grade,grade_4,2019-20,48,True
+2020,Mesa,grade,grade_4,2018-19,49,True
+2020,Mesa,grade,grade_4,2017-18,52,True
+2020,Mesa,grade,grade_4,2016-17,58,True
+2020,Mesa,grade,grade_4,2015-16,52,True
+2020,Mesa,grade,grade_4,2014-15,75,True
+2020,Mesa,grade,grade_4,2013-14,50,True
+2020,Mesa,grade,grade_4,2012-13,68,True
+2020,Mesa,grade,grade_4,2011-12,73,True
+2020,Mesa,grade,grade_3,2020-21,42,True
+2020,Mesa,grade,grade_3,2019-20,44,True
+2020,Mesa,grade,grade_3,2018-19,45,True
+2020,Mesa,grade,grade_3,2017-18,49,True
+2020,Mesa,grade,grade_3,2016-17,49,True
+2020,Mesa,grade,grade_3,2015-16,55,True
+2020,Mesa,grade,grade_3,2014-15,53,True
+2020,Mesa,grade,grade_3,2013-14,73,True
+2020,Mesa,grade,grade_3,2012-13,46,True
+2020,Mesa,grade,grade_3,2011-12,71,True
+2020,Mesa,grade,grade_2,2020-21,41,True
+2020,Mesa,grade,grade_2,2019-20,41,True
+2020,Mesa,grade,grade_2,2018-19,38,True
+2020,Mesa,grade,grade_2,2017-18,45,True
+2020,Mesa,grade,grade_2,2016-17,48,True
+2020,Mesa,grade,grade_2,2015-16,50,True
+2020,Mesa,grade,grade_2,2014-15,56,True
+2020,Mesa,grade,grade_2,2013-14,55,True
+2020,Mesa,grade,grade_2,2012-13,72,True
+2020,Mesa,grade,grade_2,2011-12,41,True
+2020,Mesa,grade,grade_1,2020-21,30,True
+2020,Mesa,grade,grade_1,2019-20,38,True
+2020,Mesa,grade,grade_1,2018-19,38,True
+2020,Mesa,grade,grade_1,2017-18,37,True
+2020,Mesa,grade,grade_1,2016-17,42,True
+2020,Mesa,grade,grade_1,2015-16,47,True
+2020,Mesa,grade,grade_1,2014-15,43,True
+2020,Mesa,grade,grade_1,2013-14,52,True
+2020,Mesa,grade,grade_1,2012-13,50,True
+2020,Mesa,grade,grade_1,2011-12,67,True
+2020,Mesa,grade,grade_k,2020-21,33,True
+2020,Mesa,grade,grade_k,2019-20,36,True
+2020,Mesa,grade,grade_k,2018-19,38,True
+2020,Mesa,grade,grade_k,2017-18,32,True
+2020,Mesa,grade,grade_k,2016-17,35,True
+2020,Mesa,grade,grade_k,2015-16,37,True
+2020,Mesa,grade,grade_k,2014-15,47,True
+2020,Mesa,grade,grade_k,2013-14,48,True
+2020,Mesa,grade,grade_k,2012-13,41,True
+2020,Mesa,grade,grade_k,2011-12,44,True
+2020,Mesa,grade,total_enrollment,2020-21,235,True
+2020,Mesa,grade,total_enrollment,2019-20,261,True
+2020,Mesa,grade,total_enrollment,2018-19,260,True
+2020,Mesa,grade,total_enrollment,2017-18,271,True
+2020,Mesa,grade,total_enrollment,2016-17,287,True
+2020,Mesa,grade,total_enrollment,2015-16,320,True
+2020,Mesa,grade,total_enrollment,2014-15,330,True
+2020,Mesa,grade,total_enrollment,2013-14,341,True
+2020,Mesa,grade,total_enrollment,2012-13,352,True
+2020,Mesa,grade,total_enrollment,2011-12,371,True
+2020,Mesa,grade,pre_k,2020-21,0,True
+2020,Mesa,grade,pre_k,2019-20,0,True
+2020,Mesa,grade,pre_k,2018-19,0,True
+2020,Mesa,grade,pre_k,2017-18,0,True
+2020,Mesa,grade,pre_k,2016-17,0,True
+2020,Mesa,grade,pre_k,2015-16,0,True
+2020,Mesa,grade,pre_k,2014-15,0,True
+2020,Mesa,grade,pre_k,2013-14,0,True
+2020,Mesa,grade,pre_k,2012-13,0,True
+2020,Mesa,grade,pre_k,2011-12,0,True
+2020,Mesa,oe,neighborhood_residents,2020-21,244,True
+2020,Mesa,oe,neighborhood_residents,2019-20,281,True
+2020,Mesa,oe,neighborhood_residents,2018-19,277,True
+2020,Mesa,oe,neighborhood_residents,2017-18,278,True
+2020,Mesa,oe,neighborhood_residents,2016-17,246,True
+2020,Mesa,oe,neighborhood_residents,2015-16,318,True
+2020,Mesa,oe,neighborhood_residents,2014-15,330,True
+2020,Mesa,oe,neighborhood_residents,2013-14,346,True
+2020,Mesa,oe,neighborhood_residents,2012-13,322,True
+2020,Mesa,oe,neighborhood_residents,2011-12,334,True
+2020,Mesa,oe,oe_out,2020-21,69,True
+2020,Mesa,oe,oe_out,2019-20,74,True
+2020,Mesa,oe,oe_out,2018-19,62,True
+2020,Mesa,oe,oe_out,2017-18,59,True
+2020,Mesa,oe,oe_out,2016-17,49,True
+2020,Mesa,oe,oe_out,2015-16,63,True
+2020,Mesa,oe,oe_out,2014-15,70,True
+2020,Mesa,oe,oe_out,2013-14,77,True
+2020,Mesa,oe,oe_out,2012-13,67,True
+2020,Mesa,oe,oe_out,2011-12,70,True
+2020,Mesa,oe,oe_in,2020-21,50,True
+2020,Mesa,oe,oe_in,2019-20,48,True
+2020,Mesa,oe,oe_in,2018-19,45,True
+2020,Mesa,oe,oe_in,2017-18,47,True
+2020,Mesa,oe,oe_in,2016-17,55,True
+2020,Mesa,oe,oe_in,2015-16,58,True
+2020,Mesa,oe,oe_in,2014-15,63,True
+2020,Mesa,oe,oe_in,2013-14,66,True
+2020,Mesa,oe,oe_in,2012-13,76,True
+2020,Mesa,oe,oe_in,2011-12,85,True
+2020,Mesa,oe,placements_out,2020-21,1,True
+2020,Mesa,oe,placements_out,2019-20,1,True
+2020,Mesa,oe,placements_out,2018-19,6,True
+2020,Mesa,oe,placements_out,2017-18,4,True
+2020,Mesa,oe,placements_out,2016-17,3,True
+2020,Mesa,oe,placements_out,2015-16,2,True
+2020,Mesa,oe,placements_out,2014-15,3,True
+2020,Mesa,oe,placements_out,2013-14,4,True
+2020,Mesa,oe,placements_out,2012-13,4,True
+2020,Mesa,oe,placements_out,2011-12,4,True
+2020,Mesa,oe,placements_in,2020-21,8,True
+2020,Mesa,oe,placements_in,2019-20,3,True
+2020,Mesa,oe,placements_in,2018-19,3,True
+2020,Mesa,oe,placements_in,2017-18,7,True
+2020,Mesa,oe,placements_in,2016-17,7,True
+2020,Mesa,oe,placements_in,2015-16,4,True
+2020,Mesa,oe,placements_in,2014-15,6,True
+2020,Mesa,oe,placements_in,2013-14,7,True
+2020,Mesa,oe,placements_in,2012-13,6,True
+2020,Mesa,oe,placements_in,2011-12,7,True
+2020,Mesa,oe,out_of_district,2020-21,4,True
+2020,Mesa,oe,out_of_district,2019-20,5,True
+2020,Mesa,oe,out_of_district,2018-19,4,True
+2020,Mesa,oe,out_of_district,2017-18,3,True
+2020,Mesa,oe,out_of_district,2016-17,3,True
+2020,Mesa,oe,out_of_district,2015-16,5,True
+2020,Mesa,oe,out_of_district,2014-15,5,True
+2020,Mesa,oe,out_of_district,2013-14,4,True
+2020,Mesa,oe,out_of_district,2012-13,7,True
+2020,Mesa,oe,out_of_district,2011-12,9,True
+2020,Bear Creek,grade,grade_5,2020-21,79,True
+2020,Bear Creek,grade,grade_5,2019-20,72,True
+2020,Bear Creek,grade,grade_5,2018-19,84,True
+2020,Bear Creek,grade,grade_5,2017-18,73,True
+2020,Bear Creek,grade,grade_5,2016-17,87,True
+2020,Bear Creek,grade,grade_5,2015-16,77,True
+2020,Bear Creek,grade,grade_5,2014-15,55,True
+2020,Bear Creek,grade,grade_5,2013-14,70,True
+2020,Bear Creek,grade,grade_5,2012-13,58,True
+2020,Bear Creek,grade,grade_5,2011-12,75,True
+2020,Bear Creek,grade,grade_4,2020-21,70,True
+2020,Bear Creek,grade,grade_4,2019-20,83,True
+2020,Bear Creek,grade,grade_4,2018-19,72,True
+2020,Bear Creek,grade,grade_4,2017-18,91,True
+2020,Bear Creek,grade,grade_4,2016-17,70,True
+2020,Bear Creek,grade,grade_4,2015-16,85,True
+2020,Bear Creek,grade,grade_4,2014-15,75,True
+2020,Bear Creek,grade,grade_4,2013-14,55,True
+2020,Bear Creek,grade,grade_4,2012-13,67,True
+2020,Bear Creek,grade,grade_4,2011-12,57,True
+2020,Bear Creek,grade,grade_3,2020-21,70,True
+2020,Bear Creek,grade,grade_3,2019-20,69,True
+2020,Bear Creek,grade,grade_3,2018-19,73,True
+2020,Bear Creek,grade,grade_3,2017-18,67,True
+2020,Bear Creek,grade,grade_3,2016-17,89,True
+2020,Bear Creek,grade,grade_3,2015-16,67,True
+2020,Bear Creek,grade,grade_3,2014-15,86,True
+2020,Bear Creek,grade,grade_3,2013-14,72,True
+2020,Bear Creek,grade,grade_3,2012-13,53,True
+2020,Bear Creek,grade,grade_3,2011-12,58,True
+2020,Bear Creek,grade,grade_2,2020-21,47,True
+2020,Bear Creek,grade,grade_2,2019-20,79,True
+2020,Bear Creek,grade,grade_2,2018-19,71,True
+2020,Bear Creek,grade,grade_2,2017-18,74,True
+2020,Bear Creek,grade,grade_2,2016-17,66,True
+2020,Bear Creek,grade,grade_2,2015-16,83,True
+2020,Bear Creek,grade,grade_2,2014-15,65,True
+2020,Bear Creek,grade,grade_2,2013-14,85,True
+2020,Bear Creek,grade,grade_2,2012-13,72,True
+2020,Bear Creek,grade,grade_2,2011-12,51,True
+2020,Bear Creek,grade,grade_1,2020-21,46,True
+2020,Bear Creek,grade,grade_1,2019-20,54,True
+2020,Bear Creek,grade,grade_1,2018-19,77,True
+2020,Bear Creek,grade,grade_1,2017-18,73,True
+2020,Bear Creek,grade,grade_1,2016-17,66,True
+2020,Bear Creek,grade,grade_1,2015-16,61,True
+2020,Bear Creek,grade,grade_1,2014-15,78,True
+2020,Bear Creek,grade,grade_1,2013-14,57,True
+2020,Bear Creek,grade,grade_1,2012-13,79,True
+2020,Bear Creek,grade,grade_1,2011-12,68,True
+2020,Bear Creek,grade,grade_k,2020-21,29,True
+2020,Bear Creek,grade,grade_k,2019-20,43,True
+2020,Bear Creek,grade,grade_k,2018-19,48,True
+2020,Bear Creek,grade,grade_k,2017-18,70,True
+2020,Bear Creek,grade,grade_k,2016-17,60,True
+2020,Bear Creek,grade,grade_k,2015-16,68,True
+2020,Bear Creek,grade,grade_k,2014-15,58,True
+2020,Bear Creek,grade,grade_k,2013-14,75,True
+2020,Bear Creek,grade,grade_k,2012-13,62,True
+2020,Bear Creek,grade,grade_k,2011-12,69,True
+2020,Bear Creek,grade,total_enrollment,2020-21,341,True
+2020,Bear Creek,grade,total_enrollment,2019-20,400,True
+2020,Bear Creek,grade,total_enrollment,2018-19,425,True
+2020,Bear Creek,grade,total_enrollment,2017-18,448,True
+2020,Bear Creek,grade,total_enrollment,2016-17,438,True
+2020,Bear Creek,grade,total_enrollment,2015-16,441,True
+2020,Bear Creek,grade,total_enrollment,2014-15,417,True
+2020,Bear Creek,grade,total_enrollment,2013-14,414,True
+2020,Bear Creek,grade,total_enrollment,2012-13,391,True
+2020,Bear Creek,grade,total_enrollment,2011-12,378,True
+2020,Bear Creek,grade,pre_k,2020-21,0,True
+2020,Bear Creek,grade,pre_k,2019-20,0,True
+2020,Bear Creek,grade,pre_k,2018-19,0,True
+2020,Bear Creek,grade,pre_k,2017-18,0,True
+2020,Bear Creek,grade,pre_k,2016-17,0,True
+2020,Bear Creek,grade,pre_k,2015-16,0,True
+2020,Bear Creek,grade,pre_k,2014-15,0,True
+2020,Bear Creek,grade,pre_k,2013-14,0,True
+2020,Bear Creek,grade,pre_k,2012-13,0,True
+2020,Bear Creek,grade,pre_k,2011-12,0,True
+2020,Bear Creek,oe,neighborhood_residents,2020-21,344,True
+2020,Bear Creek,oe,neighborhood_residents,2019-20,398,True
+2020,Bear Creek,oe,neighborhood_residents,2018-19,433,True
+2020,Bear Creek,oe,neighborhood_residents,2017-18,454,True
+2020,Bear Creek,oe,neighborhood_residents,2016-17,446,True
+2020,Bear Creek,oe,neighborhood_residents,2015-16,456,True
+2020,Bear Creek,oe,neighborhood_residents,2014-15,408,True
+2020,Bear Creek,oe,neighborhood_residents,2013-14,406,True
+2020,Bear Creek,oe,neighborhood_residents,2012-13,371,True
+2020,Bear Creek,oe,neighborhood_residents,2011-12,349,True
+2020,Bear Creek,oe,oe_out,2020-21,54,True
+2020,Bear Creek,oe,oe_out,2019-20,45,True
+2020,Bear Creek,oe,oe_out,2018-19,44,True
+2020,Bear Creek,oe,oe_out,2017-18,46,True
+2020,Bear Creek,oe,oe_out,2016-17,51,True
+2020,Bear Creek,oe,oe_out,2015-16,54,True
+2020,Bear Creek,oe,oe_out,2014-15,36,True
+2020,Bear Creek,oe,oe_out,2013-14,44,True
+2020,Bear Creek,oe,oe_out,2012-13,56,True
+2020,Bear Creek,oe,oe_out,2011-12,60,True
+2020,Bear Creek,oe,oe_in,2020-21,42,True
+2020,Bear Creek,oe,oe_in,2019-20,42,True
+2020,Bear Creek,oe,oe_in,2018-19,29,True
+2020,Bear Creek,oe,oe_in,2017-18,35,True
+2020,Bear Creek,oe,oe_in,2016-17,43,True
+2020,Bear Creek,oe,oe_in,2015-16,43,True
+2020,Bear Creek,oe,oe_in,2014-15,44,True
+2020,Bear Creek,oe,oe_in,2013-14,44,True
+2020,Bear Creek,oe,oe_in,2012-13,57,True
+2020,Bear Creek,oe,oe_in,2011-12,69,True
+2020,Bear Creek,oe,placements_out,2020-21,2,True
+2020,Bear Creek,oe,placements_out,2019-20,2,True
+2020,Bear Creek,oe,placements_out,2018-19,2,True
+2020,Bear Creek,oe,placements_out,2017-18,4,True
+2020,Bear Creek,oe,placements_out,2016-17,3,True
+2020,Bear Creek,oe,placements_out,2015-16,4,True
+2020,Bear Creek,oe,placements_out,2014-15,1,True
+2020,Bear Creek,oe,placements_out,2013-14,0,True
+2020,Bear Creek,oe,placements_out,2012-13,0,True
+2020,Bear Creek,oe,placements_out,2011-12,1,True
+2020,Bear Creek,oe,placements_in,2020-21,13,True
+2020,Bear Creek,oe,placements_in,2019-20,10,True
+2020,Bear Creek,oe,placements_in,2018-19,11,True
+2020,Bear Creek,oe,placements_in,2017-18,7,True
+2020,Bear Creek,oe,placements_in,2016-17,1,True
+2020,Bear Creek,oe,placements_in,2015-16,0,True
+2020,Bear Creek,oe,placements_in,2014-15,1,True
+2020,Bear Creek,oe,placements_in,2013-14,1,True
+2020,Bear Creek,oe,placements_in,2012-13,2,True
+2020,Bear Creek,oe,placements_in,2011-12,0,True
+2020,Bear Creek,oe,out_of_district,2020-21,0,True
+2020,Bear Creek,oe,out_of_district,2019-20,0,True
+2020,Bear Creek,oe,out_of_district,2018-19,0,True
+2020,Bear Creek,oe,out_of_district,2017-18,2,True
+2020,Bear Creek,oe,out_of_district,2016-17,2,True
+2020,Bear Creek,oe,out_of_district,2015-16,0,True
+2020,Bear Creek,oe,out_of_district,2014-15,0,True
+2020,Bear Creek,oe,out_of_district,2013-14,4,True
+2020,Bear Creek,oe,out_of_district,2012-13,4,True
+2020,Bear Creek,oe,out_of_district,2011-12,1,True
+2021,Mesa,grade,grade_5,2021-22,43,True
+2021,Mesa,grade,grade_5,2020-21,49,True
+2021,Mesa,grade,grade_5,2019-20,54,True
+2021,Mesa,grade,grade_5,2018-19,52,True
+2021,Mesa,grade,grade_5,2017-18,56,True
+2021,Mesa,grade,grade_5,2016-17,55,True
+2021,Mesa,grade,grade_5,2015-16,79,True
+2021,Mesa,grade,grade_5,2014-15,56,True
+2021,Mesa,grade,grade_5,2013-14,63,True
+2021,Mesa,grade,grade_5,2012-13,75,True
+2021,Mesa,grade,grade_4,2021-22,48,True
+2021,Mesa,grade,grade_4,2020-21,40,True
+2021,Mesa,grade,grade_4,2019-20,48,True
+2021,Mesa,grade,grade_4,2018-19,49,True
+2021,Mesa,grade,grade_4,2017-18,52,True
+2021,Mesa,grade,grade_4,2016-17,58,True
+2021,Mesa,grade,grade_4,2015-16,52,True
+2021,Mesa,grade,grade_4,2014-15,75,True
+2021,Mesa,grade,grade_4,2013-14,50,True
+2021,Mesa,grade,grade_4,2012-13,68,True
+2021,Mesa,grade,grade_3,2021-22,41,True
+2021,Mesa,grade,grade_3,2020-21,42,True
+2021,Mesa,grade,grade_3,2019-20,44,True
+2021,Mesa,grade,grade_3,2018-19,45,True
+2021,Mesa,grade,grade_3,2017-18,49,True
+2021,Mesa,grade,grade_3,2016-17,49,True
+2021,Mesa,grade,grade_3,2015-16,55,True
+2021,Mesa,grade,grade_3,2014-15,53,True
+2021,Mesa,grade,grade_3,2013-14,73,True
+2021,Mesa,grade,grade_3,2012-13,46,True
+2021,Mesa,grade,grade_2,2021-22,37,True
+2021,Mesa,grade,grade_2,2020-21,41,True
+2021,Mesa,grade,grade_2,2019-20,41,True
+2021,Mesa,grade,grade_2,2018-19,38,True
+2021,Mesa,grade,grade_2,2017-18,45,True
+2021,Mesa,grade,grade_2,2016-17,48,True
+2021,Mesa,grade,grade_2,2015-16,50,True
+2021,Mesa,grade,grade_2,2014-15,56,True
+2021,Mesa,grade,grade_2,2013-14,55,True
+2021,Mesa,grade,grade_2,2012-13,72,True
+2021,Mesa,grade,grade_1,2021-22,44,True
+2021,Mesa,grade,grade_1,2020-21,30,True
+2021,Mesa,grade,grade_1,2019-20,38,True
+2021,Mesa,grade,grade_1,2018-19,38,True
+2021,Mesa,grade,grade_1,2017-18,37,True
+2021,Mesa,grade,grade_1,2016-17,42,True
+2021,Mesa,grade,grade_1,2015-16,47,True
+2021,Mesa,grade,grade_1,2014-15,43,True
+2021,Mesa,grade,grade_1,2013-14,52,True
+2021,Mesa,grade,grade_1,2012-13,50,True
+2021,Mesa,grade,grade_k,2021-22,34,True
+2021,Mesa,grade,grade_k,2020-21,33,True
+2021,Mesa,grade,grade_k,2019-20,36,True
+2021,Mesa,grade,grade_k,2018-19,38,True
+2021,Mesa,grade,grade_k,2017-18,32,True
+2021,Mesa,grade,grade_k,2016-17,35,True
+2021,Mesa,grade,grade_k,2015-16,37,True
+2021,Mesa,grade,grade_k,2014-15,47,True
+2021,Mesa,grade,grade_k,2013-14,48,True
+2021,Mesa,grade,grade_k,2012-13,41,True
+2021,Mesa,grade,total_enrollment,2021-22,247,True
+2021,Mesa,grade,total_enrollment,2020-21,235,True
+2021,Mesa,grade,total_enrollment,2019-20,261,True
+2021,Mesa,grade,total_enrollment,2018-19,260,True
+2021,Mesa,grade,total_enrollment,2017-18,271,True
+2021,Mesa,grade,total_enrollment,2016-17,287,True
+2021,Mesa,grade,total_enrollment,2015-16,320,True
+2021,Mesa,grade,total_enrollment,2014-15,330,True
+2021,Mesa,grade,total_enrollment,2013-14,341,True
+2021,Mesa,grade,total_enrollment,2012-13,352,True
+2021,Mesa,grade,pre_k,2021-22,0,True
+2021,Mesa,grade,pre_k,2020-21,0,True
+2021,Mesa,grade,pre_k,2019-20,0,True
+2021,Mesa,grade,pre_k,2018-19,0,True
+2021,Mesa,grade,pre_k,2017-18,0,True
+2021,Mesa,grade,pre_k,2016-17,0,True
+2021,Mesa,grade,pre_k,2015-16,0,True
+2021,Mesa,grade,pre_k,2014-15,0,True
+2021,Mesa,grade,pre_k,2013-14,0,True
+2021,Mesa,grade,pre_k,2012-13,0,True
+2021,Mesa,oe,neighborhood_residents,2021-22,239,True
+2021,Mesa,oe,neighborhood_residents,2020-21,244,True
+2021,Mesa,oe,neighborhood_residents,2019-20,281,True
+2021,Mesa,oe,neighborhood_residents,2018-19,277,True
+2021,Mesa,oe,neighborhood_residents,2017-18,278,True
+2021,Mesa,oe,neighborhood_residents,2016-17,246,True
+2021,Mesa,oe,neighborhood_residents,2015-16,318,True
+2021,Mesa,oe,neighborhood_residents,2014-15,330,True
+2021,Mesa,oe,neighborhood_residents,2013-14,346,True
+2021,Mesa,oe,neighborhood_residents,2012-13,322,True
+2021,Mesa,oe,oe_out,2021-22,48,True
+2021,Mesa,oe,oe_out,2020-21,69,True
+2021,Mesa,oe,oe_out,2019-20,74,True
+2021,Mesa,oe,oe_out,2018-19,62,True
+2021,Mesa,oe,oe_out,2017-18,59,True
+2021,Mesa,oe,oe_out,2016-17,49,True
+2021,Mesa,oe,oe_out,2015-16,63,True
+2021,Mesa,oe,oe_out,2014-15,70,True
+2021,Mesa,oe,oe_out,2013-14,77,True
+2021,Mesa,oe,oe_out,2012-13,67,True
+2021,Mesa,oe,oe_in,2021-22,45,True
+2021,Mesa,oe,oe_in,2020-21,50,True
+2021,Mesa,oe,oe_in,2019-20,48,True
+2021,Mesa,oe,oe_in,2018-19,45,True
+2021,Mesa,oe,oe_in,2017-18,47,True
+2021,Mesa,oe,oe_in,2016-17,55,True
+2021,Mesa,oe,oe_in,2015-16,58,True
+2021,Mesa,oe,oe_in,2014-15,63,True
+2021,Mesa,oe,oe_in,2013-14,66,True
+2021,Mesa,oe,oe_in,2012-13,76,True
+2021,Mesa,oe,placements_out,2021-22,1,True
+2021,Mesa,oe,placements_out,2020-21,1,True
+2021,Mesa,oe,placements_out,2019-20,1,True
+2021,Mesa,oe,placements_out,2018-19,6,True
+2021,Mesa,oe,placements_out,2017-18,4,True
+2021,Mesa,oe,placements_out,2016-17,3,True
+2021,Mesa,oe,placements_out,2015-16,2,True
+2021,Mesa,oe,placements_out,2014-15,3,True
+2021,Mesa,oe,placements_out,2013-14,4,True
+2021,Mesa,oe,placements_out,2012-13,4,True
+2021,Mesa,oe,placements_in,2021-22,10,True
+2021,Mesa,oe,placements_in,2020-21,8,True
+2021,Mesa,oe,placements_in,2019-20,3,True
+2021,Mesa,oe,placements_in,2018-19,3,True
+2021,Mesa,oe,placements_in,2017-18,7,True
+2021,Mesa,oe,placements_in,2016-17,7,True
+2021,Mesa,oe,placements_in,2015-16,4,True
+2021,Mesa,oe,placements_in,2014-15,6,True
+2021,Mesa,oe,placements_in,2013-14,7,True
+2021,Mesa,oe,placements_in,2012-13,6,True
+2021,Mesa,oe,out_of_district,2021-22,4,True
+2021,Mesa,oe,out_of_district,2020-21,4,True
+2021,Mesa,oe,out_of_district,2019-20,5,True
+2021,Mesa,oe,out_of_district,2018-19,4,True
+2021,Mesa,oe,out_of_district,2017-18,3,True
+2021,Mesa,oe,out_of_district,2016-17,3,True
+2021,Mesa,oe,out_of_district,2015-16,5,True
+2021,Mesa,oe,out_of_district,2014-15,5,True
+2021,Mesa,oe,out_of_district,2013-14,4,True
+2021,Mesa,oe,out_of_district,2012-13,7,True
+2021,Bear Creek,grade,grade_5,2021-22,72,True
+2021,Bear Creek,grade,grade_5,2020-21,79,True
+2021,Bear Creek,grade,grade_5,2019-20,72,True
+2021,Bear Creek,grade,grade_5,2018-19,84,True
+2021,Bear Creek,grade,grade_5,2017-18,73,True
+2021,Bear Creek,grade,grade_5,2016-17,87,True
+2021,Bear Creek,grade,grade_5,2015-16,77,True
+2021,Bear Creek,grade,grade_5,2014-15,55,True
+2021,Bear Creek,grade,grade_5,2013-14,70,True
+2021,Bear Creek,grade,grade_5,2012-13,58,True
+2021,Bear Creek,grade,grade_4,2021-22,77,True
+2021,Bear Creek,grade,grade_4,2020-21,70,True
+2021,Bear Creek,grade,grade_4,2019-20,83,True
+2021,Bear Creek,grade,grade_4,2018-19,72,True
+2021,Bear Creek,grade,grade_4,2017-18,91,True
+2021,Bear Creek,grade,grade_4,2016-17,70,True
+2021,Bear Creek,grade,grade_4,2015-16,85,True
+2021,Bear Creek,grade,grade_4,2014-15,75,True
+2021,Bear Creek,grade,grade_4,2013-14,55,True
+2021,Bear Creek,grade,grade_4,2012-13,67,True
+2021,Bear Creek,grade,grade_3,2021-22,54,True
+2021,Bear Creek,grade,grade_3,2020-21,70,True
+2021,Bear Creek,grade,grade_3,2019-20,69,True
+2021,Bear Creek,grade,grade_3,2018-19,73,True
+2021,Bear Creek,grade,grade_3,2017-18,67,True
+2021,Bear Creek,grade,grade_3,2016-17,89,True
+2021,Bear Creek,grade,grade_3,2015-16,67,True
+2021,Bear Creek,grade,grade_3,2014-15,86,True
+2021,Bear Creek,grade,grade_3,2013-14,72,True
+2021,Bear Creek,grade,grade_3,2012-13,53,True
+2021,Bear Creek,grade,grade_2,2021-22,53,True
+2021,Bear Creek,grade,grade_2,2020-21,47,True
+2021,Bear Creek,grade,grade_2,2019-20,79,True
+2021,Bear Creek,grade,grade_2,2018-19,71,True
+2021,Bear Creek,grade,grade_2,2017-18,74,True
+2021,Bear Creek,grade,grade_2,2016-17,66,True
+2021,Bear Creek,grade,grade_2,2015-16,83,True
+2021,Bear Creek,grade,grade_2,2014-15,65,True
+2021,Bear Creek,grade,grade_2,2013-14,85,True
+2021,Bear Creek,grade,grade_2,2012-13,72,True
+2021,Bear Creek,grade,grade_1,2021-22,42,True
+2021,Bear Creek,grade,grade_1,2020-21,46,True
+2021,Bear Creek,grade,grade_1,2019-20,54,True
+2021,Bear Creek,grade,grade_1,2018-19,77,True
+2021,Bear Creek,grade,grade_1,2017-18,73,True
+2021,Bear Creek,grade,grade_1,2016-17,66,True
+2021,Bear Creek,grade,grade_1,2015-16,61,True
+2021,Bear Creek,grade,grade_1,2014-15,78,True
+2021,Bear Creek,grade,grade_1,2013-14,57,True
+2021,Bear Creek,grade,grade_1,2012-13,79,True
+2021,Bear Creek,grade,grade_k,2021-22,48,True
+2021,Bear Creek,grade,grade_k,2020-21,29,True
+2021,Bear Creek,grade,grade_k,2019-20,43,True
+2021,Bear Creek,grade,grade_k,2018-19,48,True
+2021,Bear Creek,grade,grade_k,2017-18,70,True
+2021,Bear Creek,grade,grade_k,2016-17,60,True
+2021,Bear Creek,grade,grade_k,2015-16,68,True
+2021,Bear Creek,grade,grade_k,2014-15,58,True
+2021,Bear Creek,grade,grade_k,2013-14,75,True
+2021,Bear Creek,grade,grade_k,2012-13,62,True
+2021,Bear Creek,grade,total_enrollment,2021-22,346,True
+2021,Bear Creek,grade,total_enrollment,2020-21,341,True
+2021,Bear Creek,grade,total_enrollment,2019-20,400,True
+2021,Bear Creek,grade,total_enrollment,2018-19,425,True
+2021,Bear Creek,grade,total_enrollment,2017-18,448,True
+2021,Bear Creek,grade,total_enrollment,2016-17,438,True
+2021,Bear Creek,grade,total_enrollment,2015-16,441,True
+2021,Bear Creek,grade,total_enrollment,2014-15,417,True
+2021,Bear Creek,grade,total_enrollment,2013-14,414,True
+2021,Bear Creek,grade,total_enrollment,2012-13,391,True
+2021,Bear Creek,grade,pre_k,2021-22,0,True
+2021,Bear Creek,grade,pre_k,2020-21,0,True
+2021,Bear Creek,grade,pre_k,2019-20,0,True
+2021,Bear Creek,grade,pre_k,2018-19,0,True
+2021,Bear Creek,grade,pre_k,2017-18,0,True
+2021,Bear Creek,grade,pre_k,2016-17,0,True
+2021,Bear Creek,grade,pre_k,2015-16,0,True
+2021,Bear Creek,grade,pre_k,2014-15,0,True
+2021,Bear Creek,grade,pre_k,2013-14,0,True
+2021,Bear Creek,grade,pre_k,2012-13,0,True
+2021,Bear Creek,oe,neighborhood_residents,2021-22,345,True
+2021,Bear Creek,oe,neighborhood_residents,2020-21,344,True
+2021,Bear Creek,oe,neighborhood_residents,2019-20,398,True
+2021,Bear Creek,oe,neighborhood_residents,2018-19,433,True
+2021,Bear Creek,oe,neighborhood_residents,2017-18,454,True
+2021,Bear Creek,oe,neighborhood_residents,2016-17,446,True
+2021,Bear Creek,oe,neighborhood_residents,2015-16,456,True
+2021,Bear Creek,oe,neighborhood_residents,2014-15,408,True
+2021,Bear Creek,oe,neighborhood_residents,2013-14,406,True
+2021,Bear Creek,oe,neighborhood_residents,2012-13,371,True
+2021,Bear Creek,oe,oe_out,2021-22,44,True
+2021,Bear Creek,oe,oe_out,2020-21,54,True
+2021,Bear Creek,oe,oe_out,2019-20,45,True
+2021,Bear Creek,oe,oe_out,2018-19,44,True
+2021,Bear Creek,oe,oe_out,2017-18,46,True
+2021,Bear Creek,oe,oe_out,2016-17,51,True
+2021,Bear Creek,oe,oe_out,2015-16,54,True
+2021,Bear Creek,oe,oe_out,2014-15,36,True
+2021,Bear Creek,oe,oe_out,2013-14,44,True
+2021,Bear Creek,oe,oe_out,2012-13,56,True
+2021,Bear Creek,oe,oe_in,2021-22,37,True
+2021,Bear Creek,oe,oe_in,2020-21,42,True
+2021,Bear Creek,oe,oe_in,2019-20,42,True
+2021,Bear Creek,oe,oe_in,2018-19,29,True
+2021,Bear Creek,oe,oe_in,2017-18,35,True
+2021,Bear Creek,oe,oe_in,2016-17,43,True
+2021,Bear Creek,oe,oe_in,2015-16,43,True
+2021,Bear Creek,oe,oe_in,2014-15,44,True
+2021,Bear Creek,oe,oe_in,2013-14,44,True
+2021,Bear Creek,oe,oe_in,2012-13,57,True
+2021,Bear Creek,oe,placements_out,2021-22,1,True
+2021,Bear Creek,oe,placements_out,2020-21,2,True
+2021,Bear Creek,oe,placements_out,2019-20,2,True
+2021,Bear Creek,oe,placements_out,2018-19,2,True
+2021,Bear Creek,oe,placements_out,2017-18,4,True
+2021,Bear Creek,oe,placements_out,2016-17,3,True
+2021,Bear Creek,oe,placements_out,2015-16,4,True
+2021,Bear Creek,oe,placements_out,2014-15,1,True
+2021,Bear Creek,oe,placements_out,2013-14,0,True
+2021,Bear Creek,oe,placements_out,2012-13,0,True
+2021,Bear Creek,oe,placements_in,2021-22,8,True
+2021,Bear Creek,oe,placements_in,2020-21,13,True
+2021,Bear Creek,oe,placements_in,2019-20,10,True
+2021,Bear Creek,oe,placements_in,2018-19,11,True
+2021,Bear Creek,oe,placements_in,2017-18,7,True
+2021,Bear Creek,oe,placements_in,2016-17,1,True
+2021,Bear Creek,oe,placements_in,2015-16,0,True
+2021,Bear Creek,oe,placements_in,2014-15,1,True
+2021,Bear Creek,oe,placements_in,2013-14,1,True
+2021,Bear Creek,oe,placements_in,2012-13,2,True
+2021,Bear Creek,oe,out_of_district,2021-22,2,True
+2021,Bear Creek,oe,out_of_district,2020-21,0,True
+2021,Bear Creek,oe,out_of_district,2019-20,0,True
+2021,Bear Creek,oe,out_of_district,2018-19,0,True
+2021,Bear Creek,oe,out_of_district,2017-18,2,True
+2021,Bear Creek,oe,out_of_district,2016-17,2,True
+2021,Bear Creek,oe,out_of_district,2015-16,0,True
+2021,Bear Creek,oe,out_of_district,2014-15,0,True
+2021,Bear Creek,oe,out_of_district,2013-14,4,True
+2021,Bear Creek,oe,out_of_district,2012-13,4,True
+2022,Mesa,grade,grade_5,2022-23,49,True
+2022,Mesa,grade,grade_5,2021-22,43,True
+2022,Mesa,grade,grade_5,2020-21,49,True
+2022,Mesa,grade,grade_5,2019-20,54,True
+2022,Mesa,grade,grade_5,2018-19,52,True
+2022,Mesa,grade,grade_5,2017-18,56,True
+2022,Mesa,grade,grade_5,2016-17,55,True
+2022,Mesa,grade,grade_5,2015-16,79,True
+2022,Mesa,grade,grade_5,2014-15,56,True
+2022,Mesa,grade,grade_5,2013-14,63,True
+2022,Mesa,grade,grade_4,2022-23,46,True
+2022,Mesa,grade,grade_4,2021-22,48,True
+2022,Mesa,grade,grade_4,2020-21,40,True
+2022,Mesa,grade,grade_4,2019-20,48,True
+2022,Mesa,grade,grade_4,2018-19,49,True
+2022,Mesa,grade,grade_4,2017-18,52,True
+2022,Mesa,grade,grade_4,2016-17,58,True
+2022,Mesa,grade,grade_4,2015-16,52,True
+2022,Mesa,grade,grade_4,2014-15,75,True
+2022,Mesa,grade,grade_4,2013-14,50,True
+2022,Mesa,grade,grade_3,2022-23,42,True
+2022,Mesa,grade,grade_3,2021-22,41,True
+2022,Mesa,grade,grade_3,2020-21,42,True
+2022,Mesa,grade,grade_3,2019-20,44,True
+2022,Mesa,grade,grade_3,2018-19,45,True
+2022,Mesa,grade,grade_3,2017-18,49,True
+2022,Mesa,grade,grade_3,2016-17,49,True
+2022,Mesa,grade,grade_3,2015-16,55,True
+2022,Mesa,grade,grade_3,2014-15,53,True
+2022,Mesa,grade,grade_3,2013-14,73,True
+2022,Mesa,grade,grade_2,2022-23,43,True
+2022,Mesa,grade,grade_2,2021-22,37,True
+2022,Mesa,grade,grade_2,2020-21,41,True
+2022,Mesa,grade,grade_2,2019-20,41,True
+2022,Mesa,grade,grade_2,2018-19,38,True
+2022,Mesa,grade,grade_2,2017-18,45,True
+2022,Mesa,grade,grade_2,2016-17,48,True
+2022,Mesa,grade,grade_2,2015-16,50,True
+2022,Mesa,grade,grade_2,2014-15,56,True
+2022,Mesa,grade,grade_2,2013-14,55,True
+2022,Mesa,grade,grade_1,2022-23,39,True
+2022,Mesa,grade,grade_1,2021-22,44,True
+2022,Mesa,grade,grade_1,2020-21,30,True
+2022,Mesa,grade,grade_1,2019-20,38,True
+2022,Mesa,grade,grade_1,2018-19,38,True
+2022,Mesa,grade,grade_1,2017-18,37,True
+2022,Mesa,grade,grade_1,2016-17,42,True
+2022,Mesa,grade,grade_1,2015-16,47,True
+2022,Mesa,grade,grade_1,2014-15,43,True
+2022,Mesa,grade,grade_1,2013-14,52,True
+2022,Mesa,grade,grade_k,2022-23,27,True
+2022,Mesa,grade,grade_k,2021-22,34,True
+2022,Mesa,grade,grade_k,2020-21,33,True
+2022,Mesa,grade,grade_k,2019-20,36,True
+2022,Mesa,grade,grade_k,2018-19,38,True
+2022,Mesa,grade,grade_k,2017-18,32,True
+2022,Mesa,grade,grade_k,2016-17,35,True
+2022,Mesa,grade,grade_k,2015-16,37,True
+2022,Mesa,grade,grade_k,2014-15,47,True
+2022,Mesa,grade,grade_k,2013-14,48,True
+2022,Mesa,grade,total_enrollment,2022-23,246,True
+2022,Mesa,grade,total_enrollment,2021-22,247,True
+2022,Mesa,grade,total_enrollment,2020-21,235,True
+2022,Mesa,grade,total_enrollment,2019-20,261,True
+2022,Mesa,grade,total_enrollment,2018-19,260,True
+2022,Mesa,grade,total_enrollment,2017-18,271,True
+2022,Mesa,grade,total_enrollment,2016-17,287,True
+2022,Mesa,grade,total_enrollment,2015-16,320,True
+2022,Mesa,grade,total_enrollment,2014-15,330,True
+2022,Mesa,grade,total_enrollment,2013-14,341,True
+2022,Mesa,grade,pre_k,2022-23,0,True
+2022,Mesa,grade,pre_k,2021-22,0,True
+2022,Mesa,grade,pre_k,2020-21,0,True
+2022,Mesa,grade,pre_k,2019-20,0,True
+2022,Mesa,grade,pre_k,2018-19,0,True
+2022,Mesa,grade,pre_k,2017-18,0,True
+2022,Mesa,grade,pre_k,2016-17,0,True
+2022,Mesa,grade,pre_k,2015-16,0,True
+2022,Mesa,grade,pre_k,2014-15,0,True
+2022,Mesa,grade,pre_k,2013-14,0,True
+2022,Mesa,oe,neighborhood_residents,2022-23,182,True
+2022,Mesa,oe,neighborhood_residents,2021-22,239,True
+2022,Mesa,oe,neighborhood_residents,2020-21,244,True
+2022,Mesa,oe,neighborhood_residents,2019-20,281,True
+2022,Mesa,oe,neighborhood_residents,2018-19,277,True
+2022,Mesa,oe,neighborhood_residents,2017-18,278,True
+2022,Mesa,oe,neighborhood_residents,2016-17,246,True
+2022,Mesa,oe,neighborhood_residents,2015-16,318,True
+2022,Mesa,oe,neighborhood_residents,2014-15,330,True
+2022,Mesa,oe,neighborhood_residents,2013-14,346,True
+2022,Mesa,oe,oe_out,2022-23,34,True
+2022,Mesa,oe,oe_out,2021-22,48,True
+2022,Mesa,oe,oe_out,2020-21,69,True
+2022,Mesa,oe,oe_out,2019-20,74,True
+2022,Mesa,oe,oe_out,2018-19,62,True
+2022,Mesa,oe,oe_out,2017-18,59,True
+2022,Mesa,oe,oe_out,2016-17,49,True
+2022,Mesa,oe,oe_out,2015-16,63,True
+2022,Mesa,oe,oe_out,2014-15,70,True
+2022,Mesa,oe,oe_out,2013-14,77,True
+2022,Mesa,oe,oe_in,2022-23,47,True
+2022,Mesa,oe,oe_in,2021-22,45,True
+2022,Mesa,oe,oe_in,2020-21,50,True
+2022,Mesa,oe,oe_in,2019-20,48,True
+2022,Mesa,oe,oe_in,2018-19,45,True
+2022,Mesa,oe,oe_in,2017-18,47,True
+2022,Mesa,oe,oe_in,2016-17,55,True
+2022,Mesa,oe,oe_in,2015-16,58,True
+2022,Mesa,oe,oe_in,2014-15,63,True
+2022,Mesa,oe,oe_in,2013-14,66,True
+2022,Mesa,oe,placements_out,2022-23,1,True
+2022,Mesa,oe,placements_out,2021-22,1,True
+2022,Mesa,oe,placements_out,2020-21,1,True
+2022,Mesa,oe,placements_out,2019-20,1,True
+2022,Mesa,oe,placements_out,2018-19,6,True
+2022,Mesa,oe,placements_out,2017-18,4,True
+2022,Mesa,oe,placements_out,2016-17,3,True
+2022,Mesa,oe,placements_out,2015-16,2,True
+2022,Mesa,oe,placements_out,2014-15,3,True
+2022,Mesa,oe,placements_out,2013-14,4,True
+2022,Mesa,oe,placements_in,2022-23,14,True
+2022,Mesa,oe,placements_in,2021-22,10,True
+2022,Mesa,oe,placements_in,2020-21,8,True
+2022,Mesa,oe,placements_in,2019-20,3,True
+2022,Mesa,oe,placements_in,2018-19,3,True
+2022,Mesa,oe,placements_in,2017-18,7,True
+2022,Mesa,oe,placements_in,2016-17,7,True
+2022,Mesa,oe,placements_in,2015-16,4,True
+2022,Mesa,oe,placements_in,2014-15,6,True
+2022,Mesa,oe,placements_in,2013-14,7,True
+2022,Mesa,oe,out_of_district,2022-23,5,True
+2022,Mesa,oe,out_of_district,2021-22,4,True
+2022,Mesa,oe,out_of_district,2020-21,4,True
+2022,Mesa,oe,out_of_district,2019-20,5,True
+2022,Mesa,oe,out_of_district,2018-19,4,True
+2022,Mesa,oe,out_of_district,2017-18,3,True
+2022,Mesa,oe,out_of_district,2016-17,3,True
+2022,Mesa,oe,out_of_district,2015-16,5,True
+2022,Mesa,oe,out_of_district,2014-15,5,True
+2022,Mesa,oe,out_of_district,2013-14,4,True
+2022,Bear Creek,grade,grade_5,2022-23,82,True
+2022,Bear Creek,grade,grade_5,2021-22,72,True
+2022,Bear Creek,grade,grade_5,2020-21,79,True
+2022,Bear Creek,grade,grade_5,2019-20,72,True
+2022,Bear Creek,grade,grade_5,2018-19,84,True
+2022,Bear Creek,grade,grade_5,2017-18,73,True
+2022,Bear Creek,grade,grade_5,2016-17,87,True
+2022,Bear Creek,grade,grade_5,2015-16,77,True
+2022,Bear Creek,grade,grade_5,2014-15,55,True
+2022,Bear Creek,grade,grade_5,2013-14,70,True
+2022,Bear Creek,grade,grade_4,2022-23,57,True
+2022,Bear Creek,grade,grade_4,2021-22,77,True
+2022,Bear Creek,grade,grade_4,2020-21,70,True
+2022,Bear Creek,grade,grade_4,2019-20,83,True
+2022,Bear Creek,grade,grade_4,2018-19,72,True
+2022,Bear Creek,grade,grade_4,2017-18,91,True
+2022,Bear Creek,grade,grade_4,2016-17,70,True
+2022,Bear Creek,grade,grade_4,2015-16,85,True
+2022,Bear Creek,grade,grade_4,2014-15,75,True
+2022,Bear Creek,grade,grade_4,2013-14,55,True
+2022,Bear Creek,grade,grade_3,2022-23,57,True
+2022,Bear Creek,grade,grade_3,2021-22,54,True
+2022,Bear Creek,grade,grade_3,2020-21,70,True
+2022,Bear Creek,grade,grade_3,2019-20,69,True
+2022,Bear Creek,grade,grade_3,2018-19,73,True
+2022,Bear Creek,grade,grade_3,2017-18,67,True
+2022,Bear Creek,grade,grade_3,2016-17,89,True
+2022,Bear Creek,grade,grade_3,2015-16,67,True
+2022,Bear Creek,grade,grade_3,2014-15,86,True
+2022,Bear Creek,grade,grade_3,2013-14,72,True
+2022,Bear Creek,grade,grade_2,2022-23,46,True
+2022,Bear Creek,grade,grade_2,2021-22,53,True
+2022,Bear Creek,grade,grade_2,2020-21,47,True
+2022,Bear Creek,grade,grade_2,2019-20,79,True
+2022,Bear Creek,grade,grade_2,2018-19,71,True
+2022,Bear Creek,grade,grade_2,2017-18,74,True
+2022,Bear Creek,grade,grade_2,2016-17,66,True
+2022,Bear Creek,grade,grade_2,2015-16,83,True
+2022,Bear Creek,grade,grade_2,2014-15,65,True
+2022,Bear Creek,grade,grade_2,2013-14,85,True
+2022,Bear Creek,grade,grade_1,2022-23,50,True
+2022,Bear Creek,grade,grade_1,2021-22,42,True
+2022,Bear Creek,grade,grade_1,2020-21,46,True
+2022,Bear Creek,grade,grade_1,2019-20,54,True
+2022,Bear Creek,grade,grade_1,2018-19,77,True
+2022,Bear Creek,grade,grade_1,2017-18,73,True
+2022,Bear Creek,grade,grade_1,2016-17,66,True
+2022,Bear Creek,grade,grade_1,2015-16,61,True
+2022,Bear Creek,grade,grade_1,2014-15,78,True
+2022,Bear Creek,grade,grade_1,2013-14,57,True
+2022,Bear Creek,grade,grade_k,2022-23,50,True
+2022,Bear Creek,grade,grade_k,2021-22,48,True
+2022,Bear Creek,grade,grade_k,2020-21,29,True
+2022,Bear Creek,grade,grade_k,2019-20,43,True
+2022,Bear Creek,grade,grade_k,2018-19,48,True
+2022,Bear Creek,grade,grade_k,2017-18,70,True
+2022,Bear Creek,grade,grade_k,2016-17,60,True
+2022,Bear Creek,grade,grade_k,2015-16,68,True
+2022,Bear Creek,grade,grade_k,2014-15,58,True
+2022,Bear Creek,grade,grade_k,2013-14,75,True
+2022,Bear Creek,grade,total_enrollment,2022-23,342,True
+2022,Bear Creek,grade,total_enrollment,2021-22,346,True
+2022,Bear Creek,grade,total_enrollment,2020-21,341,True
+2022,Bear Creek,grade,total_enrollment,2019-20,400,True
+2022,Bear Creek,grade,total_enrollment,2018-19,425,True
+2022,Bear Creek,grade,total_enrollment,2017-18,448,True
+2022,Bear Creek,grade,total_enrollment,2016-17,438,True
+2022,Bear Creek,grade,total_enrollment,2015-16,441,True
+2022,Bear Creek,grade,total_enrollment,2014-15,417,True
+2022,Bear Creek,grade,total_enrollment,2013-14,414,True
+2022,Bear Creek,grade,pre_k,2022-23,0,True
+2022,Bear Creek,grade,pre_k,2021-22,0,True
+2022,Bear Creek,grade,pre_k,2020-21,0,True
+2022,Bear Creek,grade,pre_k,2019-20,0,True
+2022,Bear Creek,grade,pre_k,2018-19,0,True
+2022,Bear Creek,grade,pre_k,2017-18,0,True
+2022,Bear Creek,grade,pre_k,2016-17,0,True
+2022,Bear Creek,grade,pre_k,2015-16,0,True
+2022,Bear Creek,grade,pre_k,2014-15,0,True
+2022,Bear Creek,grade,pre_k,2013-14,0,True
+2022,Bear Creek,oe,neighborhood_residents,2022-23,338,True
+2022,Bear Creek,oe,neighborhood_residents,2021-22,345,True
+2022,Bear Creek,oe,neighborhood_residents,2020-21,344,True
+2022,Bear Creek,oe,neighborhood_residents,2019-20,398,True
+2022,Bear Creek,oe,neighborhood_residents,2018-19,433,True
+2022,Bear Creek,oe,neighborhood_residents,2017-18,454,True
+2022,Bear Creek,oe,neighborhood_residents,2016-17,446,True
+2022,Bear Creek,oe,neighborhood_residents,2015-16,456,True
+2022,Bear Creek,oe,neighborhood_residents,2014-15,408,True
+2022,Bear Creek,oe,neighborhood_residents,2013-14,406,True
+2022,Bear Creek,oe,oe_out,2022-23,50,True
+2022,Bear Creek,oe,oe_out,2021-22,44,True
+2022,Bear Creek,oe,oe_out,2020-21,54,True
+2022,Bear Creek,oe,oe_out,2019-20,45,True
+2022,Bear Creek,oe,oe_out,2018-19,44,True
+2022,Bear Creek,oe,oe_out,2017-18,46,True
+2022,Bear Creek,oe,oe_out,2016-17,51,True
+2022,Bear Creek,oe,oe_out,2015-16,54,True
+2022,Bear Creek,oe,oe_out,2014-15,36,True
+2022,Bear Creek,oe,oe_out,2013-14,44,True
+2022,Bear Creek,oe,oe_in,2022-23,39,True
+2022,Bear Creek,oe,oe_in,2021-22,37,True
+2022,Bear Creek,oe,oe_in,2020-21,42,True
+2022,Bear Creek,oe,oe_in,2019-20,42,True
+2022,Bear Creek,oe,oe_in,2018-19,29,True
+2022,Bear Creek,oe,oe_in,2017-18,35,True
+2022,Bear Creek,oe,oe_in,2016-17,43,True
+2022,Bear Creek,oe,oe_in,2015-16,43,True
+2022,Bear Creek,oe,oe_in,2014-15,44,True
+2022,Bear Creek,oe,oe_in,2013-14,44,True
+2022,Bear Creek,oe,placements_out,2022-23,0,True
+2022,Bear Creek,oe,placements_out,2021-22,1,True
+2022,Bear Creek,oe,placements_out,2020-21,2,True
+2022,Bear Creek,oe,placements_out,2019-20,2,True
+2022,Bear Creek,oe,placements_out,2018-19,2,True
+2022,Bear Creek,oe,placements_out,2017-18,4,True
+2022,Bear Creek,oe,placements_out,2016-17,3,True
+2022,Bear Creek,oe,placements_out,2015-16,4,True
+2022,Bear Creek,oe,placements_out,2014-15,1,True
+2022,Bear Creek,oe,placements_out,2013-14,0,True
+2022,Bear Creek,oe,placements_in,2022-23,8,True
+2022,Bear Creek,oe,placements_in,2021-22,8,True
+2022,Bear Creek,oe,placements_in,2020-21,13,True
+2022,Bear Creek,oe,placements_in,2019-20,10,True
+2022,Bear Creek,oe,placements_in,2018-19,11,True
+2022,Bear Creek,oe,placements_in,2017-18,7,True
+2022,Bear Creek,oe,placements_in,2016-17,1,True
+2022,Bear Creek,oe,placements_in,2015-16,0,True
+2022,Bear Creek,oe,placements_in,2014-15,1,True
+2022,Bear Creek,oe,placements_in,2013-14,1,True
+2022,Bear Creek,oe,out_of_district,2022-23,4,True
+2022,Bear Creek,oe,out_of_district,2021-22,2,True
+2022,Bear Creek,oe,out_of_district,2020-21,0,True
+2022,Bear Creek,oe,out_of_district,2019-20,0,True
+2022,Bear Creek,oe,out_of_district,2018-19,0,True
+2022,Bear Creek,oe,out_of_district,2017-18,2,True
+2022,Bear Creek,oe,out_of_district,2016-17,2,True
+2022,Bear Creek,oe,out_of_district,2015-16,0,True
+2022,Bear Creek,oe,out_of_district,2014-15,0,True
+2022,Bear Creek,oe,out_of_district,2013-14,4,True
+2023,Mesa,grade,grade_5,2023-24,50,True
+2023,Mesa,grade,grade_5,2022-23,49,True
+2023,Mesa,grade,grade_5,2021-22,43,True
+2023,Mesa,grade,grade_5,2020-21,49,True
+2023,Mesa,grade,grade_5,2019-20,54,True
+2023,Mesa,grade,grade_5,2018-19,52,True
+2023,Mesa,grade,grade_5,2017-18,56,True
+2023,Mesa,grade,grade_5,2016-17,55,True
+2023,Mesa,grade,grade_5,2015-16,79,True
+2023,Mesa,grade,grade_5,2014-15,56,True
+2023,Mesa,grade,grade_4,2023-24,46,True
+2023,Mesa,grade,grade_4,2022-23,46,True
+2023,Mesa,grade,grade_4,2021-22,48,True
+2023,Mesa,grade,grade_4,2020-21,40,True
+2023,Mesa,grade,grade_4,2019-20,48,True
+2023,Mesa,grade,grade_4,2018-19,49,True
+2023,Mesa,grade,grade_4,2017-18,52,True
+2023,Mesa,grade,grade_4,2016-17,58,True
+2023,Mesa,grade,grade_4,2015-16,52,True
+2023,Mesa,grade,grade_4,2014-15,75,True
+2023,Mesa,grade,grade_3,2023-24,44,True
+2023,Mesa,grade,grade_3,2022-23,42,True
+2023,Mesa,grade,grade_3,2021-22,41,True
+2023,Mesa,grade,grade_3,2020-21,42,True
+2023,Mesa,grade,grade_3,2019-20,44,True
+2023,Mesa,grade,grade_3,2018-19,45,True
+2023,Mesa,grade,grade_3,2017-18,49,True
+2023,Mesa,grade,grade_3,2016-17,49,True
+2023,Mesa,grade,grade_3,2015-16,55,True
+2023,Mesa,grade,grade_3,2014-15,53,True
+2023,Mesa,grade,grade_2,2023-24,34,True
+2023,Mesa,grade,grade_2,2022-23,43,True
+2023,Mesa,grade,grade_2,2021-22,37,True
+2023,Mesa,grade,grade_2,2020-21,41,True
+2023,Mesa,grade,grade_2,2019-20,41,True
+2023,Mesa,grade,grade_2,2018-19,38,True
+2023,Mesa,grade,grade_2,2017-18,45,True
+2023,Mesa,grade,grade_2,2016-17,48,True
+2023,Mesa,grade,grade_2,2015-16,50,True
+2023,Mesa,grade,grade_2,2014-15,56,True
+2023,Mesa,grade,grade_1,2023-24,33,True
+2023,Mesa,grade,grade_1,2022-23,39,True
+2023,Mesa,grade,grade_1,2021-22,44,True
+2023,Mesa,grade,grade_1,2020-21,30,True
+2023,Mesa,grade,grade_1,2019-20,38,True
+2023,Mesa,grade,grade_1,2018-19,38,True
+2023,Mesa,grade,grade_1,2017-18,37,True
+2023,Mesa,grade,grade_1,2016-17,42,True
+2023,Mesa,grade,grade_1,2015-16,47,True
+2023,Mesa,grade,grade_1,2014-15,43,True
+2023,Mesa,grade,grade_k,2023-24,26,True
+2023,Mesa,grade,grade_k,2022-23,27,True
+2023,Mesa,grade,grade_k,2021-22,34,True
+2023,Mesa,grade,grade_k,2020-21,33,True
+2023,Mesa,grade,grade_k,2019-20,36,True
+2023,Mesa,grade,grade_k,2018-19,38,True
+2023,Mesa,grade,grade_k,2017-18,32,True
+2023,Mesa,grade,grade_k,2016-17,35,True
+2023,Mesa,grade,grade_k,2015-16,37,True
+2023,Mesa,grade,grade_k,2014-15,47,True
+2023,Mesa,grade,total_enrollment,2023-24,233,True
+2023,Mesa,grade,total_enrollment,2022-23,246,True
+2023,Mesa,grade,total_enrollment,2021-22,247,True
+2023,Mesa,grade,total_enrollment,2020-21,235,True
+2023,Mesa,grade,total_enrollment,2019-20,261,True
+2023,Mesa,grade,total_enrollment,2018-19,260,True
+2023,Mesa,grade,total_enrollment,2017-18,271,True
+2023,Mesa,grade,total_enrollment,2016-17,287,True
+2023,Mesa,grade,total_enrollment,2015-16,320,True
+2023,Mesa,grade,total_enrollment,2014-15,330,True
+2023,Mesa,grade,pre_k,2023-24,13,False
+2023,Mesa,oe,neighborhood_residents,2023-24,234,True
+2023,Mesa,oe,neighborhood_residents,2022-23,182,True
+2023,Mesa,oe,neighborhood_residents,2021-22,239,True
+2023,Mesa,oe,neighborhood_residents,2020-21,244,True
+2023,Mesa,oe,neighborhood_residents,2019-20,281,True
+2023,Mesa,oe,neighborhood_residents,2018-19,277,True
+2023,Mesa,oe,neighborhood_residents,2017-18,278,True
+2023,Mesa,oe,neighborhood_residents,2016-17,246,True
+2023,Mesa,oe,neighborhood_residents,2015-16,318,True
+2023,Mesa,oe,neighborhood_residents,2014-15,330,True
+2023,Mesa,oe,oe_out,2023-24,67,True
+2023,Mesa,oe,oe_out,2022-23,34,True
+2023,Mesa,oe,oe_out,2021-22,48,True
+2023,Mesa,oe,oe_out,2020-21,69,True
+2023,Mesa,oe,oe_out,2019-20,74,True
+2023,Mesa,oe,oe_out,2018-19,62,True
+2023,Mesa,oe,oe_out,2017-18,59,True
+2023,Mesa,oe,oe_out,2016-17,49,True
+2023,Mesa,oe,oe_out,2015-16,63,True
+2023,Mesa,oe,oe_out,2014-15,70,True
+2023,Mesa,oe,oe_in,2023-24,50,True
+2023,Mesa,oe,oe_in,2022-23,47,True
+2023,Mesa,oe,oe_in,2021-22,45,True
+2023,Mesa,oe,oe_in,2020-21,50,True
+2023,Mesa,oe,oe_in,2019-20,48,True
+2023,Mesa,oe,oe_in,2018-19,45,True
+2023,Mesa,oe,oe_in,2017-18,47,True
+2023,Mesa,oe,oe_in,2016-17,55,True
+2023,Mesa,oe,oe_in,2015-16,58,True
+2023,Mesa,oe,oe_in,2014-15,63,True
+2023,Mesa,oe,placements_out,2023-24,2,True
+2023,Mesa,oe,placements_out,2022-23,1,True
+2023,Mesa,oe,placements_out,2021-22,1,True
+2023,Mesa,oe,placements_out,2020-21,1,True
+2023,Mesa,oe,placements_out,2019-20,1,True
+2023,Mesa,oe,placements_out,2018-19,6,True
+2023,Mesa,oe,placements_out,2017-18,4,True
+2023,Mesa,oe,placements_out,2016-17,3,True
+2023,Mesa,oe,placements_out,2015-16,2,True
+2023,Mesa,oe,placements_out,2014-15,3,True
+2023,Mesa,oe,placements_in,2023-24,15,True
+2023,Mesa,oe,placements_in,2022-23,14,True
+2023,Mesa,oe,placements_in,2021-22,10,True
+2023,Mesa,oe,placements_in,2020-21,8,True
+2023,Mesa,oe,placements_in,2019-20,3,True
+2023,Mesa,oe,placements_in,2018-19,3,True
+2023,Mesa,oe,placements_in,2017-18,7,True
+2023,Mesa,oe,placements_in,2016-17,7,True
+2023,Mesa,oe,placements_in,2015-16,4,True
+2023,Mesa,oe,placements_in,2014-15,6,True
+2023,Mesa,oe,out_of_district,2023-24,5,True
+2023,Mesa,oe,out_of_district,2022-23,5,True
+2023,Mesa,oe,out_of_district,2021-22,4,True
+2023,Mesa,oe,out_of_district,2020-21,4,True
+2023,Mesa,oe,out_of_district,2019-20,5,True
+2023,Mesa,oe,out_of_district,2018-19,4,True
+2023,Mesa,oe,out_of_district,2017-18,3,True
+2023,Mesa,oe,out_of_district,2016-17,3,True
+2023,Mesa,oe,out_of_district,2015-16,5,True
+2023,Mesa,oe,out_of_district,2014-15,5,True
+2023,Bear Creek,grade,grade_5,2023-24,60,True
+2023,Bear Creek,grade,grade_5,2022-23,82,True
+2023,Bear Creek,grade,grade_5,2021-22,72,True
+2023,Bear Creek,grade,grade_5,2020-21,79,True
+2023,Bear Creek,grade,grade_5,2019-20,72,True
+2023,Bear Creek,grade,grade_5,2018-19,84,True
+2023,Bear Creek,grade,grade_5,2017-18,73,True
+2023,Bear Creek,grade,grade_5,2016-17,87,True
+2023,Bear Creek,grade,grade_5,2015-16,77,True
+2023,Bear Creek,grade,grade_5,2014-15,55,True
+2023,Bear Creek,grade,grade_4,2023-24,59,True
+2023,Bear Creek,grade,grade_4,2022-23,57,True
+2023,Bear Creek,grade,grade_4,2021-22,77,True
+2023,Bear Creek,grade,grade_4,2020-21,70,True
+2023,Bear Creek,grade,grade_4,2019-20,83,True
+2023,Bear Creek,grade,grade_4,2018-19,72,True
+2023,Bear Creek,grade,grade_4,2017-18,91,True
+2023,Bear Creek,grade,grade_4,2016-17,70,True
+2023,Bear Creek,grade,grade_4,2015-16,85,True
+2023,Bear Creek,grade,grade_4,2014-15,75,True
+2023,Bear Creek,grade,grade_3,2023-24,45,True
+2023,Bear Creek,grade,grade_3,2022-23,57,True
+2023,Bear Creek,grade,grade_3,2021-22,54,True
+2023,Bear Creek,grade,grade_3,2020-21,70,True
+2023,Bear Creek,grade,grade_3,2019-20,69,True
+2023,Bear Creek,grade,grade_3,2018-19,73,True
+2023,Bear Creek,grade,grade_3,2017-18,67,True
+2023,Bear Creek,grade,grade_3,2016-17,89,True
+2023,Bear Creek,grade,grade_3,2015-16,67,True
+2023,Bear Creek,grade,grade_3,2014-15,86,True
+2023,Bear Creek,grade,grade_2,2023-24,49,True
+2023,Bear Creek,grade,grade_2,2022-23,46,True
+2023,Bear Creek,grade,grade_2,2021-22,53,True
+2023,Bear Creek,grade,grade_2,2020-21,47,True
+2023,Bear Creek,grade,grade_2,2019-20,79,True
+2023,Bear Creek,grade,grade_2,2018-19,71,True
+2023,Bear Creek,grade,grade_2,2017-18,74,True
+2023,Bear Creek,grade,grade_2,2016-17,66,True
+2023,Bear Creek,grade,grade_2,2015-16,83,True
+2023,Bear Creek,grade,grade_2,2014-15,65,True
+2023,Bear Creek,grade,grade_1,2023-24,53,True
+2023,Bear Creek,grade,grade_1,2022-23,50,True
+2023,Bear Creek,grade,grade_1,2021-22,42,True
+2023,Bear Creek,grade,grade_1,2020-21,46,True
+2023,Bear Creek,grade,grade_1,2019-20,54,True
+2023,Bear Creek,grade,grade_1,2018-19,77,True
+2023,Bear Creek,grade,grade_1,2017-18,73,True
+2023,Bear Creek,grade,grade_1,2016-17,66,True
+2023,Bear Creek,grade,grade_1,2015-16,61,True
+2023,Bear Creek,grade,grade_1,2014-15,78,True
+2023,Bear Creek,grade,grade_k,2023-24,32,True
+2023,Bear Creek,grade,grade_k,2022-23,50,True
+2023,Bear Creek,grade,grade_k,2021-22,48,True
+2023,Bear Creek,grade,grade_k,2020-21,29,True
+2023,Bear Creek,grade,grade_k,2019-20,43,True
+2023,Bear Creek,grade,grade_k,2018-19,48,True
+2023,Bear Creek,grade,grade_k,2017-18,70,True
+2023,Bear Creek,grade,grade_k,2016-17,60,True
+2023,Bear Creek,grade,grade_k,2015-16,68,True
+2023,Bear Creek,grade,grade_k,2014-15,58,True
+2023,Bear Creek,grade,total_enrollment,2023-24,298,True
+2023,Bear Creek,grade,total_enrollment,2022-23,342,True
+2023,Bear Creek,grade,total_enrollment,2021-22,346,True
+2023,Bear Creek,grade,total_enrollment,2020-21,341,True
+2023,Bear Creek,grade,total_enrollment,2019-20,400,True
+2023,Bear Creek,grade,total_enrollment,2018-19,425,True
+2023,Bear Creek,grade,total_enrollment,2017-18,448,True
+2023,Bear Creek,grade,total_enrollment,2016-17,438,True
+2023,Bear Creek,grade,total_enrollment,2015-16,441,True
+2023,Bear Creek,grade,total_enrollment,2014-15,417,True
+2023,Bear Creek,grade,pre_k,2023-24,16,False
+2023,Bear Creek,oe,neighborhood_residents,2023-24,293,True
+2023,Bear Creek,oe,neighborhood_residents,2022-23,338,True
+2023,Bear Creek,oe,neighborhood_residents,2021-22,345,True
+2023,Bear Creek,oe,neighborhood_residents,2020-21,344,True
+2023,Bear Creek,oe,neighborhood_residents,2019-20,398,True
+2023,Bear Creek,oe,neighborhood_residents,2018-19,433,True
+2023,Bear Creek,oe,neighborhood_residents,2017-18,454,True
+2023,Bear Creek,oe,neighborhood_residents,2016-17,446,True
+2023,Bear Creek,oe,neighborhood_residents,2015-16,456,True
+2023,Bear Creek,oe,neighborhood_residents,2014-15,408,True
+2023,Bear Creek,oe,oe_out,2023-24,57,True
+2023,Bear Creek,oe,oe_out,2022-23,50,True
+2023,Bear Creek,oe,oe_out,2021-22,44,True
+2023,Bear Creek,oe,oe_out,2020-21,54,True
+2023,Bear Creek,oe,oe_out,2019-20,45,True
+2023,Bear Creek,oe,oe_out,2018-19,44,True
+2023,Bear Creek,oe,oe_out,2017-18,46,True
+2023,Bear Creek,oe,oe_out,2016-17,51,True
+2023,Bear Creek,oe,oe_out,2015-16,54,True
+2023,Bear Creek,oe,oe_out,2014-15,36,True
+2023,Bear Creek,oe,oe_in,2023-24,51,True
+2023,Bear Creek,oe,oe_in,2022-23,39,True
+2023,Bear Creek,oe,oe_in,2021-22,37,True
+2023,Bear Creek,oe,oe_in,2020-21,42,True
+2023,Bear Creek,oe,oe_in,2019-20,42,True
+2023,Bear Creek,oe,oe_in,2018-19,29,True
+2023,Bear Creek,oe,oe_in,2017-18,35,True
+2023,Bear Creek,oe,oe_in,2016-17,43,True
+2023,Bear Creek,oe,oe_in,2015-16,43,True
+2023,Bear Creek,oe,oe_in,2014-15,44,True
+2023,Bear Creek,oe,placements_out,2023-24,5,False
+2023,Bear Creek,oe,placements_out,2022-23,1,False
+2023,Bear Creek,oe,placements_out,2021-22,2,False
+2023,Bear Creek,oe,placements_out,2020-21,2,False
+2023,Bear Creek,oe,placements_out,2019-20,2,False
+2023,Bear Creek,oe,placements_out,2018-19,4,False
+2023,Bear Creek,oe,placements_out,2017-18,3,False
+2023,Bear Creek,oe,placements_out,2016-17,4,False
+2023,Bear Creek,oe,placements_out,2015-16,1,False
+2023,Bear Creek,oe,placements_in,2023-24,9,False
+2023,Bear Creek,oe,placements_in,2022-23,8,False
+2023,Bear Creek,oe,placements_in,2021-22,8,False
+2023,Bear Creek,oe,placements_in,2020-21,13,False
+2023,Bear Creek,oe,placements_in,2019-20,10,False
+2023,Bear Creek,oe,placements_in,2018-19,11,False
+2023,Bear Creek,oe,placements_in,2017-18,7,False
+2023,Bear Creek,oe,placements_in,2016-17,1,False
+2023,Bear Creek,oe,placements_in,2015-16,1,False
+2023,Bear Creek,oe,out_of_district,2023-24,7,False
+2023,Bear Creek,oe,out_of_district,2022-23,4,False
+2023,Bear Creek,oe,out_of_district,2021-22,2,False
+2023,Bear Creek,oe,out_of_district,2020-21,2,False
+2023,Bear Creek,oe,out_of_district,2019-20,2,False
+2024,Mesa,grade,grade_5,2024-25,49,True
+2024,Mesa,grade,grade_5,2023-24,50,True
+2024,Mesa,grade,grade_5,2022-23,49,True
+2024,Mesa,grade,grade_5,2021-22,43,True
+2024,Mesa,grade,grade_5,2020-21,49,True
+2024,Mesa,grade,grade_5,2019-20,54,True
+2024,Mesa,grade,grade_5,2018-19,52,True
+2024,Mesa,grade,grade_5,2017-18,56,True
+2024,Mesa,grade,grade_5,2016-17,55,True
+2024,Mesa,grade,grade_5,2015-16,79,True
+2024,Mesa,grade,grade_4,2024-25,44,True
+2024,Mesa,grade,grade_4,2023-24,46,True
+2024,Mesa,grade,grade_4,2022-23,46,True
+2024,Mesa,grade,grade_4,2021-22,48,True
+2024,Mesa,grade,grade_4,2020-21,40,True
+2024,Mesa,grade,grade_4,2019-20,48,True
+2024,Mesa,grade,grade_4,2018-19,49,True
+2024,Mesa,grade,grade_4,2017-18,52,True
+2024,Mesa,grade,grade_4,2016-17,58,True
+2024,Mesa,grade,grade_4,2015-16,52,True
+2024,Mesa,grade,grade_3,2024-25,41,True
+2024,Mesa,grade,grade_3,2023-24,44,True
+2024,Mesa,grade,grade_3,2022-23,42,True
+2024,Mesa,grade,grade_3,2021-22,41,True
+2024,Mesa,grade,grade_3,2020-21,42,True
+2024,Mesa,grade,grade_3,2019-20,44,True
+2024,Mesa,grade,grade_3,2018-19,45,True
+2024,Mesa,grade,grade_3,2017-18,49,True
+2024,Mesa,grade,grade_3,2016-17,49,True
+2024,Mesa,grade,grade_3,2015-16,55,True
+2024,Mesa,grade,grade_2,2024-25,36,True
+2024,Mesa,grade,grade_2,2023-24,34,True
+2024,Mesa,grade,grade_2,2022-23,43,True
+2024,Mesa,grade,grade_2,2021-22,37,True
+2024,Mesa,grade,grade_2,2020-21,41,True
+2024,Mesa,grade,grade_2,2019-20,41,True
+2024,Mesa,grade,grade_2,2018-19,38,True
+2024,Mesa,grade,grade_2,2017-18,45,True
+2024,Mesa,grade,grade_2,2016-17,48,True
+2024,Mesa,grade,grade_2,2015-16,50,True
+2024,Mesa,grade,grade_1,2024-25,27,True
+2024,Mesa,grade,grade_1,2023-24,33,True
+2024,Mesa,grade,grade_1,2022-23,39,True
+2024,Mesa,grade,grade_1,2021-22,44,True
+2024,Mesa,grade,grade_1,2020-21,30,True
+2024,Mesa,grade,grade_1,2019-20,38,True
+2024,Mesa,grade,grade_1,2018-19,38,True
+2024,Mesa,grade,grade_1,2017-18,37,True
+2024,Mesa,grade,grade_1,2016-17,42,True
+2024,Mesa,grade,grade_1,2015-16,47,True
+2024,Mesa,grade,grade_k,2024-25,33,True
+2024,Mesa,grade,grade_k,2023-24,26,True
+2024,Mesa,grade,grade_k,2022-23,27,True
+2024,Mesa,grade,grade_k,2021-22,34,True
+2024,Mesa,grade,grade_k,2020-21,33,True
+2024,Mesa,grade,grade_k,2019-20,36,True
+2024,Mesa,grade,grade_k,2018-19,38,True
+2024,Mesa,grade,grade_k,2017-18,32,True
+2024,Mesa,grade,grade_k,2016-17,35,True
+2024,Mesa,grade,grade_k,2015-16,37,True
+2024,Mesa,grade,total_enrollment,2024-25,230,True
+2024,Mesa,grade,total_enrollment,2023-24,233,True
+2024,Mesa,grade,total_enrollment,2022-23,246,True
+2024,Mesa,grade,total_enrollment,2021-22,247,True
+2024,Mesa,grade,total_enrollment,2020-21,235,True
+2024,Mesa,grade,total_enrollment,2019-20,261,True
+2024,Mesa,grade,total_enrollment,2018-19,260,True
+2024,Mesa,grade,total_enrollment,2017-18,271,True
+2024,Mesa,grade,total_enrollment,2016-17,287,True
+2024,Mesa,grade,total_enrollment,2015-16,320,True
+2024,Mesa,grade,pre_k,2024-25,20,False
+2024,Mesa,grade,pre_k,2023-24,13,False
+2024,Mesa,oe,neighborhood_residents,2024-25,229,True
+2024,Mesa,oe,neighborhood_residents,2023-24,234,True
+2024,Mesa,oe,neighborhood_residents,2022-23,182,True
+2024,Mesa,oe,neighborhood_residents,2021-22,239,True
+2024,Mesa,oe,neighborhood_residents,2020-21,244,True
+2024,Mesa,oe,neighborhood_residents,2019-20,281,True
+2024,Mesa,oe,neighborhood_residents,2018-19,277,True
+2024,Mesa,oe,neighborhood_residents,2017-18,278,True
+2024,Mesa,oe,neighborhood_residents,2016-17,246,True
+2024,Mesa,oe,neighborhood_residents,2015-16,318,True
+2024,Mesa,oe,oe_out,2024-25,66,True
+2024,Mesa,oe,oe_out,2023-24,67,True
+2024,Mesa,oe,oe_out,2022-23,34,True
+2024,Mesa,oe,oe_out,2021-22,48,True
+2024,Mesa,oe,oe_out,2020-21,69,True
+2024,Mesa,oe,oe_out,2019-20,74,True
+2024,Mesa,oe,oe_out,2018-19,62,True
+2024,Mesa,oe,oe_out,2017-18,59,True
+2024,Mesa,oe,oe_out,2016-17,49,True
+2024,Mesa,oe,oe_out,2015-16,63,True
+2024,Mesa,oe,oe_in,2024-25,50,True
+2024,Mesa,oe,oe_in,2023-24,50,True
+2024,Mesa,oe,oe_in,2022-23,47,True
+2024,Mesa,oe,oe_in,2021-22,45,True
+2024,Mesa,oe,oe_in,2020-21,50,True
+2024,Mesa,oe,oe_in,2019-20,48,True
+2024,Mesa,oe,oe_in,2018-19,45,True
+2024,Mesa,oe,oe_in,2017-18,47,True
+2024,Mesa,oe,oe_in,2016-17,55,True
+2024,Mesa,oe,oe_in,2015-16,58,True
+2024,Mesa,oe,placements_out,2024-25,5,True
+2024,Mesa,oe,placements_out,2023-24,2,True
+2024,Mesa,oe,placements_out,2022-23,1,True
+2024,Mesa,oe,placements_out,2021-22,1,True
+2024,Mesa,oe,placements_out,2020-21,1,True
+2024,Mesa,oe,placements_out,2019-20,1,True
+2024,Mesa,oe,placements_out,2018-19,6,True
+2024,Mesa,oe,placements_out,2017-18,4,True
+2024,Mesa,oe,placements_out,2016-17,3,True
+2024,Mesa,oe,placements_out,2015-16,2,True
+2024,Mesa,oe,placements_in,2024-25,14,True
+2024,Mesa,oe,placements_in,2023-24,15,True
+2024,Mesa,oe,placements_in,2022-23,14,True
+2024,Mesa,oe,placements_in,2021-22,10,True
+2024,Mesa,oe,placements_in,2020-21,8,True
+2024,Mesa,oe,placements_in,2019-20,3,True
+2024,Mesa,oe,placements_in,2018-19,3,True
+2024,Mesa,oe,placements_in,2017-18,7,True
+2024,Mesa,oe,placements_in,2016-17,7,True
+2024,Mesa,oe,placements_in,2015-16,4,True
+2024,Mesa,oe,out_of_district,2024-25,10,True
+2024,Mesa,oe,out_of_district,2023-24,5,True
+2024,Mesa,oe,out_of_district,2022-23,5,True
+2024,Mesa,oe,out_of_district,2021-22,4,True
+2024,Mesa,oe,out_of_district,2020-21,4,True
+2024,Mesa,oe,out_of_district,2019-20,5,True
+2024,Mesa,oe,out_of_district,2018-19,4,True
+2024,Mesa,oe,out_of_district,2017-18,3,True
+2024,Mesa,oe,out_of_district,2016-17,3,True
+2024,Mesa,oe,out_of_district,2015-16,5,True
+2024,Bear Creek,grade,grade_5,2024-25,63,True
+2024,Bear Creek,grade,grade_5,2023-24,60,True
+2024,Bear Creek,grade,grade_5,2022-23,82,True
+2024,Bear Creek,grade,grade_5,2021-22,72,True
+2024,Bear Creek,grade,grade_5,2020-21,79,True
+2024,Bear Creek,grade,grade_5,2019-20,72,True
+2024,Bear Creek,grade,grade_5,2018-19,84,True
+2024,Bear Creek,grade,grade_5,2017-18,73,True
+2024,Bear Creek,grade,grade_5,2016-17,87,True
+2024,Bear Creek,grade,grade_5,2015-16,77,True
+2024,Bear Creek,grade,grade_4,2024-25,57,True
+2024,Bear Creek,grade,grade_4,2023-24,59,True
+2024,Bear Creek,grade,grade_4,2022-23,57,True
+2024,Bear Creek,grade,grade_4,2021-22,77,True
+2024,Bear Creek,grade,grade_4,2020-21,70,True
+2024,Bear Creek,grade,grade_4,2019-20,83,True
+2024,Bear Creek,grade,grade_4,2018-19,72,True
+2024,Bear Creek,grade,grade_4,2017-18,91,True
+2024,Bear Creek,grade,grade_4,2016-17,70,True
+2024,Bear Creek,grade,grade_4,2015-16,85,True
+2024,Bear Creek,grade,grade_3,2024-25,54,True
+2024,Bear Creek,grade,grade_3,2023-24,45,True
+2024,Bear Creek,grade,grade_3,2022-23,57,True
+2024,Bear Creek,grade,grade_3,2021-22,54,True
+2024,Bear Creek,grade,grade_3,2020-21,70,True
+2024,Bear Creek,grade,grade_3,2019-20,69,True
+2024,Bear Creek,grade,grade_3,2018-19,73,True
+2024,Bear Creek,grade,grade_3,2017-18,67,True
+2024,Bear Creek,grade,grade_3,2016-17,89,True
+2024,Bear Creek,grade,grade_3,2015-16,67,True
+2024,Bear Creek,grade,grade_2,2024-25,54,True
+2024,Bear Creek,grade,grade_2,2023-24,49,True
+2024,Bear Creek,grade,grade_2,2022-23,46,True
+2024,Bear Creek,grade,grade_2,2021-22,53,True
+2024,Bear Creek,grade,grade_2,2020-21,47,True
+2024,Bear Creek,grade,grade_2,2019-20,79,True
+2024,Bear Creek,grade,grade_2,2018-19,71,True
+2024,Bear Creek,grade,grade_2,2017-18,74,True
+2024,Bear Creek,grade,grade_2,2016-17,66,True
+2024,Bear Creek,grade,grade_2,2015-16,83,True
+2024,Bear Creek,grade,grade_1,2024-25,39,True
+2024,Bear Creek,grade,grade_1,2023-24,53,True
+2024,Bear Creek,grade,grade_1,2022-23,50,True
+2024,Bear Creek,grade,grade_1,2021-22,42,True
+2024,Bear Creek,grade,grade_1,2020-21,46,True
+2024,Bear Creek,grade,grade_1,2019-20,54,True
+2024,Bear Creek,grade,grade_1,2018-19,77,True
+2024,Bear Creek,grade,grade_1,2017-18,73,True
+2024,Bear Creek,grade,grade_1,2016-17,66,True
+2024,Bear Creek,grade,grade_1,2015-16,61,True
+2024,Bear Creek,grade,grade_k,2024-25,51,True
+2024,Bear Creek,grade,grade_k,2023-24,32,True
+2024,Bear Creek,grade,grade_k,2022-23,50,True
+2024,Bear Creek,grade,grade_k,2021-22,48,True
+2024,Bear Creek,grade,grade_k,2020-21,29,True
+2024,Bear Creek,grade,grade_k,2019-20,43,True
+2024,Bear Creek,grade,grade_k,2018-19,48,True
+2024,Bear Creek,grade,grade_k,2017-18,70,True
+2024,Bear Creek,grade,grade_k,2016-17,60,True
+2024,Bear Creek,grade,grade_k,2015-16,68,True
+2024,Bear Creek,grade,total_enrollment,2024-25,318,True
+2024,Bear Creek,grade,total_enrollment,2023-24,298,True
+2024,Bear Creek,grade,total_enrollment,2022-23,342,True
+2024,Bear Creek,grade,total_enrollment,2021-22,346,True
+2024,Bear Creek,grade,total_enrollment,2020-21,341,True
+2024,Bear Creek,grade,total_enrollment,2019-20,400,True
+2024,Bear Creek,grade,total_enrollment,2018-19,425,True
+2024,Bear Creek,grade,total_enrollment,2017-18,448,True
+2024,Bear Creek,grade,total_enrollment,2016-17,438,True
+2024,Bear Creek,grade,total_enrollment,2015-16,441,True
+2024,Bear Creek,grade,pre_k,2024-25,16,False
+2024,Bear Creek,oe,neighborhood_residents,2024-25,283,True
+2024,Bear Creek,oe,neighborhood_residents,2023-24,293,True
+2024,Bear Creek,oe,neighborhood_residents,2022-23,338,True
+2024,Bear Creek,oe,neighborhood_residents,2021-22,345,True
+2024,Bear Creek,oe,neighborhood_residents,2020-21,344,True
+2024,Bear Creek,oe,neighborhood_residents,2019-20,398,True
+2024,Bear Creek,oe,neighborhood_residents,2018-19,433,True
+2024,Bear Creek,oe,neighborhood_residents,2017-18,454,True
+2024,Bear Creek,oe,neighborhood_residents,2016-17,446,True
+2024,Bear Creek,oe,neighborhood_residents,2015-16,456,True
+2024,Bear Creek,oe,oe_out,2024-25,52,True
+2024,Bear Creek,oe,oe_out,2023-24,57,True
+2024,Bear Creek,oe,oe_out,2022-23,50,True
+2024,Bear Creek,oe,oe_out,2021-22,44,True
+2024,Bear Creek,oe,oe_out,2020-21,54,True
+2024,Bear Creek,oe,oe_out,2019-20,45,True
+2024,Bear Creek,oe,oe_out,2018-19,44,True
+2024,Bear Creek,oe,oe_out,2017-18,46,True
+2024,Bear Creek,oe,oe_out,2016-17,51,True
+2024,Bear Creek,oe,oe_out,2015-16,54,True
+2024,Bear Creek,oe,oe_in,2024-25,68,True
+2024,Bear Creek,oe,oe_in,2023-24,51,True
+2024,Bear Creek,oe,oe_in,2022-23,39,True
+2024,Bear Creek,oe,oe_in,2021-22,37,True
+2024,Bear Creek,oe,oe_in,2020-21,42,True
+2024,Bear Creek,oe,oe_in,2019-20,42,True
+2024,Bear Creek,oe,oe_in,2018-19,29,True
+2024,Bear Creek,oe,oe_in,2017-18,35,True
+2024,Bear Creek,oe,oe_in,2016-17,43,True
+2024,Bear Creek,oe,oe_in,2015-16,43,True
+2024,Bear Creek,oe,placements_out,2024-25,2,False
+2024,Bear Creek,oe,placements_out,2023-24,5,False
+2024,Bear Creek,oe,placements_out,2022-23,1,False
+2024,Bear Creek,oe,placements_out,2021-22,2,False
+2024,Bear Creek,oe,placements_out,2020-21,2,False
+2024,Bear Creek,oe,placements_out,2019-20,2,False
+2024,Bear Creek,oe,placements_out,2018-19,4,False
+2024,Bear Creek,oe,placements_out,2017-18,3,False
+2024,Bear Creek,oe,placements_out,2016-17,4,False
+2024,Bear Creek,oe,placements_in,2024-25,13,False
+2024,Bear Creek,oe,placements_in,2023-24,9,False
+2024,Bear Creek,oe,placements_in,2022-23,8,False
+2024,Bear Creek,oe,placements_in,2021-22,8,False
+2024,Bear Creek,oe,placements_in,2020-21,13,False
+2024,Bear Creek,oe,placements_in,2019-20,10,False
+2024,Bear Creek,oe,placements_in,2018-19,11,False
+2024,Bear Creek,oe,placements_in,2017-18,7,False
+2024,Bear Creek,oe,placements_in,2016-17,1,False
+2024,Bear Creek,oe,out_of_district,2024-25,11,False
+2024,Bear Creek,oe,out_of_district,2023-24,7,False
+2024,Bear Creek,oe,out_of_district,2022-23,4,False
+2024,Bear Creek,oe,out_of_district,2021-22,2,False
+2024,Bear Creek,oe,out_of_district,2020-21,2,False
+2024,Bear Creek,oe,out_of_district,2019-20,2,False
+2025,Mesa,grade,grade_5,2025-26,47,True
+2025,Mesa,grade,grade_5,2024-25,49,True
+2025,Mesa,grade,grade_5,2023-24,50,True
+2025,Mesa,grade,grade_5,2022-23,49,True
+2025,Mesa,grade,grade_5,2021-22,43,True
+2025,Mesa,grade,grade_5,2020-21,49,True
+2025,Mesa,grade,grade_5,2019-20,54,True
+2025,Mesa,grade,grade_5,2018-19,52,True
+2025,Mesa,grade,grade_5,2017-18,56,True
+2025,Mesa,grade,grade_5,2016-17,55,True
+2025,Mesa,grade,grade_4,2025-26,46,True
+2025,Mesa,grade,grade_4,2024-25,44,True
+2025,Mesa,grade,grade_4,2023-24,46,True
+2025,Mesa,grade,grade_4,2022-23,46,True
+2025,Mesa,grade,grade_4,2021-22,48,True
+2025,Mesa,grade,grade_4,2020-21,40,True
+2025,Mesa,grade,grade_4,2019-20,48,True
+2025,Mesa,grade,grade_4,2018-19,49,True
+2025,Mesa,grade,grade_4,2017-18,52,True
+2025,Mesa,grade,grade_4,2016-17,58,True
+2025,Mesa,grade,grade_3,2025-26,37,True
+2025,Mesa,grade,grade_3,2024-25,41,True
+2025,Mesa,grade,grade_3,2023-24,44,True
+2025,Mesa,grade,grade_3,2022-23,42,True
+2025,Mesa,grade,grade_3,2021-22,41,True
+2025,Mesa,grade,grade_3,2020-21,42,True
+2025,Mesa,grade,grade_3,2019-20,44,True
+2025,Mesa,grade,grade_3,2018-19,45,True
+2025,Mesa,grade,grade_3,2017-18,49,True
+2025,Mesa,grade,grade_3,2016-17,49,True
+2025,Mesa,grade,grade_2,2025-26,31,True
+2025,Mesa,grade,grade_2,2024-25,36,True
+2025,Mesa,grade,grade_2,2023-24,34,True
+2025,Mesa,grade,grade_2,2022-23,43,True
+2025,Mesa,grade,grade_2,2021-22,37,True
+2025,Mesa,grade,grade_2,2020-21,41,True
+2025,Mesa,grade,grade_2,2019-20,41,True
+2025,Mesa,grade,grade_2,2018-19,38,True
+2025,Mesa,grade,grade_2,2017-18,45,True
+2025,Mesa,grade,grade_2,2016-17,48,True
+2025,Mesa,grade,grade_1,2025-26,35,True
+2025,Mesa,grade,grade_1,2024-25,27,True
+2025,Mesa,grade,grade_1,2023-24,33,True
+2025,Mesa,grade,grade_1,2022-23,39,True
+2025,Mesa,grade,grade_1,2021-22,44,True
+2025,Mesa,grade,grade_1,2020-21,30,True
+2025,Mesa,grade,grade_1,2019-20,38,True
+2025,Mesa,grade,grade_1,2018-19,38,True
+2025,Mesa,grade,grade_1,2017-18,37,True
+2025,Mesa,grade,grade_1,2016-17,42,True
+2025,Mesa,grade,grade_k,2025-26,28,True
+2025,Mesa,grade,grade_k,2024-25,33,True
+2025,Mesa,grade,grade_k,2023-24,26,True
+2025,Mesa,grade,grade_k,2022-23,27,True
+2025,Mesa,grade,grade_k,2021-22,34,True
+2025,Mesa,grade,grade_k,2020-21,33,True
+2025,Mesa,grade,grade_k,2019-20,36,True
+2025,Mesa,grade,grade_k,2018-19,38,True
+2025,Mesa,grade,grade_k,2017-18,32,True
+2025,Mesa,grade,grade_k,2016-17,35,True
+2025,Mesa,grade,total_enrollment,2025-26,224,True
+2025,Mesa,grade,total_enrollment,2024-25,230,True
+2025,Mesa,grade,total_enrollment,2023-24,233,True
+2025,Mesa,grade,total_enrollment,2022-23,246,True
+2025,Mesa,grade,total_enrollment,2021-22,247,True
+2025,Mesa,grade,total_enrollment,2020-21,235,True
+2025,Mesa,grade,total_enrollment,2019-20,261,True
+2025,Mesa,grade,total_enrollment,2018-19,260,True
+2025,Mesa,grade,total_enrollment,2017-18,271,True
+2025,Mesa,grade,total_enrollment,2016-17,287,True
+2025,Mesa,grade,pre_k,2025-26,25,False
+2025,Mesa,grade,pre_k,2024-25,20,False
+2025,Mesa,grade,pre_k,2023-24,13,False
+2025,Mesa,oe,neighborhood_residents,2025-26,220,True
+2025,Mesa,oe,neighborhood_residents,2024-25,229,True
+2025,Mesa,oe,neighborhood_residents,2023-24,234,True
+2025,Mesa,oe,neighborhood_residents,2022-23,182,True
+2025,Mesa,oe,neighborhood_residents,2021-22,239,True
+2025,Mesa,oe,neighborhood_residents,2020-21,244,True
+2025,Mesa,oe,neighborhood_residents,2019-20,281,True
+2025,Mesa,oe,neighborhood_residents,2018-19,277,True
+2025,Mesa,oe,neighborhood_residents,2017-18,278,True
+2025,Mesa,oe,neighborhood_residents,2016-17,246,True
+2025,Mesa,oe,oe_out,2025-26,65,True
+2025,Mesa,oe,oe_out,2024-25,66,True
+2025,Mesa,oe,oe_out,2023-24,67,True
+2025,Mesa,oe,oe_out,2022-23,34,True
+2025,Mesa,oe,oe_out,2021-22,48,True
+2025,Mesa,oe,oe_out,2020-21,69,True
+2025,Mesa,oe,oe_out,2019-20,74,True
+2025,Mesa,oe,oe_out,2018-19,62,True
+2025,Mesa,oe,oe_out,2017-18,59,True
+2025,Mesa,oe,oe_out,2016-17,49,True
+2025,Mesa,oe,oe_in,2025-26,53,True
+2025,Mesa,oe,oe_in,2024-25,50,True
+2025,Mesa,oe,oe_in,2023-24,50,True
+2025,Mesa,oe,oe_in,2022-23,47,True
+2025,Mesa,oe,oe_in,2021-22,45,True
+2025,Mesa,oe,oe_in,2020-21,50,True
+2025,Mesa,oe,oe_in,2019-20,48,True
+2025,Mesa,oe,oe_in,2018-19,45,True
+2025,Mesa,oe,oe_in,2017-18,47,True
+2025,Mesa,oe,oe_in,2016-17,55,True
+2025,Mesa,oe,placements_out,2025-26,3,True
+2025,Mesa,oe,placements_out,2024-25,5,True
+2025,Mesa,oe,placements_out,2023-24,2,True
+2025,Mesa,oe,placements_out,2022-23,1,True
+2025,Mesa,oe,placements_out,2021-22,1,True
+2025,Mesa,oe,placements_out,2020-21,1,True
+2025,Mesa,oe,placements_out,2019-20,1,True
+2025,Mesa,oe,placements_out,2018-19,6,True
+2025,Mesa,oe,placements_out,2017-18,4,True
+2025,Mesa,oe,placements_out,2016-17,3,True
+2025,Mesa,oe,placements_in,2025-26,11,True
+2025,Mesa,oe,placements_in,2024-25,14,True
+2025,Mesa,oe,placements_in,2023-24,15,True
+2025,Mesa,oe,placements_in,2022-23,14,True
+2025,Mesa,oe,placements_in,2021-22,10,True
+2025,Mesa,oe,placements_in,2020-21,8,True
+2025,Mesa,oe,placements_in,2019-20,3,True
+2025,Mesa,oe,placements_in,2018-19,3,True
+2025,Mesa,oe,placements_in,2017-18,7,True
+2025,Mesa,oe,placements_in,2016-17,7,True
+2025,Mesa,oe,out_of_district,2025-26,10,True
+2025,Mesa,oe,out_of_district,2024-25,10,True
+2025,Mesa,oe,out_of_district,2023-24,5,True
+2025,Mesa,oe,out_of_district,2022-23,5,True
+2025,Mesa,oe,out_of_district,2021-22,4,True
+2025,Mesa,oe,out_of_district,2020-21,4,True
+2025,Mesa,oe,out_of_district,2019-20,5,True
+2025,Mesa,oe,out_of_district,2018-19,4,True
+2025,Mesa,oe,out_of_district,2017-18,3,True
+2025,Mesa,oe,out_of_district,2016-17,3,True
+2025,Bear Creek,grade,grade_5,2025-26,62,True
+2025,Bear Creek,grade,grade_5,2024-25,63,True
+2025,Bear Creek,grade,grade_5,2023-24,60,True
+2025,Bear Creek,grade,grade_5,2022-23,82,True
+2025,Bear Creek,grade,grade_5,2021-22,72,True
+2025,Bear Creek,grade,grade_5,2020-21,79,True
+2025,Bear Creek,grade,grade_5,2019-20,72,True
+2025,Bear Creek,grade,grade_5,2018-19,84,True
+2025,Bear Creek,grade,grade_5,2017-18,73,True
+2025,Bear Creek,grade,grade_5,2016-17,87,True
+2025,Bear Creek,grade,grade_4,2025-26,58,True
+2025,Bear Creek,grade,grade_4,2024-25,57,True
+2025,Bear Creek,grade,grade_4,2023-24,59,True
+2025,Bear Creek,grade,grade_4,2022-23,57,True
+2025,Bear Creek,grade,grade_4,2021-22,77,True
+2025,Bear Creek,grade,grade_4,2020-21,70,True
+2025,Bear Creek,grade,grade_4,2019-20,83,True
+2025,Bear Creek,grade,grade_4,2018-19,72,True
+2025,Bear Creek,grade,grade_4,2017-18,91,True
+2025,Bear Creek,grade,grade_4,2016-17,70,True
+2025,Bear Creek,grade,grade_3,2025-26,56,True
+2025,Bear Creek,grade,grade_3,2024-25,54,True
+2025,Bear Creek,grade,grade_3,2023-24,45,True
+2025,Bear Creek,grade,grade_3,2022-23,57,True
+2025,Bear Creek,grade,grade_3,2021-22,54,True
+2025,Bear Creek,grade,grade_3,2020-21,70,True
+2025,Bear Creek,grade,grade_3,2019-20,69,True
+2025,Bear Creek,grade,grade_3,2018-19,73,True
+2025,Bear Creek,grade,grade_3,2017-18,67,True
+2025,Bear Creek,grade,grade_3,2016-17,89,True
+2025,Bear Creek,grade,grade_2,2025-26,42,True
+2025,Bear Creek,grade,grade_2,2024-25,54,True
+2025,Bear Creek,grade,grade_2,2023-24,49,True
+2025,Bear Creek,grade,grade_2,2022-23,46,True
+2025,Bear Creek,grade,grade_2,2021-22,53,True
+2025,Bear Creek,grade,grade_2,2020-21,47,True
+2025,Bear Creek,grade,grade_2,2019-20,79,True
+2025,Bear Creek,grade,grade_2,2018-19,71,True
+2025,Bear Creek,grade,grade_2,2017-18,74,True
+2025,Bear Creek,grade,grade_2,2016-17,66,True
+2025,Bear Creek,grade,grade_1,2025-26,46,True
+2025,Bear Creek,grade,grade_1,2024-25,39,True
+2025,Bear Creek,grade,grade_1,2023-24,53,True
+2025,Bear Creek,grade,grade_1,2022-23,50,True
+2025,Bear Creek,grade,grade_1,2021-22,42,True
+2025,Bear Creek,grade,grade_1,2020-21,46,True
+2025,Bear Creek,grade,grade_1,2019-20,54,True
+2025,Bear Creek,grade,grade_1,2018-19,77,True
+2025,Bear Creek,grade,grade_1,2017-18,73,True
+2025,Bear Creek,grade,grade_1,2016-17,66,True
+2025,Bear Creek,grade,grade_k,2025-26,48,True
+2025,Bear Creek,grade,grade_k,2024-25,51,True
+2025,Bear Creek,grade,grade_k,2023-24,32,True
+2025,Bear Creek,grade,grade_k,2022-23,50,True
+2025,Bear Creek,grade,grade_k,2021-22,48,True
+2025,Bear Creek,grade,grade_k,2020-21,29,True
+2025,Bear Creek,grade,grade_k,2019-20,43,True
+2025,Bear Creek,grade,grade_k,2018-19,48,True
+2025,Bear Creek,grade,grade_k,2017-18,70,True
+2025,Bear Creek,grade,grade_k,2016-17,60,True
+2025,Bear Creek,grade,total_enrollment,2025-26,312,True
+2025,Bear Creek,grade,total_enrollment,2024-25,318,True
+2025,Bear Creek,grade,total_enrollment,2023-24,298,True
+2025,Bear Creek,grade,total_enrollment,2022-23,342,True
+2025,Bear Creek,grade,total_enrollment,2021-22,346,True
+2025,Bear Creek,grade,total_enrollment,2020-21,341,True
+2025,Bear Creek,grade,total_enrollment,2019-20,400,True
+2025,Bear Creek,grade,total_enrollment,2018-19,425,True
+2025,Bear Creek,grade,total_enrollment,2017-18,448,True
+2025,Bear Creek,grade,total_enrollment,2016-17,438,True
+2025,Bear Creek,grade,pre_k,2025-26,16,False
+2025,Bear Creek,oe,neighborhood_residents,2025-26,264,True
+2025,Bear Creek,oe,neighborhood_residents,2024-25,283,True
+2025,Bear Creek,oe,neighborhood_residents,2023-24,293,True
+2025,Bear Creek,oe,neighborhood_residents,2022-23,338,True
+2025,Bear Creek,oe,neighborhood_residents,2021-22,345,True
+2025,Bear Creek,oe,neighborhood_residents,2020-21,344,True
+2025,Bear Creek,oe,neighborhood_residents,2019-20,398,True
+2025,Bear Creek,oe,neighborhood_residents,2018-19,433,True
+2025,Bear Creek,oe,neighborhood_residents,2017-18,454,True
+2025,Bear Creek,oe,neighborhood_residents,2016-17,446,True
+2025,Bear Creek,oe,oe_out,2025-26,45,True
+2025,Bear Creek,oe,oe_out,2024-25,52,True
+2025,Bear Creek,oe,oe_out,2023-24,57,True
+2025,Bear Creek,oe,oe_out,2022-23,50,True
+2025,Bear Creek,oe,oe_out,2021-22,44,True
+2025,Bear Creek,oe,oe_out,2020-21,54,True
+2025,Bear Creek,oe,oe_out,2019-20,45,True
+2025,Bear Creek,oe,oe_out,2018-19,44,True
+2025,Bear Creek,oe,oe_out,2017-18,46,True
+2025,Bear Creek,oe,oe_out,2016-17,51,True
+2025,Bear Creek,oe,oe_in,2025-26,73,True
+2025,Bear Creek,oe,oe_in,2024-25,68,True
+2025,Bear Creek,oe,oe_in,2023-24,51,True
+2025,Bear Creek,oe,oe_in,2022-23,39,True
+2025,Bear Creek,oe,oe_in,2021-22,37,True
+2025,Bear Creek,oe,oe_in,2020-21,42,True
+2025,Bear Creek,oe,oe_in,2019-20,42,True
+2025,Bear Creek,oe,oe_in,2018-19,29,True
+2025,Bear Creek,oe,oe_in,2017-18,35,True
+2025,Bear Creek,oe,oe_in,2016-17,43,True
+2025,Bear Creek,oe,placements_out,2025-26,3,False
+2025,Bear Creek,oe,placements_out,2024-25,2,False
+2025,Bear Creek,oe,placements_out,2023-24,5,False
+2025,Bear Creek,oe,placements_out,2022-23,1,False
+2025,Bear Creek,oe,placements_out,2021-22,2,False
+2025,Bear Creek,oe,placements_out,2020-21,2,False
+2025,Bear Creek,oe,placements_out,2019-20,2,False
+2025,Bear Creek,oe,placements_out,2018-19,4,False
+2025,Bear Creek,oe,placements_out,2017-18,3,False
+2025,Bear Creek,oe,placements_in,2025-26,13,True
+2025,Bear Creek,oe,placements_in,2024-25,13,True
+2025,Bear Creek,oe,placements_in,2023-24,9,True
+2025,Bear Creek,oe,placements_in,2022-23,8,True
+2025,Bear Creek,oe,placements_in,2021-22,8,True
+2025,Bear Creek,oe,placements_in,2020-21,13,True
+2025,Bear Creek,oe,placements_in,2019-20,10,True
+2025,Bear Creek,oe,placements_in,2018-19,11,True
+2025,Bear Creek,oe,placements_in,2017-18,7,True
+2025,Bear Creek,oe,placements_in,2016-17,1,True
+2025,Bear Creek,oe,out_of_district,2025-26,13,False
+2025,Bear Creek,oe,out_of_district,2024-25,11,False
+2025,Bear Creek,oe,out_of_district,2023-24,7,False
+2025,Bear Creek,oe,out_of_district,2022-23,4,False
+2025,Bear Creek,oe,out_of_district,2021-22,2,False
+2025,Bear Creek,oe,out_of_district,2020-21,2,False
+2025,Bear Creek,oe,out_of_district,2019-20,2,False

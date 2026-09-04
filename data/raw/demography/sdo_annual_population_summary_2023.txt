@@ -1,0 +1,346 @@
+--- page 1 ---
+Annual Population Summary
+State Demography Office
+2023 Population Summary
+January 15, 2025
+--- page 2 ---
+Table of Contents
+2023 Population Summary, January 2025 ...................................................... 1
+Total Population Change ....................................................................... 1
+Colorado Population Change ................................................................ 1
+Age ................................................................................................ 3
+Race and Ethnicity .............................................................................. 5
+Housing ........................................................................................... 7
+Forecasts ......................................................................................... 8
+Jobs ............................................................................................. 11
+Total Jobs ................................................................................... 11
+Jobs by Industry Sector .................................................................... 12
+Jobs by County .............................................................................. 15
+--- page 3 ---
+Table of Figures
+Figure 1 Colorado Population by Age ........................................................... 5
+Figure 2 Population by Single Year of Age and Race and Ethnicity ......................... 6
+Figure 3 Projected Population Change by County 2020-2050 ............................. 10
+Figure 4 Forecast Population by Region, 2020-2050 ........................................ 10
+Figure 5 5-Year Population Growth Estimates and Forecasts ............................. 11
+Figure 6 Jobs by Sector Colorado, 2023 ...................................................... 13
+Figure 7 Employment Change by Sector, Colorado, 2022 to 2023 ........................ 14
+Figure 8 Employment Change by Sector, Colorado, 2019 to 2023 ........................ 15
+Figure 9 Map of Job Changes, 2019 to 2023.................................................. 16
+Figure 10 Map of Job Changes 2022 to 2023 ................................................. 17
+Table of Tables
+Table 1 Colorado Population Change by Age ................................................. 4
+Table 2 Forecast Population by Race and Ethnicity .......................................... 6
+Table 3 Household Population to Housing Unit Ratio ......................................... 8
+Table 4 Household Forecast by Age ............................................................. 8
+--- page 4 ---
+2023 Population Summary, January 2025
+Total Population Change
+The following summarizes the latest, vintage 2023, population estimates and
+projections published by the Colorado State Demography Office. Census Bureau
+vintage 2023 population estimates for the nation and other states are included in this
+summary and compared to Colorado estimates. Notably, state-level Census Bureau
+vintage 2024 estimates were published on December 19, 2024 and include revisions
+to prior year estimates.1 Information from the 2024 release will be incorporated into
+the State Demography Office vintage 2024 estimates in the November 2025 release.
+Colorado Population Change
+In July of 2023, Colorado’s resident population was 5,876,300. The United States
+population reached 334,914,895, an increase of 1.6 million over the year or a growth
+rate of 0.5%. Colorado ranked 21st in size in the U.S. Colorado's population
+increased by 36,100 from July 2022 to July 2023 or 0.6%, ranking Colorado 9th in
+total change and 18th in percentage change. This growth is slightly higher than in
+2022 and significantly slower than the 74,000 annual average during the previous
+decade. Births in Colorado were 62,200, flat compared to the previous year and
+lower than the peak of 70,700 in 2007. Births are the largest component of
+population change in Colorado. There were 45,300 deaths between July 2022 and
+2023, a slowdown from the 49,700 in 2022. Deaths have been increasing due to aging
+in Colorado but also temporarily increased due to COVID-19. Natural change (births
+1 U.S. Census Bureau vintage 2024 estimates can be found here:
+https://www.census.gov/newsroom/press-kits/2024/national-state-population-estimates.html
+1
+--- page 5 ---
+minus deaths) was 16,900. Despite the lower levels of natural change, Colorado had
+the 7th largest natural change in the country due to our younger average age. Eight
+states declined in population, and 19 states are in a phase of natural decline with
+more deaths than births.
+Net migration accounted for 19,172 of the growth in the state. This was slightly
+higher than in 2022 but significantly lower than the 45,000 annual average during the
+2010s.International migration was estimated at 12,000, returning to pre-pandemic
+levels. The late 2023 arrival of refugees and international migrants will not count in
+population estimates until 2024 since they occurred after July 1st. Domestic
+migration was estimated at 7,100, up slightly from 2022 but significantly slower than
+the annual average of 38,000 last decade.
+More U.S. counties experienced population gains than losses in 2023, as counties in
+the South saw faster growth and more Northeast and Midwest counties had
+population losses turn to gains. Approximately 60% (1,876) of U.S. counties gained
+population from 2022 to 2023, an increase from the 52% of counties (1,649) that
+experienced population growth between 2021 and 2022. Areas that experienced high
+levels of domestic out-migration during the pandemic, such as the Midwest and
+Northeast, are now seeing more counties with population growth. Meanwhile, county
+population growth is slowing down in the west.
+In Colorado, 23 of the 64 counties, or 36%, declined. Twenty-four counties
+experienced net-out migration, led by Arapahoe, Eagle, and Boulder. Thirty-five of
+the sixty-four counties are in a phase of natural decline – meaning there were more
+deaths than births. Most of the counties in a phase of natural decline were in the
+non-metro parts of the state, where estimated population losses ranged between 2
+and 500 people. However, the metro counties of Pueblo and Mesa lead the list of
+counties in natural decline. El Paso, Adams, and Denver counties saw the largest
+natural increase, between 148 and 731 people.
+Births continued to be lower than historical trends in 2023 but were holding steady.
+The slowing in births will continue to have long-run impacts on K-12 and higher
+2
+--- page 6 ---
+education, as well as the labor force. The birth rate differs in each Colorado county.
+Most counties reached their peak births in 2007, but some counties, like Jefferson,
+reached their peak births in 2000. Weld is the only Front Range county that is
+continuing to see an increase in births. Births for the state are forecast to increase
+slightly in 2023 and 2024 as the number of women of childbearing age increases in
+the state. Additionally, the largest group of millennials are entering their 30s, which
+contributes to increased birth rates.
+Over time, the number of deaths in Colorado has increased, reflecting an increased
+number of older adults. COVID-19 caused an additional increase in deaths in 2020,
+2021, and 2022. In 2023, deaths reached 45,300, an estimated 4,000 fewer than in
+2022. Forecasts for 2024 have deaths slowing to 44,000 but still higher than the
+39,000 in 2019.
+Change by County
+From 2022-2023, 90% of the population growth was along the Front Range but varied
+by county. The population in Boulder and Arapahoe counties declined, but there
+were increases in the rest of the Front Range counties, ranging from 9,000 in Weld
+County to 300 in Jefferson County. The Front Range region still increased by the
+largest population amount, however a few non-Front Range counties experienced
+faster growth, including Bent (due to growth in the prison population), Custer, and
+Dolores counties.
+Age
+Population growth by age group continues to be a defining factor for Colorado due to
+two primary influences. First, births have been declining since 2007 in both the
+United States and Colorado. The second significant impact is the growth in the 65+
+population, which increased by almost 33,000 between 2022 and 2023. The growth in
+this group is primarily due to more people aging into the cohort rather than net
+migration. It is estimated that 68,300 Coloradans turned 65 in 2023. The growth in
+the 65+ age group is impacting the labor force with a growing number of retirements,
+even with workers staying in the labor force longer. It is estimated that 40,000
+3
+--- page 7 ---
+workers will retire annually this decade. Additionally, the 65+ population is driving
+parts of the economy through demand for various services, including health, leisure,
+and hospitality. Members of this cohort additionally impact housing demand due to
+their lower rates of mobility and smaller household sizes.
+As seen in Table 1, the age cohort 65+ is now over 962,000 in the state, and is now
+both the largest and fastest growing cohort, increasing by almost 33,000 and growing
+at a rate of 3.5% year-over-year compared to the total population at 0.6%. Growth in
+the 65+ population represented 91% of the growth in the state between 2022 and
+2023. There was a total decline of 7,400 in the under-18 population due to slowing
+births since 2007. As Gen X cohort (persons born between 1965 and 1980) ages into
+the 45-64 age range and replaces the Baby Boomers cohort (persons born between
+1946 and 1964), there was a decline of 550. The age cohort 25 to 44 increased by
+6,000, which was less than half of the growth the previous year (12,000). This cohort
+is primarily made up of Millennials, persons between the ages of 27 and 42 in 2023.
+Table 1 Colorado Population Change by Age
+Age 2022 2023 Change Percent Change
+0 to 17 1,253,611 1,246,217 -7,394 -0.6%
+18 to 24 535,159 540,236 5,077 0.9%
+25 to 44 1,725,756 1,731,833 6,077 0.4%
+45 to 64 1,396,409 1,395,860 -549 0.0%
+65+ 929,308 962,147 32,839 3.5%
+Total 5,840,243 5,876,293 36,050 0.6%
+Source: Colorado State Demography Office Vintage 2023 Population Estimates.
+4
+--- page 8 ---
+Figure 1 Colorado Population by Age, 2023
+Source: Colorado State Demography Office Vintage 2023 Population Estimates.
+Race and Ethnicity
+Sixty-six percent of Colorado’s population by race and ethnicity white non-Hispanic,
+but the share of people of color had been increasing. Since 2020, 78 percent of
+Colorado’s growth has been from people of color, and 22% from white non-Hispanic.
+This is largely due to differences in differences across age groups with respect to the
+share of Coloradans by race and ethnicity. The population over age 65 is 82% white
+non-Hispanic, compared to the population under 25, who are 56% white non-Hispanic
+(as shown in Figure 2). Therefore, a larger share of the deaths and a smaller share of
+the births are white-non-Hispanic. The differences and changes by age by race and
+ethnicity will influence the growth in the labor force and consumer base.
+5
+--- page 9 ---
+Figure 2 Colorado Population by Single Year of Age and Race and Ethnicity
+Source: Colorado State Demography Office Vintage 2023 Population Estimates.
+Colorado’s Hispanic population is forecast to increase by 327,000 between 2020 and
+2030, reaching 1.6 million, and representing about 25% of Colorado’s population. In
+percentage terms, the fastest growing population is forecast to be the Native
+Hawaiian Pacific Islanders, increasing by 53 percent from 8,500 to 13,000, followed
+by the multiracial population, increasing by 26% from 141,000 to 178,000 (see Table
+2).
+Table 2 Colorado Forecast Population by Race and Ethnicity
+Percentage
+Race and Ethnicity 2020 2030 Change Change
+American Indian or Alaska Native 36,274 41,073 4,799 13.2%
+Asian, Not Hispanic 195,737 244,772 49,035 25.1%
+Black/African American, Not Hispanic 233,770 261,764 27,994 12.0%
+Hispanic/Latino 1,273,136 1,600,798 327,662 25.7%
+Native Hawaiian and Pacific Islander, 8,531 13,053 4,522 53.0%
+Not Hispanic
+Two or More Races, Not Hispanic 140,919 178,277 37,358 26.5%
+White, Not Hispanic 3,896,217 4,014,287 118,070 3.0%
+Total 5,784,584 6,354,024 569,440 9.8%
+Source: Colorado State Demography Office Vintage 2023 Population Forecasts.
+6
+--- page 10 ---
+Housing
+Housing unit growth did not keep up with household formation during the last decade
+due to the Great Recession, creating a tight housing market and escalating home
+prices. Since 2018, Colorado has built more housing units than new household
+growth, making a dent in the housing under-supply. In 2023, housing growth
+increased by 45,500, and in 2024, housing is expected to increase by an additional
+40,000 units. Recall that the population grew by 36,000 in 2023, primarily driven by
+births, while deaths were 26,000 more than net migration, meaning that there was a
+decline in the adult population. The increased supply of housing units and slowing
+demand by new population growth will help alleviate the supply/demand mismatch
+and allow those who have had to “double up” on housing the potential opportunity to
+find independent housing. New households were estimated to have increased by
+27,000 in 2023 and are forecast to increase by 25,000 in 2024. The ratio of
+household population to housing units reached a low of 2.18 in 2023 after hitting a
+high of 2.31 in 2016. The 35-year average is 2.25, indicating that currently, the
+housing supply is slightly looser than the historical average (see Figure 3).
+Household formation is forecast to grow annually by an estimated 32,000 over the
+next 10 years — as long as job employment and labor force growth meet forecasted
+levels (see Table 4). The largest cohort of the Millennials are in their 30s, the
+primary age for first-time home buyers. The leading edge of the Millennials is in
+their early 40s, entering the highest earning age cohort and prime second home
+buying. The largest and fastest household growth will be in the 65+ population, but
+most of these households are already here, and have stable housing arrangements.
+The 65+ population has the lowest mover rate, and Colorado does not attract retirees
+in the same number as retirement destination states. The growth in the 65+
+population is due to aging rather than migration. Future job growth, as well as
+future expected retirements from the Baby Boomers, will support the demand for
+workers and the need for housing. The aging of the Baby Boomers into their 70s and
+80s may create more turnover in larger, single-family homes as they look to downsize
+or find it necessary to move into housing with more supportive services. Many
+7
+--- page 11 ---
+factors, including location, availability, cost, and health needs, will additionally
+factor into these decisions.
+Table 3 Colorado Household Population to Housing Unit Ratio
+Source: Colorado State Demography Office Vintage 2023 Population and Housing Estimates.
+Table 4 Colorado Household Forecast by Age
+Percentage
+Age Group 2020 2030 Change Change
+Age 18 to 24 100,519 97,705 -2,814 -2.8%
+Age 25 to 44 806,311 878,187 71,876 8.9%
+Age 65 to 64 802,808 836,541 33,733 4.2%
+Age 65+ 558,218 756,765 198,547 35.6%
+Total 2,267,856 2,569,198 301,342 13.3%
+Source: Colorado State Demography Office Vintage 2023 Household Forecasts.
+Forecasts
+Colorado’s population growth has slowed in the short run, with slowing births,
+increased deaths due to both aging and COVID, and slowing migration. Death levels
+and international migration are returning to pre-COVID levels. Colorado’s domestic
+migration has slowed significantly in recent years to an average of 6,500 since 2020,
+compared to an average of 38,000 during the 2010s. Since 2022, international
+migration has returned to pre-pandemic levels and is expected to remain at levels
+8
+--- page 12 ---
+around 10,000 through this decade. Universities and the demand for labor should
+draw more individuals from abroad depending on U.S. immigration policies and
+staffing in visa offices.
+The statewide population is projected to grow by 45,000, a rate of 0.7%, in 2024, and
+50,000 in 2025 (see Figures 4 and 5). Growth continues to be driven primarily by
+births of approximately 62,000 per year. Deaths are forecast to return to pre-
+pandemic levels in the mid to low 40,000s. Net migration is forecast to increase to
+25,000 in 2024 and 30,000 in 2025 due to both job growth and the need to replace
+retiring Baby Boomers in the job market. Job growth is forecast at an average of
+43,000 per year from 2023 through 2030, and over 40,000 people are forecast to
+retire over the same period. Combined, this results in a total demand of
+approximately 83,000 new workers annually.
+After 2030, population growth is expected to slow more significantly due to a slowing
+economy, slowing births nationally, an aging population, slowing labor force growth,
+and increased national competition for labor. Although Colorado’s population growth
+is forecast to slow in the long run, it is projected to continue to outpace the nation,
+growing at roughly twice the national rate. Colorado is forecast to increase from 1.7%
+of the U.S. population in 2020 to 2% by 2050. Geographically, the largest population
+growth is forecast to be along the Front Range. Between 2020 and 2030, the state’s
+population is projected to increase by 540,000, with 90% of this increase projected
+for the Front Range and 260,000 for the Denver Metro area. The North Front Range is
+expected to observe the fastest growth, at an annual average growth rate of 1.8%, or
+135,000 people. The 2050 forecast for the state is 7.4 million, with 6.3 million along
+the Front Range, or 85% of the total population.
+9
+--- page 13 ---
+Figure 3 Colorado Projected Population Change by County, 2020-2050
+Figure 4 Colorado Forecast Population by Region, 2020-2050
+Source: Colorado State Demography Office Vintage 2023 Population Forecasts.
+10
+--- page 14 ---
+Figure 5 Colorado 5-Year Population Growth Estimates and Forecasts
+Source: Colorado State Demography Office Vintage 2023 Population Forecasts.
+Jobs
+The State Demography Office estimates and forecasts jobs along with population.
+Fundamentally, this is because if an employer wants to add a job they need a person
+to fill that job. If there are not enough people in the right age groups or skill sets to
+fill all the jobs employers want to fill in the state, then employees must come from
+other places. The result is that job growth has historically been a primary driver of
+net migration within the state, with employers in the state adding jobs and people
+moving to the state from elsewhere to fill those jobs as employees.
+Total Jobs
+The total number of jobs in Colorado was estimated by the State Demography Office
+at 3.67 million in 2023. This amount represented an increase of 70,600, or 2.0%, from
+the prior year. Job growth in 2023, while significantly slower than the prior two years
+of pandemic recovery, still remained elevated, and it is expected that job growth
+will continue to slow going forward as employment stabilizes near the long-term
+trend, averaging approximately 43,000 jobs for the remainder of the decade.
+Compared to 2019, Colorado's total job count experienced an increase of 4.9%
+11
+--- page 15 ---
+(171,000 jobs), a compound annual growth rate of 1.2% for the period. This period
+includes a notable decline in employment in 2020 due to the pandemic, followed by
+a robust recovery.
+Jobs by Industry Sector
+One of the strengths of Colorado is its ability to attract a diverse range of companies
+and employees. The chart below shows the total number of Coloradans employed by
+each industry as tracked by the State Demography Office, as of their 2023 estimates.
+The strength of the Professional, Scientific, and Technical Services sector in Colorado
+should be noted as the concentration of this high wage industry in the state makes
+Colorado unique (see Figure 6).
+Between 2022 and 2023, most sectors demonstrated growth, with Local Government
+and Health Services showing the largest growth. These two sectors added 13,900,
+and 13,100 jobs respectively, and combined accounted for 38% of the 70,600 jobs
+added to the state during this period. A number of industries also saw declines during
+the period, including Administrative, Support, and Waste Management; Finance
+Activities; Manufacturing; Agriculture; and Information. All of these declines were
+relatively small (between 1,100 and 2,500), and declined for a combined 9,000 jobs
+(see Figure 7).
+Looking at the overall trend from 2019 (pre-pandemic), the state added 171,100 jobs
+(see Figure 8). The Professional, Scientific, and Technical Services sector
+experienced the largest job growth, adding 54,400, followed by Transportation and
+Warehousing adding 31,500 jobs. These changes are attributed to the shift towards
+remote work and the growing reliance on technology and online services.
+Only three industries have not fully recovered from the pandemic, with Mining;
+Administration, Support and Waste Management; and Agriculture declining by 8,700,
+3,100, and 900 jobs, respectively, during the period.
+12
+--- page 16 ---
+Figure 6 Colorado Jobs by Sector, 2023
+Source: Colorado State Demography Office Vintage 2023 Job Estimates.
+13
+--- page 17 ---
+Figure 7 Colorado Employment Change by Sector, 2022 to 2023
+Source: Colorado State Demography Office Vintage 2023 Job Estimates.
+14
+--- page 18 ---
+Figure 8 Colorado Employment Change by Sector, 2019 to 2023
+Source: Colorado State Demography Office Vintage 2023 Job Estimates.
+Jobs by County
+Job growth in Colorado varied significantly by region in both the prior year and from
+2019. The Front Range experienced the most substantial increases in employment,
+adding 60,700 since 2022, and 154,000 jobs (5.2%) since 2019. These gains
+represented 86% of total job gains in the state from 2022, and 90% since 2019.
+In contrast, many rural regions have not seen the same pace of growth. Twelve
+counties saw a reduction in total jobs between 2022 and 2023, and 9 counties have
+15
+--- page 19 ---
+current job levels that are lower than they were in 2019. Most of these counties are
+smaller counties scattered around the more rural regions of the state.
+Figures 9 and 10 are county maps of Total Job Change between 2019 and 2023, and
+2022 and 2023, respectively.
+Figure 9 Map of Colorado Job Changes, 2019 to 2023
+16
+--- page 20 ---
+Figure 10 Map of Colorado Job Changes, 2022 to 2023
+17

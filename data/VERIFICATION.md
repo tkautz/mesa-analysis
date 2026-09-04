@@ -60,5 +60,16 @@ Status codes: `MATCH`, `MISMATCH`, `UNVERIFIED`. "Primary" = a BVSD document in 
 
 Earlier note, kept for the definitions: BVSD's files are titled "Summary of Colorado Department of Education - Funded Head Count" as of the October count date (Oct 1–5). Definitions to note when it is: BVSD's files are titled "Summary of Colorado Department of Education - Funded Head Count" as of the October count date (Oct 1–5), and list PK separately (0 at Mesa and Bear Creek through 2022-23, column dropped after). CDE's pupil-membership file counts membership on the October count day and includes PK where offered; charter and "Boulder Universal" rows will differ. Compare K–5 to K–5.
 
+## F. Enrollment Pattern Matrix and 2026-27 weekly counts (added 2026-09-03)
+
+| # | Check | Result |
+|---|---|---|
+| 37 | Parsed 2025-26 elementary matrix rows for Bear Creek (30 area cells + 7 summary cells) and Mesa vs the rendered page `page_renders/elem_matrix_2025-26_p1.png` | MATCH, every cell (blank cells in the PDF are zeros in the parse). Bear Creek: 131 own area, 27 Mesa area, 15 Optional BC/Creekside, 70 Optional BC/Mesa; summary 216 / 70 / 13 / 13 / – / 299 / 312 / 69%. Mesa: 118 own, 16 Bear Creek area, 38 Optional BC/Mesa; summary 156 / 48 / 10 / 10 / – / 214 / 224 / 70% |
+| 38 | Bottom rows of the same page (residents living in area; % attending neighborhood school) for the four South Boulder areas | MATCH: 162 / 176 / 27 / 137 residents; 81% / 67% / 74% / 79% |
+| 39 | Identity checks in `scripts/parse_oe_matrices.py` (sum of area cells = neighborhood + OE-in; neighborhood = own + optional areas; total-within + out-of-district = enrollment), all parsed school-years 2017-18 … 2025-26, elementary and kindergarten | PASS for every parsed row (K 2024-25 rows skipped: the text layer drops one blank cell; readable by eye in `page_renders/k_matrix_2024-25_p1.png`) |
+| 40 | Matrix out-of-district counts vs 2025-26 special-programs summary (P13): Bear Creek 13 / Mesa 10 | MATCH |
+| 41 | Weekly count files: Oct 2023/2024/2025 columns vs P13 funded head counts for Bear Creek (298, 318, 312) and Mesa (233, 230, 224) | MATCH in all eight files |
+| 42 | Deck p. 44 "residents attending neighborhood school" bar labels (Bear Creek 217, Mesa 156) vs matrix "Attending Neighborhood School" (216, 156) | MATCH within one student; the deck's residents (275 / 228, p. 51) are not the matrix's area-proper counts (162 / 176) but sum to the matrix's four-area total (503 vs 502): see CONFLICTS C20 |
+
 ## E. Projection-accuracy inputs (open question 3) — data only
 `data/clean/capacity_summary_mesa_bearcreek_by_vintage.csv` now holds four vintages (Jan 2024, Jan 2025, Oct 2025 = Jan 2025, Jan 2026) of one-to-five-year projections plus the official actuals in `bvsd_pupil_count_mesa_bearcreek.csv`. Examples, projection → actual: Bear Creek 2024-25 (Jan 2024 vintage) 287 → 318; 2025-26 (Jan 2024) 273 → 312; 2025-26 (Jan 2025) 308 → 312. Mesa 2024-25 (Jan 2024) 220 → 230; 2025-26 (Jan 2024) 211 → 224; 2025-26 (Jan 2025) 230 → 224.

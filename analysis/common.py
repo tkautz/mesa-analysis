@@ -35,9 +35,25 @@ def style():
     })
 
 def save(fig, name, source=None):
+    import textwrap
+    # Titles are authored as one line; wrap them so the tight bounding box stays at the figure width and text prints at size.
+    W = fig.get_figwidth()
+    if fig._suptitle is not None:
+        t = fig._suptitle; fs = t.get_fontsize(); chars = max(40, int(W * 72 / (fs * 0.64)))   # DejaVu Sans averages about 0.6 em per character
+        t.set_text("\n".join(textwrap.wrap(t.get_text(), width=chars)))
+    axes = fig.get_axes(); ncols = max(1, len({round(a.get_position().x0, 2) for a in axes}))
+    for ax in axes:
+        aw = ax.get_position().width * W   # a left-aligned title or a centred axis label runs relative to the axes box, not the canvas
+        for tt in (ax.title, getattr(ax, "_left_title", None), getattr(ax, "_right_title", None)):   # loc="left" titles live in _left_title
+            if tt is not None and tt.get_text():
+                fs = tt.get_fontsize(); chars = max(30, int(aw * 72 / (fs * 0.64)))
+                tt.set_text("\n".join(textwrap.wrap(tt.get_text(), width=chars)))
+        xl = ax.xaxis.label
+        if xl.get_text():
+            chars = max(30, int(aw * 72 / (xl.get_fontsize() * 0.64)))
+            xl.set_text("\n".join(textwrap.wrap(xl.get_text(), width=chars)))
     if source:
-        import textwrap
-        wrapped = "\n".join(textwrap.wrap(f"Source: {source}", width=int(fig.get_figwidth() * 17)))
+        wrapped = "\n".join(textwrap.wrap(f"Source: {source}", width=int(W * 17)))
         fig.text(0.0, -0.02, wrapped, fontsize=6.5, color=MUTED, ha="left", va="top", transform=fig.transFigure)
     for ext in ("png", "svg", "pdf"):
         fig.savefig(FIG / f"{name}.{ext}", bbox_inches="tight")

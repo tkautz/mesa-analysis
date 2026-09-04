@@ -1,0 +1,106 @@
+{
+ "profile_workbook": {
+  "url": "https://public.tableau.com/profile/api/workbook/BVSDEnrollmentDashboard",
+  "status": 200,
+  "json": {
+   "defaultViewName": "Welcome/Bienvenidos",
+   "authorName": "Boulder Valley School District",
+   "profileName": "bvsd",
+   "viewCount": 9184,
+   "lastUpdateDate": 1772130498098,
+   "title": "BVSD Enrollment Dashboard",
+   "blogUrl": "https://www.bvsd.org",
+   "description": "BVSD Enrollment Dashboard",
+   "viewInfos": [
+    {
+     "sheetRepoUrl": "BVSDEnrollmentDashboard/sheets/WelcomeBienvenidos",
+     "sheetTitle": "Welcome/Bienvenidos"
+    },
+    {
+     "sheetRepoUrl": "BVSDEnrollmentDashboard/sheets/AnnualTrendsTendenciasanuales",
+     "sheetTitle": "Annual Trends/Tendencias anuales"
+    },
+    {
+     "sheetRepoUrl": "BVSDEnrollmentDashboard/sheets/EnrollmentPatternsPatronesdeInscripcin",
+     "sheetTitle": "Enrollment Patterns/Patrones de Inscripci\u00f3n"
+    },
+    {
+     "sheetRepoUrl": "BVSDEnrollmentDashboard/sheets/EnrollmentGainsLossesGananciasprdidasdeInscripcin",
+     "sheetTitle": "Enrollment Gains/Losses/Ganancias/p\u00e9rdidas de Inscripci\u00f3n"
+    },
+    {
+     "sheetRepoUrl": "BVSDEnrollmentDashboard/sheets/HomeSchoolPrivateSchoolEscuelaencasaEscuelaprivada",
+     "sheetTitle": "Home School/Private School/Escuela en casa/Escuela privada"
+    }
+   ]
+  }
+ },
+ "single_workbook": {
+  "url": "https://public.tableau.com/profile/api/single_workbook/BVSDEnrollmentDashboard",
+  "status": 200,
+  "json": {
+   "showInProfile": true,
+   "allowDataAccess": false,
+   "showByline": false,
+   "showShareOptions": true,
+   "showTabs": true,
+   "showToolbar": true,
+   "showWatermark": true,
+   "warnDataAccess": false,
+   "id": 16579405,
+   "ownerId": 2352364,
+   "firstPublishDate": 1742407588398,
+   "lastPublishDate": 1772130495499,
+   "createdAt": 1742407588402,
+   "lastUpdateDate": 1772130498098,
+   "size": 985134,
+   "description": "BVSD Enrollment Dashboard",
+   "luid": "9e72fc3c-b9ad-4030-95b5-59b5288a6157",
+   "permalink": null,
+   "revision": "2.1",
+   "title": "BVSD Enrollment Dashboard",
+   "workbookRepoUrl": "BVSDEnrollmentDashboard",
+   "extractInfo": null,
+   "viewCount": 9184,
+   "defaultViewName": "Welcome/Bienvenidos",
+   "defaultViewRepoUrl": "BVSDEnrollmentDashboard/sheets/WelcomeBienvenidos",
+   "defaultViewLuid": "c5104c46-8995-4f13-8586-4789fee39d4f",
+   "authorProfileName": "bvsd",
+   "authorDisplayName": "Boulder Valley School District",
+   "externalLink": null,
+   "numberOfFavorites": 0,
+   "attributions": []
+  }
+ },
+ "profile": {
+  "url": "https://public.tableau.com/profile/api/bvsd",
+  "status": 200,
+  "json": {
+   "profileName": "bvsd",
+   "name": "Boulder Valley School District",
+   "title": "",
+   "organization": "",
+   "bio": "",
+   "bannerColour": "#0060a9",
+   "bannerImage": "RINGS",
+   "avatarUrl": "https://public.tableau.com/avatar/366e1128-dd9e-40b9-8b0c-d147dfe3f2b9.jpeg",
+   "totalNumberOfFollowing": 0,
+   "totalNumberOfFollowers": 2,
+   "visibleWorkbookCount": 6,
+   "createdAt": 1643673600000,
+   "freelance": false,
+   "askMeAboutMyViz": false,
+   "profileView": "DEFAULT",
+   "hideNewWorkbooks": false,
+   "websites": [
+    {
+     "id": 2063391,
+     "url": "https://www.bvsd.org",
+     "title": "website1"
+    }
+   ],
+   "showWebsites": true,
+   "searchable": true
+  }
+ }
+}

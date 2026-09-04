@@ -1,4 +1,47 @@
-# STATUS — updated 2026-09-03 (session 5: ChatGPT review, first three items)
+# STATUS — updated 2026-09-03 (session 6b: overnight execution of the revision plan)
+
+## Session 6b execution log (author approved the plan 2026-09-03 evening: run overnight, commit when done)
+- [x] Plan decisions recorded (`memo/REPORT_REVISION_PLAN.md` §6); records request drafted, not sent (`memo/records_request_draft.md`).
+- [x] `analysis/14_matrix_bridge.py` → table14_* (bridge 512 / 553; capture needed 57–69% / 54–65% vs 81–87% observed; external seats needed at today's capture: 2030-31 floor unreachable, top needs 30 of 121; JECC-R new-entrant table: zero new external admissions from 2027-28 still gives 492 in 2027-28 and 472 in 2030-31), fig16_bridge, fig17_capture_history.
+- [x] `analysis/16_resident_history.py` → table16 (733 → 502), fig18_residents. `analysis/17_capacity_history.py` → table17.
+- [x] `12_sections_by_grade.py` re-run on the published class-size bases (24.58; 26/29/31) → table12, fig15.
+- [x] `15_aug2026_count.py` → table15_aug2026_vs_projection (30 schools matched), table15_conditional, fig20.
+- [x] parsers `scripts/parse_district_projection_vs_headcount.py`, `scripts/parse_bvsd_births_by_area.py` → clean files (all Bear Creek/Mesa checks match).
+- [x] budget inputs → `data/clean/budget_inputs_fy2027.csv`, `site_budgets_mesa_bearcreek*.csv`, `memo/notes_budget_inputs.md`; `19_budget_arithmetic.py` → table19_*.
+- [x] `18_births_kindergarten.py` → table18_*, fig19; `20_district_projection_record.py` → table20_*, fig21.
+- [x] `report/report.tex` rewritten to the plan's structure (executive summary page; six sections; appendices A–G); builds with pdflatex (MiKTeX) at **21 pages** (was 28); `analysis/RESULTS.md` replaced with the new canonical numbers.
+- [x] four-lens QA (statistics, district rebuttal, exposition + citation audit, graphics) → `memo/qa/review_v2_*.md`. No blocker. Fixed: JECC (not JECC-R) carries the duration clause, with its exception, and the new-entrant table now follows the district's own transition rules (deck p. 63); "23 sections" re-expressed as 19–23 classes by basis with the allocation (19–20 FTE) stated; births range corrected to 60–88 (2005–14) and the births specification reported across windows (505–592) with its caveats; deck p. 70's own compressed timeline cited and the process paragraph made neutral; placements labelled as residence-unknown; bias sentence made consistent (+1%); charter-operator attribution corrected; FAQ re-quoted; "503 residents" vs "503 students" disambiguated; probability captions labelled as shares of simulated paths; figure titles wrapped centrally in `common.save()` so PNGs print at page width; stale hard-coded figure titles replaced by data-driven ones. Not adopted: swapping Sections 3 and 4 (the executive summary now lists the model finding before the rooms finding, and Section 3 points forward to Section 4 for the model).
+- [x] verification table below checked against the outputs; commit and push (see git log).
+
+## Numbers in the executive summary, with where to check them (session 6b)
+| Claim | Value | Check |
+|---|---|---|
+| Residents 2030-31; range | 522; 403–462 | deck p. 51 (text layer) |
+| Combined-area capture; outside enrollment | 83% (415/502); 121 = 75 + 23 + 23 | `data/clean/oe_matrix_combined_area_identity.csv` (2025-26 elem); render `page_renders/elem_matrix_2025-26_p1.png` |
+| Today's pattern on 522 / 473 residents | 553 / 512; residents alone 432 / 391 | `analysis/output/table14_bridge.csv` |
+| Capture needed; observed range | 54–65% (2030-31), 57–69% (2027-28); 80.6–87.3% | same; `table14_capture_history.csv` |
+| Outside enrollment needed at today's capture | 2030-31: floor unreachable, top needs 30 (cut 91 of 121) | `table14_bridge.csv` |
+| New-entrant table on the district's rules | 0/yr, Mesa's non-residents not re-admitted → 461 (2027-28), 473 (2030-31); re-admitted 496 / 487 | `table14_new_entrants.csv`; policy **JECC** (duration clause, line 58 of `data/raw/bvsd/policy/JECC_assignment_of_students_to_schools.txt`), JECC-R (preferences); deck p. 63 |
+| Bond schedule | Mesa $1,384,757 / $42,034 / $24,000 / 2028; Bear Creek $2,787,641 | FY27 budget book printed p. 207 (txt page 209) |
+| Bear Creek 2029-30 revision | 272 → 310 (+14%) | Feb 2025 p. 9; Feb 2026 p. 9 |
+| Aug 28, 2026 count | Bear Creek 330 vs 299; Mesa 204 vs 217; pair 534 vs 516 | `data/raw/bvsd/enrollment_2026-27_weekly/enrollment_2026-08-28.pdf`; Feb 2026 p. 9 |
+| Sections at 24.58 | 23 in 2027-28 (both specs); over 21 rooms 73% / 85% | `analysis/output/table12_sections.csv`; budget book p. 121 (txt page index 121) |
+| Model 2030-31 | 430 / 503 | `table04_scenarios.csv` (2030, 0.9) |
+| Births by area | 33 (2019) → 70 (2024) | `data/clean/bvsd_births_by_attendance_area_wide.csv`, rows Bear Creek + Mesa + BC-Mesa + BC-Creekside |
+| Births spec | 546 (2014–25 window), 592 (2020–25) | `table18_births_spec.csv` |
+| June 9, 2026 timeline | study Sept, action Oct; study package contents | `data/raw/bvsd/boarddocs/declining_enrollment_community_engagement_board_update_2026-06-09.txt` p. 37 |
+| Site budgets | Mesa $3,024,735 / 25.343 FTE / 217; Bear Creek $3,688,335 / 30.511 / 299; Mesa FY25 admin $0.36M, O&M $0.29M | `data/clean/budget_inputs_fy2027.csv`; `site_budgets_mesa_bearcreek_summary.csv`; `memo/notes_budget_inputs.md` |
+| General Fund | $386.2M (book) / $410.2M (state summary); saving 0.9–1.0% | `data/CONFLICTS.md` C31; `table19_budget.csv` |
+
+## Session 6: data gathering (done) and a plan for the report (awaiting approval)
+- **Nothing in `report/` was changed.** The plan is `memo/REPORT_REVISION_PLAN.md`: executive summary page + six-page summary + appendices (target 20–22 pages from 28), an adversarial claim-by-claim review of the district's plan as a new appendix, a self-review list of what to fix in the current report, new analysis scripts 14–21, and the decisions the author has to make.
+- **Web access works from this machine** (bvsd.org, resources.finalsite.net, cde.state.co.us, go.boarddocs.com with a browser user-agent, gis.dola.colorado.gov, census). Downloaders: `scripts/fetch_bvsd_web_docs.py` (bvsd.org files, manifest `data/raw/bvsd/MANIFEST_web_fetch.csv`), `scripts/fetch_public_docs.py` (press/budget/policy; `data/raw/_fetch_records.jsonl`), BoardDocs fetcher notes in `data/raw/bvsd/boarddocs/FETCH_LOG.md`.
+- **New raw sources** (all logged in `data/SOURCES.md`, Rounds 4–4d): Enrollment Pattern Matrices 2016-17 … 2025-26 (P18); School Profile books 2011–2025 (P19); weekly 2026-27 enrollment counts Aug 4–28, 2026 (P20); 2020-21 FTE file (P21); LRAC agendas/minutes and policy BDFF (P22); bond reports (P23); 21 dated page copies (P24); demography (D1–D11, 92 files: three births series, SDO single-year-of-age, ACS/decennial tracts); press (N1–N4, 22 items), FY26/FY27 budgets (B1–B2), policies JECC/JECC-R and the BVEA agreement (J1–J2); BoardDocs (BD1–BD7, 141 PDFs incl. the December enrollment packets 2015–2025 with the district's own projection-vs-count tables and births by attendance area, the June 9, 2026 engagement deck, the May 20, 2025 boundary work session).
+- **New clean tables**: `data/clean/oe_matrix_*.csv` (parsed by `scripts/parse_oe_matrices.py`; identity checks pass; 2025-26 rows checked by eye, VERIFICATION §F), `enrollment_2026-27_weekly_elementary.csv`, `school_profile_oe_mesa_bearcreek.csv`, `school_profile_capacity_mesa_bearcreek.csv`. Renders: `data/raw/bvsd/page_renders/{elem,k}_matrix_{2024-25,2025-26}_p1.png`.
+- **New conflicts** C20–C28 (three resident definitions; profile books disagree across editions; matrix vs profile OE counts; combined-area residents 733 → 502 vs the deck's 503 → 522; Aug 2026 count vs Jan 2026 projection; births period definitions; press 445 vs 462; "$494M" resolved; class-size guideline 25 vs published 24.58 / 26–31).
+- **Numbers that will change in the report** (do not quote the old ones): 74% capture → 83% combined-area (own-school 74% on the matrix's own denominator); 163 choice seats → 121 external (75 in-district + 23 out-of-district + 23 placements) with 43 cross-flows inside the future area; "≈550" → 553; residents alone at today's capture 432 in 2030-31 (above the range's floor of 403); capture needed for 403–462: 54–65% vs 81–87% observed since 2017-18; Aug 28, 2026 count Bear Creek 330 / Mesa 204 (sum 534 vs Jan 2026 projection 516); class-size inputs 24.58 (staffing) and 26/29/31 (BVEA).
+- **Still not obtainable**: Sept 8 agenda (not posted as of this session; re-check from Sept 4); any Aug 25 attachment beyond the deck (none exists); Tableau dashboard data (manual read); 2016-17 matrix (visual read); CDE 2014–2019 files (low value).
+- **Not committed.** `git status` shows the new folders and the three log files modified; commit when the author has looked at the plan.
 
 ## Session 5c: third review, report-side items (email left to the author)
 - Summary box reordered around the bridge (can-house statement vs FAQ; 522 → 403–462 with no published connection; ≈550 as a reconciliation benchmark, not a forecast); 521 vs 492 now labelled a diagnostic, with the non-additivity caveat.

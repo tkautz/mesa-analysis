@@ -1,0 +1,36 @@
+1. CALL MEETING TO ORDER, ROLL CALL
+Procedural , 1.1 Call Meeting to Order and Roll Call
+2. BOARD PROCEDURES
+Procedural , 2.1 Board Procedures
+Action , Procedural , 2.2 Approve Board Agenda
+3. PUBLIC HEARING AND PUBLIC PARTICIPATION
+Information , 3.1 Public Hearing and Public Participation
+4. WORK SESSION STUDY
+Discussion , 4.1 Declining Enrollment Community Engagement Update This Agenda Item Contains an Attachment.
+5. SUPERINTENDENT'S REPORT
+Report , 5.1 Superintendent's Report
+6. BOARD COMMUNICATION
+Information , 6.1 Board Communication
+7. INFORMATION
+Information , Presentation , 7.1 Cell Phone Policy Update This Agenda Item Contains an Attachment.
+8. ACTION ITEMS â€“ CONSENT GROUPING
+Action (Consent) , 8.1 Personnel Items This Agenda Item Contains an Attachment.
+Action (Consent) , Minutes , 8.2 Approval of Minutes - May 26, 2026
+Action (Consent) , 8.3 Approval of Superintendent's Annual Evaluation This Agenda Item Contains an Attachment.
+Action (Consent) , 8.4 Proposed 27/28 & 28/29 Academic Calendars This Agenda Item Contains an Attachment.
+Action (Consent) , 8.5 Resolution 26-22 Ratification of the Negotiated Agreement with Boulder Valley Classified Employees Association This Agenda Item Contains an Attachment.
+Action (Consent) , 8.6 Resolution 26-23 Ratification of the Negotiated Agreement with the Boulder Valley Paraeducator Association This Agenda Item Contains an Attachment.
+Action (Consent) , 8.7 Resolution 26-24 Ratification of the Negotiated Agreement with Boulder Valley Education Association This Agenda Item Contains an Attachment.
+Action (Consent) , 8.8 Resolutions 26-19, -20, -21, -25 Adoption of the 2026-27 Budget This Agenda Item Contains an Attachment.
+Action (Consent) , 8.9 GRANT: Federal Programs - Titles I-IV - CDE This Agenda Item Contains an Attachment.
+Action (Consent) , 8.10 SUMMARY OF CONSENT GROUPING
+9. ACTION ITEMS
+Action , 9.1 Items Pulled from Consent Grouping
+Action , 9.2 Cancellation of June 23, 2026 Regular Board Meeting
+Action , 9.3 Peak to Peak Charter School Waivers This Agenda Item Contains an Attachment.
+10. FUTURE AGENDA ITEMS
+Discussion , 10.1 Agenda Setting This Agenda Item Contains an Attachment.
+11. EXECUTIVE SESSION
+Action , 11.1 Executive Session - Meeting Notice
+12. ADJOURNMENT
+Action , 12.1 Adjournment

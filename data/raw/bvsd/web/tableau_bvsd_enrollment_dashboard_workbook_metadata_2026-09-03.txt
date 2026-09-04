@@ -1,0 +1,10 @@
+BVSD Enrollment Dashboard (Tableau Public) - workbook metadata retrieved 2026-09-03 via public.tableau.com profile API
+title: BVSD Enrollment Dashboard; author: Boulder Valley School District (bvsd); lastUpdateDate(ms): 1772130498098 = 2026-02-26
+allowDataAccess: False  (False => viewer 'Download > Data / Crosstab' is disabled; .twb/.twbx download returns 404)
+showTabs: True; revision: 2.1; size(bytes): 985134; viewCount: 9184
+views (tabs):
+  - Welcome/Bienvenidos  ->  https://public.tableau.com/views/BVSDEnrollmentDashboard/WelcomeBienvenidos
+  - Annual Trends/Tendencias anuales  ->  https://public.tableau.com/views/BVSDEnrollmentDashboard/AnnualTrendsTendenciasanuales
+  - Enrollment Patterns/Patrones de Inscripción  ->  https://public.tableau.com/views/BVSDEnrollmentDashboard/EnrollmentPatternsPatronesdeInscripcin
+  - Enrollment Gains/Losses/Ganancias/pérdidas de Inscripción  ->  https://public.tableau.com/views/BVSDEnrollmentDashboard/EnrollmentGainsLossesGananciasprdidasdeInscripcin
+  - Home School/Private School/Escuela en casa/Escuela privada  ->  https://public.tableau.com/views/BVSDEnrollmentDashboard/HomeSchoolPrivateSchoolEscuelaencasaEscuelaprivada

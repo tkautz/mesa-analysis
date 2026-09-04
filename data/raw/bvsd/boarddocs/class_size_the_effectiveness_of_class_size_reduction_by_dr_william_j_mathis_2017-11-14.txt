@@ -1,0 +1,283 @@
+School of Education, University of Colorado Boulder
+Boulder, CO 80309-0249
+Telephone: 802-383-0058
+NEPC@colorado.edu
+http://nepc.colorado.edu
+R -B O
+eseaRch ased ptiOns
+F e p
+OR ducatiOn Olicymaking
+The Effectiveness of Class Size Reduction
+William J. Mathis, University of Colorado Boulder
+June 2016
+Ask a parent if they want their child in a class of 15 or a class of 25. The answer is predictable.
+Intuitively, they know that smaller classes will provide more personalized attention, a better
+climate, and result in more learning. Ask teachers, and they will wax eloquent on the im-
+portance of small classes in providing individual support to their students. But ask a school
+board or district administrator, contending with a tight budget. They ask if the average class
+size can be a bit bigger.
+Teacher pay and benefits are the largest single school expenditure, representing 80% of the
+nation’s school budgets.1 Thus, small class size is a costly, important, contentious and pe-
+rennial issue.
+The Research on Class Size
+There are many studies of the impact of smaller classes and they vary widely in quality.2 As
+a result, proponents from all perspectives can cherry-pick studies that support their point
+of view.
+But let’s look closer. There is, in fact, an independent consensus on what we know:
+This material is provided free of cost to NEPC’s readers, who may make non-commercial use of the
+material as long as NEPC and its author(s) are credited as the source. For inquiries about commercial
+use, please contact NEPC at nepc@colorado.edu.
+http://nepc.colorado.edu/publication/research-based-options 1 of 7
+One of the earliest influential meta-studies was by Glass and Smith in 1979.3 They statisti-
+cally analyzed 300 reports involving almost 900,000 students. Once the class size fell below
+about 15, learning increased progressively as class size became smaller.
+The most prominent study supporting smaller class sizes was the Tennessee STAR (Student/
+Teacher Achievement Ratio) experiment. The STAR experiment was a four-year statewide
+random-assignment experiment. Students in Kindergarten in the same schools were ran-
+domly assigned to classes of 13-15; to classes of 22-25 with a teacher’s aide; or to classes of
+25 without a teacher’s aide. In the early studies, these students were followed through grade
+3. In practice, the small classes ranged in size from 13-18 and the large classes from 22-28.
+It is worth noting that even the larger classes were smaller than most classes in those grades
+in Tennessee at the time. The smaller classes performed substantially better by the end of
+second grade in test scores, grades, and fewer disciplinary referrals.4
+The gains lasted. The students that had been assigned to smaller classes were more likely
+to graduate in four years, more likely to go to college, and more likely to get a degree in a
+STEM field. The positive effect was twice as large for poor and minority students, and thus
+narrowed the achievement gap. The original STAR study and follow-up reports, called the
+Lasting Benefits Studies, and subsequent Project Challenge 5 had an impact in the political
+arena. President Bill Clinton proposed a $12 billion class size reduction program in his 1998
+State of the Union address that was subsequently adopted by Congress.
+Molnar et al. (1996-2001), in a well-designed series of five annual evaluations of the Wis-
+consin SAGE (Student Achievement Guarantee in Education) class size reduction program
+utilizing a quasi-experimental design, reproduced the STAR results.6 With class sizes of 15,
+they found significant and substantial effect sizes of 0.2 standard deviations, indicating that
+class size was a very effective school improvement strategy. Gains were greatest for Afri-
+can-American students, and teachers reported better classroom climates and fewer disci-
+pline problems. The continuation of small class sizes into the higher grades increased its
+impact. But cost considerations resulted in class size reduction activities being concentrated
+in the lower grades, mostly among economically deprived and children of color.7
+Over the years, Erik Hanushek of the Hoover Institute has taken a more skeptical look. He
+performed a “meta-analysis” of 277 studies in 1997, claiming that class size reduction was
+not an effective school reform strategy. He argued that class sizes have dropped over the
+last half of the twentieth century with no corresponding increase in achievement scores.8 In
+summary,
+Surely class size reductions are beneficial in specific circumstances —for specific
+groups of students, subject matters, and teachers. Second, class size reductions
+necessarily involve hiring more teachers, and teacher quality is much more im-
+portant than class size in affecting student outcomes. Third, class size reduction
+is very expensive, and little or no consideration is given to alternative and more
+productive uses of those resources.9 (p. 5)
+Hanushek’s analysis was criticized on methodological grounds in that he gave more weight
+to studies that showed no impact from lowering class size, while also treating weak studies
+as equivalent to those that were experimental and/or of much higher quality. He was also
+questioned about his claim that teacher quality was more important than class size in affect-
+ing student outcomes. Moreover, in re-analyzing the Tennessee STAR data, Alan Krueger
+not only concluded that class size reduction had economic benefits that outweighed the
+costs, and even within the large cohort of 22 to 25 students, the smaller the class, the better
+http://nepc.colorado.edu/publication/research-based-options 2 of 7
+the student outcomes.10 Mosteller also reported sustained effects and “the effect size for mi-
+norities was about double that for majorities.”11
+Krueger noted, as have many others, that class size reduction most benefits minority and
+disadvantaged students, and would be expected to narrow the racial achievement gap by
+about one-third. He also estimated that the economic gains of smaller classes in the early
+grades outweighed the costs two to one.12 While experimental studies have not been done
+for the middle and upper grades, there are many controlled studies, including longitudinal
+studies, showing gains in student outcomes for smaller classes at these grade levels.13 Many
+of these studies also show improvements in student engagement, lower drop-out rates and
+better non-cognitive skills. One longitudinal study revealed that smaller classes in eighth
+grade led to improvements in persistence and self-esteem, and that for urban schools, the
+economic benefits from investing in smaller classes would likely save nearly twice the cost.
+A study done for the US Department of Education analyzed the achievement levels of stu-
+dents in 2,561 schools, as measured by performance on the NAEP (national) exams. After
+controlling for student background, the only objective factor found to be positively correlat-
+ed with student performance was class size. Student achievement was even more strongly
+linked to smaller classes in the upper grades.14
+In recent work (2015), Jackson, Johnson and Persico investigated the effects of school fi-
+nance reform in 28 states. They followed the infusion of new money between 1970 and 2010,
+and found, “…a 10% increase in per-pupil spending each year for all 12 years of public school
+leads to 0.27 more completed years of education, 7.25 percent higher wages, and a 3.67
+percentage-point reduction in the annual incidence of adult poverty .” They concluded that
+the gains were achieved primarily by lower student-to-teacher ratios, increases in teacher
+salaries, and longer school years. Gains were strongest for economically disadvantaged chil-
+dren and were sufficient to eliminate from two-thirds to one hundred percent of the adult
+outcome gaps (i.e. - wages, education level, percent in poverty) between those raised in poor
+and non-poor families.15
+Overall, the literature on class size reduction is clear and positive. The “overwhelming ma-
+jority” of peer-reviewed papers find it an effective strategy.16
+Further Policy Considerations
+Supply of Teachers
+An oft-heard reservation about class-size reduction is that there are not enough well-quali-
+fied teachers to make the system work. However, in California’s billion dollar Class Size Re-
+duction initiative, achievement increased for all groups, but there was little or no evidence
+that the need to hire more teachers led to lower quality teachers in the long run. When the
+Los Angeles Unified School District needed to triple its hiring of elementary teachers fol-
+lowing the state’s class-size reduction initiative, there was no reduction in mean teacher
+effectiveness.17 In addition, some studies point to lower teacher attrition rates when class
+sizes are reduced, which would likely lead to a more experienced and effective teaching force
+overall.18
+http://nepc.colorado.edu/publication/research-based-options 3 of 7
+Wash-Out Effects
+Most of the research has been conducted in the early grades (K-3). This led some to ques-
+tioning whether the effects are lasting or are cost-effective.19 Though Harris contended the
+effects wash out by seventh grade,20 Krueger and Schanzenbach found gains in college en-
+trance exams and especially among minority students. In fact, they concluded that small
+classes through eighth grade cut the achievement gap by 54%.21 Dynarski, et al. found gains
+in college attendance, graduation rate, and a higher likelihood of graduating with a STEM
+degree.22 Jackson, Johnson and Persico found sustained long-term social and economic ef-
+fects in their 28-state work. Chetty, et al found that students from smaller classes in kin-
+dergarten had a greater likelihood of attending college, owning a home and holding a 401K
+more than 20 years later.23
+Non-Cognitive Effects
+In addition to the gains listed above, college attendance, graduation rate, student engage-
+ment, persistence and self-esteem is reported as higher.24 The gains in test scores are at-
+tributed to the greater individualization of instruction, better classroom control and, thus,
+better climate. Teachers have more time for individual interactions with children, consult-
+ing with parents, and giving greater attention to grading papers.25
+As Compared to Other Reforms
+There is little evidence indicating that other reforms would be more effective at a lower
+cost.26 While teacher quality is undoubtedly important, those who argue that improving
+teacher quality would be more cost-effective present no comparative data from experimen-
+tal or controlled studies.
+Recommendations27
+• Class size is an important determinant of student outcomes, and one that can be
+directly determined by policy. All else being equal, lowering class sizes will improve
+student outcomes.
+• The payoff from class-size reduction is greater for low-income and minority chil-
+dren. Conversely, increases in class size are likely to be especially harmful to these
+populations -- who are already more likely to be subjected to large classes.
+• While lowering class size has a demonstrable cost, it may prove the more cost-ef-
+fective policy overall particularly for disadvantaged students. Money saved today
+by increasing class sizes will likely result in additional substantial social and edu-
+cational costs in the future.28
+• Generally, class sizes of between 15 and 18 are recommended but variations are in-
+dicated. For example, band and physical education may require large classes while
+special education and some laboratory classes may require less.
+http://nepc.colorado.edu/publication/research-based-options 4 of 7
+Notes and References
+1 Public School Expenditures (2016, May). Washington, DC: National Center for Education Statistics. Retrieved
+May 26, 2016, from http://nces.ed.gov/programs/coe/indicator_cmb.asp
+2 Glass, G.V., & Smith, M.L. (1979). Meta-analysis of research on class size and achievement. Educational
+Evaluation and Policy Analysis, 1(1), 2-16.
+Chingos, M. & Whitehurst, G. (2011). Class Size: What research says and what it means for state policy.
+Washington, DC: Brown Center on Education Policy at the Brookings Institution. Retrieved May 28, 2016,
+from http://www.brookings.edu/research/papers/2011/05/11-class-size-whitehurst-chingos
+3 Glass, G.V., & Smith, M.L. (1979). Meta-analysis of research on class size and achievement. Educational
+Evaluation and Policy Analysis, 1(1), 2-16.
+4 Finn, J.D. & Achilles, C.M. (1999). Tennessee’s class size study: Findings, implications, and misconceptions.
+Educational Evaluation and Policy Analysis, 21(2), 97-110.
+5 Mostellar, F.(May 2008). The Tennessee Study of Class Size in the Early School Grades. The Future of
+Children. pp 113-126. Retrieved June 8, 2016, from
+https://www.princeton.edu/futureofchildren/publications/docs/05_02_08.pdf
+6 Molnar, A., Smith, P., Zahorik, J., Palmer, A., Halbach, A., & Ehrle, K. (1999). Evaluating the SAGE program:
+A pilot program in targeted pupil-teacher reduction in Wisconsin. Educational Evaluation and Policy
+Analysis, 21(2), 165-77. Retrieved May 28, 2016, from http://epsl.asu.edu/sage/documents/evalsage.pdf
+Maier, P., Molnar, A., Percy, S., Smith, P., & Zahorik, J. (1997, December). First Year Results of the Student
+Achievement Guarantee in Education Program. Milwaukee, WI: Center for Education Research, Analysis, and
+Innovation. Retrieved June 7, 2016, from
+http://nepc.colorado.edu/publication/first-year-results-student-achievement-guarantee-education-program
+Molnar, A., Smith, P., & Zahorik, J. (1998, December). 1997-98 Evaluation Results of the Student
+Achievement Guarantee in Education (SAGE) Program. Milwaukee, WI: Center for Education Research,
+Analysis, and Innovation. Retrieved June 7, 2016, from http://nepc.colorado.edu/publication/1997-98-
+evaluation-results-student-achievement-guarantee-education-sage-program
+Molnar, A., Smith, P., & Zahorik, J. (1999, December). Evaluation Results of the Student Achievement
+Guarantee in Education (SAGE) Program, 1998-99. Milwaukee, WI: Center for Education Research, Analysis,
+and Innovation. Retrieved June 7, 2016, from http://nepc.colorado.edu/publication/1998-99-evaluation-
+results-of-student-achievement-guarantee-education-sage-program
+Zahorik, J., Smith, P., & Molnar, A. (2000, December). 1999-2000 Evaluation Results of the Student
+Achievement Guarantee in Education (SAGE) Program. Milwaukee, WI: Center for Education Research,
+Analysis, and Innovation. Retrieved June 7, 2016, from http://nepc.colorado.edu/publication/1999-2000-
+evaluation-results-student-achievement-guarantee-education-sage-program
+Molnar, A., Smith, P., & Zahorik, J. (2001, December). 2000-2001 Evaluation Results of the Student
+Achievement Guarantee in Education (SAGE) Program. Milwaukee, WI: Center for Education Research,
+Analysis, and Innovation. Retrieved June 7, 2016, from http://nepc.colorado.edu/publication/2000-2001-
+evaluation-results-student-achievement-guarantee-education-sage-program
+7 Betts, J.R. & Shkolnik, J.L. (1999). The behavioral effects of variations in class size: The case of math teachers.
+Educational Evaluation and Policy Analysis, 21(2), 193-213.
+Rice, J.K. (1999). The impact of class size on instructional strategies and the use of time in high school
+mathematics and science courses. Educational Evaluation and Policy Analysis, 21(2), 215-229.
+8 Hanushek, E. (1997). Assessing the Effects of School Resources on Student Performance: An Update.
+Educational Evaluation and Policy Analysis, 19(2), 141-164.
+9 Hanushek, E. (February 1998). The evidence on class size. Occasional Paper Number 98-1. Wallis Institute
+of Political Economy. University of Rochester. Retrieved May 28, 2016, from http://hanushek.stanford.edu/
+http://nepc.colorado.edu/publication/research-based-options 5 of 7
+sites/default/files/publications/Hanushek%201998%20HouseTestimony%20Class%20Size.pdf
+Hanushek, E. (2002). Evidence, Politics and the Class Size Debate. In L. Mishel & R. Rothstein (Eds.), The
+Class Size Debate. Washington, DC: Economic Policy Institute. Retrieved June 5, 2016, from
+http://hanushek.stanford.edu/sites/default/files/publications/Hanushek%202002%20ClassSizeDebate.pdf
+10 Krueger, A. (2002) Economic Considerations and Class Size. NBER Working Paper No. 8875. Retrieved June
+5, 2016, from http://www.nber.org/papers/w8875
+11 Mostellar, F. (2008, May). The Tennessee Study of Class Size in the Early School Grades. The Future of
+Children, 5(2), 117. Retrieved June 8, 2016, from
+https://www.princeton.edu/futureofchildren/publications/docs/05_02_08.pdf
+12 Krueger, A. (2002). A Response to Eric Hanushek’s “Evidence Politics, and the Class Size debate.” In L. Mishel
+& R. Rothstein (Eds.), The Class Size Debate. Washington, DC: Economic Policy Institute. Retrieved June 5,
+2016, from
+http://hanushek.stanford.edu/sites/default/files/publications/Hanushek%202002%20ClassSizeDebate.pdf
+13 Dustmann, C., et al. (2015). Class Size, Education and Wages. Journal of Labor Economics 33(3), 711-750.
+Fredriksson, P,, Öckert, B., & Oosterbeek, H. (2011). Long-Term Effects of Class Size. IZA Discussion Paper #
+5879. Retrieved June 6, 2016, from http://ftp.iza.org/dp5879.pdf
+Babcock, P. & Betts, J. (2009). Reduced Class Distinctions: Effort, Ability, and The Education Production
+Function. Journal of Urban Economics, 65, 314-322. Retrieved June 6, 2016, from
+http://econweb.ucsd.edu/~jbetts/Pub/A60%20babcock%20and%20betts%20JUE%202009.pdf
+Blatchford, P., Bassett, P., & Brown, P. (2008). Do low attaining and younger students benefit most
+from small classes? Results from a systematic observation study of class size effects on pupil classroom
+engagement and teacher pupil interaction. Paper delivered to the American Educational Research Association
+Annual Meeting, New York. Retrieved June 6, 2016, from
+http://www.classsizematters.org/wp-content/uploads/2011/04/Blatchford_2008.pdf
+14 McLaughlin, D. & Drori, G. (2000). School-Level Correlates of Academic Achievement: Student Assessment
+Scores in SASS Public Schools. U.S. Department of Education. National Center for Education Statistics NCES
+303. Retrieved June 6, 2016, from http://nces.ed.gov/pubs2000/2000303.pdf
+15 Jackson, C.K., Johnson, R.C., & Persico, C. (2015). The effects of school spending on educational and
+economic outcomes: Evidence from school finance reforms (No. w20847). Cambridge, MA: National Bureau
+of Economic Research. Retrieved June 1, 2016, from http://www.nber.org/papers/w20847
+16 Zyngier, D. (2014). Class size and academic results, with a focus on children from culturally, linguistically and
+economically disenfranchised communities. Evidence Base 2014(1). Retrieved June 5, 2016, from
+http://www.classsizematters.org/wp-content/uploads/2014/05/EvidenceBase2014Issue1.pdf
+17 Jepsen, C. & Rivken, S.(2009). Class Reduction and Student Achievement: The Potential Tradeoff between
+Teacher Quality and Class Size. Journal of Human Resources, 44(1), 223-250.
+Gordon, R.,, Kane, T. and Staiger, D. (April 2006). Identifying Effective Teachers Using Performance on the
+Job. Hamilton Project, Retrieved June 6, 2016 from
+http://www.brookings.edu/views/papers/200604hamilton_1.pdf
+18 Isenberg, E. (2010, February), The Effect Of Class Size On Teacher Attrition: Evidence From Class Size
+Reduction Policies In New York State, US Census Bureau Center for Economic Studies, Paper No. CES-
+WP-10-05.
+Bohrnstedt, G. & Stecher, B. (2002, September). What We Have Learned About Class Size Reduction in
+California, Technical Appendix, APPENDIX C: Class Size Reduction and Teacher Migration. Retrieved June
+6, 2016, from http://www.classiz.org/techreport/CSRYear4_final.pdf
+19 Clinton Demands $1.4 Billion to Reduce Class Size. (1999, April). Education Reporter, 159. Retrieved May 30,
+2016, from http://www.eagleforum.org/educate/1999/apr99/class_size.html
+20 Harris, D. (2007). Class Size and School Size: Taking the Trade-Offs Seriously, In Frederick Hess and Tom
+Loveless (Eds.), Brookings Papers on Education Policy 2006-2007 (137-61). Washington, DC: Brookings
+http://nepc.colorado.edu/publication/research-based-options 6 of 7
+Institution.
+21 Krueger, A. & Whitmore, D. (2000, April). The Effect of Attending a Small Class in the Early Grades on
+College-Test Taking and Middle School Test Results: Evidence from Project STAR. Working Paper 7656.
+Retrieved May 30, 2016, from http://www.nber.org/papers/w7656
+22 Dynarski, S., Hyman, J. & Schanzenbach, D. (2011, October 16). Experimental Evidence on the Effect of
+Childhood Investments on Postsecondary Attainment and Degree Completion. Retrieved June 5, 2016, from
+http://www.classsizematters.org/wp-content/uploads/2012/10/dynarski-120426.pdf
+23 Chetty, R., et al. (2010, September). How Does Your Kindergarten Classroom Affect Your Earnings? Evidence
+from Project Star. The Quarterly Journal of Economics, 126(4), 1593-1660. Retrieved June 6, 2016, from
+http://qje.oxfordjournals.org/content/126/4/1593.full
+24 Dee, T. & West, M. (2011). The Non-Cognitive Returns to Class Size. Educational Evaluation and Policy
+Analysis, 33(1), 23-46.
+25 Maier, P., Molnar, A., Percy, S., Smith, P., & Zahorik, J. (1997). First Year Results of the Student Achievement
+Guarantee in Education Program. Retrieved May 30, 2016, from
+http://nepc.colorado.edu/files/yearend97_0.pdf
+26 Chingos, M. & Whitehurst, G. (2011, May 11). Class Size: What Research Says and What it Means for State
+Policy. Washington, DC: Brookings Institute. Retrieved June 5, 2016, from
+http://www.brookings.edu/research/papers/2011/05/11-class-size-whitehurst-chingos
+27 Schanzenbach, D.W. (2014). Does Class Size Matter? Boulder, CO: National Education Policy Center.
+Retrieved May 30, 2016, from http://nepc.colorado.edu/publication/does-class-size-matter
+28 Schanzenbach, D.W. (2014). Does Class Size Matter? Boulder, CO: National Education Policy Center.
+Retrieved May 30, 2016, from http://nepc.colorado.edu/publication/does-class-size-matter
+This is a section of Research-Based Options for Education Policymaking, a multipart brief
+that takes up a number of important policy issues and identifies policies supported by research.
+Each section focuses on a different issue, and its recommendations to policymakers are based on
+the latest scholarship. Research-Based Options for Education Policymaking is published by
+The National Education Policy Center and is made possible in part by funding from the Great Lakes
+Center for Education Research and Practice.
+The National Education Policy Center (NEPC), housed at the University of Colorado Boulder School
+of Education, produces and disseminates high-quality, peer-reviewed research to inform education
+policy discussions. Visit us at: http://nepc.colorado.edu
+http://nepc.colorado.edu/publication/research-based-options 7 of 7

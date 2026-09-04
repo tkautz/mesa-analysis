@@ -1,0 +1,1840 @@
+--- page 1 ---
+Boulder County Public Health
+Community Health Assessment Data
+June 2023
+--- page 2 ---
+Boulder County
+Community Health Assessment
+For more information, please contact:
+Elise Waln, MPH Rachel Mintle, MPH
+Health Planning & Evaluation Manager Health Planner
+Strategic Initiatives Branch Strategic Initiatives Branch
+Boulder County Public Health Boulder County Public Health
+Office: 303-678-6304 | Mobile: 303-489-6588 303-413-7518
+ewaln@bouldercounty.org rmintle@bouldercounty.org
+OMNI Project Team: Devanae Allen, Christina Chavez, Ona Crow, Bianca Gonzalez de la Rosa, Claire Luce, Emily Murillo,
+and Becca Ruiz
+Acknowledgments:
+OMNI Institute would like to thank:
+• The Boulder County community members who attended focus group discussions and/or attended the May 2023
+Community Open House. These community members contributed their time, critical insights, and perspectives on
+mental and behavioral health needs in Boulder County.
+• The Boulder County Public Health (BCPH) core project team and workgroup members who collaborated with OMNI
+on the entire CHAPS process including the implementation plan; review of data collection tools, data and
+interpretation of findings; and outreach and connection with community members and organizations to ensure the
+voices of key focus populations were represented in the process. Workgroup members included:
+Indira Gujral, MS, PhD –Division Manager, Daphne McCabe, MBA, MSW –Division
+o o
+Communicable Disease & Emergency Management Manager, Family Health
+Kari Middleton, PhD -Emergency Management Planner David LaRocca -Mental & Behavioral Health
+o o
+Allison Bayley, MPH, CHES -Community Substance Abuse Coordinator
+o
+Prevention & Inspire Youth Connections Project Manager Rachel Mintle, MPH –Health Planner
+o
+Seb Fairbanks -OASOS Program Specialist Elise Waln, MPH –Health Planning & Evaluation
+o o
+Rachel Arndt, LEED AP, AICP -Built Environment & HEAL Manager
+o
+Coordinator Jax Gonzalez, PhD -OSASOS Program
+o
+Carol McInnes -Environmental Health Specialist Coordinator
+o
+Bill Hayes, PE -Air Quality Program Coordinator Kelli Hintch -Strategic Initiatives Director
+o o
+Megan Hale, LCSW, IMH-E (IV) -Early Childhood Mental Lexi Nolen, MPH, PhD –Executive Director
+o o
+Health Consultant
+• Boulder County’s Behavioral Health Roadmap efforts, with great appreciation to Marcy Campbell for ongoing
+collaboration with BCPH and OMNI to share information and align efforts.
+• Community partners who shared primary data from their own information gathering efforts with focus
+populations that helped develop the community snapshots central to this report. These partners offered space
+in existing and additional meetings to discuss and gather community input. Key partners included:
+• Area Agency on Aging • Boulder County Nurse Family Partnership
+• Boulder County Housing and Human Services • Genesis
+and their partners at the University of New • Women, Infants, & Children Program
+Hampshire’s SMART Program • Youth Advocating for Youth (YAY)
+• Additional community organizations and service providers who shared their own critical perspectives
+and expertise to ensure the needs of focus populations were elevated in the report.
+2
+--- page 3 ---
+Boulder County
+Community Health Assessment
+Table of Contents
+Introduction………………………………………………………………………………………………………………………………………………….4
+Methods…………………………………………………………………….…………………………………………………………………………………5
+The Importance of Social Determinants of Health…………………………………………………………………………………………8
+Navigating the Data in This Report………………………………………………………………….…………………………………………….9
+Boulder County Snapshot……………………………………………………………………………………………………………….…………..12
+Natural Disasters & Climate Change…….……………………………………………………………………………………………….…….15
+Rural & Mountain Communities ….……………………………………………………………………………….…………………………….16
+Maternal Health Snapshot……..……………………………………………………………………………………………………………………18
+Youth Snapshot……………………………………………………………………………………………………………………………………………21
+Young Adult Snapshot……………………………………………………………………………………………….………………………………..24
+Older Adults Snapshot……………………………………………………………………………………….……………………………………….28
+Hispanic/Latinx/LatineSnapshot………………………………………………………………………………………………………………...30
+LGBTQ+ Snapshot.……………………………………………………………………………………………………………………………………….34
+People Experiencing Homelessness Snapshot……………………………………………………………………………………………..38
+People with Disabilities Snapshot……………………………………………………………………………………………………………….40
+Capacity Assessment…………………………………………………………………………………………………………………………………..41
+Conclusion & Next Steps……………………………………………………………………………………………………………………………..48
+References: ……………………………………………………………….……………………………………………………………………………….49
+3
+--- page 4 ---
+Boulder County
+Community Health Assessment
+Introduction
+Every five years, all public health agencies in Colorado are required to follow the Colorado Health Assessment and
+Planning System (CHAPS) process to create a public health improvement plan for submission to the Office of Public
+Health Practice, Planning, and Local Partnerships (see visual below). In 2022, Boulder County Public Health (BCPH)
+partnered with OMNI Institute to conduct a community needs assessment and corresponding Public Health
+Improvement Plan for 2023-2028.
+During this same timeframe, Boulder County Commissioners funded a Behavioral Health Planning team (led by
+Boulder County Community Services Department) to conduct an assessment of the County’s behavioral health
+system and develop a shared vision and long-term strategic plan, or Behavioral Health Roadmap. In combination
+with other county assessments, BCPH made the decision to focus their CHAPS process on mental and behavioral
+health, partnering closely with the Roadmap team throughout the process to discuss emerging findings and align
+priorities. The Roadmap team contributed extensive qualitative data gathered through their community
+engagement efforts which is integrated throughout this report.
+The Community Health Assessment (CHA) process took place between September 2022 and March 2023 and was
+guided by a workgroup comprised of members from Boulder County Public Health working directly with key
+populations in the County and involved in mental & behavioral health-related efforts. The process included
+extensive input from a variety of community partners, local leaders, and community members. It also included a
+capacity assessment that identified key strengths related to addressing behavioral health needs within BCPH and
+in Boulder County, as well as opportunities for growth.
+This report details the assessment process and the data synthesized from secondary data sources and county-level
+community engagement efforts. It also provides a summary of the capacity assessment, summarizing BCPH’s
+current resources and ability to address identified needs. The findings from these two assessments are intended to
+directly inform a robust planning process leading to the development of the Boulder County Public Health
+Improvement Plan (PHIP).
+The Colorado Public Health Assessment and Planning System
+The Colorado Public Health Assessment and Planning System, or CHAPS, is a standardized, coordinated
+approach to public health planning used by local public health agencies across the state of Colorado.
+The Community Health The Capacity Assessment
+Assessment is a comprehensive assesses the ability of the
+assessment of the community's community/Boulder Public Health
+health and environmental to address local priority issues,
+status including building upon current
+relevant efforts and collaborations
+The Public Health Improvement Plan
+describes priorities for health improvement, involved partners, action plans, and
+methods to evaluate progress
+4
+--- page 5 ---
+Boulder County
+Community Health Assessment
+Methods
+It is important for local public health departments to utilize the core CHAPS model while remaining responsive to the
+unique context of their communities. The visual below depicts the specific CHAPS process for Boulder County Public
+Health, followed by a summary of steps involved in the core components of this CHA report. Subsequent pages
+further detail the methods used for data synthesis and selecting the focus areas for the Boulder County CHA.
+The Boulder County Community Health Assessment & Public Health Improvement Planning Process
+Secondary Data Prioritization of
+Review Focus Populations
+Synthesis of Community Engagement Data
+from Focus Populations
+Data Synthesis, Capacity Initial Strategy Community PHIP
+Review & Final Assessment Development Strategy Input Development
+Prioritization
+Key steps for the Boulder CHA and Capacity Assessment included:
+Community Health Assessment (CHA) Capacity
+Assessment
+Secondary data was compiled and summarized to highlight key areas of Key strengths and gaps in existing mental
+strength and opportunities for improvement in mental and behavioral and behavioral health services were
+health (MBH) in Boulder County. identified at the county level, for each
+Disparities were explored and focus populations were selectedby the focus population, and for Boulder
+CHA/PHIP Workgroup. County Public Health.
+Community input from focus populations was gathered through extensive Gaps in knowledge were filled in
+county-level community engagement efforts and explored: root causes of through CHA/PHIP Workgroup input and
+MBH challenges for specific communities; existing strengths and resources an internal BCPH Capacity Survey
+that already support the community; and strategies and activities for BCPH
+administered in early 2023.
+that will improve MBH for focus populations and the county as a whole.
+5
+--- page 6 ---
+Boulder County
+Community Health Assessment
+Methods
+Secondary Data Review
+The initial step inthe assessment processwas forOMNI's research team to summarize available secondary data on
+mental and behavioral health for Boulder County. The primary goal was to pinpoint potential inequities experienced
+by subpopulations in the County. The secondary data synthesis also focused specifically on mental and behavioral
+health behaviors and outcomes that Boulder County Public Health has the ability to directly address or influence. As
+noted previously, Boulder County wasalready engaged in a variety of community health assessment efforts such as
+the Behavioral Health Roadmap. OMNI and the BCPH CHA/PHIP Workgroup made intentional efforts to avoid
+duplication of these efforts and to minimize the burden on community groups that had already offered related
+input.
+Data were pulled from various secondary sources, including the Healthy Kids Colorado Survey, the Colorado
+Department of Public Health and Environment's Colorado Health Indicators, and the United States (U.S.) Census.
+The team aimed to collect data that were disaggregated by population characteristics, such as race/ethnicity, sexual
+orientation, gender identity, and age group, wherever possible, to identify potential disparities. However, there
+were limitations to the availability of data for some of these populations, which emphasizes the pervasive need for
+more disaggregated data collection efforts, particularly for historically underrepresented groups.
+After collecting and disaggregating the data, the team reviewed and analyzed it for changes over time, key trends in
+disparities across subpopulations, and comparisons to state and national averages to identify both county strengths
+and areas of need. The data were then organized and cataloged into key behavioral health domains and presented
+to the CHA/PHIP Workgroup for review and interpretation. The online platform Padlet was used tofacilitate
+Workgroup discussion and the selection of initial priorities, as itallows for group interaction, commenting, and
+prioritization processes. It should be noted that disparities and inequities across social identities influence mental
+and behavioral health outcomes, which was a lens applied throughout the CHAPS process .
+Initial Prioritization Process
+The CHA/PHIP Workgroup reviewed and discussed the Padlet data and decided upon the initial groups listed
+below that would be centered in the subsequent process of compiling community input. These focus populations
+were selected based on disparities apparent in the data and additional local context and expertise shared among
+Workgroup members. Gathering input from these groups is crucial to identifying the underlying causes of
+challenges within their communities, recognizing existing strengths and resources, and proposing potential
+strategies and activities for BCPH to enhance mental and behavioral health. The process aimed to elevate insights
+shared directly by the individuals experiencing disparities in order to shape effective solutions that are
+contextually relevant and culturally responsive. These initial groups included:
+o New parents, infants and young children o People with disabilities
+o Youth and young adults o Additional context/considerations for the following
+Older adults (with considerations for older men groupsas available:
+o
+as available)  Mountain communities, with additional context re:
+LGBTQ+ community members older adults
+o
+Hispanic/Latinx/Latinecommunity members  People impacted by climate change
+o
+People experiencing homelessness  Low-income communities
+o 6
+--- page 7 ---
+Boulder County
+Community Health Assessment
+Methods
+Qualitative Data Review
+Once the key focus populations were determined, OMNI and the CHA/PHIP Workgroup carefully considered existing
+county-level community information gathering efforts to avoid duplication and overburdening community partners
+who had already received multiple request for input. The majority of qualitative data summarized in this report was
+therefore compiled from Behavioral Health Roadmap community engagement efforts as well as multiple BCPH
+community engagement efforts. OMNI also conducted numerous meetings with county-level service providers and
+facilitated two focus groups with Nurse Family Partnership (NFP) and Women, Infants, and Children (WIC). Qualitative
+also drew from a variety of reports, including the Cross Agency Alignment Final Report, BoCoCOVID-19 Impact Study,
+the 2022 Community Assessment Survey for Older Adults (CASOA) Report, Cultural Brokers Mosaics Report, multiple
+Youth Advocating for Youth sessions, and various Mental and Behavioral Health Roadmap sessions held throughout
+the community.
+Data were explored by focus population and key themes were identified. Themes were then organized into BCPHs
+existing Mental and Behavioral Health Framework (see below). Overall needs and themes were separated among
+primary intervention, early intervention, and harm reduction categories. Potential strategies were also identified and
+organized into the Framework’s six objectives and strategies.
+7
+--- page 8 ---
+The Importance of Social Determinants of Health
+It is important to acknowledge the importance of social determinants of health to fully contextualize
+the data included in this report. The Public Health system’s role is to prevent and reduce the burden of
+disease and negative health outcomes. To achieve this goal, public health focuses on both "upstream"
+There are many public health models showing how multiple spheres of influence impact health outcomes and
+inequities (Bay Area Regional Health Inequities, 2020; Centers for Disease Control and Prevention, 2022; Shah et al.,
+2017; World Health Organization, 2010). While this CHA process focused on mental and behavioral health outcomes,
+it is essential to acknowledge the significant influence that structural and social factors have on health behaviors,
+outcomes, and inequities.
+Social Inequities
+Social inequities create the foundation for inequitable and disparate resource distributions
+and resulting health outcomes. Social inequities include, but are not limited to, socioeconomic
+status (education, occupation, income), race/ethnicity, immigration status, gender, and sexual
+orientation.
+Institutions
+Institutions hold power and influence over how our social and physical environments are
+shaped. Institutions include government agencies and their laws/policies, corporations and
+businesses, schools, and religious organizations.
+Living & Community Conditions
+Where we live dictates a lot about our lives. Where our home and community are situated
+can have environmental impacts (e.g., exposure to toxins), social impacts (e.g., school
+funding, community violence), and economic impacts (e.g., employment opportunities) that
+have large influence on our health.
+Health System
+Access to affordable, unbiased, timely, and physically proximate health care is imperative for
+receiving preventative care and treatment of health issues. This includes physical health services,
+mental and behavioral health treatment, and oral health care. Many aspects that are further
+upstream (e.g., social inequities, government policies, community infrastructure) impact a
+community’s health system.
+Health Behaviors & Biological Factors
+Health behaviors, such as substance use, nutrition, physical activity, and sexual behaviors, have a
+direct impact on our health outcomes. Much of individuals’ health behaviors are influenced
+heavily by further upstream factors (e.g., social behavior norms, access to healthy foods and
+green space, community proximity to liquor stores). Biological factors such as age, sex, and
+genetics may also increase or decrease risk for certain health outcomes.
+Health Outcomes
+Individual health outcomes are influenced by all of the upstream factors described above.
+8
+maertspU
+Downstream
+Boulder County
+Community Health Assessment
+and "downstream" factors that affect health outcomes. Upstream factors may appear unrelated to health, but they are
+strongly connected to a population and individuals' health outcomes. Downstream factors tend to be what have more
+traditionally been focused on of as individual-level predictors of health.
+8
+--- page 9 ---
+Boulder County
+Community Health Assessment
+Navigating the Data in this Report
+The remainder of this report summarizes Boulder County data for each of the focus populations selected. Each
+section begins with a snapshot of secondary indicator data collected from various data sources. This is followed by a
+summary of community input themes synthesized from Boulder County Roadmap efforts and other county-level
+community engagement efforts. Below are important notes regarding how data are presented:
+Understanding the Secondary Indicator Data
+• Snapshots of secondary indicator data are presented for each priority population on pages titled “[Focus
+Population] Snapshot: Mental Health” and “[Focus Population] Snapshot: Behavioral Health.”
+• Indicator data are compared across sub-populations as well as the following geographic areas: Boulder County,
+Colorado overall, and, in a few instances, the United States as a whole.
+• Due to the limited sample sizes of disaggregated county-level data, the confidence intervals for many of the
+indicators used in this report may be large. As a result, differences reported may not necessarily be statistically
+significant. However, these trends still provide valuable insights and help gain a better understanding of the
+experiences of different groups and communities in the county.
+• Disparities across populations within the county are highlighted, as well as some comparisons to the state overall.
+These are intended to serve as an initial starting point for BCPH reflection and dialogue for the PHIP process –
+they are not intended to represent a comprehensive summary of community perspectives on MBH.
+High-level comparisons of county and state data are presented in the following green boxes:
+High-level county and state comparisons are
+presented in a box that looks like this.
+Additional context or data pertaining to Boulder County only are reported in these call-out boxes:
+County-specific information is displayed in a
+box like this.
+Understanding Key Themes from Boulder County Community Engagement Efforts
+• Qualitative data highlighting community perspectives on mental and behavioral health are presented for each
+snapshot on pages titled “[Focus Population]: Additional Context from Community Engagement Efforts.” Each of
+these are presented in the following order:
+Key Themes and/or Needs Identified are indicated with this icon:
+Potential MBH Framework Strategies that emerged from the
+qualitative data were synthesized and grouped into the BCPH
+Mental and Behavioral Health Framework areas, indicated with this icon:
+9 9
+--- page 10 ---
+Boulder County
+Community Health Assessment
+Navigating the Data in this Report
+It is important to note that, as with all secondary survey data, there are certain constraints in terms of analysis and
+reporting of findings. These limitations arise from the way questions were phrased in the survey instrument, as well
+as how the data were disaggregated by the source from which it was obtained. Results must be presented using the
+same language and terms as those used in the survey instrument.
+The priority populations highlighted in this report are outlined below with relevant contextual information that may
+be useful in understanding the data and its limitations.
+County snapshot data are highlighted and compared to Colorado and the U.S. overall to provide
+an overview illustration of mental and behavioral health in Boulder County. Due to limited mental
+and behavioral health data available for natural disasters, climate change, and rural/mountain
+communities, this section is supplemented with qualitative context pertaining to these areas.
+Maternal Health snapshot data include both Boulder and Broomfield counties due to lack of
+available data for Boulder County only. Data are disaggregated by age group, ethnicity, and annual
+household income. This section is followed by additional qualitative context pertaining to Mothers,
+Children, and Infants.
+Youthsnapshot data pertain to high school students in Boulder Valley School District and are
+separated by sex and gender, race/ethnicity, sexual orientation, and gender identity. The survey
+data had two significant flaws that impacted our analysis and reporting: sex terms and gender terms
+were conflated and the manner in which respondents’ racial/ethnic identities were reported deviate
+from standard practice. Additional context is provided on this matter as data are presented.
+Young Adult snapshot data focus on the experiences of individuals aged 18 to 24 years. Due to
+the way disaggregated data were reported to the OMNI Research Team, snapshot data compare
+young adults to the overall average of all aged 18+. This section is followed by additional qualitative
+context for both the Youth and Young Adult populations.
+Older Adult snapshot data focus on mental health among individuals aged 55 years or older and
+compare older adult mental health to data of all adults ages 18+. Because a small percentage of
+people in this age group report substance use/misuse, behavioral health data are not included. This
+section is followed by additional qualitative context for Older Adult populations.
+Hispanic/Latinx/Latine snapshot data focuses on mental and behavioral health amongthose
+who identify as Hispanic or Latino/a/x/e. Snapshot data are reported using term Hispanic/Latinx to
+align with the terms used by the survey source. This section is followed by additional qualitative
+context and uses the term Latine, rather than Latinx, as this emerging term is gender inclusive and
+aligns with the Spanish language.
+10
+10
+--- page 11 ---
+Boulder County
+Community Health Assessment
+Navigating the Data in this Report
+LGBTQ+ snapshot quantitative data highlight inequalities in mental and behavioral health among
+those who identify as Lesbian, Gay, Bisexual or other diverse sexualities (LGB+). It is important to
+note the limitations of this snapshotdata as data disaggregated by gender identity were not
+available. The quantitative data in this section is thereforelimited to sexual orientation only and
+highlights an important need to improve inclusive data collection practices at the county, state, and
+national levels. The LGBTQ+ section that follows, highlights broader qualitative context and refers to
+both sexual orientation and gender identity.
+People Experiencing Homelessness snapshot data pertain to people experiencing
+homelessness and include indicators related to mental and behavior health as well as additional
+areas to consider. This section is followed by additional qualitative context pertaining to people
+experiencing homelessness. Availability of snapshot data were particularly limited for this
+population which highlights an important need to expand data collection efforts at the county and
+state levels to be more inclusive of individuals experiencing homelessness.
+People with Disabilities quantitative snapshot data could not be obtained for this report.
+However, qualitative findings from important county-level disability needs assessment and
+community engagement efforts are summarized in this section.
+11
+11
+--- page 12 ---
+Boulder County
+Community Health Assessment
+Boulder County Overview
+Geography & Culture
+Boulder County is nestled at the base of the foothills of the Colorado Rockies with a
+population of 330,758 according to the 2020 United States Census1. The county is comprised
+ten incorporated municipalities—Boulder, Erie, Jamestown, Lafayette, Longmont, Louisville,
+Lyons, Nederland, Superior, and Ward—as well as the unincorporated areas of the county.
+Among the ten incorporated municipalities, the City of Boulder has the largest population,
+accounting for about one third of the county’s total population, followed by Longmont,
+which had a population of 98,885 in 2020. Overall, the ten incorporated municipalities
+account for approximately 87% of the county’s residents. The remaining 13% live in
+unincorporated areas2.
+Demographics
+According to the 2020 Census Count, 330,758people live in Boulder County.
+13% of Boulder 18% of Boulder County residents 49% of Boulder 14.6% of Boulder County
+County’s population are below 18 years old County’s population residents speak a language
+lives in an (21% for Colorado). identifies as female at home other than English1.
+unincorporated 16% of Boulder County residents (49% for Colorado)1.
+area2. are 65 years or older
+(15% for Colorado)1.
+The majority (77.3%) of Boulder County identifies as non- 10% of Boulder County’s
+Hispanic White, a larger share than Coloradooverall (67.0%)1. population are foreign-born1.
+67.0%
+Non-Hispanic White
+77.3%
+22.3%
+Hispanic/Latinx
+14.1%
+3.8% 10%
+Asian/Pacific Islander
+5.9%
+4.7%
+Black
+1.2%
+American Indian/ 1.7%
+Alaska Native 0.9%
+Colorado Boulder
+12
+1 U.S. Census Bureau. (Accessed March 2023).U.S. Census Bureau Quickfacts.
+2 Metro Denver EDC. (2021). Boulder County, Colorado –2021 Economic Profile. 1122
+--- page 13 ---
+Boulder County
+Community Health Assessment
+County Snapshot: Mental Health
+The data highlighted below provide a snapshot of mental and behavioral health indicators from various sources and
+pertain to individuals aged 18 years or above. All trends identified are based on these data.
+Mental Health Challenges
+of Boulder County residents
+of Boulder County 18%
+19% (nearly 1 in 5) experienced 8+
+residents have ever
+days where their mental health
+been told they had a
+was not good in the past 30
+depressive disorder1.
+days1.
+8-13 days: 5%
+The prevalence of mental health issues among 14+ days: 13%
+Boulder County adults closely resembles the
+prevalence among Colorado adults.
+Suicide Suicide Over Time
+In 2021, the rate of deaths by suicide per From 2020 to 2021, the rate of suicide deaths per
+100,000 (age-adjusted) inBoulder County 100,000 (age-adjusted) rose across all three geographic
+waslower compared to the Coloradobut areas4,5. However, Boulder County saw an increase of
+higher than in the U.S.overall2,3. 14%, roughly 3x the increase experienced in Colorado
+and the U.S. overall.
+22.6
+22.6
+21.6
+20.1
+20.1
+17.7
+CCoOlorado
+14.0
+13.5 14.0 Boulder
+US
+Boulder Colorado US 2020 2021
+1. Behavioral Risk Factor Surveillance Survey (2019-2021 Combined); 2. Colorado Vital Statistics Program (2021); 3. 13
+Centers for Disease Control and Prevention (2021);4.Colorado Vital Statistics Program (2020-2021); 5.Centers for
+Disease Control and Prevention (2020-2021)
+--- page 14 ---
+Boulder County
+Community Health Assessment
+County Snapshot: Behavioral Health
+NOTE: Some of the results displayed below are on an adjusted scale for visualization. Percentages can range from
+0% -100%.
+Substance Use Prescriptions Dispensed
+Compared to Coloradooverall, a higher percentage of Compared to Colorado, Boulder County dispensed
+residents in Boulder County used cannabis in the past 30 fewer Opioid prescriptions per 1,000 residents and
+days and a lower percentage binge drank (5+ drinks for more Stimulant prescriptions per 1,000 residents6.
+males and 4+ drinks for females on an occasion), smoked,
+or used an e-cigarette in the past 30 days1.
+Boulder County Colorado
+Current 22%
+Cannabis Use 19% 489
+Current 16%
+333
+Binge Drinking 18%
+199
+10% Boulder County 171
+Current Smoker
+13% Colorado
+Opioid prescriptions Stimulant prescriptions
+Current E- 6%
+dispensed per 1,000 dispensed per 1,000
+Cigarette Use 7%
+0% 22%
+Access to Care Overdose Deaths
+Compared to Colorado, the percentage of residents who The rate of overdose deaths due to any drug
+were uninsured was lower in Boulder County7. A smaller per 100,000 (age-adjusted) is lower in Boulder
+percentage of Boulder Countyresidents received County than in the Coloradooverall2.
+treatment for mental health or emotional problems
+relative toColoradoresidents8.
+32
+Boulder County Colorado
+Uninsured 7% 9%
+16
+13%
+Received
+14%
+Treatment
+0% 15% Boulder Colorado
+14
+6.Colorado Prescription Drug Monitoring Program (2019); 7. Small Area Health Insurance Estimates Program, U.S.
+Census Bureau (2020); 8. Behavioral Risk Factor Surveillance Survey (2016-2019 Combined)
+--- page 15 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+Natural Disasters and Climate Change:
+Additional Context from Community Engagement Efforts
+Recent county-level community engagement efforts related to natural disasters, environment, and climate
+changewere limited.A few themes surfaced from YAY youth engagement efforts with Adelante and Colie’s
+Closet, and an OMNI led focus group with Nurse Family Partnership in March of 2023. There were not enough
+data to determine clear potential PHIP strategies at this time, but the summary below may serve as an initial
+starting point for dialogue and further exploration during the PHIP development process.
+Key Themes and/or Needs Identified
+The Nurse Family Partnership focus group participants shared the following concerns related to infants,
+young children, and parents:
+• Concern around the emergency alert system not being as robust as it should be
+• Fear that another natural disaster, such as the Marshall Fire can happen in the near future
+• Awareness that environmentaldisasters and air quality are affecting the health of children in the
+community
+Youth concerns shared through YAY youth engagement efforts included the following:
+• Lack of sufficient green spaces/trees in their communities
+• Concerns that the water in some communities is not safe/potable
+I wish people in power knew…that worrying about fixing world problems like
+climate change/global warming is so stressful but more laws keep not caring and our
+rights for people of different genders is very stressful.
+-YAY Colie’s Closet Participant
+Potential MBH Framework Strategies
+The themes above suggest the following potential strategies, organized below into the
+key areas of BCPH’s MBH Framework:
+Address community conditions and policy
+• Expand equitable access to green spaces.
+• Advocate for policies that combat global warming and climate change.
+Early prevention efforts
+• Host community events related to emergency preparedness (e.g., how to prepare a home emergency
+kit), to help reduce anxiety among families, especially those with young children.
+• Host events that provide home insurance policy education to help reduce anxiety and increase
+preparedness.
+15
+15
+--- page 16 ---
+Boulder County
+Community Health Assessment
+Rural and Mountain Communities:
+Additional Context from Community Engagement Efforts
+Available datarelated to the specific mental and behavioral health needs of rural and mountain communities
+were limited. The emerging themes outlined below surfaced in Behavioral Health Roadmap conversations.
+There were not enough data to determine clear potential PHIP strategies at this time, but themes below may
+serve as an initial starting point for dialogue and further exploration during the PHIP development process.
+Key Themes and/or Needs Identified
+Access
+• Lack of access to mental health care in mountain communities
+Specific sub-populations within rural and mountain areas needing additional support
+• Youth
+• Older adults experiencing isolation
+Potential MBH Framework Strategies
+The themes above suggest the following potential strategies, organized below into the
+key areas of BCPH’s MBH Framework:
+Foster community connectionsand belonging
+• Promote free and accessible events or spaces for rural and mountain communities.
+Increase communitycapacity for mental health
+• Expand mental health services offered at Mental Health Partners to Lyons, Ned, Hygiene, and other
+mountain communities
+16
+16
+--- page 17 ---
+Boulder County
+Community Health Assessment
+Maternal Health Snapshot: Mental Health
+Data in this report include highlights from the 2016-2021 Colorado Pregnancy Risk Assessment Monitoring System
+(PRAMS) dataset and pertain to experiences of individuals during and after pregnancy.All trends identified are based
+on these data.Please note that the data and trends identified are representative of both Boulder and Broomfield
+Counties as data for Boulder County alone were not available.Results displayed below are on an adjusted scale for
+visualization. Percentages can range from 0% -100%.
+Overall Age
+of recently pregnant people in Boulder The prevalence of depression among recently pregnant
+9% and Broomfield Counties reported people varied as age increased; however, a higher
+experiencing depression during percentage of those between the ages of 15 and 24
+pregnancy. experienced depression during pregnancy than those 25
+years or older.
+of recently pregnant people in Boulder
+10%
+and Broomfield Counties reported 15-24 25-34 35+
+25%
+experiencing postpartum depression.
+23%
+Maternal mental health in Boulder 7% 9%
+6% * 2%
+and Broomfield Counties closely
+0%
+resembles maternal mental health
+Depression during Postpartum
+in Colorado overall.
+pregnancy depression
+Ethnicity Income
+Across ethnic groups, depression during pregnancy A higher percentage of recently pregnant people with
+was similar. However, a larger percentage of those annual household income of$73,000 or less in
+who are Hispanic/ Latinx experienced postpartum experienced depression during or after pregnancy,
+depression.Thisunderscoresa need to engage highlighting the need for additional support among
+with the communityto better understand and pregnant people with low-to-moderate income.
+address the underlying causes of this difference.
+Depression 12% <$32k
+Depression during Postpartum depression during 9%
+$32k-$73k
+pregnancy 7%
+Hispanic/ >$73k
+10% 20%
+Latinx
+12%
+Postpartum
+NH/NLx 7% 9%
+18%
+depression
+5%
+0% 25% 0% 25%
+111777
+* Indicates data point was suppressed.
+Source: Colorado PRAMS, Colorado Department of Public Health and Environment, 2016-2020
+--- page 18 ---
+Boulder County
+Community Health Assessment
+Maternal Health Snapshot: Behavioral Health
+Overall Age
+of pregnant people in Boulder and During the last trimester, drinkingwas more common
+17% Broomfield Counties reported among those 35 years or older, while smokingwas more
+drinking in the last 3 months of common among those between 25 and 34 years of age.
+pregnancy. Data was not available for those under 25 years of age.
+of pregnant people in Boulder and
+8% Smoked during Drank during
+Broomfield Counties reported
+last trimester last trimester
+consuming cannabis† at any time
+during pregnancy.
+25-34 years 5% 14%
+of pregnant people in Boulder and
+4%
+Broomfield Counties reported smoking
+in the last 3 months of pregnancy. 35 years+ 2% 30%
+The prevalence of substance use
+during pregnancy in Boulder and 0% 35%
+Broomfield Counties is similar to
+that of Colorado overall.
+Ethnicity Income
+Across ethnic groups, drinking during the last The prevalence of drinking during the last trimester
+trimester and using cannabis at any time during increased as annual household income increased. The
+pregnancy was more common among those who opposite is true for cannabis and smoking; use rates
+are Hispanic/Latinx. Smoking during the last decreased as income increased.
+trimester was more common among those who
+<$32k $32k-$73k >$73k
+are Non-Hispanic/Non-Latinx (NH/NLx).
+35%
+Drank during 25%
+last trimester 14%
+24%
+20%
+Used cannabis 13%
+15%
+at any time 7% Hispanic/Latinx 13% 11%
+2%
+NH/NLx 6% 1%
+*
+0%
+Smoked during 2% Drank during Used cannabis Smoked during
+last trimester 5% last trimester at any time last trimester
+0% 35%
+18
+† The term cannabis is used instead of marijuana. These terms are synonymous.
+* Indicates data point was suppressed.
+Source: Colorado PRAMS, Colorado Department of Public Health and Environment, 2016-2020
+--- page 19 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+Infants, Children, and Maternal Snapshot:
+Additional Context from Community Engagement Efforts
+OMNI conducted brief focus groups with staff from WIC Educatorsand the Nurse Family Partnership (NFP) Nurse
+Home Visitorsin March of 2023. Additional qualitative data from community information gathering efforts was also
+provided by the NFP and the Genesis Program. The summary below may serve as an initial starting point for dialogue
+and further exploration during the PHIP development process.
+The information/ qualitative data summarized below was provided by the following organizations:
+• NFP
+• WIC
+• GENESIS
+Key Themes and/or Needs Identified
+Primary Prevention
+• Parenting classes through community centers are being utilized.
+• Breast feeding groups offer supportive environments for new mothers.
+• Home visitation programs are accessible and offer initial mental and behavioral health
+support, building trust to disclose mental and behavioral health concerns.
+• Programs such as Big Sisters help provide general support and education.
+• Access to affordable housing and safe living situations is needed, including safe
+environments/spaces to walk, exercise, etc.
+• Affordable daycare is needed.
+• Improvements to language access for families is an important need.
+• There is a need for postpartum education and connection to services, particular among
+new parents wanting to learn about postpartum mood disorders.
+Early Intervention
+• Seeking Behavioral Health Professionals at Clinicahelps with accessing services early on.
+• Internal referral system throughout the county make seeking support easier.
+• Accessible services are hard to find due to timing and location.
+• Mental health consultants should be embedded in all home visitation programs and daycare centers.
+• There is a need for trainings for Boulder County staff and the broader community to recognize
+mental health symptoms.
+Harm Reduction
+• There is a need for a single point of communication in hospitals (e.g., Family Connects) for referrals
+for new parents to all Boulder programs.
+• Environmentaldisasters and air quality are affecting the health of children across the community.
+There are moms that don’t realize they have postpartum depression and have to
+wait 6 weeks to see a therapist. Once they realize it, [they] are desperate to seek help.
+-Focus group participant
+19
+19
+--- page 20 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+Infants, Children, and Maternal Snapshot:
+Potential MBH Framework Strategies
+Findings from the qualitative data suggest the following potential strategies, organized below into the
+key areas of BCPH’s MBH Framework:
+Foster Community Connections and Belonging
+• Invest in home visitation programs to provide mental health and substance use evaluations and
+support, as participants have established connections and trust with the staff in these programs.
+• Ensure hiring of additional bilingual behavioral health consultants in all BCPH client facing programs
+to promote language access.
+Increase community capacity for mental health and resistance
+• Identify evidence-based mental health trainings for BCPH client facing programs.
+• Increase training opportunities for home visitation program staff.
+• Promote information sharing and referrals to services through models such as Family Connect.
+• Support outreach and follow-up to connect new parents to therapists directly.
+• Parent education opportunities in Socio Emotional Learning for young children.
+Address community conditions and policy
+• Secure fundingfor a full-time behavioral health consultant for all home visitation programs as the
+current staff has limited time available across all programs.
+• Advocate for a routine screening process for post-partum depression across clinics in Boulder
+County and establish a centralized referral system for behavioral health clinicians to use.
+Foster prosperity
+• Advocate for paid parental leave. Some leave is only six weeks and post -partum healing is not
+complete.
+• Advocate for increased funding for affordable daycare or informal home-based childcare, such as
+Family Friends and Neighbors
+Early prevention efforts
+• Promote events, programs, or support groups such as Big Sister, Our Center, Sister Carmen, and
+breastfeeding groups, father involvement programs.
+GENESIS is a very helping and welcoming program. Every teen girl is scared, lost, etc.
+when they find out they are expecting a baby. GENESIS is judgment free and always
+made me feel like I everything was going to be okay.
+-GENESIS participant
+20
+20
+--- page 21 ---
+Boulder County
+Community Health Assessment
+Youth Snapshot: Mental Health
+The data highlighted below provide a snapshot of mental and behavioral health indicators from the 2021 Healthy Kids
+Colorado Survey (HKCS) administered to high school students. All trends identified are based on these data.NOTE:
+Results displayed below are on an adjusted scale for visualization. These percentages can range from 0% -100%.
+Overall Sex and Gender
+In the past 12 months, Relative to Maleyouth, a greater percentage of
+Femaleand Gender-Queer/Non-Binary (GQ/NB)
+of Boulder County youth reported experiencing mental health issues.
+39%
+reported experiencing
+depression symptoms.
+Experienced 47%
+23% of Boulder County youth Depression 54%
+reportedself-harming. Symptoms 29%
+Female
+of Boulder County youth 28%
+16%
+reported seriously considering Self-Harmed * GQ/NB
+attempting suicide. 14%
+Male
+Seriously 17%
+The prevalence of mental health issues
+Considered 38%
+among youth in the county overall
+Suicide 11%
+closely resembles the prevalence
+among youth in Colorado overall.
+0% 65%
+* Indicates data point was suppressed.
+Race/Ethnicity
+Across racial and ethnic groups, mental health issues were most
+common among Multi-Racial†youth, highlightinga need for
+engaging with the community to better understand and address the
+underlying causes of this disparity.
+65% Multi-Racial† White Hispanic/Latinx Only Asian There were largermental
+health disparities between
+Multi-Racial†youthand
+50% non-Multi-Racial youthin
+Boulder Countythan in
+40%
+38%
+35% 36% Colorado overall.
+23%
+21%
+18%17%
+16%12%10%
+0%
+Experienced Self-Harmed Seriously
+Depression Symptoms Considered Suicide
+† HKCS reported youth who self-identified as Hispanic/Latinx and any other race/ethnicity as Multi-Racial. By the definition
+used by U.S. federal government agencies, race and ethnicity are defined separately and results for these students would 2211
+be reported in Hispanic/Latinx figures.
+Source: Healthy Kids Colorado High School Survey, 2021
+--- page 22 ---
+Boulder County
+Community Health Assessment
+Youth Snapshot: Mental Health
+Sexual Orientation Gender Identity
+A larger percentage of Lesbian, Gay, or Bisexual (LGB)
+youth reported experiencing mental health issues
+compared to Heterosexualyouth.
+Compared to Cisgender youth, Gender-
+Expansive‡youthwere:
+Experienced
+33% 65% 3x 3.3x
+Depression
+more likely to have more likely to have
+Self-Harmed 15% 50%
+experienced seriously considered
+depression symptoms attempting suicide
+Seriously
+Considered 10% 36%
+Suicide
+0% 65%
+Youth Snapshot: Behavioral Health
+Overall
+In the past 30 days,
+26% of Boulder County youth reported
+consumingalcohol.
+Substance use among
+16% of Boulder County youth reported youth in Boulder County
+using cannabis. overall closely resembles
+substance use among
+youth in Colorado overall.
+16% of Boulder County youth reported
+vaping.
+The majority of Boulder County
+youth reported not using
+substances in the past 30 days.
+22
+‡Gender expansive is defined as those who identify as transgender or are unsure of their gender identity.
+Source: Healthy Kids Colorado High School Survey, 2021
+--- page 23 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+Youth Snapshot: Behavioral Health
+Race/Ethnicity Sex and Gender
+Across racial/ethnic groups, substance use was most Past 30-day substance use was most common among
+common among WhiteandMulti-Racial†youth. youth who identified as FemaleorGender-
+Queer/Non-Binary.
+30%
+Current Female GQ/NB Male
+24%
+Alcohol
+35%
+20%
+Use
+16% 33%
+White 21%21% 22% 20%
+18% 17% 17%
+Current 15%
+18% Multi-Racial† 12%
+Cannabis
+10% Asian
+Use 0%
+8%
+Hispanic/Latinx Only Current Current Current
+Alcohol Use Cannabis Use Vape Use
+0% 35%
+Sexual Orientation Gender Identity
+Compared to Heterosexualyouth, a higher
+percentage of Lesbian, Gay, or Bisexualyouth
+reported past 30-day use of all three substances.
+Heterosexual LGB
+A smaller percentage of Gender-
+Expansive youth‡reported
+Current
+26% 34% consuming alcohol in the past 30
+Alcohol Use
+days compared to Cisgender youth
+(16% and 27%, respectively).
+Current
+14% 28%
+Cannabis Use
+Current
+15% 24%
+Vape Use
+0% 35%
+23
+Source: Healthy Kids Colorado High School Survey, 2021
+--- page 24 ---
+Boulder County
+Community Health Assessment
+Young Adult Snapshot: Mental Health
+The data highlighted below provide a snapshot of mental and behavioral health indicators from the Behavioral Risk
+Factor Surveillance Survey and pertain to individuals aged 18 years or above. Indicators are based on multiple years of
+combined data using the most recent years, which range from 2016-2021. All trends identified are based on these data
+and compare young adults to the overall average (all ages). NOTE: Results displayed below are on an adjusted scale for
+visualization. These percentages can range from 0% -100%.
+Population Characteristics Mental Health Days
+In Boulder County, a larger percentage of Young Adults
+reported a high number of days where their mental health
+was not good in the past 30 days2compared to the average
+across all aged 18+.
+of Boulder County’s
+14% 40%
+population are young
+adults1(18-24 years 9% 8-13 days
+14+ days
+old), compared to 9%
+of Colorado’stotal
+5%
+population. 25%
+13%
+0%
+Young Adults Average
+(All Age 18+)
+Depressive Disorder Diagnoses Access to Care
+In Boulder County, a higher percentage of In Boulder County, a smaller percentage of Young Adults
+Young Adults have ever been told they had a received treatment for a mental health condition or emotional
+depressive disorder2compared tothe average problem3compared to theaverage of all aged 18+. In
+of all aged 18+. Colorado overall, the percentages are similar.
+15% 15%
+14%
+Young 13%
+26%
+Adults 9%
+Average
+19% 0%
+(All Age 18+) Young Average (All Young Average (All
+Adults Age 18+) Adults Age 18+)
+0% 30% Boulder County Colorado
+Young adult mental health in Boulder County closely resembles young adult mental health
+in Colorado overall. Even though trends are similar, efforts are needed to provide
+additional mental health support to those aged 18-24.
+2244
+1. U.S. Census Bureau, American Community Survey 1-Year Estimates (2021); 2. Behavioral Risk Factor Surveillance Survey
+(2019-2021 Combined); 3. Behavioral Risk Factor Surveillance Survey (2016-2019 Combined)
+--- page 25 ---
+Boulder County
+Community Health Assessment
+Young Adult Snapshot: Behavioral Health
+Substance Use
+Although most Young Adults did not report smoking e-cigarettes,
+using cannabis, or binge drinking (5+ drinks for males and 4+ drinks
+for females on an occasion)2in the past 30 days, these behaviors
+were more common among Young Adults compared to the
+average across all ages.
+The prevalence of
+Young Adults Average (All Age 18+) substance use among
+35% young adults in Boulder
+County is similar tothat
+30% 29% of Colorado overall.
+27%
+22%
+16%
+7%
+0%
+Current Current Current
+E-Cigarette Smoker Cannabis User Binge Drinker
+2255
+--- page 26 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+Youth & Young Adult Snapshot:
+Additional Context from Community Engagement Efforts
+Several youth engagement efforts throughout Boulder County programs resulted in three reports from April 2021 to
+April 2023. The reports focused on cross-agency collaboration throughout the county, needs in schools, and overall
+mental health and substance use reduction in youth’s communities. These reports mention youth throughout their
+findings, but do not specify ages. The summary below may serve as an initial starting point for dialogue and further
+exploration during the PHIP development process. Qualitative data were provided by the following organizations:
+• Colie’s Closet Lafayette Youth Advisory Commission • St VrainValley School District Community
+Feedback Session • Community Health Division (CHD) Programs
+• Longmont Children, Youth, and Families Feedback Session • Community Mental Health Initiative Healthy Eating
+• Natural Highs • Active Living (HEAL)YAY efforts through BCPH
+• Teens Inc. • Adelante
+• Youth Opportunities Advisory Board
+Key Themes and/or Needs Identified
+Primary Prevention
+• Lack of power among youth and ageism
+• Disjoined communication and efforts among Boulder County youth programs
+• Need for student education about neuroscience around mental health and substance use effects
+• Workforce shortages in schools
+• Developmental and academic delays for key student groups in school
+• Need for education about healthy relationships, both with family and romantically, as well as
+healthy communication, both with family and peers
+• Additional positive spaces or programs for youth to interact, such as community centers and
+playgrounds, as peer support can offer important mental health protection
+• Fears related to safety in youth environments, particularly regarding weapons and school
+lockdowns as they are identified causes for poor mental health
+Early Intervention
+• A need for addressing a variety of specific issues, including, new behavior changes in students at
+school; physical and mental health concerns; and problems at school, work, or home
+• Increase opportunities for support and connection in community.
+Harm Reduction
+• Concerns about increased poor mental health symptoms, complex trauma, and suicidality in youth
+• Burnout and exhaustion reported by school staff, parents, therapists, and students
+• Need for independent housing resources for youth
+• Financial insecurities can prevent access to care
+• Substances and dispensaries in community are interfering with youth mental health
+26
+26
+--- page 27 ---
+Boulder County
+Boulder County
+Community Health Assessment
+Community Health Assessment
+Youth & Young Adult Snapshot:
+Potential MBH Framework Strategies
+Findings from the qualitative data suggest the following potential strategies, organized below into the
+key areas of BCPH’s MBH Framework:
+Foster community connectionsand belonging
+• Relay information effectively to community about community events and mental health supports.
+• Increase free or low-cost, safe sober spaces and activities for youth to connect.
+• Foster community in neighborhoods through common spaces and events.
+• Destigmatize and validate mental health symptoms and stress among youth through positive spaces.
+• Invest in teen and parent peer mentorship programs.
+Increase community capacity for mental health and resistance
+• Provide training for adults related to youth mental health and positive youth development, as well as
+training for parents and youth, including Social Emotional Learning.
+• Promote programs for youth that address bullying and suicide.
+Address community conditions and policy
+• Increase funding for schools and mental health programs, such as Youth Opportunities Program
+• Promote mental health and menstrual leave policies.
+• Support equitable pay for staff that support youth.
+• Reduce access to substances for youth.
+Increase community engagement
+• Include youth in board of health decisions and ensure advisors in all Community HealthDivision programs.
+• Consider paying youth to become advisors and/or to design prevention initiatives for peers.
+Foster prosperity
+• Increase safe routes, paths, and public transportation for youth to get to employment.
+• Create safe physical spaces in neighborhoods free of violence, substance use, and high traffic.
+• Offer diverse range of prosocial education and career opportunities.
+• Advocate for affordablehealthcare, including funding for short-term mental health services.
+• Promote financial wellbeing and security among families and youth.
+Early prevention efforts
+• Offer healthand resource fairs for youth, parents, school staff, and community.
+• Increase availability of therapists for youth, such as integrating in spaces where youth spend their time.
+• Foster nutrition through accessible meals and snacks.
+• Promote positive interventions at schools rather than punishment.
+• Share information about telehealth and in person services (particularly outside of school hours) to
+promote accessibility.
+• Partner with pediatricians to provide mental health and substance use screenings during well child
+visits and easily share information to schools with a release of information.
+…to have activities/programs that combat the regular culture in the school…things that
+promote healthy pleasures and wholesome self-care instead of glorifying addiction and
+unhealthy relationships. Most kids/teens would rather be healthy and happy but it's just
+not something that's cool to do. Creating spaces where vulnerability and connection thrive.
+-Natural Highs YAY Feedback Session Participant
+27
+27
+--- page 28 ---
+Boulder County
+Community Health Assessment
+Older Adults Snapshot: Mental Health
+The data highlighted below provide a snapshot of mental health indicators from various sources. All trends identified
+are based on these data. All trends identified are based on these dataand compare older adults (those 55 years or
+older) to the overall average (all ages). NOTE: Results displayed below are on an adjusted scale for visualization.
+These percentages can range from 0% -100%.
+Population Characteristics Depressive Disorder Diagnoses
+Compared to the overall average across all Boulder County
+adults, a larger percentage of those55 to 64 years old
+have ever been told they had a depressive disorder2.
+of Boulder County
+28% residents are 55
+25%
+years of age or
+24%
+older1, compared to
+19%
+27% of Colorado’s
+14%
+total population.
+0%
+Average Age 55 - 64 Age 65+
+55-64 years: 12%
+(All Age 18+)
+65+ years: 16%
+Mental Health Days
+Compared the averageacross all Boulder
+County adults, a larger percentage of those
+55 to 64 years old reported a high number
+of days where their mental health was not
+good in the past 30 days2.
+25%
+Average (All Ages) 28.6
+8-13 days
+4% Age 55 - 64 42.2
+14+ days
+5%
+Age 65+ 58.7
+17%
+13% 2% Average (All Ages) 9.8
+6%
+Age 55 - 64 22.1
+0%
+Average Age 55 - 64 Age 65+ Age 65+ 9.0
+(All Age 18+)
+Compared to Colorado overall, a larger percentage of Older Adults aged 55-64
+yearsin Boulder County reported mental health challenges. In Boulder County,
+Older Adults aged 55+have higher rates of death by suicide compared to
+Colorado residents in the same age group.
+2288
+1. U.S. Census Bureau, American Community Survey 1-Year Estimates (2021); 2. Behavioral Risk Factor Surveillance
+Survey (2019-2021 Combined); 3. Colorado Vital Statistics Program (2020-2021 Combined)
+elaM
+elameF
+Suicide
+The rate of deaths by suicide per 100,000 is higher among Older
+Adults (crude)3compared to the rate across all Boulder County
+residents (age-adjusted)3. Across age groups, rates are highest
+among males aged 55 years or older. Females aged 55 to 64
+years have higher rates than females in all other age groups.
+--- page 29 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+Older Adults: Key Themes from Community
+Engagement Efforts
+They key themes outlined below were summarized from Behavioral Health Roadmap conversations, as well as
+from recent community engagement efforts facilitated by the Area Agency on Agency for their strategic planning
+process. Key data points from the 2022 Community Assessment Survey for Older Adults (CASOA) are also
+featured for additional context. The summary below is intended to serve as an initial starting point for dialogue
+and further exploration of key community needs during BCPH’s PHIP development process.
+Key Themes and/or Needs Identified
+Key CASOA Data points:
+• 85% of Boulder County older adults said their overall mental health/emotional wellbeing was “excellent
+or good.”​
+• 42% of Boulder County older adults said feeling depressed was “at least aminor problem,”​ an increase
+from 33% in 2018.
+• 37% of Boulder County older adults said feeling lonely or isolated was “at leasta minor problem.”​
+• 63% of Boulder County older adults said the availability of quality mental health care was “fair or poor.”
+Primary Prevention
+• Need for addressing impacts of pandemic and resulting increase in loneliness and social isolation
+• Accessibility and availability of mental health counseling as the older adults population grows; particularly
+for older adults struggling to afford services (i.e., those on fixed or limited incomes, including middle
+income older adults)
+• Living in an ageist society creates barrier to accessing necessary services including existing older age
+focused classes and end-of-life services
+• Increased risk of suicide among older males
+Potential MBH Framework Strategies
+Foster Community and Service Connection
+• Lead with anti-ageism to expand utilization of older adult services.
+• Increase funding to support access to the network of existing older adult services.
+• Implement more multi-generational approaches and settings to connect people of all ages.
+• Expand awareness of social connection opportunities and affinity-based programming for subgroups
+of older adults (e.g., Rainbow Elders for LGBTQ+ older adults).
+• Utilize the existing aging network (BCAAA and municipal-level older adult services) to increase
+awareness of services to support older adults and their caregivers.
+• Engage non-traditional partners in outreach to older adults and caregivers.
+• Increase availability, affordability, and accessibility of mental and behavioral health services for older
+adults and their caregivers.
+29
+29
+--- page 30 ---
+Boulder County
+Community Health Assessment
+Hispanic/Latinx/Latine Snapshot: Mental Health
+†
+The data highlighted below provide a snapshot of mental and behavioral health indicators from various sources and
+pertain to individuals aged 18 years or above. All trends identified are based on these data.Some sources did not have
+a breakdown of ethnicity only.In this case, White only, Non-Hispanic/Non-Latinx (NH/NLx) was used for the comparison
+group. NOTE: Results displayed below are on an adjusted scale for visualization. These percentages can range from 0% -
+100%.
+Population Characteristics Mental Health Days
+In Boulder County, a higher percentage of Hispanic/Latinx
+residents reported 14 or more days where their mental
+health was not good in the past 30 days2compared to
+White only, Non-Hispanic/Non-Latinxresidents. In
+of Boulder County Colorado, percentages were similar across the two groups.
+residents identify as
+14%
+Hispanic/Latinx1,
+White only, NH/NLx Hispanic/Latinx
+compared to 22% of 20%
+Colorado’stotal
+population.
+16%
+13% 13%
+12%
+0%
+Access to Care Boulder Colorado
+In Boulder County, a smaller percentage of
+Hispanic/Latinx residents received treatment for
+a mental health condition or emotional problem3
+compared to White only, Non-Hispanic/Non-
+Latinxresidents.
+A larger percentage of
+Hispanic/Latinxresidents in
+Colorado overall received treatment
+White only, NH/NLx 16% than in Boulder County (10% and 5%,
+respectively). This highlights a need
+for additional efforts to provide
+Hispanic/Latinx 5%
+services to this community within
+the county.
+†The term Hispanic/Latinx is used in this section to align with the terms used by the survey source.
+30
+1. U.S. Census Bureau, American Community Survey 1-Year Estimates (2021); 2. Behavioral Risk Factor Surveillance Survey
+(2019-2021 Combined); 3. Behavioral Risk Factor Surveillance Survey (2016-2019 Combined)
+--- page 31 ---
+Boulder County
+Community Health Assessment
+Hispanic/Latinx/Latine Snapshot: Mental & Behavioral Health
+Suicide Suicide Over Time
+In 2021, the rate of deaths by suicide per 100,000 (age- In Boulder County, the rate of deaths by suicide
+adjusted) in Boulder County was lower among per 100,000 (age-adjusted) Hispanic/Latinx
+Hispanic/Latinxresidents than Non-Hispanic/Non-Latinx residents decreased between 2020 and 2021, in
+residents of any race4. comparison to the rate increase seen among
+Non-Hispanic/Non-Latinx residents of any race5.
+20.2
+NH/NLx 20.2 17.0
+Hispanic/
+13.0
+Latinx 16.2
+13.0
+2020 2021
+Substance Use
+In Boulder County, a lower percentage of Hispanic/Latinx
+residentsused cannabis, binge drank (5+ drinks for males
+Overdose Deaths
+and 4+ drinks for females on an occasion), or used e-
+cigarettesin the past 30 days compared to White only,
+In 2021, the rate of overdose deaths in Boulder
+Non-Hispanic/Non-Latinx. A higher percentage of
+County due to any drug per 100,000 (age-
+Hispanic/ Latinx residents reported smoking in the past
+adjusted) was lower among Hispanic/Latinx4
+30 days2.
+residents than those who are Non-Hispanic/Non-
+Latinx.
+35% Hispanic/Latinx White only, NH/NLx
+12.7
+24%
+17%
+7.1
+13%
+12% 12%
+9%
+8%
+5%
+0%
+Current Binge Current Current Current E-Cig
+Hispanic/Latinx Non-Hispanic/
+Drinker Cannabis User Smoker Smoker
+Non-Latinx
+31
+4. Colorado Vital Statistics Program (2021); 5. Colorado Vital Statistics Program (2020-2021)
+--- page 32 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+Hispanic/Latinx/Latine Snapshot:
+Additional Context from Community Engagement Efforts
+Qualitative data from Boulder County’s Hispanic/Latinx community engagement efforts were compiled from three
+reports developed between May 2019 to February 2023. The reports included information from multiple key
+Hispanic/Latinx organizations throughout the county. The focus of the reports ranged from COVID-19 impacts,
+cultural brokers or supports in the community, and BCPH’s staff identification of needs.
+The qualitative data summarized below was provided by the following organizations:
+• Cultural Brokers Resiliency Program • AFC+A Green Promoters
+• Formal Cultural Brokers • Boulder County Public Health P & E
+• City of Boulder -Community Connectors • Boulder County Office of County Administrator
+• ELPASO Movement Community Organizers • I Have a Dream Foundation of Boulder County
+• AMISTAD Health Promoters
+Key Themes and/or Needs Identified
+Primary Prevention
+• Need for racial equity work to be at the forefront of improving mental and behavioral health
+• Lack of available and accessible services such as telehealth available in languages other than
+English
+• Need for community-based and community-promoted resources accessible in Spanish
+• Need for services that are culturally responsive including bicultural supports and increased
+diversity of behavioral health providers
+• Limited capacity for use of technology
+• Need for affinity group gatherings to help build community
+• Concerns about mental health beingstigmatized in Latine communities
+• Lack of knowledge about mental health symptoms and/or resources for mental health support,
+particularly for community members who do not have US documentation
+Early Intervention
+• Need for expansions of effective programs such as the PromotoresModel in El Centro AMISTAD
+• Lack of diverse tools for recognizing mental health symptoms that work across cultures
+Harm Reduction
+• Need for increased collaboration with communities of faith to address mental health needs
+• Concerns of burnout experienced by cultural brokers that are overworked help the
+community navigate resources
+32
+32
+--- page 33 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+Hispanic/Latinx/Latine Snapshot:
+Potential MBH Framework Strategies
+Findings from the qualitative data suggest the following potential strategies, organized below into the
+key areas of BCPH’s MBH Framework:
+Foster community connectionsand belonging
+• Increase Spanish language support groups and community activities.
+• Fund local places of faith to offer Spanish support groups and activities.
+• Increase access to bilingual and biculturalmental health providers.
+• Increase access to promotores.
+• Promote events or organizations that directly reach out to the Latine community about services (e.g.,
+Casa de la Esperanza, El Centro AMISTAD).
+• Support free or low-cost outdoor activities for Latineyouth.
+I have been watching the Amistad & Suma Center share information about mental
+health issues. That's where I know there are resources available
+-BoCoCOVID Impact Study participant
+Increase community capacity for mental health and resistance
+• Promote Latinefocused family strengthening interventions or trainings.
+• Increase Latine behavioral health workforce.
+• Provide Latineparent support to navigate school systems.
+Address community conditions and policy
+• Latine community relies on Medicaid to receive mental health support. Advocate for affordable mental
+health services and programs that are accessible.
+Early intervention efforts
+• Support primary care clinics that Latine communities already go to and know about for behavioral
+health services such as ClinicaPeople’s clinic, SaludFamily Health Centers, and Kaiser.
+We need more funds because we do not have the same rights as citizens, for
+example unemployment. That [elected officials and representatives] help more in
+mental health, that they inform us more, that they call us and give us services with
+Latino people; it is not enough for a therapist to be bilingual, it is the cultural part that
+does not help us to receive services in the best way…
+-BoCoCOVID Impact Study participant
+33
+33
+--- page 34 ---
+Boulder County
+Community Health Assessment
+LGBTQ+ Snapshot: Mental Health
+The data highlighted below provide a snapshot of mental and behavioral health indicators from various sources and
+pertain to individuals aged 18 years or above. All trends identified are based on these data and focus on sexual
+orientation only. Data disaggregated by gender identity were not available. NOTE: Results displayed below are on an
+adjusted scale for visualization. These percentages can range from 0% -100%.
+Population Characteristics Depressive Disorder Diagnoses
+Compared to Heterosexualresidents, a higher
+percentage of LGB+ residents have ever been told
+they had a depressive disorder2, underscoring the
+need for additional support for this group within the
+of Boulder County community.
+7% residents identify as
+Lesbian, Gay,
+Bisexual or other
+LGB+ 38%
+diverse sexualities
+(LGB+)1,compared
+to 5% of Colorado’s
+total population.
+Hetero-
+18%
+sexual
+0% 40%
+Mental Health Days
+A larger percentage of LGB+ residents reported a high
+number of days where their mental health was not good
+in the past 30 days2relative to Heterosexualresidents.
+40%
+Compared to Colorado LGB+
+8-13 Days residents, a lower percentage of
+8% 14+ Days LGB+ residents in Boulder
+County reported a 14 or more
+days where their mental health
+was not good in the last 30 days
+5% (34% and 24%, respectively).
+24%
+12%
+0%
+LGB+ Heterosexual
+3344
+1. Behavioral Risk Factor Surveillance Survey (2018-2020 Combined); 2. Behavioral Risk Factor Surveillance Survey
+(2019-2021 Combined)
+--- page 35 ---
+Boulder County
+Community Health Assessment
+LGBTQ+ Snapshot: Mental & Behavioral Health
+Access to Care Substance Use
+Relative to Heterosexualresidents, ahigher percentage A higher percentage LGB+ residents have binge drank,
+of LGB+ residentsin Boulder County and Colorado have used cannabis, or smoked cigarettes in the past 30
+received treatment for mental health or emotional days2compared to Heterosexualresidents.
+problems3.
+3 LGB+ Heterosexual
+35%
+Boulder 32%
+2 13% 19%
+County 27%
+22%
+1Colorado 13% 28% 15%
+12%
+9%
+0%
+0 Current Current Current
+0% 30% Binge Drinking Cannabis Use Smoker
+There were smaller substance
+LGB+ residents in Boulder County may benefit
+use disparities between LGB+
+from additional treatment services, including
+and Heterosexual residents in
+treatment that is culturally responsive.
+Boulder County than Colorado.
+Substance Use, County & State
+Compared to Colorado LGB+residents, a higher percentage
+of Boulder County LGB+ residents have binge drank in the
+past 30 days2and a lower percentage have used cannabis or
+smoked cigarettes in the past 30 days.
+Boulder County Colorado
+36%
+32%
+26% 27%
+18%
+12%
+Current Current Current
+Binge Drinking Cannabis Use Smoker
+35
+3. Behavioral Risk Factor Surveillance Survey (2016-2019 Combined)
+--- page 36 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+LGBTQ+ Snapshot:
+Additional Context from Community Engagement Efforts
+Community engagement for this section referencedthe LGBTQ+ community as a whole and often did not separate
+the differences in needs between sexual orientation and gender identity. These communities were often combined
+but it is important to recognize that these needs or strategies should be tailored to fit all sexual orientation and
+gender identities. In addition, certain sexual orientations, such as asexual, and intersex individuals were not
+mentioned. Engagement efforts were gathered between November 2022 and March 2023 from schools and the
+Boulder County roadmap efforts. The summary below may serve as an initial starting point for dialogue and further
+exploration during the PHIP development process.
+The qualitative data summarized below was provided by the following organizations:
+• St VrainValley School District Community
+• Roadmap Discussions
+Key Themes and/or Needs Identified
+Primary Prevention
+• Accessing gender affirming care
+• Informationabout LGBTQIA+ identities are limited to parents
+• Safety is needed
+• LGBTQ+ youth feel they can’t be themselves without fear of losing safety
+• Individuals with diverse identities still feel marginalized and are being bullied
+• Heteronormative practices across systems
+Early Intervention
+• More affirming spaces needed
+• GSAs in middle and high schools are working well
+• Programs like OASOS and Out Boulder are working well
+• Challenge with accessing affirming spaces if LGBTQ+ individuals are not out
+Harm Reduction
+• Heightened stress due to non-affirming homes
+• Suicidall ideation and self-harm is high in LGBTQ+ teens
+• Effects of the local and global politics affecting LGBTQ+ individuals
+• Crisis support like the Trevor project line are working well
+• Runaways and lack of housing due to lack of support for some LGBTQ+ individuals
+36
+36
+--- page 37 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+LGBTQ+ Snapshot:
+Potential MBH Framework Strategies
+Reports and data gathered throughout Boulder County suggested:
+Foster community connectionsand belonging
+• Hiring diverse mental health providers that identify as LGBTQ+.
+• Fund LGBTQ+ individuals to work with Gender and Sexualities Alliances (GSA) at schools.
+• Highlight individuality within the LGBTQ+ community as each identity is different.
+• Support LGBTQ+ serving centers and offer opportunities to make these programs accessible, such as
+providing transportation.
+Increase community capacity for mental health and resistance
+• Gender affirming training offered to all therapists.
+• Increase safe and gender affirming residential treatment.
+Address community conditions and policy
+• Support and advocate for more LGBTQ+ individuals in positions of power.
+• Advocate against anti-LGBTQ+ policies.
+Early prevention efforts
+• Increase opportunities for pride events.
+• Increase opportunities for GSA summits.
+• Audit for assessment tools, eligibility requirements, etc. to ensure they don’t favor
+heteronormative responses.
+• Family-centered programming for parents that are unsupportive, especially if this is known early
+on by the youth.
+37
+37
+--- page 38 ---
+Boulder County
+Community Health Assessment
+Homelessness Snapshot: Characteristics and Mental & Behavioral Health
+The data highlighted below come from a Point-in-Time (PIT) snapshot of homelessness in the seven county Metro
+Denver Continuum of Care on the night of January 24, 2022. NOTE: Results displayed below are on an adjusted scale for
+visualization. These percentages can range from 0% -100%.
+Overall Frequency of Experiencing Homelessness
+457 A higher percentage of people experiencing homelessness in
+Boulder County were homeless for the first time compared to
+chronically homeless.
+people in Boulder County
+experiencing homelessness
+First Time Homeless 50%
+1
+Chronically Homeless 27%
+1.4
+people experiencing homelessness in 0% 50%
+Boulder County per 1,000 residents
+A higher percentage of people experiencing homelessness
+in Boulder County were homeless for the first time
+compared to the average of those in all 7 counties where
+the PIT survey was conducted (50% and 36%, respectively).
+Shelter Status
+In Boulder County, the majority of people experiencing
+homelessness were sheltered. Less than 2 in 10 people Mental and Behavioral Health
+experiencing homelessness in the county were
+Approximately 1 in 3 of people experiencing
+unshelteredthe night of the survey.
+homelessness in Boulder County reported having a
+mental health concern and 1 in 4 reported having a
+18%
+substance use concern.
+Unsheltered
+40%
+Sheltered
+34%
+27%
+82%
+A smaller percentage of people
+0%
+experiencing homelessness in Boulder
+Mental Health Substance Use
+County were unshelteredthan the average
+Concern Concern
+of the 7 counties where the PIT survey was
+conducted (18% and 30%, respectively).
+333888
+Source: Metro Denver Homeless Initiative, 2022 Point in Time Count
+--- page 39 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+People Experiencing Homelessness Snapshot:
+Additional Context from Community Engagement Efforts
+The informationsummarized below represents emerging themes from the behavioral health roadmap
+convenings on Harm Reduction, Recovery, and Treatment.
+Key Themes and/or Needs Identified
+Primary Prevention
+• Lack of affordable, safe housing options
+Early Intervention
+• Lack of early supports for people experiencing homelessness becoming
+destabilized
+• Lack of ongoing supportive and sober living homes
+• Lack of housing options for MAT clients, individuals with criminal history or
+people who use meth.
+Harm Reduction
+• Stigma
+• Lack of drop in options for PUD
+Potential MBH Framework Strategies
+Increase community capacity for mental health and resistance
+• Train providers on trauma-informed housing programs.
+Address community conditions and policy
+• Housing options and navigation between levels of support/care including
+long-term supportive housing.
+• Housing first and trauma-informed housing models.
+Increase community engagement
+• Ensure individuals experiencing homelessness have ongoing engagement in
+planning efforts.
+39
+39
+--- page 40 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+People with Disabilities: Key Themes from
+Community Engagement Efforts
+Boulder County Housing and Human Services partnered with the National Center for Start Services Institute on
+Disability, University of New Hampshire to assess service and support needs for individuals with disabilities.
+Information gathering took place between October-December of 2022 and included 113 community members
+who responded to an online survey, 51 individuals who participated in virtual focus groups, and 28 family
+caregivers who took part in telephonic surveys (FamilyExperiences Interview Schedule/FEIS). The full report is
+available upon request through Boulder County Housing and Human Services.
+Key Themes and/or Needs Identified
+The National Center for START Services/UNH identified 4 core themes with corresponding
+recommendations that are summarized below. Key system-level needed improvements included the
+following:
+Access to Outpatient Mental
+Linkages Across Systems
+Health Services & Supports
+• Addressing highrates of polypharmacy
+• Fostering increasedlinkages and
+• Increasing access to crisis services
+care coordination across systems
+• Increasing access to providers accepting
+• Better integrating IDD and MH
+Medicaid, psychiatrists and other
+services so that systems are less
+prescribers
+separated
+Access to ordinary IDD
+services for people with Crisis Response
+IDD/BI-MH
+• Promoting knowledge regarding
+• Addressing Bias-related access issues how to access crisis services
+• Promoting capacity/training to support people • Addressing the overuse of police
+with IDD who have MH needs and emergency department for
+• Increasing access to caregivers (current needs
+shortages) • Meeting the need for stabilization
+• Increasing access to transportation, services
+employment, recreation, and community
+inclusion.
+40
+40
+--- page 41 ---
+Boulder County
+Community Health Assessment
+Capacity Assessment
+Method
+The capacity assessment process integrated data from a variety of sources to identify key strengths related to mental
+and behavioral health (MBH) services in Boulder County as well as opportunities for growth in the county.
+In March of 2023, BCPH also conducted an internal assessment of current capacity to meet the goals of current
+community needs that align with the six objectives outlined in the BCPH MBH Framework (see page 7 of this report.)
+Internal capacity scores were determined through an internal BCPH survey with staff from all programs with MBH
+components. Staff rated the state of their program's resources to meet current program goals on a scale of 1-3, with
+1=significantly under-resourced;2=more resources needed; and 3=sufficient resources. BCPH internal capacity
+scores were calculated by averaging scores for each Objective across all programs. Averaged scores are represented
+in the charts below by color based on the range of scores (2.0 to 2.5), with 2.0-2.1 being represented in red, 2.2-2.3
+represented in yellow, and 2.4-2.5 represented in red, to represent relative capacity across programs, as represented
+in the chart below.
+BCPH Internal Capacity Analysis Ranges
+2.4 – 2.5 2.2 - 2.3 2.0 - 2.1
+/3.0 /3.0 /3.0
+OMNI Institute reviewed these findings as well as information on additional programs in the county to assess the
+total system capacity for each of the six MBH Frameworkobjectives. Strengths and opportunities were specifically
+called out for each Objective area.
+These findings are broken down into strengths and opportunities for continued exploration and
+development based on each Objective from the MBH Framework across the following pages.
+41
+4411
+--- page 42 ---
+Boulder County
+Community Health Assessment
+Capacity Assessment
+Objective One: Foster community connections and belonging
+The information below describes the capacity of BCPH to meet the demands of community needs that are relevant
+to Objective One as well as the strengths and opportunities for growth within the broader behavioral health system
+to foster community connections and belonging.
+Current capacity within BCPH in the goals supporting this objective are:
+Increase trusted adults Reduce social isolation, Equity and belonging
+and positive adult decrease stigma, connect efforts, prosocial groups
+relationships for youth to resources for priority populations
+2.4 /3.0 2.3 /3.0 2.1 /3.0
+Capacity within BCPH to meet current community needs within Objective One varies by specific goals. Additional
+strengths and opportunities within the behavioral health system to support this objective. These are outlined below.
+Opportunity
+Strength
+• There are many resources to support increasing • Because capacity within BCPH is high to increase
+positive adult-youth relationships within BCPH and positive adult relationships for youth and there are
+in other organizations around Boulder County. many community resources devoted to reducing
+• The highest number of resources from organizations social isolation and decreasing stigma, these
+outside of BCPH that are devoted to any one goal resources can be leveraged to improve access to
+seek to decrease isolation and stigma, making this a prosocial groups for priority populations that have
+key strength of the behavioral health system in limited access to these support services.
+Boulder County.
+• There are many resources for prosocial groups
+among LGBTQIA+ individuals, people with substance
+use disorders, and Latineindividuals.
+42
+4422
+--- page 43 ---
+Boulder County
+Community Health Assessment
+Capacity Assessment
+Objective Two: Increase community capacity for population
+level mental health and resilience
+The information on this page describes the capacity of BCPH to meet the demands of community needs that are
+relevant to Objective Two as well as the strengths and opportunities for growth within the broader behavioral
+health system to increase community capacity for population level mental health and resilience.
+Current capacity within BCPH in the goals supporting this objective are:
+Training and technical Share and interpret data Health promotion efforts
+assistance to community to help community make
+to improve outcomes data-driven decisions
+2.0 /3.0 2.1 /3.0 2.3 /3.0
+While capacity within BCPH to meet current community needs may be low in two out of three goal areas and
+moderate in the third area, there are additional strengths and opportunities within the behavioral health system to
+support this objective. These are outlined below.
+Opportunity
+Strength
+• Sufficient resources to support ongoing sharing and • Because there are already many successful efforts
+interpretation of data are found in organizations to train and provide technical assistance to
+that support LGBTQIA+ individuals, people with community partners, those programs could be
+substance use disorders, pregnant and post-partum leveraged to provide additional training to serve
+people, and people with disabilities that all have focus populations with intersecting identities.
+sufficient or emerging programs that share or • Organizations that serve people with substance
+interpret data to aid in community decision making. use disorders and people who use drugs have
+• Organizations that serve people with substance use more robust programming in place around data
+disorders and people who use drugs are a key sharing and interpretation. Partnerships with these
+strength in this area. organizations may be leveraged to train partners
+• Organizations that serve people with substance use serving adjacent populations in the data sharing
+disorders and people who use drugs have partial or and interpretation processes.
+sufficient programming to support MBH promotion. • Additionally, some organizations have strong
+• The same is true for some organizations that serve health promotion programming in spite of
+adolescents—notably the two public school districts insufficient resources to support other elements of
+that serve Boulder County: Boulder Valley and Saint Objective Two. These programs could be expanded
+VrainSchool Districts. to include activities entailing data sharing and
+providing training and technical assistance to the
+community more broadly.
+43
+4433
+--- page 44 ---
+Boulder County
+Community Health Assessment
+Capacity Assessment
+Objective Three: Address community conditions and policy
+The information on this page describes the capacity of BCPH to meet the demands of community needs that are
+relevant to Objective Three as well as the strengths and opportunities for growth within the broader behavioral
+health system to address community conditions and policy.
+Current capacity within BCPH in the goals supporting this objective are:
+Engage in state and local Enhance place Build support for policy
+policy efforts change
+2.3 /3.0 2.3 /3.0 2.1 /3.0
+While capacity within BCPH to meet current community needs may be moderate in two out of three goal areas and
+low in the third area, there are additional strengths and opportunities within the behavioral health system to
+support this objective. These are outlined below.
+Opportunity
+Strength
+• Organizations with the most resources devoted to • BCPH could increase collaboration with
+this objective are focused on working with specific organizations already doing work around
+populations (e.g., LGBTQIA+ community members, community conditions and policy to help expand
+people with substance use disorders, people with those efforts or to support organizations in
+mental health needs), and therefore have existing promoting their efforts with others in the
+infrastructure to connect with community members community. This would leverage and enhance the
+more broadly around community conditions and policy-focused work already happening in the
+policy. county.
+44
+4444
+--- page 45 ---
+Boulder County
+Community Health Assessment
+Capacity Assessment
+Objective Four: Increase community engagement through
+collaboration and leadership
+The information on this page describes the capacity of BCPH to meet the demands of community needs that are
+relevant to Objective Four as well as the strengths and opportunities for growth within the broader behavioral
+health system to increase community engagement through collaboration and leadership.
+Current capacity within BCPH in the goals supporting this objective are:
+Convene community Assess community need Meaningfully involve
+coalitions and and gather community community in planning
+partnerships input and implementation
+2.4 /3.0 2.3 /3.0 2.4 /3.0
+Capacity within BCPH to meet current community needs is sufficient in two out of three goal areas and moderate in
+the third. Additional strengths and opportunities within the behavioral health system to support this objective are
+outlined below.
+Opportunity
+Strength
+• Many BCPH programs with dedicated community • BCPH can capitalize on existing capacity to convene
+engagement activities already have a high capacity community coalitions and involve the community
+to work toward this objective. in assessing ongoing MBH needs, planning, and
+• Outside of BCPH, there are many programs working implementation of the PHIP.
+with LGBTQIA+ individuals that share other • BCPH should also continue to build on their
+intersecting identities, such as LGBTQIA+ older support for other organizations in engaging and
+adults and LGBTQIA+ Latinecommunity members, serving people facing housing or food insecurity,
+offering opportunities for collaboration across children with special needs, teen parents, and
+communities and programs. youth who use drugs or alcohol.
+45
+4455
+--- page 46 ---
+Boulder County
+Community Health Assessment
+Capacity Assessment
+Objective Five: Foster prosperity
+The information on this page describes the capacity of BCPH to meet the demands of community needs that are
+relevant to Objective Five as well as the strengths and opportunities for growth within the broader behavioral
+health system to foster prosperity within the community.
+Current capacity within BCPH in the goals supporting this objective are:
+Economic Self Sufficiency Quality of Life Promote meaningful
+contributions & service
+learning opportunities
+2.3 /3.0 2.3 /3.0 2.1 /3.0
+While capacity within BCPH to meet current community needs may be moderate in two out of three goal areas and
+low in the third area, there are additional strengths and opportunities within the behavioral health system to
+support this objective. These are outlined below.
+Opportunity
+Strength
+• There are many organizations with programs to • There are many organizations focused on people
+support economic self-sufficiency that serve a broad who are low-income or facing housing insecurity
+swath of clients because they are focused on people that serve clients who may have intersecting
+who are low-income and those who are facing house identities with other sub-populations. These
+insecurity. organizations have experience working with many
+• Additionally, there are organizations that serve sub-populations in Boulder County and have
+specific sub-populations, such as those with mental already established relationships with individuals
+health or substance use disorders, people who are from those communities. BCPH can continue to
+HIV positive, older adults, teen parents, and people build on collaborative efforts withthese
+with intellectual or developmental disabilities. organizations.
+46
+4466
+--- page 47 ---
+Boulder County
+Community Health Assessment
+Capacity Assessment
+Objective Six: Early intervention efforts
+The information on this page describes the capacity of BCPH to meet the demands of community needs that are
+relevant to Objective Six as well as the strengths and opportunities for growth within the broader behavioral health
+system to meet community need related to early intervention efforts.
+Current capacity within BCPH in the goals supporting this objective are:
+Harm reduction (e.g., Screenings & Assessments Prosocial events (social
+fentanyl test strips, support groups, youth
+Narcan, needle exchange) leadership group)
+2.5 /3.0 2.5 /3.0 2.2 /3.0
+Capacity within BCPH to meet current community needs is sufficient in two out of three areas and moderate in the
+third. Additional strengths and opportunities within the behavioral health system to support this objective are
+outlined below.
+Opportunity
+Strength
+• While the number of organizations that provide • There is an important opportunity to expand
+harm reduction services is relatively small in Boulder access to harm reduction services and screening
+County, the organizations that do so have high and assessments. Many organizations work with
+capacity to meet the goals of their programs and individuals who use drugs and training staff and
+support early intervention efforts. community members to use harm reduction and
+• Additionally, these programs are collaborating with screening tools can be efficient and cost effective.
+other organizations through groups like the • Additionally, there are many existing prosocial
+Substance Use Advisory Group (SUAG) allowing groups that can be leveraged to expand and
+information to be shared widely among substance increase access to these group support services.
+use professionals and concerned community
+members around the county.
+47
+4477
+--- page 48 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+Conclusions & Next Steps
+The data provided in this report was used to:
+Select initial focus populations with whom to further explore
+inequities and ensure adequate representation in community input
+Identify an extensive initial menu of draft strategies for the 2023 –
+2028 Boulder County Public Health Improvement Plan.
+Key steps following the completion of this report included:
+PHIP prioritization and selection of initial strategies: An OMNI-facilitated retreat
+with BCPH staff and leadership to examine the strategies emerging from community
+input highlighted in the qualitative data alongside the Capacity Assessment. Goals of
+this session were to prioritize initial strategies utilizing the following criteria:
+• Sufficient Capacity (e.g., the extent to which BCPH has or could reasonably
+build, the capacity to implement activities; how well activities align with
+existing BCPH services areas; community support and political will, etc.)
+• High Impact (e.g., the impact activities would have on improving mental and
+behavioral health in the community; how many people and which groups
+would experience the greatest impact; existing evidence base, etc.)
+• Addresses Current Gaps (e.g., how well activities fill service gaps in the
+community, how it complements or expands existing work, etc.)
+Community Open House: An OMNI-BCPH hosted event to seek extensive input from
+Boulder County community members on the initial strategies; gaps in the strategies;
+activities they would like to see for BCPH to focus on to improve mental and
+behavioral health in Boulder County and for specific focus populations.
+Additional PHIP refinements and work sessions: OMNI will facilitate a CHA/PHIP
+Workgroup meeting in June, 2023 to make final refinements to the PHIP based on
+community input, and to launch the development of program-level action plans.
+Finalization and public release of the PHIP: The Boulder County Public Health
+Improvement Plan will be finalized and released in the summer of 2023.
+48
+48
+--- page 49 ---
+BoBuoludledre Cr oCuonutnyty
+CoCmommumnuitnyi tHye Haeltahl tAhs Asessssemssemnetnt
+References
+Bay Area Regional Health Inequities. (2020). A public health framework for reducing health inequities.
+https://www.barhii.org/barhii-framework
+Centers for Disease Control and Prevention. (2022, January 18). The Social-Ecological Model: A Framework for
+Prevention.https://www.cdc.gov/violenceprevention/about/social-ecologicalmodel.html
+Shah, U. A., Hadayia, J. M., & Forys, L. E. (2017, December). From Principles to Practice: One Local Health Department’s
+Journey Toward Health Equity.Health Equity. http://doi.org/10.1089/heq.2016.0004
+World Health Organization. (2010). A Conceptual Framework for Action on the Social Determinants of Health.
+https://www.who.int/publications/i/item/9789241500852
+49
+49

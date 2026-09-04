@@ -1,0 +1,69 @@
+year,matrix,as_of,area,residents,pct_attending_neighborhood_school,attending_out_of_area,district_total_residents
+2017-18,elem,5/17/2018,Bear Creek,254,,29,12149
+2017-18,elem,5/17/2018,Mesa,227,,41,12149
+2017-18,elem,5/17/2018,Optional Bear Creek/Creekside,44,,5,12149
+2017-18,elem,5/17/2018,Optional Bear Creek/Mesa,208,,32,12149
+2018-19,elem,12/13/2018,Bear Creek,242,,27,11987
+2018-19,elem,12/13/2018,Mesa,221,,39,11987
+2018-19,elem,12/13/2018,Optional Bear Creek/Creekside,41,,1,11987
+2018-19,elem,12/13/2018,Optional Bear Creek/Mesa,202,,36,11987
+2019-20,elem,10/27/2022,Bear Creek,226,,27,11804
+2019-20,elem,10/27/2022,Mesa,221,,48,11804
+2019-20,elem,10/27/2022,Optional Bear Creek/Creekside,43,,3,11804
+2019-20,elem,10/27/2022,Optional Bear Creek/Mesa,198,,38,11804
+2020-21,elem,10/27/2022,Bear Creek,195,,38,10584
+2020-21,elem,10/27/2022,Mesa,190,,49,10584
+2020-21,elem,10/27/2022,Optional Bear Creek/Creekside,37,,4,10584
+2020-21,elem,10/27/2022,Optional Bear Creek/Mesa,170,,30,10584
+2021-22,elem,10/27/2022,Bear Creek,197,,28,10675
+2021-22,elem,10/27/2022,Mesa,198,,39,10675
+2021-22,elem,10/27/2022,Optional Bear Creek/Creekside,39,,3,10675
+2021-22,elem,10/27/2022,Optional Bear Creek/Mesa,158,,25,10675
+2022-23,elem,12/21/2022,Bear Creek,193,,31,10422
+2022-23,elem,12/21/2022,Mesa,185,,37,10422
+2022-23,elem,12/21/2022,Optional Bear Creek/Creekside,29,,1,10422
+2022-23,elem,12/21/2022,Optional Bear Creek/Mesa,176,,33,10422
+2023-24,elem,12/11/2023,Bear Creek,174,,34,10116
+2023-24,elem,12/11/2023,Mesa,179,,51,10116
+2023-24,elem,12/11/2023,Optional Bear Creek/Creekside,28,,4,10116
+2023-24,elem,12/11/2023,Optional Bear Creek/Mesa,154,,37,10116
+2024-25,elem,12/12/2024,Bear Creek,170,,34,9960
+2024-25,elem,12/12/2024,Mesa,177,,51,9960
+2024-25,elem,12/12/2024,Optional Bear Creek/Creekside,36,,6,9960
+2024-25,elem,12/12/2024,Optional Bear Creek/Mesa,143,,30,9960
+2025-26,elem,12/5/2025,Bear Creek,162,,29,9645
+2025-26,elem,12/5/2025,Mesa,176,,55,9645
+2025-26,elem,12/5/2025,Optional Bear Creek/Creekside,27,,7,9645
+2025-26,elem,12/5/2025,Optional Bear Creek/Mesa,137,,24,9645
+2017-18,k,5/17/2018,Bear Creek,37,,3,1823
+2017-18,k,5/17/2018,Mesa,28,,6,1823
+2017-18,k,5/17/2018,Optional Bear Creek/Creekside,8,,1,1823
+2017-18,k,5/17/2018,Optional Bear Creek/Mesa,31,,2,1823
+2018-19,k,12/11/2018,Bear Creek,32,,3,1757
+2018-19,k,12/11/2018,Mesa,31,,4,1757
+2018-19,k,12/11/2018,Optional Bear Creek/Creekside,2,,0,1757
+2018-19,k,12/11/2018,Optional Bear Creek/Mesa,26,,7,1757
+2020-21,k,12/23/2020,Bear Creek,19,,5,1419
+2020-21,k,12/23/2020,Mesa,25,,7,1419
+2020-21,k,12/23/2020,Optional Bear Creek/Creekside,4,,1,1419
+2020-21,k,12/23/2020,Optional Bear Creek/Mesa,25,,6,1419
+2021-22,k,12/28/2021,Bear Creek,30,,4,1650
+2021-22,k,12/28/2021,Mesa,27,,4,1650
+2021-22,k,12/28/2021,Optional Bear Creek/Creekside,3,,0,1650
+2021-22,k,12/28/2021,Optional Bear Creek/Mesa,20,,4,1650
+2022-23,k,12/21/2022,Bear Creek,23,,4,1562
+2022-23,k,12/21/2022,Mesa,24,,7,1562
+2022-23,k,12/21/2022,Optional Bear Creek/Creekside,6,,0,1562
+2022-23,k,12/21/2022,Optional Bear Creek/Mesa,33,,8,1562
+2023-24,k,12/28/2023,Bear Creek,23,,5,1430
+2023-24,k,12/28/2023,Mesa,25,,11,1430
+2023-24,k,12/28/2023,Optional Bear Creek/Creekside,2,,1,1430
+2023-24,k,12/28/2023,Optional Bear Creek/Mesa,12,,4,1430
+2024-25,k,12/9/2024,Bear Creek,22,,6,1478
+2024-25,k,12/9/2024,Mesa,25,,6,1478
+2024-25,k,12/9/2024,Optional Bear Creek/Creekside,6,,1,1478
+2024-25,k,12/9/2024,Optional Bear Creek/Mesa,19,,3,1478
+2025-26,k,12/5/2025,Bear Creek,23,,4,1468
+2025-26,k,12/5/2025,Mesa,24,,11,1468
+2025-26,k,12/5/2025,Optional Bear Creek/Creekside,4,,2,1468
+2025-26,k,12/5/2025,Optional Bear Creek/Mesa,19,,5,1468

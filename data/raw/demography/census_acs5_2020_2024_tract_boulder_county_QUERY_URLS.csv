@@ -1,0 +1,10 @@
+table,name,url,rows,cols,retrieved_utc
+B01001,sex_by_age,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B01001&g=050XX00US08013$1400000,78,198,2026-09-04T02:26:07Z
+B01002,median_age_by_sex,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B01002&g=050XX00US08013$1400000,78,14,2026-09-04T02:26:08Z
+B09001,population_under_18_by_age,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B09001&g=050XX00US08013$1400000,78,42,2026-09-04T02:26:12Z
+B11005,households_by_presence_of_people_under_18,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B11005&g=050XX00US08013$1400000,78,78,2026-09-04T02:26:14Z
+B11003,family_type_by_presence_of_own_children_under_18,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B11003&g=050XX00US08013$1400000,78,82,2026-09-04T02:26:16Z
+B25003,tenure,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B25003&g=050XX00US08013$1400000,78,14,2026-09-04T02:26:18Z
+B25008,total_population_in_occupied_housing_units_by_tenure,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B25008&g=050XX00US08013$1400000,78,14,2026-09-04T02:26:20Z
+B19013,median_household_income,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B19013&g=050XX00US08013$1400000,78,6,2026-09-04T02:26:22Z
+B25010,average_household_size_by_tenure,https://data.census.gov/api/access/data/table?id=ACSDT5Y2024.B25010&g=050XX00US08013$1400000,78,14,2026-09-04T02:26:24Z

@@ -1,0 +1,753 @@
+Policy By Category
+
+All
+A
+B
+Board Governance and Operations
+C
+D
+E
+Education-Agency Relations
+F
+Facilities Development
+Fiscal Management
+Foundations and Basic Commitments
+G
+General School Administration
+H
+I
+J
+K
+L
+Negotiations
+Personnel
+School-Community Relations
+Students
+Support Services
+
+ JB
+
+Equal Educational Opportunities
+
+JB
+
+ JBB
+
+Sexual Harassment
+
+JBB
+
+ JBC
+
+Student Involvement in Decisionmaking
+
+JBC
+
+ JC
+
+School Attendance Areas
+
+JC
+
+ JD/JR
+
+Student Conduct and Discipline Code
+
+JD/JR
+
+ JD/JR SP
+
+Código de Conducta y Diciplina del Estudiante
+
+JD/JR
+JD/JR SP
+Spanish
+
+ JDC
+
+Student Conduct
+
+JDC
+
+ JDC SP
+
+Conducta de los Estudiantes
+
+JDC
+JDC SP
+Spanish
+
+ JDC-R
+
+Conduct Related to Weapons (Regulation)
+
+JDC-R
+
+ JDC-R SP
+
+Conducta Relacionada con las Armas (Regulación)
+
+JDC-R
+JDC-R SP
+Spanish
+
+ JDD
+
+Student Discipline
+
+JDD
+
+ JDD SP
+
+Disciplina del Estudiante
+
+JDD
+JDD SP
+Spanish
+
+ JDDA
+
+Student Involvement with Drugs and Alcohol
+
+JDDA
+
+ JDDA-R
+
+Student Involvement with Drugs and Alcohol (Regulation)
+
+JDDA-R
+
+ JDHB
+
+Bullying
+
+JDHB
+
+ JDHB SP
+
+Intimidación o Acoso Escolar
+
+(
+Bullying
+)
+
+JDHB
+JDHB SP
+Spanish
+
+ JDHD
+
+Discipline of Habitually Disruptive Students
+
+JDHD
+
+ JDHD-R
+
+Discipline of Habitually Disruptive Students (Regulation)
+
+JDHD-R
+
+ JDSE
+
+Student Suspension/Expulsion
+
+JDSE
+
+ JDSE SP
+
+Suspensi
+ó
+n/Expulsi
+ó
+n del Estudiante
+
+JDSE
+JDSE SP
+Spanish
+
+ JDSE-R
+
+Procedures for Student Suspension/Expulsion (Regulation)
+
+JDSE-R
+
+ JDSE-R SP
+
+Procedimientos para la Suspensión/Expulsión del Estudiante (Regulación)
+
+JDSE-R
+JDSE-R SP
+Spanish
+
+ JEC
+
+School Admissions
+
+JEC
+
+ JEC-R-E1
+
+Early Access (Exhibit)
+
+JEC-R-E1
+
+ JEC-R-E1 SP
+
+Acceso Temprano (Exposición)
+
+JEC-R-E1
+JEC-R-E1 SP
+Spanish
+
+ JECBA
+
+Admission of F-1 Visa and Foreign Exchange Program Students
+
+JECBA
+
+ JECC
+
+Assignment of Students to Schools
+
+JECC
+
+ JECC-R
+
+Open Enrollment (Regulation)
+
+JECC-R
+
+ JECC-R SP
+
+Procedimiento de Elección de Escuela (Inscripción de Elección) (Regulación)
+
+JECC-R
+JECC-R SP
+Spanish
+
+ JECD
+
+Assignment of Transfer Students to Classes and Grade Levels
+
+JECD
+
+ JECD-R
+
+Assignment of Transfer Students to Classes and Grade Levels (Regulation)
+
+JECD-R
+
+ JECD-R SP
+
+Asignación de Clases y Niveles de Grado para Estudiantes Transferidos (Regulación)
+
+JECD-R
+JECD-R SP
+Spanish
+
+ JECD-R-E
+
+FAQs for Students Considering Part-Time Enrollment in a BVSD School (Exhibit)
+
+JECD-R-E
+
+ JECD-R-E SP
+
+Preguntas Y Respuestas Comunes (Exposición)
+
+JECD-R-E
+JECD-R-E SP
+Spanish
+
+ JECE
+
+Administrative Transfer of Students
+
+JECE
+
+ JECE SP
+
+Asignación Administrativa de Estudiantes (regulación)
+
+JECE SP
+
+ JEG
+
+Exclusions and Exemptions from School Attendance (Home-Based Education)
+
+JEG
+
+ JEG SP
+
+Exclusiones y Exenciones de Asistir a la Escuela (Educación en el hogar)
+
+JEG
+JEG SP
+Spanish
+
+ JEG-R
+
+Exclusions and Exemptions from School Attendance (Home-Based Education) (Regulation)
+
+JEG-R
+
+ JEG-R SP
+
+Exclusiones y Exenciones de Asistir a la Escuela (Educación en el hogar) (Regulación)
+
+JEG-R
+JEG-R SP
+Spanish
+
+ JEGA
+
+Student Withdrawal From School/Dropouts
+
+JEGA
+
+ JFABD
+
+Homeless Students
+
+JFABD
+
+ JFABD-R
+
+Homeless Students (Regulation)
+
+JFABD-R
+
+ JFABE
+
+Students in Foster Care
+
+JFABE
+
+ JFABE-R
+
+Students in Foster Care (Regulation)
+
+JFABE-R
+
+ JH
+
+Student Absences and Excuses
+
+JH
+
+ JH SP
+
+Ausencias y Excusas de Los Estudiantes
+
+JH
+JH SP
+Spanish
+
+ JHCB
+
+Immunization of Students
+
+JHCB
+
+ JHD
+
+Student Psychological Services
+
+JHD
+
+ JHF
+
+Student Safety
+
+JHF
+
+ JJA
+
+Student Organizations (Secondary Schools)
+
+JJA
+
+ JJA SP
+
+Organizaciones Estudiantiles (Escuelas de Secundaria y Preparatoria)
+
+JJA
+JJA-SP
+
+ JJF
+
+Student Activity and Athletic Fees and Funds Management
+
+ JJF SP
+
+Costos de Actividades Estudiantiles y Atléticas y Administración de Fondos
+
+ JJFA
+
+Fundraising
+
+ JJFA SP
+
+Recaudación de Fondos
+
+ JKA
+
+Use of Physical Intervention and Restraint
+
+JKA
+
+ JKA-E1
+
+Student Restraint Incident Report Form (Exhibit)
+
+JKA-E1
+
+ JKA-E1 SP
+
+Formulario para reportar la restricción física de un estudiante (Exposición)
+
+JKA-E1
+JKA-E1 SP
+Spanish
+
+ JKA-E2
+
+Complaint Procedures & Regulations Regarding the Use of Restraint or Seclusion (Exhibit)
+
+JKA-E2
+
+ JKA-R
+
+Use of Physical Intervention and Restraint (Regulation)
+
+JKA-R
+
+ JLA
+
+Student Insurance Program
+
+JLA
+
+ JLC
+
+Student Health Services and Records
+
+JLC
+
+ JLC SP
+
+Servicios Y Registros Médicos del Estudiante
+
+JLC
+JLC SP
+Spanish
+
+ JLCC
+
+Communicable/Infectious Diseases
+
+JLCC
+
+ JLCD
+
+Student Medications
+
+JLCD
+
+ JLCD SP
+
+Administraci
+ón de Medicamentos a Estudiantes
+
+JLCD
+JLCD SP
+Spanish
+
+ JLCDA
+
+Students with Food Allergies
+
+JLCDA
+
+ JLCDB
+
+Administration of Medical Marijuana to Qualified Students
+
+JLCDB
+
+ JLCDB-E
+
+Medical Marijuana to Qualified Students
+
+JLCDB-E
+
+ JLCE
+
+First Aid and Emergency Medical Care
+
+JLCE
+
+ JLCE-R
+
+First Aid and Emergency Medical Care (Regulation)
+
+JLCE-R
+
+ JLCEA
+
+Students with Special Health Care Needs
+
+JLCEA
+
+ JLCEA-R
+
+Students with Special Health Care Needs - CPR Directives (Regulation)
+
+JLCEA-R
+
+ JLCM
+
+Access to Medically Necessary Treatment at School
+
+JLC
+JLCM
+
+ JLCM-E1
+
+Request For Medically Necessary Treatment at School
+
+JLC
+JLCM-E-1
+
+ JLCM-E2
+
+Plan for Medically Necessary Treatment at School
+
+JLC
+JLCM-E-2
+
+ JLF
+
+Reporting of Child Abuse/Neglect
+
+JLF
+
+ JLF-R
+
+Reporting of Child Abuse/Neglect (Regulation)
+
+JLF-R
+
+ JN
+
+Student Curricular Fees, Fines, and Charges
+
+JN
+
+ JO
+
+Student Records
+
+JO
+
+ JO SP
+
+Expedientes Académicos
+
+JO
+Spanish
+
+ JO-E
+
+Directory Information Opt Out
+
+JO-E2
+
+ JO-E SP
+
+Exclusión Voluntaria de la Información del Directorio
+
+JO-E2
+
+ JO-R
+
+Student Records (Regulation)
+
+JO-R
+
+ JO-R SP
+
+Expedientes Académicos (Regulación)
+
+JO-R
+JO-R SP
+Spanish
+
+ JRCB
+
+Privacy and Protection of Student Data
+
+JRCB
+
+ JRCB-R
+
+Privacy and Protection of Confidential Student Information (Hearing & Complaint Procedures) (Regulation)
+
+JRCB-R
+
+ JRCB-R SP
+
+La Privacidad y Protección de Información Confidencial del Estudiante (Procedimiento para audiencias y quejas) (Regulación)
+
+JRCB-R
+JRCB-R SP
+Spanish
+
+ JRCT
+
+Student Use of Cell Phones and Other Personal Technology Devices
+
+JRCT
+
+ JRCT SP
+
+Uso de Teléfonos Móviles por los Estudiantes y Otros Dispositivos Tecnológicos Personales
+
+JRCT
+JRCT SP
+Spanish
+
+ JRDC
+
+Student Dress
+
+JRDC
+
+ JRDC SP
+
+Vestimenta del Estudiante
+
+JRDC
+JRDC SP
+Spanish
+
+ JRLE
+
+Student Interviews and Interrogations
+
+JRLE
+
+ JRLE SP
+
+Entrevistas e Interrogatorios
+
+JRLE
+
+ JRR
+
+Student Rights & Responsibilities
+
+JRR
+
+ JRR SP
+
+Derechos y Responsabilidades del Estudiante
+
+JRR
+JRR SP
+Spanish
+
+ JRS
+
+Searches
+
+JRS
+
+ JRS SP
+
+Registros
+
+JRS
+
+ JRSU
+
+Student Submission to Surveys, Analyses, or Evaluations
+
+JRSU
+
+ JRSU-E
+
+Consent for Submission to Surveys, Analyses, or Evaluations
+
+JRSU-E
+
+ JRSU-R
+
+Student Submission to Surveys, Analyses, or Evaluations (Regulation)
+
+JRSU-R
+
+ JS
+
+Student Use of Technology
+
+JS
+
+ JS SP
+
+Uso de la Tecnología por Parte del Estudiante
+
+JS
+JS SP
+Spanish
+
+ JS-E1
+
+Student Use of the Internet and Electronic Communications
+
+(Annual Acceptable Use Agreement)
+
+JS-E1
+
+ JS-E2
+
+BVSD Wellness in a Digital World (Exhibit)
+
+JS E-2
+
+ JS-R
+
+Student Use of Technology (Regulation)
+
+JS-R
+
+ JS-R SP
+
+Uso de la Tecnología por Parte del Estudiante (Regulación)
+
+JS-R SP
+Spanish
+
+A Policies
+
+B Policies
+
+C Policies
+
+D Policies
+
+E Policies
+
+F Policies
+
+G Policies
+
+H Policies
+
+I Policies
+
+J Policies
+
+K Policies
+
+L Policies
